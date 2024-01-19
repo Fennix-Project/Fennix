@@ -118,17 +118,16 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span>                                                   \</div>
-<div class="line">    {                                                    \</div>
-<div class="line">        if (!(<a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>))                                        \</div>
-<div class="line">        {                                                \</div>
-<div class="line">            error(<span class="stringliteral">&quot;Assertion failed! [%s] [%s:%s:%d]&quot;</span>,   \</div>
-<div class="line">                  #<a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>, __FILE__, __FUNCTION__, __LINE__); \</div>
-<div class="line">            int3;                                        \</div>
-<div class="line">            while (<span class="keyword">true</span>)                                 \</div>
-<div class="line">                ;                                        \</div>
-<div class="line">        }                                                \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span>                                           \</div>
+<div class="line">    {                                            \</div>
+<div class="line">        if (<a class="code" href="../../dd/d71/gettextP_8h.html#a2a2cf4a629132aed16f845d4d1bffd95">__builtin_expect</a>(!!(!(<a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)), 0))       \</div>
+<div class="line">        {                                        \</div>
+<div class="line">            error(<span class="stringliteral">&quot;Assertion failed! [%s]&quot;</span>, #<a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>); \</div>
+<div class="line">            int3;                                \</div>
+<div class="line">            __builtin_unreachable();             \</div>
+<div class="line">        }                                        \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
+<div class="ttc" id="agettextP_8h_html_a2a2cf4a629132aed16f845d4d1bffd95"><div class="ttname"><a href="../../dd/d71/gettextP_8h.html#a2a2cf4a629132aed16f845d4d1bffd95">__builtin_expect</a></div><div class="ttdeci">#define __builtin_expect(expr, val)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d71/gettextP_8h_source.html#l00060">gettextP.h:60</a></div></div>
 <div class="ttc" id="amusl_2src_2prng_2random_8c_html_aeb26462df30f47f6fd73ee802457812b"><div class="ttname"><a href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a></div><div class="ttdeci">static uint32_t * x</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da2/musl_2src_2prng_2random_8c_source.html#l00025">random.c:25</a></div></div>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html#l00023">23</a> of file <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html">assert.h</a>.</p>
@@ -150,16 +149,15 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span>                                                   \</div>
-<div class="line">    {                                                    \</div>
-<div class="line">        if (!(<a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>))                                        \</div>
-<div class="line">        {                                                \</div>
-<div class="line">            error(<span class="stringliteral">&quot;Assertion failed! [%s] [%s:%s:%d]&quot;</span>,   \</div>
-<div class="line">                  #<a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>, __FILE__, __FUNCTION__, __LINE__); \</div>
-<div class="line">        }                                                \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span>                                           \</div>
+<div class="line">    {                                            \</div>
+<div class="line">        if (<a class="code" href="../../dd/d71/gettextP_8h.html#a2a2cf4a629132aed16f845d4d1bffd95">__builtin_expect</a>(!!(!(<a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)), 0))       \</div>
+<div class="line">        {                                        \</div>
+<div class="line">            error(<span class="stringliteral">&quot;Assertion failed! [%s]&quot;</span>, #<a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>); \</div>
+<div class="line">        }                                        \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html#l00036">36</a> of file <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html">assert.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html#l00034">34</a> of file <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html">assert.h</a>.</p>
 
 </div>
 </div>

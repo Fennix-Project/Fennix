@@ -95,7 +95,7 @@ var binfo_8h =
     ] ],
     [ "Checksum", "d9/d36/binfo_8h.html#ae129e9c4d84501484102e80f8b35d1da", null ],
     [ "ExtendedChecksum", "d9/d36/binfo_8h.html#ac1107a16cae7348a1f9788614a48cc46", null ],
-    [ "Length", "d9/d36/binfo_8h.html#a975543b90f799d299886f54993f36b3b", null ],
+    [ "Length", "d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3", null ],
     [ "OEMID", "d9/d36/binfo_8h.html#a5ee3903863982019b9ba7583799fafc6", null ],
     [ "Reserved", "d9/d36/binfo_8h.html#a49ad3f9f1032d92723561e6d37af48aa", null ],
     [ "Revision", "d9/d36/binfo_8h.html#a802f851dfe8c24d2bc3589d39f0a3101", null ],

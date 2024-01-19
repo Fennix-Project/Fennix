@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('db/d60/lseek_8c.html','../../'); initR
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a518d3cb5d1f103c5473a7fcb6a23bf6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ae498af04567b740d66e09d36613c2cd8">off_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/lseek_8c.html#a518d3cb5d1f103c5473a7fcb6a23bf6c">__lseek</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, <a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ae498af04567b740d66e09d36613c2cd8">off_t</a> <a class="el" href="../../d4/d49/vi_8c.html#aae6364a195a181790fe7379c6b44a343">offset</a>, int whence)</td></tr>
+<tr class="memitem:a518d3cb5d1f103c5473a7fcb6a23bf6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a37aff01e955441499997a359a4153b3d">off_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/lseek_8c.html#a518d3cb5d1f103c5473a7fcb6a23bf6c">__lseek</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, <a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a37aff01e955441499997a359a4153b3d">off_t</a> <a class="el" href="../../d4/d49/vi_8c.html#aae6364a195a181790fe7379c6b44a343">offset</a>, int whence)</td></tr>
 <tr class="separator:a518d3cb5d1f103c5473a7fcb6a23bf6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af041823573456170310c7caae6d51ea5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d60/lseek_8c.html#af041823573456170310c7caae6d51ea5">weak_alias</a> (<a class="el" href="../../d9/d38/x32_2lseek_8c.html#a518d3cb5d1f103c5473a7fcb6a23bf6c">__lseek</a>, <a class="el" href="../../db/dad/Userspace_2musl_2include_2unistd_8h.html#a5be409c8d98c21628b77dfb6b2b8f1e9">lseek</a>)</td></tr>
 <tr class="separator:af041823573456170310c7caae6d51ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -111,7 +111,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ae498af04567b740d66e09d36613c2cd8">off_t</a> __lseek </td>
+          <td class="memname"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a37aff01e955441499997a359a4153b3d">off_t</a> __lseek </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>fd</em>, </td>
@@ -119,7 +119,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ae498af04567b740d66e09d36613c2cd8">off_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a37aff01e955441499997a359a4153b3d">off_t</a>&#160;</td>
           <td class="paramname"><em>offset</em>, </td>
         </tr>
         <tr>
@@ -139,14 +139,14 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../db/d60/lseek_8c_source.html#l00004">4</a> of file <a class="el" href="../../db/d60/lseek_8c_source.html">lseek.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#ifdef SYS__llseek</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ae498af04567b740d66e09d36613c2cd8">off_t</a> result;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS__llseek, <a class="code" href="../../d2/db3/hdparm_8c.html#ab2a2e4bafac36c706cfa563198638c67a1e4d60e5b05464d07a30096747025a42">fd</a>, <a class="code" href="../../d4/d49/vi_8c.html#aae6364a195a181790fe7379c6b44a343">offset</a>&gt;&gt;32, <a class="code" href="../../d4/d49/vi_8c.html#aae6364a195a181790fe7379c6b44a343">offset</a>, &amp;result, whence) ? -1 : result;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../d4/dba/Drivers_2include_2types_8h.html#a37aff01e955441499997a359a4153b3d">off_t</a> result;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS__llseek, <a class="code" href="../../d2/db3/hdparm_8c.html#a0bfd5ae571925458e3313c21557c4d94a1e4d60e5b05464d07a30096747025a42">fd</a>, <a class="code" href="../../d4/d49/vi_8c.html#aae6364a195a181790fe7379c6b44a343">offset</a>&gt;&gt;32, <a class="code" href="../../d4/d49/vi_8c.html#aae6364a195a181790fe7379c6b44a343">offset</a>, &amp;result, whence) ? -1 : result;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_lseek, <a class="code" href="../../d2/db3/hdparm_8c.html#ab2a2e4bafac36c706cfa563198638c67a1e4d60e5b05464d07a30096747025a42">fd</a>, <a class="code" href="../../d4/d49/vi_8c.html#aae6364a195a181790fe7379c6b44a343">offset</a>, whence);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_lseek, <a class="code" href="../../d2/db3/hdparm_8c.html#a0bfd5ae571925458e3313c21557c4d94a1e4d60e5b05464d07a30096747025a42">fd</a>, <a class="code" href="../../d4/d49/vi_8c.html#aae6364a195a181790fe7379c6b44a343">offset</a>, whence);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
-<div class="ttc" id="aUserspace_2libc_2include_2sys_2stat_8h_html_ae498af04567b740d66e09d36613c2cd8"><div class="ttname"><a href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ae498af04567b740d66e09d36613c2cd8">off_t</a></div><div class="ttdeci">#define off_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h_source.html#l00012">stat.h:12</a></div></div>
-<div class="ttc" id="ahdparm_8c_html_ab2a2e4bafac36c706cfa563198638c67a1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#ab2a2e4bafac36c706cfa563198638c67a1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
+<div class="ttc" id="aDrivers_2include_2types_8h_html_a37aff01e955441499997a359a4153b3d"><div class="ttname"><a href="../../d4/dba/Drivers_2include_2types_8h.html#a37aff01e955441499997a359a4153b3d">off_t</a></div><div class="ttdeci">__SIZE_TYPE__ off_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dba/Drivers_2include_2types_8h_source.html#l00058">types.h:58</a></div></div>
+<div class="ttc" id="ahdparm_8c_html_a0bfd5ae571925458e3313c21557c4d94a1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#a0bfd5ae571925458e3313c21557c4d94a1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 <div class="ttc" id="avi_8c_html_aae6364a195a181790fe7379c6b44a343"><div class="ttname"><a href="../../d4/d49/vi_8c.html#aae6364a195a181790fe7379c6b44a343">offset</a></div><div class="ttdeci">#define offset</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d49/vi_8c_source.html#l00486">vi.c:486</a></div></div>
 </div><!-- fragment -->

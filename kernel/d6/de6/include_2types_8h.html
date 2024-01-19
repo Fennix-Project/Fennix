@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -259,7 +259,7 @@ Macros</h2></td></tr>
 <tr class="separator:a5285bc55170ae1701e599decacc7f001"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16c33c4cb331d0de82f7033252f6801c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a16c33c4cb331d0de82f7033252f6801c">b4</a>(x)&#160;&#160;&#160;((x &amp; 0x0F) &lt;&lt; 4 | (x &amp; 0xF0) &gt;&gt; 4)</td></tr>
 <tr class="separator:a16c33c4cb331d0de82f7033252f6801c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94eac8d9cd20ccc4c673e8f907253679"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a94eac8d9cd20ccc4c673e8f907253679">b8</a>(x)&#160;&#160;&#160;((x)&amp;0xFF)</td></tr>
+<tr class="memitem:a94eac8d9cd20ccc4c673e8f907253679"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a94eac8d9cd20ccc4c673e8f907253679">b8</a>(x)&#160;&#160;&#160;((x) &amp; 0xFF)</td></tr>
 <tr class="separator:a94eac8d9cd20ccc4c673e8f907253679"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88da023a73ece4eb02fd14231ba1718b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a88da023a73ece4eb02fd14231ba1718b">b16</a>(x)&#160;&#160;&#160;__builtin_bswap16(x)</td></tr>
 <tr class="separator:a88da023a73ece4eb02fd14231ba1718b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -269,119 +269,121 @@ Macros</h2></td></tr>
 <tr class="separator:a9e129c4f168e2503e45cf0ab2fb1994d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa40826e19ab43b143542d0a80a175bad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#aa40826e19ab43b143542d0a80a175bad">b64</a>(x)&#160;&#160;&#160;__builtin_bswap64(x)</td></tr>
 <tr class="separator:aa40826e19ab43b143542d0a80a175bad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b98c48b1af63a023e9926f4d4d98c46"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a9b98c48b1af63a023e9926f4d4d98c46">O0</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((optimize(&quot;O0&quot;)))</td></tr>
+<tr class="memitem:a9b98c48b1af63a023e9926f4d4d98c46"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a9b98c48b1af63a023e9926f4d4d98c46">O0</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((optimize(&quot;O0&quot;)))</td></tr>
 <tr class="memdesc:a9b98c48b1af63a023e9926f4d4d98c46"><td class="mdescLeft">&#160;</td><td class="mdescRight">No optimization (the default); generates unoptimized code but has the fastest compilation time.  <a href="../../d6/de6/include_2types_8h.html#a9b98c48b1af63a023e9926f4d4d98c46">More...</a><br /></td></tr>
 <tr class="separator:a9b98c48b1af63a023e9926f4d4d98c46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae81ce40c595ad939602698a5f93d995e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#ae81ce40c595ad939602698a5f93d995e">O1</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((optimize(&quot;O1&quot;)))</td></tr>
+<tr class="memitem:ae81ce40c595ad939602698a5f93d995e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#ae81ce40c595ad939602698a5f93d995e">O1</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((optimize(&quot;O1&quot;)))</td></tr>
 <tr class="memdesc:ae81ce40c595ad939602698a5f93d995e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moderate optimization; optimizes reasonably well but does not degrade compilation time significantly.  <a href="../../d6/de6/include_2types_8h.html#ae81ce40c595ad939602698a5f93d995e">More...</a><br /></td></tr>
 <tr class="separator:ae81ce40c595ad939602698a5f93d995e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31412dbd7c9b5771f1e7a5ff85d20ab9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a31412dbd7c9b5771f1e7a5ff85d20ab9">O2</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((optimize(&quot;O2&quot;)))</td></tr>
+<tr class="memitem:a31412dbd7c9b5771f1e7a5ff85d20ab9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a31412dbd7c9b5771f1e7a5ff85d20ab9">O2</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((optimize(&quot;O2&quot;)))</td></tr>
 <tr class="memdesc:a31412dbd7c9b5771f1e7a5ff85d20ab9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Full optimization; generates highly optimized code and has the slowest compilation time.  <a href="../../d6/de6/include_2types_8h.html#a31412dbd7c9b5771f1e7a5ff85d20ab9">More...</a><br /></td></tr>
 <tr class="separator:a31412dbd7c9b5771f1e7a5ff85d20ab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9219b301ab2bc696f1ec9e1ebe2ff7e8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a9219b301ab2bc696f1ec9e1ebe2ff7e8">O3</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((optimize(&quot;O3&quot;)))</td></tr>
+<tr class="memitem:a9219b301ab2bc696f1ec9e1ebe2ff7e8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a9219b301ab2bc696f1ec9e1ebe2ff7e8">O3</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((optimize(&quot;O3&quot;)))</td></tr>
 <tr class="memdesc:a9219b301ab2bc696f1ec9e1ebe2ff7e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Full optimization as in -O2; also uses more aggressive automatic inlining of subprograms within a unit (Inlining of Subprograms) and attempts to vectorize loops.  <a href="../../d6/de6/include_2types_8h.html#a9219b301ab2bc696f1ec9e1ebe2ff7e8">More...</a><br /></td></tr>
 <tr class="separator:a9219b301ab2bc696f1ec9e1ebe2ff7e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab16f9a2566f591e74290d7153d4ae9c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#ab16f9a2566f591e74290d7153d4ae9c1">Os</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((optimize(&quot;Os&quot;)))</td></tr>
+<tr class="memitem:ab16f9a2566f591e74290d7153d4ae9c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#ab16f9a2566f591e74290d7153d4ae9c1">Os</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((optimize(&quot;Os&quot;)))</td></tr>
 <tr class="memdesc:ab16f9a2566f591e74290d7153d4ae9c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optimize space usage (code and data) of resulting program.  <a href="../../d6/de6/include_2types_8h.html#ab16f9a2566f591e74290d7153d4ae9c1">More...</a><br /></td></tr>
 <tr class="separator:ab16f9a2566f591e74290d7153d4ae9c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b06136baaecc07c2e7eaed092ab784a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a6b06136baaecc07c2e7eaed092ab784a">Ofast</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((optimize(&quot;Ofast&quot;)))</td></tr>
+<tr class="memitem:a6b06136baaecc07c2e7eaed092ab784a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a6b06136baaecc07c2e7eaed092ab784a">Ofast</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((optimize(&quot;Ofast&quot;)))</td></tr>
 <tr class="memdesc:a6b06136baaecc07c2e7eaed092ab784a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disregard strict standards compliance. -Ofast enables all -O3 optimizations. It also enables optimizations that are not valid for all standard-compliant programs.  <a href="../../d6/de6/include_2types_8h.html#a6b06136baaecc07c2e7eaed092ab784a">More...</a><br /></td></tr>
 <tr class="separator:a6b06136baaecc07c2e7eaed092ab784a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e3484535ee610c8e19e9859563abe48"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a2e3484535ee610c8e19e9859563abe48">__unused</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((unused))</td></tr>
+<tr class="memitem:a2e3484535ee610c8e19e9859563abe48"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a2e3484535ee610c8e19e9859563abe48">__unused</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((unused))</td></tr>
 <tr class="separator:a2e3484535ee610c8e19e9859563abe48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf6b9542cb79f3a18779cbc96dc0ebb5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#adf6b9542cb79f3a18779cbc96dc0ebb5">__packed</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((packed))</td></tr>
+<tr class="memitem:adf6b9542cb79f3a18779cbc96dc0ebb5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#adf6b9542cb79f3a18779cbc96dc0ebb5">__packed</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((packed))</td></tr>
 <tr class="separator:adf6b9542cb79f3a18779cbc96dc0ebb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcaf90e207efed7e5d0887aee08c7338"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#abcaf90e207efed7e5d0887aee08c7338">__naked</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((naked))</td></tr>
+<tr class="memitem:abcaf90e207efed7e5d0887aee08c7338"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#abcaf90e207efed7e5d0887aee08c7338">__naked</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((naked))</td></tr>
 <tr class="separator:abcaf90e207efed7e5d0887aee08c7338"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ec304e7577e6c1a8a36c3096fc466af"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a5ec304e7577e6c1a8a36c3096fc466af">__aligned</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((aligned(x)))</td></tr>
+<tr class="memitem:a5ec304e7577e6c1a8a36c3096fc466af"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a5ec304e7577e6c1a8a36c3096fc466af">__aligned</a>(x)&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((aligned(x)))</td></tr>
 <tr class="separator:a5ec304e7577e6c1a8a36c3096fc466af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d0b72ccc36b88935355451e332b5deb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a4d0b72ccc36b88935355451e332b5deb">__section</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((section(x)))</td></tr>
+<tr class="memitem:a4d0b72ccc36b88935355451e332b5deb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a4d0b72ccc36b88935355451e332b5deb">__section</a>(x)&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((section(x)))</td></tr>
 <tr class="separator:a4d0b72ccc36b88935355451e332b5deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b6df4fe38493e14648842364a76075f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a5b6df4fe38493e14648842364a76075f">__noreturn</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((noreturn))</td></tr>
+<tr class="memitem:a5b6df4fe38493e14648842364a76075f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a5b6df4fe38493e14648842364a76075f">__noreturn</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((noreturn))</td></tr>
 <tr class="separator:a5b6df4fe38493e14648842364a76075f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5181eb756a197a06d1c4ed1f40a065bc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a5181eb756a197a06d1c4ed1f40a065bc">__weak</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((weak))</td></tr>
+<tr class="memitem:a5181eb756a197a06d1c4ed1f40a065bc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a5181eb756a197a06d1c4ed1f40a065bc">__weak</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((weak))</td></tr>
 <tr class="separator:a5181eb756a197a06d1c4ed1f40a065bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09baa022f1e1d5f579624f326d625143"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a09baa022f1e1d5f579624f326d625143">__alias</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((alias(x)))</td></tr>
+<tr class="memitem:a09baa022f1e1d5f579624f326d625143"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a09baa022f1e1d5f579624f326d625143">__alias</a>(x)&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((alias(x)))</td></tr>
 <tr class="separator:a09baa022f1e1d5f579624f326d625143"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6034e8cd4bcd5bacfd060abd01bbd8a8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((always_inline))</td></tr>
+<tr class="memitem:a6034e8cd4bcd5bacfd060abd01bbd8a8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((always_inline))</td></tr>
 <tr class="separator:a6034e8cd4bcd5bacfd060abd01bbd8a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a3055fa9fd2b7c91df69c75e185e76f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a2a3055fa9fd2b7c91df69c75e185e76f">__noinline</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((noinline))</td></tr>
+<tr class="memitem:a2a3055fa9fd2b7c91df69c75e185e76f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a2a3055fa9fd2b7c91df69c75e185e76f">__noinline</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((noinline))</td></tr>
 <tr class="separator:a2a3055fa9fd2b7c91df69c75e185e76f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8d4aa7e9ca368db7220dc9747189f1c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#ab8d4aa7e9ca368db7220dc9747189f1c">__pure</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((pure))</td></tr>
+<tr class="memitem:ab8d4aa7e9ca368db7220dc9747189f1c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#ab8d4aa7e9ca368db7220dc9747189f1c">__pure</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((pure))</td></tr>
 <tr class="separator:ab8d4aa7e9ca368db7220dc9747189f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a237c48d7689530103740c2294e0575e0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a237c48d7689530103740c2294e0575e0">__const</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((const))</td></tr>
+<tr class="memitem:a237c48d7689530103740c2294e0575e0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a237c48d7689530103740c2294e0575e0">__const</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((const))</td></tr>
 <tr class="separator:a237c48d7689530103740c2294e0575e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2af11cdadae8fef7c77866b7355e66f7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a2af11cdadae8fef7c77866b7355e66f7">__malloc</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((<a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga5223b5fb1255b5179f53b0595fe9251c">malloc</a>))</td></tr>
+<tr class="memitem:a2af11cdadae8fef7c77866b7355e66f7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a2af11cdadae8fef7c77866b7355e66f7">__malloc</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((<a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga5223b5fb1255b5179f53b0595fe9251c">malloc</a>))</td></tr>
 <tr class="separator:a2af11cdadae8fef7c77866b7355e66f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa80322503cac5d0f65d774417448974b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#aa80322503cac5d0f65d774417448974b">__returns_twice</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((returns_twice))</td></tr>
+<tr class="memitem:aa80322503cac5d0f65d774417448974b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#aa80322503cac5d0f65d774417448974b">__returns_twice</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((returns_twice))</td></tr>
 <tr class="separator:aa80322503cac5d0f65d774417448974b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9314dbac96b8097be9506b69c32f5ae9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a9314dbac96b8097be9506b69c32f5ae9">__used</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((used))</td></tr>
+<tr class="memitem:a9314dbac96b8097be9506b69c32f5ae9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a9314dbac96b8097be9506b69c32f5ae9">__used</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((used))</td></tr>
 <tr class="separator:a9314dbac96b8097be9506b69c32f5ae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e1585cb1b8a465a6a9a702d97bb4ad8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a4e1585cb1b8a465a6a9a702d97bb4ad8">__deprecated</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((deprecated))</td></tr>
+<tr class="memitem:a4e1585cb1b8a465a6a9a702d97bb4ad8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a4e1585cb1b8a465a6a9a702d97bb4ad8">__deprecated</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((deprecated))</td></tr>
 <tr class="separator:a4e1585cb1b8a465a6a9a702d97bb4ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0aa975b4187f4598b69b93cffe94a37"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#ad0aa975b4187f4598b69b93cffe94a37">__deprecated_msg</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((deprecated(x)))</td></tr>
+<tr class="memitem:ad0aa975b4187f4598b69b93cffe94a37"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#ad0aa975b4187f4598b69b93cffe94a37">__deprecated_msg</a>(x)&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((deprecated(x)))</td></tr>
 <tr class="separator:ad0aa975b4187f4598b69b93cffe94a37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e454409471f0492a2707956b77ca5ca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a8e454409471f0492a2707956b77ca5ca">__weakref</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((weakref(x)))</td></tr>
+<tr class="memitem:a8e454409471f0492a2707956b77ca5ca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a8e454409471f0492a2707956b77ca5ca">__weakref</a>(x)&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((weakref(x)))</td></tr>
 <tr class="separator:a8e454409471f0492a2707956b77ca5ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd90e15dc063d994d1b7e41574a2f0d2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#acd90e15dc063d994d1b7e41574a2f0d2">__weakrefalias</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((weakref(#x)))</td></tr>
+<tr class="memitem:acd90e15dc063d994d1b7e41574a2f0d2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#acd90e15dc063d994d1b7e41574a2f0d2">__weakrefalias</a>(x)&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((weakref(#x)))</td></tr>
 <tr class="separator:acd90e15dc063d994d1b7e41574a2f0d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc51fa13f9938ddefe853da05895cd55"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#adc51fa13f9938ddefe853da05895cd55">__visibility</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((visibility(x)))</td></tr>
+<tr class="memitem:adc51fa13f9938ddefe853da05895cd55"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#adc51fa13f9938ddefe853da05895cd55">__visibility</a>(x)&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((visibility(x)))</td></tr>
 <tr class="separator:adc51fa13f9938ddefe853da05895cd55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfddecd84e2d59ace560a3ce8e7283ab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#adfddecd84e2d59ace560a3ce8e7283ab">__constructor</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((constructor))</td></tr>
+<tr class="memitem:adfddecd84e2d59ace560a3ce8e7283ab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#adfddecd84e2d59ace560a3ce8e7283ab">__constructor</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((constructor))</td></tr>
 <tr class="separator:adfddecd84e2d59ace560a3ce8e7283ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef7e0fdd70bc01d7d61687cb0dbb2d7b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#aef7e0fdd70bc01d7d61687cb0dbb2d7b">__destructor</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((destructor))</td></tr>
+<tr class="memitem:aef7e0fdd70bc01d7d61687cb0dbb2d7b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#aef7e0fdd70bc01d7d61687cb0dbb2d7b">__destructor</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((destructor))</td></tr>
 <tr class="separator:aef7e0fdd70bc01d7d61687cb0dbb2d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e783190e03a2a9723ec36eb79040e3e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a7e783190e03a2a9723ec36eb79040e3e">__cleanup</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((cleanup(x)))</td></tr>
+<tr class="memitem:a7e783190e03a2a9723ec36eb79040e3e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a7e783190e03a2a9723ec36eb79040e3e">__cleanup</a>(x)&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((cleanup(x)))</td></tr>
 <tr class="separator:a7e783190e03a2a9723ec36eb79040e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaef63d663f510bc84741bf7a00079a1e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#aaef63d663f510bc84741bf7a00079a1e">__fallthrough</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((fallthrough))</td></tr>
+<tr class="memitem:aaef63d663f510bc84741bf7a00079a1e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#aaef63d663f510bc84741bf7a00079a1e">__fallthrough</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((fallthrough))</td></tr>
 <tr class="separator:aaef63d663f510bc84741bf7a00079a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c6a42786b5806f81419b96a5aa43937"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a1c6a42786b5806f81419b96a5aa43937">__nonnull</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((nonnull x))</td></tr>
+<tr class="memitem:a1c6a42786b5806f81419b96a5aa43937"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a1c6a42786b5806f81419b96a5aa43937">__nonnull</a>(x)&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((nonnull x))</td></tr>
 <tr class="separator:a1c6a42786b5806f81419b96a5aa43937"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4134fdf661051fd3211390fbf4222b74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a4134fdf661051fd3211390fbf4222b74">__nonnull_all</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((nonnull))</td></tr>
+<tr class="memitem:a4134fdf661051fd3211390fbf4222b74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a4134fdf661051fd3211390fbf4222b74">__nonnull_all</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((nonnull))</td></tr>
 <tr class="separator:a4134fdf661051fd3211390fbf4222b74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ada87585fc388c2aa7ac523cea5158a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a8ada87585fc388c2aa7ac523cea5158a">__returns_nonnull</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((returns_nonnull))</td></tr>
+<tr class="memitem:a8ada87585fc388c2aa7ac523cea5158a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a8ada87585fc388c2aa7ac523cea5158a">__returns_nonnull</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((returns_nonnull))</td></tr>
 <tr class="separator:a8ada87585fc388c2aa7ac523cea5158a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a612ccffe28887ff67b9c64f08a6f70a8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a612ccffe28887ff67b9c64f08a6f70a8">__sentinel</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((sentinel))</td></tr>
+<tr class="memitem:a612ccffe28887ff67b9c64f08a6f70a8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a612ccffe28887ff67b9c64f08a6f70a8">__sentinel</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((sentinel))</td></tr>
 <tr class="separator:a612ccffe28887ff67b9c64f08a6f70a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7f1c55cb34fad3353921d466f5c8ce5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#af7f1c55cb34fad3353921d466f5c8ce5">__sentinel_all</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((sentinel(0)))</td></tr>
+<tr class="memitem:af7f1c55cb34fad3353921d466f5c8ce5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#af7f1c55cb34fad3353921d466f5c8ce5">__sentinel_all</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((sentinel(0)))</td></tr>
 <tr class="separator:af7f1c55cb34fad3353921d466f5c8ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1906035ed845f20599d4df48bed7531a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a1906035ed845f20599d4df48bed7531a">__format</a>(x,  y,  z)&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((format(x, y, z)))</td></tr>
+<tr class="memitem:a1906035ed845f20599d4df48bed7531a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a1906035ed845f20599d4df48bed7531a">__format</a>(x,  y,  z)&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((format(x, y, z)))</td></tr>
 <tr class="separator:a1906035ed845f20599d4df48bed7531a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadcda71d5eca33567ec28004d76fc4e4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#aadcda71d5eca33567ec28004d76fc4e4">__format_arg</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((format_arg(x)))</td></tr>
+<tr class="memitem:aadcda71d5eca33567ec28004d76fc4e4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#aadcda71d5eca33567ec28004d76fc4e4">__format_arg</a>(x)&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((format_arg(x)))</td></tr>
 <tr class="separator:aadcda71d5eca33567ec28004d76fc4e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add8f3a077d99403c550ca17ade552d8a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#add8f3a077d99403c550ca17ade552d8a">__nonnull_params</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((nonnull x))</td></tr>
+<tr class="memitem:add8f3a077d99403c550ca17ade552d8a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#add8f3a077d99403c550ca17ade552d8a">__nonnull_params</a>(x)&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((nonnull x))</td></tr>
 <tr class="separator:add8f3a077d99403c550ca17ade552d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4134fdf661051fd3211390fbf4222b74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a4134fdf661051fd3211390fbf4222b74">__nonnull_all</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((nonnull))</td></tr>
+<tr class="memitem:a4134fdf661051fd3211390fbf4222b74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a4134fdf661051fd3211390fbf4222b74">__nonnull_all</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((nonnull))</td></tr>
 <tr class="separator:a4134fdf661051fd3211390fbf4222b74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae87ef667eb3b21abd18ec1b0004718fa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#ae87ef667eb3b21abd18ec1b0004718fa">__warn_unused_result</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((warn_unused_result))</td></tr>
+<tr class="memitem:ae87ef667eb3b21abd18ec1b0004718fa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#ae87ef667eb3b21abd18ec1b0004718fa">__warn_unused_result</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((warn_unused_result))</td></tr>
 <tr class="separator:ae87ef667eb3b21abd18ec1b0004718fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f59f2a8579d5e3c4dcf342f41afcc23"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a3f59f2a8579d5e3c4dcf342f41afcc23">__no_stack_protector</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((no_stack_protector))</td></tr>
+<tr class="memitem:a3f59f2a8579d5e3c4dcf342f41afcc23"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a3f59f2a8579d5e3c4dcf342f41afcc23">__no_stack_protector</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((no_stack_protector))</td></tr>
 <tr class="separator:a3f59f2a8579d5e3c4dcf342f41afcc23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ba049b311796730401ec0aa957a3ee5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a8ba049b311796730401ec0aa957a3ee5">__no_instrument_function</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((no_instrument_function))</td></tr>
+<tr class="memitem:a8ba049b311796730401ec0aa957a3ee5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a8ba049b311796730401ec0aa957a3ee5">__no_instrument_function</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((no_instrument_function))</td></tr>
 <tr class="separator:a8ba049b311796730401ec0aa957a3ee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff0956d5d22dc681aba3b7e6ad8313f1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#aff0956d5d22dc681aba3b7e6ad8313f1">__no_debug</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((no_debug))</td></tr>
+<tr class="memitem:aff0956d5d22dc681aba3b7e6ad8313f1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#aff0956d5d22dc681aba3b7e6ad8313f1">__no_debug</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((no_debug))</td></tr>
 <tr class="separator:aff0956d5d22dc681aba3b7e6ad8313f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6caa97361de843c899afa324c794618e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a6caa97361de843c899afa324c794618e">__target</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((target(x)))</td></tr>
+<tr class="memitem:a6caa97361de843c899afa324c794618e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a6caa97361de843c899afa324c794618e">__target</a>(x)&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((target(x)))</td></tr>
 <tr class="separator:a6caa97361de843c899afa324c794618e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdfab2b4342289435f71ad154d25aa43"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#afdfab2b4342289435f71ad154d25aa43">__min_vector_width</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((min_vector_width(x)))</td></tr>
+<tr class="memitem:afdfab2b4342289435f71ad154d25aa43"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#afdfab2b4342289435f71ad154d25aa43">__min_vector_width</a>(x)&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((min_vector_width(x)))</td></tr>
 <tr class="separator:afdfab2b4342289435f71ad154d25aa43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa93e61a5a969434f36dca04e3c1d2089"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#aa93e61a5a969434f36dca04e3c1d2089">__no_sanitize</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((no_sanitize(x)))</td></tr>
+<tr class="memitem:aa93e61a5a969434f36dca04e3c1d2089"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#aa93e61a5a969434f36dca04e3c1d2089">__no_sanitize</a>(x)&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((no_sanitize(x)))</td></tr>
 <tr class="separator:aa93e61a5a969434f36dca04e3c1d2089"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af319c9e1982cc7c3c6c779789d667cd8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#af319c9e1982cc7c3c6c779789d667cd8">__no_sanitize_address</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((no_sanitize_address))</td></tr>
+<tr class="memitem:af319c9e1982cc7c3c6c779789d667cd8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#af319c9e1982cc7c3c6c779789d667cd8">__no_sanitize_address</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((no_sanitize_address))</td></tr>
 <tr class="separator:af319c9e1982cc7c3c6c779789d667cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3467bd0148d5803fcfc9a7da036d617"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#ab3467bd0148d5803fcfc9a7da036d617">__no_address_safety_analysis</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((no_address_safety_analysis))</td></tr>
+<tr class="memitem:ab3467bd0148d5803fcfc9a7da036d617"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#ab3467bd0148d5803fcfc9a7da036d617">__no_address_safety_analysis</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((no_address_safety_analysis))</td></tr>
 <tr class="memdesc:ab3467bd0148d5803fcfc9a7da036d617"><td class="mdescLeft">&#160;</td><td class="mdescRight">The no_address_safety_analysis is a deprecated alias of the no_sanitize_address attribute, new code should use no_sanitize_address.  <a href="../../d6/de6/include_2types_8h.html#ab3467bd0148d5803fcfc9a7da036d617">More...</a><br /></td></tr>
 <tr class="separator:ab3467bd0148d5803fcfc9a7da036d617"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43438b17f4397f48fc81806def618b0b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a43438b17f4397f48fc81806def618b0b">__no_sanitize_thread</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((no_sanitize_thread))</td></tr>
+<tr class="memitem:a43438b17f4397f48fc81806def618b0b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a43438b17f4397f48fc81806def618b0b">__no_sanitize_thread</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((no_sanitize_thread))</td></tr>
 <tr class="separator:a43438b17f4397f48fc81806def618b0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a340dd001c287f8b0953d0f2b74244e65"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a340dd001c287f8b0953d0f2b74244e65">__no_sanitize_undefined</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((no_sanitize_undefined))</td></tr>
+<tr class="memitem:a340dd001c287f8b0953d0f2b74244e65"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a340dd001c287f8b0953d0f2b74244e65">__no_sanitize_undefined</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((no_sanitize_undefined))</td></tr>
 <tr class="separator:a340dd001c287f8b0953d0f2b74244e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae78e593a344045bc9f633ad767dafda3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#ae78e593a344045bc9f633ad767dafda3">__no_sanitize_coverage</a>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((no_sanitize_coverage))</td></tr>
+<tr class="memitem:ae78e593a344045bc9f633ad767dafda3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#ae78e593a344045bc9f633ad767dafda3">__no_sanitize_coverage</a>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((no_sanitize_coverage))</td></tr>
 <tr class="separator:ae78e593a344045bc9f633ad767dafda3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02f82dc52841c56eb88f93df6156e770"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a02f82dc52841c56eb88f93df6156e770">__synchronize</a>&#160;&#160;&#160;__sync_synchronize()</td></tr>
 <tr class="separator:a02f82dc52841c56eb88f93df6156e770"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86105344cddf0ca9db6a3996854bad50"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a86105344cddf0ca9db6a3996854bad50">__sync</a>&#160;&#160;&#160;<a class="el" href="../../d6/de6/include_2types_8h.html#a02f82dc52841c56eb88f93df6156e770">__synchronize</a></td></tr>
 <tr class="separator:a86105344cddf0ca9db6a3996854bad50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a176d80e63376ff49e57602689fd0f9f8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a176d80e63376ff49e57602689fd0f9f8">__unreachable</a>&#160;&#160;&#160;__builtin_unreachable()</td></tr>
+<tr class="separator:a176d80e63376ff49e57602689fd0f9f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a217a0bd562b98ae8c2ffce44935351e1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a217a0bd562b98ae8c2ffce44935351e1">likely</a>(x)&#160;&#160;&#160;__builtin_expect(!!(x), 1)</td></tr>
 <tr class="separator:a217a0bd562b98ae8c2ffce44935351e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6c45889010c1bd68631771b64f18101"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(x)&#160;&#160;&#160;__builtin_expect(!!(x), 0)</td></tr>
@@ -396,6 +398,10 @@ Macros</h2></td></tr>
 <tr class="separator:a1afe765b4510add91239ee23e5a89ba4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af90a6cfd43c9a4509afa907f57b7ec82"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#af90a6cfd43c9a4509afa907f57b7ec82">int3</a></td></tr>
 <tr class="separator:af90a6cfd43c9a4509afa907f57b7ec82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d1e5409ffecd89ae472bdc6f604fed2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a6d1e5409ffecd89ae472bdc6f604fed2">StackPush</a>(stack,  <a class="el" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>,  value)&#160;&#160;&#160;	*((<a class="el" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a> *)--stack) = value;</td></tr>
+<tr class="separator:a6d1e5409ffecd89ae472bdc6f604fed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad83960e71be00ceb4da131ff4f588757"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#ad83960e71be00ceb4da131ff4f588757">StackPop</a>(stack,  <a class="el" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>)&#160;&#160;&#160;	*((<a class="el" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a> *)stack++)</td></tr>
+<tr class="separator:ad83960e71be00ceb4da131ff4f588757"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -494,12 +500,12 @@ Typedefs</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((alias(x)))</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((alias(x)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00359">359</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00363">363</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -514,12 +520,12 @@ Typedefs</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((aligned(x)))</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((aligned(x)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00355">355</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00359">359</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -530,12 +536,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __always_inline&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((always_inline))</td>
+          <td class="memname">#define __always_inline&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((always_inline))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00360">360</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00364">364</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -550,12 +556,12 @@ Typedefs</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((cleanup(x)))</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((cleanup(x)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00374">374</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00378">378</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -566,12 +572,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __const&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((const))</td>
+          <td class="memname">#define __const&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((const))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00363">363</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00367">367</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -582,12 +588,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __constructor&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((constructor))</td>
+          <td class="memname">#define __constructor&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((constructor))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00372">372</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00376">376</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -598,12 +604,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __deprecated&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((deprecated))</td>
+          <td class="memname">#define __deprecated&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((deprecated))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00367">367</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00371">371</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -618,12 +624,12 @@ Typedefs</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((deprecated(x)))</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((deprecated(x)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00368">368</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00372">372</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -634,12 +640,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __destructor&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((destructor))</td>
+          <td class="memname">#define __destructor&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((destructor))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00373">373</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00377">377</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -650,12 +656,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __fallthrough&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((fallthrough))</td>
+          <td class="memname">#define __fallthrough&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((fallthrough))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00375">375</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00379">379</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -686,12 +692,12 @@ Typedefs</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((format(x, y, z)))</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((format(x, y, z)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00381">381</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00385">385</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -706,12 +712,12 @@ Typedefs</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((format_arg(x)))</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((format_arg(x)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00382">382</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00386">386</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -722,12 +728,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __malloc&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((<a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga5223b5fb1255b5179f53b0595fe9251c">malloc</a>))</td>
+          <td class="memname">#define __malloc&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((<a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga5223b5fb1255b5179f53b0595fe9251c">malloc</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00364">364</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00368">368</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -742,12 +748,12 @@ Typedefs</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((min_vector_width(x)))</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((min_vector_width(x)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00390">390</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00394">394</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -758,12 +764,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __naked&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((naked))</td>
+          <td class="memname">#define __naked&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((naked))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00354">354</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00358">358</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -774,14 +780,14 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __no_address_safety_analysis&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((no_address_safety_analysis))</td>
+          <td class="memname">#define __no_address_safety_analysis&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((no_address_safety_analysis))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>The no_address_safety_analysis is a deprecated alias of the no_sanitize_address attribute, new code should use no_sanitize_address. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00396">396</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00400">400</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -792,12 +798,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __no_debug&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((no_debug))</td>
+          <td class="memname">#define __no_debug&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((no_debug))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00388">388</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00392">392</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -808,12 +814,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __no_instrument_function&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((no_instrument_function))</td>
+          <td class="memname">#define __no_instrument_function&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((no_instrument_function))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00387">387</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00391">391</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -828,12 +834,12 @@ Typedefs</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((no_sanitize(x)))</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((no_sanitize(x)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00393">393</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00397">397</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -844,12 +850,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __no_sanitize_address&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((no_sanitize_address))</td>
+          <td class="memname">#define __no_sanitize_address&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((no_sanitize_address))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00394">394</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00398">398</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -860,12 +866,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __no_sanitize_coverage&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((no_sanitize_coverage))</td>
+          <td class="memname">#define __no_sanitize_coverage&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((no_sanitize_coverage))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00399">399</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00403">403</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -876,12 +882,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __no_sanitize_thread&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((no_sanitize_thread))</td>
+          <td class="memname">#define __no_sanitize_thread&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((no_sanitize_thread))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00397">397</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00401">401</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -892,12 +898,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __no_sanitize_undefined&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((no_sanitize_undefined))</td>
+          <td class="memname">#define __no_sanitize_undefined&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((no_sanitize_undefined))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00398">398</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00402">402</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -908,12 +914,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __no_stack_protector&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((no_stack_protector))</td>
+          <td class="memname">#define __no_stack_protector&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((no_stack_protector))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00386">386</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00390">390</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -924,12 +930,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __noinline&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((noinline))</td>
+          <td class="memname">#define __noinline&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((noinline))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00361">361</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00365">365</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -944,12 +950,12 @@ Typedefs</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((nonnull x))</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((nonnull x))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00376">376</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00380">380</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -960,12 +966,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __nonnull_all&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((nonnull))</td>
+          <td class="memname">#define __nonnull_all&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((nonnull))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00384">384</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00388">388</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -976,12 +982,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __nonnull_all&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((nonnull))</td>
+          <td class="memname">#define __nonnull_all&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((nonnull))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00384">384</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00388">388</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -996,12 +1002,12 @@ Typedefs</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((nonnull x))</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((nonnull x))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00383">383</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00387">387</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1012,12 +1018,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __noreturn&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((noreturn))</td>
+          <td class="memname">#define __noreturn&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((noreturn))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00357">357</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00361">361</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1028,12 +1034,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="../../dc/d7c/SegmentDescriptors_8hpp.html#d1/d5d/structDataSegmentDescriptor">DataSegmentDescriptor</a> __packed&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((packed))</td>
+          <td class="memname">struct <a class="el" href="../../dc/d7c/SegmentDescriptors_8hpp.html#d1/d5d/structDataSegmentDescriptor">DataSegmentDescriptor</a> __packed&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((packed))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00353">353</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00357">357</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1044,12 +1050,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __pure&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((pure))</td>
+          <td class="memname">#define __pure&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((pure))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00362">362</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00366">366</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1060,12 +1066,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __returns_nonnull&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((returns_nonnull))</td>
+          <td class="memname">#define __returns_nonnull&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((returns_nonnull))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00378">378</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00382">382</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1076,12 +1082,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __returns_twice&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((returns_twice))</td>
+          <td class="memname">#define __returns_twice&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((returns_twice))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00365">365</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00369">369</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1096,12 +1102,12 @@ Typedefs</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((section(x)))</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((section(x)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00356">356</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00360">360</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1112,12 +1118,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __sentinel&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((sentinel))</td>
+          <td class="memname">#define __sentinel&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((sentinel))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00379">379</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00383">383</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1128,12 +1134,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __sentinel_all&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((sentinel(0)))</td>
+          <td class="memname">#define __sentinel_all&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((sentinel(0)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00380">380</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00384">384</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1165,7 +1171,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00402">402</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00406">406</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1181,7 +1187,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00401">401</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00405">405</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1196,12 +1202,28 @@ Typedefs</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((target(x)))</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((target(x)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00389">389</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00393">393</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a176d80e63376ff49e57602689fd0f9f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a176d80e63376ff49e57602689fd0f9f8">&#9670;&nbsp;</a></span>__unreachable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __unreachable&#160;&#160;&#160;__builtin_unreachable()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00408">408</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1212,12 +1234,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __unused&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((unused))</td>
+          <td class="memname">#define __unused&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((unused))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00352">352</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00356">356</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1228,12 +1250,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __used&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((used))</td>
+          <td class="memname">#define __used&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((used))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00366">366</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00370">370</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1248,12 +1270,12 @@ Typedefs</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((visibility(x)))</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((visibility(x)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00371">371</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00375">375</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1264,12 +1286,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __warn_unused_result&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((warn_unused_result))</td>
+          <td class="memname">#define __warn_unused_result&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((warn_unused_result))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00385">385</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00389">389</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1280,12 +1302,12 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __weak&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((weak))</td>
+          <td class="memname">#define __weak&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((weak))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00358">358</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00362">362</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1300,12 +1322,12 @@ Typedefs</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((weakref(x)))</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((weakref(x)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00369">369</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00373">373</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1320,12 +1342,12 @@ Typedefs</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((weakref(#x)))</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((weakref(#x)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00370">370</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00374">374</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1437,7 +1459,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00327">327</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00331">331</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1457,7 +1479,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00328">328</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00332">332</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1477,7 +1499,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00325">325</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00329">329</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1496,14 +1518,14 @@ Typedefs</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">                 (((((x)&amp;0x0000000000ff) &lt;&lt; 40) | \</div>
-<div class="line">                 (((x)&amp;0x00000000ff00) &lt;&lt; 24) | \</div>
-<div class="line">                 (((x)&amp;0x000000ff0000) &lt;&lt; 8) |  \</div>
-<div class="line">                 (((x)&amp;0x0000ff000000) &gt;&gt; 8) |  \</div>
-<div class="line">                 (((x)&amp;0x00ff00000000) &gt;&gt; 24) | \</div>
-<div class="line">                 (((x)&amp;0xff0000000000) &gt;&gt; 40)))</div>
+<b>Value:</b><div class="fragment"><div class="line">                 (((((x) &amp; 0x0000000000ff) &lt;&lt; 40) | \</div>
+<div class="line">                 (((x) &amp; 0x00000000ff00) &lt;&lt; 24) | \</div>
+<div class="line">                 (((x) &amp; 0x000000ff0000) &lt;&lt; 8) |  \</div>
+<div class="line">                 (((x) &amp; 0x0000ff000000) &gt;&gt; 8) |  \</div>
+<div class="line">                 (((x) &amp; 0x00ff00000000) &gt;&gt; 24) | \</div>
+<div class="line">                 (((x) &amp; 0xff0000000000) &gt;&gt; 40)))</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00329">329</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00333">333</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1523,7 +1545,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00335">335</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00339">339</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1538,12 +1560,12 @@ Typedefs</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;((x)&amp;0xFF)</td>
+          <td>&#160;&#160;&#160;((x) &amp; 0xFF)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00326">326</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00330">330</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1701,7 +1723,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00234">234</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00238">238</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1717,7 +1739,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00235">235</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00239">239</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1737,7 +1759,7 @@ Typedefs</h2></td></tr>
 <div class="line">                         :      \</div>
 <div class="line">                         : <span class="stringliteral">&quot;memory&quot;</span>)</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00414">414</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00420">420</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1753,7 +1775,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00237">237</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00241">241</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1769,7 +1791,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00238">238</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00242">242</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1785,7 +1807,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00240">240</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00244">244</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1801,7 +1823,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00241">241</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00245">245</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1817,7 +1839,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00231">231</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00235">235</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1833,7 +1855,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00232">232</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00236">236</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1849,7 +1871,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00260">260</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00264">264</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1865,7 +1887,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00261">261</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00265">265</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1881,7 +1903,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00263">263</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00267">267</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1897,7 +1919,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00264">264</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00268">268</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1913,7 +1935,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00266">266</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00270">270</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1929,7 +1951,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00267">267</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00271">271</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1945,7 +1967,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00257">257</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00261">261</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1961,7 +1983,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00258">258</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00262">262</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1977,7 +1999,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00247">247</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00251">251</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1993,7 +2015,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00248">248</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00252">252</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2009,7 +2031,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00250">250</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00254">254</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2025,7 +2047,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00251">251</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00255">255</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2041,7 +2063,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00253">253</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00257">257</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2057,7 +2079,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00254">254</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00258">258</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2073,7 +2095,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00244">244</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00248">248</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2089,7 +2111,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00245">245</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00249">249</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2105,7 +2127,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00274">274</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00278">278</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2121,7 +2143,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00275">275</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00279">279</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2137,7 +2159,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00270">270</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00274">274</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2153,7 +2175,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00271">271</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00275">275</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2173,7 +2195,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00404">404</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00410">410</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2259,7 +2281,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00412">412</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00418">418</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2286,14 +2308,14 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define O0&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((optimize(&quot;O0&quot;)))</td>
+          <td class="memname">#define O0&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((optimize(&quot;O0&quot;)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>No optimization (the default); generates unoptimized code but has the fastest compilation time. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00340">340</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00344">344</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2304,14 +2326,14 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define O1&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((optimize(&quot;O1&quot;)))</td>
+          <td class="memname">#define O1&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((optimize(&quot;O1&quot;)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Moderate optimization; optimizes reasonably well but does not degrade compilation time significantly. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00342">342</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00346">346</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2322,14 +2344,14 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define O2&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((optimize(&quot;O2&quot;)))</td>
+          <td class="memname">#define O2&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((optimize(&quot;O2&quot;)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Full optimization; generates highly optimized code and has the slowest compilation time. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00344">344</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00348">348</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2340,14 +2362,14 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define O3&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((optimize(&quot;O3&quot;)))</td>
+          <td class="memname">#define O3&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((optimize(&quot;O3&quot;)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Full optimization as in -O2; also uses more aggressive automatic inlining of subprograms within a unit (Inlining of Subprograms) and attempts to vectorize loops. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00346">346</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00350">350</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2358,14 +2380,14 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define Ofast&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((optimize(&quot;Ofast&quot;)))</td>
+          <td class="memname">#define Ofast&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((optimize(&quot;Ofast&quot;)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Disregard strict standards compliance. -Ofast enables all -O3 optimizations. It also enables optimizations that are not valid for all standard-compliant programs. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00350">350</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00354">354</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2406,14 +2428,14 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define Os&#160;&#160;&#160;<a class="el" href="../../d7/d11/mapi_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6">__attribute__</a>((optimize(&quot;Os&quot;)))</td>
+          <td class="memname">#define Os&#160;&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a>((optimize(&quot;Os&quot;)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Optimize space usage (code and data) of resulting program. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00348">348</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00352">352</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2459,7 +2481,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00408">408</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00414">414</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2475,7 +2497,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00278">278</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00282">282</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2491,7 +2513,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00279">279</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00283">283</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2507,7 +2529,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00407">407</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00413">413</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2583,7 +2605,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00410">410</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00416">416</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2599,7 +2621,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00281">281</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00285">285</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2615,7 +2637,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00282">282</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00286">286</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2631,7 +2653,73 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00284">284</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00288">288</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="ad83960e71be00ceb4da131ff4f588757"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad83960e71be00ceb4da131ff4f588757">&#9670;&nbsp;</a></span>StackPop</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define StackPop</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">stack, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;	*((<a class="el" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a> *)stack++)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00429">429</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a6d1e5409ffecd89ae472bdc6f604fed2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d1e5409ffecd89ae472bdc6f604fed2">&#9670;&nbsp;</a></span>StackPush</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define StackPush</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">stack, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">value&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;	*((<a class="el" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a> *)--stack) = value;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00426">426</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2719,7 +2807,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00236">236</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00240">240</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2735,7 +2823,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00239">239</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00243">243</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2751,7 +2839,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00242">242</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00246">246</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2767,7 +2855,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00233">233</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00237">237</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2783,7 +2871,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00262">262</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00266">266</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2799,7 +2887,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00265">265</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00269">269</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2815,7 +2903,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00268">268</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00272">272</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2831,7 +2919,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00259">259</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00263">263</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2847,7 +2935,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00249">249</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00253">253</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2863,7 +2951,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00252">252</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00256">256</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2879,7 +2967,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00255">255</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00259">259</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2895,7 +2983,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00246">246</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00250">250</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2911,7 +2999,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00276">276</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00280">280</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2927,7 +3015,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00272">272</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00276">276</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2947,7 +3035,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00405">405</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00411">411</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3093,7 +3181,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00286">286</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00290">290</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3109,7 +3197,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00287">287</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00291">291</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3125,7 +3213,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00289">289</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00293">293</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3141,7 +3229,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00290">290</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00294">294</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3190,7 +3278,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00317">317</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00321">321</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3270,7 +3358,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00321">321</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00325">325</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3350,7 +3438,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00319">319</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00323">323</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3526,7 +3614,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00318">318</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00322">322</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3606,7 +3694,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00322">322</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00326">326</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3686,7 +3774,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00320">320</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00324">324</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>

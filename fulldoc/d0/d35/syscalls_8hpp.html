@@ -87,6 +87,7 @@ $(document).ready(function(){initNavTree('d0/d35/syscalls_8hpp.html','../../'); 
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
@@ -101,6 +102,11 @@ $(document).ready(function(){initNavTree('d0/d35/syscalls_8hpp.html','../../'); 
 Data Structures</h2></td></tr>
 <tr class="memitem:d3/d19/structSyscallsFrame"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d35/syscalls_8hpp.html#d3/d19/structSyscallsFrame">SyscallsFrame</a></td></tr>
 <tr class="separator:d3/d19/structSyscallsFrame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:aa07f2f09156b7539a5c1bb0a7334ddeb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d35/syscalls_8hpp.html#aa07f2f09156b7539a5c1bb0a7334ddeb">SysFrm</a>&#160;&#160;&#160;<a class="el" href="../../d0/d35/syscalls_8hpp.html#d3/d19/structSyscallsFrame">SyscallsFrame</a></td></tr>
+<tr class="separator:aa07f2f09156b7539a5c1bb0a7334ddeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -132,6 +138,23 @@ Functions</h2></td></tr>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="../../d0/d35/syscalls_8hpp_source.html#l00023">23</a> of file <a class="el" href="../../d0/d35/syscalls_8hpp_source.html">syscalls.hpp</a>.</p>
 </div>
+</div>
+</div>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="aa07f2f09156b7539a5c1bb0a7334ddeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa07f2f09156b7539a5c1bb0a7334ddeb">&#9670;&nbsp;</a></span>SysFrm</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SysFrm&#160;&#160;&#160;<a class="el" href="../../d0/d35/syscalls_8hpp.html#d3/d19/structSyscallsFrame">SyscallsFrame</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d35/syscalls_8hpp_source.html#l00066">66</a> of file <a class="el" href="../../d0/d35/syscalls_8hpp_source.html">syscalls.hpp</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -166,87 +189,96 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dd4/linux_8cpp_source.html#l01089">1089</a> of file <a class="el" href="../../d1/dd4/linux_8cpp_source.html">linux.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l01090"></a><span class="lineno"> 1090</span>&#160;{</div>
-<div class="line"><a name="l01091"></a><span class="lineno"> 1091</span>&#160;    <a class="code" href="../../d1/dd4/linux_8cpp.html#a1b6ee6fb585c4c1aca7a4dd1407f9806">thisFrame</a> = Frame;</div>
-<div class="line"><a name="l01092"></a><span class="lineno"> 1092</span>&#160;<span class="preprocessor">#if defined(a64)</span></div>
-<div class="line"><a name="l01093"></a><span class="lineno"> 1093</span>&#160;    <span class="keywordflow">if</span> (Frame-&gt;rax &gt; <span class="keyword">sizeof</span>(<a class="code" href="../../d1/dd4/linux_8cpp.html#aea55c4bc7e0d28e5d90c5da5403234ff">LinuxSyscallsTable</a>) / <span class="keyword">sizeof</span>(<a class="code" href="../../db/d9b/native_8cpp.html#d9/df1/structSyscallData">SyscallData</a>))</div>
-<div class="line"><a name="l01094"></a><span class="lineno"> 1094</span>&#160;    {</div>
-<div class="line"><a name="l01095"></a><span class="lineno"> 1095</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;Syscall %d not implemented&quot;</span>,</div>
-<div class="line"><a name="l01096"></a><span class="lineno"> 1096</span>&#160;              Frame-&gt;rax);</div>
-<div class="line"><a name="l01097"></a><span class="lineno"> 1097</span>&#160;        <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>;</div>
-<div class="line"><a name="l01098"></a><span class="lineno"> 1098</span>&#160;    }</div>
-<div class="line"><a name="l01099"></a><span class="lineno"> 1099</span>&#160; </div>
-<div class="line"><a name="l01100"></a><span class="lineno"> 1100</span>&#160;    <a class="code" href="../../db/d9b/native_8cpp.html#d9/df1/structSyscallData">SyscallData</a> Syscall = <a class="code" href="../../d1/dd4/linux_8cpp.html#aea55c4bc7e0d28e5d90c5da5403234ff">LinuxSyscallsTable</a>[Frame-&gt;rax];</div>
-<div class="line"><a name="l01101"></a><span class="lineno"> 1101</span>&#160; </div>
-<div class="line"><a name="l01102"></a><span class="lineno"> 1102</span>&#160;    long (*<a class="code" href="../../d4/df7/atexit_8c.html#a41f043455a9b4c86653c21d3af8000a1">call</a>)(long, ...) = r_cst(<span class="keywordtype">long</span> (*)(<span class="keywordtype">long</span>, ...),</div>
-<div class="line"><a name="l01103"></a><span class="lineno"> 1103</span>&#160;                                    Syscall.<a class="code" href="../../db/d9b/native_8cpp.html#a7e7f056a3d1194a6cf2b7e8d706fedbe">Handler</a>);</div>
-<div class="line"><a name="l01104"></a><span class="lineno"> 1104</span>&#160; </div>
-<div class="line"><a name="l01105"></a><span class="lineno"> 1105</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(!<a class="code" href="../../d4/df7/atexit_8c.html#a41f043455a9b4c86653c21d3af8000a1">call</a>))</div>
-<div class="line"><a name="l01106"></a><span class="lineno"> 1106</span>&#160;    {</div>
-<div class="line"><a name="l01107"></a><span class="lineno"> 1107</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;Syscall %s(%d) not implemented.&quot;</span>,</div>
-<div class="line"><a name="l01108"></a><span class="lineno"> 1108</span>&#160;              Syscall.<a class="code" href="../../db/d9b/native_8cpp.html#a78ba64e0086364f774ae6a0b5a76768d">Name</a>, Frame-&gt;rax);</div>
-<div class="line"><a name="l01109"></a><span class="lineno"> 1109</span>&#160;        <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>;</div>
-<div class="line"><a name="l01110"></a><span class="lineno"> 1110</span>&#160;    }</div>
-<div class="line"><a name="l01111"></a><span class="lineno"> 1111</span>&#160; </div>
-<div class="line"><a name="l01112"></a><span class="lineno"> 1112</span>&#160;    <a class="code" href="../../d4/dbe/mksyntax_8c.html#ac3e1795766a80ec63b157951b4b9a7d4">debug</a>(<span class="stringliteral">&quot;&gt; [%d:\&quot;%s\&quot;]( %#lx  %#lx  %#lx  %#lx  %#lx  %#lx )&quot;</span>,</div>
-<div class="line"><a name="l01113"></a><span class="lineno"> 1113</span>&#160;          Frame-&gt;rax, Syscall.<a class="code" href="../../db/d9b/native_8cpp.html#a78ba64e0086364f774ae6a0b5a76768d">Name</a>,</div>
-<div class="line"><a name="l01114"></a><span class="lineno"> 1114</span>&#160;          Frame-&gt;rdi, Frame-&gt;rsi, Frame-&gt;rdx,</div>
-<div class="line"><a name="l01115"></a><span class="lineno"> 1115</span>&#160;          Frame-&gt;r10, Frame-&gt;r8, Frame-&gt;r9);</div>
-<div class="line"><a name="l01116"></a><span class="lineno"> 1116</span>&#160; </div>
-<div class="line"><a name="l01117"></a><span class="lineno"> 1117</span>&#160;    <span class="keywordtype">long</span> sc_ret = <a class="code" href="../../d4/df7/atexit_8c.html#a41f043455a9b4c86653c21d3af8000a1">call</a>(Frame-&gt;rdi, Frame-&gt;rsi, Frame-&gt;rdx,</div>
-<div class="line"><a name="l01118"></a><span class="lineno"> 1118</span>&#160;                       Frame-&gt;r10, Frame-&gt;r8, Frame-&gt;r9);</div>
-<div class="line"><a name="l01119"></a><span class="lineno"> 1119</span>&#160; </div>
-<div class="line"><a name="l01120"></a><span class="lineno"> 1120</span>&#160;    <a class="code" href="../../d4/dbe/mksyntax_8c.html#ac3e1795766a80ec63b157951b4b9a7d4">debug</a>(<span class="stringliteral">&quot;&lt; [%d:\&quot;%s\&quot;] = %d&quot;</span>, Frame-&gt;rax, Syscall.<a class="code" href="../../db/d9b/native_8cpp.html#a78ba64e0086364f774ae6a0b5a76768d">Name</a>, sc_ret);</div>
-<div class="line"><a name="l01121"></a><span class="lineno"> 1121</span>&#160;    <span class="keywordflow">return</span> sc_ret;</div>
-<div class="line"><a name="l01122"></a><span class="lineno"> 1122</span>&#160;<span class="preprocessor">#elif defined(a32)</span></div>
-<div class="line"><a name="l01123"></a><span class="lineno"> 1123</span>&#160;    <span class="keywordflow">if</span> (Frame-&gt;eax &gt; <span class="keyword">sizeof</span>(<a class="code" href="../../d1/dd4/linux_8cpp.html#aea55c4bc7e0d28e5d90c5da5403234ff">LinuxSyscallsTable</a>) / <span class="keyword">sizeof</span>(<a class="code" href="../../db/d9b/native_8cpp.html#d9/df1/structSyscallData">SyscallData</a>))</div>
-<div class="line"><a name="l01124"></a><span class="lineno"> 1124</span>&#160;    {</div>
-<div class="line"><a name="l01125"></a><span class="lineno"> 1125</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;Syscall %d not implemented&quot;</span>,</div>
-<div class="line"><a name="l01126"></a><span class="lineno"> 1126</span>&#160;              Frame-&gt;eax);</div>
-<div class="line"><a name="l01127"></a><span class="lineno"> 1127</span>&#160;        <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>;</div>
-<div class="line"><a name="l01128"></a><span class="lineno"> 1128</span>&#160;    }</div>
-<div class="line"><a name="l01129"></a><span class="lineno"> 1129</span>&#160; </div>
-<div class="line"><a name="l01130"></a><span class="lineno"> 1130</span>&#160;    <a class="code" href="../../db/d9b/native_8cpp.html#d9/df1/structSyscallData">SyscallData</a> Syscall = <a class="code" href="../../d1/dd4/linux_8cpp.html#aea55c4bc7e0d28e5d90c5da5403234ff">LinuxSyscallsTable</a>[Frame-&gt;eax];</div>
-<div class="line"><a name="l01131"></a><span class="lineno"> 1131</span>&#160; </div>
-<div class="line"><a name="l01132"></a><span class="lineno"> 1132</span>&#160;    long (*<a class="code" href="../../d4/df7/atexit_8c.html#a41f043455a9b4c86653c21d3af8000a1">call</a>)(long, ...) = r_cst(<span class="keywordtype">long</span> (*)(<span class="keywordtype">long</span>, ...),</div>
-<div class="line"><a name="l01133"></a><span class="lineno"> 1133</span>&#160;                                    Syscall.<a class="code" href="../../db/d9b/native_8cpp.html#a7e7f056a3d1194a6cf2b7e8d706fedbe">Handler</a>);</div>
-<div class="line"><a name="l01134"></a><span class="lineno"> 1134</span>&#160; </div>
-<div class="line"><a name="l01135"></a><span class="lineno"> 1135</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(!<a class="code" href="../../d4/df7/atexit_8c.html#a41f043455a9b4c86653c21d3af8000a1">call</a>))</div>
-<div class="line"><a name="l01136"></a><span class="lineno"> 1136</span>&#160;    {</div>
-<div class="line"><a name="l01137"></a><span class="lineno"> 1137</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;Syscall %s(%d) not implemented.&quot;</span>,</div>
-<div class="line"><a name="l01138"></a><span class="lineno"> 1138</span>&#160;              Syscall.<a class="code" href="../../db/d9b/native_8cpp.html#a78ba64e0086364f774ae6a0b5a76768d">Name</a>, Frame-&gt;eax);</div>
-<div class="line"><a name="l01139"></a><span class="lineno"> 1139</span>&#160;        <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>;</div>
-<div class="line"><a name="l01140"></a><span class="lineno"> 1140</span>&#160;    }</div>
-<div class="line"><a name="l01141"></a><span class="lineno"> 1141</span>&#160; </div>
-<div class="line"><a name="l01142"></a><span class="lineno"> 1142</span>&#160;    <a class="code" href="../../d4/dbe/mksyntax_8c.html#ac3e1795766a80ec63b157951b4b9a7d4">debug</a>(<span class="stringliteral">&quot;&gt; [%d:\&quot;%s\&quot;]( %#lx  %#lx  %#lx  %#lx  %#lx  %#lx )&quot;</span>,</div>
-<div class="line"><a name="l01143"></a><span class="lineno"> 1143</span>&#160;          Frame-&gt;eax, Syscall.<a class="code" href="../../db/d9b/native_8cpp.html#a78ba64e0086364f774ae6a0b5a76768d">Name</a>,</div>
-<div class="line"><a name="l01144"></a><span class="lineno"> 1144</span>&#160;          Frame-&gt;ebx, Frame-&gt;ecx, Frame-&gt;edx,</div>
-<div class="line"><a name="l01145"></a><span class="lineno"> 1145</span>&#160;          Frame-&gt;esi, Frame-&gt;edi, Frame-&gt;ebp);</div>
-<div class="line"><a name="l01146"></a><span class="lineno"> 1146</span>&#160; </div>
-<div class="line"><a name="l01147"></a><span class="lineno"> 1147</span>&#160;    <span class="keywordtype">int</span> sc_ret = <a class="code" href="../../d4/df7/atexit_8c.html#a41f043455a9b4c86653c21d3af8000a1">call</a>(Frame-&gt;ebx, Frame-&gt;ecx, Frame-&gt;edx,</div>
-<div class="line"><a name="l01148"></a><span class="lineno"> 1148</span>&#160;                      Frame-&gt;esi, Frame-&gt;edi, Frame-&gt;ebp);</div>
-<div class="line"><a name="l01149"></a><span class="lineno"> 1149</span>&#160; </div>
-<div class="line"><a name="l01150"></a><span class="lineno"> 1150</span>&#160;    <a class="code" href="../../d4/dbe/mksyntax_8c.html#ac3e1795766a80ec63b157951b4b9a7d4">debug</a>(<span class="stringliteral">&quot;&lt; [%d:\&quot;%s\&quot;] = %d&quot;</span>, Frame-&gt;eax, Syscall.<a class="code" href="../../db/d9b/native_8cpp.html#a78ba64e0086364f774ae6a0b5a76768d">Name</a>, sc_ret);</div>
-<div class="line"><a name="l01151"></a><span class="lineno"> 1151</span>&#160;    <span class="keywordflow">return</span> sc_ret;</div>
-<div class="line"><a name="l01152"></a><span class="lineno"> 1152</span>&#160;<span class="preprocessor">#elif defined(aa64)</span></div>
-<div class="line"><a name="l01153"></a><span class="lineno"> 1153</span>&#160;    <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>;</div>
-<div class="line"><a name="l01154"></a><span class="lineno"> 1154</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l01155"></a><span class="lineno"> 1155</span>&#160;}</div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_ac6c45889010c1bd68631771b64f18101"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a></div><div class="ttdeci">#define unlikely(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00405">types.h:405</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d1/dd4/linux_8cpp_source.html#l02806">2806</a> of file <a class="el" href="../../d1/dd4/linux_8cpp_source.html">linux.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l02807"></a><span class="lineno"> 2807</span>&#160;{</div>
+<div class="line"><a name="l02808"></a><span class="lineno"> 2808</span>&#160;<span class="preprocessor">#if defined(a64)</span></div>
+<div class="line"><a name="l02809"></a><span class="lineno"> 2809</span>&#160;    <span class="keywordflow">if</span> (Frame-&gt;rax &gt; <span class="keyword">sizeof</span>(<a class="code" href="../../d1/dd4/linux_8cpp.html#aa18e9655c06759d2e33420b0992022d7">LinuxSyscallsTableAMD64</a>) / <span class="keyword">sizeof</span>(<a class="code" href="../../db/d9b/native_8cpp.html#d9/df1/structSyscallData">SyscallData</a>))</div>
+<div class="line"><a name="l02810"></a><span class="lineno"> 2810</span>&#160;    {</div>
+<div class="line"><a name="l02811"></a><span class="lineno"> 2811</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;Syscall %d not implemented&quot;</span>,</div>
+<div class="line"><a name="l02812"></a><span class="lineno"> 2812</span>&#160;              Frame-&gt;rax);</div>
+<div class="line"><a name="l02813"></a><span class="lineno"> 2813</span>&#160;        <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>;</div>
+<div class="line"><a name="l02814"></a><span class="lineno"> 2814</span>&#160;    }</div>
+<div class="line"><a name="l02815"></a><span class="lineno"> 2815</span>&#160; </div>
+<div class="line"><a name="l02816"></a><span class="lineno"> 2816</span>&#160;    <a class="code" href="../../db/d9b/native_8cpp.html#d9/df1/structSyscallData">SyscallData</a> Syscall = <a class="code" href="../../d1/dd4/linux_8cpp.html#aa18e9655c06759d2e33420b0992022d7">LinuxSyscallsTableAMD64</a>[Frame-&gt;rax];</div>
+<div class="line"><a name="l02817"></a><span class="lineno"> 2817</span>&#160; </div>
+<div class="line"><a name="l02818"></a><span class="lineno"> 2818</span>&#160;    long (*<a class="code" href="../../d4/df7/atexit_8c.html#a41f043455a9b4c86653c21d3af8000a1">call</a>)(<a class="code" href="../../d0/d35/syscalls_8hpp.html#aa07f2f09156b7539a5c1bb0a7334ddeb">SysFrm</a> *, long, ...) = r_cst(<span class="keywordtype">long</span> (*)(<a class="code" href="../../d0/d35/syscalls_8hpp.html#aa07f2f09156b7539a5c1bb0a7334ddeb">SysFrm</a> *, <span class="keywordtype">long</span>, ...),</div>
+<div class="line"><a name="l02819"></a><span class="lineno"> 2819</span>&#160;                                              Syscall.<a class="code" href="../../db/d9b/native_8cpp.html#a7e7f056a3d1194a6cf2b7e8d706fedbe">Handler</a>);</div>
+<div class="line"><a name="l02820"></a><span class="lineno"> 2820</span>&#160; </div>
+<div class="line"><a name="l02821"></a><span class="lineno"> 2821</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(!<a class="code" href="../../d4/df7/atexit_8c.html#a41f043455a9b4c86653c21d3af8000a1">call</a>))</div>
+<div class="line"><a name="l02822"></a><span class="lineno"> 2822</span>&#160;    {</div>
+<div class="line"><a name="l02823"></a><span class="lineno"> 2823</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;Syscall %s(%d) not implemented.&quot;</span>,</div>
+<div class="line"><a name="l02824"></a><span class="lineno"> 2824</span>&#160;              Syscall.<a class="code" href="../../db/d9b/native_8cpp.html#a78ba64e0086364f774ae6a0b5a76768d">Name</a>, Frame-&gt;rax);</div>
+<div class="line"><a name="l02825"></a><span class="lineno"> 2825</span>&#160;        <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>;</div>
+<div class="line"><a name="l02826"></a><span class="lineno"> 2826</span>&#160;    }</div>
+<div class="line"><a name="l02827"></a><span class="lineno"> 2827</span>&#160; </div>
+<div class="line"><a name="l02828"></a><span class="lineno"> 2828</span>&#160;    <a class="code" href="../../d4/dbe/mksyntax_8c.html#ac3e1795766a80ec63b157951b4b9a7d4">debug</a>(<span class="stringliteral">&quot;&gt; [%d:\&quot;%s\&quot;]( %#lx  %#lx  %#lx  %#lx  %#lx  %#lx )&quot;</span>,</div>
+<div class="line"><a name="l02829"></a><span class="lineno"> 2829</span>&#160;          Frame-&gt;rax, Syscall.<a class="code" href="../../db/d9b/native_8cpp.html#a78ba64e0086364f774ae6a0b5a76768d">Name</a>,</div>
+<div class="line"><a name="l02830"></a><span class="lineno"> 2830</span>&#160;          Frame-&gt;rdi, Frame-&gt;rsi, Frame-&gt;rdx,</div>
+<div class="line"><a name="l02831"></a><span class="lineno"> 2831</span>&#160;          Frame-&gt;r10, Frame-&gt;r8, Frame-&gt;r9);</div>
+<div class="line"><a name="l02832"></a><span class="lineno"> 2832</span>&#160; </div>
+<div class="line"><a name="l02833"></a><span class="lineno"> 2833</span>&#160;    <span class="keywordtype">long</span> sc_ret = <a class="code" href="../../d4/df7/atexit_8c.html#a41f043455a9b4c86653c21d3af8000a1">call</a>(Frame,</div>
+<div class="line"><a name="l02834"></a><span class="lineno"> 2834</span>&#160;                       Frame-&gt;rdi, Frame-&gt;rsi, Frame-&gt;rdx,</div>
+<div class="line"><a name="l02835"></a><span class="lineno"> 2835</span>&#160;                       Frame-&gt;r10, Frame-&gt;r8, Frame-&gt;r9);</div>
+<div class="line"><a name="l02836"></a><span class="lineno"> 2836</span>&#160; </div>
+<div class="line"><a name="l02837"></a><span class="lineno"> 2837</span>&#160;    <a class="code" href="../../d4/dbe/mksyntax_8c.html#ac3e1795766a80ec63b157951b4b9a7d4">debug</a>(<span class="stringliteral">&quot;&lt; [%d:\&quot;%s\&quot;] = %d&quot;</span>, Frame-&gt;rax, Syscall.<a class="code" href="../../db/d9b/native_8cpp.html#a78ba64e0086364f774ae6a0b5a76768d">Name</a>, sc_ret);</div>
+<div class="line"><a name="l02838"></a><span class="lineno"> 2838</span>&#160;    <span class="keywordflow">return</span> sc_ret;</div>
+<div class="line"><a name="l02839"></a><span class="lineno"> 2839</span>&#160;<span class="preprocessor">#elif defined(a32)</span></div>
+<div class="line"><a name="l02840"></a><span class="lineno"> 2840</span>&#160;    <span class="keywordflow">if</span> (Frame-&gt;eax &gt; <span class="keyword">sizeof</span>(<a class="code" href="../../d1/dd4/linux_8cpp.html#a876598cc3a3608d155924468fe1e2110">LinuxSyscallsTableI386</a>) / <span class="keyword">sizeof</span>(<a class="code" href="../../db/d9b/native_8cpp.html#d9/df1/structSyscallData">SyscallData</a>))</div>
+<div class="line"><a name="l02841"></a><span class="lineno"> 2841</span>&#160;    {</div>
+<div class="line"><a name="l02842"></a><span class="lineno"> 2842</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;Syscall %d not implemented&quot;</span>,</div>
+<div class="line"><a name="l02843"></a><span class="lineno"> 2843</span>&#160;              Frame-&gt;eax);</div>
+<div class="line"><a name="l02844"></a><span class="lineno"> 2844</span>&#160;        <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>;</div>
+<div class="line"><a name="l02845"></a><span class="lineno"> 2845</span>&#160;    }</div>
+<div class="line"><a name="l02846"></a><span class="lineno"> 2846</span>&#160; </div>
+<div class="line"><a name="l02847"></a><span class="lineno"> 2847</span>&#160;    <a class="code" href="../../db/d9b/native_8cpp.html#d9/df1/structSyscallData">SyscallData</a> Syscall = <a class="code" href="../../d1/dd4/linux_8cpp.html#a876598cc3a3608d155924468fe1e2110">LinuxSyscallsTableI386</a>[Frame-&gt;eax];</div>
+<div class="line"><a name="l02848"></a><span class="lineno"> 2848</span>&#160; </div>
+<div class="line"><a name="l02849"></a><span class="lineno"> 2849</span>&#160;    long (*<a class="code" href="../../d4/df7/atexit_8c.html#a41f043455a9b4c86653c21d3af8000a1">call</a>)(<a class="code" href="../../d0/d35/syscalls_8hpp.html#aa07f2f09156b7539a5c1bb0a7334ddeb">SysFrm</a> *, long, ...) = r_cst(<span class="keywordtype">long</span> (*)(<a class="code" href="../../d0/d35/syscalls_8hpp.html#aa07f2f09156b7539a5c1bb0a7334ddeb">SysFrm</a> *, <span class="keywordtype">long</span>, ...),</div>
+<div class="line"><a name="l02850"></a><span class="lineno"> 2850</span>&#160;                                              Syscall.<a class="code" href="../../db/d9b/native_8cpp.html#a7e7f056a3d1194a6cf2b7e8d706fedbe">Handler</a>);</div>
+<div class="line"><a name="l02851"></a><span class="lineno"> 2851</span>&#160; </div>
+<div class="line"><a name="l02852"></a><span class="lineno"> 2852</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(!<a class="code" href="../../d4/df7/atexit_8c.html#a41f043455a9b4c86653c21d3af8000a1">call</a>))</div>
+<div class="line"><a name="l02853"></a><span class="lineno"> 2853</span>&#160;    {</div>
+<div class="line"><a name="l02854"></a><span class="lineno"> 2854</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;Syscall %s(%d) not implemented.&quot;</span>,</div>
+<div class="line"><a name="l02855"></a><span class="lineno"> 2855</span>&#160;              Syscall.<a class="code" href="../../db/d9b/native_8cpp.html#a78ba64e0086364f774ae6a0b5a76768d">Name</a>, Frame-&gt;eax);</div>
+<div class="line"><a name="l02856"></a><span class="lineno"> 2856</span>&#160;        <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>;</div>
+<div class="line"><a name="l02857"></a><span class="lineno"> 2857</span>&#160;    }</div>
+<div class="line"><a name="l02858"></a><span class="lineno"> 2858</span>&#160; </div>
+<div class="line"><a name="l02859"></a><span class="lineno"> 2859</span>&#160;    <a class="code" href="../../d4/dbe/mksyntax_8c.html#ac3e1795766a80ec63b157951b4b9a7d4">debug</a>(<span class="stringliteral">&quot;&gt; [%d:\&quot;%s\&quot;]( %#lx  %#lx  %#lx  %#lx  %#lx  %#lx )&quot;</span>,</div>
+<div class="line"><a name="l02860"></a><span class="lineno"> 2860</span>&#160;          Frame-&gt;eax, Syscall.<a class="code" href="../../db/d9b/native_8cpp.html#a78ba64e0086364f774ae6a0b5a76768d">Name</a>,</div>
+<div class="line"><a name="l02861"></a><span class="lineno"> 2861</span>&#160;          Frame-&gt;ebx, Frame-&gt;ecx, Frame-&gt;edx,</div>
+<div class="line"><a name="l02862"></a><span class="lineno"> 2862</span>&#160;          Frame-&gt;esi, Frame-&gt;edi, Frame-&gt;ebp);</div>
+<div class="line"><a name="l02863"></a><span class="lineno"> 2863</span>&#160; </div>
+<div class="line"><a name="l02864"></a><span class="lineno"> 2864</span>&#160;    <span class="keywordtype">int</span> sc_ret = <a class="code" href="../../d4/df7/atexit_8c.html#a41f043455a9b4c86653c21d3af8000a1">call</a>(Frame,</div>
+<div class="line"><a name="l02865"></a><span class="lineno"> 2865</span>&#160;                      Frame-&gt;ebx, Frame-&gt;ecx, Frame-&gt;edx,</div>
+<div class="line"><a name="l02866"></a><span class="lineno"> 2866</span>&#160;                      Frame-&gt;esi, Frame-&gt;edi, Frame-&gt;ebp);</div>
+<div class="line"><a name="l02867"></a><span class="lineno"> 2867</span>&#160; </div>
+<div class="line"><a name="l02868"></a><span class="lineno"> 2868</span>&#160;    <a class="code" href="../../d4/dbe/mksyntax_8c.html#ac3e1795766a80ec63b157951b4b9a7d4">debug</a>(<span class="stringliteral">&quot;&lt; [%d:\&quot;%s\&quot;] = %d&quot;</span>, Frame-&gt;eax, Syscall.<a class="code" href="../../db/d9b/native_8cpp.html#a78ba64e0086364f774ae6a0b5a76768d">Name</a>, sc_ret);</div>
+<div class="line"><a name="l02869"></a><span class="lineno"> 2869</span>&#160;    <span class="keywordflow">return</span> sc_ret;</div>
+<div class="line"><a name="l02870"></a><span class="lineno"> 2870</span>&#160;<span class="preprocessor">#elif defined(aa64)</span></div>
+<div class="line"><a name="l02871"></a><span class="lineno"> 2871</span>&#160;    <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>;</div>
+<div class="line"><a name="l02872"></a><span class="lineno"> 2872</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l02873"></a><span class="lineno"> 2873</span>&#160; </div>
+<div class="line"><a name="l02874"></a><span class="lineno"> 2874</span>&#160;<span class="preprocessor">#if defined(a64)</span></div>
+<div class="line"><a name="l02875"></a><span class="lineno"> 2875</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(<a class="code" href="../../d1/dd4/linux_8cpp.html#a876598cc3a3608d155924468fe1e2110">LinuxSyscallsTableI386</a>);</div>
+<div class="line"><a name="l02876"></a><span class="lineno"> 2876</span>&#160;<span class="preprocessor">#elif defined(a32)</span></div>
+<div class="line"><a name="l02877"></a><span class="lineno"> 2877</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(<a class="code" href="../../d1/dd4/linux_8cpp.html#aa18e9655c06759d2e33420b0992022d7">LinuxSyscallsTableAMD64</a>);</div>
+<div class="line"><a name="l02878"></a><span class="lineno"> 2878</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l02879"></a><span class="lineno"> 2879</span>&#160;}</div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a86d500a34c624c2cae56bc25a31b12f3"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a></div><div class="ttdeci">#define UNUSED(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00064">types.h:64</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_ac6c45889010c1bd68631771b64f18101"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a></div><div class="ttdeci">#define unlikely(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00411">types.h:411</a></div></div>
 <div class="ttc" id="aKernel_2include__std_2errno_8h_html_a43785b9969e0bd1af532dbde06c5540b"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a></div><div class="ttdeci">#define ENOSYS</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00133">errno.h:133</a></div></div>
 <div class="ttc" id="aatexit_8c_html_a41f043455a9b4c86653c21d3af8000a1"><div class="ttname"><a href="../../d4/df7/atexit_8c.html#a41f043455a9b4c86653c21d3af8000a1">call</a></div><div class="ttdeci">static void call(void *p)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df7/atexit_8c_source.html#l00071">atexit.c:71</a></div></div>
 <div class="ttc" id="adebug_8h_html_abd4acaf7c67bd126aefd672fbbd5747f"><div class="ttname"><a href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a></div><div class="ttdeci">#define fixme(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00099">debug.h:99</a></div></div>
-<div class="ttc" id="alinux_8cpp_html_a1b6ee6fb585c4c1aca7a4dd1407f9806"><div class="ttname"><a href="../../d1/dd4/linux_8cpp.html#a1b6ee6fb585c4c1aca7a4dd1407f9806">thisFrame</a></div><div class="ttdeci">SysFrm * thisFrame</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dd4/linux_8cpp_source.html#l00164">linux.cpp:164</a></div></div>
-<div class="ttc" id="alinux_8cpp_html_aea55c4bc7e0d28e5d90c5da5403234ff"><div class="ttname"><a href="../../d1/dd4/linux_8cpp.html#aea55c4bc7e0d28e5d90c5da5403234ff">LinuxSyscallsTable</a></div><div class="ttdeci">static SyscallData LinuxSyscallsTable[]</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dd4/linux_8cpp_source.html#l00639">linux.cpp:639</a></div></div>
+<div class="ttc" id="alinux_8cpp_html_a876598cc3a3608d155924468fe1e2110"><div class="ttname"><a href="../../d1/dd4/linux_8cpp.html#a876598cc3a3608d155924468fe1e2110">LinuxSyscallsTableI386</a></div><div class="ttdeci">static SyscallData LinuxSyscallsTableI386[]</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dd4/linux_8cpp_source.html#l02356">linux.cpp:2356</a></div></div>
+<div class="ttc" id="alinux_8cpp_html_aa18e9655c06759d2e33420b0992022d7"><div class="ttname"><a href="../../d1/dd4/linux_8cpp.html#aa18e9655c06759d2e33420b0992022d7">LinuxSyscallsTableAMD64</a></div><div class="ttdeci">static SyscallData LinuxSyscallsTableAMD64[]</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dd4/linux_8cpp_source.html#l01906">linux.cpp:1906</a></div></div>
 <div class="ttc" id="amksyntax_8c_html_ac3e1795766a80ec63b157951b4b9a7d4"><div class="ttname"><a href="../../d4/dbe/mksyntax_8c.html#ac3e1795766a80ec63b157951b4b9a7d4">debug</a></div><div class="ttdeci">int debug</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dbe/mksyntax_8c_source.html#l00072">mksyntax.c:72</a></div></div>
-<div class="ttc" id="anative_8cpp_html_a78ba64e0086364f774ae6a0b5a76768d"><div class="ttname"><a href="../../db/d9b/native_8cpp.html#a78ba64e0086364f774ae6a0b5a76768d">SyscallData::Name</a></div><div class="ttdeci">const char * Name</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dd4/linux_8cpp_source.html#l00028">linux.cpp:28</a></div></div>
-<div class="ttc" id="anative_8cpp_html_a7e7f056a3d1194a6cf2b7e8d706fedbe"><div class="ttname"><a href="../../db/d9b/native_8cpp.html#a7e7f056a3d1194a6cf2b7e8d706fedbe">SyscallData::Handler</a></div><div class="ttdeci">void * Handler</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dd4/linux_8cpp_source.html#l00029">linux.cpp:29</a></div></div>
-<div class="ttc" id="anative_8cpp_html_d9/df1/structSyscallData"><div class="ttname"><a href="../../db/d9b/native_8cpp.html#d9/df1/structSyscallData">SyscallData</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dd4/linux_8cpp_source.html#l00026">linux.cpp:27</a></div></div>
+<div class="ttc" id="anative_8cpp_html_a78ba64e0086364f774ae6a0b5a76768d"><div class="ttname"><a href="../../db/d9b/native_8cpp.html#a78ba64e0086364f774ae6a0b5a76768d">SyscallData::Name</a></div><div class="ttdeci">const char * Name</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dd4/linux_8cpp_source.html#l00044">linux.cpp:44</a></div></div>
+<div class="ttc" id="anative_8cpp_html_a7e7f056a3d1194a6cf2b7e8d706fedbe"><div class="ttname"><a href="../../db/d9b/native_8cpp.html#a7e7f056a3d1194a6cf2b7e8d706fedbe">SyscallData::Handler</a></div><div class="ttdeci">void * Handler</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dd4/linux_8cpp_source.html#l00045">linux.cpp:45</a></div></div>
+<div class="ttc" id="anative_8cpp_html_d9/df1/structSyscallData"><div class="ttname"><a href="../../db/d9b/native_8cpp.html#d9/df1/structSyscallData">SyscallData</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dd4/linux_8cpp_source.html#l00042">linux.cpp:43</a></div></div>
+<div class="ttc" id="asyscalls_8hpp_html_aa07f2f09156b7539a5c1bb0a7334ddeb"><div class="ttname"><a href="../../d0/d35/syscalls_8hpp.html#aa07f2f09156b7539a5c1bb0a7334ddeb">SysFrm</a></div><div class="ttdeci">#define SysFrm</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d35/syscalls_8hpp_source.html#l00066">syscalls.hpp:66</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/df7/atexit_8c_source.html#l00071">call()</a>, <a class="el" href="../../d4/dbe/mksyntax_8c_source.html#l00072">debug</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00133">ENOSYS</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>, <a class="el" href="../../d1/dd4/linux_8cpp_source.html#l00029">SyscallData::Handler</a>, <a class="el" href="../../d1/dd4/linux_8cpp_source.html#l00639">LinuxSyscallsTable</a>, <a class="el" href="../../d1/dd4/linux_8cpp_source.html#l00028">SyscallData::Name</a>, <a class="el" href="../../d1/dd4/linux_8cpp_source.html#l00164">thisFrame</a>, and <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00405">unlikely</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/df7/atexit_8c_source.html#l00071">call()</a>, <a class="el" href="../../d4/dbe/mksyntax_8c_source.html#l00072">debug</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00133">ENOSYS</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>, <a class="el" href="../../d1/dd4/linux_8cpp_source.html#l00045">SyscallData::Handler</a>, <a class="el" href="../../d1/dd4/linux_8cpp_source.html#l01906">LinuxSyscallsTableAMD64</a>, <a class="el" href="../../d1/dd4/linux_8cpp_source.html#l02356">LinuxSyscallsTableI386</a>, <a class="el" href="../../d1/dd4/linux_8cpp_source.html#l00044">SyscallData::Name</a>, <a class="el" href="../../d0/d35/syscalls_8hpp_source.html#l00066">SysFrm</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00411">unlikely</a>, and <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00064">UNUSED</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/dc9/syscalls_2syscalls_8cpp_source.html#l00052">SystemCallsHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/dc9/syscalls_2syscalls_8cpp_source.html#l00056">SystemCallsHandler()</a>.</p>
 
 </div>
 </div>
@@ -266,7 +298,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../da/dc9/syscalls_2syscalls_8cpp_source.html#l00052">SystemCallsHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/dc9/syscalls_2syscalls_8cpp_source.html#l00056">SystemCallsHandler()</a>.</p>
 
 </div>
 </div>
@@ -293,7 +325,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00061">GDT_KERNEL_CODE</a>, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00062">GDT_KERNEL_DATA</a>, <a class="el" href="../../d4/db2/x64_2msr_8hpp_source.html#l00383">CPU::x64::MSR_EFER</a>, <a class="el" href="../../d4/db2/x64_2msr_8hpp_source.html#l00387">CPU::x64::MSR_LSTAR</a>, <a class="el" href="../../d4/db2/x64_2msr_8hpp_source.html#l00385">CPU::x64::MSR_STAR</a>, <a class="el" href="../../d4/db2/x64_2msr_8hpp_source.html#l00391">CPU::x64::MSR_SYSCALL_MASK</a>, and <a class="el" href="../../dd/d5b/arch_2aarch64_2syscalls_8cpp_source.html#l00022">SystemCallHandlerStub()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/da7/interrupts__manager_8cpp_source.html#l00061">Interrupts::Initialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/da7/interrupts__manager_8cpp_source.html#l00115">Interrupts::Initialize()</a>.</p>
 
 </div>
 </div>

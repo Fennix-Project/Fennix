@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -88,8 +88,8 @@ $(document).ready(function(){initNavTree('functions_func_w.html',''); initResiza
 &#160;
 
 <h3><a id="index_w"></a>- w -</h3><ul>
-<li>Wait()
-: <a class="el" href="df/d7e/classInterProcessCommunication_1_1IPC.html#ad075ac6c9f6fa81605e9dddb2dd4dca6">InterProcessCommunication::IPC</a>
+<li>WaitAnySignal()
+: <a class="el" href="d2/d8b/classTasking_1_1Signal.html#a15f202c96d2acfb25bf95c455deed092">Tasking::Signal</a>
 </li>
 <li>WaitForIPI()
 : <a class="el" href="d4/da9/classAPIC_1_1APIC.html#a99f029a47ea68b2dce6865f123e96174">APIC::APIC</a>
@@ -106,27 +106,38 @@ $(document).ready(function(){initNavTree('functions_func_w.html',''); initResiza
 <li>WaitForThreadStatus()
 : <a class="el" href="dc/dc5/classTasking_1_1Task.html#a83e6c7f0d2858158c693df68e58b1ef5">Tasking::Task</a>
 </li>
+<li>WaitSignal()
+: <a class="el" href="d2/d8b/classTasking_1_1Signal.html#a7d0d32f13e7b80c2dd2ae2e9b205ac30">Tasking::Signal</a>
+</li>
+<li>WaitSignalTimeout()
+: <a class="el" href="d2/d8b/classTasking_1_1Signal.html#ad009262e6d0175cca47bbb0c00036da8">Tasking::Signal</a>
+</li>
 <li>WakeUpThreads()
 : <a class="el" href="dc/dc5/classTasking_1_1Task.html#ae68054733da28643ce413333804c1ce9">Tasking::Task</a>
-</li>
-<li>what()
-: <a class="el" href="db/d3e/classstd_1_1runtime__error.html#a69a9a77f0ed25e291ba53adfab84bd22">std::runtime_error</a>
 </li>
 <li>Write()
 : <a class="el" href="d4/da9/classAPIC_1_1APIC.html#a31f82d3fe56e82607e237cd5c29a9852">APIC::APIC</a>
 , <a class="el" href="de/d49/classDisk_1_1Drive.html#af85f117491b7934d5d0e94ec0c89bc64">Disk::Drive</a>
 , <a class="el" href="d6/da1/classDisk_1_1Partition.html#a2d4255586dc0eb2e28581c46e7f4d37b">Disk::Partition</a>
-, <a class="el" href="df/d7e/classInterProcessCommunication_1_1IPC.html#a17349269150017538bd2c2a7818d45a3">InterProcessCommunication::IPC</a>
-, <a class="el" href="d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a7906991fad520423bc367e05767db183">UniversalAsynchronousReceiverTransmitter::UART</a>
 </li>
 <li>write()
-: <a class="el" href="df/d69/classvfs_1_1Node.html#a6943eeb407f6575fcd8470ec6645b639">vfs::Node</a>
-, <a class="el" href="d7/d11/classvfs_1_1NullDevice.html#a3a60df52e2b4a5474a42c93ae4b4d11a">vfs::NullDevice</a>
-, <a class="el" href="da/d6a/classvfs_1_1PTMXDevice.html#aa6d67bd5e5f00d48472b11ef9e5a448f">vfs::PTMXDevice</a>
-, <a class="el" href="de/d28/classvfs_1_1RandomDevice.html#a36a4abc93823cefb8e7cfadd89e9380a">vfs::RandomDevice</a>
+: <a class="el" href="dd/df5/classDriver_1_1MasterDeviceFile.html#ad390f9925b0d75108da7b476a09a802a">Driver::MasterDeviceFile</a>
+, <a class="el" href="d8/d86/classDriver_1_1SlaveDeviceFile.html#a0538dc35b777b4370de41a3a81102c11">Driver::SlaveDeviceFile</a>
+</li>
+<li>Write()
+: <a class="el" href="d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a7906991fad520423bc367e05767db183">UniversalAsynchronousReceiverTransmitter::UART</a>
+</li>
+<li>write()
+: <a class="el" href="d4/d46/classvfs_1_1KConDevice.html#acca7684de623c3084fdd443a60c86cea">vfs::KConDevice</a>
+, <a class="el" href="da/df7/classvfs_1_1MasterPTY.html#acbad82d17c4899d0483e4c1d7c296cb4">vfs::MasterPTY</a>
+, <a class="el" href="df/d69/classvfs_1_1Node.html#a6943eeb407f6575fcd8470ec6645b639">vfs::Node</a>
+, <a class="el" href="d7/d11/classvfs_1_1NullDevice.html#abb4fe3162c596be42c90690f7c4783cb">vfs::NullDevice</a>
+, <a class="el" href="d0/d63/classvfs_1_1PTYDevice.html#a2b37befa0980f81b8a8ab2705e806d1a">vfs::PTYDevice</a>
+, <a class="el" href="de/d28/classvfs_1_1RandomDevice.html#aeaffa53f199f6e8aa1094e32b4128153">vfs::RandomDevice</a>
 , <a class="el" href="da/d28/classvfs_1_1RefNode.html#a14810cab8a278850168b0287de6b0ef9">vfs::RefNode</a>
-, <a class="el" href="d2/db2/classvfs_1_1TTYDevice.html#aa4d8f6864d2331e13a3515f50a050ddb">vfs::TTYDevice</a>
-, <a class="el" href="df/d89/classvfs_1_1ZeroDevice.html#acbad63ea9e1ca4a5e6ffa1981e28db45">vfs::ZeroDevice</a>
+, <a class="el" href="dd/d30/classvfs_1_1SlavePTY.html#a6c3ca6647cce3318c658770521c2d679">vfs::SlavePTY</a>
+, <a class="el" href="d2/db2/classvfs_1_1TTYDevice.html#af0d52c9aa0560940799d3d512f28e9fa">vfs::TTYDevice</a>
+, <a class="el" href="df/d89/classvfs_1_1ZeroDevice.html#aca989232dad15b92a262d817aa83b4be">vfs::ZeroDevice</a>
 </li>
 </ul>
 </div><!-- contents -->

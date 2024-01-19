@@ -5,7 +5,7 @@ var structtransformer__state__t =
     [ "bytes_out", "d5/d6e/structtransformer__state__t.html#ac27e49f85c9a40e18de0b8b34fb6b448", null ],
     [ "crc32", "d5/d6e/structtransformer__state__t.html#aedb46b5b7843d44a7b5eaae93c336144", null ],
     [ "dst_fd", "d5/d6e/structtransformer__state__t.html#a1644cea0476ac9d30b379031ffe2dbac", null ],
-    [ "magic", "d5/d6e/structtransformer__state__t.html#a37eef518dea2eb12716a9d443b6d3d70", null ],
+    [ "magic", "d5/d6e/structtransformer__state__t.html#ae2457cc35f65c9915e21b4b1b118c4e2", null ],
     [ "mem_output_buf", "d5/d6e/structtransformer__state__t.html#a28a3cb152bbd4514eca909763172c0cf", null ],
     [ "mem_output_size", "d5/d6e/structtransformer__state__t.html#a54082ffb5d4c915aa6d786c53e3b0125", null ],
     [ "mem_output_size_max", "d5/d6e/structtransformer__state__t.html#aeef3996806fe93ae5554401ebd62888d", null ],

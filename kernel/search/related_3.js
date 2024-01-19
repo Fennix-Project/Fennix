@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['node_13963',['Node',['../d8/d64/classvfs_1_1Virtual.html#a6db9d28bd448a131448276ee03de1e6d',1,'vfs::Virtual']]]
+  ['virtual_15143',['Virtual',['../da/d28/classvfs_1_1RefNode.html#a357f25208d71a897d3d8b96f0b624be2',1,'vfs::RefNode']]]
 ];

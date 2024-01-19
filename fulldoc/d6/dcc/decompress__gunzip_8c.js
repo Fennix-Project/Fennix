@@ -3,7 +3,7 @@ var decompress__gunzip_8c =
     [ "huft_t", "d6/dcc/decompress__gunzip_8c.html#db/ddd/structhuft__t", [
       [ "b", "d6/dcc/decompress__gunzip_8c.html#a78a9521f7914af5db48ffba05b003490", null ],
       [ "e", "d6/dcc/decompress__gunzip_8c.html#a93af89b18bb43f3614e7222f260b93b5", null ],
-      [ "v", "d6/dcc/decompress__gunzip_8c.html#a8da2ff67b54781f88e43793ec58e6c8f", null ]
+      [ "v", "d6/dcc/decompress__gunzip_8c.html#a7cd9a532f99628d3ab5d1fd58e7b73eb", null ]
     ] ],
     [ "state_t", "d4/d21/info_8h.html#d5/db3/structstate__t", [
       [ "action", "d4/d21/info_8h.html#a4bda7e6f22f41afd642a197b7ae23f9c", null ],

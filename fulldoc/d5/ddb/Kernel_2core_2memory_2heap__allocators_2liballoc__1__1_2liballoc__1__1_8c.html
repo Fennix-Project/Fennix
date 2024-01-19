@@ -95,6 +95,7 @@ $(document).ready(function(){initNavTree('d5/ddb/Kernel_2core_2memory_2heap__all
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d8/d5c/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8h_source.html">liballoc_1_1.h</a>&quot;</code><br />
+<code>#include &lt;<a class="el" href="../../d3/d82/convert_8h_source.html">convert.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
 </div>
 <p><a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">Go to the source code of this file.</a></p>
@@ -151,10 +152,10 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a650715799a325fedc4d7b07a181378d9"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="../../dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#d6/db9/structliballoc__major">liballoc_major</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#a650715799a325fedc4d7b07a181378d9">l_memRoot</a> = <a class="el" href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td></tr>
+<tr class="memitem:a650715799a325fedc4d7b07a181378d9"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="../../dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#d6/db9/structliballoc__major">liballoc_major</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#a650715799a325fedc4d7b07a181378d9">l_memRoot</a> = <a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td></tr>
 <tr class="memdesc:a650715799a325fedc4d7b07a181378d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The root memory block acquired from the system.  <a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#a650715799a325fedc4d7b07a181378d9">More...</a><br /></td></tr>
 <tr class="separator:a650715799a325fedc4d7b07a181378d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa564d1a8832090131b83d62eae1f07d7"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="../../dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#d6/db9/structliballoc__major">liballoc_major</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#aa564d1a8832090131b83d62eae1f07d7">l_bestBet</a> = <a class="el" href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td></tr>
+<tr class="memitem:aa564d1a8832090131b83d62eae1f07d7"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="../../dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#d6/db9/structliballoc__major">liballoc_major</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#aa564d1a8832090131b83d62eae1f07d7">l_bestBet</a> = <a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td></tr>
 <tr class="memdesc:aa564d1a8832090131b83d62eae1f07d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The major with the most free memory.  <a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#aa564d1a8832090131b83d62eae1f07d7">More...</a><br /></td></tr>
 <tr class="separator:aa564d1a8832090131b83d62eae1f07d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55d43215a0f1dbd2425ffe4620674afd"><td class="memItemLeft" align="right" valign="top">static unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#a55d43215a0f1dbd2425ffe4620674afd">l_pageSize</a> = 4096</td></tr>
@@ -193,7 +194,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <div class="textblock"><p>A structure found at the top of all system allocated memory blocks. It details the usage of the memory block. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00067">67</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00068">68</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -249,7 +250,7 @@ The number of bytes used in the block. </td></tr>
 </div><div class="memdoc">
 <div class="textblock"><p>This is a structure found at the beginning of all sections in a major block which were allocated by a malloc, calloc, realloc call. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00081">81</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00082">82</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -321,14 +322,14 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
 <div class="line">        *((<a class="code" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#a4781c052bb138f69ef6d60737fd569e3">ALIGN_TYPE</a> *)((<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)ptr - <a class="code" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#a794344346279e2c33cdf963b440693fc">ALIGN_INFO</a>)) = \</div>
 <div class="line">            diff + <a class="code" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#a794344346279e2c33cdf963b440693fc">ALIGN_INFO</a>;                           \</div>
 <div class="line">    }</div>
-<div class="ttc" id="aKernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_html_a450f9d8af07bfe2f313dbe3a78738a5e"><div class="ttname"><a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#a450f9d8af07bfe2f313dbe3a78738a5e">ALIGNMENT</a></div><div class="ttdeci">#define ALIGNMENT</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00009">liballoc_1_1.c:9</a></div></div>
-<div class="ttc" id="aKernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_html_a4781c052bb138f69ef6d60737fd569e3"><div class="ttname"><a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#a4781c052bb138f69ef6d60737fd569e3">ALIGN_TYPE</a></div><div class="ttdeci">#define ALIGN_TYPE</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00011">liballoc_1_1.c:11</a></div></div>
-<div class="ttc" id="aKernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_html_a794344346279e2c33cdf963b440693fc"><div class="ttname"><a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#a794344346279e2c33cdf963b440693fc">ALIGN_INFO</a></div><div class="ttdeci">#define ALIGN_INFO</div><div class="ttdoc">Alignment information is stored right before the pointer. This is the number of bytes of information ...</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00012">liballoc_1_1.c:12</a></div></div>
+<div class="ttc" id="aKernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_html_a450f9d8af07bfe2f313dbe3a78738a5e"><div class="ttname"><a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#a450f9d8af07bfe2f313dbe3a78738a5e">ALIGNMENT</a></div><div class="ttdeci">#define ALIGNMENT</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00010">liballoc_1_1.c:10</a></div></div>
+<div class="ttc" id="aKernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_html_a4781c052bb138f69ef6d60737fd569e3"><div class="ttname"><a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#a4781c052bb138f69ef6d60737fd569e3">ALIGN_TYPE</a></div><div class="ttdeci">#define ALIGN_TYPE</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00012">liballoc_1_1.c:12</a></div></div>
+<div class="ttc" id="aKernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_html_a794344346279e2c33cdf963b440693fc"><div class="ttname"><a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#a794344346279e2c33cdf963b440693fc">ALIGN_INFO</a></div><div class="ttdeci">#define ALIGN_INFO</div><div class="ttdoc">Alignment information is stored right before the pointer. This is the number of bytes of information ...</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00013">liballoc_1_1.c:13</a></div></div>
 <div class="ttc" id="aKernel_2include_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00186">types.h:186</a></div></div>
 <div class="ttc" id="adiff_8c_html_a0fbaa317d1213c3c287032aab38725ee"><div class="ttname"><a href="../../d6/dff/diff_8c.html#a0fbaa317d1213c3c287032aab38725ee">diff</a></div><div class="ttdeci">static bool diff(FILE *fp[2], char *file[2])</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dff/diff_8c_source.html#l00596">diff.c:596</a></div></div>
 </div><!-- fragment --><p>This macro will conveniently align our pointer upwards </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00021">21</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00022">22</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -346,7 +347,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
 
 <p>Alignment information is stored right before the pointer. This is the number of bytes of information stored there. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00012">12</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00013">13</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -362,7 +363,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00011">11</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00012">12</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -378,7 +379,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00009">9</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00010">10</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -398,7 +399,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00059">59</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00060">60</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -417,7 +418,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00058">58</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00059">59</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -433,7 +434,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00047">47</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00048">48</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -449,7 +450,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00046">46</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00047">47</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -465,7 +466,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00050">50</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00051">51</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -495,7 +496,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00060">60</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00061">61</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -523,7 +524,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
 <div class="line">        }                                                                \</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00036">36</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00037">37</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -539,7 +540,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00014">14</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00015">15</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -555,7 +556,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00015">15</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00016">16</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -571,7 +572,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00016">16</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00017">17</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -587,7 +588,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00017">17</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00018">18</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -603,7 +604,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00018">18</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00019">19</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -621,7 +622,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
 <p>Durand's Amazing Super Duper <a class="el" href="../../d3/d97/namespaceMemory.html">Memory</a> functions. <br  />
  </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00008">8</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00009">9</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -642,20 +643,22 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00105">105</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;{</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = 0; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>++)</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        ((<span class="keywordtype">char</span> *)<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>)[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>] = <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00106">106</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;{</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/d82/convert_8h.html#ac72cd3c233680f95fd1d168a22c912ad">memset</a>(<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>, <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = 0; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>++)</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        ((<span class="keywordtype">char</span> *)<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>)[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>] = <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;}</div>
 <div class="ttc" id="aarpping_8c_html_ac9562ee4ecb3b8aeebeb04656e7e57a9"><div class="ttname"><a href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a></div><div class="ttdeci">#define s</div></div>
+<div class="ttc" id="aconvert_8h_html_ac72cd3c233680f95fd1d168a22c912ad"><div class="ttname"><a href="../../d3/d82/convert_8h.html#ac72cd3c233680f95fd1d168a22c912ad">memset</a></div><div class="ttdeci">#define memset(dest, c, n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d82/convert_8h_source.html#l00129">convert.h:129</a></div></div>
 <div class="ttc" id="adcigettext_8c_html_a58257445f1a929304e537613b62ebb35"><div class="ttname"><a href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a></div><div class="ttdeci">unsigned long int n</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d32/dcigettext_8c_source.html#l00441">dcigettext.c:441</a></div></div>
 <div class="ttc" id="agettextP_8h_html_a68428151ad44e31b19041cdeb8972a91"><div class="ttname"><a href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a></div><div class="ttdeci">static nls_uint32 nls_uint32 i</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d71/gettextP_8h_source.html#l00074">gettextP.h:74</a></div></div>
 <div class="ttc" id="aglob__loop_8c_html_a2019d0836036f2693a231fe5c7c65e20"><div class="ttname"><a href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a></div><div class="ttdeci">register GCHAR c</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d64/glob__loop_8c_source.html#l00028">glob_loop.c:26</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>, <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../d0/d32/dcigettext_8c_source.html#l00441">n</a>, and <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>, <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../d3/d82/convert_8h_source.html#l00129">memset</a>, <a class="el" href="../../d0/d32/dcigettext_8c_source.html#l00441">n</a>, and <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>.</p>
 
 </div>
 </div>
@@ -682,7 +685,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
 
 <p>Running total of allocated memory. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00096">96</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00097">97</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -696,7 +699,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="../../dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#d6/db9/structliballoc__major">liballoc_major</a>* l_bestBet = <a class="el" href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td>
+          <td class="memname">struct <a class="el" href="../../dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#d6/db9/structliballoc__major">liballoc_major</a>* l_bestBet = <a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td>
         </tr>
       </table>
   </td>
@@ -708,7 +711,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
 
 <p>The major with the most free memory. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00092">92</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00093">93</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -734,7 +737,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
 
 <p>Number of actual errors. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00100">100</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00101">101</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -760,7 +763,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
 
 <p>Running total of used memory. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00097">97</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00098">98</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -774,7 +777,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="../../dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#d6/db9/structliballoc__major">liballoc_major</a>* l_memRoot = <a class="el" href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td>
+          <td class="memname">struct <a class="el" href="../../dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#d6/db9/structliballoc__major">liballoc_major</a>* l_memRoot = <a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td>
         </tr>
       </table>
   </td>
@@ -786,7 +789,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
 
 <p>The root memory block acquired from the system. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00091">91</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00092">92</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -812,7 +815,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
 
 <p>The number of pages to request per chunk. Set up in liballoc_init. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00095">95</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00096">96</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -838,7 +841,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
 
 <p>The size of an individual page. Set up in liballoc_init. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00094">94</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00095">95</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -864,7 +867,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
 
 <p>Number of possible overruns. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00101">101</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00102">102</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>
@@ -890,7 +893,7 @@ The size of the memory allocated. Could be 1 byte or more. </td></tr>
 
 <p>Number of warnings encountered. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00099">99</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00100">100</a> of file <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html">liballoc_1_1.c</a>.</p>
 
 </div>
 </div>

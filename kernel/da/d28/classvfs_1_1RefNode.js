@@ -13,5 +13,6 @@ var classvfs_1_1RefNode =
     [ "n", "da/d28/classvfs_1_1RefNode.html#a1e3fe9f61670fe7c57e782b4b8ed2b4c", null ],
     [ "node", "da/d28/classvfs_1_1RefNode.html#ae5cd831cacc6c4940addc652cd22b01f", null ],
     [ "Size", "da/d28/classvfs_1_1RefNode.html#afdd932496c2a562c80878436079e821e", null ],
+    [ "SpecialData", "da/d28/classvfs_1_1RefNode.html#aa7eb1afb55af4918be36a39eb479b0ae", null ],
     [ "SymlinkTo", "da/d28/classvfs_1_1RefNode.html#a783594033524cad4cf5c0c77c4c8de93", null ]
 ];

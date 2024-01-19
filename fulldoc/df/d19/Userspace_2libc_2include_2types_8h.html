@@ -119,7 +119,7 @@ Macros</h2></td></tr>
 <tr class="separator:a2f18db18bca26cafa95e9719de4a41ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adda03014c30b02d7b496fce96f37951b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#adda03014c30b02d7b496fce96f37951b">toupper</a>(<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>)&#160;&#160;&#160;((<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>)-0x20 * (((<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>) &gt;= 'a') &amp;&amp; ((<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>) &lt;= 'z')))</td></tr>
 <tr class="separator:adda03014c30b02d7b496fce96f37951b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a422175620f52b1ca4dbc39d627296d83"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#a422175620f52b1ca4dbc39d627296d83">tolower</a>(<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>)&#160;&#160;&#160;((<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>) + 0x20 * (((<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>) &gt;= '<a class="el" href="../../d3/d15/powf_8c.html#a955f504eccf76b4eb2489c0adab03121">A</a>') &amp;&amp; ((<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>) &lt;= 'Z')))</td></tr>
+<tr class="memitem:a422175620f52b1ca4dbc39d627296d83"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#a422175620f52b1ca4dbc39d627296d83">tolower</a>(<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>)&#160;&#160;&#160;((<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>) + 0x20 * (((<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>) &gt;= '<a class="el" href="../../d3/d15/powf_8c.html#a955f504eccf76b4eb2489c0adab03121">A</a>') &amp;&amp; ((<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>) &lt;= '<a class="el" href="../../dc/ded/mouse_8h.html#a4d6dfe063ce4b9f790c99c37c1ef782d">Z</a>')))</td></tr>
 <tr class="separator:a422175620f52b1ca4dbc39d627296d83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb00b1a27b40fde5065d26e5aa367808"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#afb00b1a27b40fde5065d26e5aa367808">ALIGN_UP</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>,  align)&#160;&#160;&#160;((__typeof__(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>))(((<a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>) + ((align)-1)) &amp; (~((align)-1))))</td></tr>
 <tr class="separator:afb00b1a27b40fde5065d26e5aa367808"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -251,9 +251,9 @@ Macros</h2></td></tr>
 <tr class="separator:a9e129c4f168e2503e45cf0ab2fb1994d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa40826e19ab43b143542d0a80a175bad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#aa40826e19ab43b143542d0a80a175bad">b64</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)&#160;&#160;&#160;__builtin_bswap64(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)</td></tr>
 <tr class="separator:aa40826e19ab43b143542d0a80a175bad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad17d551e31d1828c68acf40684849b7e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#ad17d551e31d1828c68acf40684849b7e">PUBLIC</a>&#160;&#160;&#160;<a class="el" href="../../dd/dbc/meta_8h.html#a5d8bcc536a7645f7a779944dcf5c9e1d">__attribute__</a>((visibility(&quot;default&quot;)))</td></tr>
+<tr class="memitem:ad17d551e31d1828c68acf40684849b7e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#ad17d551e31d1828c68acf40684849b7e">PUBLIC</a>&#160;&#160;&#160;<a class="el" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((visibility(&quot;default&quot;)))</td></tr>
 <tr class="separator:ad17d551e31d1828c68acf40684849b7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e151c615eda34903514212f05a5ccf8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#a5e151c615eda34903514212f05a5ccf8">PRIVATE</a>&#160;&#160;&#160;<a class="el" href="../../dd/dbc/meta_8h.html#a5d8bcc536a7645f7a779944dcf5c9e1d">__attribute__</a>((visibility(&quot;hidden&quot;)))</td></tr>
+<tr class="memitem:a5e151c615eda34903514212f05a5ccf8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#a5e151c615eda34903514212f05a5ccf8">PRIVATE</a>&#160;&#160;&#160;<a class="el" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((visibility(&quot;hidden&quot;)))</td></tr>
 <tr class="separator:a5e151c615eda34903514212f05a5ccf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -1201,7 +1201,7 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define PRIVATE&#160;&#160;&#160;<a class="el" href="../../dd/dbc/meta_8h.html#a5d8bcc536a7645f7a779944dcf5c9e1d">__attribute__</a>((visibility(&quot;hidden&quot;)))</td>
+          <td class="memname">#define PRIVATE&#160;&#160;&#160;<a class="el" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((visibility(&quot;hidden&quot;)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1249,7 +1249,7 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define PUBLIC&#160;&#160;&#160;<a class="el" href="../../dd/dbc/meta_8h.html#a5d8bcc536a7645f7a779944dcf5c9e1d">__attribute__</a>((visibility(&quot;default&quot;)))</td>
+          <td class="memname">#define PUBLIC&#160;&#160;&#160;<a class="el" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((visibility(&quot;default&quot;)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1333,7 +1333,7 @@ Typedefs</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a></td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>) + 0x20 * (((<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>) &gt;= '<a class="el" href="../../d3/d15/powf_8c.html#a955f504eccf76b4eb2489c0adab03121">A</a>') &amp;&amp; ((<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>) &lt;= 'Z')))</td>
+          <td>&#160;&#160;&#160;((<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>) + 0x20 * (((<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>) &gt;= '<a class="el" href="../../d3/d15/powf_8c.html#a955f504eccf76b4eb2489c0adab03121">A</a>') &amp;&amp; ((<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>) &lt;= '<a class="el" href="../../dc/ded/mouse_8h.html#a4d6dfe063ce4b9f790c99c37c1ef782d">Z</a>')))</td>
         </tr>
       </table>
 </div><div class="memdoc">

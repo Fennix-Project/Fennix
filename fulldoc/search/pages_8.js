@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['xalloc_96597',['Xalloc',['../dc/d46/md_Kernel_core_memory_heap_allocators_Xalloc_README.html',1,'']]]
+  ['userspace_99139',['Userspace',['../d1/df9/md_Userspace_README.html',1,'']]]
 ];

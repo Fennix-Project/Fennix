@@ -45,7 +45,8 @@ var table_8hpp =
       [ "XD", "de/d2d/table_8hpp.html#a0e8df7832e7ea87aa8937798d28472b2a218202248e1d4539a958ebbdf1474cca", null ]
     ] ],
     [ "__aligned", "de/d2d/table_8hpp.html#a4c5401921164641655c6f9167f1c8784", null ],
-    [ "Fork", "de/d2d/table_8hpp.html#a8c0363c19195a4512d166d8f4e778d8d", null ],
+    [ "__getPhysical", "de/d2d/table_8hpp.html#a9759259d0ea0e6a4c206e88cd7446e86", null ],
+    [ "Fork", "de/d2d/table_8hpp.html#a4b2ffea5b96198cd1c738a59a5edf579", null ],
     [ "Get", "de/d2d/table_8hpp.html#aae93205092a0b5a1e35c9dc03fb6318c", null ],
     [ "Update", "de/d2d/table_8hpp.html#af032ab2fbef15001f708755ffdd85d34", null ]
 ];

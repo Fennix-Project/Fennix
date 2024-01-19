@@ -130,5 +130,6 @@ var errno_8h =
     [ "EUSERS", "d8/dc2/errno_8h.html#a9b153104ed38c8579f009f81bc7b2dc9", null ],
     [ "EXDEV", "d8/dc2/errno_8h.html#a3396cf9fb0ff5af3a18dd2a2bbdb21e1", null ],
     [ "EXFULL", "d8/dc2/errno_8h.html#a69aa360ec60f24c128556361f7729e48", null ],
-    [ "__errno_location", "d8/dc2/errno_8h.html#a249efe5fe35b177224ada753640584fb", null ]
+    [ "__errno_location", "d8/dc2/errno_8h.html#a9327667fea32c7a96ba5540ec48b0975", null ],
+    [ "strerror", "d8/dc2/errno_8h.html#aa543636846d2125989b108e2f62b4731", null ]
 ];

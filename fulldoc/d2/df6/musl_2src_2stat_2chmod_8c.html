@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('d2/df6/musl_2src_2stat_2chmod_8c.html'
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abdfbba6d30d9f53e6053a04890ad8116"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df6/musl_2src_2stat_2chmod_8c.html#abdfbba6d30d9f53e6053a04890ad8116">chmod</a> (const char *path, <a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ad2933406ba93c0e0d1884fc09c18a0bf">mode_t</a> mode)</td></tr>
+<tr class="memitem:abdfbba6d30d9f53e6053a04890ad8116"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df6/musl_2src_2stat_2chmod_8c.html#abdfbba6d30d9f53e6053a04890ad8116">chmod</a> (const char *path, <a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a4c39e0c5c2965112d6b55652a6b7f781">mode_t</a> mode)</td></tr>
 <tr class="separator:abdfbba6d30d9f53e6053a04890ad8116"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -118,7 +118,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ad2933406ba93c0e0d1884fc09c18a0bf">mode_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a4c39e0c5c2965112d6b55652a6b7f781">mode_t</a>&#160;</td>
           <td class="paramname"><em>mode</em>&#160;</td>
         </tr>
         <tr>
@@ -134,13 +134,13 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifdef SYS_chmod</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_chmod, path, mode);</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_fchmodat, <a class="code" href="../../d2/d44/musl_2include_2fcntl_8h.html#a301749b9aa4b9416c329bb8b19345216">AT_FDCWD</a>, path, mode);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_fchmodat, <a class="code" href="../../da/d63/defs_8hpp.html#a301749b9aa4b9416c329bb8b19345216">AT_FDCWD</a>, path, mode);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
-<div class="ttc" id="amusl_2include_2fcntl_8h_html_a301749b9aa4b9416c329bb8b19345216"><div class="ttname"><a href="../../d2/d44/musl_2include_2fcntl_8h.html#a301749b9aa4b9416c329bb8b19345216">AT_FDCWD</a></div><div class="ttdeci">#define AT_FDCWD</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d44/musl_2include_2fcntl_8h_source.html#l00060">fcntl.h:60</a></div></div>
+<div class="ttc" id="adefs_8hpp_html_a301749b9aa4b9416c329bb8b19345216"><div class="ttname"><a href="../../da/d63/defs_8hpp.html#a301749b9aa4b9416c329bb8b19345216">AT_FDCWD</a></div><div class="ttdeci">#define AT_FDCWD</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d63/defs_8hpp_source.html#l00145">defs.hpp:145</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/d44/musl_2include_2fcntl_8h_source.html#l00060">AT_FDCWD</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d63/defs_8hpp_source.html#l00145">AT_FDCWD</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/d3a/devfsd_8c_source.html#l00798">action_permissions()</a>, <a class="el" href="../../dc/d5a/adduser_8c_source.html#l00185">adduser_main()</a>, <a class="el" href="../../d0/d37/make__directory_8c_source.html#l00027">bb_make_directory()</a>, <a class="el" href="../../d1/d64/copy__file_8c_source.html#l00080">copy_file()</a>, <a class="el" href="../../d6/d3a/devfsd_8c_source.html#l01029">copy_inode()</a>, <a class="el" href="../../d9/db8/syslogd_8c_source.html#l00961">create_socket()</a>, <a class="el" href="../../d9/ded/data__extract__all_8c_source.html#l00008">data_extract_all()</a>, <a class="el" href="../../d7/d65/apps_2base_2busybox_2coreutils_2chmod_8c_source.html#l00069">fileAction()</a>, <a class="el" href="../../d0/dbd/install_8c_source.html#l00106">install_main()</a>, <a class="el" href="../../d3/d37/mdev_8c_source.html#l00574">make_device()</a>, <a class="el" href="../../d0/d7f/apps_2base_2bash_2examples_2loadables_2mkdir_8c_source.html#l00137">make_path()</a>, <a class="el" href="../../d4/d7c/svlogd_8c_source.html#l00463">processorstop()</a>, and <a class="el" href="../../d4/d1b/shred_8c_source.html#l00043">shred_main()</a>.</p>
 

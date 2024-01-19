@@ -14,7 +14,7 @@ var libbb_8h =
     ] ],
     [ "len_and_sockaddr", "d7/dd7/libbb_8h.html#d0/d4e/structlen__and__sockaddr", [
       [ "len", "d7/dd7/libbb_8h.html#a22354acc006cc5758fe844fb74b8d6b2", null ],
-      [ "u", "d7/dd7/libbb_8h.html#a51243fb76aa8c74d83daf48b3ba73c36", null ]
+      [ "u", "d7/dd7/libbb_8h.html#ae6c30fbf619e88cb18f8c97e5dfdee7c", null ]
     ] ],
     [ "tls_aes", "d7/dd7/libbb_8h.html#d5/de7/structtls__aes", [
       [ "key", "d7/dd7/libbb_8h.html#a59853debff9e90128ad877f14c26ec9f", null ],

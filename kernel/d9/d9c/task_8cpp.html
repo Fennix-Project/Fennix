@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -167,16 +167,16 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d9c/task_8cpp_source.html#l00308">308</a> of file <a class="el" href="../../d9/d9c/task_8cpp_source.html">task.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    {</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;        SmartLock(TaskingLock);</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> TCB(<span class="keyword">this</span>, Parent, <a class="code" href="../../d0/da5/Fex_8hpp.html#af279c0af4cb38234d36db472572d28b3">EntryPoint</a>,</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;                       argv, envp, auxv, arch,</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;                       Compatibility, ThreadNotReady);</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    }</div>
-<div class="ttc" id="aFex_8hpp_html_af279c0af4cb38234d36db472572d28b3"><div class="ttname"><a href="../../d0/da5/Fex_8hpp.html#af279c0af4cb38234d36db472572d28b3">EntryPoint</a></div><div class="ttdeci">int(* EntryPoint)(void *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/da5/Fex_8hpp_source.html#l00003">Fex.hpp:3</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d9/d9c/task_8cpp_source.html#l00297">297</a> of file <a class="el" href="../../d9/d9c/task_8cpp_source.html">task.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    {</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        SmartLock(TaskingLock);</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> TCB(<span class="keyword">this</span>, Parent, EntryPoint,</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;                       argv, envp, auxv, arch,</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;                       <a class="code" href="../../dd/d5f/signal_8hpp.html#a09b862dc967aee9e9c4d5a0c594c5fc3">Compatibility</a>, ThreadNotReady);</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    }</div>
+<div class="ttc" id="asignal_8hpp_html_a09b862dc967aee9e9c4d5a0c594c5fc3"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a09b862dc967aee9e9c4d5a0c594c5fc3">Compatibility</a></div><div class="ttdeci">int Compatibility</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00010">signal.hpp:10</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/da5/Fex_8hpp_source.html#l00003">EntryPoint</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00010">Compatibility</a>.</p>
 
 </div>
 </div>

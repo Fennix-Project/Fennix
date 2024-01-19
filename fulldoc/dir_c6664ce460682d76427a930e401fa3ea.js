@@ -15,5 +15,6 @@ var dir_c6664ce460682d76427a930e401fa3ea =
     [ "simd_memcpy.cpp", "d6/d51/simd__memcpy_8cpp.html", "d6/d51/simd__memcpy_8cpp" ],
     [ "simd_memmove.cpp", "d0/d0c/simd__memmove_8cpp.html", "d0/d0c/simd__memmove_8cpp" ],
     [ "simd_memset.cpp", "d1/dcf/simd__memset_8cpp.html", "d1/dcf/simd__memset_8cpp" ],
+    [ "simd_strlen.cpp", "dd/d3d/simd__strlen_8cpp.html", "dd/d3d/simd__strlen_8cpp" ],
     [ "targp.c", "d5/d3e/targp_8c.html", "d5/d3e/targp_8c" ]
 ];

@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Userspace
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Fennix Userspace Documentation</div>
+   <div id="projectbrief">Userspace Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -92,6 +92,9 @@ $(document).ready(function(){initNavTree('d6/d33/echo_2echo_8c.html','../../'); 
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+<code>#include &lt;getopt.h&gt;</code><br />
 </div>
 <p><a href="../../d6/d33/echo_2echo_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -127,25 +130,76 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d33/echo_2echo_8c_source.html#l00003">3</a> of file <a class="el" href="../../d6/d33/echo_2echo_8c_source.html">echo.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/dd0/bash_2test_8c.html#ad1447518f4372828b8435ae82e48499e">argc</a> == 1)</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    {</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <a class="code" href="../../dc/d4d/libc_2include_2stdio_8h.html#a98631211a4a8aee62f572375d5b637be">printf</a>(<span class="stringliteral">&quot;Usage: echo [args]\n&quot;</span>);</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d6/d33/echo_2echo_8c_source.html#l00006">6</a> of file <a class="el" href="../../d6/d33/echo_2echo_8c_source.html">echo.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">int</span> enableEscapes = 0;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordtype">int</span> disableNewline = 0;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = 1; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; <a class="code" href="../../d9/dd0/bash_2test_8c.html#ad1447518f4372828b8435ae82e48499e">argc</a>; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>++)</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <a class="code" href="../../dc/d4d/libc_2include_2stdio_8h.html#a98631211a4a8aee62f572375d5b637be">printf</a>(<span class="stringliteral">&quot;%s &quot;</span>, <a class="code" href="../../d9/dd0/bash_2test_8c.html#af2efa898e9eed6fe6715279cb1ec35b0">argv</a>[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>]);</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="../../dc/d4d/libc_2include_2stdio_8h.html#a98631211a4a8aee62f572375d5b637be">printf</a>(<span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d4/dcd/nmeter_8c.html#a6b9d817d08c1417f5c533eb8ad775312">opt</a>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">while</span> ((<a class="code" href="../../d4/dcd/nmeter_8c.html#a6b9d817d08c1417f5c533eb8ad775312">opt</a> = <a class="code" href="../../d4/d31/musl_2include_2getopt_8h.html#acbd3b0584888b80a8e7f16d4d794eb2c">getopt</a>(<a class="code" href="../../d9/dd0/bash_2test_8c.html#ad1447518f4372828b8435ae82e48499e">argc</a>, <a class="code" href="../../d9/dd0/bash_2test_8c.html#af2efa898e9eed6fe6715279cb1ec35b0">argv</a>, <span class="stringliteral">&quot;neE&quot;</span>)) != -1)</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    {</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keywordflow">switch</span> (<a class="code" href="../../d4/dcd/nmeter_8c.html#a6b9d817d08c1417f5c533eb8ad775312">opt</a>)</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        {</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordflow">case</span> <span class="charliteral">&#39;n&#39;</span>:</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;            disableNewline = 1;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordflow">case</span> <span class="charliteral">&#39;e&#39;</span>:</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            enableEscapes = 1;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">case</span> <span class="charliteral">&#39;E&#39;</span>:</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            enableEscapes = 0;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordflow">case</span> <span class="charliteral">&#39;?&#39;</span>:</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <a class="code" href="../../d9/df8/include_2ansi__stdlib_8h.html#a358d2e2397ca11ccd17553e3c40e7901">exit</a>(<a class="code" href="../../d9/d84/man2html_8c.html#a73efe787c131b385070f25d18b7c9aa4">EXIT_FAILURE</a>);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        }</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    (void)enableEscapes;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">size_t</span> totalLength = 0;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = <a class="code" href="../../d8/d50/rl_8c.html#ad5e1c16213bbee2d5e8cc363309f418c">optind</a>; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; <a class="code" href="../../d9/dd0/bash_2test_8c.html#ad1447518f4372828b8435ae82e48499e">argc</a>; ++<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>)</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        totalLength += <a class="code" href="../../dc/da4/libc_2include_2string_8h.html#a008e171a518fe0e0352f31b245e03875">strlen</a>(<a class="code" href="../../d9/dd0/bash_2test_8c.html#af2efa898e9eed6fe6715279cb1ec35b0">argv</a>[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>]) + 1;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">char</span> *result = (<span class="keywordtype">char</span> *)<a class="code" href="../../d7/d55/alloca_8c.html#acf143577800376dd931c059ecc61ba06">malloc</a>(totalLength);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">if</span> (!result)</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="../../d7/d2f/libc_2include_2stdlib_8h.html#ab39f9634fa53ffd52b87431f3afab11b">perror</a>(<span class="stringliteral">&quot;Memory allocation error&quot;</span>);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="../../d9/df8/include_2ansi__stdlib_8h.html#a358d2e2397ca11ccd17553e3c40e7901">exit</a>(<a class="code" href="../../d9/d84/man2html_8c.html#a73efe787c131b385070f25d18b7c9aa4">EXIT_FAILURE</a>);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    result[0] = <span class="charliteral">&#39;\0&#39;</span>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = <a class="code" href="../../d8/d50/rl_8c.html#ad5e1c16213bbee2d5e8cc363309f418c">optind</a>; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; <a class="code" href="../../d9/dd0/bash_2test_8c.html#ad1447518f4372828b8435ae82e48499e">argc</a>; ++<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>)</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    {</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <a class="code" href="../../d6/d32/musl_2include_2string_8h.html#ae9574a0c155c11ae729dc92f054ed22c">strcat</a>(result, <a class="code" href="../../d9/dd0/bash_2test_8c.html#af2efa898e9eed6fe6715279cb1ec35b0">argv</a>[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>]);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; <a class="code" href="../../d9/dd0/bash_2test_8c.html#ad1447518f4372828b8435ae82e48499e">argc</a> - 1)</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <a class="code" href="../../d6/d32/musl_2include_2string_8h.html#ae9574a0c155c11ae729dc92f054ed22c">strcat</a>(result, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="../../dc/d4d/libc_2include_2stdio_8h.html#a98631211a4a8aee62f572375d5b637be">printf</a>(<span class="stringliteral">&quot;%s&quot;</span>, result);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">if</span> (!disableNewline)</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <a class="code" href="../../dc/d4d/libc_2include_2stdio_8h.html#a98631211a4a8aee62f572375d5b637be">printf</a>(<span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="../../d5/db0/dynlink_8c.html#a2c6efa7679f8cd9f61af96e105017560">free</a>(result);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;}</div>
+<div class="ttc" id="aalloca_8c_html_acf143577800376dd931c059ecc61ba06"><div class="ttname"><a href="../../d7/d55/alloca_8c.html#acf143577800376dd931c059ecc61ba06">malloc</a></div><div class="ttdeci">#define malloc</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d55/alloca_8c_source.html#l00079">alloca.c:79</a></div></div>
 <div class="ttc" id="abash_2test_8c_html_ad1447518f4372828b8435ae82e48499e"><div class="ttname"><a href="../../d9/dd0/bash_2test_8c.html#ad1447518f4372828b8435ae82e48499e">argc</a></div><div class="ttdeci">static int argc</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dd0/bash_2test_8c_source.html#l00109">test.c:109</a></div></div>
 <div class="ttc" id="abash_2test_8c_html_af2efa898e9eed6fe6715279cb1ec35b0"><div class="ttname"><a href="../../d9/dd0/bash_2test_8c.html#af2efa898e9eed6fe6715279cb1ec35b0">argv</a></div><div class="ttdeci">static char ** argv</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dd0/bash_2test_8c_source.html#l00110">test.c:110</a></div></div>
+<div class="ttc" id="adynlink_8c_html_a2c6efa7679f8cd9f61af96e105017560"><div class="ttname"><a href="../../d5/db0/dynlink_8c.html#a2c6efa7679f8cd9f61af96e105017560">free</a></div><div class="ttdeci">#define free</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/db0/dynlink_8c_source.html#l00036">dynlink.c:36</a></div></div>
 <div class="ttc" id="agettextP_8h_html_a68428151ad44e31b19041cdeb8972a91"><div class="ttname"><a href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a></div><div class="ttdeci">static nls_uint32 nls_uint32 i</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d71/gettextP_8h_source.html#l00074">gettextP.h:74</a></div></div>
+<div class="ttc" id="ainclude_2ansi__stdlib_8h_html_a358d2e2397ca11ccd17553e3c40e7901"><div class="ttname"><a href="../../d9/df8/include_2ansi__stdlib_8h.html#a358d2e2397ca11ccd17553e3c40e7901">exit</a></div><div class="ttdeci">void exit()</div></div>
 <div class="ttc" id="alibc_2include_2stdio_8h_html_a98631211a4a8aee62f572375d5b637be"><div class="ttname"><a href="../../dc/d4d/libc_2include_2stdio_8h.html#a98631211a4a8aee62f572375d5b637be">printf</a></div><div class="ttdeci">int printf(const char *format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dae/libc_2src_2print_2printf_8c_source.html#l01554">printf.c:1554</a></div></div>
+<div class="ttc" id="alibc_2include_2stdlib_8h_html_ab39f9634fa53ffd52b87431f3afab11b"><div class="ttname"><a href="../../d7/d2f/libc_2include_2stdlib_8h.html#ab39f9634fa53ffd52b87431f3afab11b">perror</a></div><div class="ttdeci">void perror(const char *s)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d79/put_8c_source.html#l00034">put.c:34</a></div></div>
+<div class="ttc" id="alibc_2include_2string_8h_html_a008e171a518fe0e0352f31b245e03875"><div class="ttname"><a href="../../dc/da4/libc_2include_2string_8h.html#a008e171a518fe0e0352f31b245e03875">strlen</a></div><div class="ttdeci">size_t strlen(const char *str)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db0/string_8c_source.html#l00005">string.c:5</a></div></div>
+<div class="ttc" id="aman2html_8c_html_a73efe787c131b385070f25d18b7c9aa4"><div class="ttname"><a href="../../d9/d84/man2html_8c.html#a73efe787c131b385070f25d18b7c9aa4">EXIT_FAILURE</a></div><div class="ttdeci">#define EXIT_FAILURE</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d84/man2html_8c_source.html#l00098">man2html.c:98</a></div></div>
+<div class="ttc" id="amusl_2include_2getopt_8h_html_acbd3b0584888b80a8e7f16d4d794eb2c"><div class="ttname"><a href="../../d4/d31/musl_2include_2getopt_8h.html#acbd3b0584888b80a8e7f16d4d794eb2c">getopt</a></div><div class="ttdeci">int getopt(int, char *const [], const char *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dee/musl_2src_2misc_2getopt_8c_source.html#l00028">getopt.c:28</a></div></div>
+<div class="ttc" id="amusl_2include_2string_8h_html_ae9574a0c155c11ae729dc92f054ed22c"><div class="ttname"><a href="../../d6/d32/musl_2include_2string_8h.html#ae9574a0c155c11ae729dc92f054ed22c">strcat</a></div><div class="ttdeci">char * strcat(char *__restrict, const char *__restrict)</div></div>
+<div class="ttc" id="anmeter_8c_html_a6b9d817d08c1417f5c533eb8ad775312"><div class="ttname"><a href="../../d4/dcd/nmeter_8c.html#a6b9d817d08c1417f5c533eb8ad775312">opt</a></div><div class="ttdeci">char opt</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dcd/nmeter_8c_source.html#l00626">nmeter.c:626</a></div></div>
+<div class="ttc" id="arl_8c_html_ad5e1c16213bbee2d5e8cc363309f418c"><div class="ttname"><a href="../../d8/d50/rl_8c.html#ad5e1c16213bbee2d5e8cc363309f418c">optind</a></div><div class="ttdeci">int optind</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dee/musl_2src_2misc_2getopt_8c_source.html#l00011">getopt.c:11</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/dd0/bash_2test_8c_source.html#l00109">argc</a>, <a class="el" href="../../d9/dd0/bash_2test_8c_source.html#l00110">argv</a>, <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, and <a class="el" href="../../d1/dae/libc_2src_2print_2printf_8c_source.html#l01554">printf()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/dd0/bash_2test_8c_source.html#l00109">argc</a>, <a class="el" href="../../d9/dd0/bash_2test_8c_source.html#l00110">argv</a>, <a class="el" href="../../d9/df8/include_2ansi__stdlib_8h.html#a358d2e2397ca11ccd17553e3c40e7901">exit()</a>, <a class="el" href="../../d9/d84/man2html_8c_source.html#l00098">EXIT_FAILURE</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00036">free</a>, <a class="el" href="../../d7/dee/musl_2src_2misc_2getopt_8c_source.html#l00028">getopt()</a>, <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../d7/d55/alloca_8c_source.html#l00079">malloc</a>, <a class="el" href="../../d4/dcd/nmeter_8c_source.html#l00626">opt</a>, <a class="el" href="../../d7/dee/musl_2src_2misc_2getopt_8c_source.html#l00011">optind</a>, <a class="el" href="../../df/d79/put_8c_source.html#l00034">perror()</a>, <a class="el" href="../../d1/dae/libc_2src_2print_2printf_8c_source.html#l01554">printf()</a>, <a class="el" href="../../d6/d32/musl_2include_2string_8h.html#ae9574a0c155c11ae729dc92f054ed22c">strcat()</a>, and <a class="el" href="../../d1/db0/string_8c_source.html#l00005">strlen()</a>.</p>
 
 </div>
 </div>

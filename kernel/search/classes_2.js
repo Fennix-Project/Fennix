@@ -1,19 +1,9 @@
 var searchData=
 [
-  ['acpi_7707',['ACPI',['../d3/d21/classACPI_1_1ACPI.html',1,'ACPI']]],
-  ['acpiheader_7708',['ACPIHeader',['../d3/d21/classACPI_1_1ACPI.html#d1/de6/structACPI_1_1ACPI_1_1ACPIHeader',1,'ACPI::ACPI']]],
-  ['allocatedpages_7709',['AllocatedPages',['../dc/dbe/classMemory_1_1StackGuard.html#df/d03/structMemory_1_1StackGuard_1_1AllocatedPages',1,'Memory::StackGuard::AllocatedPages'],['../d5/d49/classMemory_1_1VirtualMemoryArea.html#dd/d95/structMemory_1_1VirtualMemoryArea_1_1AllocatedPages',1,'Memory::VirtualMemoryArea::AllocatedPages']]],
-  ['apic_7710',['APIC',['../d4/da9/classAPIC_1_1APIC.html',1,'APIC']]],
-  ['apicheader_7711',['APICHeader',['../da/db9/classACPI_1_1MADT.html#d9/d48/structACPI_1_1MADT_1_1APICHeader',1,'ACPI::MADT']]],
-  ['arith64_5fword_7712',['arith64_word',['../dd/ddd/arithmetic__operations_8c.html#d3/d6a/unionarith64__word',1,'']]],
-  ['arith64_5fword_2es32_7713',['arith64_word.s32',['../dd/ddd/arithmetic__operations_8c.html#d6/d18/structarith64__word_8s32',1,'']]],
-  ['arith64_5fword_2eu32_7714',['arith64_word.u32',['../dd/ddd/arithmetic__operations_8c.html#d3/da7/structarith64__word_8u32',1,'']]],
-  ['arp_7715',['ARP',['../d9/d9b/classNetworkARP_1_1ARP.html',1,'NetworkARP']]],
-  ['arpheader_7716',['ARPHeader',['../d2/df9/namespaceNetworkARP.html#d7/dcf/structNetworkARP_1_1ARPHeader',1,'NetworkARP']]],
-  ['array_5fout_5fof_5fbounds_5fdata_7717',['array_out_of_bounds_data',['../d0/d1f/ubsan_8h.html#d7/d7f/structarray__out__of__bounds__data',1,'']]],
-  ['atexit_5ffunc_5fentry_5ft_7718',['atexit_func_entry_t',['../d3/dee/struct____cxxabiv1_1_1atexit__func__entry__t.html',1,'__cxxabiv1']]],
-  ['atomic_5fuint64_5ft_7719',['atomic_uint64_t',['../dd/ddd/arithmetic__operations_8c.html#d0/d1b/structatomic__uint64__t',1,'']]],
-  ['auto_5fptr_7720',['auto_ptr',['../d8/dcc/namespacestd.html#d3/d99/classstd_1_1auto__ptr',1,'std']]],
-  ['autoswitchpagetable_7721',['AutoSwitchPageTable',['../da/de3/classAutoSwitchPageTable.html',1,'']]],
-  ['auxiliaryvector_7722',['AuxiliaryVector',['../df/d31/abi_8h.html#db/d1d/structAuxiliaryVector',1,'']]]
+  ['bgrtheader_8703',['BGRTHeader',['../d3/d21/classACPI_1_1ACPI.html#d4/d38/structACPI_1_1ACPI_1_1BGRTHeader',1,'ACPI::ACPI']]],
+  ['biosparameterblock_8704',['BIOSParameterBlock',['../d8/dbb/classvfs_1_1FAT.html#d3/d49/structvfs_1_1FAT_1_1BIOSParameterBlock',1,'vfs::FAT']]],
+  ['bitmap_8705',['Bitmap',['../d3/d19/classBitmap.html',1,'']]],
+  ['block_8706',['Block',['../d6/da3/classXalloc_1_1Block.html',1,'Xalloc::Block'],['../d9/dd9/classXalloc_1_1V2_1_1Block.html',1,'Xalloc::V2::Block']]],
+  ['bootinfo_8707',['BootInfo',['../db/d96/structBootInfo.html',1,'']]],
+  ['bootloaderinfo_8708',['BootloaderInfo',['../db/d96/structBootInfo.html#d4/d24/structBootInfo_1_1BootloaderInfo',1,'BootInfo']]]
 ];

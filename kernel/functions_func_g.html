@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -153,7 +153,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 , <a class="el" href="d8/d2b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000008.html#a700c6b0de14ebc0094f62e39699f8998">CPU::x86::Intel::CPUID0x80000008</a>
 , <a class="el" href="d8/d45/structCPU_1_1x86_1_1Intel_1_1CPUID0x8000000A.html#ae367777b6fc9f7eb2ac6d76c0412d91f">CPU::x86::Intel::CPUID0x8000000A</a>
 , <a class="el" href="db/d1a/classHashMap.html#aefcbc87bbe2d6fe3d300aa5c9fb809ee">HashMap&lt; K, V &gt;</a>
-, <a class="el" href="df/d1d/classMemory_1_1PageTable.html#a3f53629fd4132647b236f5f9b467d8fd">Memory::PageTable</a>
+, <a class="el" href="df/d1d/classMemory_1_1PageTable.html#aeec8edc55ec4e6aaa5476241655e5cf6">Memory::PageTable</a>
 , <a class="el" href="d5/ddc/classMemory_1_1SmartHeap.html#a9a8c00f62d79439d1ce9fa10af1f6242">Memory::SmartHeap</a>
 </li>
 <li>get()
@@ -169,6 +169,9 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 </li>
 <li>GetACPI()
 : <a class="el" href="d0/df9/classPower_1_1Power.html#a4da25ce55b83a893d1c217a23a443c8d">Power::Power</a>
+</li>
+<li>GetAction()
+: <a class="el" href="d2/d8b/classTasking_1_1Signal.html#a0203f84b07a0c465276e9e088b5106e4">Tasking::Signal</a>
 </li>
 <li>GetActiveTimer()
 : <a class="el" href="dd/d8d/classTime_1_1time.html#a22a015ee619926c153b21d7741cceed5">Time::time</a>
@@ -200,6 +203,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 </li>
 <li>GetContext()
 : <a class="el" href="d6/d17/classTasking_1_1PCB.html#aa99a374a800ccf2649fca58ee2a1d200">Tasking::PCB</a>
+, <a class="el" href="d2/d8b/classTasking_1_1Signal.html#a1e4713d56c66dc41ed92f9071469e98c">Tasking::Signal</a>
 , <a class="el" href="da/daf/classTasking_1_1TCB.html#a93dab82205d4cb609fcd7b5524871308">Tasking::TCB</a>
 </li>
 <li>GetCounter()
@@ -216,14 +220,20 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 <li>GetCurrentThread()
 : <a class="el" href="dc/dc5/classTasking_1_1Task.html#a10a2b0db88f5a29369b03218d797e527">Tasking::Task</a>
 </li>
+<li>GetDescriptor()
+: <a class="el" href="da/d88/classvfs_1_1FileDescriptorTable.html#aba00db5d3c4264a9ef72f51086546e0d">vfs::FileDescriptorTable</a>
+</li>
 <li>GetDevices()
-: <a class="el" href="d8/d81/classPCI_1_1PCI.html#a95c7313658657cff669e4366e98827b3">PCI::PCI</a>
+: <a class="el" href="d4/dad/classPCI_1_1Manager.html#a168c35931536a3bdafa81956fbc9bda9">PCI::Manager</a>
+</li>
+<li>GetDrivers()
+: <a class="el" href="d9/d0b/classDriver_1_1Manager.html#a213a1b8a3cdb653a039113560b5aab15">Driver::Manager</a>
 </li>
 <li>GetDSDT()
 : <a class="el" href="d0/df9/classPower_1_1Power.html#a6873600aa7f666f8e8a6eaaa1afcde15">Power::Power</a>
 </li>
 <li>GetDupFildes()
-: <a class="el" href="da/d88/classvfs_1_1FileDescriptorTable.html#a2c5127063f0e02b3046cc7eefdca6ab7">vfs::FileDescriptorTable</a>
+: <a class="el" href="da/d88/classvfs_1_1FileDescriptorTable.html#a3bb4215f88ae732e163b7f46bbfb3748">vfs::FileDescriptorTable</a>
 </li>
 <li>GetExitCode()
 : <a class="el" href="da/daf/classTasking_1_1TCB.html#a3dcbdaf9bce6d5d4c4a197df10d9eb59">Tasking::TCB</a>
@@ -232,10 +242,16 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 : <a class="el" href="d8/dbb/classvfs_1_1FAT.html#af7c83f2a94686ccb02b5710ea2027f78">vfs::FAT</a>
 </li>
 <li>GetFileDescriptor()
-: <a class="el" href="da/d88/classvfs_1_1FileDescriptorTable.html#a21522f60b0619042087bbc57d61ec2b2">vfs::FileDescriptorTable</a>
+: <a class="el" href="da/d88/classvfs_1_1FileDescriptorTable.html#aa026e5da63da0e5cad068a6943963a3a">vfs::FileDescriptorTable</a>
 </li>
 <li>GetFileDescriptors()
 : <a class="el" href="da/d88/classvfs_1_1FileDescriptorTable.html#ac48524ef33feca02a1d46c52d2c55a6d">vfs::FileDescriptorTable</a>
+</li>
+<li>GetFileDescriptorsDuplicates()
+: <a class="el" href="da/d88/classvfs_1_1FileDescriptorTable.html#a76ea5d1be6063322c5cc58a878bc3051">vfs::FileDescriptorTable</a>
+</li>
+<li>GetFlags()
+: <a class="el" href="da/d88/classvfs_1_1FileDescriptorTable.html#a4199a9485e50d6f1b05a1064d751c0bf">vfs::FileDescriptorTable</a>
 </li>
 <li>GetFramebufferStruct()
 : <a class="el" href="db/d81/classVideo_1_1Display.html#ac2d5efb2b3d44930e47be2911caa5b99">Video::Display</a>
@@ -248,9 +264,6 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 </li>
 <li>GetFreeMemory()
 : <a class="el" href="d6/d05/classMemory_1_1Physical.html#a21f0b5f96ec2fd2610733bb94e69209e">Memory::Physical</a>
-</li>
-<li>GetHandles()
-: <a class="el" href="df/d7e/classInterProcessCommunication_1_1IPC.html#ad23e398ece52a39146f34c033beccfdb">InterProcessCommunication::IPC</a>
 </li>
 <li>GetImage()
 : <a class="el" href="d0/dcc/classSymbolResolver_1_1Symbols.html#a2ba7f8a0866432abf64c000db7091009">SymbolResolver::Symbols</a>
@@ -267,8 +280,14 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 <li>GetInterruptNumber()
 : <a class="el" href="dd/dae/classInterrupts_1_1Handler.html#af5d7472c9bff85e2ed24fe9f79ec8a33">Interrupts::Handler</a>
 </li>
+<li>GetKernelProcess()
+: <a class="el" href="dc/dc5/classTasking_1_1Task.html#a629fd107abb054f5e15b3fbc7ab7e4b1">Tasking::Task</a>
+</li>
 <li>GetLastCore()
 : <a class="el" href="dc/dc5/classTasking_1_1Task.html#aaa9df9519eaa02bb28d8c15ec87df49f">Tasking::Task</a>
+</li>
+<li>GetLastSignal()
+: <a class="el" href="d2/d8b/classTasking_1_1Signal.html#a5f55d1a9558765f28194b3973f8d3dc3">Tasking::Signal</a>
 </li>
 <li>GetLastTaskTicks()
 : <a class="el" href="dc/dc5/classTasking_1_1Task.html#ae4808b2cbb64d48a772d6a5b27b852ad">Tasking::Task</a>
@@ -279,8 +298,8 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 <li>GetMapType()
 : <a class="el" href="db/d82/classMemory_1_1Virtual.html#a812b887f09251adf70a99127c3fc2246">Memory::Virtual</a>
 </li>
-<li>GetModules()
-: <a class="el" href="de/d33/classModule_1_1Module.html#a7b3d20e716b0c0ea8c60302b4da48ed5">Module::Module</a>
+<li>GetMask()
+: <a class="el" href="d2/d8b/classTasking_1_1Signal.html#a84e7c9b12a25f20026d85cbaa2b5227f">Tasking::Signal</a>
 </li>
 <li>GetNanosecondsSinceClassCreation()
 : <a class="el" href="d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a71c33d56f6c1050f1e364ca5c84000a6">Time::HighPrecisionEventTimer</a>
@@ -324,13 +343,16 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 : <a class="el" href="dc/dc5/classTasking_1_1Task.html#a886f438a2728b169062df5000470e2ff">Tasking::Task</a>
 </li>
 <li>GetProcessList()
-: <a class="el" href="dc/dc5/classTasking_1_1Task.html#a38f561c4ca10088bb316d2d624357338">Tasking::Task</a>
+: <a class="el" href="dc/dc5/classTasking_1_1Task.html#a41ffe2449c44b0b8317f6fa00217a843">Tasking::Task</a>
 </li>
 <li>GetProtocol()
 : <a class="el" href="d1/dd4/classNetworkIPv4_1_1IPv4Events.html#ad5fa7aa0ec7aca0f3c3dd677dc7c3f4b">NetworkIPv4::IPv4Events</a>
 </li>
 <li>GetPTE()
 : <a class="el" href="db/d82/classMemory_1_1Virtual.html#abc95ab992f2389590be9c1089f8a51c7">Memory::Virtual</a>
+</li>
+<li>GetRefNode()
+: <a class="el" href="da/d88/classvfs_1_1FileDescriptorTable.html#ae2921daa871f6fca4770ff10cf42a64c">vfs::FileDescriptorTable</a>
 </li>
 <li>GetRegisteredPort()
 : <a class="el" href="d6/d4e/classUniversalAsynchronousReceiverTransmitter_1_1Events.html#a11b4cd6d462dd7cbe6c08a8e95e6df63">UniversalAsynchronousReceiverTransmitter::Events</a>
@@ -380,8 +402,11 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 <li>GetSupportedTimers()
 : <a class="el" href="dd/d8d/classTime_1_1time.html#ab85791c8593419d775b753c1d21da9f9">Time::time</a>
 </li>
-<li>GetSymbolFromAddress()
-: <a class="el" href="d0/dcc/classSymbolResolver_1_1Symbols.html#a25044e347cfff3b35579a1eaa71aa55a">SymbolResolver::Symbols</a>
+<li>GetSymbol()
+: <a class="el" href="d0/dcc/classSymbolResolver_1_1Symbols.html#a5899ad132c86d2faa8aa8f131c1274b1">SymbolResolver::Symbols</a>
+</li>
+<li>GetSymTable()
+: <a class="el" href="d0/dcc/classSymbolResolver_1_1Symbols.html#aa1106a9b56d20d8100adf0a4d0b1dcda">SymbolResolver::Symbols</a>
 </li>
 <li>GetTable()
 : <a class="el" href="d5/d49/classMemory_1_1VirtualMemoryArea.html#a8056bc267c3fcecf9468d432047ceaf2">Memory::VirtualMemoryArea</a>

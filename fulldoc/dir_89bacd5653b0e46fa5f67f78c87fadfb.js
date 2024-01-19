@@ -85,22 +85,21 @@ var dir_89bacd5653b0e46fa5f67f78c87fadfb =
         [ "offset", "d0/d04/classvfs_1_1Initrd.html#a6d67f5c47fdc9b94d60aa1c8d5241f1d", null ]
       ] ]
     ] ],
-    [ "ioctl.hpp", "d9/df4/ioctl_8hpp.html", [
-      [ "winsize", "d9/df4/ioctl_8hpp.html#da/d40/structwinsize", [
-        [ "ws_col", "d9/df4/ioctl_8hpp.html#a80bedf71a49fd324e0d92d0702cc7005", null ],
-        [ "ws_row", "d9/df4/ioctl_8hpp.html#a73698fa1d966374b0701e4bf225f0141", null ],
-        [ "ws_xpixel", "d9/df4/ioctl_8hpp.html#a98b55f3411b646eca1e13cb52c5795e4", null ],
-        [ "ws_ypixel", "d9/df4/ioctl_8hpp.html#aca568563970602b60eb32fc17bd5a630", null ]
-      ] ]
-    ] ],
+    [ "ioctl.hpp", "d9/df4/ioctl_8hpp.html", "d9/df4/ioctl_8hpp" ],
     [ "mounts.hpp", "d4/d48/mounts_8hpp.html", [
       [ "vfsRoot", "dd/da8/classvfs_1_1vfsRoot.html", "dd/da8/classvfs_1_1vfsRoot" ],
       [ "NullDevice", "d7/d11/classvfs_1_1NullDevice.html", "d7/d11/classvfs_1_1NullDevice" ],
       [ "RandomDevice", "de/d28/classvfs_1_1RandomDevice.html", "de/d28/classvfs_1_1RandomDevice" ],
       [ "ZeroDevice", "df/d89/classvfs_1_1ZeroDevice.html", "df/d89/classvfs_1_1ZeroDevice" ],
+      [ "KConDevice", "d4/d46/classvfs_1_1KConDevice.html", "d4/d46/classvfs_1_1KConDevice" ],
       [ "TTYDevice", "d2/db2/classvfs_1_1TTYDevice.html", "d2/db2/classvfs_1_1TTYDevice" ],
+      [ "MasterPTY", "da/df7/classvfs_1_1MasterPTY.html", "da/df7/classvfs_1_1MasterPTY" ],
+      [ "SlavePTY", "dd/d30/classvfs_1_1SlavePTY.html", "dd/d30/classvfs_1_1SlavePTY" ],
+      [ "PTYDevice", "d0/d63/classvfs_1_1PTYDevice.html", "d0/d63/classvfs_1_1PTYDevice" ],
       [ "PTMXDevice", "da/d6a/classvfs_1_1PTMXDevice.html", "da/d6a/classvfs_1_1PTMXDevice" ]
     ] ],
+    [ "termios-bits.hpp", "d0/dd8/termios-bits_8hpp.html", "d0/dd8/termios-bits_8hpp" ],
+    [ "termios.hpp", "d4/d0a/termios_8hpp.html", "d4/d0a/termios_8hpp" ],
     [ "ustar.hpp", "d5/def/ustar_8hpp.html", [
       [ "USTARNode", "d7/d5b/classvfs_1_1USTARNode.html", "d7/d5b/classvfs_1_1USTARNode" ],
       [ "USTAR", "d7/d0a/classvfs_1_1USTAR.html", "d7/d0a/classvfs_1_1USTAR" ],

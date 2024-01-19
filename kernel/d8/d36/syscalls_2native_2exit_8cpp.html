@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -86,7 +86,6 @@ $(document).ready(function(){initNavTree('d8/d36/syscalls_2native_2exit_8cpp.htm
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">exit.cpp File Reference</div>  </div>
@@ -100,37 +99,14 @@ $(document).ready(function(){initNavTree('d8/d36/syscalls_2native_2exit_8cpp.htm
 <code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d2/d6e/syscalls_8h_source.html">../../syscalls.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/daa/kernel_8h_source.html">../../kernel.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d24/ipc_8h_source.html">../../ipc.h</a>&quot;</code><br />
 </div>
 <p><a href="../../d8/d36/syscalls_2native_2exit_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:aa07f2f09156b7539a5c1bb0a7334ddeb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d36/syscalls_2native_2exit_8cpp.html#aa07f2f09156b7539a5c1bb0a7334ddeb">SysFrm</a>&#160;&#160;&#160;<a class="el" href="../../d0/d35/syscalls_8hpp.html#d3/d19/structSyscallsFrame">SyscallsFrame</a></td></tr>
-<tr class="separator:aa07f2f09156b7539a5c1bb0a7334ddeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a30e47ab2dbde9d8cdcc2d2c4ac49f56d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a5b6df4fe38493e14648842364a76075f">__noreturn</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d36/syscalls_2native_2exit_8cpp.html#a30e47ab2dbde9d8cdcc2d2c4ac49f56d">sys_exit</a> (<a class="el" href="../../db/d9b/native_8cpp.html#aa07f2f09156b7539a5c1bb0a7334ddeb">SysFrm</a> *, int status)</td></tr>
+<tr class="memitem:a30e47ab2dbde9d8cdcc2d2c4ac49f56d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a5b6df4fe38493e14648842364a76075f">__noreturn</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d36/syscalls_2native_2exit_8cpp.html#a30e47ab2dbde9d8cdcc2d2c4ac49f56d">sys_exit</a> (<a class="el" href="../../d0/d35/syscalls_8hpp.html#aa07f2f09156b7539a5c1bb0a7334ddeb">SysFrm</a> *, int status)</td></tr>
 <tr class="separator:a30e47ab2dbde9d8cdcc2d2c4ac49f56d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="aa07f2f09156b7539a5c1bb0a7334ddeb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa07f2f09156b7539a5c1bb0a7334ddeb">&#9670;&nbsp;</a></span>SysFrm</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SysFrm&#160;&#160;&#160;<a class="el" href="../../d0/d35/syscalls_8hpp.html#d3/d19/structSyscallsFrame">SyscallsFrame</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d8/d36/syscalls_2native_2exit_8cpp_source.html#l00038">38</a> of file <a class="el" href="../../d8/d36/syscalls_2native_2exit_8cpp_source.html">exit.cpp</a>.</p>
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a30e47ab2dbde9d8cdcc2d2c4ac49f56d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a30e47ab2dbde9d8cdcc2d2c4ac49f56d">&#9670;&nbsp;</a></span>sys_exit()</h2>
@@ -141,7 +117,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="../../d6/de6/include_2types_8h.html#a5b6df4fe38493e14648842364a76075f">__noreturn</a> void sys_exit </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d9b/native_8cpp.html#aa07f2f09156b7539a5c1bb0a7334ddeb">SysFrm</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/d35/syscalls_8hpp.html#aa07f2f09156b7539a5c1bb0a7334ddeb">SysFrm</a> *&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -158,40 +134,33 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d36/syscalls_2native_2exit_8cpp_source.html#l00047">47</a> of file <a class="el" href="../../d8/d36/syscalls_2native_2exit_8cpp_source.html">exit.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;{</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="../../da/daf/classTasking_1_1TCB.html">TCB</a> *t = <a class="code" href="../../d8/da1/task_8hpp.html#a1cf492bc489f4879fe6f67325e8f8dc7">thisThread</a>;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;Userspace thread %s(%d) exited with code %d (%#x)&quot;</span>,</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;          t-&gt;<a class="code" href="../../da/daf/classTasking_1_1TCB.html#aedede7d8d3c42d330b86d08a4ecb5ac9">Name</a>,</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;          t-&gt;<a class="code" href="../../da/daf/classTasking_1_1TCB.html#ac9c92137d88ac3b7ac0a88f042a05e9b">ID</a>, status,</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;          status &lt; 0 ? -status : status);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    t-&gt;<a class="code" href="../../da/daf/classTasking_1_1TCB.html#aab475917d6b07f97eb5f90fa729b0025">ExitCode</a> = status;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    t-&gt;<a class="code" href="../../da/daf/classTasking_1_1TCB.html#a066ede1360169217c73ed7162b42024a">KeepTime</a> = <a class="code" href="../../dd/d24/kernel_8cpp.html#ad5fb15538e6988f0db36d754a4a7d08d">TimeManager</a>-&gt;<a class="code" href="../../dd/d8d/classTime_1_1time.html#a9359bb42e35516bd19f02e8855c6200a">CalculateTarget</a>(10, <a class="code" href="../../d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1a040adf802521b00a87d0826c581c62b1">Time::Seconds</a>);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    t-&gt;<a class="code" href="../../da/daf/classTasking_1_1TCB.html#a11cb00f7e83521706ca00237b73fac67">State</a> = <a class="code" href="../../d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74a773f96280709f0b4ee36122b01357f51">Terminated</a>;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">while</span> (<span class="keyword">true</span>)</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        t-&gt;<a class="code" href="../../da/daf/classTasking_1_1TCB.html#a93dab82205d4cb609fcd7b5524871308">GetContext</a>()-&gt;<a class="code" href="../../dc/dc5/classTasking_1_1Task.html#af6e841b2fdb40756718f9842d97fb6c1">Yield</a>();</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    __builtin_unreachable();</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
-<div class="ttc" id="aclassTasking_1_1TCB_html"><div class="ttname"><a href="../../da/daf/classTasking_1_1TCB.html">Tasking::TCB</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00220">task.hpp:221</a></div></div>
-<div class="ttc" id="aclassTasking_1_1TCB_html_a066ede1360169217c73ed7162b42024a"><div class="ttname"><a href="../../da/daf/classTasking_1_1TCB.html#a066ede1360169217c73ed7162b42024a">Tasking::TCB::KeepTime</a></div><div class="ttdeci">std::atomic_size_t KeepTime</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00262">task.hpp:262</a></div></div>
-<div class="ttc" id="aclassTasking_1_1TCB_html_a11cb00f7e83521706ca00237b73fac67"><div class="ttname"><a href="../../da/daf/classTasking_1_1TCB.html#a11cb00f7e83521706ca00237b73fac67">Tasking::TCB::State</a></div><div class="ttdeci">std::atomic&lt; TaskState &gt; State</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00260">task.hpp:260</a></div></div>
-<div class="ttc" id="aclassTasking_1_1TCB_html_a93dab82205d4cb609fcd7b5524871308"><div class="ttname"><a href="../../da/daf/classTasking_1_1TCB.html#a93dab82205d4cb609fcd7b5524871308">Tasking::TCB::GetContext</a></div><div class="ttdeci">class Task * GetContext()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00250">task.hpp:250</a></div></div>
-<div class="ttc" id="aclassTasking_1_1TCB_html_aab475917d6b07f97eb5f90fa729b0025"><div class="ttname"><a href="../../da/daf/classTasking_1_1TCB.html#aab475917d6b07f97eb5f90fa729b0025">Tasking::TCB::ExitCode</a></div><div class="ttdeci">std::atomic_int ExitCode</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00259">task.hpp:259</a></div></div>
-<div class="ttc" id="aclassTasking_1_1TCB_html_ac9c92137d88ac3b7ac0a88f042a05e9b"><div class="ttname"><a href="../../da/daf/classTasking_1_1TCB.html#ac9c92137d88ac3b7ac0a88f042a05e9b">Tasking::TCB::ID</a></div><div class="ttdeci">TID ID</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00253">task.hpp:253</a></div></div>
-<div class="ttc" id="aclassTasking_1_1TCB_html_aedede7d8d3c42d330b86d08a4ecb5ac9"><div class="ttname"><a href="../../da/daf/classTasking_1_1TCB.html#aedede7d8d3c42d330b86d08a4ecb5ac9">Tasking::TCB::Name</a></div><div class="ttdeci">const char * Name</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00254">task.hpp:254</a></div></div>
-<div class="ttc" id="aclassTasking_1_1Task_html_af6e841b2fdb40756718f9842d97fb6c1"><div class="ttname"><a href="../../dc/dc5/classTasking_1_1Task.html#af6e841b2fdb40756718f9842d97fb6c1">Tasking::Task::Yield</a></div><div class="ttdeci">__always_inline void Yield()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00521">task.hpp:521</a></div></div>
-<div class="ttc" id="aclassTime_1_1time_html_a9359bb42e35516bd19f02e8855c6200a"><div class="ttname"><a href="../../dd/d8d/classTime_1_1time.html#a9359bb42e35516bd19f02e8855c6200a">Time::time::CalculateTarget</a></div><div class="ttdeci">uint64_t CalculateTarget(uint64_t Target, Units Unit)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de5/timer_8cpp_source.html#l00088">timer.cpp:88</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d8/d36/syscalls_2native_2exit_8cpp_source.html#l00033">33</a> of file <a class="el" href="../../d8/d36/syscalls_2native_2exit_8cpp_source.html">exit.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="../../da/daf/classTasking_1_1TCB.html">TCB</a> *t = <a class="code" href="../../d8/da1/task_8hpp.html#a1cf492bc489f4879fe6f67325e8f8dc7">thisThread</a>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;Userspace thread %s(%d) exited with code %d (%#x)&quot;</span>,</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;          t-&gt;<a class="code" href="../../da/daf/classTasking_1_1TCB.html#aedede7d8d3c42d330b86d08a4ecb5ac9">Name</a>,</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;          t-&gt;<a class="code" href="../../da/daf/classTasking_1_1TCB.html#ac9c92137d88ac3b7ac0a88f042a05e9b">ID</a>, status,</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;          status &lt; 0 ? -status : status);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    t-&gt;<a class="code" href="../../da/daf/classTasking_1_1TCB.html#a531994780badcf1dbcadaf36c3ca3032">SetState</a>(<a class="code" href="../../d9/d3e/namespaceTasking.html#a1caa7bfee242fe8216026227bfd9db2ea18dbf84b8bdb31f7955be3eef42610fc">Zombie</a>);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    t-&gt;<a class="code" href="../../da/daf/classTasking_1_1TCB.html#a5b6aa0f935981ff256a392b64d4b227a">SetExitCode</a>(status);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">while</span> (<span class="keyword">true</span>)</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        t-&gt;<a class="code" href="../../da/daf/classTasking_1_1TCB.html#a93dab82205d4cb609fcd7b5524871308">GetContext</a>()-&gt;<a class="code" href="../../dc/dc5/classTasking_1_1Task.html#af6e841b2fdb40756718f9842d97fb6c1">Yield</a>();</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    __builtin_unreachable();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div>
+<div class="ttc" id="aclassTasking_1_1TCB_html"><div class="ttname"><a href="../../da/daf/classTasking_1_1TCB.html">Tasking::TCB</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00266">task.hpp:267</a></div></div>
+<div class="ttc" id="aclassTasking_1_1TCB_html_a531994780badcf1dbcadaf36c3ca3032"><div class="ttname"><a href="../../da/daf/classTasking_1_1TCB.html#a531994780badcf1dbcadaf36c3ca3032">Tasking::TCB::SetState</a></div><div class="ttdeci">void SetState(TaskState state)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d35/thread_8cpp_source.html#l00070">thread.cpp:70</a></div></div>
+<div class="ttc" id="aclassTasking_1_1TCB_html_a5b6aa0f935981ff256a392b64d4b227a"><div class="ttname"><a href="../../da/daf/classTasking_1_1TCB.html#a5b6aa0f935981ff256a392b64d4b227a">Tasking::TCB::SetExitCode</a></div><div class="ttdeci">void SetExitCode(int code)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d35/thread_8cpp_source.html#l00077">thread.cpp:77</a></div></div>
+<div class="ttc" id="aclassTasking_1_1TCB_html_a93dab82205d4cb609fcd7b5524871308"><div class="ttname"><a href="../../da/daf/classTasking_1_1TCB.html#a93dab82205d4cb609fcd7b5524871308">Tasking::TCB::GetContext</a></div><div class="ttdeci">class Task * GetContext()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00302">task.hpp:302</a></div></div>
+<div class="ttc" id="aclassTasking_1_1TCB_html_ac9c92137d88ac3b7ac0a88f042a05e9b"><div class="ttname"><a href="../../da/daf/classTasking_1_1TCB.html#ac9c92137d88ac3b7ac0a88f042a05e9b">Tasking::TCB::ID</a></div><div class="ttdeci">TID ID</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00305">task.hpp:305</a></div></div>
+<div class="ttc" id="aclassTasking_1_1TCB_html_aedede7d8d3c42d330b86d08a4ecb5ac9"><div class="ttname"><a href="../../da/daf/classTasking_1_1TCB.html#aedede7d8d3c42d330b86d08a4ecb5ac9">Tasking::TCB::Name</a></div><div class="ttdeci">const char * Name</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00306">task.hpp:306</a></div></div>
+<div class="ttc" id="aclassTasking_1_1Task_html_af6e841b2fdb40756718f9842d97fb6c1"><div class="ttname"><a href="../../dc/dc5/classTasking_1_1Task.html#af6e841b2fdb40756718f9842d97fb6c1">Tasking::Task::Yield</a></div><div class="ttdeci">__always_inline void Yield()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00569">task.hpp:569</a></div></div>
 <div class="ttc" id="adebug_8h_html_a8666d232022b928a87f7fdf6de29d616"><div class="ttname"><a href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a></div><div class="ttdeci">#define trace(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00098">debug.h:98</a></div></div>
-<div class="ttc" id="akernel_8cpp_html_ad5fb15538e6988f0db36d754a4a7d08d"><div class="ttname"><a href="../../dd/d24/kernel_8cpp.html#ad5fb15538e6988f0db36d754a4a7d08d">TimeManager</a></div><div class="ttdeci">Time::time * TimeManager</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d24/kernel_8cpp_source.html#l00062">kernel.cpp:62</a></div></div>
-<div class="ttc" id="anamespaceTasking_html_abbba64463e2df2b5f909cc6fe9cfbd74a773f96280709f0b4ee36122b01357f51"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74a773f96280709f0b4ee36122b01357f51">Tasking::Terminated</a></div><div class="ttdeci">@ Terminated</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00145">task.hpp:145</a></div></div>
-<div class="ttc" id="anamespaceTime_html_abf085dea646562954f331d46d9712ed1a040adf802521b00a87d0826c581c62b1"><div class="ttname"><a href="../../d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1a040adf802521b00a87d0826c581c62b1">Time::Seconds</a></div><div class="ttdeci">@ Seconds</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00042">time.hpp:42</a></div></div>
-<div class="ttc" id="atask_8hpp_html_a1cf492bc489f4879fe6f67325e8f8dc7"><div class="ttname"><a href="../../d8/da1/task_8hpp.html#a1cf492bc489f4879fe6f67325e8f8dc7">thisThread</a></div><div class="ttdeci">#define thisThread</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00619">task.hpp:619</a></div></div>
+<div class="ttc" id="anamespaceTasking_html_a1caa7bfee242fe8216026227bfd9db2ea18dbf84b8bdb31f7955be3eef42610fc"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html#a1caa7bfee242fe8216026227bfd9db2ea18dbf84b8bdb31f7955be3eef42610fc">Tasking::Zombie</a></div><div class="ttdeci">@ Zombie</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00143">task.hpp:143</a></div></div>
+<div class="ttc" id="atask_8hpp_html_a1cf492bc489f4879fe6f67325e8f8dc7"><div class="ttname"><a href="../../d8/da1/task_8hpp.html#a1cf492bc489f4879fe6f67325e8f8dc7">thisThread</a></div><div class="ttdeci">#define thisThread</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00675">task.hpp:675</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/de5/timer_8cpp_source.html#l00088">Time::time::CalculateTarget()</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00259">Tasking::TCB::ExitCode</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00250">Tasking::TCB::GetContext()</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00253">Tasking::TCB::ID</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00262">Tasking::TCB::KeepTime</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00254">Tasking::TCB::Name</a>, <a class="el" href="../../de/d99/time_8hpp_source.html#l00042">Time::Seconds</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00260">Tasking::TCB::State</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00145">Tasking::Terminated</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00619">thisThread</a>, <a class="el" href="../../dd/d24/kernel_8cpp_source.html#l00062">TimeManager</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00098">trace</a>, and <a class="el" href="../../d8/da1/task_8hpp_source.html#l00521">Tasking::Task::Yield()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/dd4/linux_8cpp_source.html#l00447">linux_exit()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/da1/task_8hpp_source.html#l00302">Tasking::TCB::GetContext()</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00305">Tasking::TCB::ID</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00306">Tasking::TCB::Name</a>, <a class="el" href="../../d3/d35/thread_8cpp_source.html#l00077">Tasking::TCB::SetExitCode()</a>, <a class="el" href="../../d3/d35/thread_8cpp_source.html#l00070">Tasking::TCB::SetState()</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00675">thisThread</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00098">trace</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00569">Tasking::Task::Yield()</a>, and <a class="el" href="../../d8/da1/task_8hpp_source.html#l00143">Tasking::Zombie</a>.</p>
 
 </div>
 </div>

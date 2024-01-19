@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -109,40 +109,40 @@ $(document).ready(function(){initNavTree('de/d2c/macros_8cpp_source.html','../..
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#ifdef DEBUG</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;types.h&gt;</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d4/dc3/macro_8hpp.html">memory/macro.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../df/dd1/vma_8hpp.html">memory/vma.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../dc/da7/assert_8h.html">assert.h</a>&gt;</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../db/d16/debug_8h.html">debug.h</a>&gt;</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d1/d85/filesystem_8hpp.html">filesystem.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &quot;../syscalls.h&quot;</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">/* static assert, no constructor needed */</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#ifdef a64</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#if UINTPTR_MAX != UINT64_MAX</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#error &quot;uintptr_t is not 64-bit!&quot;</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// UINTPTR_MAX != UINT64_MAX</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// a64</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#ifdef a32</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#if UINTPTR_MAX != UINT32_MAX</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#error &quot;uintptr_t is not 32-bit!&quot;</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// UINTPTR_MAX != UINT32_MAX</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// a32</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#ifdef aa64</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#if UINTPTR_MAX != UINT64_MAX</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#error &quot;uintptr_t is not 64-bit!&quot;</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// UINTPTR_MAX != UINT64_MAX</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// aa64</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keywordtype">void</span> TestSeekMacros()</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;{</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    static_assert(<a class="code" href="../../d2/d6e/syscalls_8h.html#a5ee2a4ffece6473d33668eb4b8de32a6">sc_SEEK_SET</a> == <a class="code" href="../../d1/d85/filesystem_8hpp.html#a0d112bae8fd35be772185b6ec6bcbe64">SEEK_SET</a>);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    static_assert(<a class="code" href="../../d2/d6e/syscalls_8h.html#a3da058cb4b1811bf8359fc0c72ce1dc9">sc_SEEK_CUR</a> == <a class="code" href="../../d1/d85/filesystem_8hpp.html#a4c8d0b76b470ba65a43ca46a88320f39">SEEK_CUR</a>);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    static_assert(<a class="code" href="../../d2/d6e/syscalls_8h.html#a6b65092b68e8943ee7a868ed820feed7">sc_SEEK_END</a> == <a class="code" href="../../d1/d85/filesystem_8hpp.html#ad2a2e6c114780c3071efd24f16c7f7d8">SEEK_END</a>);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d9/df4/ioctl_8hpp.html">filesystem/ioctl.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d4/dc3/macro_8hpp.html">memory/macro.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../df/dd1/vma_8hpp.html">memory/vma.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../dc/da7/assert_8h.html">assert.h</a>&gt;</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../db/d16/debug_8h.html">debug.h</a>&gt;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d1/d85/filesystem_8hpp.html">filesystem.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;../syscalls.h&quot;</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">/* static assert, no constructor needed */</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#ifdef a64</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#if UINTPTR_MAX != UINT64_MAX</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#error &quot;uintptr_t is not 64-bit!&quot;</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// UINTPTR_MAX != UINT64_MAX</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// a64</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#ifdef a32</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#if UINTPTR_MAX != UINT32_MAX</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#error &quot;uintptr_t is not 32-bit!&quot;</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// UINTPTR_MAX != UINT32_MAX</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// a32</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#ifdef aa64</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#if UINTPTR_MAX != UINT64_MAX</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#error &quot;uintptr_t is not 64-bit!&quot;</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// UINTPTR_MAX != UINT64_MAX</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// aa64</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;static_assert(<a class="code" href="../../d2/d6e/syscalls_8h.html#a5ee2a4ffece6473d33668eb4b8de32a6">sc_SEEK_SET</a> == <a class="code" href="../../d1/d85/filesystem_8hpp.html#a0d112bae8fd35be772185b6ec6bcbe64">SEEK_SET</a>);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;static_assert(<a class="code" href="../../d2/d6e/syscalls_8h.html#a3da058cb4b1811bf8359fc0c72ce1dc9">sc_SEEK_CUR</a> == <a class="code" href="../../d1/d85/filesystem_8hpp.html#a4c8d0b76b470ba65a43ca46a88320f39">SEEK_CUR</a>);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;static_assert(<a class="code" href="../../d2/d6e/syscalls_8h.html#a6b65092b68e8943ee7a868ed820feed7">sc_SEEK_END</a> == <a class="code" href="../../d1/d85/filesystem_8hpp.html#ad2a2e6c114780c3071efd24f16c7f7d8">SEEK_END</a>);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;static_assert(<a class="code" href="../../d9/df4/ioctl_8hpp.html#ae20ffe4f6d9049713a1270c435a746e2">TIOCGPTN</a> == 0x80045430);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;static_assert(<a class="code" href="../../d9/df4/ioctl_8hpp.html#afb74839eed02999ff4c8b65aff0f2d3a">TIOCSPTLCK</a> == 0x40045431);</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<a class="code" href="../../d6/de6/include_2types_8h.html#adfddecd84e2d59ace560a3ce8e7283ab">__constructor</a> <span class="keywordtype">void</span> TestMacros()</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;{</div>
@@ -245,9 +245,20 @@ $(document).ready(function(){initNavTree('de/d2c/macros_8cpp_source.html','../..
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;            <a class="code" href="../../d6/de6/include_2types_8h.html#aa9230594915ed6dc218abef840f043b7">inf_loop</a>;</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        }</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    }</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;}</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160; </div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// DEBUG</span></div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160; </div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    {</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        constexpr <span class="keywordtype">int</span> x = 5;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        constexpr <span class="keywordtype">int</span> y = 10;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160; </div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        constexpr <span class="keywordtype">int</span> max_result = <a class="code" href="../../d6/de6/include_2types_8h.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f">MAX</a>(x, y);</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        constexpr <span class="keywordtype">int</span> min_result = <a class="code" href="../../d6/de6/include_2types_8h.html#a3acffbd305ee72dcd4593c0d8af64a4f">MIN</a>(x, y);</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160; </div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        static_assert(max_result == 10);</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        static_assert(min_result == 5);</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    }</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;}</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160; </div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// DEBUG</span></div>
 <div class="ttc" id="aarithmetic__operations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddd/arithmetic__operations_8c_source.html#l00294">arithmetic_operations.c:294</a></div></div>
 <div class="ttc" id="aassert_8h_html"><div class="ttname"><a href="../../dc/da7/assert_8h.html">assert.h</a></div></div>
 <div class="ttc" id="aassert_8h_html_af576bf8ffa22a44e53018c67095ffbf0"><div class="ttname"><a href="../../dc/da7/assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a></div><div class="ttdeci">#define assert(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da7/assert_8h_source.html#l00023">assert.h:23</a></div></div>
@@ -259,9 +270,14 @@ $(document).ready(function(){initNavTree('de/d2c/macros_8cpp_source.html','../..
 <div class="ttc" id="afilesystem_8hpp_html_a4c8d0b76b470ba65a43ca46a88320f39"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#a4c8d0b76b470ba65a43ca46a88320f39">SEEK_CUR</a></div><div class="ttdeci">#define SEEK_CUR</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00031">filesystem.hpp:31</a></div></div>
 <div class="ttc" id="afilesystem_8hpp_html_ad2a2e6c114780c3071efd24f16c7f7d8"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#ad2a2e6c114780c3071efd24f16c7f7d8">SEEK_END</a></div><div class="ttdeci">#define SEEK_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00032">filesystem.hpp:32</a></div></div>
 <div class="ttc" id="ainclude_2types_8h_html_a2df9aa51d543ea63caff6ee2f2d2d4e4"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a2df9aa51d543ea63caff6ee2f2d2d4e4">ROUND_DOWN</a></div><div class="ttdeci">#define ROUND_DOWN(x, y)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00100">types.h:100</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_a3acffbd305ee72dcd4593c0d8af64a4f"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a3acffbd305ee72dcd4593c0d8af64a4f">MIN</a></div><div class="ttdeci">#define MIN(a, b)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00092">types.h:92</a></div></div>
 <div class="ttc" id="ainclude_2types_8h_html_a7a4ba4f2dbc3879306d8518c2670dd77"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a7a4ba4f2dbc3879306d8518c2670dd77">ROUND_UP</a></div><div class="ttdeci">#define ROUND_UP(x, y)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00099">types.h:99</a></div></div>
 <div class="ttc" id="ainclude_2types_8h_html_aa9230594915ed6dc218abef840f043b7"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#aa9230594915ed6dc218abef840f043b7">inf_loop</a></div><div class="ttdeci">#define inf_loop</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00047">types.h:47</a></div></div>
-<div class="ttc" id="ainclude_2types_8h_html_adfddecd84e2d59ace560a3ce8e7283ab"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#adfddecd84e2d59ace560a3ce8e7283ab">__constructor</a></div><div class="ttdeci">#define __constructor</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00372">types.h:372</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_adfddecd84e2d59ace560a3ce8e7283ab"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#adfddecd84e2d59ace560a3ce8e7283ab">__constructor</a></div><div class="ttdeci">#define __constructor</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00376">types.h:376</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_afa99ec4acc4ecb2dc3c2d05da15d0e3f"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f">MAX</a></div><div class="ttdeci">#define MAX(a, b)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00085">types.h:85</a></div></div>
+<div class="ttc" id="aioctl_8hpp_html"><div class="ttname"><a href="../../d9/df4/ioctl_8hpp.html">ioctl.hpp</a></div></div>
+<div class="ttc" id="aioctl_8hpp_html_ae20ffe4f6d9049713a1270c435a746e2"><div class="ttname"><a href="../../d9/df4/ioctl_8hpp.html#ae20ffe4f6d9049713a1270c435a746e2">TIOCGPTN</a></div><div class="ttdeci">#define TIOCGPTN</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df4/ioctl_8hpp_source.html#l00074">ioctl.hpp:74</a></div></div>
+<div class="ttc" id="aioctl_8hpp_html_afb74839eed02999ff4c8b65aff0f2d3a"><div class="ttname"><a href="../../d9/df4/ioctl_8hpp.html#afb74839eed02999ff4c8b65aff0f2d3a">TIOCSPTLCK</a></div><div class="ttdeci">#define TIOCSPTLCK</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df4/ioctl_8hpp_source.html#l00075">ioctl.hpp:75</a></div></div>
 <div class="ttc" id="amacro_8hpp_html"><div class="ttname"><a href="../../d4/dc3/macro_8hpp.html">macro.hpp</a></div></div>
 <div class="ttc" id="amacro_8hpp_html_a10029add9db6f0340d9bd2be9b2d1048"><div class="ttname"><a href="../../d4/dc3/macro_8hpp.html#a10029add9db6f0340d9bd2be9b2d1048">TO_PAGES</a></div><div class="ttdeci">#define TO_PAGES(d)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dc3/macro_8hpp_source.html#l00046">macro.hpp:46</a></div></div>
 <div class="ttc" id="amacro_8hpp_html_a7d467c1d283fdfa1f2081ba1e0d01b6e"><div class="ttname"><a href="../../d4/dc3/macro_8hpp.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a></div><div class="ttdeci">#define PAGE_SIZE</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dc3/macro_8hpp_source.html#l00036">macro.hpp:36</a></div></div>

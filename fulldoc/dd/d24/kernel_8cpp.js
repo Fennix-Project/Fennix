@@ -3,6 +3,7 @@ var kernel_8cpp =
     [ "CallPtr", "dd/d24/kernel_8cpp.html#a9aa5b5a5410c2e97df5759c3e6d8c318", null ],
     [ "__aligned", "dd/d24/kernel_8cpp.html#aeeaf41f27dfc4f30d4776f9d7d6dcef8", null ],
     [ "__cxa_finalize", "dd/d24/kernel_8cpp.html#ab8f7a6be69ef6cc7a14abfa1a1a9e5b7", null ],
+    [ "_KPrint", "dd/d24/kernel_8cpp.html#a459507779a9aeea664dbdce554c0e829", null ],
     [ "BeforeShutdown", "dd/d24/kernel_8cpp.html#a351f7a9223a3d5eea2fb51d4f27d50a8", null ],
     [ "Entry", "dd/d24/kernel_8cpp.html#a50e99f20d55238b00c67840a8a71254d", null ],
     [ "KPrint", "dd/d24/kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e", null ],
@@ -16,17 +17,12 @@ var kernel_8cpp =
     [ "__init_array_start", "dd/d24/kernel_8cpp.html#a5acaf4f3a56e921fd97f62b643461ec7", null ],
     [ "Config", "dd/d24/kernel_8cpp.html#af11d2c55903d5518696db3a642bfada4", null ],
     [ "DebuggerIsAttached", "dd/d24/kernel_8cpp.html#a736191a1f8c302532a3f21c75292a53f", null ],
-    [ "DevFS", "dd/d24/kernel_8cpp.html#af1fc8fcf6668992370eb1d510045a377", null ],
     [ "Display", "dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d", null ],
     [ "EnableProfiler", "dd/d24/kernel_8cpp.html#a7b3a39e739df0d7a7245ca25284a0f2b", null ],
-    [ "fs", "dd/d24/kernel_8cpp.html#a277679a5638e76b6fd08abe5deee2022", null ],
     [ "KernelSymbolTable", "dd/d24/kernel_8cpp.html#a7495caffa5b73a2490dcd48a91869694", null ],
-    [ "MntFS", "dd/d24/kernel_8cpp.html#adc1a5424f847e38bdb7e5b488f0c887e", null ],
-    [ "PCIManager", "dd/d24/kernel_8cpp.html#a62ee06f14377e458cdb16171abe25b80", null ],
+    [ "PCIManager", "dd/d24/kernel_8cpp.html#a2f59dbd6d0e8536d7e174ed6e10d76d7", null ],
     [ "PowerManager", "dd/d24/kernel_8cpp.html#ac4acbd97a34e46e0e3b1f643e7d9ce94", null ],
-    [ "ProcFS", "dd/d24/kernel_8cpp.html#a067cb0d18dbc3c29c5fb858871637cbc", null ],
     [ "PutCharBufferIndex", "dd/d24/kernel_8cpp.html#aa4dd97cb9d17b2b3c90082c567852aa0", null ],
     [ "TaskManager", "dd/d24/kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2", null ],
-    [ "TimeManager", "dd/d24/kernel_8cpp.html#ad5fb15538e6988f0db36d754a4a7d08d", null ],
-    [ "VarLogFS", "dd/d24/kernel_8cpp.html#a0a8a5821ac59f6ef952fb2efe8e0fa92", null ]
+    [ "TimeManager", "dd/d24/kernel_8cpp.html#ad5fb15538e6988f0db36d754a4a7d08d", null ]
 ];

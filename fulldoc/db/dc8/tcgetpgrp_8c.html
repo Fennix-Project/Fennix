@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('db/dc8/tcgetpgrp_8c.html','../../'); i
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a30c3edb2b02399d64b5e8eaaf7fe40e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dd4/linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dc8/tcgetpgrp_8c.html#a30c3edb2b02399d64b5e8eaaf7fe40e6">tcgetpgrp</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>)</td></tr>
+<tr class="memitem:a30c3edb2b02399d64b5e8eaaf7fe40e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d23/Userspace_2libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dc8/tcgetpgrp_8c.html#a30c3edb2b02399d64b5e8eaaf7fe40e6">tcgetpgrp</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>)</td></tr>
 <tr class="separator:a30c3edb2b02399d64b5e8eaaf7fe40e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -110,7 +110,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/dd4/linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a> tcgetpgrp </td>
+          <td class="memname"><a class="el" href="../../d1/d23/Userspace_2libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a> tcgetpgrp </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>fd</em></td><td>)</td>
@@ -122,13 +122,13 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../db/dc8/tcgetpgrp_8c_source.html#l00005">5</a> of file <a class="el" href="../../db/dc8/tcgetpgrp_8c_source.html">tcgetpgrp.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordtype">int</span> pgrp;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/dfe/Userspace_2musl_2include_2stropts_8h.html#ae3a230c65883ec8edc50e3a09ca80003">ioctl</a>(<a class="code" href="../../d2/db3/hdparm_8c.html#ab2a2e4bafac36c706cfa563198638c67a1e4d60e5b05464d07a30096747025a42">fd</a>, <a class="code" href="../../d4/d78/Kernel_2include__std_2stropts_8h.html#a6f51a92d18937be41ace117366b5fc1e">TIOCGPGRP</a>, &amp;pgrp) &lt; 0)</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/dfe/Userspace_2musl_2include_2stropts_8h.html#ae3a230c65883ec8edc50e3a09ca80003">ioctl</a>(<a class="code" href="../../d2/db3/hdparm_8c.html#a0bfd5ae571925458e3313c21557c4d94a1e4d60e5b05464d07a30096747025a42">fd</a>, <a class="code" href="../../d4/d78/Kernel_2include__std_2stropts_8h.html#a6f51a92d18937be41ace117366b5fc1e">TIOCGPGRP</a>, &amp;pgrp) &lt; 0)</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> pgrp;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
 <div class="ttc" id="aKernel_2include__std_2stropts_8h_html_a6f51a92d18937be41ace117366b5fc1e"><div class="ttname"><a href="../../d4/d78/Kernel_2include__std_2stropts_8h.html#a6f51a92d18937be41ace117366b5fc1e">TIOCGPGRP</a></div><div class="ttdeci">#define TIOCGPGRP</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d78/Kernel_2include__std_2stropts_8h_source.html#l00067">stropts.h:67</a></div></div>
 <div class="ttc" id="aUserspace_2musl_2include_2stropts_8h_html_ae3a230c65883ec8edc50e3a09ca80003"><div class="ttname"><a href="../../d6/dfe/Userspace_2musl_2include_2stropts_8h.html#ae3a230c65883ec8edc50e3a09ca80003">ioctl</a></div><div class="ttdeci">int ioctl(int, int,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d32/ioctl_8c_source.html#l00128">ioctl.c:128</a></div></div>
-<div class="ttc" id="ahdparm_8c_html_ab2a2e4bafac36c706cfa563198638c67a1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#ab2a2e4bafac36c706cfa563198638c67a1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
+<div class="ttc" id="ahdparm_8c_html_a0bfd5ae571925458e3313c21557c4d94a1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#a0bfd5ae571925458e3313c21557c4d94a1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, <a class="el" href="../../dc/d32/ioctl_8c_source.html#l00128">ioctl()</a>, and <a class="el" href="../../d4/d78/Kernel_2include__std_2stropts_8h_source.html#l00067">TIOCGPGRP</a>.</p>
 

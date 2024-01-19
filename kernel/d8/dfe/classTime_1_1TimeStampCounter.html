@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -87,7 +87,6 @@ $(document).ready(function(){initNavTree('d8/dfe/classTime_1_1TimeStampCounter.h
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">Time::TimeStampCounter Class Reference</div>  </div>
@@ -111,11 +110,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a804a2312694cf1988d3bcc2ed6441bd9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfe/classTime_1_1TimeStampCounter.html#a804a2312694cf1988d3bcc2ed6441bd9">~TimeStampCounter</a> ()</td></tr>
 <tr class="separator:a804a2312694cf1988d3bcc2ed6441bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:a6ba577d25422ca3e42e24903934ccac7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfe/classTime_1_1TimeStampCounter.html#a6ba577d25422ca3e42e24903934ccac7">ConvertUnit</a> (<a class="el" href="../../d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1">Units</a> Unit)</td></tr>
-<tr class="separator:a6ba577d25422ca3e42e24903934ccac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a74f08b56a8a7bd471dc79f642355be04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfe/classTime_1_1TimeStampCounter.html#a74f08b56a8a7bd471dc79f642355be04">clk</a> = 0</td></tr>
@@ -125,7 +119,7 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../de/d99/time_8hpp_source.html#l00112">112</a> of file <a class="el" href="../../de/d99/time_8hpp_source.html">time.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d99/time_8hpp_source.html#l00113">113</a> of file <a class="el" href="../../de/d99/time_8hpp_source.html">time.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5649b27b752d4a8569b42de1ca21ca4c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5649b27b752d4a8569b42de1ca21ca4c">&#9670;&nbsp;</a></span>TimeStampCounter()</h2>
@@ -145,7 +139,7 @@ Private Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d5/d31/tsc_8cpp_source.html#l00060">60</a> of file <a class="el" href="../../d5/d31/tsc_8cpp_source.html">tsc.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    {</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#if defined(a86)</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;&quot;</span>); <span class="comment">// FIXME: This is not a good way to measure the clock speed</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a5daca020dc132cf1c649ba9beb4ca63d">stub</a>; <span class="comment">// FIXME: This is not a good way to measure the clock speed</span></div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Start = <a class="code" href="../../d7/dfa/namespaceCPU.html#adfe4248cc88b3b6deebb92b8e074561a">CPU::Counter</a>();</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="../../dd/d24/kernel_8cpp.html#ad5fb15538e6988f0db36d754a4a7d08d">TimeManager</a>-&gt;<a class="code" href="../../dd/d8d/classTime_1_1time.html#a8d26c90c4c238ac4525e25ac063dc074">Sleep</a>(1, <a class="code" href="../../d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1aab73e2ac34c19c796d3e4e3a49dc0f11">Units::Milliseconds</a>);</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> End = <a class="code" href="../../d7/dfa/namespaceCPU.html#adfe4248cc88b3b6deebb92b8e074561a">CPU::Counter</a>();</div>
@@ -155,16 +149,16 @@ Private Attributes</h2></td></tr>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div>
 <div class="ttc" id="aarithmetic__operations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddd/arithmetic__operations_8c_source.html#l00294">arithmetic_operations.c:294</a></div></div>
-<div class="ttc" id="aclassTime_1_1TimeStampCounter_html_a73dbd35a087a34729b25786b4dc12165"><div class="ttname"><a href="../../d8/dfe/classTime_1_1TimeStampCounter.html#a73dbd35a087a34729b25786b4dc12165">Time::TimeStampCounter::ClassCreationTime</a></div><div class="ttdeci">uint64_t ClassCreationTime</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00116">time.hpp:116</a></div></div>
-<div class="ttc" id="aclassTime_1_1TimeStampCounter_html_a74f08b56a8a7bd471dc79f642355be04"><div class="ttname"><a href="../../d8/dfe/classTime_1_1TimeStampCounter.html#a74f08b56a8a7bd471dc79f642355be04">Time::TimeStampCounter::clk</a></div><div class="ttdeci">uint64_t clk</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00115">time.hpp:115</a></div></div>
+<div class="ttc" id="aclassTime_1_1TimeStampCounter_html_a73dbd35a087a34729b25786b4dc12165"><div class="ttname"><a href="../../d8/dfe/classTime_1_1TimeStampCounter.html#a73dbd35a087a34729b25786b4dc12165">Time::TimeStampCounter::ClassCreationTime</a></div><div class="ttdeci">uint64_t ClassCreationTime</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00117">time.hpp:117</a></div></div>
+<div class="ttc" id="aclassTime_1_1TimeStampCounter_html_a74f08b56a8a7bd471dc79f642355be04"><div class="ttname"><a href="../../d8/dfe/classTime_1_1TimeStampCounter.html#a74f08b56a8a7bd471dc79f642355be04">Time::TimeStampCounter::clk</a></div><div class="ttdeci">uint64_t clk</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00116">time.hpp:116</a></div></div>
 <div class="ttc" id="aclassTime_1_1TimeStampCounter_html_acde7080452d860cff9cb4c537be0b999"><div class="ttname"><a href="../../d8/dfe/classTime_1_1TimeStampCounter.html#acde7080452d860cff9cb4c537be0b999">Time::TimeStampCounter::GetCounter</a></div><div class="ttdeci">uint64_t GetCounter()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d31/tsc_8cpp_source.html#l00039">tsc.cpp:39</a></div></div>
 <div class="ttc" id="aclassTime_1_1time_html_a8d26c90c4c238ac4525e25ac063dc074"><div class="ttname"><a href="../../dd/d8d/classTime_1_1time.html#a8d26c90c4c238ac4525e25ac063dc074">Time::time::Sleep</a></div><div class="ttdeci">bool Sleep(size_t Duration, Units Unit)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de5/timer_8cpp_source.html#l00030">timer.cpp:30</a></div></div>
-<div class="ttc" id="adebug_8h_html_abd4acaf7c67bd126aefd672fbbd5747f"><div class="ttname"><a href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a></div><div class="ttdeci">#define fixme(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00099">debug.h:99</a></div></div>
+<div class="ttc" id="adebug_8h_html_a5daca020dc132cf1c649ba9beb4ca63d"><div class="ttname"><a href="../../db/d16/debug_8h.html#a5daca020dc132cf1c649ba9beb4ca63d">stub</a></div><div class="ttdeci">#define stub</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00100">debug.h:100</a></div></div>
 <div class="ttc" id="akernel_8cpp_html_ad5fb15538e6988f0db36d754a4a7d08d"><div class="ttname"><a href="../../dd/d24/kernel_8cpp.html#ad5fb15538e6988f0db36d754a4a7d08d">TimeManager</a></div><div class="ttdeci">Time::time * TimeManager</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d24/kernel_8cpp_source.html#l00062">kernel.cpp:62</a></div></div>
-<div class="ttc" id="anamespaceCPU_html_adfe4248cc88b3b6deebb92b8e074561a"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#adfe4248cc88b3b6deebb92b8e074561a">CPU::Counter</a></div><div class="ttdeci">uint64_t Counter()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfc/cpu_8cpp_source.html#l00384">cpu.cpp:384</a></div></div>
-<div class="ttc" id="anamespaceTime_html_abf085dea646562954f331d46d9712ed1aab73e2ac34c19c796d3e4e3a49dc0f11"><div class="ttname"><a href="../../d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1aab73e2ac34c19c796d3e4e3a49dc0f11">Time::Milliseconds</a></div><div class="ttdeci">@ Milliseconds</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00041">time.hpp:41</a></div></div>
+<div class="ttc" id="anamespaceCPU_html_adfe4248cc88b3b6deebb92b8e074561a"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#adfe4248cc88b3b6deebb92b8e074561a">CPU::Counter</a></div><div class="ttdeci">uint64_t Counter()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfc/cpu_8cpp_source.html#l00394">cpu.cpp:394</a></div></div>
+<div class="ttc" id="anamespaceTime_html_abf085dea646562954f331d46d9712ed1aab73e2ac34c19c796d3e4e3a49dc0f11"><div class="ttname"><a href="../../d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1aab73e2ac34c19c796d3e4e3a49dc0f11">Time::Milliseconds</a></div><div class="ttdeci">@ Milliseconds</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00042">time.hpp:42</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d99/time_8hpp_source.html#l00116">ClassCreationTime</a>, <a class="el" href="../../de/d99/time_8hpp_source.html#l00115">clk</a>, <a class="el" href="../../d7/dfc/cpu_8cpp_source.html#l00384">CPU::Counter()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>, <a class="el" href="../../d5/d31/tsc_8cpp_source.html#l00039">GetCounter()</a>, <a class="el" href="../../de/d99/time_8hpp_source.html#l00041">Time::Milliseconds</a>, <a class="el" href="../../dc/de5/timer_8cpp_source.html#l00030">Time::time::Sleep()</a>, and <a class="el" href="../../dd/d24/kernel_8cpp_source.html#l00062">TimeManager</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d99/time_8hpp_source.html#l00117">ClassCreationTime</a>, <a class="el" href="../../de/d99/time_8hpp_source.html#l00116">clk</a>, <a class="el" href="../../d7/dfc/cpu_8cpp_source.html#l00394">CPU::Counter()</a>, <a class="el" href="../../d5/d31/tsc_8cpp_source.html#l00039">GetCounter()</a>, <a class="el" href="../../de/d99/time_8hpp_source.html#l00042">Time::Milliseconds</a>, <a class="el" href="../../dc/de5/timer_8cpp_source.html#l00030">Time::time::Sleep()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00100">stub</a>, and <a class="el" href="../../dd/d24/kernel_8cpp_source.html#l00062">TimeManager</a>.</p>
 
 </div>
 </div>
@@ -219,83 +213,14 @@ Private Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d5/d31/tsc_8cpp_source.html#l00046">46</a> of file <a class="el" href="../../d5/d31/tsc_8cpp_source.html">tsc.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    {</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#if defined(a86)</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>((this-&gt;<a class="code" href="../../d8/dfe/classTime_1_1TimeStampCounter.html#acde7080452d860cff9cb4c537be0b999">GetCounter</a>() + (Target * <a class="code" href="../../d8/dfe/classTime_1_1TimeStampCounter.html#a6ba577d25422ca3e42e24903934ccac7">ConvertUnit</a>(Unit))) / this-&gt;<a class="code" href="../../d8/dfe/classTime_1_1TimeStampCounter.html#a74f08b56a8a7bd471dc79f642355be04">clk</a>);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>((this-&gt;<a class="code" href="../../d8/dfe/classTime_1_1TimeStampCounter.html#acde7080452d860cff9cb4c537be0b999">GetCounter</a>() + (Target * <a class="code" href="../../d3/d56/namespaceTime.html#aa3de05de92c48e4f33917aa743e8502e">ConvertUnit</a>(Unit))) / this-&gt;<a class="code" href="../../d8/dfe/classTime_1_1TimeStampCounter.html#a74f08b56a8a7bd471dc79f642355be04">clk</a>);</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div>
-<div class="ttc" id="aclassTime_1_1TimeStampCounter_html_a6ba577d25422ca3e42e24903934ccac7"><div class="ttname"><a href="../../d8/dfe/classTime_1_1TimeStampCounter.html#a6ba577d25422ca3e42e24903934ccac7">Time::TimeStampCounter::ConvertUnit</a></div><div class="ttdeci">uint64_t ConvertUnit(Units Unit)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00118">time.hpp:118</a></div></div>
+<div class="ttc" id="anamespaceTime_html_aa3de05de92c48e4f33917aa743e8502e"><div class="ttname"><a href="../../d3/d56/namespaceTime.html#aa3de05de92c48e4f33917aa743e8502e">Time::ConvertUnit</a></div><div class="ttdeci">uint64_t ConvertUnit(const Units Unit)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00052">time.hpp:52</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d99/time_8hpp_source.html#l00115">clk</a>, <a class="el" href="../../de/d99/time_8hpp_source.html#l00118">ConvertUnit()</a>, and <a class="el" href="../../d5/d31/tsc_8cpp_source.html#l00039">GetCounter()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d99/time_8hpp_source.html#l00116">clk</a>, <a class="el" href="../../de/d99/time_8hpp_source.html#l00052">Time::ConvertUnit()</a>, and <a class="el" href="../../d5/d31/tsc_8cpp_source.html#l00039">GetCounter()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/de5/timer_8cpp_source.html#l00088">Time::time::CalculateTarget()</a>.</p>
-
-</div>
-</div>
-<a id="a6ba577d25422ca3e42e24903934ccac7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ba577d25422ca3e42e24903934ccac7">&#9670;&nbsp;</a></span>ConvertUnit()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Time::TimeStampCounter::ConvertUnit </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1">Units</a>&#160;</td>
-          <td class="paramname"><em>Unit</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/d99/time_8hpp_source.html#l00118">118</a> of file <a class="el" href="../../de/d99/time_8hpp_source.html">time.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        {</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            <span class="keywordflow">switch</span> (Unit)</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;            {</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1a4d50ce568acea41dd70d3b66e17fdff3">Femtoseconds</a>:</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1af34066edead1aec8a5b99b7fda45241f">Picoseconds</a>:</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                <span class="keywordflow">return</span> 1000;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1a15b77fe907e5064effc488a52e84cade">Nanoseconds</a>:</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                <span class="keywordflow">return</span> 1000000;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1af958fa2b6a158952ad56a6213f6313a3">Microseconds</a>:</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                <span class="keywordflow">return</span> 1000000000;</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1aab73e2ac34c19c796d3e4e3a49dc0f11">Milliseconds</a>:</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                <span class="keywordflow">return</span> 1000000000000;</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1a040adf802521b00a87d0826c581c62b1">Seconds</a>:</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                <span class="keywordflow">return</span> 1000000000000000;</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1a44b6fe150997e7b3bbef640a24e8e026">Minutes</a>:</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                <span class="keywordflow">return</span> 1000000000000000000;</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;            <span class="comment">// case Hours:</span></div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;            <span class="comment">//     return 1000000000000000000000;</span></div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;            <span class="comment">// case Days:</span></div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;            <span class="comment">//     return 1000000000000000000000000;</span></div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;            <span class="comment">// case Months:</span></div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;            <span class="comment">//     return 1000000000000000000000000000;</span></div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;            <span class="comment">// case Years:</span></div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;            <span class="comment">//     return 1000000000000000000000000000000;</span></div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;            <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Invalid time unit %d&quot;</span>, Unit);</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;                <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            }</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        }</div>
-<div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00086">debug.h:86</a></div></div>
-<div class="ttc" id="anamespaceTime_html_abf085dea646562954f331d46d9712ed1a040adf802521b00a87d0826c581c62b1"><div class="ttname"><a href="../../d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1a040adf802521b00a87d0826c581c62b1">Time::Seconds</a></div><div class="ttdeci">@ Seconds</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00042">time.hpp:42</a></div></div>
-<div class="ttc" id="anamespaceTime_html_abf085dea646562954f331d46d9712ed1a15b77fe907e5064effc488a52e84cade"><div class="ttname"><a href="../../d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1a15b77fe907e5064effc488a52e84cade">Time::Nanoseconds</a></div><div class="ttdeci">@ Nanoseconds</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00039">time.hpp:39</a></div></div>
-<div class="ttc" id="anamespaceTime_html_abf085dea646562954f331d46d9712ed1a44b6fe150997e7b3bbef640a24e8e026"><div class="ttname"><a href="../../d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1a44b6fe150997e7b3bbef640a24e8e026">Time::Minutes</a></div><div class="ttdeci">@ Minutes</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00043">time.hpp:43</a></div></div>
-<div class="ttc" id="anamespaceTime_html_abf085dea646562954f331d46d9712ed1a4d50ce568acea41dd70d3b66e17fdff3"><div class="ttname"><a href="../../d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1a4d50ce568acea41dd70d3b66e17fdff3">Time::Femtoseconds</a></div><div class="ttdeci">@ Femtoseconds</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00037">time.hpp:37</a></div></div>
-<div class="ttc" id="anamespaceTime_html_abf085dea646562954f331d46d9712ed1af34066edead1aec8a5b99b7fda45241f"><div class="ttname"><a href="../../d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1af34066edead1aec8a5b99b7fda45241f">Time::Picoseconds</a></div><div class="ttdeci">@ Picoseconds</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00038">time.hpp:38</a></div></div>
-<div class="ttc" id="anamespaceTime_html_abf085dea646562954f331d46d9712ed1af958fa2b6a158952ad56a6213f6313a3"><div class="ttname"><a href="../../d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1af958fa2b6a158952ad56a6213f6313a3">Time::Microseconds</a></div><div class="ttdeci">@ Microseconds</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00040">time.hpp:40</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00086">error</a>, <a class="el" href="../../de/d99/time_8hpp_source.html#l00037">Time::Femtoseconds</a>, <a class="el" href="../../de/d99/time_8hpp_source.html#l00040">Time::Microseconds</a>, <a class="el" href="../../de/d99/time_8hpp_source.html#l00041">Time::Milliseconds</a>, <a class="el" href="../../de/d99/time_8hpp_source.html#l00043">Time::Minutes</a>, <a class="el" href="../../de/d99/time_8hpp_source.html#l00039">Time::Nanoseconds</a>, <a class="el" href="../../de/d99/time_8hpp_source.html#l00038">Time::Picoseconds</a>, and <a class="el" href="../../de/d99/time_8hpp_source.html#l00042">Time::Seconds</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d5/d31/tsc_8cpp_source.html#l00046">CalculateTarget()</a>, and <a class="el" href="../../d5/d31/tsc_8cpp_source.html#l00029">Sleep()</a>.</p>
 
 </div>
 </div>
@@ -321,7 +246,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/dfc/cpu_8cpp_source.html#l00384">CPU::Counter()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/dfc/cpu_8cpp_source.html#l00394">CPU::Counter()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d5/d31/tsc_8cpp_source.html#l00046">CalculateTarget()</a>, <a class="el" href="../../dc/de5/timer_8cpp_source.html#l00059">Time::time::GetCounter()</a>, <a class="el" href="../../d5/d31/tsc_8cpp_source.html#l00053">GetNanosecondsSinceClassCreation()</a>, <a class="el" href="../../d5/d31/tsc_8cpp_source.html#l00029">Sleep()</a>, and <a class="el" href="../../d5/d31/tsc_8cpp_source.html#l00060">TimeStampCounter()</a>.</p>
 
@@ -349,7 +274,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d99/time_8hpp_source.html#l00116">ClassCreationTime</a>, <a class="el" href="../../de/d99/time_8hpp_source.html#l00115">clk</a>, and <a class="el" href="../../d5/d31/tsc_8cpp_source.html#l00039">GetCounter()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d99/time_8hpp_source.html#l00117">ClassCreationTime</a>, <a class="el" href="../../de/d99/time_8hpp_source.html#l00116">clk</a>, and <a class="el" href="../../d5/d31/tsc_8cpp_source.html#l00039">GetCounter()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/de5/timer_8cpp_source.html#l00117">Time::time::GetNanosecondsSinceClassCreation()</a>.</p>
 
@@ -384,7 +309,7 @@ Private Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d5/d31/tsc_8cpp_source.html#l00029">29</a> of file <a class="el" href="../../d5/d31/tsc_8cpp_source.html">tsc.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    {</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#if defined(a86)</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Target = this-&gt;<a class="code" href="../../d8/dfe/classTime_1_1TimeStampCounter.html#acde7080452d860cff9cb4c537be0b999">GetCounter</a>() + (Duration * <a class="code" href="../../d8/dfe/classTime_1_1TimeStampCounter.html#a6ba577d25422ca3e42e24903934ccac7">ConvertUnit</a>(Unit)) / this-&gt;<a class="code" href="../../d8/dfe/classTime_1_1TimeStampCounter.html#a74f08b56a8a7bd471dc79f642355be04">clk</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Target = this-&gt;<a class="code" href="../../d8/dfe/classTime_1_1TimeStampCounter.html#acde7080452d860cff9cb4c537be0b999">GetCounter</a>() + (Duration * <a class="code" href="../../d3/d56/namespaceTime.html#aa3de05de92c48e4f33917aa743e8502e">ConvertUnit</a>(Unit)) / this-&gt;<a class="code" href="../../d8/dfe/classTime_1_1TimeStampCounter.html#a74f08b56a8a7bd471dc79f642355be04">clk</a>;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">while</span> (this-&gt;<a class="code" href="../../d8/dfe/classTime_1_1TimeStampCounter.html#acde7080452d860cff9cb4c537be0b999">GetCounter</a>() &lt; Target)</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <a class="code" href="../../d7/dfa/namespaceCPU.html#a000fcb89a8500e356b8a1efee0d389b6">CPU::Pause</a>();</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
@@ -392,7 +317,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div>
 <div class="ttc" id="anamespaceCPU_html_a000fcb89a8500e356b8a1efee0d389b6"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#a000fcb89a8500e356b8a1efee0d389b6">CPU::Pause</a></div><div class="ttdeci">static SafeFunction __always_inline void Pause(bool Loop=false)</div><div class="ttdoc">Pause the CPU.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00142">cpu.hpp:142</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d99/time_8hpp_source.html#l00115">clk</a>, <a class="el" href="../../de/d99/time_8hpp_source.html#l00118">ConvertUnit()</a>, <a class="el" href="../../d5/d31/tsc_8cpp_source.html#l00039">GetCounter()</a>, and <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00142">CPU::Pause()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d99/time_8hpp_source.html#l00116">clk</a>, <a class="el" href="../../de/d99/time_8hpp_source.html#l00052">Time::ConvertUnit()</a>, <a class="el" href="../../d5/d31/tsc_8cpp_source.html#l00039">GetCounter()</a>, and <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00142">CPU::Pause()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/de5/timer_8cpp_source.html#l00030">Time::time::Sleep()</a>.</p>
 
@@ -419,7 +344,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d99/time_8hpp_source.html#l00116">116</a> of file <a class="el" href="../../de/d99/time_8hpp_source.html">time.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d99/time_8hpp_source.html#l00117">117</a> of file <a class="el" href="../../de/d99/time_8hpp_source.html">time.hpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d5/d31/tsc_8cpp_source.html#l00053">GetNanosecondsSinceClassCreation()</a>, and <a class="el" href="../../d5/d31/tsc_8cpp_source.html#l00060">TimeStampCounter()</a>.</p>
 
@@ -445,7 +370,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d99/time_8hpp_source.html#l00115">115</a> of file <a class="el" href="../../de/d99/time_8hpp_source.html">time.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d99/time_8hpp_source.html#l00116">116</a> of file <a class="el" href="../../de/d99/time_8hpp_source.html">time.hpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d5/d31/tsc_8cpp_source.html#l00046">CalculateTarget()</a>, <a class="el" href="../../d5/d31/tsc_8cpp_source.html#l00053">GetNanosecondsSinceClassCreation()</a>, <a class="el" href="../../d5/d31/tsc_8cpp_source.html#l00029">Sleep()</a>, and <a class="el" href="../../d5/d31/tsc_8cpp_source.html#l00060">TimeStampCounter()</a>.</p>
 

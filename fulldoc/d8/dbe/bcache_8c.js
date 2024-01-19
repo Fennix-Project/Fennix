@@ -14,22 +14,22 @@ var bcache_8c =
       [ "uuid", "d8/dbe/bcache_8c.html#a7fe70a3bde433ce728153e9cef36a0b1", null ],
       [ "version", "d8/dbe/bcache_8c.html#a8490498a7368f5c0dab98b89f19d0513", null ]
     ] ],
-    [ "bcache_super_block.__unnamed1172__", "d8/dbe/bcache_8c.html#df/d5a/unionbcache__super__block_8____unnamed1172____", [
+    [ "bcache_super_block.__unnamed1124__", "d8/dbe/bcache_8c.html#da/d73/unionbcache__super__block_8____unnamed1124____", [
       [ "set_magic", "d8/dbe/bcache_8c.html#a3c9e90acb8c4d3a5c3522fe16d1db612", null ],
       [ "set_uuid", "d8/dbe/bcache_8c.html#a83d8fec2aba99a3dba87ce1c1b96ead1", null ]
     ] ],
-    [ "bcache_super_block.__unnamed1174__", "d8/dbe/bcache_8c.html#d7/ddf/unionbcache__super__block_8____unnamed1174____", null ],
-    [ "bcache_super_block.__unnamed1174__.__unnamed1178__", "d8/dbe/bcache_8c.html#db/d5d/structbcache__super__block_8____unnamed1174_____8____unnamed1178____", [
+    [ "bcache_super_block.__unnamed1126__", "d8/dbe/bcache_8c.html#d6/d79/unionbcache__super__block_8____unnamed1126____", null ],
+    [ "bcache_super_block.__unnamed1126__.__unnamed1130__", "d8/dbe/bcache_8c.html#d1/d5a/structbcache__super__block_8____unnamed1126_____8____unnamed1130____", [
       [ "block_size", "d8/dbe/bcache_8c.html#a471827d86551eb9b51f054d563c85636", null ],
       [ "bucket_size", "d8/dbe/bcache_8c.html#aa47bcfdc402c0befc959c054c21e7ea7", null ],
       [ "nbuckets", "d8/dbe/bcache_8c.html#a252adbfd2ae6f0113350a301296b0ca9", null ],
       [ "nr_in_set", "d8/dbe/bcache_8c.html#a0c25e2cb86f8454a6f3adfffaf012eea", null ],
       [ "nr_this_dev", "d8/dbe/bcache_8c.html#a30bf34bf2d6f48749a8893be04c96293", null ]
     ] ],
-    [ "bcache_super_block.__unnamed1174__.__unnamed1180__", "d8/dbe/bcache_8c.html#dc/d7a/structbcache__super__block_8____unnamed1174_____8____unnamed1180____", [
+    [ "bcache_super_block.__unnamed1126__.__unnamed1132__", "d8/dbe/bcache_8c.html#d4/ded/structbcache__super__block_8____unnamed1126_____8____unnamed1132____", [
       [ "data_offset", "d8/dbe/bcache_8c.html#a3275cd8c9b8c16f8b3266d44e4fdb2a6", null ]
     ] ],
-    [ "bcache_super_block.__unnamed1176__", "d8/dbe/bcache_8c.html#df/de3/unionbcache__super__block_8____unnamed1176____", [
+    [ "bcache_super_block.__unnamed1128__", "d8/dbe/bcache_8c.html#d9/dea/unionbcache__super__block_8____unnamed1128____", [
       [ "keys", "d8/dbe/bcache_8c.html#a14f802e1fba977727845e8872c1743a7", null ],
       [ "njournal_buckets", "d8/dbe/bcache_8c.html#afcfbc4821510eb20b1493113e016a3e8", null ]
     ] ],

@@ -1,22 +1,13 @@
 var searchData=
 [
-  ['task_8539',['Task',['../dc/dc5/classTasking_1_1Task.html',1,'Tasking']]],
-  ['taskgate_8540',['TaskGate',['../d2/db2/namespaceInterruptDescriptorTable.html#d9/d56/structInterruptDescriptorTable_1_1TaskGate',1,'InterruptDescriptorTable']]],
-  ['taskinfo_8541',['TaskInfo',['../d9/d3e/namespaceTasking.html#d6/dd8/structTasking_1_1TaskInfo',1,'Tasking']]],
-  ['taskstatesegment_8542',['TaskStateSegment',['../d1/d76/structGlobalDescriptorTable_1_1TaskStateSegment.html',1,'GlobalDescriptorTable']]],
-  ['taskstatesegmententry_8543',['TaskStateSegmentEntry',['../d1/d69/namespaceGlobalDescriptorTable.html#da/d55/structGlobalDescriptorTable_1_1TaskStateSegmentEntry',1,'GlobalDescriptorTable']]],
-  ['tcb_8544',['TCB',['../da/daf/classTasking_1_1TCB.html',1,'Tasking']]],
-  ['tcb_2elinux_8545',['TCB.Linux',['../d9/d3e/namespaceTasking.html#dd/df3/structTasking_1_1TCB_8Linux',1,'Tasking']]],
-  ['tcb_2esecurity_8546',['TCB.Security',['../d9/d3e/namespaceTasking.html#de/d8c/structTasking_1_1TCB_8Security',1,'Tasking']]],
-  ['tcpaheader_8547',['TCPAHeader',['../d3/d21/classACPI_1_1ACPI.html#d6/d0b/structACPI_1_1ACPI_1_1TCPAHeader',1,'ACPI::ACPI']]],
-  ['time_8548',['time',['../dd/d8d/classTime_1_1time.html',1,'Time']]],
-  ['timer_8549',['Timer',['../df/d9c/classAPIC_1_1Timer.html',1,'APIC']]],
-  ['timestampcounter_8550',['TimeStampCounter',['../d8/dfe/classTime_1_1TimeStampCounter.html',1,'Time']]],
-  ['timeval_8551',['timeval',['../d1/dd4/linux_8cpp.html#d1/d1b/structtimeval',1,'']]],
-  ['tpm2header_8552',['TPM2Header',['../d3/d21/classACPI_1_1ACPI.html#db/d3d/structACPI_1_1ACPI_1_1TPM2Header',1,'ACPI::ACPI']]],
-  ['trapframe_8553',['TrapFrame',['../dc/dce/namespaceaarch64.html#de/d55/structaarch64_1_1TrapFrame',1,'aarch64::TrapFrame'],['../de/d52/namespacex32.html#db/d62/structx32_1_1TrapFrame',1,'x32::TrapFrame'],['../d7/db0/namespacex64.html#d7/daf/structx64_1_1TrapFrame',1,'x64::TrapFrame']]],
-  ['ttydevice_8554',['TTYDevice',['../d2/db2/classvfs_1_1TTYDevice.html',1,'vfs']]],
-  ['txdescriptor_8555',['TXDescriptor',['../d5/d83/namespaceGigabit.html#de/d28/structGigabit_1_1TXDescriptor',1,'Gigabit']]],
-  ['type_5fdescriptor_8556',['type_descriptor',['../d0/d1f/ubsan_8h.html#d8/da3/structtype__descriptor',1,'']]],
-  ['type_5fmismatch_5fv1_5fdata_8557',['type_mismatch_v1_data',['../d0/d1f/ubsan_8h.html#d0/d6c/structtype__mismatch__v1__data',1,'']]]
+  ['uart_9531',['UART',['../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html',1,'UniversalAsynchronousReceiverTransmitter']]],
+  ['udp_9532',['UDP',['../d0/d72/classNetworkUDP_1_1UDP.html',1,'NetworkUDP']]],
+  ['udpevents_9533',['UDPEvents',['../d9/d4a/classNetworkUDP_1_1UDPEvents.html',1,'NetworkUDP']]],
+  ['udpheader_9534',['UDPHeader',['../dd/df9/namespaceNetworkUDP.html#da/d82/structNetworkUDP_1_1UDPHeader',1,'NetworkUDP']]],
+  ['udppacket_9535',['UDPPacket',['../dd/df9/namespaceNetworkUDP.html#da/d2e/structNetworkUDP_1_1UDPPacket',1,'NetworkUDP']]],
+  ['unique_5fptr_9536',['unique_ptr',['../d8/dcc/namespacestd.html#dd/def/classstd_1_1unique__ptr',1,'std']]],
+  ['unreachable_5fdata_9537',['unreachable_data',['../d0/d1f/ubsan_8h.html#d7/d2d/structunreachable__data',1,'']]],
+  ['ustar_9538',['USTAR',['../d7/d0a/classvfs_1_1USTAR.html',1,'vfs']]],
+  ['ustarnode_9539',['USTARNode',['../d7/d5b/classvfs_1_1USTARNode.html',1,'vfs']]],
+  ['utsname_9540',['utsname',['../d5/d3d/utsname_8h.html#db/d19/structutsname',1,'']]]
 ];

@@ -104,7 +104,7 @@ Functions</h2></td></tr>
 <tr class="separator:aa43d9dba3b83a3eacc4276460deceaf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e92d49d6354701a1ddd5dacc3e6a918"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd3/munmap_8c.html#a4e92d49d6354701a1ddd5dacc3e6a918">__munmap</a> (void *<a class="el" href="../../d6/d55/timer__create_8c.html#a862825732eabf145fca1429ba415f69f">start</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>)</td></tr>
 <tr class="separator:a4e92d49d6354701a1ddd5dacc3e6a918"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7315fe09bf833b74c3566c1e5034482"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd3/munmap_8c.html#ac7315fe09bf833b74c3566c1e5034482">weak_alias</a> (<a class="el" href="../../d3/dd3/munmap_8c.html#a4e92d49d6354701a1ddd5dacc3e6a918">__munmap</a>, <a class="el" href="../../df/d6b/include_2sys_2mman_8h.html#ae7ac779709d60cb74b14147536bf9127">munmap</a>)</td></tr>
+<tr class="memitem:ac7315fe09bf833b74c3566c1e5034482"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd3/munmap_8c.html#ac7315fe09bf833b74c3566c1e5034482">weak_alias</a> (<a class="el" href="../../d3/dd3/munmap_8c.html#a4e92d49d6354701a1ddd5dacc3e6a918">__munmap</a>, <a class="el" href="../../d5/de8/Userspace_2musl_2include_2sys_2mman_8h.html#ae7ac779709d60cb74b14147536bf9127">munmap</a>)</td></tr>
 <tr class="separator:ac7315fe09bf833b74c3566c1e5034482"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -136,12 +136,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/dd3/munmap_8c_source.html#l00007">7</a> of file <a class="el" href="../../d3/dd3/munmap_8c_source.html">munmap.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../db/dd8/src_2include_2sys_2mman_8h.html#a6f63f6ac400ddc0423779934e61f6c9a">__vm_wait</a>();</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../d2/d92/Userspace_2musl_2src_2include_2sys_2mman_8h.html#a6f63f6ac400ddc0423779934e61f6c9a">__vm_wait</a>();</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_munmap, <a class="code" href="../../df/d84/arping_8c.html#a317b24157e7f590740c6e329bfe668dc">start</a>, <a class="code" href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
+<div class="ttc" id="aUserspace_2musl_2src_2include_2sys_2mman_8h_html_a6f63f6ac400ddc0423779934e61f6c9a"><div class="ttname"><a href="../../d2/d92/Userspace_2musl_2src_2include_2sys_2mman_8h.html#a6f63f6ac400ddc0423779934e61f6c9a">__vm_wait</a></div><div class="ttdeci">hidden void __vm_wait(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d8b/vmlock_8c_source.html#l00007">vmlock.c:7</a></div></div>
 <div class="ttc" id="aarping_8c_html_a317b24157e7f590740c6e329bfe668dc"><div class="ttname"><a href="../../df/d84/arping_8c.html#a317b24157e7f590740c6e329bfe668dc">start</a></div><div class="ttdeci">#define start</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d84/arping_8c_source.html#l00095">arping.c:95</a></div></div>
 <div class="ttc" id="amultiboot_8h_html_a6de3a6d27a7e07942958b912d39792e6"><div class="ttname"><a href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a></div><div class="ttdeci">multiboot_uint64_t len</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc0/multiboot_8h_source.html#l00002">multiboot.h:2</a></div></div>
-<div class="ttc" id="asrc_2include_2sys_2mman_8h_html_a6f63f6ac400ddc0423779934e61f6c9a"><div class="ttname"><a href="../../db/dd8/src_2include_2sys_2mman_8h.html#a6f63f6ac400ddc0423779934e61f6c9a">__vm_wait</a></div><div class="ttdeci">hidden void __vm_wait(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d8b/vmlock_8c_source.html#l00007">vmlock.c:7</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d3/d8b/vmlock_8c_source.html#l00007">__vm_wait()</a>, <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00002">len</a>, <a class="el" href="../../df/d84/arping_8c_source.html#l00095">start</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
@@ -194,7 +194,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d6b/include_2sys_2mman_8h.html#ae7ac779709d60cb74b14147536bf9127">munmap</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d5/de8/Userspace_2musl_2include_2sys_2mman_8h.html#ae7ac779709d60cb74b14147536bf9127">munmap</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

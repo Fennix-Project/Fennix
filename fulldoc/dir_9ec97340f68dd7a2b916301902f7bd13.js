@@ -10,5 +10,7 @@ var dir_9ec97340f68dd7a2b916301902f7bd13 =
     [ "munmap.cpp", "db/d60/munmap_8cpp.html", "db/d60/munmap_8cpp" ],
     [ "open.cpp", "d2/dce/open_8cpp.html", "d2/dce/open_8cpp" ],
     [ "read.cpp", "d4/d1c/read_8cpp.html", "d4/d1c/read_8cpp" ],
+    [ "readlink.cpp", "d4/d44/readlink_8cpp.html", "d4/d44/readlink_8cpp" ],
+    [ "uname.cpp", "df/d06/syscalls_2native_2uname_8cpp.html", "df/d06/syscalls_2native_2uname_8cpp" ],
     [ "write.cpp", "d2/d12/write_8cpp.html", "d2/d12/write_8cpp" ]
 ];

@@ -4,7 +4,7 @@ var pow__data_8h =
       [ "ln2hi", "d0/d22/pow__data_8h.html#a9223476d51003085bda8d4c5b5f239fa", null ],
       [ "ln2lo", "d0/d22/pow__data_8h.html#a11f72354e13a8437a97e52316ee34cae", null ],
       [ "poly", "d0/d22/pow__data_8h.html#abc1894f753a0bbb58ee2b320e78cdbb4", null ],
-      [ "tab", "d0/d22/pow__data_8h.html#a4e1ba4d241159d3f4fdc3e01f5820420", null ]
+      [ "tab", "d0/d22/pow__data_8h.html#a769169fa8185cd7c8ab226ba310c7f44", null ]
     ] ],
     [ "pow_log_data.tab", "d0/d22/pow__data_8h.html#de/d6b/structpow__log__data_8tab", [
       [ "invc", "d0/d22/pow__data_8h.html#ac793896b0f1ce01182868fbf8e05ad42", null ],

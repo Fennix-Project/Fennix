@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -156,7 +156,6 @@ $(document).ready(function(){initNavTree('functions_vars_r.html',''); initResiza
 , <a class="el" href="d5/df3/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000006.html#ac128b432681339c83137b87c9aae3e4f">CPU::x86::Intel::CPUID0x80000006</a>
 , <a class="el" href="d8/d2b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000008.html#ac0a50270159565aea7976beeb72c52b8">CPU::x86::Intel::CPUID0x80000008</a>
 , <a class="el" href="d8/d45/structCPU_1_1x86_1_1Intel_1_1CPUID0x8000000A.html#ace53f29cef6df6e69707569903c7df46">CPU::x86::Intel::CPUID0x8000000A</a>
-, <a class="el" href="d7/d11/mapi_8hpp.html#a06cde0183c308b91dd2f12e886959e41">CPURegisters</a>
 </li>
 <li>Raw
 : <a class="el" href="d1/d69/namespaceGlobalDescriptorTable.html#a6cf1a2fb78e07ed77d2b64085c0c8c89">GlobalDescriptorTable::GlobalDescriptorTableEntry::GlobalDescriptorTableAccess</a>
@@ -164,8 +163,7 @@ $(document).ready(function(){initNavTree('functions_vars_r.html',''); initResiza
 , <a class="el" href="d1/d69/namespaceGlobalDescriptorTable.html#ae2b222a90e15d71a072ca43b7a404106">GlobalDescriptorTable::TaskStateSegmentEntry::GlobalDescriptorTableAccess</a>
 </li>
 <li>raw
-: <a class="el" href="d7/d11/mapi_8hpp.html#a270705b616769bb6c21901dca4752007">KernelCallback</a>
-, <a class="el" href="d9/d3b/unionMemory_1_1PageDirectoryEntry.html#a0e53f2c3c35d8223fbd9ebdefeba5fb7">Memory::PageDirectoryEntry</a>
+: <a class="el" href="d9/d3b/unionMemory_1_1PageDirectoryEntry.html#a0e53f2c3c35d8223fbd9ebdefeba5fb7">Memory::PageDirectoryEntry</a>
 , <a class="el" href="d1/d6a/unionMemory_1_1PageDirectoryPointerTableEntry.html#a8786220d5d726086ccf6932c1de57608">Memory::PageDirectoryPointerTableEntry</a>
 , <a class="el" href="d5/d2b/unionMemory_1_1PageMapLevel4.html#aff9ab09b4c8e4c827b8cc1a681b98835">Memory::PageMapLevel4</a>
 , <a class="el" href="d6/d7e/unionMemory_1_1PageMapLevel5.html#a52b329765d2e01b46e4cd42a5865a649">Memory::PageMapLevel5</a>
@@ -184,6 +182,9 @@ $(document).ready(function(){initNavTree('functions_vars_r.html',''); initResiza
 </li>
 <li>raw_factor
 : <a class="el" href="d1/d3d/printf_8c.html#aad65182c266c7f3d5d1a9c76d67f7776">scaling_factor</a>
+</li>
+<li>RawKeyQueue
+: <a class="el" href="dd/df5/classDriver_1_1MasterDeviceFile.html#a87ff96e66a6d7baf952b5c308f79692c">Driver::MasterDeviceFile</a>
 </li>
 <li>rax
 : <a class="el" href="d7/db0/namespacex64.html#a08d8fca324d62b9e8daf9230992dca96">x64::TrapFrame</a>
@@ -209,10 +210,14 @@ $(document).ready(function(){initNavTree('functions_vars_r.html',''); initResiza
 : <a class="el" href="d7/db0/namespacex64.html#a92fe41fc44db3c1a4546f8fc5586dacd">x64::TrapFrame</a>
 </li>
 <li>Read
-: <a class="el" href="d5/d49/classMemory_1_1VirtualMemoryArea.html#a7309191ab8739efdba8f44d090c75237">Memory::VirtualMemoryArea::SharedRegion</a>
+: <a class="el" href="d8/d86/classDriver_1_1SlaveDeviceFile.html#aba56d2889bf1519a3f371a4110f92b80">Driver::SlaveDeviceFile</a>
+, <a class="el" href="d5/d49/classMemory_1_1VirtualMemoryArea.html#a7309191ab8739efdba8f44d090c75237">Memory::VirtualMemoryArea::SharedRegion</a>
 </li>
 <li>read
 : <a class="el" href="da/d02/structstbi__io__callbacks.html#a623e46b3a2a019611601409926283a88">stbi_io_callbacks</a>
+</li>
+<li>read_ptr
+: <a class="el" href="df/d69/classvfs_1_1Node.html#afb18b1ba0372c3b8cb9bf5d680e0bb12">vfs::Node</a>
 </li>
 <li>Readable
 : <a class="el" href="dc/d7c/SegmentDescriptors_8hpp.html#a7bb599591e4d8793915f18a5461c0ffd">CodeSegmentDescriptor</a>
@@ -255,8 +260,32 @@ $(document).ready(function(){initNavTree('functions_vars_r.html',''); initResiza
 <li>ReferenceTimestamp
 : <a class="el" href="db/dfe/namespaceNetworkNTP.html#ab8d6a641e50a2fb58e2319d777c00d59">NetworkNTP::NTPHeader</a>
 </li>
+<li>RegisterAudioDevice
+: <a class="el" href="dc/dec/struct____driverAPI.html#a36aeaf4f51c1c709b88a890bc40858dc">__driverAPI</a>
+</li>
+<li>RegisterBlockDevice
+: <a class="el" href="dc/dec/struct____driverAPI.html#a93ad2dfe60e816d0b9bbf64ab004b5fd">__driverAPI</a>
+</li>
+<li>RegisterFunction
+: <a class="el" href="dc/dec/struct____driverAPI.html#af6392f49f3e13f9df9c948e8901c87d7">__driverAPI</a>
+</li>
+<li>RegisterInputDevice
+: <a class="el" href="dc/dec/struct____driverAPI.html#a4d30da5e88721e6a849365b38dde0b5d">__driverAPI</a>
+</li>
+<li>RegisterInterruptHandler
+: <a class="el" href="dc/dec/struct____driverAPI.html#ae3df44ccf99af84b4f273bf010dd6ce4">__driverAPI</a>
+</li>
+<li>RegisterNetDevice
+: <a class="el" href="dc/dec/struct____driverAPI.html#a0fb14411b5c9619c8e7e6fefc1e0d04e">__driverAPI</a>
+</li>
+<li>release
+: <a class="el" href="d5/d3d/utsname_8h.html#a9fa98f4b1c8931ce0638f09074113801">utsname</a>
+</li>
 <li>ReleaseDate
 : <a class="el" href="d6/d98/structSMBIOS_1_1SMBIOSBIOSInformation.html#ab48007105aad92c4eda676141eca6f10">SMBIOS::SMBIOSBIOSInformation</a>
+</li>
+<li>remaining_spans
+: <a class="el" href="df/dc0/rpmalloc_8c.html#a4aecbd1cbb36425fddd53125ea1a84c7">span_t</a>
 </li>
 <li>RemoteIP
 : <a class="el" href="d6/dbf/classNetworkUDP_1_1Socket.html#a1c9e5c8dd11e0b837df00f9523cad5ad">NetworkUDP::Socket</a>
@@ -264,15 +293,29 @@ $(document).ready(function(){initNavTree('functions_vars_r.html',''); initResiza
 <li>RemotePort
 : <a class="el" href="d6/dbf/classNetworkUDP_1_1Socket.html#aa4d30bbc9d23c2b3c057a240ab168af0">NetworkUDP::Socket</a>
 </li>
+<li>RemoveMapFlag
+: <a class="el" href="dc/dec/struct____driverAPI.html#a86f7634072a438a82d55a3d3e90ab6ca">__driverAPI</a>
+</li>
 <li>Replace
 : <a class="el" href="d9/dc0/classMemory_1_1SwapPT.html#a7e9ce99c3cfdc937d3f5325e77cb0b63">Memory::SwapPT</a>
+</li>
+<li>ReportAbsoluteMouseEvent
+: <a class="el" href="dc/dec/struct____driverAPI.html#a1ac011593f0b77ae250c4fabcb31bd23">__driverAPI</a>
+</li>
+<li>ReportKeyboardEvent
+: <a class="el" href="dc/dec/struct____driverAPI.html#a134a0c7e3651a0e821c0d0e6c69cdbe4">__driverAPI</a>
+</li>
+<li>ReportNetworkPacket
+: <a class="el" href="dc/dec/struct____driverAPI.html#a02484cf689fe925df1af1bd49d972d16">__driverAPI</a>
+</li>
+<li>ReportRelativeMouseEvent
+: <a class="el" href="dc/dec/struct____driverAPI.html#a619767f35919258edad79db51492b8ac">__driverAPI</a>
 </li>
 <li>req_size
 : <a class="el" href="d2/dc3/liballoc__1__1_8c.html#a0e798303ee8177899564e567fea41d3f">liballoc_minor</a>
 </li>
-<li>RequestPage
-: <a class="el" href="df/d33/structKAPIMemory.html#a6a9b13d660347ad6c0b9807061b65e6f">KAPIMemory</a>
-, <a class="el" href="d0/d46/structKernelAPI_1_1KAPIMemory.html#a2f7b4592dfedfe69ed222d3cb083abb4">KernelAPI::KAPIMemory</a>
+<li>RequestPages
+: <a class="el" href="dc/dec/struct____driverAPI.html#a494f89b484a7cf6e8880da6b07ce1a0b">__driverAPI</a>
 </li>
 <li>requests
 : <a class="el" href="d5/dba/multiboot2_8h.html#a8d5c56032a1b70f41a6b780fb18b3ac8">multiboot_header_tag_information_request</a>
@@ -281,7 +324,9 @@ $(document).ready(function(){initNavTree('functions_vars_r.html',''); initResiza
 : <a class="el" href="db/d9b/native_8cpp.html#a8fb161011abf5426e3073021c59ce44d">SyscallData</a>
 </li>
 <li>Reserved
-: <a class="el" href="d3/d21/classACPI_1_1ACPI.html#a22d0bec19d43bab4973459b961ca7c5d">ACPI::ACPI::FADTHeader</a>
+: <a class="el" href="d3/d21/classACPI_1_1ACPI.html#a6ecb27c4ecb3b5bf8feb3addc47e2e9f">ACPI::ACPI::DBG2Device</a>
+, <a class="el" href="d3/d21/classACPI_1_1ACPI.html#a4b364143ed2975a8eb92ae3e8898bce8">ACPI::ACPI::DBGPHeader</a>
+, <a class="el" href="d3/d21/classACPI_1_1ACPI.html#a22d0bec19d43bab4973459b961ca7c5d">ACPI::ACPI::FADTHeader</a>
 , <a class="el" href="d3/d21/classACPI_1_1ACPI.html#ad1c8abe43032b9310cd3523a09b3309c">ACPI::ACPI::HPETHeader</a>
 , <a class="el" href="d3/d21/classACPI_1_1ACPI.html#ade89e507803d87d05cc81cd31d44495e">ACPI::ACPI::MCFGHeader</a>
 , <a class="el" href="d3/d21/classACPI_1_1ACPI.html#a5bb8a9e392ef88e667770d9eba34629c">ACPI::ACPI::SRATHeader</a>
@@ -291,8 +336,7 @@ $(document).ready(function(){initNavTree('functions_vars_r.html',''); initResiza
 : <a class="el" href="da/db9/classACPI_1_1MADT.html#ab134ddf2fa66b68f267dbf3c554b49a8">ACPI::MADT::MADTIOApic</a>
 </li>
 <li>Reserved
-: <a class="el" href="de/da1/namespaceAdvancedHostControllerInterface.html#a31ce816f8f78b31cb4db54e4a5c917a0">AdvancedHostControllerInterface::HBACommandTable</a>
-, <a class="el" href="db/d96/structBootInfo.html#a598c1345619bbfe6c0705b0c49de3199">BootInfo::RSDPInfo</a>
+: <a class="el" href="db/d96/structBootInfo.html#a598c1345619bbfe6c0705b0c49de3199">BootInfo::RSDPInfo</a>
 , <a class="el" href="dc/d7c/SegmentDescriptors_8hpp.html#ac9e562e9cda2af64fea35810fd76233d">DataSegmentDescriptor</a>
 , <a class="el" href="d1/d29/namespaceDisk.html#a397027cec53f789f3e9458d806a39ad1">Disk::GUIDPartitionTable</a>
 , <a class="el" href="d1/d29/namespaceDisk.html#ac9b95c617ea7a80f3cfe193e81d139df">Disk::MasterBootRecord</a>
@@ -310,12 +354,7 @@ $(document).ready(function(){initNavTree('functions_vars_r.html',''); initResiza
 , <a class="el" href="d7/db0/namespacex64.html#a84fd168531ba2df113a88a8a5784a785">x64::FXState</a>
 </li>
 <li>Reserved0
-: <a class="el" href="de/da1/namespaceAdvancedHostControllerInterface.html#a6b47db60863bac9b4071a17515674cbb">AdvancedHostControllerInterface::FIS_REG_H2D</a>
-, <a class="el" href="de/da1/namespaceAdvancedHostControllerInterface.html#acff02f683a8d74c7f98f0361999f2abd">AdvancedHostControllerInterface::HBACommandHeader</a>
-, <a class="el" href="de/da1/namespaceAdvancedHostControllerInterface.html#ad7efb2421c2e2f3b6f40a0b96305b7f6">AdvancedHostControllerInterface::HBAMemory</a>
-, <a class="el" href="de/da1/namespaceAdvancedHostControllerInterface.html#a9198d8f7293135c800069fb81aad6990">AdvancedHostControllerInterface::HBAPort</a>
-, <a class="el" href="de/da1/namespaceAdvancedHostControllerInterface.html#a057ef17a3377bdf54e468b07b1f7d84b">AdvancedHostControllerInterface::HBAPRDTEntry</a>
-, <a class="el" href="dc/d7c/SegmentDescriptors_8hpp.html#a80a42687ce17fedb494a995760685954">CallGate</a>
+: <a class="el" href="dc/d7c/SegmentDescriptors_8hpp.html#a80a42687ce17fedb494a995760685954">CallGate</a>
 , <a class="el" href="d2/db2/namespaceInterruptDescriptorTable.html#a018e11d61eb4e51d7cb14b6ddcc8ccce">InterruptDescriptorTable::CallGate</a>
 , <a class="el" href="d2/db2/namespaceInterruptDescriptorTable.html#a1be51a396ca47c08a32b8ffca6023674">InterruptDescriptorTable::InterruptGate</a>
 , <a class="el" href="d2/db2/namespaceInterruptDescriptorTable.html#af3f825376d318c58263b4250ff64e7a1">InterruptDescriptorTable::TaskGate</a>
@@ -327,11 +366,7 @@ $(document).ready(function(){initNavTree('functions_vars_r.html',''); initResiza
 , <a class="el" href="d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a6b02d5c666df548aedc90673733d9ae0">Time::HighPrecisionEventTimer::HPET</a>
 </li>
 <li>Reserved1
-: <a class="el" href="de/da1/namespaceAdvancedHostControllerInterface.html#a02ef9c16645b5875894bb44cb60d61f2">AdvancedHostControllerInterface::FIS_REG_H2D</a>
-, <a class="el" href="de/da1/namespaceAdvancedHostControllerInterface.html#aeda44ccac41889894d61308a74831f96">AdvancedHostControllerInterface::HBACommandHeader</a>
-, <a class="el" href="de/da1/namespaceAdvancedHostControllerInterface.html#ac9e5fd8f7fb48fa57e45a5944c85c89d">AdvancedHostControllerInterface::HBAPort</a>
-, <a class="el" href="de/da1/namespaceAdvancedHostControllerInterface.html#ac04897ea1ccf0ecc7737f40f67d7c807">AdvancedHostControllerInterface::HBAPRDTEntry</a>
-, <a class="el" href="dc/d7c/SegmentDescriptors_8hpp.html#af73398844ce3b509f7f155528c25cbe3">CallGate</a>
+: <a class="el" href="dc/d7c/SegmentDescriptors_8hpp.html#af73398844ce3b509f7f155528c25cbe3">CallGate</a>
 , <a class="el" href="d1/d76/structGlobalDescriptorTable_1_1TaskStateSegment.html#ab3b10ad6b3ab6d90ce489f051da9bcde">GlobalDescriptorTable::TaskStateSegment</a>
 , <a class="el" href="d2/db2/namespaceInterruptDescriptorTable.html#acdc3e860c6d5b96ed9cd7bfb864f8eff">InterruptDescriptorTable::TaskGate</a>
 , <a class="el" href="dc/d7c/SegmentDescriptors_8hpp.html#a6490541c4954a93de880c72681b479d8">InterruptGate</a>
@@ -378,9 +413,6 @@ $(document).ready(function(){initNavTree('functions_vars_r.html',''); initResiza
 <li>ReservedWordPad
 : <a class="el" href="df/de1/classvfs_1_1EXT2.html#ac7f9314019a59ada44134a93b6e2fca9">vfs::EXT2::SuperBlock</a>
 </li>
-<li>Reset
-: <a class="el" href="de/da1/namespaceAdvancedHostControllerInterface.html#a7e38d7123b75d6b4fe6980812820c96e">AdvancedHostControllerInterface::HBACommandHeader</a>
-</li>
 <li>ResetReg
 : <a class="el" href="d3/d21/classACPI_1_1ACPI.html#a86773f16c815b5aea0e51bab2fdf58f8">ACPI::ACPI::FADTHeader</a>
 </li>
@@ -392,6 +424,7 @@ $(document).ready(function(){initNavTree('functions_vars_r.html',''); initResiza
 </li>
 <li>Revision
 : <a class="el" href="d3/d21/classACPI_1_1ACPI.html#a352766a4e830e0c9def432158697f05a">ACPI::ACPI::ACPIHeader</a>
+, <a class="el" href="d3/d21/classACPI_1_1ACPI.html#a4da873e0abde4d0d46c433f5906905eb">ACPI::ACPI::DBG2Device</a>
 , <a class="el" href="db/d96/structBootInfo.html#a86213470ee1c71a9b04ba4352091ba43">BootInfo::RSDPInfo</a>
 , <a class="el" href="d1/d29/namespaceDisk.html#a6657c260738d632c3f45f9861b129447">Disk::GUIDPartitionTable</a>
 </li>
@@ -413,6 +446,12 @@ $(document).ready(function(){initNavTree('functions_vars_r.html',''); initResiza
 , <a class="el" href="de/d52/namespacex32.html#af472b6ff99b8f79206b75016ce5f4f18">x32::FXState</a>
 , <a class="el" href="d7/db0/namespacex64.html#acfd640fb68e5253d86e2af41b4b6c514">x64::FXState</a>
 , <a class="el" href="d7/db0/namespacex64.html#a9b4a4d5d47f69ca8308a34f7f1214ae5">x64::TrapFrame</a>
+</li>
+<li>rlim_cur
+: <a class="el" href="da/d63/defs_8hpp.html#afb303c82ed3027a353e423a555b944b4">rlimit</a>
+</li>
+<li>rlim_max
+: <a class="el" href="da/d63/defs_8hpp.html#ab24ab4934cab539abf45b259f5db7639">rlimit</a>
 </li>
 <li>ROMSize
 : <a class="el" href="d6/d98/structSMBIOS_1_1SMBIOSBIOSInformation.html#ade88da0afca1fc919fdeade450b4e6d4">SMBIOS::SMBIOSBIOSInformation</a>
@@ -440,52 +479,52 @@ $(document).ready(function(){initNavTree('functions_vars_r.html',''); initResiza
 : <a class="el" href="d7/db0/namespacex64.html#a84ad1ec069bcb79c41427c63b409a0cb">x64::TrapFrame</a>
 </li>
 <li>ru_idrss
-: <a class="el" href="d1/dd4/linux_8cpp.html#aba44a9e7cf6d29a0fb9fb774fc1054df">rusage</a>
+: <a class="el" href="da/d63/defs_8hpp.html#aba44a9e7cf6d29a0fb9fb774fc1054df">rusage</a>
 </li>
 <li>ru_inblock
-: <a class="el" href="d1/dd4/linux_8cpp.html#ae0054babff647c0b7d15056d2a065078">rusage</a>
+: <a class="el" href="da/d63/defs_8hpp.html#ae0054babff647c0b7d15056d2a065078">rusage</a>
 </li>
 <li>ru_isrss
-: <a class="el" href="d1/dd4/linux_8cpp.html#a98bbea3ea84e31221545b4a25a5e58eb">rusage</a>
+: <a class="el" href="da/d63/defs_8hpp.html#a98bbea3ea84e31221545b4a25a5e58eb">rusage</a>
 </li>
 <li>ru_ixrss
-: <a class="el" href="d1/dd4/linux_8cpp.html#adf2c66ca67945d237b1f7a523fb7087d">rusage</a>
+: <a class="el" href="da/d63/defs_8hpp.html#adf2c66ca67945d237b1f7a523fb7087d">rusage</a>
 </li>
 <li>ru_majflt
-: <a class="el" href="d1/dd4/linux_8cpp.html#aa864ea2c906ab13a9a537a99522ae1f2">rusage</a>
+: <a class="el" href="da/d63/defs_8hpp.html#aa864ea2c906ab13a9a537a99522ae1f2">rusage</a>
 </li>
 <li>ru_maxrss
-: <a class="el" href="d1/dd4/linux_8cpp.html#ae7e8289a6d9666491a00ce3788a94740">rusage</a>
+: <a class="el" href="da/d63/defs_8hpp.html#ae7e8289a6d9666491a00ce3788a94740">rusage</a>
 </li>
 <li>ru_minflt
-: <a class="el" href="d1/dd4/linux_8cpp.html#a4643b00037b8e80bae9fcd26522a428b">rusage</a>
+: <a class="el" href="da/d63/defs_8hpp.html#a4643b00037b8e80bae9fcd26522a428b">rusage</a>
 </li>
 <li>ru_msgrcv
-: <a class="el" href="d1/dd4/linux_8cpp.html#ae5d3fdcf63bab40551f38d4cdd6bf8ed">rusage</a>
+: <a class="el" href="da/d63/defs_8hpp.html#ae5d3fdcf63bab40551f38d4cdd6bf8ed">rusage</a>
 </li>
 <li>ru_msgsnd
-: <a class="el" href="d1/dd4/linux_8cpp.html#adc1e0b2e4ede24b5d1f21c2ea0d82d13">rusage</a>
+: <a class="el" href="da/d63/defs_8hpp.html#adc1e0b2e4ede24b5d1f21c2ea0d82d13">rusage</a>
 </li>
 <li>ru_nivcsw
-: <a class="el" href="d1/dd4/linux_8cpp.html#a4ce68fcaf7242cc09be270c56cc2f55e">rusage</a>
+: <a class="el" href="da/d63/defs_8hpp.html#a4ce68fcaf7242cc09be270c56cc2f55e">rusage</a>
 </li>
 <li>ru_nsignals
-: <a class="el" href="d1/dd4/linux_8cpp.html#ac577efad747b76666e163b843286380a">rusage</a>
+: <a class="el" href="da/d63/defs_8hpp.html#ac577efad747b76666e163b843286380a">rusage</a>
 </li>
 <li>ru_nswap
-: <a class="el" href="d1/dd4/linux_8cpp.html#a27f1c056632ca282cccbbfb18a7fd65e">rusage</a>
+: <a class="el" href="da/d63/defs_8hpp.html#a27f1c056632ca282cccbbfb18a7fd65e">rusage</a>
 </li>
 <li>ru_nvcsw
-: <a class="el" href="d1/dd4/linux_8cpp.html#a1ff82b153eb3945d4aa62bfc428d9b28">rusage</a>
+: <a class="el" href="da/d63/defs_8hpp.html#a1ff82b153eb3945d4aa62bfc428d9b28">rusage</a>
 </li>
 <li>ru_oublock
-: <a class="el" href="d1/dd4/linux_8cpp.html#af90459468f1d307bef8651ca7f859216">rusage</a>
+: <a class="el" href="da/d63/defs_8hpp.html#af90459468f1d307bef8651ca7f859216">rusage</a>
 </li>
 <li>ru_stime
-: <a class="el" href="d1/dd4/linux_8cpp.html#a7776ee7a6ec11f32ad4c8d1b0862ceb8">rusage</a>
+: <a class="el" href="da/d63/defs_8hpp.html#a7776ee7a6ec11f32ad4c8d1b0862ceb8">rusage</a>
 </li>
 <li>ru_utime
-: <a class="el" href="d1/dd4/linux_8cpp.html#a42c294483743ea16b9a77f22a2e7660a">rusage</a>
+: <a class="el" href="da/d63/defs_8hpp.html#a42c294483743ea16b9a77f22a2e7660a">rusage</a>
 </li>
 </ul>
 </div><!-- contents -->

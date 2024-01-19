@@ -127,9 +127,9 @@ Macros</h2></td></tr>
 <tr class="separator:a2b47537f55054627b02f22492d624aeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1b2d380dc1779c219bfd7b8b65db57c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#aa1b2d380dc1779c219bfd7b8b65db57c">BLOCK_SIGNAL</a>(sig,  nvar,  ovar)</td></tr>
 <tr class="separator:aa1b2d380dc1779c219bfd7b8b65db57c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6ad5d81af3198ab9d90d7dac07150fc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#ae6ad5d81af3198ab9d90d7dac07150fc">UNBLOCK_SIGNAL</a>(ovar)&#160;&#160;&#160;<a class="el" href="../../d9/de8/sigprocmask_8c.html#a90655aecbf91f9ade152eaa0ced5c3a5">sigprocmask</a> (<a class="el" href="../../de/d62/sig_8h.html#a37750b78b7ae75fe02ad26e70f6cc845">SIG_SETMASK</a>, &amp;ovar, (<a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *) <a class="el" href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td></tr>
+<tr class="memitem:ae6ad5d81af3198ab9d90d7dac07150fc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#ae6ad5d81af3198ab9d90d7dac07150fc">UNBLOCK_SIGNAL</a>(ovar)&#160;&#160;&#160;<a class="el" href="../../d9/de8/sigprocmask_8c.html#a90655aecbf91f9ade152eaa0ced5c3a5">sigprocmask</a> (<a class="el" href="../../dd/d5f/signal_8hpp.html#a6fddd097628384547b7ab38f6b8e2c7faf356455c670da44c4f6f61d63aac9f88">SIG_SETMASK</a>, &amp;ovar, (<a class="el" href="../../dd/d5f/signal_8hpp.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *) <a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td></tr>
 <tr class="separator:ae6ad5d81af3198ab9d90d7dac07150fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37d156f6ab7c2ade277f9a274314d258"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#a37d156f6ab7c2ade277f9a274314d258">BLOCK_CHILD</a>(nvar,  ovar)&#160;&#160;&#160;ovar = sigblock (<a class="el" href="../../de/d62/sig_8h.html#a1b78c9a1c71efca7a30f9126a7fbfadf">sigmask</a> (<a class="el" href="../../d4/dc2/Kernel_2include_2signal_8h.html#ae334395fdd2ddcad969d5988c071c289a6dfd856a32bc2d1933164dc9baf28354">SIGCHLD</a>))</td></tr>
+<tr class="memitem:a37d156f6ab7c2ade277f9a274314d258"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#a37d156f6ab7c2ade277f9a274314d258">BLOCK_CHILD</a>(nvar,  ovar)&#160;&#160;&#160;ovar = sigblock (<a class="el" href="../../de/d62/sig_8h.html#a1b78c9a1c71efca7a30f9126a7fbfadf">sigmask</a> (<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6dfd856a32bc2d1933164dc9baf28354">SIGCHLD</a>))</td></tr>
 <tr class="separator:a37d156f6ab7c2ade277f9a274314d258"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9262558d91ca8060065606f36167783"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#aa9262558d91ca8060065606f36167783">UNBLOCK_CHILD</a>(ovar)&#160;&#160;&#160;sigsetmask (ovar)</td></tr>
 <tr class="separator:aa9262558d91ca8060065606f36167783"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,9 +143,9 @@ Typedefs</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:aafcf8a843120ef4530d4807cff62fe9b"><td class="memItemLeft" align="right" valign="top">void <a class="el" href="../../da/d12/sig_8c.html#af6e26d8b1639be351169ac893a03a71c">initialize_terminating_signals</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#aafcf8a843120ef4530d4807cff62fe9b">PARAMS</a> ((void))</td></tr>
 <tr class="separator:aafcf8a843120ef4530d4807cff62fe9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add55a5f2b3635775cdfc9eb6ad3dc9e9"><td class="memItemLeft" align="right" valign="top">int block_trapped_signals&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#add55a5f2b3635775cdfc9eb6ad3dc9e9">PARAMS</a> ((<a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *, <a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *))</td></tr>
+<tr class="memitem:add55a5f2b3635775cdfc9eb6ad3dc9e9"><td class="memItemLeft" align="right" valign="top">int block_trapped_signals&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#add55a5f2b3635775cdfc9eb6ad3dc9e9">PARAMS</a> ((<a class="el" href="../../dd/d5f/signal_8hpp.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *, <a class="el" href="../../dd/d5f/signal_8hpp.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *))</td></tr>
 <tr class="separator:add55a5f2b3635775cdfc9eb6ad3dc9e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa00c15b4f598685c694be110a0991217"><td class="memItemLeft" align="right" valign="top">int unblock_trapped_signals&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#aa00c15b4f598685c694be110a0991217">PARAMS</a> ((<a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *))</td></tr>
+<tr class="memitem:aa00c15b4f598685c694be110a0991217"><td class="memItemLeft" align="right" valign="top">int unblock_trapped_signals&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#aa00c15b4f598685c694be110a0991217">PARAMS</a> ((<a class="el" href="../../dd/d5f/signal_8hpp.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *))</td></tr>
 <tr class="separator:aa00c15b4f598685c694be110a0991217"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -181,7 +181,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;ovar = sigblock (<a class="el" href="../../de/d62/sig_8h.html#a1b78c9a1c71efca7a30f9126a7fbfadf">sigmask</a> (<a class="el" href="../../d4/dc2/Kernel_2include_2signal_8h.html#ae334395fdd2ddcad969d5988c071c289a6dfd856a32bc2d1933164dc9baf28354">SIGCHLD</a>))</td>
+          <td></td><td>&#160;&#160;&#160;ovar = sigblock (<a class="el" href="../../de/d62/sig_8h.html#a1b78c9a1c71efca7a30f9126a7fbfadf">sigmask</a> (<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6dfd856a32bc2d1933164dc9baf28354">SIGCHLD</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -532,7 +532,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">ovar</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d9/de8/sigprocmask_8c.html#a90655aecbf91f9ade152eaa0ced5c3a5">sigprocmask</a> (<a class="el" href="../../de/d62/sig_8h.html#a37750b78b7ae75fe02ad26e70f6cc845">SIG_SETMASK</a>, &amp;ovar, (<a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *) <a class="el" href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d9/de8/sigprocmask_8c.html#a90655aecbf91f9ade152eaa0ced5c3a5">sigprocmask</a> (<a class="el" href="../../dd/d5f/signal_8hpp.html#a6fddd097628384547b7ab38f6b8e2c7faf356455c670da44c4f6f61d63aac9f88">SIG_SETMASK</a>, &amp;ovar, (<a class="el" href="../../dd/d5f/signal_8hpp.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *) <a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -568,7 +568,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">int unblock_trapped_signals PARAMS </td>
           <td>(</td>
-          <td class="paramtype">(<a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *)&#160;</td>
+          <td class="paramtype">(<a class="el" href="../../dd/d5f/signal_8hpp.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *)&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -586,7 +586,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">int block_trapped_signals PARAMS </td>
           <td>(</td>
-          <td class="paramtype">(<a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *, <a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *)&#160;</td>
+          <td class="paramtype">(<a class="el" href="../../dd/d5f/signal_8hpp.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *, <a class="el" href="../../dd/d5f/signal_8hpp.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *)&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>

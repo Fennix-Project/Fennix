@@ -135,9 +135,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../de/d79/stat-time_8h_source.html#l00034">34</a> of file <a class="el" href="../../de/d79/stat-time_8h_source.html">stat-time.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d98/Kernel_2include__std_2time_8h_source.html#l00023">23</a> of file <a class="el" href="../../de/d98/Kernel_2include__std_2time_8h_source.html">time.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="ae3c7510dafa8cbcaede866ed13c99683"></a>long</td>
+<td class="fieldname">
+tv_nsec</td>
+<td class="fielddoc">
+</td></tr>
 <tr><td class="fieldtype">
 <a id="aa9689622a344d847333e534ac23d3093"></a>long int</td>
 <td class="fieldname">
@@ -193,10 +199,8 @@ tv_sec</td>
 <div class="ttc" id="agm__loop_8c_html_ac310d9181e916ba43604099aee272c71"><div class="ttname"><a href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a></div><div class="ttdeci">int t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dec/gm__loop_8c_source.html#l00079">gm_loop.c:79</a></div></div>
 <div class="ttc" id="apleval_8c_html_d7/deb/structst"><div class="ttname"><a href="../../d7/d63/pleval_8c.html#d7/deb/structst">st</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d63/pleval_8c_source.html#l00026">pleval.c:26</a></div></div>
 <div class="ttc" id="astat-time_8h_html_ae3596142ac85a86be7ebae529b91eb23"><div class="ttname"><a href="../../de/d79/stat-time_8h.html#ae3596142ac85a86be7ebae529b91eb23">get_stat_atime_ns</a></div><div class="ttdeci">static long int get_stat_atime_ns(struct stat const *st)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d79/stat-time_8h_source.html#l00065">stat-time.h:65</a></div></div>
-<div class="ttc" id="astat-time_8h_html_da/d1c/structtimespec"><div class="ttname"><a href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d79/stat-time_8h_source.html#l00034">stat-time.h:35</a></div></div>
+<div class="ttc" id="astat-time_8h_html_da/d1c/structtimespec"><div class="ttname"><a href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d98/Kernel_2include__std_2time_8h_source.html#l00023">time.h:24</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">Module::void()</a>.</p>
-
 <p class="reference">Referenced by <a class="el" href="../../d9/dd0/bash_2test_8c_source.html#l00516">unary_test()</a>.</p>
 
 </div>
@@ -283,7 +287,7 @@ tv_sec</td>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  <a class="code" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>.tv_sec = -1;</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;  <a class="code" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>.tv_nsec = -1;</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;  <span class="comment">/* Avoid a &quot;parameter unused&quot; warning.  */</span></div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;  (<a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a>) <a class="code" href="../../d7/d63/pleval_8c.html#d7/deb/structst">st</a>;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;  (void) <a class="code" href="../../d7/d63/pleval_8c.html#d7/deb/structst">st</a>;</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160; </div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;<span class="preprocessor">#if (defined HAVE_STRUCT_STAT_ST_BIRTHTIMESPEC_TV_NSEC \</span></div>
@@ -303,9 +307,8 @@ tv_sec</td>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160; </div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;  <span class="keywordflow">return</span> <a class="code" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>;</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;}</div>
-<div class="ttc" id="anamespaceModule_html_aa56762f1e0bc7b507d773d431829e1a0"><div class="ttname"><a href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">Module::void</a></div><div class="ttdeci">int void(Handle.InterruptCallback))(&amp;regs)</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d79/stat-time_8h_source.html#l00037">timespec::tv_nsec</a>, and <a class="el" href="../../de/d79/stat-time_8h_source.html#l00036">timespec::tv_sec</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d98/Kernel_2include__std_2time_8h_source.html#l00026">timespec::tv_nsec</a>, and <a class="el" href="../../de/d98/Kernel_2include__std_2time_8h_source.html#l00025">timespec::tv_sec</a>.</p>
 
 </div>
 </div>
@@ -341,7 +344,7 @@ tv_sec</td>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  <span class="keywordflow">return</span> STAT_TIMESPEC_NS (<a class="code" href="../../d7/d63/pleval_8c.html#d7/deb/structst">st</a>, st_birthtim);</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="preprocessor"># else</span></div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;  <span class="comment">/* Avoid a &quot;parameter unused&quot; warning.  */</span></div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;  (<a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a>) <a class="code" href="../../d7/d63/pleval_8c.html#d7/deb/structst">st</a>;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;  (void) <a class="code" href="../../d7/d63/pleval_8c.html#d7/deb/structst">st</a>;</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;  <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="preprocessor"># endif</span></div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;}</div>
@@ -542,10 +545,10 @@ tv_sec</td>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        ? -1</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        : (a.<a class="code" href="../../de/d79/stat-time_8h.html#afc3302668d7cb5952f590da69fdd4955">tv_sec</a> &gt; b.<a class="code" href="../../de/d79/stat-time_8h.html#afc3302668d7cb5952f590da69fdd4955">tv_sec</a></div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;         ? 1</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;         : (<span class="keywordtype">int</span>) (a.<a class="code" href="../../de/d79/stat-time_8h.html#aa9689622a344d847333e534ac23d3093">tv_nsec</a> - b.<a class="code" href="../../de/d79/stat-time_8h.html#aa9689622a344d847333e534ac23d3093">tv_nsec</a>)));</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;         : (<span class="keywordtype">int</span>) (a.<a class="code" href="../../de/d79/stat-time_8h.html#ae3c7510dafa8cbcaede866ed13c99683">tv_nsec</a> - b.<a class="code" href="../../de/d79/stat-time_8h.html#ae3c7510dafa8cbcaede866ed13c99683">tv_nsec</a>)));</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;}</div>
-<div class="ttc" id="astat-time_8h_html_aa9689622a344d847333e534ac23d3093"><div class="ttname"><a href="../../de/d79/stat-time_8h.html#aa9689622a344d847333e534ac23d3093">timespec::tv_nsec</a></div><div class="ttdeci">long int tv_nsec</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d79/stat-time_8h_source.html#l00037">stat-time.h:37</a></div></div>
-<div class="ttc" id="astat-time_8h_html_afc3302668d7cb5952f590da69fdd4955"><div class="ttname"><a href="../../de/d79/stat-time_8h.html#afc3302668d7cb5952f590da69fdd4955">timespec::tv_sec</a></div><div class="ttdeci">time_t tv_sec</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d79/stat-time_8h_source.html#l00036">stat-time.h:36</a></div></div>
+<div class="ttc" id="astat-time_8h_html_ae3c7510dafa8cbcaede866ed13c99683"><div class="ttname"><a href="../../de/d79/stat-time_8h.html#ae3c7510dafa8cbcaede866ed13c99683">timespec::tv_nsec</a></div><div class="ttdeci">long tv_nsec</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d98/Kernel_2include__std_2time_8h_source.html#l00026">time.h:26</a></div></div>
+<div class="ttc" id="astat-time_8h_html_afc3302668d7cb5952f590da69fdd4955"><div class="ttname"><a href="../../de/d79/stat-time_8h.html#afc3302668d7cb5952f590da69fdd4955">timespec::tv_sec</a></div><div class="ttdeci">time_t tv_sec</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d98/Kernel_2include__std_2time_8h_source.html#l00025">time.h:25</a></div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="../../d9/dd0/bash_2test_8c_source.html#l00306">filecomp()</a>, and <a class="el" href="../../d9/dd0/bash_2test_8c_source.html#l00516">unary_test()</a>.</p>
 

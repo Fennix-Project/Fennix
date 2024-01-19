@@ -88,6 +88,7 @@ $(document).ready(function(){initNavTree('da/da7/interrupts__manager_8cpp.html',
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -107,13 +108,20 @@ $(document).ready(function(){initNavTree('da/da7/interrupts__manager_8cpp.html',
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
-<tr class="memitem:d7/d5e/structInterrupts_1_1Event"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#d7/d5e/structInterrupts_1_1Event">Interrupts::Event</a></td></tr>
-<tr class="separator:d7/d5e/structInterrupts_1_1Event"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5e/structInterrupts_1_1Event.html">Interrupts::Event</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:d3/dc3/namespaceInterrupts"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html">Interrupts</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:add11294b184ccec700bccf3f74064be0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da7/interrupts__manager_8cpp.html#add11294b184ccec700bccf3f74064be0">SORT_DIVIDER</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:add11294b184ccec700bccf3f74064be0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a109b028072335b844c90cbc37d7c6fa8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da7/interrupts__manager_8cpp.html#a109b028072335b844c90cbc37d7c6fa8">SORT_START</a>&#160;&#160;&#160;10000</td></tr>
+<tr class="separator:a109b028072335b844c90cbc37d7c6fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -127,45 +135,58 @@ Functions</h2></td></tr>
 <tr class="separator:a8ef30e8ff4ebe60791d0b42b61caaefa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f0ee2cbdae01f701d9a83efe503efc3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#a1f0ee2cbdae01f701d9a83efe503efc3">Interrupts::RemoveAll</a> ()</td></tr>
 <tr class="separator:a1f0ee2cbdae01f701d9a83efe503efc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5077333dfe93ebc144894b3a056c16a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#aa5077333dfe93ebc144894b3a056c16a">Interrupts::AddHandler</a> (void(*Callback)(CPU::TrapFrame *), int InterruptNumber, void *<a class="el" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>, <a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> Critical)</td></tr>
+<tr class="separator:aa5077333dfe93ebc144894b3a056c16a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79a4bf53f777596006e7b13ff8d55717"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#a79a4bf53f777596006e7b13ff8d55717">Interrupts::RemoveHandler</a> (void(*Callback)(CPU::TrapFrame *), int InterruptNumber)</td></tr>
+<tr class="separator:a79a4bf53f777596006e7b13ff8d55717"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60ce955e69f33f2388dcc63a09c277e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#a60ce955e69f33f2388dcc63a09c277e6">Interrupts::RemoveHandler</a> (void(*Callback)(CPU::TrapFrame *))</td></tr>
+<tr class="separator:a60ce955e69f33f2388dcc63a09c277e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa17859fc27dd7c7d61a07aa6bb8c6046"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#aa17859fc27dd7c7d61a07aa6bb8c6046">Interrupts::RemoveHandler</a> (int InterruptNumber)</td></tr>
+<tr class="separator:aa17859fc27dd7c7d61a07aa6bb8c6046"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a605ca83a60ddc47b3d74ab7aea2877a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#a605ca83a60ddc47b3d74ab7aea2877a0">Interrupts::MainInterruptHandler</a> (void *<a class="el" href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a>)</td></tr>
 <tr class="separator:a605ca83a60ddc47b3d74ab7aea2877a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:afcc4bd09a12169b61eb540c3bc165225"><td class="memItemLeft" align="right" valign="top">std::vector&lt; Event &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#afcc4bd09a12169b61eb540c3bc165225">Interrupts::RegisteredEvents</a></td></tr>
-<tr class="separator:afcc4bd09a12169b61eb540c3bc165225"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae790f507e4d7e3e4aaf00aa0613431b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dbe/ash_8c.html#a5622588ebb578fec742903968331ed4b">std::list</a>&lt; Event &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#ae790f507e4d7e3e4aaf00aa0613431b0">Interrupts::RegisteredEvents</a></td></tr>
+<tr class="separator:ae790f507e4d7e3e4aaf00aa0613431b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2124862a0734e9dac41c008d17d6d5c2"><td class="memItemLeft" align="right" valign="top">std::atomic_uint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#a2124862a0734e9dac41c008d17d6d5c2">Interrupts::SortEvents</a> = <a class="el" href="../../da/da7/interrupts__manager_8cpp.html#a109b028072335b844c90cbc37d7c6fa8">SORT_START</a> / <a class="el" href="../../da/da7/interrupts__manager_8cpp.html#add11294b184ccec700bccf3f74064be0">SORT_DIVIDER</a></td></tr>
+<tr class="separator:a2124862a0734e9dac41c008d17d6d5c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82df07424b6c6705a5dcc04f580316b8"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#a82df07424b6c6705a5dcc04f580316b8">Interrupts::SORT_ITR</a> = (<a class="el" href="../../da/da7/interrupts__manager_8cpp.html#a109b028072335b844c90cbc37d7c6fa8">SORT_START</a> * 100) / <a class="el" href="../../da/da7/interrupts__manager_8cpp.html#add11294b184ccec700bccf3f74064be0">SORT_DIVIDER</a></td></tr>
+<tr class="separator:a82df07424b6c6705a5dcc04f580316b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1d11abba0d09e297052a3bf31515123"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#af1d11abba0d09e297052a3bf31515123">Interrupts::InterruptFrames</a> [<a class="el" href="../../d0/d36/ints_8hpp.html#a8e948e343c3a3e30fc64d23a81ec2815">INT_FRAMES_MAX</a>]</td></tr>
 <tr class="separator:af1d11abba0d09e297052a3bf31515123"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/><h2 class="groupheader">Data Structure Documentation</h2>
-<a name="d7/d5e/structInterrupts_1_1Event" id="d7/d5e/structInterrupts_1_1Event"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d7/d5e/structInterrupts_1_1Event">&#9670;&nbsp;</a></span>Interrupts::Event</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="add11294b184ccec700bccf3f74064be0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add11294b184ccec700bccf3f74064be0">&#9670;&nbsp;</a></span>SORT_DIVIDER</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct Interrupts::Event</td>
+          <td class="memname">#define SORT_DIVIDER&#160;&#160;&#160;1</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../da/da7/interrupts__manager_8cpp_source.html#l00047">47</a> of file <a class="el" href="../../da/da7/interrupts__manager_8cpp_source.html">interrupts_manager.cpp</a>.</p>
-</div><table class="fieldtable">
-<tr><th colspan="3">Data Fields</th></tr>
-<tr><td class="fieldtype">
-<a id="af4df62bbd7e9e02bfb841d33a30864a9"></a>void *</td>
-<td class="fieldname">
-Data</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="af9bcc6349d5b89b84a263260fcfae653"></a>int</td>
-<td class="fieldname">
-ID</td>
-<td class="fielddoc">
-</td></tr>
-</table>
+
+<p class="definition">Definition at line <a class="el" href="../../da/da7/interrupts__manager_8cpp_source.html#l00101">101</a> of file <a class="el" href="../../da/da7/interrupts__manager_8cpp_source.html">interrupts_manager.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a109b028072335b844c90cbc37d7c6fa8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a109b028072335b844c90cbc37d7c6fa8">&#9670;&nbsp;</a></span>SORT_START</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SORT_START&#160;&#160;&#160;10000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/da7/interrupts__manager_8cpp_source.html#l00104">104</a> of file <a class="el" href="../../da/da7/interrupts__manager_8cpp_source.html">interrupts_manager.cpp</a>.</p>
 
 </div>
 </div>
@@ -191,9 +212,9 @@ ID</td>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="../../d2/d57/namespaceCrashHandler.html#a202e013cac1a108322c79e592f3a5e0c">CrashHandler::Handle</a>(<a class="code" href="../../d8/d12/Xalloc_8hpp.html#a7aacb0e1bf77e9bd405d9409047baad7">Data</a>);</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
 <div class="ttc" id="aXalloc_8hpp_html_a7aacb0e1bf77e9bd405d9409047baad7"><div class="ttname"><a href="../../d8/d12/Xalloc_8hpp.html#a7aacb0e1bf77e9bd405d9409047baad7">Data</a></div><div class="ttdeci">Xuint8_t * Data</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d12/Xalloc_8hpp_source.html#l00006">Xalloc.hpp:6</a></div></div>
-<div class="ttc" id="anamespaceCrashHandler_html_a202e013cac1a108322c79e592f3a5e0c"><div class="ttname"><a href="../../d2/d57/namespaceCrashHandler.html#a202e013cac1a108322c79e592f3a5e0c">CrashHandler::Handle</a></div><div class="ttdeci">SafeFunction void Handle(void *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d5f/crash__handler_8cpp_source.html#l01151">crash_handler.cpp:1151</a></div></div>
+<div class="ttc" id="anamespaceCrashHandler_html_a202e013cac1a108322c79e592f3a5e0c"><div class="ttname"><a href="../../d2/d57/namespaceCrashHandler.html#a202e013cac1a108322c79e592f3a5e0c">CrashHandler::Handle</a></div><div class="ttdeci">SafeFunction void Handle(void *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d5f/crash__handler_8cpp_source.html#l01174">crash_handler.cpp:1174</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d12/Xalloc_8hpp_source.html#l00006">Data</a>, and <a class="el" href="../../d1/d5f/crash__handler_8cpp_source.html#l01151">CrashHandler::Handle()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d12/Xalloc_8hpp_source.html#l00006">Data</a>, and <a class="el" href="../../d1/d5f/crash__handler_8cpp_source.html#l01174">CrashHandler::Handle()</a>.</p>
 
 </div>
 </div>

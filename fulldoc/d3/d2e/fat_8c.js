@@ -15,7 +15,7 @@ var fat_8c =
       [ "sectors_per_cluster", "d3/d2e/fat_8c.html#a2b58cab26034477b7b12ede23d5b30a6", null ],
       [ "sysid", "d3/d2e/fat_8c.html#a3d73c32b87f28cf43f9be98183eb2672", null ],
       [ "total_sect", "d3/d2e/fat_8c.html#a10b6915e469804863765c6b586945dc0", null ],
-      [ "type", "d3/d2e/fat_8c.html#a2d3325746717324f0636752162cc5739", null ]
+      [ "type", "d3/d2e/fat_8c.html#a376acd59f3105387bb1c1e10921f3584", null ]
     ] ],
     [ "vfat_dir_entry", "d3/d2e/fat_8c.html#d7/db1/structvfat__dir__entry", [
       [ "attr", "d3/d2e/fat_8c.html#adc2a977f4b0c959e15d37d69b48633ca", null ],

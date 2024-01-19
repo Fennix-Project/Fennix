@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -155,7 +155,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d1/de5/memop_8c_source.html#l00295">memmove_unsafe()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00905">__memmove_chk()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00932">__memmove_chk()</a>, <a class="el" href="../../d0/d0c/simd__memmove_8cpp_source.html#l00037">memmove_sse2()</a>, <a class="el" href="../../d0/d0c/simd__memmove_8cpp_source.html#l00042">memmove_sse3()</a>, <a class="el" href="../../d0/d0c/simd__memmove_8cpp_source.html#l00052">memmove_sse4_1()</a>, <a class="el" href="../../d0/d0c/simd__memmove_8cpp_source.html#l00057">memmove_sse4_2()</a>, and <a class="el" href="../../d0/d0c/simd__memmove_8cpp_source.html#l00047">memmove_ssse3()</a>.</p>
 
 </div>
 </div>
@@ -193,12 +193,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d0c/simd__memmove_8cpp_source.html#l00037">37</a> of file <a class="el" href="../../d0/d0c/simd__memmove_8cpp_source.html">simd_memmove.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/d82/convert_8h.html#a7c4011320424e41e3875a3c9312242b0">memmove_unsafe</a>(dest, src, n);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d0c/simd__memmove_8cpp.html#aff9788fab923146b25f5a149b872f771">memmove_sse</a>(dest, src, n);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
+<div class="ttc" id="asimd__memmove_8cpp_html_aff9788fab923146b25f5a149b872f771"><div class="ttname"><a href="../../d0/d0c/simd__memmove_8cpp.html#aff9788fab923146b25f5a149b872f771">memmove_sse</a></div><div class="ttdeci">EXTERNC void * memmove_sse(void *dest, const void *src, size_t n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d0c/simd__memmove_8cpp_source.html#l00032">simd_memmove.cpp:32</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/de5/memop_8c_source.html#l00295">memmove_unsafe()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/simd__memmove_8cpp_source.html#l00032">memmove_sse()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00905">__memmove_chk()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00932">__memmove_chk()</a>.</p>
 
 </div>
 </div>
@@ -236,12 +237,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d0c/simd__memmove_8cpp_source.html#l00042">42</a> of file <a class="el" href="../../d0/d0c/simd__memmove_8cpp_source.html">simd_memmove.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/d82/convert_8h.html#a7c4011320424e41e3875a3c9312242b0">memmove_unsafe</a>(dest, src, n);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d0c/simd__memmove_8cpp.html#aff9788fab923146b25f5a149b872f771">memmove_sse</a>(dest, src, n);</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/de5/memop_8c_source.html#l00295">memmove_unsafe()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/simd__memmove_8cpp_source.html#l00032">memmove_sse()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00905">__memmove_chk()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00932">__memmove_chk()</a>.</p>
 
 </div>
 </div>
@@ -279,12 +280,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d0c/simd__memmove_8cpp_source.html#l00052">52</a> of file <a class="el" href="../../d0/d0c/simd__memmove_8cpp_source.html">simd_memmove.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;{</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/d82/convert_8h.html#a7c4011320424e41e3875a3c9312242b0">memmove_unsafe</a>(dest, src, n);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d0c/simd__memmove_8cpp.html#aff9788fab923146b25f5a149b872f771">memmove_sse</a>(dest, src, n);</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/de5/memop_8c_source.html#l00295">memmove_unsafe()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/simd__memmove_8cpp_source.html#l00032">memmove_sse()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00905">__memmove_chk()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00932">__memmove_chk()</a>.</p>
 
 </div>
 </div>
@@ -322,12 +323,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d0c/simd__memmove_8cpp_source.html#l00057">57</a> of file <a class="el" href="../../d0/d0c/simd__memmove_8cpp_source.html">simd_memmove.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;{</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/d82/convert_8h.html#a7c4011320424e41e3875a3c9312242b0">memmove_unsafe</a>(dest, src, n);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d0c/simd__memmove_8cpp.html#aff9788fab923146b25f5a149b872f771">memmove_sse</a>(dest, src, n);</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/de5/memop_8c_source.html#l00295">memmove_unsafe()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/simd__memmove_8cpp_source.html#l00032">memmove_sse()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00905">__memmove_chk()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00932">__memmove_chk()</a>.</p>
 
 </div>
 </div>
@@ -365,12 +366,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d0c/simd__memmove_8cpp_source.html#l00047">47</a> of file <a class="el" href="../../d0/d0c/simd__memmove_8cpp_source.html">simd_memmove.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;{</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/d82/convert_8h.html#a7c4011320424e41e3875a3c9312242b0">memmove_unsafe</a>(dest, src, n);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d0c/simd__memmove_8cpp.html#aff9788fab923146b25f5a149b872f771">memmove_sse</a>(dest, src, n);</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/de5/memop_8c_source.html#l00295">memmove_unsafe()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/simd__memmove_8cpp_source.html#l00032">memmove_sse()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00905">__memmove_chk()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00932">__memmove_chk()</a>.</p>
 
 </div>
 </div>

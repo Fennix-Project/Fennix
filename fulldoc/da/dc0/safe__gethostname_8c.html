@@ -92,7 +92,7 @@ $(document).ready(function(){initNavTree('da/dc0/safe__gethostname_8c.html','../
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d7/dd7/libbb_8h_source.html">libbb.h</a>&quot;</code><br />
-<code>#include &lt;<a class="el" href="../../d5/d3d/utsname_8h_source.html">sys/utsname.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d2/dc1/Userspace_2musl_2include_2sys_2utsname_8h_source.html">sys/utsname.h</a>&gt;</code><br />
 </div>
 <p><a href="../../da/dc0/safe__gethostname_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -120,7 +120,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/dc0/safe__gethostname_8c_source.html#l00034">34</a> of file <a class="el" href="../../da/dc0/safe__gethostname_8c_source.html">safe_gethostname.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d3d/utsname_8h.html#db/d19/structutsname">utsname</a> uts;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d2/dc1/Userspace_2musl_2include_2sys_2utsname_8h.html#db/d19/structutsname">utsname</a> uts;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="comment">/* The length of the arrays in a struct utsname is unspecified;</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">     * the fields are terminated by a null byte.</span></div>
@@ -132,14 +132,14 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">     */</span></div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="comment">/* Uname can fail only if you pass a bad pointer to it. */</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="../../d5/d3d/utsname_8h.html#a883b5b5a1cd4a1f6a5837c1cf98ede1c">uname</a>(&amp;uts);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="../../d2/dc1/Userspace_2musl_2include_2sys_2utsname_8h.html#a883b5b5a1cd4a1f6a5837c1cf98ede1c">uname</a>(&amp;uts);</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d7/dd7/libbb_8h.html#ab08a8f00393f0dd77050fccaecba3a7e">xstrndup</a>(!uts.nodename[0] ? <span class="stringliteral">&quot;?&quot;</span> : uts.nodename, <span class="keyword">sizeof</span>(uts.nodename));</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
+<div class="ttc" id="aUserspace_2musl_2include_2sys_2utsname_8h_html_a883b5b5a1cd4a1f6a5837c1cf98ede1c"><div class="ttname"><a href="../../d2/dc1/Userspace_2musl_2include_2sys_2utsname_8h.html#a883b5b5a1cd4a1f6a5837c1cf98ede1c">uname</a></div><div class="ttdeci">int uname(struct utsname *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d63/musl_2src_2misc_2uname_8c_source.html#l00004">uname.c:4</a></div></div>
+<div class="ttc" id="aUserspace_2musl_2include_2sys_2utsname_8h_html_db/d19/structutsname"><div class="ttname"><a href="../../d2/dc1/Userspace_2musl_2include_2sys_2utsname_8h.html#db/d19/structutsname">utsname</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db7/Kernel_2include__std_2utsname_8h_source.html#l00025">utsname.h:26</a></div></div>
 <div class="ttc" id="alibbb_8h_html_ab08a8f00393f0dd77050fccaecba3a7e"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#ab08a8f00393f0dd77050fccaecba3a7e">xstrndup</a></div><div class="ttdeci">char * xstrndup(const char *s, size_t n) FAST_FUNC RETURNS_MALLOC</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dd6/xfuncs__printf_8c_source.html#l00094">xfuncs_printf.c:94</a></div></div>
-<div class="ttc" id="autsname_8h_html_a883b5b5a1cd4a1f6a5837c1cf98ede1c"><div class="ttname"><a href="../../d5/d3d/utsname_8h.html#a883b5b5a1cd4a1f6a5837c1cf98ede1c">uname</a></div><div class="ttdeci">int uname(struct utsname *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d63/musl_2src_2misc_2uname_8c_source.html#l00004">uname.c:4</a></div></div>
-<div class="ttc" id="autsname_8h_html_db/d19/structutsname"><div class="ttname"><a href="../../d5/d3d/utsname_8h.html#db/d19/structutsname">utsname</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00034">uname.c:34</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00036">utsname::nodename</a>, <a class="el" href="../../d7/d63/musl_2src_2misc_2uname_8c_source.html#l00004">uname()</a>, and <a class="el" href="../../d9/dd6/xfuncs__printf_8c_source.html#l00094">xstrndup()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/db7/Kernel_2include__std_2utsname_8h_source.html#l00028">utsname::nodename</a>, <a class="el" href="../../d7/d63/musl_2src_2misc_2uname_8c_source.html#l00004">uname()</a>, and <a class="el" href="../../d9/dd6/xfuncs__printf_8c_source.html#l00094">xstrndup()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/de8/bootchartd_8c_source.html#l00265">finalize()</a>, <a class="el" href="../../d6/d3a/devfsd_8c_source.html#l01206">get_variable()</a>, <a class="el" href="../../d8/d03/hostname_8c_source.html#l00119">hostname_main()</a>, <a class="el" href="../../df/d99/lpr_8c_source.html#l00082">lpqr_main()</a>, <a class="el" href="../../db/de8/obscure_8c_source.html#l00094">obscure_msg()</a>, <a class="el" href="../../dd/d04/popmaildir_8c_source.html#l00094">popmaildir_main()</a>, <a class="el" href="../../d7/d64/libbb_2login_8c_source.html#l00129">print_login_prompt()</a>, <a class="el" href="../../dd/d57/sendmail_8c_source.html#l00218">sendmail_main()</a>, and <a class="el" href="../../d9/db8/syslogd_8c_source.html#l01130">syslogd_main()</a>.</p>
 

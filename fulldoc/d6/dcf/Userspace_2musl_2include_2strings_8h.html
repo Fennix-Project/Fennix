@@ -175,21 +175,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00448">448</a> of file <a class="el" href="../../d3/d68/convert_8cpp_source.html">convert.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;{</div>
-<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *p1 = (<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *)<a class="code" href="../../d3/d84/lgamma__r_8c.html#a1ff9ee3251659529629e761b307fada6">s1</a>;</div>
-<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *p2 = (<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *)<a class="code" href="../../d3/d84/lgamma__r_8c.html#a6f99aff13f96e26313f4fdfb4fbe5b1d">s2</a>;</div>
-<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;    <span class="keywordtype">int</span> result;</div>
-<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;    <span class="keywordflow">if</span> (p1 == p2)</div>
-<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;        <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;    <span class="keywordflow">while</span> ((result = <a class="code" href="../../d8/dcc/namespacestd.html#a37c2ac6f7d497a4a27f00df50db12fbf">std::tolower</a>(*p1) - <a class="code" href="../../d8/dcc/namespacestd.html#a37c2ac6f7d497a4a27f00df50db12fbf">std::tolower</a>(*p2++)) == 0)</div>
-<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;        <span class="keywordflow">if</span> (*p1++ == <span class="charliteral">&#39;\0&#39;</span>)</div>
-<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;    <span class="keywordflow">return</span> result;</div>
-<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00475">475</a> of file <a class="el" href="../../d3/d68/convert_8cpp_source.html">convert.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;{</div>
+<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *p1 = (<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *)<a class="code" href="../../d3/d84/lgamma__r_8c.html#a1ff9ee3251659529629e761b307fada6">s1</a>;</div>
+<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *p2 = (<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *)<a class="code" href="../../d3/d84/lgamma__r_8c.html#a6f99aff13f96e26313f4fdfb4fbe5b1d">s2</a>;</div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;    <span class="keywordtype">int</span> result;</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;    <span class="keywordflow">if</span> (p1 == p2)</div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;    <span class="keywordflow">while</span> ((result = <a class="code" href="../../d8/dcc/namespacestd.html#a37c2ac6f7d497a4a27f00df50db12fbf">std::tolower</a>(*p1) - <a class="code" href="../../d8/dcc/namespacestd.html#a37c2ac6f7d497a4a27f00df50db12fbf">std::tolower</a>(*p2++)) == 0)</div>
+<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;        <span class="keywordflow">if</span> (*p1++ == <span class="charliteral">&#39;\0&#39;</span>)</div>
+<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;}</div>
 <div class="ttc" id="algamma__r_8c_html_a1ff9ee3251659529629e761b307fada6"><div class="ttname"><a href="../../d3/d84/lgamma__r_8c.html#a1ff9ee3251659529629e761b307fada6">s1</a></div><div class="ttdeci">static const double s1</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d84/lgamma__r_8c_source.html#l00128">lgamma_r.c:128</a></div></div>
 <div class="ttc" id="algamma__r_8c_html_a6f99aff13f96e26313f4fdfb4fbe5b1d"><div class="ttname"><a href="../../d3/d84/lgamma__r_8c.html#a6f99aff13f96e26313f4fdfb4fbe5b1d">s2</a></div><div class="ttdeci">static const double s2</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d84/lgamma__r_8c_source.html#l00129">lgamma_r.c:129</a></div></div>
-<div class="ttc" id="anamespacestd_html_a37c2ac6f7d497a4a27f00df50db12fbf"><div class="ttname"><a href="../../d8/dcc/namespacestd.html#a37c2ac6f7d497a4a27f00df50db12fbf">std::tolower</a></div><div class="ttdeci">__always_inline int tolower(int c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d8c/std_8hpp_source.html#l00060">std.hpp:60</a></div></div>
+<div class="ttc" id="anamespacestd_html_a37c2ac6f7d497a4a27f00df50db12fbf"><div class="ttname"><a href="../../d8/dcc/namespacestd.html#a37c2ac6f7d497a4a27f00df50db12fbf">std::tolower</a></div><div class="ttdeci">__always_inline int tolower(int c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d8c/std_8hpp_source.html#l00051">std.hpp:51</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>, <a class="el" href="../../d3/d84/lgamma__r_8c_source.html#l00128">s1</a>, <a class="el" href="../../d3/d84/lgamma__r_8c_source.html#l00129">s2</a>, and <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00069">tolower</a>.</p>
 
@@ -261,26 +261,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/db0/string_8c_source.html#l00047">47</a> of file <a class="el" href="../../d1/db0/string_8c_source.html">string.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;{</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a>)</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    {</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *<a class="code" href="../../d3/d84/lgamma__r_8c.html#a1ff9ee3251659529629e761b307fada6">s1</a> = (<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *)string1;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *<a class="code" href="../../d3/d84/lgamma__r_8c.html#a6f99aff13f96e26313f4fdfb4fbe5b1d">s2</a> = (<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *)string2;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordtype">int</span> result;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">do</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        {</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <span class="keywordflow">if</span> ((result = <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a422175620f52b1ca4dbc39d627296d83">tolower</a>(*<a class="code" href="../../d3/d84/lgamma__r_8c.html#a1ff9ee3251659529629e761b307fada6">s1</a>) - <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a422175620f52b1ca4dbc39d627296d83">tolower</a>(*<a class="code" href="../../d3/d84/lgamma__r_8c.html#a6f99aff13f96e26313f4fdfb4fbe5b1d">s2</a>++)) != 0 || !*<a class="code" href="../../d3/d84/lgamma__r_8c.html#a1ff9ee3251659529629e761b307fada6">s1</a>++)</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        } <span class="keywordflow">while</span> (--<a class="code" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a>);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">return</span> result;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a422175620f52b1ca4dbc39d627296d83"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a422175620f52b1ca4dbc39d627296d83">tolower</a></div><div class="ttdeci">#define tolower(c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00069">types.h:69</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00143">143</a> of file <a class="el" href="../../d3/d68/convert_8cpp_source.html">convert.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;{</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <span class="keywordtype">int</span> result = 0;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a>--)</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    {</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <span class="keywordflow">if</span> ((result = <a class="code" href="../../d8/dcc/namespacestd.html#a37c2ac6f7d497a4a27f00df50db12fbf">std::tolower</a>(*string1) - <a class="code" href="../../d8/dcc/namespacestd.html#a37c2ac6f7d497a4a27f00df50db12fbf">std::tolower</a>(*string2)) != 0 || !*string1)</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        string1++;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        string2++;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    }</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;}</div>
 <div class="ttc" id="add_8c_html_ac74ae34e9c58234aacabb6867b245c58"><div class="ttname"><a href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a></div><div class="ttdeci">#define count</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>, <a class="el" href="../../d0/d32/dcigettext_8c_source.html#l00441">n</a>, and <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00069">tolower</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a>, <a class="el" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>, <a class="el" href="../../d0/d32/dcigettext_8c_source.html#l00441">n</a>, <a class="el" href="../../d3/d84/lgamma__r_8c_source.html#l00128">s1</a>, <a class="el" href="../../d3/d84/lgamma__r_8c_source.html#l00129">s2</a>, and <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00069">tolower</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/d9c/strncasecmp_8c_source.html#l00012">__strncasecmp_l()</a>.</p>
 

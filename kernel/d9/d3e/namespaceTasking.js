@@ -1,6 +1,8 @@
 var namespaceTasking =
 [
+    [ "Signal", "d2/d8b/classTasking_1_1Signal.html", "d2/d8b/classTasking_1_1Signal" ],
     [ "TaskInfo", "d9/d3e/namespaceTasking.html#d6/dd8/structTasking_1_1TaskInfo", "d9/d3e/namespaceTasking_d6/dd8/structTasking_1_1TaskInfo_dup" ],
+    [ "ThreadLocalStorage", "d9/d3e/namespaceTasking.html#d7/dd5/structTasking_1_1ThreadLocalStorage", "d9/d3e/namespaceTasking_d7/dd5/structTasking_1_1ThreadLocalStorage_dup" ],
     [ "gsTCB", "d9/d3e/namespaceTasking.html#d5/d12/structTasking_1_1gsTCB", "d9/d3e/namespaceTasking_d5/d12/structTasking_1_1gsTCB_dup" ],
     [ "TCB", "da/daf/classTasking_1_1TCB.html", "da/daf/classTasking_1_1TCB" ],
     [ "PCB", "d6/d17/classTasking_1_1PCB.html", "d6/d17/classTasking_1_1PCB" ],
@@ -11,17 +13,17 @@ var namespaceTasking =
     [ "PCB.Security.Real", "d9/d3e/namespaceTasking.html#da/d00/structTasking_1_1PCB_8Security_8Real", "d9/d3e/namespaceTasking_da/d00/structTasking_1_1PCB_8Security_8Real_dup" ],
     [ "PCB.Security.Effective", "d9/d3e/namespaceTasking.html#d8/d99/structTasking_1_1PCB_8Security_8Effective", "d9/d3e/namespaceTasking_d8/d99/structTasking_1_1PCB_8Security_8Effective_dup" ],
     [ "IP", "d9/d3e/namespaceTasking.html#acf7f74020dfbe0bd9bbce8a2877abb6d", null ],
-    [ "PID", "d9/d3e/namespaceTasking.html#a751a57ef6a40c1dc96de2fa13e29b03e", null ],
-    [ "TID", "d9/d3e/namespaceTasking.html#a4997704a70b8f8cc2b51aff2cf4e1f17", null ],
-    [ "KillErrorCodes", "d9/d3e/namespaceTasking.html#a80f195a3819fbc143c8c557cc4c16ae7", [
-      [ "KILL_SCHEDULER_DESTRUCTION", "d9/d3e/namespaceTasking.html#a80f195a3819fbc143c8c557cc4c16ae7ac70d565c3766df493f932b4351fe3ee9", null ],
-      [ "KILL_CXXABI_EXCEPTION", "d9/d3e/namespaceTasking.html#a80f195a3819fbc143c8c557cc4c16ae7a49f974482c14ec22545bbe618d851891", null ],
-      [ "KILL_BY_OTHER_PROCESS", "d9/d3e/namespaceTasking.html#a80f195a3819fbc143c8c557cc4c16ae7afee714a5d29a760c667348144b3db95e", null ],
-      [ "KILL_SYSCALL", "d9/d3e/namespaceTasking.html#a80f195a3819fbc143c8c557cc4c16ae7ab2ef1684c097cbec580c77d3771d410b", null ],
-      [ "KILL_CRASH", "d9/d3e/namespaceTasking.html#a80f195a3819fbc143c8c557cc4c16ae7a55154038477ba53433ef21becc79ea9e", null ],
-      [ "KILL_OOM", "d9/d3e/namespaceTasking.html#a80f195a3819fbc143c8c557cc4c16ae7a5db1738520d017ad44bc7ba4e83e04e2", null ],
-      [ "KILL_ERROR", "d9/d3e/namespaceTasking.html#a80f195a3819fbc143c8c557cc4c16ae7a40849aba4e019370ef75dc3d76022532", null ],
-      [ "KILL_SUCCESS", "d9/d3e/namespaceTasking.html#a80f195a3819fbc143c8c557cc4c16ae7af61681c0a4b664c818dcf792fe4439f8", null ]
+    [ "PID", "d9/d3e/namespaceTasking.html#aa76aeff7a55bd771f722c58ffb339acf", null ],
+    [ "TID", "d9/d3e/namespaceTasking.html#a2b7195d8a433379237f9463270f97e12", null ],
+    [ "KillCode", "d9/d3e/namespaceTasking.html#a3623a6b9ea1e6b126eed6c14901cb94e", [
+      [ "KILL_SCHEDULER_DESTRUCTION", "d9/d3e/namespaceTasking.html#a3623a6b9ea1e6b126eed6c14901cb94eac70d565c3766df493f932b4351fe3ee9", null ],
+      [ "KILL_CXXABI_EXCEPTION", "d9/d3e/namespaceTasking.html#a3623a6b9ea1e6b126eed6c14901cb94ea49f974482c14ec22545bbe618d851891", null ],
+      [ "KILL_BY_OTHER_PROCESS", "d9/d3e/namespaceTasking.html#a3623a6b9ea1e6b126eed6c14901cb94eafee714a5d29a760c667348144b3db95e", null ],
+      [ "KILL_SYSCALL", "d9/d3e/namespaceTasking.html#a3623a6b9ea1e6b126eed6c14901cb94eab2ef1684c097cbec580c77d3771d410b", null ],
+      [ "KILL_CRASH", "d9/d3e/namespaceTasking.html#a3623a6b9ea1e6b126eed6c14901cb94ea55154038477ba53433ef21becc79ea9e", null ],
+      [ "KILL_OOM", "d9/d3e/namespaceTasking.html#a3623a6b9ea1e6b126eed6c14901cb94ea5db1738520d017ad44bc7ba4e83e04e2", null ],
+      [ "KILL_ERROR", "d9/d3e/namespaceTasking.html#a3623a6b9ea1e6b126eed6c14901cb94ea40849aba4e019370ef75dc3d76022532", null ],
+      [ "KILL_SUCCESS", "d9/d3e/namespaceTasking.html#a3623a6b9ea1e6b126eed6c14901cb94eaf61681c0a4b664c818dcf792fe4439f8", null ]
     ] ],
     [ "TaskArchitecture", "d9/d3e/namespaceTasking.html#a96e537039eec201fc357dae47c819302", [
       [ "UnknownArchitecture", "d9/d3e/namespaceTasking.html#a96e537039eec201fc357dae47c819302a5b2a90cc96dd262a5f1d340deaa28628", null ],
@@ -58,18 +60,21 @@ var namespaceTasking =
       [ "_PriorityMin", "d9/d3e/namespaceTasking.html#a6e7b9a12601b9ef62ca79d6b801c29c8acdc962c500581fd12465adfc8ccb9c50", null ],
       [ "_PriorityMax", "d9/d3e/namespaceTasking.html#a6e7b9a12601b9ef62ca79d6b801c29c8a80342285a95513c6ed17b15880e1b3b6", null ]
     ] ],
-    [ "TaskState", "d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74", [
-      [ "UnknownStatus", "d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74ae4434abf01289f805a0123cb3c674588", null ],
-      [ "Ready", "d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74ad63d08060d63334012f68b23d130f56e", null ],
-      [ "Running", "d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74a04712359124153cb2d93d8f09cabe8ed", null ],
-      [ "Sleeping", "d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74a04b9cd09b1c1946e6dd37f79903067fd", null ],
-      [ "Blocked", "d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74afe2e4038377625035a20f5f4e5496219", null ],
-      [ "Stopped", "d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74a8922799a2dec53328f38596177889efd", null ],
-      [ "Waiting", "d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74af0c3719b73450e078a5c5c2d05cd5b83", null ],
-      [ "Zombie", "d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74a18dbf84b8bdb31f7955be3eef42610fc", null ],
-      [ "Terminated", "d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74a773f96280709f0b4ee36122b01357f51", null ],
-      [ "_StatusMin", "d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74a2547ba923c87a848418e8c90331a5593", null ],
-      [ "_StatusMax", "d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74a122d9cb11d78b0a8a082332d7ec18f98", null ]
+    [ "TaskState", "d9/d3e/namespaceTasking.html#a1caa7bfee242fe8216026227bfd9db2e", [
+      [ "UnknownStatus", "d9/d3e/namespaceTasking.html#a1caa7bfee242fe8216026227bfd9db2eae4434abf01289f805a0123cb3c674588", null ],
+      [ "Ready", "d9/d3e/namespaceTasking.html#a1caa7bfee242fe8216026227bfd9db2ead63d08060d63334012f68b23d130f56e", null ],
+      [ "Running", "d9/d3e/namespaceTasking.html#a1caa7bfee242fe8216026227bfd9db2ea04712359124153cb2d93d8f09cabe8ed", null ],
+      [ "Sleeping", "d9/d3e/namespaceTasking.html#a1caa7bfee242fe8216026227bfd9db2ea04b9cd09b1c1946e6dd37f79903067fd", null ],
+      [ "Blocked", "d9/d3e/namespaceTasking.html#a1caa7bfee242fe8216026227bfd9db2eafe2e4038377625035a20f5f4e5496219", null ],
+      [ "Stopped", "d9/d3e/namespaceTasking.html#a1caa7bfee242fe8216026227bfd9db2ea8922799a2dec53328f38596177889efd", null ],
+      [ "Waiting", "d9/d3e/namespaceTasking.html#a1caa7bfee242fe8216026227bfd9db2eaf0c3719b73450e078a5c5c2d05cd5b83", null ],
+      [ "Zombie", "d9/d3e/namespaceTasking.html#a1caa7bfee242fe8216026227bfd9db2ea18dbf84b8bdb31f7955be3eef42610fc", null ],
+      [ "CoreDump", "d9/d3e/namespaceTasking.html#a1caa7bfee242fe8216026227bfd9db2ea3b848731f4575c98b0f13c8ef2693e10", null ],
+      [ "Terminated", "d9/d3e/namespaceTasking.html#a1caa7bfee242fe8216026227bfd9db2ea773f96280709f0b4ee36122b01357f51", null ],
+      [ "_StatusMin", "d9/d3e/namespaceTasking.html#a1caa7bfee242fe8216026227bfd9db2ea2547ba923c87a848418e8c90331a5593", null ],
+      [ "_StatusMax", "d9/d3e/namespaceTasking.html#a1caa7bfee242fe8216026227bfd9db2ea122d9cb11d78b0a8a082332d7ec18f98", null ]
     ] ],
-    [ "__no_sanitize", "d9/d3e/namespaceTasking.html#a591d6f9b922ab5cc821cc805f77e8ad0", null ]
+    [ "__no_sanitize", "d9/d3e/namespaceTasking.html#a7898c54ea6f6c6d64e70d3bfebdf2956", null ],
+    [ "__no_sanitize", "d9/d3e/namespaceTasking.html#a591d6f9b922ab5cc821cc805f77e8ad0", null ],
+    [ "ToSig", "d9/d3e/namespaceTasking.html#a7dec4f08a178657040f9137298afbaaa", null ]
 ];

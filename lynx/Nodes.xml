@@ -6,10 +6,6 @@
       <Path>index.html</Path>
       <Subnodes>
        <Node>
-        <Name>Doxygen</Name>
-        <Path>index.html</Path>
-       </Node>
-       <Node>
         <Name>Lynx</Name>
         <Path>da/d22/md_Lynx_README.html</Path>
        </Node>
@@ -2174,12 +2170,6 @@
               <Name>Makefile</Name>
               <Path>d9/d65/Makefile.html</Path>
              </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>tools</Name>
-            <Path>dir_4eeb864c4eec08c7d6b9d3b0352cfdde.html</Path>
-            <Subnodes>
             </Subnodes>
            </Node>
           </Subnodes>

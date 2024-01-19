@@ -107,7 +107,7 @@ $(document).ready(function(){initNavTree('da/dc1/apps_2base_2bash_2examples_2loa
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
-<tr class="memitem:db/d19/structutsname"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d3d/utsname_8h.html#db/d19/structutsname">utsname</a></td></tr>
+<tr class="memitem:db/d19/structutsname"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc1/Userspace_2musl_2include_2sys_2utsname_8h.html#db/d19/structutsname">utsname</a></td></tr>
 <tr class="separator:db/d19/structutsname"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -158,7 +158,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00034">34</a> of file <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html">uname.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/db7/Kernel_2include__std_2utsname_8h_source.html#l00025">25</a> of file <a class="el" href="../../d4/db7/Kernel_2include__std_2utsname_8h_source.html">utsname.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -168,33 +168,33 @@ __domainname[65]</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aa59c54a64562c664cb41360d8647338c"></a>char</td>
+<a id="a58a4c33f8f92e67711f488833ff04d55"></a>char</td>
 <td class="fieldname">
-machine[32]</td>
+machine[<a class="el" href="../../d4/db7/Kernel_2include__std_2utsname_8h.html#ab023f97426a53426d10c8090c14a6cf5">_UTSNAME_LENGTH</a>]</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a89e7cdb3e9b91748cf5a1a58279cf048"></a>char</td>
+<a id="ad4eb5d9f425b238a4fd1ceec67a506ef"></a>char</td>
 <td class="fieldname">
-nodename[32]</td>
+nodename[<a class="el" href="../../d4/db7/Kernel_2include__std_2utsname_8h.html#ab023f97426a53426d10c8090c14a6cf5">_UTSNAME_LENGTH</a>]</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a24af7f5e8d4ee3c257de58d600340e51"></a>char</td>
+<a id="aaaec15f6fc647983c320fb4a5a714c0c"></a>char</td>
 <td class="fieldname">
-release[32]</td>
+release[<a class="el" href="../../d4/db7/Kernel_2include__std_2utsname_8h.html#ab023f97426a53426d10c8090c14a6cf5">_UTSNAME_LENGTH</a>]</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a819962a4eb48aa0d361a98825458a6c8"></a>char</td>
+<a id="a6be4bea4a2480689de0dba1dfcf3b929"></a>char</td>
 <td class="fieldname">
-sysname[32]</td>
+sysname[<a class="el" href="../../d4/db7/Kernel_2include__std_2utsname_8h.html#ab023f97426a53426d10c8090c14a6cf5">_UTSNAME_LENGTH</a>]</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a74c86cdeb2f505453a94d41de5719754"></a>char</td>
+<a id="af851657d9e27d2be696f6bb93a191ca0"></a>char</td>
 <td class="fieldname">
-version[32]</td>
+version[<a class="el" href="../../d4/db7/Kernel_2include__std_2utsname_8h.html#ab023f97426a53426d10c8090c14a6cf5">_UTSNAME_LENGTH</a>]</td>
 <td class="fielddoc">
 </td></tr>
 </table>
@@ -318,7 +318,7 @@ version[32]</td>
 <p class="definition">Definition at line <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00067">67</a> of file <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html">uname.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;{</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <span class="keywordtype">int</span> <a class="code" href="../../d4/dcd/nmeter_8c.html#a6b9d817d08c1417f5c533eb8ad775312">opt</a>, r;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  <span class="keyword">struct </span><a class="code" href="../../d5/d3d/utsname_8h.html#db/d19/structutsname">utsname</a> uninfo;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  <span class="keyword">struct </span><a class="code" href="../../d2/dc1/Userspace_2musl_2include_2sys_2utsname_8h.html#db/d19/structutsname">utsname</a> uninfo;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  <a class="code" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c.html#a924fec1f467a2f88bda271f65dadce55">uname_flags</a> = 0;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  <a class="code" href="../../d9/df1/bashgetopt_8c.html#a4445d984af0a27c8bff98d01ec59ebc1">reset_internal_getopt</a> ();</div>
@@ -366,7 +366,7 @@ version[32]</td>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor">#ifdef HAVE_UNAME</span></div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d7/d63/musl_2src_2misc_2uname_8c.html#a0e752b73e74f8b22a628436b495bf92a">uname</a> (&amp;uninfo) &lt; 0)</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    {</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      <a class="code" href="../../de/da3/bash_2builtins_2common_8c.html#a0dfb9df0601372d187a32aa393bd086c">builtin_error</a> (<span class="stringliteral">&quot;cannot get system name: %s&quot;</span>, <a class="code" href="../../df/d3a/errlist_8c.html#a558c31d07190c0a536ec2a340b1eae07">strerror</a> (<a class="code" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c.html#ad65a8842cc674e3ddf69355898c0ecbf">errno</a>));</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      <a class="code" href="../../de/da3/bash_2builtins_2common_8c.html#a0dfb9df0601372d187a32aa393bd086c">builtin_error</a> (<span class="stringliteral">&quot;cannot get system name: %s&quot;</span>, <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#aa543636846d2125989b108e2f62b4731">strerror</a> (<a class="code" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c.html#ad65a8842cc674e3ddf69355898c0ecbf">errno</a>));</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;      <span class="keywordflow">return</span> (<a class="code" href="../../df/d03/shell_8h.html#a894d864d355b691f3b4c8c8df3cad826">EXECUTION_FAILURE</a>);</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    }</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="preprocessor">#else</span></div>
@@ -382,6 +382,8 @@ version[32]</td>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;  <span class="keywordflow">return</span> (<a class="code" href="../../df/d03/shell_8h.html#a24d155899d8cc037505383c1016dbd65">EXECUTION_SUCCESS</a>);</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;}</div>
+<div class="ttc" id="aKernel_2include__std_2errno_8h_html_aa543636846d2125989b108e2f62b4731"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#aa543636846d2125989b108e2f62b4731">strerror</a></div><div class="ttdeci">const char * strerror(int errnum)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db0/errno_8cpp_source.html#l00035">errno.cpp:35</a></div></div>
+<div class="ttc" id="aUserspace_2musl_2include_2sys_2utsname_8h_html_db/d19/structutsname"><div class="ttname"><a href="../../d2/dc1/Userspace_2musl_2include_2sys_2utsname_8h.html#db/d19/structutsname">utsname</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db7/Kernel_2include__std_2utsname_8h_source.html#l00025">utsname.h:26</a></div></div>
 <div class="ttc" id="aapps_2base_2bash_2examples_2loadables_2uname_8c_html_a03863b9ed650671711ed40715ebea6f2"><div class="ttname"><a href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c.html#a03863b9ed650671711ed40715ebea6f2">FLAG_MACHINE</a></div><div class="ttdeci">#define FLAG_MACHINE</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00054">uname.c:54</a></div></div>
 <div class="ttc" id="aapps_2base_2bash_2examples_2loadables_2uname_8c_html_a55b6c5dccc05b18aefb94fb686617308"><div class="ttname"><a href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c.html#a55b6c5dccc05b18aefb94fb686617308">FLAG_VERSION</a></div><div class="ttdeci">#define FLAG_VERSION</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00053">uname.c:53</a></div></div>
 <div class="ttc" id="aapps_2base_2bash_2examples_2loadables_2uname_8c_html_a5a1621d323823abd2cf82643cee6f65f"><div class="ttname"><a href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c.html#a5a1621d323823abd2cf82643cee6f65f">FLAG_RELEASE</a></div><div class="ttdeci">#define FLAG_RELEASE</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00052">uname.c:52</a></div></div>
@@ -398,15 +400,13 @@ version[32]</td>
 <div class="ttc" id="abashgetopt_8c_html_a23421400a0de4653b70520ef4e0af330"><div class="ttname"><a href="../../d9/df1/bashgetopt_8c.html#a23421400a0de4653b70520ef4e0af330">loptend</a></div><div class="ttdeci">WORD_LIST * loptend</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df1/bashgetopt_8c_source.html#l00048">bashgetopt.c:48</a></div></div>
 <div class="ttc" id="abashgetopt_8c_html_a4445d984af0a27c8bff98d01ec59ebc1"><div class="ttname"><a href="../../d9/df1/bashgetopt_8c.html#a4445d984af0a27c8bff98d01ec59ebc1">reset_internal_getopt</a></div><div class="ttdeci">void reset_internal_getopt()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df1/bashgetopt_8c_source.html#l00190">bashgetopt.c:190</a></div></div>
 <div class="ttc" id="abashgetopt_8c_html_af513918eec3615f5b0087dd2a1549045"><div class="ttname"><a href="../../d9/df1/bashgetopt_8c.html#af513918eec3615f5b0087dd2a1549045">internal_getopt</a></div><div class="ttdeci">int internal_getopt(WORD_LIST *list, char *opts)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df1/bashgetopt_8c_source.html#l00051">bashgetopt.c:51</a></div></div>
-<div class="ttc" id="aerrlist_8c_html_a558c31d07190c0a536ec2a340b1eae07"><div class="ttname"><a href="../../df/d3a/errlist_8c.html#a558c31d07190c0a536ec2a340b1eae07">strerror</a></div><div class="ttdeci">char * strerror()</div></div>
 <div class="ttc" id="amusl_2src_2misc_2uname_8c_html_a0e752b73e74f8b22a628436b495bf92a"><div class="ttname"><a href="../../d7/d63/musl_2src_2misc_2uname_8c.html#a0e752b73e74f8b22a628436b495bf92a">uname</a></div><div class="ttdeci">int uname(struct utsname *uts)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d63/musl_2src_2misc_2uname_8c_source.html#l00004">uname.c:4</a></div></div>
 <div class="ttc" id="anmeter_8c_html_a6b9d817d08c1417f5c533eb8ad775312"><div class="ttname"><a href="../../d4/dcd/nmeter_8c.html#a6b9d817d08c1417f5c533eb8ad775312">opt</a></div><div class="ttdeci">char opt</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dcd/nmeter_8c_source.html#l00626">nmeter.c:626</a></div></div>
 <div class="ttc" id="ashell_8h_html_a24d155899d8cc037505383c1016dbd65"><div class="ttname"><a href="../../df/d03/shell_8h.html#a24d155899d8cc037505383c1016dbd65">EXECUTION_SUCCESS</a></div><div class="ttdeci">#define EXECUTION_SUCCESS</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d03/shell_8h_source.html#l00053">shell.h:53</a></div></div>
 <div class="ttc" id="ashell_8h_html_a894d864d355b691f3b4c8c8df3cad826"><div class="ttname"><a href="../../df/d03/shell_8h.html#a894d864d355b691f3b4c8c8df3cad826">EXECUTION_FAILURE</a></div><div class="ttdeci">#define EXECUTION_FAILURE</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d03/shell_8h_source.html#l00052">shell.h:52</a></div></div>
 <div class="ttc" id="ashell_8h_html_abbdf9290893d2876419c13b7b28f5d4e"><div class="ttname"><a href="../../df/d03/shell_8h.html#abbdf9290893d2876419c13b7b28f5d4e">EX_USAGE</a></div><div class="ttdeci">#define EX_USAGE</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d03/shell_8h_source.html#l00071">shell.h:71</a></div></div>
-<div class="ttc" id="autsname_8h_html_db/d19/structutsname"><div class="ttname"><a href="../../d5/d3d/utsname_8h.html#db/d19/structutsname">utsname</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00034">uname.c:34</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/da3/bash_2builtins_2common_8c_source.html#l00106">builtin_error()</a>, <a class="el" href="../../de/da3/bash_2builtins_2common_8c_source.html#l00145">builtin_usage()</a>, <a class="el" href="../../df/d28/bash_2builtins_2common_8h_source.html#l00038">CASE_HELPOPT</a>, <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c.html#ad65a8842cc674e3ddf69355898c0ecbf">errno</a>, <a class="el" href="../../df/d03/shell_8h_source.html#l00071">EX_USAGE</a>, <a class="el" href="../../df/d03/shell_8h_source.html#l00052">EXECUTION_FAILURE</a>, <a class="el" href="../../df/d03/shell_8h_source.html#l00053">EXECUTION_SUCCESS</a>, <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00056">FLAG_ALL</a>, <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00054">FLAG_MACHINE</a>, <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00051">FLAG_NODENAME</a>, <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00052">FLAG_RELEASE</a>, <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00050">FLAG_SYSNAME</a>, <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00053">FLAG_VERSION</a>, <a class="el" href="../../d9/df1/bashgetopt_8c_source.html#l00051">internal_getopt()</a>, <a class="el" href="../../d1/dbe/ash_8c_source.html#l11814">list()</a>, <a class="el" href="../../d9/df1/bashgetopt_8c_source.html#l00048">loptend</a>, <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00039">utsname::machine</a>, <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00036">utsname::nodename</a>, <a class="el" href="../../d4/dcd/nmeter_8c_source.html#l00626">opt</a>, <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00037">utsname::release</a>, <a class="el" href="../../d9/df1/bashgetopt_8c_source.html#l00190">reset_internal_getopt()</a>, <a class="el" href="../../df/d3a/errlist_8c.html#a558c31d07190c0a536ec2a340b1eae07">strerror()</a>, <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00035">utsname::sysname</a>, <a class="el" href="../../d7/d63/musl_2src_2misc_2uname_8c_source.html#l00004">uname()</a>, <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00064">uname_flags</a>, <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c.html#a82ad43feebf6a65a5277d093e75da893">uprint()</a>, and <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00038">utsname::version</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da3/bash_2builtins_2common_8c_source.html#l00106">builtin_error()</a>, <a class="el" href="../../de/da3/bash_2builtins_2common_8c_source.html#l00145">builtin_usage()</a>, <a class="el" href="../../df/d28/bash_2builtins_2common_8h_source.html#l00038">CASE_HELPOPT</a>, <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c.html#ad65a8842cc674e3ddf69355898c0ecbf">errno</a>, <a class="el" href="../../df/d03/shell_8h_source.html#l00071">EX_USAGE</a>, <a class="el" href="../../df/d03/shell_8h_source.html#l00052">EXECUTION_FAILURE</a>, <a class="el" href="../../df/d03/shell_8h_source.html#l00053">EXECUTION_SUCCESS</a>, <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00056">FLAG_ALL</a>, <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00054">FLAG_MACHINE</a>, <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00051">FLAG_NODENAME</a>, <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00052">FLAG_RELEASE</a>, <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00050">FLAG_SYSNAME</a>, <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00053">FLAG_VERSION</a>, <a class="el" href="../../d9/df1/bashgetopt_8c_source.html#l00051">internal_getopt()</a>, <a class="el" href="../../d1/dbe/ash_8c_source.html#l11814">list()</a>, <a class="el" href="../../d9/df1/bashgetopt_8c_source.html#l00048">loptend</a>, <a class="el" href="../../d4/db7/Kernel_2include__std_2utsname_8h_source.html#l00031">utsname::machine</a>, <a class="el" href="../../d4/db7/Kernel_2include__std_2utsname_8h_source.html#l00028">utsname::nodename</a>, <a class="el" href="../../d4/dcd/nmeter_8c_source.html#l00626">opt</a>, <a class="el" href="../../d4/db7/Kernel_2include__std_2utsname_8h_source.html#l00029">utsname::release</a>, <a class="el" href="../../d9/df1/bashgetopt_8c_source.html#l00190">reset_internal_getopt()</a>, <a class="el" href="../../d1/db0/errno_8cpp_source.html#l00035">strerror()</a>, <a class="el" href="../../d4/db7/Kernel_2include__std_2utsname_8h_source.html#l00027">utsname::sysname</a>, <a class="el" href="../../d7/d63/musl_2src_2misc_2uname_8c_source.html#l00004">uname()</a>, <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00064">uname_flags</a>, <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c.html#a82ad43feebf6a65a5277d093e75da893">uprint()</a>, and <a class="el" href="../../d4/db7/Kernel_2include__std_2utsname_8h_source.html#l00030">utsname::version</a>.</p>
 
 </div>
 </div>
@@ -479,10 +479,10 @@ version[32]</td>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;      <a class="code" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a> (<span class="stringliteral">&quot;%s%c&quot;</span>, <a class="code" href="../../db/d16/debug_8h.html#aaef030dcfb502de87e0f47669c58c755">info</a>, <a class="code" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c.html#a924fec1f467a2f88bda271f65dadce55">uname_flags</a> ? <span class="charliteral">&#39; &#39;</span> : <span class="charliteral">&#39;\n&#39;</span>);</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    }</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;}</div>
-<div class="ttc" id="aKernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_html_ae34a762828cbff7cce62bda6571b2bc0"><div class="ttname"><a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a></div><div class="ttdeci">#define printf(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00060">liballoc_1_1.c:60</a></div></div>
+<div class="ttc" id="aKernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_html_ae34a762828cbff7cce62bda6571b2bc0"><div class="ttname"><a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a></div><div class="ttdeci">#define printf(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00061">liballoc_1_1.c:61</a></div></div>
 <div class="ttc" id="adebug_8h_html_aaef030dcfb502de87e0f47669c58c755"><div class="ttname"><a href="../../db/d16/debug_8h.html#aaef030dcfb502de87e0f47669c58c755">info</a></div><div class="ttdeci">#define info(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00088">debug.h:88</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00088">info</a>, <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00060">printf</a>, and <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00064">uname_flags</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00088">info</a>, <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00061">printf</a>, and <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00064">uname_flags</a>.</p>
 
 </div>
 </div>

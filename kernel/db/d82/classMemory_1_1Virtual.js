@@ -22,5 +22,5 @@ var classMemory_1_1Virtual =
     [ "Remap", "db/d82/classMemory_1_1Virtual.html#a47de63ab7a7389317dae8c618cf7d943", null ],
     [ "Unmap", "db/d82/classMemory_1_1Virtual.html#ad1d700d368a05cd6617d9dfae8cd02cc", null ],
     [ "Unmap", "db/d82/classMemory_1_1Virtual.html#a8938d2802c4c73a4e75bb76dd35d548f", null ],
-    [ "Table", "db/d82/classMemory_1_1Virtual.html#af18bf9ffe4fcf280aef3571804146498", null ]
+    [ "pTable", "db/d82/classMemory_1_1Virtual.html#a9ea08c5535162a348d29d360a2beaf0a", null ]
 ];

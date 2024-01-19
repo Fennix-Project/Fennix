@@ -207,7 +207,7 @@ $(document).ready(function(){initNavTree('d9/d1b/i__sound_8h_source.html','../..
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160; </div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="comment">// Shutdown sound module</span></div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
-<div class="line"><a name="l00119"></a><span class="lineno"><a class="line" href="../../df/d52/structsound__module__t.html#a47aea534a9c90248d61f1adca239782c">  119</a></span>&#160;    <a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a> (*Shutdown)(<a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a>);</div>
+<div class="line"><a name="l00119"></a><span class="lineno"><a class="line" href="../../df/d52/structsound__module__t.html#a47aea534a9c90248d61f1adca239782c">  119</a></span>&#160;    void (*Shutdown)(void);</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160; </div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="comment">// Returns the lump index of the given sound.</span></div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160; </div>
@@ -215,11 +215,11 @@ $(document).ready(function(){initNavTree('d9/d1b/i__sound_8h_source.html','../..
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160; </div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="comment">// Called periodically to update the subsystem.</span></div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160; </div>
-<div class="line"><a name="l00127"></a><span class="lineno"><a class="line" href="../../df/d52/structsound__module__t.html#a60773d3431b53d4ae36db0eea6c6c14d">  127</a></span>&#160;    <a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a> (*<a class="code" href="../../de/d2d/table_8hpp.html#af032ab2fbef15001f708755ffdd85d34">Update</a>)(<a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a>);</div>
+<div class="line"><a name="l00127"></a><span class="lineno"><a class="line" href="../../df/d52/structsound__module__t.html#a60773d3431b53d4ae36db0eea6c6c14d">  127</a></span>&#160;    void (*<a class="code" href="../../de/d2d/table_8hpp.html#af032ab2fbef15001f708755ffdd85d34">Update</a>)(void);</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160; </div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="comment">// Update the sound settings on the given channel.</span></div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160; </div>
-<div class="line"><a name="l00131"></a><span class="lineno"><a class="line" href="../../df/d52/structsound__module__t.html#a85e646bab7afec5002861beefdf097bd">  131</a></span>&#160;    <a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a> (*UpdateSoundParams)(<span class="keywordtype">int</span> channel, <span class="keywordtype">int</span> vol, <span class="keywordtype">int</span> sep);</div>
+<div class="line"><a name="l00131"></a><span class="lineno"><a class="line" href="../../df/d52/structsound__module__t.html#a85e646bab7afec5002861beefdf097bd">  131</a></span>&#160;    void (*UpdateSoundParams)(<span class="keywordtype">int</span> channel, <span class="keywordtype">int</span> vol, <span class="keywordtype">int</span> sep);</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <span class="comment">// Start a sound on a given channel.  Returns the channel id</span></div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="comment">// or -1 on failure.</span></div>
@@ -228,7 +228,7 @@ $(document).ready(function(){initNavTree('d9/d1b/i__sound_8h_source.html','../..
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160; </div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <span class="comment">// Stop the sound playing on the given channel.</span></div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160; </div>
-<div class="line"><a name="l00140"></a><span class="lineno"><a class="line" href="../../df/d52/structsound__module__t.html#a58b7569dfb268278e6ad4f0c0a9df2e5">  140</a></span>&#160;    <a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a> (*StopSound)(<span class="keywordtype">int</span> channel);</div>
+<div class="line"><a name="l00140"></a><span class="lineno"><a class="line" href="../../df/d52/structsound__module__t.html#a58b7569dfb268278e6ad4f0c0a9df2e5">  140</a></span>&#160;    void (*StopSound)(<span class="keywordtype">int</span> channel);</div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160; </div>
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="comment">// Query if a sound is playing on the given channel</span></div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160; </div>
@@ -236,7 +236,7 @@ $(document).ready(function(){initNavTree('d9/d1b/i__sound_8h_source.html','../..
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160; </div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <span class="comment">// Called on startup to precache sound effects (if necessary)</span></div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160; </div>
-<div class="line"><a name="l00148"></a><span class="lineno"><a class="line" href="../../df/d52/structsound__module__t.html#a898595a7c3eea6d0553ddf73ec68fd9c">  148</a></span>&#160;    <a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a> (*CacheSounds)(<a class="code" href="../../d9/d1b/i__sound_8h.html#d2/dd6/structsfxinfo__struct">sfxinfo_t</a> *sounds, <span class="keywordtype">int</span> num_sounds);</div>
+<div class="line"><a name="l00148"></a><span class="lineno"><a class="line" href="../../df/d52/structsound__module__t.html#a898595a7c3eea6d0553ddf73ec68fd9c">  148</a></span>&#160;    void (*CacheSounds)(<a class="code" href="../../d9/d1b/i__sound_8h.html#d2/dd6/structsfxinfo__struct">sfxinfo_t</a> *sounds, <span class="keywordtype">int</span> num_sounds);</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160; </div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;} <a class="code" href="../../df/d52/structsound__module__t.html">sound_module_t</a>;</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160; </div>
@@ -261,23 +261,23 @@ $(document).ready(function(){initNavTree('d9/d1b/i__sound_8h_source.html','../..
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160; </div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="comment">// Initialise the music subsystem</span></div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160; </div>
-<div class="line"><a name="l00173"></a><span class="lineno"><a class="line" href="../../dd/d2f/structmusic__module__t.html#a1a5ca017ea1cfedb61edbffd7d8ab3d3">  173</a></span>&#160;    <a class="code" href="../../d8/d3a/doomtype_8h.html#a7c6368b321bd9acd0149b030bb8275ed">boolean</a> (*<a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a8f348435f90382d87ff30f9237f15a96">Init</a>)(<a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a>);</div>
+<div class="line"><a name="l00173"></a><span class="lineno"><a class="line" href="../../dd/d2f/structmusic__module__t.html#a1a5ca017ea1cfedb61edbffd7d8ab3d3">  173</a></span>&#160;    <a class="code" href="../../d8/d3a/doomtype_8h.html#a7c6368b321bd9acd0149b030bb8275ed">boolean</a> (*<a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a8f348435f90382d87ff30f9237f15a96">Init</a>)(void);</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160; </div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <span class="comment">// Shutdown the music subsystem</span></div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160; </div>
-<div class="line"><a name="l00177"></a><span class="lineno"><a class="line" href="../../dd/d2f/structmusic__module__t.html#ad928bbea663ba2db2199885e5a6636d9">  177</a></span>&#160;    <a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a> (*Shutdown)(<a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a>);</div>
+<div class="line"><a name="l00177"></a><span class="lineno"><a class="line" href="../../dd/d2f/structmusic__module__t.html#ad928bbea663ba2db2199885e5a6636d9">  177</a></span>&#160;    void (*Shutdown)(void);</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160; </div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <span class="comment">// Set music volume - range 0-127</span></div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160; </div>
-<div class="line"><a name="l00181"></a><span class="lineno"><a class="line" href="../../dd/d2f/structmusic__module__t.html#a5190f086610fe756bdc040c66dcff4b0">  181</a></span>&#160;    <a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a> (*SetMusicVolume)(<span class="keywordtype">int</span> volume);</div>
+<div class="line"><a name="l00181"></a><span class="lineno"><a class="line" href="../../dd/d2f/structmusic__module__t.html#a5190f086610fe756bdc040c66dcff4b0">  181</a></span>&#160;    void (*SetMusicVolume)(<span class="keywordtype">int</span> volume);</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160; </div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="comment">// Pause music</span></div>
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160; </div>
-<div class="line"><a name="l00185"></a><span class="lineno"><a class="line" href="../../dd/d2f/structmusic__module__t.html#ae394850d0b7edae6eab740042661a822">  185</a></span>&#160;    <a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a> (*PauseMusic)(<a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a>);</div>
+<div class="line"><a name="l00185"></a><span class="lineno"><a class="line" href="../../dd/d2f/structmusic__module__t.html#ae394850d0b7edae6eab740042661a822">  185</a></span>&#160;    void (*PauseMusic)(void);</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160; </div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="comment">// Un-pause music</span></div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160; </div>
-<div class="line"><a name="l00189"></a><span class="lineno"><a class="line" href="../../dd/d2f/structmusic__module__t.html#a67f15e63f5c9985599bc5b83f99c5d9a">  189</a></span>&#160;    <a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a> (*ResumeMusic)(<a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a>);</div>
+<div class="line"><a name="l00189"></a><span class="lineno"><a class="line" href="../../dd/d2f/structmusic__module__t.html#a67f15e63f5c9985599bc5b83f99c5d9a">  189</a></span>&#160;    void (*ResumeMusic)(void);</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160; </div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <span class="comment">// Register a song handle from data</span></div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    <span class="comment">// Returns a handle that can be used to play the song</span></div>
@@ -286,23 +286,23 @@ $(document).ready(function(){initNavTree('d9/d1b/i__sound_8h_source.html','../..
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160; </div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    <span class="comment">// Un-register (free) song data</span></div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160; </div>
-<div class="line"><a name="l00198"></a><span class="lineno"><a class="line" href="../../dd/d2f/structmusic__module__t.html#a9d7096daa25e6bfc14b15c367ba5a1ac">  198</a></span>&#160;    <a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a> (*UnRegisterSong)(<span class="keywordtype">void</span> *handle);</div>
+<div class="line"><a name="l00198"></a><span class="lineno"><a class="line" href="../../dd/d2f/structmusic__module__t.html#a9d7096daa25e6bfc14b15c367ba5a1ac">  198</a></span>&#160;    void (*UnRegisterSong)(<span class="keywordtype">void</span> *handle);</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160; </div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <span class="comment">// Play the song</span></div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160; </div>
-<div class="line"><a name="l00202"></a><span class="lineno"><a class="line" href="../../dd/d2f/structmusic__module__t.html#ae1dc523975d3ed95c0acf62b2555ec39">  202</a></span>&#160;    <a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a> (*PlaySong)(<span class="keywordtype">void</span> *handle, <span class="keywordtype">boolean</span> looping);</div>
+<div class="line"><a name="l00202"></a><span class="lineno"><a class="line" href="../../dd/d2f/structmusic__module__t.html#ae1dc523975d3ed95c0acf62b2555ec39">  202</a></span>&#160;    void (*PlaySong)(<span class="keywordtype">void</span> *handle, <span class="keywordtype">boolean</span> looping);</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160; </div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <span class="comment">// Stop playing the current song.</span></div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160; </div>
-<div class="line"><a name="l00206"></a><span class="lineno"><a class="line" href="../../dd/d2f/structmusic__module__t.html#af0d3ac1cbbe44bd0722fffdde300bb0e">  206</a></span>&#160;    <a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a> (*StopSong)(<a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a>);</div>
+<div class="line"><a name="l00206"></a><span class="lineno"><a class="line" href="../../dd/d2f/structmusic__module__t.html#af0d3ac1cbbe44bd0722fffdde300bb0e">  206</a></span>&#160;    void (*StopSong)(void);</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160; </div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    <span class="comment">// Query if music is playing.</span></div>
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160; </div>
-<div class="line"><a name="l00210"></a><span class="lineno"><a class="line" href="../../dd/d2f/structmusic__module__t.html#a02debfe619878980a335c6220912e497">  210</a></span>&#160;    <a class="code" href="../../d8/d3a/doomtype_8h.html#a7c6368b321bd9acd0149b030bb8275ed">boolean</a> (*MusicIsPlaying)(<a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a>);</div>
+<div class="line"><a name="l00210"></a><span class="lineno"><a class="line" href="../../dd/d2f/structmusic__module__t.html#a02debfe619878980a335c6220912e497">  210</a></span>&#160;    <a class="code" href="../../d8/d3a/doomtype_8h.html#a7c6368b321bd9acd0149b030bb8275ed">boolean</a> (*MusicIsPlaying)(void);</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160; </div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    <span class="comment">// Invoked periodically to poll.</span></div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160; </div>
-<div class="line"><a name="l00214"></a><span class="lineno"><a class="line" href="../../dd/d2f/structmusic__module__t.html#a2b4de9826c5d323e3c87343184b1b397">  214</a></span>&#160;    <a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a> (*Poll)(<a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a>);</div>
+<div class="line"><a name="l00214"></a><span class="lineno"><a class="line" href="../../dd/d2f/structmusic__module__t.html#a2b4de9826c5d323e3c87343184b1b397">  214</a></span>&#160;    void (*Poll)(void);</div>
 <div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;} <a class="code" href="../../dd/d2f/structmusic__module__t.html">music_module_t</a>;</div>
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160; </div>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d9/d1b/i__sound_8h.html#a98917e00fe23ffeab03a97cbd68a15c9">I_InitMusic</a>(<span class="keywordtype">void</span>);</div>
@@ -385,7 +385,6 @@ $(document).ready(function(){initNavTree('d9/d1b/i__sound_8h_source.html','../..
 <div class="ttc" id="ai__sound_8h_html_d7/d5a/structmusicinfo__t"><div class="ttname"><a href="../../d9/d1b/i__sound_8h.html#d7/d5a/structmusicinfo__t">musicinfo_t</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d1b/i__sound_8h_source.html#l00072">i_sound.h:73</a></div></div>
 <div class="ttc" id="amultiboot_8h_html_a6de3a6d27a7e07942958b912d39792e6"><div class="ttname"><a href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a></div><div class="ttdeci">multiboot_uint64_t len</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc0/multiboot_8h_source.html#l00002">multiboot.h:2</a></div></div>
 <div class="ttc" id="anamespaceGlobalDescriptorTable_html_a8f348435f90382d87ff30f9237f15a96"><div class="ttname"><a href="../../d1/d69/namespaceGlobalDescriptorTable.html#a8f348435f90382d87ff30f9237f15a96">GlobalDescriptorTable::Init</a></div><div class="ttdeci">SafeFunction void Init(int Core)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dee/amd64_2cpu_2gdt_8cpp_source.html#l00123">gdt.cpp:123</a></div></div>
-<div class="ttc" id="anamespaceModule_html_aa56762f1e0bc7b507d773d431829e1a0"><div class="ttname"><a href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">Module::void</a></div><div class="ttdeci">int void(Handle.InterruptCallback))(&amp;regs)</div></div>
 <div class="ttc" id="astructmusic__module__t_html"><div class="ttname"><a href="../../dd/d2f/structmusic__module__t.html">music_module_t</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d1b/i__sound_8h_source.html#l00164">i_sound.h:165</a></div></div>
 <div class="ttc" id="astructmusic__module__t_html_a5b5588d473ddd883a52d7885add51b1b"><div class="ttname"><a href="../../dd/d2f/structmusic__module__t.html#a5b5588d473ddd883a52d7885add51b1b">music_module_t::sound_devices</a></div><div class="ttdeci">snddevice_t * sound_devices</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d1b/i__sound_8h_source.html#l00168">i_sound.h:168</a></div></div>
 <div class="ttc" id="astructmusic__module__t_html_ae2963d29366b6cf55047bc5b3ff37b7c"><div class="ttname"><a href="../../dd/d2f/structmusic__module__t.html#ae2963d29366b6cf55047bc5b3ff37b7c">music_module_t::num_sound_devices</a></div><div class="ttdeci">int num_sound_devices</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d1b/i__sound_8h_source.html#l00169">i_sound.h:169</a></div></div>

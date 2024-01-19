@@ -13,6 +13,7 @@ var dir_f6afea1f11e371a5eb8eaf7be6cd53d5 =
     [ "sched.h", "de/db4/Kernel_2include__std_2sched_8h.html", null ],
     [ "std.hpp", "d1/d8c/std_8hpp.html", "d1/d8c/std_8hpp" ],
     [ "stdarg.h", "d8/d91/Kernel_2include__std_2stdarg_8h.html", null ],
+    [ "stdatomic.h", "d6/d07/stdatomic_8h.html", "d6/d07/stdatomic_8h" ],
     [ "stddef.h", "d0/d3c/Kernel_2include__std_2stddef_8h.html", null ],
     [ "stdint.h", "d5/d85/Kernel_2include__std_2stdint_8h.html", null ],
     [ "stdio.h", "d8/d67/Kernel_2include__std_2stdio_8h.html", null ],
@@ -20,7 +21,15 @@ var dir_f6afea1f11e371a5eb8eaf7be6cd53d5 =
     [ "string.h", "d6/d54/Kernel_2include__std_2string_8h.html", null ],
     [ "strings.h", "dc/da4/Kernel_2include__std_2strings_8h.html", null ],
     [ "stropts.h", "d4/d78/Kernel_2include__std_2stropts_8h.html", "d4/d78/Kernel_2include__std_2stropts_8h" ],
-    [ "unistd.h", "d2/d58/Kernel_2include__std_2unistd_8h.html", null ],
+    [ "time.h", "de/d98/Kernel_2include__std_2time_8h.html", [
+      [ "timespec", "de/d79/stat-time_8h.html#da/d1c/structtimespec", [
+        [ "tv_nsec", "de/d79/stat-time_8h.html#ae3c7510dafa8cbcaede866ed13c99683", null ],
+        [ "tv_nsec", "de/d79/stat-time_8h.html#aa9689622a344d847333e534ac23d3093", null ],
+        [ "tv_sec", "de/d79/stat-time_8h.html#afc3302668d7cb5952f590da69fdd4955", null ]
+      ] ]
+    ] ],
+    [ "unistd.h", "d2/d58/Kernel_2include__std_2unistd_8h.html", "d2/d58/Kernel_2include__std_2unistd_8h" ],
     [ "unwind.h", "d3/db6/unwind_8h.html", "d3/db6/unwind_8h" ],
+    [ "utsname.h", "d4/db7/Kernel_2include__std_2utsname_8h.html", "d4/db7/Kernel_2include__std_2utsname_8h" ],
     [ "wchar.h", "d5/d89/Kernel_2include__std_2wchar_8h.html", null ]
 ];

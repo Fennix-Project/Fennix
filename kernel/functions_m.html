@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -88,15 +88,15 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <div class="textblock">Here is a list of all struct and union fields with links to the structures/unions they belong to:</div>
 
 <h3><a id="index_m"></a>- m -</h3><ul>
-<li>m_what
-: <a class="el" href="db/d3e/classstd_1_1runtime__error.html#a2801391e2613d2c6e79a902560198fda">std::runtime_error</a>
-</li>
 <li>MAC
 : <a class="el" href="d2/df9/namespaceNetworkARP.html#a8e78248e4147ba0f272c3d1b71563ab6">NetworkARP::DiscoveredAddress</a>
 , <a class="el" href="d9/d4c/namespaceNetworkInterfaceManager.html#a394d72e662bbdb8d6597c7212db562ea">NetworkInterfaceManager::DeviceInterface</a>
 </li>
 <li>Machine
 : <a class="el" href="de/d63/msexec_8h.html#a4e5b991ed6ee6f094153f7baa9ca16aa">_IMAGE_FILE_HEADER</a>
+</li>
+<li>machine
+: <a class="el" href="d5/d3d/utsname_8h.html#ab41a90cb33bfbdc976e08f49057c8e04">utsname</a>
 </li>
 <li>MADT
 : <a class="el" href="d3/d21/classACPI_1_1ACPI.html#aeb116dcd143f50916f09668dd7b8a8bb">ACPI::ACPI</a>
@@ -107,7 +107,6 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 </li>
 <li>Magic
 : <a class="el" href="de/d63/msexec_8h.html#a65eb5dd050add94e308612286f5e9033">_IMAGE_OPTIONAL_HEADER</a>
-, <a class="el" href="d2/ddc/structFex.html#a7f6b232e6357e3e651ff3862884d7aab">Fex</a>
 </li>
 <li>magic
 : <a class="el" href="d2/dc3/liballoc__1__1_8c.html#a2a521ac1721a7b39baf53f995e0fcccf">liballoc_minor</a>
@@ -124,12 +123,17 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <li>MainCounterValue
 : <a class="el" href="d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a74612d2dea619535d9eb8c5daf234345">Time::HighPrecisionEventTimer::HPET</a>
 </li>
-<li>Major
-: <a class="el" href="d7/d11/mapi_8hpp.html#aa5532e28dd8dd50691d9768296071203">KAPIVersion</a>
-, <a class="el" href="d7/d11/mapi_8hpp.html#ad40166d14043ebd19fac1cb7129bf75b">KernelAPI::KAPIVersion</a>
+<li>maj_t
+: <a class="el" href="dd/df5/classDriver_1_1MasterDeviceFile.html#ae72797b6968a97e5273f1ca4c3bb780c">Driver::MasterDeviceFile</a>
 </li>
 <li>major
 : <a class="el" href="d5/dba/multiboot2_8h.html#a1979fc6821ff6ffb79bd95c2794104a0">multiboot_tag_smbios</a>
+</li>
+<li>MajorID
+: <a class="el" href="dc/dec/struct____driverAPI.html#a8bd4335fbc498d8f9a3f86e7f4e33cc5">__driverAPI</a>
+</li>
+<li>MajorIDCounter
+: <a class="el" href="d9/d0b/classDriver_1_1Manager.html#a535f761f6e5d639d9952332d75b84067">Driver::Manager</a>
 </li>
 <li>MajorImageVersion
 : <a class="el" href="de/d63/msexec_8h.html#a0e0720fe98c91d13c7d012a5f2f43237">_IMAGE_OPTIONAL_HEADER</a>
@@ -146,6 +150,9 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <li>MajorVersion
 : <a class="el" href="da/d5f/namespaceSMBIOS.html#a20ac4933bb7b0af385e351c66027773b">SMBIOS::SMBIOSEntryPoint</a>
 </li>
+<li>MakeExitCode()
+: <a class="el" href="d2/d8b/classTasking_1_1Signal.html#a5c48ecb5701facca8f576d4f9a954fe5">Tasking::Signal</a>
+</li>
 <li>malloc()
 : <a class="el" href="d5/d32/classXalloc_1_1V1.html#a2117446e99c18c3159a459e6428e3feb">Xalloc::V1</a>
 , <a class="el" href="df/d2f/classXalloc_1_1V2.html#a1b95a9b11c6c3bf48b48fab2a583fc3d">Xalloc::V2</a>
@@ -155,19 +162,34 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 </li>
 <li>Manager()
 : <a class="el" href="d7/d2c/classDisk_1_1Manager.html#afbf8035e8726eaa622b2156ca9478a6a">Disk::Manager</a>
+, <a class="el" href="d9/d0b/classDriver_1_1Manager.html#a782f3afc30b2e02076d982c782916d6d">Driver::Manager</a>
+, <a class="el" href="d4/dad/classPCI_1_1Manager.html#abbab2ad7b5546945232d509932f4d0cb">PCI::Manager</a>
 </li>
 <li>Manufacturer
 : <a class="el" href="d6/ddc/structSMBIOS_1_1SMBIOSBaseBoardInformation.html#a09f2b6c31289d65cdae26d1f5f6936fb">SMBIOS::SMBIOSBaseBoardInformation</a>
 , <a class="el" href="d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#ac6b11c4c9ad09c7f704a54734bd8ed59">SMBIOS::SMBIOSMemoryDevice</a>
 , <a class="el" href="d1/dfc/structSMBIOS_1_1SMBIOSSystemInformation.html#ab7fda40f5cd82e2cd65e7bd3502add71">SMBIOS::SMBIOSSystemInformation</a>
 </li>
-<li>Map
-: <a class="el" href="df/d33/structKAPIMemory.html#a9391c63a574dcaf01b3ba3775ac18c0a">KAPIMemory</a>
-, <a class="el" href="d0/d46/structKernelAPI_1_1KAPIMemory.html#a82c64da5906dc1e9b5637df211eba6fa">KernelAPI::KAPIMemory</a>
-, <a class="el" href="db/d82/classMemory_1_1Virtual.html#a1a5c185804c552d127a0e90162600f27">Memory::Virtual</a>
+<li>Map()
+: <a class="el" href="db/d82/classMemory_1_1Virtual.html#ad9179222113716ef55fc72e747ff208a">Memory::Virtual</a>
+</li>
+<li>map_fail_callback
+: <a class="el" href="df/d42/structrpmalloc__config__t.html#a35106c441d799201ae0c57068d539ca4">rpmalloc_config_t</a>
+</li>
+<li>MapPages
+: <a class="el" href="dc/dec/struct____driverAPI.html#a9bb1b7ebb0dfa416bdf4752dc069d46b">__driverAPI</a>
 </li>
 <li>MapPCIAddresses()
-: <a class="el" href="d8/d81/classPCI_1_1PCI.html#ac4010727d5a48f28a841a7774b94f750">PCI::PCI</a>
+: <a class="el" href="d4/dad/classPCI_1_1Manager.html#a14af279e0fc618184821475afb86b65c">PCI::Manager</a>
+</li>
+<li>mapped
+: <a class="el" href="d2/d43/rpmalloc_8h.html#ab0d895a6016dd1c5937f2a74370f2727">rpmalloc_global_statistics_t</a>
+</li>
+<li>mapped_peak
+: <a class="el" href="d2/d43/rpmalloc_8h.html#ad5723376daeb707aa20547190ced2865">rpmalloc_global_statistics_t</a>
+</li>
+<li>mapped_total
+: <a class="el" href="d2/d43/rpmalloc_8h.html#af1916b4138cfc1e46ff0787ff9206375">rpmalloc_global_statistics_t</a>
 </li>
 <li>MapType
 : <a class="el" href="db/d82/classMemory_1_1Virtual.html#a9e29f63949580033d08000bcf75e6867">Memory::Virtual</a>
@@ -175,17 +197,29 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <li>Mask()
 : <a class="el" href="d2/d37/classPIC_1_1PIC.html#a7170a6cd5e558af101a85a4551c45b6b">PIC::PIC</a>
 </li>
+<li>master_heap
+: <a class="el" href="d1/d7e/rpmalloc__compat_8cpp.html#a348c1835d21f0af4a3776f96bdba64fb">heap_t</a>
+</li>
 <li>MasterCommandPort
 : <a class="el" href="d2/d37/classPIC_1_1PIC.html#a84618b823fd279833a1ded2ba599b186">PIC::PIC</a>
 </li>
 <li>MasterDataPort
 : <a class="el" href="d2/d37/classPIC_1_1PIC.html#a236d0b1c7fd015c5c887c1d308803d34">PIC::PIC</a>
 </li>
+<li>MasterDev
+: <a class="el" href="d0/d63/classvfs_1_1PTYDevice.html#a22bf984bddfa81bc227e644bf2548ba3">vfs::PTYDevice</a>
+</li>
+<li>MasterDeviceFile()
+: <a class="el" href="dd/df5/classDriver_1_1MasterDeviceFile.html#a34807b10904d236a16e54a7886d21ca1">Driver::MasterDeviceFile</a>
+</li>
 <li>MasterMask
 : <a class="el" href="d2/d37/classPIC_1_1PIC.html#aa7694c4c65c7d9674da27bd2ef96d281">PIC::PIC</a>
 </li>
 <li>MasterOffset
 : <a class="el" href="d2/d37/classPIC_1_1PIC.html#a3be4ea34b4cc79e328f243b1e9953759">PIC::PIC</a>
+</li>
+<li>MasterPTY()
+: <a class="el" href="da/df7/classvfs_1_1MasterPTY.html#afdb2bf967e68444dba5e98a102ead917">vfs::MasterPTY</a>
 </li>
 <li>max_addr
 : <a class="el" href="d5/dba/multiboot2_8h.html#a9b71cbacfed4a5b1f123d6992f42bd74">multiboot_header_tag_relocatable</a>
@@ -234,13 +268,23 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 : <a class="el" href="d1/dc0/multiboot_8h.html#a87db5803d5a79490b2bf32cb8e9a05c9">multiboot_info</a>
 , <a class="el" href="d5/dba/multiboot2_8h.html#ae329d0036de802dbac0b6bd991495738">multiboot_tag_basic_meminfo</a>
 </li>
+<li>memcmp
+: <a class="el" href="dc/dec/struct____driverAPI.html#af11234efd6d97f409cbe965b2c4a9a99">__driverAPI</a>
+</li>
 <li>memcpy
-: <a class="el" href="d2/d58/structKAPIUtilities.html#a7697b80f6c62a77c0814152d79a41db1">KAPIUtilities</a>
-, <a class="el" href="d5/de3/structKernelAPI_1_1KAPIUtilities.html#ac6e5ee15a1af632f63533de31da87d35">KernelAPI::KAPIUtilities</a>
+: <a class="el" href="dc/dec/struct____driverAPI.html#a959d7138f966d44866a5302b88065190">__driverAPI</a>
+</li>
+<li>memmove
+: <a class="el" href="dc/dec/struct____driverAPI.html#aefd60063ec8abe7c94ab6f207e35aaf0">__driverAPI</a>
 </li>
 <li>Memory
 : <a class="el" href="db/d96/structBootInfo.html#af20195d9ca2aca3e8c401d10eb477c25">BootInfo</a>
-, <a class="el" href="d7/d11/mapi_8hpp.html#a7007a4c310ff02707c20bbbeaa1d242f">KernelAPI</a>
+</li>
+<li>memory_map
+: <a class="el" href="df/d42/structrpmalloc__config__t.html#ab1a81b9e7c3dee077fafc85b5327ea6b">rpmalloc_config_t</a>
+</li>
+<li>memory_unmap
+: <a class="el" href="df/d42/structrpmalloc__config__t.html#a10fb22a2f8775aafd70b1c79f6b80630">rpmalloc_config_t</a>
 </li>
 <li>MemoryArrayHandle
 : <a class="el" href="d2/d4e/structSMBIOS_1_1SMBIOSMemoryArrayMappedAddress.html#ae2b1a500b2ef0f78872f4b1566954648">SMBIOS::SMBIOSMemoryArrayMappedAddress</a>
@@ -249,11 +293,7 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 : <a class="el" href="dd/d9d/structSMBIOS_1_1SMBIOSMemoryDeviceMappedAddress.html#adceeef24e2d7bcb6f322216a9cf0f9bc">SMBIOS::SMBIOSMemoryDeviceMappedAddress</a>
 </li>
 <li>MemoryBase
-: <a class="el" href="de/da1/namespaceAdvancedHostControllerInterface.html#a2135cf75a5de4afece3dff12fa3cd0ff">AdvancedHostControllerInterface::BARData</a>
-, <a class="el" href="d5/d83/namespaceGigabit.html#aa5ed5f1da1e6152264d1edb175f075d4">Gigabit::BARData</a>
-, <a class="el" href="d0/d8f/namespacePCI.html#a531b2425615f201a7e3f4dc84b30ea8a">PCI::PCIHeader1</a>
-, <a class="el" href="dd/d45/namespacePCNET.html#a66704d50aab2e803b71fc04113e8c7ee">PCNET::BARData</a>
-, <a class="el" href="dd/d26/namespaceRTL8139.html#a8feb9df2e0b878fadf7995c111d06638">RTL8139::BARData</a>
+: <a class="el" href="d0/d8f/namespacePCI.html#a531b2425615f201a7e3f4dc84b30ea8a">PCI::PCIHeader1</a>
 </li>
 <li>MemoryBase0
 : <a class="el" href="d0/d8f/namespacePCI.html#a4f80fe439a239fafff1608c2ff41d233">PCI::PCIHeader2</a>
@@ -296,14 +336,16 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 : <a class="el" href="d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a997460f5acac219a31966531a316b917">SMBIOS::SMBIOSMemoryDevice</a>
 </li>
 <li>memset
-: <a class="el" href="d2/d58/structKAPIUtilities.html#a74b651b6eb90dbd90f48b800f7b5851d">KAPIUtilities</a>
-, <a class="el" href="d5/de3/structKernelAPI_1_1KAPIUtilities.html#a8bb40119960d0a36365becaeb5080456">KernelAPI::KAPIUtilities</a>
+: <a class="el" href="dc/dec/struct____driverAPI.html#a6987a7cd741582f931babb0a05f8fc34">__driverAPI</a>
 </li>
 <li>merge
 : <a class="el" href="d9/d44/structgcov__ctr__info.html#af8600e4e878a7ed1582bcdada114c7d4">gcov_ctr_info</a>
 </li>
 <li>min_addr
 : <a class="el" href="d5/dba/multiboot2_8h.html#a97193a1e961755821ca483bf378d11d3">multiboot_header_tag_relocatable</a>
+</li>
+<li>min_t
+: <a class="el" href="dd/df5/classDriver_1_1MasterDeviceFile.html#a532358f63d1225e098302a420299b7f9">Driver::MasterDeviceFile</a>
 </li>
 <li>MinGrant
 : <a class="el" href="d0/d8f/namespacePCI.html#a848c596c5e177d39446027ce6ca0a56c">PCI::PCIHeader0</a>
@@ -313,10 +355,6 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 </li>
 <li>MinimumVoltage
 : <a class="el" href="d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a3fa3a4a527a59652a939068b8ef77de8">SMBIOS::SMBIOSMemoryDevice</a>
-</li>
-<li>Minor
-: <a class="el" href="d7/d11/mapi_8hpp.html#a0f02d729df90ebe90a49da9762d7c3cb">KAPIVersion</a>
-, <a class="el" href="d7/d11/mapi_8hpp.html#a94d639e753d2bd5680fa1be33c9cfb92">KernelAPI::KAPIVersion</a>
 </li>
 <li>minor
 : <a class="el" href="d5/dba/multiboot2_8h.html#abe83621d3f54ab2868c75a6396b25729">multiboot_tag_smbios</a>
@@ -344,10 +382,7 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 , <a class="el" href="d3/d56/namespaceTime.html#a0ad218ccb8783c2b69bb4dfbf55b091d">Time::Clock</a>
 </li>
 <li>Misc
-: <a class="el" href="de/d63/msexec_8h.html#a96e9d4a80b0226a7f27264eeacf0aa59">_IMAGE_SECTION_HEADER</a>
-</li>
-<li>MixerAddress
-: <a class="el" href="d6/dc2/namespaceAudioCodec97.html#a45599089b36f5c4b44beb42d6b35ec85">AudioCodec97::BARData</a>
+: <a class="el" href="de/d63/msexec_8h.html#a4199210cc1cc675f7a628c9a925fce7b">_IMAGE_SECTION_HEADER</a>
 </li>
 <li>mmap_addr
 : <a class="el" href="d1/dc0/multiboot_8h.html#aacf83273b9f8448d91fb24690492c0d8">multiboot_info</a>
@@ -365,8 +400,7 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 </li>
 <li>Mode
 : <a class="el" href="db/dfe/namespaceNetworkNTP.html#ab244f1e1967be676fee488926c829bc0">NetworkNTP::NTPHeader</a>
-, <a class="el" href="da/d88/classvfs_1_1FileDescriptorTable.html#a1c0afae60b9f6b51d498e0cbbc26b665">vfs::FileDescriptorTable::DupFildes</a>
-, <a class="el" href="da/d88/classvfs_1_1FileDescriptorTable.html#afb2a5eebc9f9bb26339b02bb0fe782a4">vfs::FileDescriptorTable::Fildes</a>
+, <a class="el" href="dc/da8/structvfs_1_1FileDescriptorTable_1_1Fildes.html#afb2a5eebc9f9bb26339b02bb0fe782a4">vfs::FileDescriptorTable::Fildes</a>
 , <a class="el" href="df/d69/classvfs_1_1Node.html#a8d3ed243eadde7c6b4c886f8454af7f9">vfs::Node</a>
 </li>
 <li>mode
@@ -385,31 +419,6 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <li>mods_count
 : <a class="el" href="d1/dc0/multiboot_8h.html#aebdafce31f94277d138202f7b1ec35cc">multiboot_info</a>
 </li>
-<li>modUIDs
-: <a class="el" href="de/d33/classModule_1_1Module.html#ac7cbacce389215526b190ab84c92bed7">Module::Module</a>
-</li>
-<li>Module
-: <a class="el" href="d0/da5/Fex_8hpp.html#a1120e49ad29eeaa65c4753198a2a0ed5">FexExtended</a>
-, <a class="el" href="de/d33/classModule_1_1Module.html#a5f2340cf206a9a8c24b65312318add43">Module::Module</a>
-</li>
-<li>ModuleDirectory
-: <a class="el" href="d1/dfc/kconfig_8hpp.html#a9a2e1f27d632f8a4c45e7200c0d24eef">KernelConfig</a>
-</li>
-<li>ModuleInterruptHook()
-: <a class="el" href="d2/d9d/classModule_1_1ModuleInterruptHook.html#ab7898d9df94509fbb8dc5ebff50b3e7d">Module::ModuleInterruptHook</a>
-</li>
-<li>ModuleLoadBindInput()
-: <a class="el" href="de/d33/classModule_1_1Module.html#a16f8003200efb58ce7fcb01ae00aab78">Module::Module</a>
-</li>
-<li>ModuleLoadBindInterrupt()
-: <a class="el" href="de/d33/classModule_1_1Module.html#a2fba7656f3aea3e08a7cd777c831ea30">Module::Module</a>
-</li>
-<li>ModuleLoadBindPCI()
-: <a class="el" href="de/d33/classModule_1_1Module.html#a5b8751e23f9a44506c7429f6062e1414">Module::Module</a>
-</li>
-<li>ModuleLoadBindProcess()
-: <a class="el" href="de/d33/classModule_1_1Module.html#aa6a928d1d0d54acee1ce28ee361ec9b2">Module::Module</a>
-</li>
 <li>ModuleManufacturerID
 : <a class="el" href="d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a9c1905ff5367a90ecb20a7cede044678">SMBIOS::SMBIOSMemoryDevice</a>
 </li>
@@ -418,12 +427,6 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 </li>
 <li>Modules
 : <a class="el" href="db/d96/structBootInfo.html#a66f34d5eae212d81e4f13032903863a4">BootInfo</a>
-, <a class="el" href="de/d33/classModule_1_1Module.html#a2c42d46f8fbf7f882259614567a39bcf">Module::Module</a>
-</li>
-<li>modUniqueID
-: <a class="el" href="d7/d11/mapi_8hpp.html#a9dd23c6a0626b9c9a558a847f747500d">KAPIInfo</a>
-, <a class="el" href="d7/d11/mapi_8hpp.html#a796144f013be9fae9b35ba1b9237aded">KernelAPI::KAPIInfo</a>
-, <a class="el" href="dd/d1d/structModule_1_1ModuleFile.html#abe83ec22d1a7f7b693f3f2bbfedd9d63">Module::ModuleFile</a>
 </li>
 <li>Month
 : <a class="el" href="d9/d3e/namespaceTasking.html#af7149b0ee5bf257ec0a98c72d82a98c8">Tasking::TaskInfo</a>

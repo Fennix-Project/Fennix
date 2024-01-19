@@ -1,8 +1,8 @@
 var dir_4b43f92f3b36afcf854dcf934e6beeae =
 [
     [ "crash", "dir_87742ad700bdda085784e0ec1ce131bc.html", "dir_87742ad700bdda085784e0ec1ce131bc" ],
+    [ "driver", "dir_3f280b31f40a90922c2d1e4c2b157109.html", "dir_3f280b31f40a90922c2d1e4c2b157109" ],
     [ "memory", "dir_0324a785b1c9bd6cbd91488045f3d0b5.html", "dir_0324a785b1c9bd6cbd91488045f3d0b5" ],
-    [ "module", "dir_7035063a928b471b21bbcb0690bc003e.html", "dir_7035063a928b471b21bbcb0690bc003e" ],
     [ "time", "dir_5d5d0ca51552d61e9f6bb31d80f60373.html", "dir_5d5d0ca51552d61e9f6bb31d80f60373" ],
     [ "video", "dir_f05e272383947968b419e0c555895616.html", "dir_f05e272383947968b419e0c555895616" ],
     [ "acpi.cpp", "d3/ddd/acpi_8cpp.html", "d3/ddd/acpi_8cpp" ],

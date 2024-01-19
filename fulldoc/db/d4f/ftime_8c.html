@@ -121,16 +121,17 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../db/d4f/ftime_8c_source.html#l00004">4</a> of file <a class="el" href="../../db/d4f/ftime_8c_source.html">ftime.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a> ts;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    clock_gettime(CLOCK_REALTIME, &amp;ts);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    clock_gettime(<a class="code" href="../../da/d63/defs_8hpp.html#a922ce1ae64374c9410c8a999e25e82af">CLOCK_REALTIME</a>, &amp;ts);</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../d4/dc4/bash_2expr_8c.html#a48eb585a5cc3f2f35661183d9e54a87b">tp</a>-&gt;time = ts.tv_sec;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../d4/dc4/bash_2expr_8c.html#a48eb585a5cc3f2f35661183d9e54a87b">tp</a>-&gt;millitm = ts.tv_nsec / 1000000;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="../../d4/dc4/bash_2expr_8c.html#a48eb585a5cc3f2f35661183d9e54a87b">tp</a>-&gt;timezone = <a class="code" href="../../d4/dc4/bash_2expr_8c.html#a48eb585a5cc3f2f35661183d9e54a87b">tp</a>-&gt;dstflag = 0;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
 <div class="ttc" id="abash_2expr_8c_html_a48eb585a5cc3f2f35661183d9e54a87b"><div class="ttname"><a href="../../d4/dc4/bash_2expr_8c.html#a48eb585a5cc3f2f35661183d9e54a87b">tp</a></div><div class="ttdeci">static char * tp</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dc4/bash_2expr_8c_source.html#l00168">expr.c:168</a></div></div>
-<div class="ttc" id="astat-time_8h_html_da/d1c/structtimespec"><div class="ttname"><a href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d79/stat-time_8h_source.html#l00034">stat-time.h:35</a></div></div>
+<div class="ttc" id="adefs_8hpp_html_a922ce1ae64374c9410c8a999e25e82af"><div class="ttname"><a href="../../da/d63/defs_8hpp.html#a922ce1ae64374c9410c8a999e25e82af">CLOCK_REALTIME</a></div><div class="ttdeci">#define CLOCK_REALTIME</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d63/defs_8hpp_source.html#l00076">defs.hpp:76</a></div></div>
+<div class="ttc" id="astat-time_8h_html_da/d1c/structtimespec"><div class="ttname"><a href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d98/Kernel_2include__std_2time_8h_source.html#l00023">time.h:24</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/dc4/bash_2expr_8c_source.html#l00168">tp</a>, <a class="el" href="../../de/d79/stat-time_8h_source.html#l00037">timespec::tv_nsec</a>, and <a class="el" href="../../de/d79/stat-time_8h_source.html#l00036">timespec::tv_sec</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d63/defs_8hpp_source.html#l00076">CLOCK_REALTIME</a>, <a class="el" href="../../d4/dc4/bash_2expr_8c_source.html#l00168">tp</a>, <a class="el" href="../../de/d98/Kernel_2include__std_2time_8h_source.html#l00026">timespec::tv_nsec</a>, and <a class="el" href="../../de/d98/Kernel_2include__std_2time_8h_source.html#l00025">timespec::tv_sec</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d1b/ftime32_8c_source.html#l00012">__ftime32()</a>.</p>
 

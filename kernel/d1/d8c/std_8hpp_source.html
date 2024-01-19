@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -113,70 +113,54 @@ $(document).ready(function(){initNavTree('d1/d8c/std_8hpp_source.html','../../')
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#define __FENNIX_KERNEL_STD_H__</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &lt;types.h&gt;</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &lt;atomic&gt;</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d2/db4/functional_8hpp.html">std/functional.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../dc/d1d/list_8hpp.html">std/list.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp.html">std/smart_ptr.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d9/d4d/stdexcept_8hpp.html">std/stdexcept.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d4/da0/string_8hpp.html">std/string.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d3/dbb/unordered__map_8hpp.html">std/unordered_map.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d1/d4e/utility_8hpp.html">std/utility.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d8/dcc/namespacestd.html">std</a></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">   32</a></span>&#160;    <span class="keyword">typedef</span> __SIZE_TYPE__ <a class="code" href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">size_t</a>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="../../d8/dcc/namespacestd.html#a1217e4c83304856bde725831a23be63e">   33</a></span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">size_t</span> <a class="code" href="../../d8/dcc/namespacestd.html#a1217e4c83304856bde725831a23be63e">npos</a> = -1;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d8/dcc/namespacestd.html">std</a></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;{</div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">   41</a></span>&#160;    <span class="keyword">typedef</span> __SIZE_TYPE__ <a class="code" href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">size_t</a>;</div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="../../d8/dcc/namespacestd.html#a1217e4c83304856bde725831a23be63e">   42</a></span>&#160;    <span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">size_t</span> <a class="code" href="../../d8/dcc/namespacestd.html#a1217e4c83304856bde725831a23be63e">npos</a> = -1;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="../../d8/dcc/namespacestd.html#a7642f080918114d2cbf08148cf66a229">   44</a></span>&#160;    <span class="keyword">enum class</span> <a class="code" href="../../d8/dcc/namespacestd.html#a7642f080918114d2cbf08148cf66a229">align_val_t</a> : <a class="code" href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">std::size_t</a></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    {</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    };</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> InputIt, <span class="keyword">typename</span> OutputIt, <span class="keyword">typename</span> UnaryOperation&gt;</div>
-<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="../../d8/dcc/namespacestd.html#a00347f53b662fb7ba8d4a80fdf62aab9">   49</a></span>&#160;    OutputIt <a class="code" href="../../d8/dcc/namespacestd.html#a00347f53b662fb7ba8d4a80fdf62aab9">transform</a>(InputIt first, InputIt last, OutputIt result, UnaryOperation op)</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    {</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">while</span> (first != last)</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        {</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            *result = op(*first);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            ++first;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            ++result;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        }</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">return</span> result;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    };</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
-<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="../../d8/dcc/namespacestd.html#a37c2ac6f7d497a4a27f00df50db12fbf">   60</a></span>&#160;    <span class="keyword">inline</span> <a class="code" href="../../d6/de6/include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> <span class="keywordtype">int</span> <a class="code" href="../../d8/dcc/namespacestd.html#a37c2ac6f7d497a4a27f00df50db12fbf">tolower</a>(<span class="keywordtype">int</span> c)</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    {</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">if</span> (c &gt;= <span class="charliteral">&#39;A&#39;</span> &amp;&amp; c &lt;= <span class="charliteral">&#39;Z&#39;</span>)</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <span class="keywordflow">return</span> c + (<span class="charliteral">&#39;a&#39;</span> - <span class="charliteral">&#39;A&#39;</span>);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <span class="keywordflow">return</span> c;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="../../d8/dcc/namespacestd.html#a7642f080918114d2cbf08148cf66a229">   35</a></span>&#160;    <span class="keyword">enum class</span> <a class="code" href="../../d8/dcc/namespacestd.html#a7642f080918114d2cbf08148cf66a229">align_val_t</a> : <a class="code" href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">std::size_t</a></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    {</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    };</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> InputIt, <span class="keyword">typename</span> OutputIt, <span class="keyword">typename</span> UnaryOperation&gt;</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="../../d8/dcc/namespacestd.html#a00347f53b662fb7ba8d4a80fdf62aab9">   40</a></span>&#160;    OutputIt <a class="code" href="../../d8/dcc/namespacestd.html#a00347f53b662fb7ba8d4a80fdf62aab9">transform</a>(InputIt first, InputIt last, OutputIt result, UnaryOperation op)</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">while</span> (first != last)</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            *result = op(*first);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            ++first;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            ++result;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        }</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    };</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="../../d8/dcc/namespacestd.html#a37c2ac6f7d497a4a27f00df50db12fbf">   51</a></span>&#160;    <span class="keyword">inline</span> <a class="code" href="../../d6/de6/include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> <span class="keywordtype">int</span> <a class="code" href="../../d8/dcc/namespacestd.html#a37c2ac6f7d497a4a27f00df50db12fbf">tolower</a>(<span class="keywordtype">int</span> c)</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    {</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">if</span> (c &gt;= <span class="charliteral">&#39;A&#39;</span> &amp;&amp; c &lt;= <span class="charliteral">&#39;Z&#39;</span>)</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            <span class="keywordflow">return</span> c + (<span class="charliteral">&#39;a&#39;</span> - <span class="charliteral">&#39;A&#39;</span>);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <span class="keywordflow">return</span> c;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="../../d8/dcc/namespacestd.html#a032f3c464805eef3f21e60c95058a9e1">   59</a></span>&#160;    <span class="keyword">inline</span> <a class="code" href="../../d6/de6/include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> <span class="keywordtype">int</span> <a class="code" href="../../d8/dcc/namespacestd.html#a032f3c464805eef3f21e60c95058a9e1">toupper</a>(<span class="keywordtype">int</span> c)</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    {</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">if</span> (c &gt;= <span class="charliteral">&#39;a&#39;</span> &amp;&amp; c &lt;= <span class="charliteral">&#39;z&#39;</span>)</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <span class="keywordflow">return</span> c - (<span class="charliteral">&#39;a&#39;</span> - <span class="charliteral">&#39;A&#39;</span>);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            <span class="keywordflow">return</span> c;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    }</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;}</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
-<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="../../d8/dcc/namespacestd.html#a032f3c464805eef3f21e60c95058a9e1">   68</a></span>&#160;    <span class="keyword">inline</span> <a class="code" href="../../d6/de6/include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> <span class="keywordtype">int</span> <a class="code" href="../../d8/dcc/namespacestd.html#a032f3c464805eef3f21e60c95058a9e1">toupper</a>(<span class="keywordtype">int</span> c)</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    {</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">if</span> (c &gt;= <span class="charliteral">&#39;a&#39;</span> &amp;&amp; c &lt;= <span class="charliteral">&#39;z&#39;</span>)</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            <span class="keywordflow">return</span> c - (<span class="charliteral">&#39;a&#39;</span> - <span class="charliteral">&#39;A&#39;</span>);</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <span class="keywordflow">return</span> c;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;}</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !__FENNIX_KERNEL_STD_H__</span></div>
-<div class="ttc" id="afunctional_8hpp_html"><div class="ttname"><a href="../../d2/db4/functional_8hpp.html">functional.hpp</a></div></div>
-<div class="ttc" id="ainclude_2types_8h_html_a6034e8cd4bcd5bacfd060abd01bbd8a8"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a></div><div class="ttdeci">#define __always_inline</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00360">types.h:360</a></div></div>
-<div class="ttc" id="ainclude__std_2std_2smart__ptr_8hpp_html"><div class="ttname"><a href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp.html">smart_ptr.hpp</a></div></div>
-<div class="ttc" id="alist_8hpp_html"><div class="ttname"><a href="../../dc/d1d/list_8hpp.html">list.hpp</a></div></div>
-<div class="ttc" id="anamespacestd_html"><div class="ttname"><a href="../../d8/dcc/namespacestd.html">std</a></div><div class="ttdoc">// stub namespace for std::align_val_t and new operator</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/functional_8hpp_source.html#l00024">functional.hpp:25</a></div></div>
-<div class="ttc" id="anamespacestd_html_a00347f53b662fb7ba8d4a80fdf62aab9"><div class="ttname"><a href="../../d8/dcc/namespacestd.html#a00347f53b662fb7ba8d4a80fdf62aab9">std::transform</a></div><div class="ttdeci">OutputIt transform(InputIt first, InputIt last, OutputIt result, UnaryOperation op)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d8c/std_8hpp_source.html#l00049">std.hpp:49</a></div></div>
-<div class="ttc" id="anamespacestd_html_a032f3c464805eef3f21e60c95058a9e1"><div class="ttname"><a href="../../d8/dcc/namespacestd.html#a032f3c464805eef3f21e60c95058a9e1">std::toupper</a></div><div class="ttdeci">__always_inline int toupper(int c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d8c/std_8hpp_source.html#l00068">std.hpp:68</a></div></div>
-<div class="ttc" id="anamespacestd_html_a1217e4c83304856bde725831a23be63e"><div class="ttname"><a href="../../d8/dcc/namespacestd.html#a1217e4c83304856bde725831a23be63e">std::npos</a></div><div class="ttdeci">static const size_t npos</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d8c/std_8hpp_source.html#l00042">std.hpp:42</a></div></div>
-<div class="ttc" id="anamespacestd_html_a37c2ac6f7d497a4a27f00df50db12fbf"><div class="ttname"><a href="../../d8/dcc/namespacestd.html#a37c2ac6f7d497a4a27f00df50db12fbf">std::tolower</a></div><div class="ttdeci">__always_inline int tolower(int c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d8c/std_8hpp_source.html#l00060">std.hpp:60</a></div></div>
-<div class="ttc" id="anamespacestd_html_a7642f080918114d2cbf08148cf66a229"><div class="ttname"><a href="../../d8/dcc/namespacestd.html#a7642f080918114d2cbf08148cf66a229">std::align_val_t</a></div><div class="ttdeci">align_val_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d8c/std_8hpp_source.html#l00044">std.hpp:45</a></div></div>
-<div class="ttc" id="anamespacestd_html_ad477e282dc33a113ed64628b9b32e3dd"><div class="ttname"><a href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">std::size_t</a></div><div class="ttdeci">__SIZE_TYPE__ size_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d8c/std_8hpp_source.html#l00041">std.hpp:41</a></div></div>
-<div class="ttc" id="astdexcept_8hpp_html"><div class="ttname"><a href="../../d9/d4d/stdexcept_8hpp.html">stdexcept.hpp</a></div></div>
-<div class="ttc" id="astring_8hpp_html"><div class="ttname"><a href="../../d4/da0/string_8hpp.html">string.hpp</a></div></div>
-<div class="ttc" id="aunordered__map_8hpp_html"><div class="ttname"><a href="../../d3/dbb/unordered__map_8hpp.html">unordered_map.hpp</a></div></div>
-<div class="ttc" id="autility_8hpp_html"><div class="ttname"><a href="../../d1/d4e/utility_8hpp.html">utility.hpp</a></div></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !__FENNIX_KERNEL_STD_H__</span></div>
+<div class="ttc" id="ainclude_2types_8h_html_a6034e8cd4bcd5bacfd060abd01bbd8a8"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a></div><div class="ttdeci">#define __always_inline</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00364">types.h:364</a></div></div>
+<div class="ttc" id="anamespacestd_html"><div class="ttname"><a href="../../d8/dcc/namespacestd.html">std</a></div><div class="ttdoc">// stub namespace for std::align_val_t and new operator</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp_source.html#l00035">smart_ptr.hpp:36</a></div></div>
+<div class="ttc" id="anamespacestd_html_a00347f53b662fb7ba8d4a80fdf62aab9"><div class="ttname"><a href="../../d8/dcc/namespacestd.html#a00347f53b662fb7ba8d4a80fdf62aab9">std::transform</a></div><div class="ttdeci">OutputIt transform(InputIt first, InputIt last, OutputIt result, UnaryOperation op)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d8c/std_8hpp_source.html#l00040">std.hpp:40</a></div></div>
+<div class="ttc" id="anamespacestd_html_a032f3c464805eef3f21e60c95058a9e1"><div class="ttname"><a href="../../d8/dcc/namespacestd.html#a032f3c464805eef3f21e60c95058a9e1">std::toupper</a></div><div class="ttdeci">__always_inline int toupper(int c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d8c/std_8hpp_source.html#l00059">std.hpp:59</a></div></div>
+<div class="ttc" id="anamespacestd_html_a1217e4c83304856bde725831a23be63e"><div class="ttname"><a href="../../d8/dcc/namespacestd.html#a1217e4c83304856bde725831a23be63e">std::npos</a></div><div class="ttdeci">static const size_t npos</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d8c/std_8hpp_source.html#l00033">std.hpp:33</a></div></div>
+<div class="ttc" id="anamespacestd_html_a37c2ac6f7d497a4a27f00df50db12fbf"><div class="ttname"><a href="../../d8/dcc/namespacestd.html#a37c2ac6f7d497a4a27f00df50db12fbf">std::tolower</a></div><div class="ttdeci">__always_inline int tolower(int c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d8c/std_8hpp_source.html#l00051">std.hpp:51</a></div></div>
+<div class="ttc" id="anamespacestd_html_a7642f080918114d2cbf08148cf66a229"><div class="ttname"><a href="../../d8/dcc/namespacestd.html#a7642f080918114d2cbf08148cf66a229">std::align_val_t</a></div><div class="ttdeci">align_val_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d8c/std_8hpp_source.html#l00035">std.hpp:36</a></div></div>
+<div class="ttc" id="anamespacestd_html_ad477e282dc33a113ed64628b9b32e3dd"><div class="ttname"><a href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">std::size_t</a></div><div class="ttdeci">__SIZE_TYPE__ size_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d8c/std_8hpp_source.html#l00032">std.hpp:32</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

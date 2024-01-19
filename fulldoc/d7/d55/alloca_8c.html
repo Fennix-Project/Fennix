@@ -141,7 +141,7 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:af0643a12f74b0275f158ff89539105e9"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d55/alloca_8c.html#af0643a12f74b0275f158ff89539105e9">stack_dir</a></td></tr>
 <tr class="separator:af0643a12f74b0275f158ff89539105e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42e934b991f13759b3dd386ee6230de2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d7/d55/alloca_8c.html#ae69990992496333b8701388f1b1502da">header</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d55/alloca_8c.html#a42e934b991f13759b3dd386ee6230de2">last_alloca_header</a> = <a class="el" href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td></tr>
+<tr class="memitem:a42e934b991f13759b3dd386ee6230de2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d7/d55/alloca_8c.html#ae69990992496333b8701388f1b1502da">header</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d55/alloca_8c.html#a42e934b991f13759b3dd386ee6230de2">last_alloca_header</a> = <a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td></tr>
 <tr class="separator:a42e934b991f13759b3dd386ee6230de2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
@@ -167,7 +167,7 @@ align[<a class="el" href="../../d6/de8/xz__lzma2_8h.html#a65d1ea18e1cbfa27d9d195
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a694b2ef53fe65dbd750207d53bc18fbd"></a>struct <a class="el" href="../../d7/d55/alloca_8c.html#d0/dd5/structhdr_8h">hdr</a></td>
+<a id="a765f32c243bdbff287ebe98204faee50"></a>struct <a class="el" href="../../d7/d55/alloca_8c.html#d0/dd5/structhdr_8h">hdr</a></td>
 <td class="fieldname">
 h</td>
 <td class="fielddoc">
@@ -373,10 +373,10 @@ next</td>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    <span class="keyword">register</span> <a class="code" href="../../d7/d55/alloca_8c.html#dd/d5e/unionhdr">header</a> *hp;    <span class="comment">/* Traverses linked list.  */</span></div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160; </div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="keywordflow">for</span> (hp = <a class="code" href="../../d7/d55/alloca_8c.html#a42e934b991f13759b3dd386ee6230de2">last_alloca_header</a>; hp != <a class="code" href="../../d7/d55/alloca_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;)</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;      <span class="keywordflow">if</span> ((<a class="code" href="../../d7/d55/alloca_8c.html#a93a2f1db754e1a2707e5915a10386ad8">STACK_DIR</a> &gt; 0 &amp;&amp; hp-&gt;<a class="code" href="../../d7/d55/alloca_8c.html#a694b2ef53fe65dbd750207d53bc18fbd">h</a>.deep &gt; depth)</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;      <span class="keywordflow">if</span> ((<a class="code" href="../../d7/d55/alloca_8c.html#a93a2f1db754e1a2707e5915a10386ad8">STACK_DIR</a> &gt; 0 &amp;&amp; hp-&gt;<a class="code" href="../../d7/d55/alloca_8c.html#a765f32c243bdbff287ebe98204faee50">h</a>.deep &gt; depth)</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;      || (STACK_DIR &lt; 0 &amp;&amp; hp-&gt;<a class="code" href="../../dc/d76/lzop_8c.html#a56dee7158d9de89b23535bf5ad318261">h</a>.deep &lt; depth))</div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    {</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;      <span class="keyword">register</span> <a class="code" href="../../d7/d55/alloca_8c.html#dd/d5e/unionhdr">header</a> *np = hp-&gt;<a class="code" href="../../d7/d55/alloca_8c.html#a694b2ef53fe65dbd750207d53bc18fbd">h</a>.next;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;      <span class="keyword">register</span> <a class="code" href="../../d7/d55/alloca_8c.html#dd/d5e/unionhdr">header</a> *np = hp-&gt;<a class="code" href="../../d7/d55/alloca_8c.html#a765f32c243bdbff287ebe98204faee50">h</a>.next;</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160; </div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;      <a class="code" href="../../d5/db0/dynlink_8c.html#a2c6efa7679f8cd9f61af96e105017560">free</a> ((<a class="code" href="../../d7/d55/alloca_8c.html#afa54b351401513c3633b87554bb7bc58">pointer</a>) hp);  <span class="comment">/* Collect garbage.  */</span></div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160; </div>
@@ -398,7 +398,7 @@ next</td>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    <span class="comment">/* Address of header.  */</span></div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160; </div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    ((<a class="code" href="../../d7/d55/alloca_8c.html#dd/d5e/unionhdr">header</a> *) <span class="keyword">new</span>)-&gt;h.next = <a class="code" href="../../d7/d55/alloca_8c.html#a42e934b991f13759b3dd386ee6230de2">last_alloca_header</a>;</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    ((<a class="code" href="../../d7/d55/alloca_8c.html#dd/d5e/unionhdr">header</a> *) <span class="keyword">new</span>)-&gt;<a class="code" href="../../d7/d55/alloca_8c.html#a694b2ef53fe65dbd750207d53bc18fbd">h</a>.deep = depth;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    ((<a class="code" href="../../d7/d55/alloca_8c.html#dd/d5e/unionhdr">header</a> *) <span class="keyword">new</span>)-&gt;<a class="code" href="../../d7/d55/alloca_8c.html#a765f32c243bdbff287ebe98204faee50">h</a>.deep = depth;</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160; </div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <a class="code" href="../../d7/d55/alloca_8c.html#a42e934b991f13759b3dd386ee6230de2">last_alloca_header</a> = (<a class="code" href="../../d7/d55/alloca_8c.html#dd/d5e/unionhdr">header</a> *) <span class="keyword">new</span>;</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160; </div>
@@ -410,7 +410,7 @@ next</td>
 <div class="ttc" id="aalloca_8c_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d7/d55/alloca_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d55/alloca_8c_source.html#l00066">alloca.c:66</a></div></div>
 <div class="ttc" id="aalloca_8c_html_a3c240c30487313b20cb345a9454dcf53"><div class="ttname"><a href="../../d7/d55/alloca_8c.html#a3c240c30487313b20cb345a9454dcf53">find_stack_direction</a></div><div class="ttdeci">static void find_stack_direction()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d55/alloca_8c_source.html#l00105">alloca.c:105</a></div></div>
 <div class="ttc" id="aalloca_8c_html_a42e934b991f13759b3dd386ee6230de2"><div class="ttname"><a href="../../d7/d55/alloca_8c.html#a42e934b991f13759b3dd386ee6230de2">last_alloca_header</a></div><div class="ttdeci">static header * last_alloca_header</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d55/alloca_8c_source.html#l00149">alloca.c:149</a></div></div>
-<div class="ttc" id="aalloca_8c_html_a694b2ef53fe65dbd750207d53bc18fbd"><div class="ttname"><a href="../../d7/d55/alloca_8c.html#a694b2ef53fe65dbd750207d53bc18fbd">hdr::h</a></div><div class="ttdeci">struct hdr::@858 h</div></div>
+<div class="ttc" id="aalloca_8c_html_a765f32c243bdbff287ebe98204faee50"><div class="ttname"><a href="../../d7/d55/alloca_8c.html#a765f32c243bdbff287ebe98204faee50">hdr::h</a></div><div class="ttdeci">struct hdr::@812 h</div></div>
 <div class="ttc" id="aalloca_8c_html_a93a2f1db754e1a2707e5915a10386ad8"><div class="ttname"><a href="../../d7/d55/alloca_8c.html#a93a2f1db754e1a2707e5915a10386ad8">STACK_DIR</a></div><div class="ttdeci">#define STACK_DIR</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d55/alloca_8c_source.html#l00102">alloca.c:102</a></div></div>
 <div class="ttc" id="aalloca_8c_html_acdd7e135fe7d24c0e47f5b3b6edbaaa2"><div class="ttname"><a href="../../d7/d55/alloca_8c.html#acdd7e135fe7d24c0e47f5b3b6edbaaa2">ADDRESS_FUNCTION</a></div><div class="ttdeci">#define ADDRESS_FUNCTION(arg)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d55/alloca_8c_source.html#l00057">alloca.c:57</a></div></div>
 <div class="ttc" id="aalloca_8c_html_acf143577800376dd931c059ecc61ba06"><div class="ttname"><a href="../../d7/d55/alloca_8c.html#acf143577800376dd931c059ecc61ba06">malloc</a></div><div class="ttdeci">#define malloc</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d55/alloca_8c_source.html#l00079">alloca.c:79</a></div></div>
@@ -420,7 +420,7 @@ next</td>
 <div class="ttc" id="alzop_8c_html_a56dee7158d9de89b23535bf5ad318261"><div class="ttname"><a href="../../dc/d76/lzop_8c.html#a56dee7158d9de89b23535bf5ad318261">h</a></div><div class="ttdeci">#define h</div></div>
 <div class="ttc" id="amultiboot_8h_html_a6d813a0f2b5281b18dea3f4cda696c33"><div class="ttname"><a href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a></div><div class="ttdeci">multiboot_uint32_t size</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc0/multiboot_8h_source.html#l00000">multiboot.h:0</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d55/alloca_8c_source.html#l00057">ADDRESS_FUNCTION</a>, <a class="el" href="../../d7/d55/alloca_8c_source.html#l00105">find_stack_direction()</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00036">free</a>, <a class="el" href="../../d7/d55/alloca_8c.html#a694b2ef53fe65dbd750207d53bc18fbd">hdr::h</a>, <a class="el" href="../../dc/d76/lzop_8c.html#a56dee7158d9de89b23535bf5ad318261">h</a>, <a class="el" href="../../d7/d55/alloca_8c_source.html#l00149">last_alloca_header</a>, <a class="el" href="../../d7/d55/alloca_8c_source.html#l00079">malloc</a>, <a class="el" href="../../d7/d55/alloca_8c_source.html#l00066">NULL</a>, <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00000">size</a>, and <a class="el" href="../../d7/d55/alloca_8c_source.html#l00102">STACK_DIR</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d55/alloca_8c_source.html#l00057">ADDRESS_FUNCTION</a>, <a class="el" href="../../d7/d55/alloca_8c_source.html#l00105">find_stack_direction()</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00036">free</a>, <a class="el" href="../../d7/d55/alloca_8c.html#a765f32c243bdbff287ebe98204faee50">hdr::h</a>, <a class="el" href="../../dc/d76/lzop_8c.html#a56dee7158d9de89b23535bf5ad318261">h</a>, <a class="el" href="../../d7/d55/alloca_8c_source.html#l00149">last_alloca_header</a>, <a class="el" href="../../d7/d55/alloca_8c_source.html#l00079">malloc</a>, <a class="el" href="../../d7/d55/alloca_8c_source.html#l00066">NULL</a>, <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00000">size</a>, and <a class="el" href="../../d7/d55/alloca_8c_source.html#l00102">STACK_DIR</a>.</p>
 
 </div>
 </div>
@@ -505,7 +505,7 @@ next</td>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/d55/alloca_8c.html#ae69990992496333b8701388f1b1502da">header</a>* last_alloca_header = <a class="el" href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td>
+          <td class="memname"><a class="el" href="../../d7/d55/alloca_8c.html#ae69990992496333b8701388f1b1502da">header</a>* last_alloca_header = <a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td>
         </tr>
       </table>
   </td>

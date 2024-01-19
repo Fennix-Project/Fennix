@@ -120,11 +120,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d22/musl_2src_2linux_2adjtimex_8c_source.html#l00004">4</a> of file <a class="el" href="../../da/d22/musl_2src_2linux_2adjtimex_8c_source.html">adjtimex.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/de4/timex_8h.html#a709aa34c6f511c0194b96b0d76be34b8">clock_adjtime</a>(CLOCK_REALTIME, tx);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/de4/timex_8h.html#a709aa34c6f511c0194b96b0d76be34b8">clock_adjtime</a>(<a class="code" href="../../da/d63/defs_8hpp.html#a922ce1ae64374c9410c8a999e25e82af">CLOCK_REALTIME</a>, tx);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
+<div class="ttc" id="adefs_8hpp_html_a922ce1ae64374c9410c8a999e25e82af"><div class="ttname"><a href="../../da/d63/defs_8hpp.html#a922ce1ae64374c9410c8a999e25e82af">CLOCK_REALTIME</a></div><div class="ttdeci">#define CLOCK_REALTIME</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d63/defs_8hpp_source.html#l00076">defs.hpp:76</a></div></div>
 <div class="ttc" id="atimex_8h_html_a709aa34c6f511c0194b96b0d76be34b8"><div class="ttname"><a href="../../d4/de4/timex_8h.html#a709aa34c6f511c0194b96b0d76be34b8">clock_adjtime</a></div><div class="ttdeci">int clock_adjtime(clockid_t, struct timex *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00037">clock_adjtime.c:37</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00037">clock_adjtime()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00037">clock_adjtime()</a>, and <a class="el" href="../../da/d63/defs_8hpp_source.html#l00076">CLOCK_REALTIME</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/de1/adjtime_8c_source.html#l00007">adjtime()</a>, <a class="el" href="../../d9/d8b/apps_2base_2busybox_2miscutils_2adjtimex_8c_source.html#l00084">adjtimex_main()</a>, and <a class="el" href="../../d5/d40/ntpd_8c_source.html#l01448">update_local_clock()</a>.</p>
 

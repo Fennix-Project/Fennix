@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -173,7 +173,7 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;{</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> *<a class="code" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> = <a class="code" href="../../d8/d21/aarch64_2cpu_2smp_8cpp.html#aa53a3783575d262dc378af3a30ca775d">GetCurrentCPU</a>();</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <a class="code" href="../../da/daf/classTasking_1_1TCB.html">Tasking::TCB</a> *<a class="code" href="../../d4/d33/smp_8hpp.html#a4fcbc98bdc4609add35b123d0be391de">CurrentThread</a> = <a class="code" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a>-&gt;<a class="code" href="../../d4/d33/smp_8hpp.html#a491373d6c819684bf4b29bbae4422703">CurrentThread</a>.load();</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="../../d4/d33/smp_8hpp.html#a4fcbc98bdc4609add35b123d0be391de">CurrentThread</a>-&gt;State = <a class="code" href="../../d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74a773f96280709f0b4ee36122b01357f51">Tasking::TaskState::Terminated</a>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="../../d4/d33/smp_8hpp.html#a4fcbc98bdc4609add35b123d0be391de">CurrentThread</a>-&gt;SetState(<a class="code" href="../../d9/d3e/namespaceTasking.html#a1caa7bfee242fe8216026227bfd9db2ea773f96280709f0b4ee36122b01357f51">Tasking::Terminated</a>);</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;\&quot;%s\&quot;(%d) exited with code: %#lx&quot;</span>,</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;          <a class="code" href="../../d4/d33/smp_8hpp.html#a4fcbc98bdc4609add35b123d0be391de">CurrentThread</a>-&gt;Name,</div>
@@ -182,17 +182,17 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="code" href="../../df/dbe/cpu_8hpp.html#a643be30dd2659e9acee9a5372da38ecf">CPU::Halt</a>(<span class="keyword">true</span>);</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;}</div>
 <div class="ttc" id="aaarch64_2cpu_2smp_8cpp_html_aa53a3783575d262dc378af3a30ca775d"><div class="ttname"><a href="../../d8/d21/aarch64_2cpu_2smp_8cpp.html#aa53a3783575d262dc378af3a30ca775d">GetCurrentCPU</a></div><div class="ttdeci">CPUData * GetCurrentCPU()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d21/aarch64_2cpu_2smp_8cpp_source.html#l00033">smp.cpp:33</a></div></div>
-<div class="ttc" id="aclassTasking_1_1TCB_html"><div class="ttname"><a href="../../da/daf/classTasking_1_1TCB.html">Tasking::TCB</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00220">task.hpp:221</a></div></div>
+<div class="ttc" id="aclassTasking_1_1TCB_html"><div class="ttname"><a href="../../da/daf/classTasking_1_1TCB.html">Tasking::TCB</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00266">task.hpp:267</a></div></div>
 <div class="ttc" id="acpu_8hpp_html_a643be30dd2659e9acee9a5372da38ecf"><div class="ttname"><a href="../../df/dbe/cpu_8hpp.html#a643be30dd2659e9acee9a5372da38ecf">Halt</a></div><div class="ttdeci">static SafeFunction __always_inline void Halt(bool Loop=false)</div><div class="ttdoc">Halt the CPU.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00177">cpu.hpp:177</a></div></div>
 <div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00094">debug.h:94</a></div></div>
-<div class="ttc" id="anamespaceTasking_html_abbba64463e2df2b5f909cc6fe9cfbd74a773f96280709f0b4ee36122b01357f51"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74a773f96280709f0b4ee36122b01357f51">Tasking::Terminated</a></div><div class="ttdeci">@ Terminated</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00145">task.hpp:145</a></div></div>
+<div class="ttc" id="anamespaceTasking_html_a1caa7bfee242fe8216026227bfd9db2ea773f96280709f0b4ee36122b01357f51"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html#a1caa7bfee242fe8216026227bfd9db2ea773f96280709f0b4ee36122b01357f51">Tasking::Terminated</a></div><div class="ttdeci">@ Terminated</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00161">task.hpp:161</a></div></div>
 <div class="ttc" id="asmp_8hpp_html_a491373d6c819684bf4b29bbae4422703"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a491373d6c819684bf4b29bbae4422703">CPUData::CurrentThread</a></div><div class="ttdeci">std::atomic&lt; Tasking::TCB * &gt; CurrentThread</div><div class="ttdoc">Current running thread.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00055">smp.hpp:55</a></div></div>
 <div class="ttc" id="asmp_8hpp_html_a4fcbc98bdc4609add35b123d0be391de"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a4fcbc98bdc4609add35b123d0be391de">CurrentThread</a></div><div class="ttdeci">std::atomic&lt; Tasking::TCB * &gt; CurrentThread</div><div class="ttdoc">Current running thread.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00013">smp.hpp:13</a></div></div>
 <div class="ttc" id="asmp_8hpp_html_de/df9/structCPUData"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00040">smp.hpp:41</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00013">CurrentThread</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00055">CPUData::CurrentThread</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, <a class="el" href="../../d8/d21/aarch64_2cpu_2smp_8cpp_source.html#l00033">GetCurrentCPU()</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00177">Halt()</a>, and <a class="el" href="../../d8/da1/task_8hpp_source.html#l00145">Tasking::Terminated</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00013">CurrentThread</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00055">CPUData::CurrentThread</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, <a class="el" href="../../d8/d21/aarch64_2cpu_2smp_8cpp_source.html#l00033">GetCurrentCPU()</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00177">Halt()</a>, and <a class="el" href="../../d8/da1/task_8hpp_source.html#l00161">Tasking::Terminated</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d35/thread_8cpp_source.html#l00330">Tasking::TCB::TCB()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d35/thread_8cpp_source.html#l00405">Tasking::TCB::TCB()</a>.</p>
 
 </div>
 </div>

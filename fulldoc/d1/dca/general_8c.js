@@ -64,7 +64,7 @@ var general_8c =
     [ "group_array", "d1/dca/general_8c.html#a132f32fe7e56c1c2fca5f5633822773e", null ],
     [ "maxgroups", "d1/dca/general_8c.html#a5035bba02de871563287114035c95a0f", null ],
     [ "ngroups", "d1/dca/general_8c.html#ae5dcb44242d12656bf1a5945b165aebc", null ],
-    [ "posix_vars", "d1/dca/general_8c.html#af07713150f94a115dfead6a41e093dac", null ],
+    [ "posix_vars", "d1/dca/general_8c.html#a34700340a925c09baaada615823fb684", null ],
     [ "saved_posix_vars", "d1/dca/general_8c.html#a544eca25643e015e0f4006c34ac044be", null ],
     [ "tdir", "d1/dca/general_8c.html#a5fa1b184d4d06d8f17ccd9ac6bca3586", null ]
 ];

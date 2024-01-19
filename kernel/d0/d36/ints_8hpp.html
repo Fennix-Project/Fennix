@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('d0/d36/ints_8hpp.html','../../'); init
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d9/dd5/pci_8hpp_source.html">pci.hpp</a>&gt;</code><br />
 </div>
 <p><a href="../../d0/d36/ints_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -124,6 +125,14 @@ Functions</h2></td></tr>
 <tr class="separator:a8ef30e8ff4ebe60791d0b42b61caaefa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f0ee2cbdae01f701d9a83efe503efc3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#a1f0ee2cbdae01f701d9a83efe503efc3">Interrupts::RemoveAll</a> ()</td></tr>
 <tr class="separator:a1f0ee2cbdae01f701d9a83efe503efc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5077333dfe93ebc144894b3a056c16a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#aa5077333dfe93ebc144894b3a056c16a">Interrupts::AddHandler</a> (void(*Callback)(CPU::TrapFrame *), int InterruptNumber, void *<a class="el" href="../../d8/d12/Xalloc_8hpp.html#a1ac928dc88cb0345e62c0272cffaabf4">ctx</a>, <a class="el" href="../../d6/de6/include_2types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> Critical)</td></tr>
+<tr class="separator:aa5077333dfe93ebc144894b3a056c16a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79a4bf53f777596006e7b13ff8d55717"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#a79a4bf53f777596006e7b13ff8d55717">Interrupts::RemoveHandler</a> (void(*Callback)(CPU::TrapFrame *), int InterruptNumber)</td></tr>
+<tr class="separator:a79a4bf53f777596006e7b13ff8d55717"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60ce955e69f33f2388dcc63a09c277e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#a60ce955e69f33f2388dcc63a09c277e6">Interrupts::RemoveHandler</a> (void(*Callback)(CPU::TrapFrame *))</td></tr>
+<tr class="separator:a60ce955e69f33f2388dcc63a09c277e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa17859fc27dd7c7d61a07aa6bb8c6046"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#aa17859fc27dd7c7d61a07aa6bb8c6046">Interrupts::RemoveHandler</a> (int InterruptNumber)</td></tr>
+<tr class="separator:aa17859fc27dd7c7d61a07aa6bb8c6046"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a8e948e343c3a3e30fc64d23a81ec2815"></a>
@@ -138,7 +147,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d36/ints_8hpp_source.html#l00029">29</a> of file <a class="el" href="../../d0/d36/ints_8hpp_source.html">ints.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d36/ints_8hpp_source.html#l00030">30</a> of file <a class="el" href="../../d0/d36/ints_8hpp_source.html">ints.hpp</a>.</p>
 
 </div>
 </div>

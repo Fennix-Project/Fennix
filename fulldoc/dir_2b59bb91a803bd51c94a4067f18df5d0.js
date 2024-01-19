@@ -8,7 +8,7 @@ var dir_2b59bb91a803bd51c94a4067f18df5d0 =
     [ "langinfo.h", "d9/d97/src_2include_2langinfo_8h.html", "d9/d97/src_2include_2langinfo_8h" ],
     [ "pthread.h", "d2/d20/Userspace_2musl_2src_2include_2pthread_8h.html", "d2/d20/Userspace_2musl_2src_2include_2pthread_8h" ],
     [ "resolv.h", "d3/d54/src_2include_2resolv_8h.html", "d3/d54/src_2include_2resolv_8h" ],
-    [ "signal.h", "da/de3/Userspace_2musl_2src_2include_2signal_8h.html", "da/de3/Userspace_2musl_2src_2include_2signal_8h" ],
+    [ "signal.h", "de/df9/musl_2src_2include_2signal_8h.html", "de/df9/musl_2src_2include_2signal_8h" ],
     [ "stdio.h", "d9/dea/Userspace_2musl_2src_2include_2stdio_8h.html", "d9/dea/Userspace_2musl_2src_2include_2stdio_8h" ],
     [ "stdlib.h", "d2/def/Userspace_2musl_2src_2include_2stdlib_8h.html", "d2/def/Userspace_2musl_2src_2include_2stdlib_8h" ],
     [ "string.h", "d8/de7/Userspace_2musl_2src_2include_2string_8h.html", "d8/de7/Userspace_2musl_2src_2include_2string_8h" ],

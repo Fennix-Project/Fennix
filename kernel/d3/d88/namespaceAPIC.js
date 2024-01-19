@@ -16,7 +16,7 @@ var namespaceAPIC =
     [ "__packed.__unnamed22__", "d3/d88/namespaceAPIC.html#d3/d9a/structAPIC_1_1____packed_8____unnamed22____", "d3/d88/namespaceAPIC_d3/d9a/structAPIC_1_1____packed_8____unnamed22_____dup" ],
     [ "__packed.__unnamed24__", "d3/d88/namespaceAPIC.html#d1/df1/structAPIC_1_1____packed_8____unnamed24____", "d3/d88/namespaceAPIC_d1/df1/structAPIC_1_1____packed_8____unnamed24_____dup" ],
     [ "__packed.__unnamed26__", "d3/d88/namespaceAPIC.html#d4/d17/structAPIC_1_1____packed_8____unnamed26____", "d3/d88/namespaceAPIC_d4/d17/structAPIC_1_1____packed_8____unnamed26_____dup" ],
-    [ "__packed.__unnamed29__", "d3/d88/namespaceAPIC.html#dd/db2/structAPIC_1_1____packed_8____unnamed29____", "d3/d88/namespaceAPIC_dd/db2/structAPIC_1_1____packed_8____unnamed29_____dup" ],
+    [ "__packed.__unnamed32__", "d3/d88/namespaceAPIC.html#d2/d21/structAPIC_1_1____packed_8____unnamed32____", "d3/d88/namespaceAPIC_d2/d21/structAPIC_1_1____packed_8____unnamed32_____dup" ],
     [ "ErrorStatusRegister.__unnamed9__", "d3/d88/namespaceAPIC.html#d6/dd8/structAPIC_1_1ErrorStatusRegister_8____unnamed9____", "d3/d88/namespaceAPIC_d6/dd8/structAPIC_1_1ErrorStatusRegister_8____unnamed9_____dup" ],
     [ "APICDeliveryMode", "d3/d88/namespaceAPIC.html#a5e4cfe3016d6899c18a3ab7f900e2942", [
       [ "Fixed", "d3/d88/namespaceAPIC.html#a5e4cfe3016d6899c18a3ab7f900e2942ab509218dba8ca379de8ca98a8e93b1f8", null ],

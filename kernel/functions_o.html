@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -100,6 +100,12 @@ $(document).ready(function(){initNavTree('functions_o.html',''); initResizable()
 <li>OEM
 : <a class="el" href="d8/dbb/classvfs_1_1FAT.html#a735d158a072289ddf25ac2c4201da9d2">vfs::FAT::BIOSParameterBlock</a>
 </li>
+<li>OemDataLength
+: <a class="el" href="d3/d21/classACPI_1_1ACPI.html#a3edee642ed7b48a67827e48372e1399e">ACPI::ACPI::DBG2Device</a>
+</li>
+<li>OemDataOffset
+: <a class="el" href="d3/d21/classACPI_1_1ACPI.html#aa46ae526cc57fbca21498126dcb7698f">ACPI::ACPI::DBG2Device</a>
+</li>
 <li>OEMID
 : <a class="el" href="d3/d21/classACPI_1_1ACPI.html#a86ca4e63934747fae0da3801452ca027">ACPI::ACPI::ACPIHeader</a>
 , <a class="el" href="db/d96/structBootInfo.html#aad0cf13e58eec09fc514760b0b07f087">BootInfo::RSDPInfo</a>
@@ -110,14 +116,16 @@ $(document).ready(function(){initNavTree('functions_o.html',''); initResizable()
 <li>OEMTableID
 : <a class="el" href="d3/d21/classACPI_1_1ACPI.html#a129d3ff79bb85773030c5c195d8628a1">ACPI::ACPI::ACPIHeader</a>
 </li>
-<li>Offset
-: <a class="el" href="d7/d11/mapi_8hpp.html#aae73df80f23c8c765413bfa406e0768c">KAPIInfo</a>
-, <a class="el" href="d7/d11/mapi_8hpp.html#a45bea5f539972f9441ac42c5ae867465">KernelAPI::KAPIInfo</a>
-</li>
 <li>offset
 : <a class="el" href="d1/dc0/multiboot_8h.html#a97958b174fe0234cafab9019eb009b91">multiboot_apm_info</a>
 , <a class="el" href="d5/dba/multiboot2_8h.html#ae9d788171dfbf0f540c37aee20c96eb3">multiboot_tag_apm</a>
 , <a class="el" href="d0/d04/classvfs_1_1Initrd.html#a6d67f5c47fdc9b94d60aa1c8d5241f1d">vfs::Initrd::InitrdFileHeader</a>
+</li>
+<li>offset_from_master
+: <a class="el" href="df/dc0/rpmalloc_8c.html#a07d2ba73260e7e5dbe98c76436888c5f">span_t</a>
+</li>
+<li>OffsetDbgDeviceInfo
+: <a class="el" href="d3/d21/classACPI_1_1ACPI.html#ae308db07fe3a6f60ab58f8b83c630810">ACPI::ACPI::DBG2Header</a>
 </li>
 <li>OldKernelTime
 : <a class="el" href="d9/d3e/namespaceTasking.html#a2dbe361f3b7fc36789b03916d3fd5727">Tasking::TaskInfo</a>
@@ -156,7 +164,11 @@ $(document).ready(function(){initNavTree('functions_o.html',''); initResizable()
 : <a class="el" href="de/d23/classNetworkInterfaceManager_1_1Events.html#a79bcb1ae199a379ef3abd5fb75c31ce5">NetworkInterfaceManager::Events</a>
 </li>
 <li>OnInterruptReceived()
-: <a class="el" href="df/d9c/classAPIC_1_1Timer.html#a0cce675d0483cb6470dc8f2c7d21204d">APIC::Timer</a>
+: <a class="el" href="dd/dc9/classACPI_1_1DSDT.html#a23d7bce554ac3e8da7f69e1b514ba9a9">ACPI::DSDT</a>
+, <a class="el" href="df/d9c/classAPIC_1_1Timer.html#abbcc1c5d03ba117417c3fc9cd62995ca">APIC::Timer</a>
+, <a class="el" href="d9/d69/classCrashHandler_1_1CrashKeyboardDriver.html#afff6c3e462ff469853d04a1505cf0696">CrashHandler::CrashKeyboardDriver</a>
+, <a class="el" href="dd/dae/classInterrupts_1_1Handler.html#a0552a49fe8dbb4790ef9f0080170a1f3">Interrupts::Handler</a>
+, <a class="el" href="dc/dc5/classTasking_1_1Task.html#ab73f56bab626a023dbe699722821ba5a">Tasking::Task</a>
 </li>
 <li>OnIPv4PacketReceived()
 : <a class="el" href="d1/dd4/classNetworkIPv4_1_1IPv4Events.html#a1c3352f5e5d7df0c29425e8189fb21ad">NetworkIPv4::IPv4Events</a>
@@ -177,10 +189,28 @@ $(document).ready(function(){initNavTree('functions_o.html',''); initResizable()
 : <a class="el" href="dd/d53/namespaceNetworkDHCP.html#a502aa135f8fdbada66db92961b114368">NetworkDHCP::DHCPHeader</a>
 </li>
 <li>open()
-: <a class="el" href="df/d69/classvfs_1_1Node.html#ac5a735c9466a437d17503401dece3bbf">vfs::Node</a>
+: <a class="el" href="dd/df5/classDriver_1_1MasterDeviceFile.html#abf5a671117bd0cc72d6ff339e444a0ae">Driver::MasterDeviceFile</a>
+</li>
+<li>Open
+: <a class="el" href="d8/d86/classDriver_1_1SlaveDeviceFile.html#a35e1baae1f12888f7ca46603a9836553">Driver::SlaveDeviceFile</a>
+</li>
+<li>open()
+: <a class="el" href="d8/d86/classDriver_1_1SlaveDeviceFile.html#ad5e227928e75638c1b1369d42c070c47">Driver::SlaveDeviceFile</a>
+, <a class="el" href="df/d69/classvfs_1_1Node.html#ac5a735c9466a437d17503401dece3bbf">vfs::Node</a>
+, <a class="el" href="da/d6a/classvfs_1_1PTMXDevice.html#a1da14158e1d537df452957896f24ce49">vfs::PTMXDevice</a>
+, <a class="el" href="d0/d63/classvfs_1_1PTYDevice.html#a5e6c6d05245f0bae76d7bc77601e96cf">vfs::PTYDevice</a>
 </li>
 <li>Open()
 : <a class="el" href="d8/d64/classvfs_1_1Virtual.html#adfb8ea1790538f3baa2e6b64a5f3cfe9">vfs::Virtual</a>
+</li>
+<li>open_ptr
+: <a class="el" href="df/d69/classvfs_1_1Node.html#aa7883a2363ff018203ca500d44bf73d0">vfs::Node</a>
+</li>
+<li>open_t
+: <a class="el" href="df/d69/classvfs_1_1Node.html#a4d2327bccdc3b8ade111e017be11dc12">vfs::Node</a>
+</li>
+<li>OpenMaster()
+: <a class="el" href="d0/d63/classvfs_1_1PTYDevice.html#a33a805dbdf4e4f40c760fd31a54b7af8">vfs::PTYDevice</a>
 </li>
 <li>OperatingModeCapability
 : <a class="el" href="d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a58e324bd673b037f5ad3695e21372eb9">SMBIOS::SMBIOSMemoryDevice</a>
@@ -212,63 +242,36 @@ $(document).ready(function(){initNavTree('functions_o.html',''); initResizable()
 : <a class="el" href="d0/d8b/structInternetProtocol_1_1Version4.html#a5aa1b45a696f1b135c8d82afbe220acc">InternetProtocol::Version4</a>
 , <a class="el" href="da/d24/structInternetProtocol_1_1Version6.html#ae3ff426ceb6b5c3918a00a7f04854cd6">InternetProtocol::Version6</a>
 , <a class="el" href="d0/d48/structMediaAccessControl.html#a12cfcd8ef59f9283d0a6c00451e3c581">MediaAccessControl</a>
-, <a class="el" href="dd/d79/classstd_1_1list_1_1iterator.html#ab3ec9382d8761f713205330e626afefa">std::list&lt; T &gt;::iterator</a>
-, <a class="el" href="de/d5b/classstd_1_1string_1_1iterator.html#ad94824d276df186f1d946a75ae430f9b">std::string::iterator</a>
-, <a class="el" href="d8/d29/classstd_1_1string.html#a693590d2d080efe977cf371e7cc9e0f4">std::string</a>
-</li>
-<li>operator()()
-: <a class="el" href="d8/dcf/structstd_1_1hash.html#a64c8b313bac440824dab3dbb97388890">std::hash&lt; Key &gt;</a>
+, <a class="el" href="dc/da8/structvfs_1_1FileDescriptorTable_1_1Fildes.html#a304a0e381ad6014f1aa106232fa09e62">vfs::FileDescriptorTable::Fildes</a>
 </li>
 <li>operator*()
 : <a class="el" href="d5/ddc/classMemory_1_1SmartHeap.html#a7d95465ac05f09738c747b7b72edd5e9">Memory::SmartHeap</a>
-, <a class="el" href="dd/d79/classstd_1_1list_1_1iterator.html#a34dd9c8649812a11d250ad9633a1ba09">std::list&lt; T &gt;::iterator</a>
 , <a class="el" href="df/ddb/classstd_1_1shared__ptr.html#ada713ef28b409dca5a937a266f73a569">std::shared_ptr&lt; T &gt;</a>
 , <a class="el" href="dc/d53/classstd_1_1smart__ptr.html#aec45c51666e7a55337dfc4507f156647">std::smart_ptr&lt; T &gt;</a>
-, <a class="el" href="de/d5b/classstd_1_1string_1_1iterator.html#a68fee3d236d2877c92734968cbaa6da5">std::string::iterator</a>
-</li>
-<li>operator+()
-: <a class="el" href="d8/d29/classstd_1_1string.html#a8c0da102f628e6e1409f7ac224b577a4">std::string</a>
 </li>
 <li>operator++()
-: <a class="el" href="dd/d79/classstd_1_1list_1_1iterator.html#ac360e5344b8123fb70e40f0791f0e221">std::list&lt; T &gt;::iterator</a>
-, <a class="el" href="d6/d51/classstd_1_1shared__ptr_1_1counter.html#ab97a7bcc70ca3603633ec9532865313a">std::shared_ptr&lt; T &gt;::counter</a>
-, <a class="el" href="de/d5b/classstd_1_1string_1_1iterator.html#a5d665c8c29d374ee55f84f659cdc14d7">std::string::iterator</a>
-</li>
-<li>operator+=()
-: <a class="el" href="d8/d29/classstd_1_1string.html#a4796a1aee7ac27a7eca13a9eae0efb6d">std::string</a>
+: <a class="el" href="d6/d51/classstd_1_1shared__ptr_1_1counter.html#a5f4fc2dfa16bcbaeaff4c00c384ffafc">std::shared_ptr&lt; T &gt;::counter</a>
 </li>
 <li>operator--()
-: <a class="el" href="dd/d79/classstd_1_1list_1_1iterator.html#a0ddc202025398f7c94cca477d33c01e7">std::list&lt; T &gt;::iterator</a>
-, <a class="el" href="d6/d51/classstd_1_1shared__ptr_1_1counter.html#a6147421d402453758932ee02b998cb1f">std::shared_ptr&lt; T &gt;::counter</a>
+: <a class="el" href="d6/d51/classstd_1_1shared__ptr_1_1counter.html#a6147421d402453758932ee02b998cb1f">std::shared_ptr&lt; T &gt;::counter</a>
 </li>
 <li>operator-&gt;()
 : <a class="el" href="d5/ddc/classMemory_1_1SmartHeap.html#a3d7f3fc71bf869128ac6932fdd52c49f">Memory::SmartHeap</a>
-, <a class="el" href="dd/d79/classstd_1_1list_1_1iterator.html#a089e4d0932cd87e9e18f1b961bce02ad">std::list&lt; T &gt;::iterator</a>
 , <a class="el" href="df/ddb/classstd_1_1shared__ptr.html#a6c2678fce69f84c1f28efed1df1f9617">std::shared_ptr&lt; T &gt;</a>
 , <a class="el" href="dc/d53/classstd_1_1smart__ptr.html#a34adc9f82172f037139e4b916c275e90">std::smart_ptr&lt; T &gt;</a>
 </li>
-<li>operator&lt;&lt;()
-: <a class="el" href="d8/d29/classstd_1_1string.html#ad08bb021585623e0bb86658fe659262f">std::string</a>
-</li>
 <li>operator=()
 : <a class="el" href="d5/ddc/classMemory_1_1SmartHeap.html#a7d1e2f1256110b876fa1dc08d5d30985">Memory::SmartHeap</a>
-, <a class="el" href="d4/dff/classstd_1_1list.html#af72cf14cbe7e0844ac8cab673524434c">std::list&lt; T &gt;</a>
 , <a class="el" href="d6/d51/classstd_1_1shared__ptr_1_1counter.html#a01ac44c4643986f411cab925637bbadf">std::shared_ptr&lt; T &gt;::counter</a>
-, <a class="el" href="d8/d29/classstd_1_1string.html#a26165815fe7df05e4b5085d14a1c1407">std::string</a>
 </li>
 <li>operator==()
-: <a class="el" href="d0/d8b/structInternetProtocol_1_1Version4.html#a2d6f6f32c7a46dddd37b2b6ca726fe4e">InternetProtocol::Version4</a>
+: <a class="el" href="d0/d8b/structInternetProtocol_1_1Version4.html#a2aa61b4f4c59fbca67f039d09a845ff4">InternetProtocol::Version4</a>
 , <a class="el" href="da/d24/structInternetProtocol_1_1Version6.html#a475e94244568ea060efddcca9bb99d2d">InternetProtocol::Version6</a>
-, <a class="el" href="d0/d48/structMediaAccessControl.html#a8fd305cec2bd78011639d2e48b71787e">MediaAccessControl</a>
-, <a class="el" href="dd/d1d/structModule_1_1ModuleFile.html#a7d279748bc7b2d396eba26d1ebfea3fb">Module::ModuleFile</a>
-, <a class="el" href="dd/d79/classstd_1_1list_1_1iterator.html#aa89ff8a893182fc37aaa52c89f3da98d">std::list&lt; T &gt;::iterator</a>
-, <a class="el" href="de/d5b/classstd_1_1string_1_1iterator.html#ae21709eb8e0f688f4573e6bd453e6685">std::string::iterator</a>
-, <a class="el" href="d8/d29/classstd_1_1string.html#ad0aa63660e7c1244762cbfcddd5105c6">std::string</a>
+, <a class="el" href="d0/d48/structMediaAccessControl.html#afadcd2e3319a21561187a9902fa0e0e6">MediaAccessControl</a>
+, <a class="el" href="dc/da8/structvfs_1_1FileDescriptorTable_1_1Fildes.html#a85721067152595af01123576eeb51bc4">vfs::FileDescriptorTable::Fildes</a>
 </li>
 <li>operator[]()
 : <a class="el" href="d3/d19/classBitmap.html#a9a1973a002c6c5b749d640b48d01fcd1">Bitmap</a>
-, <a class="el" href="d8/d29/classstd_1_1string.html#a5d5bc911c2fc9e0803fedd4fcf88b91b">std::string</a>
-, <a class="el" href="d4/d3a/classstd_1_1unordered__map.html#a2801a09a65c0dd216e59042283f7d9f4">std::unordered_map&lt; key_type, value_type &gt;</a>
 </li>
 <li>OptimizedMap()
 : <a class="el" href="db/d82/classMemory_1_1Virtual.html#a521bbc3866b8688f33989982a2720ab2">Memory::Virtual</a>
@@ -286,16 +289,22 @@ $(document).ready(function(){initNavTree('functions_o.html',''); initResizable()
 : <a class="el" href="dd/d53/namespaceNetworkDHCP.html#af517d75bb90a1ac36073496b8b09393d">NetworkDHCP::DHCPHeader</a>
 </li>
 <li>Original
-: <a class="el" href="da/de3/classAutoSwitchPageTable.html#a6af0914fba630b0a3e1126e2b1f68963">AutoSwitchPageTable</a>
+: <a class="el" href="da/de3/classAutoSwitchPageTable.html#aef60f22223749559ca937b3a3180aa9e">AutoSwitchPageTable</a>
 </li>
 <li>OriginateTimestamp
 : <a class="el" href="db/dfe/namespaceNetworkNTP.html#a3ab7115d59d9de1af62cf06aa2429582">NetworkNTP::NTPHeader</a>
 </li>
-<li>OS
-: <a class="el" href="d2/ddc/structFex.html#af87c5f3843dc3714ac06f5f6c57a12b9">Fex</a>
+<li>overflow
+: <a class="el" href="df/dc0/rpmalloc_8c.html#a8bb140aee00ffae527f7c0706d98c3d1">global_cache_t</a>
+</li>
+<li>OverrideInterruptHandler
+: <a class="el" href="dc/dec/struct____driverAPI.html#afd50070bd4076d54f75d9b61e9e4a991">__driverAPI</a>
 </li>
 <li>owner
 : <a class="el" href="d7/d0a/classvfs_1_1USTAR.html#a470172a83fdae5a6393315cc1d8110f3">vfs::USTAR::FileHeader</a>
+</li>
+<li>owner_thread
+: <a class="el" href="d1/d7e/rpmalloc__compat_8cpp.html#a436e67271364d132c12f2f5f0d4c79ef">heap_t</a>
 </li>
 <li>OwnPageTable
 : <a class="el" href="d6/d17/classTasking_1_1PCB.html#a1bffacf5aca4b124e8dc7ac5274de0d1">Tasking::PCB</a>

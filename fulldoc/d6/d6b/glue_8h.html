@@ -128,7 +128,7 @@ Macros</h2></td></tr>
 <tr class="separator:ab24a06124682717fabefc8d8d11f6500"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af576bf8ffa22a44e53018c67095ffbf0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6b/glue_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)&#160;&#160;&#160;do { <a class="el" href="../../db/d92/apps_2base_2bash_2lib_2intl_2textdomain_8c.html#a82e6f3dbd6034889c1a26377188874af">if</a> (!(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)) <a class="el" href="../../dd/d02/atomic_8h.html#a8bce823c986ab54e034863a781124aa8">a_crash</a>(); } <a class="el" href="../../d0/d32/dcigettext_8c.html#a8fdafe3be7e00ce3d4f0cb50a9a5eb39">while</a>(0)</td></tr>
 <tr class="separator:af576bf8ffa22a44e53018c67095ffbf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af485418e6dd8f846429a1fe62c61a4e1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6b/glue_8h.html#af485418e6dd8f846429a1fe62c61a4e1">brk</a>(<a class="el" href="../../d6/d23/wi__stuff_8c.html#a5f53dec9fe800012c2be6ab5167d2cfd">p</a>)&#160;&#160;&#160;((<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)<a class="el" href="../../de/da8/src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(SYS_brk, <a class="el" href="../../d6/d23/wi__stuff_8c.html#a5f53dec9fe800012c2be6ab5167d2cfd">p</a>))</td></tr>
+<tr class="memitem:af485418e6dd8f846429a1fe62c61a4e1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6b/glue_8h.html#af485418e6dd8f846429a1fe62c61a4e1">brk</a>(<a class="el" href="../../d6/d23/wi__stuff_8c.html#a5f53dec9fe800012c2be6ab5167d2cfd">p</a>)&#160;&#160;&#160;((<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)<a class="el" href="../../d9/db2/Userspace_2musl_2src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(SYS_brk, <a class="el" href="../../d6/d23/wi__stuff_8c.html#a5f53dec9fe800012c2be6ab5167d2cfd">p</a>))</td></tr>
 <tr class="separator:af485418e6dd8f846429a1fe62c61a4e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28c221ada7e76eee5cc90ce7fb05f349"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6b/glue_8h.html#a28c221ada7e76eee5cc90ce7fb05f349">mmap</a>&#160;&#160;&#160;<a class="el" href="../../dd/dc5/mmap_8c.html#a88c4f795b96b69d9983d2297e0e7e248">__mmap</a></td></tr>
 <tr class="separator:a28c221ada7e76eee5cc90ce7fb05f349"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,7 +138,7 @@ Macros</h2></td></tr>
 <tr class="separator:ad128f105a5db13896a1ee06f3e53e768"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae82c5eb0a6d74dd9ca3f36157ffae864"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6b/glue_8h.html#ae82c5eb0a6d74dd9ca3f36157ffae864">DISABLE_ALIGNED_ALLOC</a>&#160;&#160;&#160;(<a class="el" href="../../d7/d40/replaced_8c.html#a8d85d9e86cfdfe3996b4ed539ba8c47e">__malloc_replaced</a> &amp;&amp; !<a class="el" href="../../d7/d40/replaced_8c.html#ab2809a62196934e29fad8ade1715fb6e">__aligned_alloc_replaced</a>)</td></tr>
 <tr class="separator:ae82c5eb0a6d74dd9ca3f36157ffae864"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a519adc2af3ba06a8f0548b6690050a89"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6b/glue_8h.html#a519adc2af3ba06a8f0548b6690050a89">PAGESIZE</a>&#160;&#160;&#160;<a class="el" href="../../db/dc8/libc_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a></td></tr>
+<tr class="memitem:a519adc2af3ba06a8f0548b6690050a89"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6b/glue_8h.html#a519adc2af3ba06a8f0548b6690050a89">PAGESIZE</a>&#160;&#160;&#160;<a class="el" href="../../d3/d5a/base_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a></td></tr>
 <tr class="separator:a519adc2af3ba06a8f0548b6690050a89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30f14513f15b6d30de440d41e8050e2f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6b/glue_8h.html#a30f14513f15b6d30de440d41e8050e2f">MT</a>&#160;&#160;&#160;(libc.need_locks)</td></tr>
 <tr class="separator:a30f14513f15b6d30de440d41e8050e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -218,7 +218,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><a class="el" href="../../d6/d23/wi__stuff_8c.html#a5f53dec9fe800012c2be6ab5167d2cfd">p</a></td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)<a class="el" href="../../de/da8/src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(SYS_brk, <a class="el" href="../../d6/d23/wi__stuff_8c.html#a5f53dec9fe800012c2be6ab5167d2cfd">p</a>))</td>
+          <td>&#160;&#160;&#160;((<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)<a class="el" href="../../d9/db2/Userspace_2musl_2src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(SYS_brk, <a class="el" href="../../d6/d23/wi__stuff_8c.html#a5f53dec9fe800012c2be6ab5167d2cfd">p</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -414,7 +414,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define PAGESIZE&#160;&#160;&#160;<a class="el" href="../../db/dc8/libc_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a></td>
+          <td class="memname">#define PAGESIZE&#160;&#160;&#160;<a class="el" href="../../d3/d5a/base_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -495,7 +495,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">__attribute__ </td>
+          <td class="memname"><a class="el" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a> </td>
           <td>(</td>
           <td class="paramtype">(__visibility__(&quot;hidden&quot;))&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -540,12 +540,12 @@ Functions</h2></td></tr>
 <div class="ttc" id="aKernel_2include_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00186">types.h:186</a></div></div>
 <div class="ttc" id="aabi_8h_html_a17f052c64203613b14c82458fb8bf788"><div class="ttname"><a href="../../df/d31/abi_8h.html#a17f052c64203613b14c82458fb8bf788">AT_RANDOM</a></div><div class="ttdeci">#define AT_RANDOM</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d31/abi_8h_source.html#l00043">abi.h:43</a></div></div>
 <div class="ttc" id="aarithmetic__operations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddd/arithmetic__operations_8c_source.html#l00294">arithmetic_operations.c:294</a></div></div>
-<div class="ttc" id="aconvert_8h_html_a309e07aa23e76adc2ad0830978663c45"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a309e07aa23e76adc2ad0830978663c45">memcpy</a></div><div class="ttdeci">#define memcpy(dest, src, n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d82/convert_8h_source.html#l00116">convert.h:116</a></div></div>
+<div class="ttc" id="aconvert_8h_html_a309e07aa23e76adc2ad0830978663c45"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a309e07aa23e76adc2ad0830978663c45">memcpy</a></div><div class="ttdeci">#define memcpy(dest, src, n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d82/convert_8h_source.html#l00125">convert.h:125</a></div></div>
 <div class="ttc" id="agettextP_8h_html_a68428151ad44e31b19041cdeb8972a91"><div class="ttname"><a href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a></div><div class="ttdeci">static nls_uint32 nls_uint32 i</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d71/gettextP_8h_source.html#l00074">gettextP.h:74</a></div></div>
 <div class="ttc" id="alibc_8h_html_a562c50deef56f1ef956e231f804c5d0b"><div class="ttname"><a href="../../db/dc8/libc_8h.html#a562c50deef56f1ef956e231f804c5d0b">libc</a></div><div class="ttdeci">#define libc</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dc8/libc_8h_source.html#l00038">libc.h:38</a></div></div>
 <div class="ttc" id="awi__stuff_8c_html_a6fd173f304efa919e66bbe8a265da9e8"><div class="ttname"><a href="../../d6/d23/wi__stuff_8c.html#a6fd173f304efa919e66bbe8a265da9e8">secret</a></div><div class="ttdeci">static patch_t * secret</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d23/wi__stuff_8c_source.html#l00367">wi_stuff.c:367</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d31/abi_8h_source.html#l00043">AT_RANDOM</a>, <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../db/dc8/libc_8h_source.html#l00038">libc</a>, <a class="el" href="../../d3/d82/convert_8h_source.html#l00116">memcpy</a>, and <a class="el" href="../../d6/d23/wi__stuff_8c_source.html#l00367">secret</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d31/abi_8h_source.html#l00043">AT_RANDOM</a>, <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../db/dc8/libc_8h_source.html#l00038">libc</a>, <a class="el" href="../../d3/d82/convert_8h_source.html#l00125">memcpy</a>, and <a class="el" href="../../d6/d23/wi__stuff_8c_source.html#l00367">secret</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/ddc/musl_2src_2malloc_2mallocng_2malloc_8c_source.html#l00042">alloc_meta()</a>.</p>
 

@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['uint16_5ft_655',['uint16_t',['../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e',1,'types.h']]],
+  ['uint32_5ft_656',['uint32_t',['../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f',1,'types.h']]],
+  ['uint48_5ft_657',['uint48_t',['../d6/d47/netools_8h.html#a25baf26b50bc73c25d21005f30ca33b6',1,'netools.h']]],
+  ['uint64_5ft_658',['uint64_t',['../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1',1,'types.h']]],
+  ['uint8_5ft_659',['uint8_t',['../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d',1,'types.h']]],
+  ['uint_5ffast16_5ft_660',['uint_fast16_t',['../d9/d49/types_8h.html#aaabed6e034edb01c259c003894d7f7c8',1,'types.h']]],
+  ['uint_5ffast32_5ft_661',['uint_fast32_t',['../d9/d49/types_8h.html#aa44ff507c3d9a49e27fac64e9fadf062',1,'types.h']]],
+  ['uint_5ffast64_5ft_662',['uint_fast64_t',['../d9/d49/types_8h.html#a62c711f66c6d29c81429aeafdc4bc592',1,'types.h']]],
+  ['uint_5ffast8_5ft_663',['uint_fast8_t',['../d9/d49/types_8h.html#a2464ed69ccd3fd2b3b4c93cb78f6fa20',1,'types.h']]],
+  ['uint_5fleast16_5ft_664',['uint_least16_t',['../d9/d49/types_8h.html#a1a01d6a4e68e435471be2ae8db7e8fdc',1,'types.h']]],
+  ['uint_5fleast32_5ft_665',['uint_least32_t',['../d9/d49/types_8h.html#a678494ae5435d8904e7972c94618e774',1,'types.h']]],
+  ['uint_5fleast64_5ft_666',['uint_least64_t',['../d9/d49/types_8h.html#aba0cb5638c172422eb4a7555a143fbbc',1,'types.h']]],
+  ['uint_5fleast8_5ft_667',['uint_least8_t',['../d9/d49/types_8h.html#a61d44370ed65907c324edad5e8d34632',1,'types.h']]],
+  ['uintmax_5ft_668',['uintmax_t',['../d9/d49/types_8h.html#a4e5632221b295f0fcdcb2233f3f60515',1,'types.h']]],
+  ['uintptr_5ft_669',['uintptr_t',['../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808',1,'types.h']]],
+  ['unlikely_670',['unlikely',['../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101',1,'types.h']]],
+  ['unmappages_671',['UnmapPages',['../d3/d5a/base_8h.html#ae7f09bf7ea973ee522dd4e3c07ae9ab4',1,'UnmapPages():&#160;base.h'],['../dc/dec/struct____driverAPI.html#ae6ea9891a09ca44525e925672f4a44d4',1,'__driverAPI::UnmapPages()']]],
+  ['unregisterallinterrupthandlers_672',['UnregisterAllInterruptHandlers',['../d3/d5a/base_8h.html#a2a65dcb31a6754cd356fa8761dddc332',1,'UnregisterAllInterruptHandlers():&#160;base.h'],['../dc/dec/struct____driverAPI.html#aae1bbda0a6745605715dadbf5ead0fed',1,'__driverAPI::UnregisterAllInterruptHandlers()']]],
+  ['unregisteraudiodevice_673',['UnregisterAudioDevice',['../dc/dec/struct____driverAPI.html#a695cf5215e6f9a55ebe6bf91122c541a',1,'__driverAPI::UnregisterAudioDevice()'],['../da/d09/audio_8h.html#a8f9b4b887c226da09c3a7fa402ef76d0',1,'UnregisterAudioDevice():&#160;audio.h']]],
+  ['unregisterblockdevice_674',['UnregisterBlockDevice',['../dc/dec/struct____driverAPI.html#a59a5573f697625606e2adce5babc98e4',1,'__driverAPI::UnregisterBlockDevice()'],['../de/d40/block_8h.html#ac6cf702df2cd95c21a1e1ea68f643483',1,'UnregisterBlockDevice():&#160;block.h']]],
+  ['unregisterinputdevice_675',['UnregisterInputDevice',['../dc/dec/struct____driverAPI.html#ad4c031811fef8577cc61d7d59372a4db',1,'__driverAPI::UnregisterInputDevice()'],['../de/ded/input_8h.html#a167408a559ba589b3057441f6b06ce8b',1,'UnregisterInputDevice():&#160;input.h']]],
+  ['unregisterinterrupthandler_676',['UnregisterInterruptHandler',['../dc/dec/struct____driverAPI.html#a8eb5d0d108f711458e9f908b20513ffa',1,'__driverAPI::UnregisterInterruptHandler()'],['../d3/d5a/base_8h.html#a9e499d5fc28a640bb5885a320eace0ad',1,'UnregisterInterruptHandler():&#160;base.h']]],
+  ['unregisternetdevice_677',['UnregisterNetDevice',['../dc/dec/struct____driverAPI.html#ae7df376b6abef43a40f8dc7673f8d3d0',1,'__driverAPI::UnregisterNetDevice()'],['../d7/d97/net_8h.html#a82931162176ca07472eecc58836fa9ad',1,'UnregisterNetDevice(dev_t DeviceID, DeviceDriverType Type):&#160;net.h']]],
+  ['unused_678',['UNUSED',['../d9/d49/types_8h.html#a86d500a34c624c2cae56bc25a31b12f3',1,'types.h']]]
+];

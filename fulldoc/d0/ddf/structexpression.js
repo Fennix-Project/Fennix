@@ -21,5 +21,5 @@ var structexpression =
     ] ],
     [ "nargs", "d0/ddf/structexpression.html#a231f8335262357a45053fdf96b080840", null ],
     [ "operation", "d0/ddf/structexpression.html#ac652962f66237f89f302683c92337b9e", null ],
-    [ "val", "d0/ddf/structexpression.html#a2792aeb06b83df109e6dd8b7a5e547bd", null ]
+    [ "val", "d0/ddf/structexpression.html#aa173acff3364f68b52ee78ef95745f8c", null ]
 ];

@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -118,16 +118,14 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span>                                                   \</div>
-<div class="line">    {                                                    \</div>
-<div class="line">        if (!(x))                                        \</div>
-<div class="line">        {                                                \</div>
-<div class="line">            error(<span class="stringliteral">&quot;Assertion failed! [%s] [%s:%s:%d]&quot;</span>,   \</div>
-<div class="line">                  #x, __FILE__, __FUNCTION__, __LINE__); \</div>
-<div class="line">            int3;                                        \</div>
-<div class="line">            while (<span class="keyword">true</span>)                                 \</div>
-<div class="line">                ;                                        \</div>
-<div class="line">        }                                                \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span>                                           \</div>
+<div class="line">    {                                            \</div>
+<div class="line">        if (__builtin_expect(!!(!(x)), 0))       \</div>
+<div class="line">        {                                        \</div>
+<div class="line">            error(<span class="stringliteral">&quot;Assertion failed! [%s]&quot;</span>, #x); \</div>
+<div class="line">            int3;                                \</div>
+<div class="line">            __builtin_unreachable();             \</div>
+<div class="line">        }                                        \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="../../dc/da7/assert_8h_source.html#l00023">23</a> of file <a class="el" href="../../dc/da7/assert_8h_source.html">assert.h</a>.</p>
@@ -149,16 +147,15 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span>                                                   \</div>
-<div class="line">    {                                                    \</div>
-<div class="line">        if (!(x))                                        \</div>
-<div class="line">        {                                                \</div>
-<div class="line">            error(<span class="stringliteral">&quot;Assertion failed! [%s] [%s:%s:%d]&quot;</span>,   \</div>
-<div class="line">                  #x, __FILE__, __FUNCTION__, __LINE__); \</div>
-<div class="line">        }                                                \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span>                                           \</div>
+<div class="line">    {                                            \</div>
+<div class="line">        if (__builtin_expect(!!(!(x)), 0))       \</div>
+<div class="line">        {                                        \</div>
+<div class="line">            error(<span class="stringliteral">&quot;Assertion failed! [%s]&quot;</span>, #x); \</div>
+<div class="line">        }                                        \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../dc/da7/assert_8h_source.html#l00036">36</a> of file <a class="el" href="../../dc/da7/assert_8h_source.html">assert.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/da7/assert_8h_source.html#l00034">34</a> of file <a class="el" href="../../dc/da7/assert_8h_source.html">assert.h</a>.</p>
 
 </div>
 </div>

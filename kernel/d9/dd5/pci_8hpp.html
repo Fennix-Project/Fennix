@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d9/dd5/pci_8hpp.html','../../'); initR
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../da/d3e/memory_8hpp_source.html">memory.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;list&gt;</code><br />
 </div>
 <p><a href="../../d9/dd5/pci_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -107,19 +107,16 @@ Data Structures</h2></td></tr>
 <tr class="memitem:d7/d4b/structPCI_1_1PCIDeviceHeader"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d8f/namespacePCI.html#d7/d4b/structPCI_1_1PCIDeviceHeader">PCI::PCIDeviceHeader</a></td></tr>
 <tr class="separator:d7/d4b/structPCI_1_1PCIDeviceHeader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d1/da3/structPCI_1_1PCIHeader0"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d8f/namespacePCI.html#d1/da3/structPCI_1_1PCIHeader0">PCI::PCIHeader0</a></td></tr>
-<tr class="memdesc:d1/da3/structPCI_1_1PCIHeader0"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d8/d81/classPCI_1_1PCI.html">PCI</a> Header Type 0.  <a href="../../d0/d8f/namespacePCI.html#d1/da3/structPCI_1_1PCIHeader0">More...</a><br /></td></tr>
 <tr class="separator:d1/da3/structPCI_1_1PCIHeader0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d8/d0d/structPCI_1_1PCIHeader1"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d8f/namespacePCI.html#d8/d0d/structPCI_1_1PCIHeader1">PCI::PCIHeader1</a></td></tr>
-<tr class="memdesc:d8/d0d/structPCI_1_1PCIHeader1"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d8/d81/classPCI_1_1PCI.html">PCI</a> Header Type 1 (PCI-to-PCI Bridge)  <a href="../../d0/d8f/namespacePCI.html#d8/d0d/structPCI_1_1PCIHeader1">More...</a><br /></td></tr>
 <tr class="separator:d8/d0d/structPCI_1_1PCIHeader1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d7/d86/structPCI_1_1PCIHeader2"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d8f/namespacePCI.html#d7/d86/structPCI_1_1PCIHeader2">PCI::PCIHeader2</a></td></tr>
-<tr class="memdesc:d7/d86/structPCI_1_1PCIHeader2"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d8/d81/classPCI_1_1PCI.html">PCI</a> Header Type 2 (PCI-to-CardBus Bridge)  <a href="../../d0/d8f/namespacePCI.html#d7/d86/structPCI_1_1PCIHeader2">More...</a><br /></td></tr>
 <tr class="separator:d7/d86/structPCI_1_1PCIHeader2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d8/de9/structPCI_1_1DeviceConfig"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d8f/namespacePCI.html#d8/de9/structPCI_1_1DeviceConfig">PCI::DeviceConfig</a></td></tr>
 <tr class="separator:d8/de9/structPCI_1_1DeviceConfig"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d2/d9d/structPCI_1_1PCIDevice"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d8f/namespacePCI.html#d2/d9d/structPCI_1_1PCIDevice">PCI::PCIDevice</a></td></tr>
 <tr class="separator:d2/d9d/structPCI_1_1PCIDevice"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d81/classPCI_1_1PCI.html">PCI::PCI</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dad/classPCI_1_1Manager.html">PCI::Manager</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -132,19 +129,22 @@ Namespaces</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:a9b174a996d5ead64c595b3081edb586c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586c">PCI::Descriptors::PCIVendors</a> { <br />
-&#160;&#160;<a class="el" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca08bdc748c2ababb9ba6420f422a9913b">PCI::Descriptors::SymbiosLogic</a> = 0x1000
+&#160;&#160;<a class="el" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca7f3feeb84d086fb89e15eaacf88ec185">PCI::Descriptors::Apple</a> = 0x106B
+, <a class="el" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca7d0d929882159800d8882d7b7feb5b0c">PCI::Descriptors::BusLogic</a> = 0x104B
+, <a class="el" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca08bdc748c2ababb9ba6420f422a9913b">PCI::Descriptors::SymbiosLogic</a> = 0x1000
 , <a class="el" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586cae9e68d351e0368ce2280767c69d49c4f">PCI::Descriptors::RedHat</a> = 0x1AF4
-, <a class="el" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca2e0c84924b5c7d841d7f01bff34078f9">PCI::Descriptors::REDHat2</a> = 0x1B36
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca2e0c84924b5c7d841d7f01bff34078f9">PCI::Descriptors::REDHat2</a> = 0x1B36
 , <a class="el" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca64d0736ac69a617d62a064805276795d">PCI::Descriptors::Realtek</a> = 0x10EC
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca2ce7250afaa977ad4e895c56dc2f3b18">PCI::Descriptors::VirtualBox</a> = 0x80EE
+, <a class="el" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca2ce7250afaa977ad4e895c56dc2f3b18">PCI::Descriptors::VirtualBox</a> = 0x80EE
 , <a class="el" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca2387c9303418ac91883955838c9462bb">PCI::Descriptors::Ensoniq</a> = 0x1274
-, <a class="el" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca3f3e0adad80ad6fb7cbc1f18b232b33a">PCI::Descriptors::QEMU</a> = 0x1234
-, <a class="el" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca85d78ed71fc60c91b5a6619f66e14e86">PCI::Descriptors::VMware</a> = 0x15AD
 , <br />
-&#160;&#160;<a class="el" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca80579d5f1effcecff70ac0b6c9ac5dd8">PCI::Descriptors::IntelCorporation</a> = 0x8086
+&#160;&#160;<a class="el" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca3f3e0adad80ad6fb7cbc1f18b232b33a">PCI::Descriptors::QEMU</a> = 0x1234
+, <a class="el" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca85d78ed71fc60c91b5a6619f66e14e86">PCI::Descriptors::VMware</a> = 0x15AD
+, <a class="el" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca80579d5f1effcecff70ac0b6c9ac5dd8">PCI::Descriptors::IntelCorporation</a> = 0x8086
 , <a class="el" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586cae63093767235dce176fb3eb4b80688ae">PCI::Descriptors::AdvancedMicroDevices</a> = 0x1022
-, <a class="el" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca5a9a8e4299b942673c4983d3ca94e18e">PCI::Descriptors::NVIDIACorporation</a> = 0x10DE
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca5a9a8e4299b942673c4983d3ca94e18e">PCI::Descriptors::NVIDIACorporation</a> = 0x10DE
 <br />
  }</td></tr>
 <tr class="separator:a9b174a996d5ead64c595b3081edb586c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -197,8 +197,8 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:a98398363e470d42d292fc43e72c22dae"><td class="memItemLeft" align="right" valign="top">const char *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a98398363e470d42d292fc43e72c22dae">PCI::Descriptors::DeviceClasses</a> []</td></tr>
 <tr class="separator:a98398363e470d42d292fc43e72c22dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab14ef18818f70d4e49086a3ab292ca52"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d0/d8f/namespacePCI.html#d8/de9/structPCI_1_1DeviceConfig">PCI::DeviceConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d8f/namespacePCI.html#ab14ef18818f70d4e49086a3ab292ca52">PCI::__packed</a></td></tr>
-<tr class="separator:ab14ef18818f70d4e49086a3ab292ca52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5f4899a906fa10eccd1feb32e360485"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d0/d8f/namespacePCI.html#d7/d4b/structPCI_1_1PCIDeviceHeader">PCI::PCIDeviceHeader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d8f/namespacePCI.html#ac5f4899a906fa10eccd1feb32e360485">PCI::__packed</a></td></tr>
+<tr class="separator:ac5f4899a906fa10eccd1feb32e360485"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
 <a name="d7/d4b/structPCI_1_1PCIDeviceHeader" id="d7/d4b/structPCI_1_1PCIDeviceHeader"></a>
@@ -213,7 +213,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00109">109</a> of file <a class="el" href="../../d9/dd5/pci_8hpp_source.html">pci.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00111">111</a> of file <a class="el" href="../../d9/dd5/pci_8hpp_source.html">pci.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -303,9 +303,9 @@ VendorID</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="textblock"><p><a class="el" href="../../d8/d81/classPCI_1_1PCI.html">PCI</a> Header Type 0. </p>
+<div class="textblock"><p><a class="el" href="../../d0/d8f/namespacePCI.html">PCI</a> Header Type 0 </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00129">129</a> of file <a class="el" href="../../d9/dd5/pci_8hpp_source.html">pci.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00128">128</a> of file <a class="el" href="../../d9/dd5/pci_8hpp_source.html">pci.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -437,9 +437,9 @@ SubsystemVendorID</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="textblock"><p><a class="el" href="../../d8/d81/classPCI_1_1PCI.html">PCI</a> Header Type 1 (PCI-to-PCI Bridge) </p>
+<div class="textblock"><p><a class="el" href="../../d0/d8f/namespacePCI.html">PCI</a> Header Type 1 (PCI-to-PCI Bridge) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00155">155</a> of file <a class="el" href="../../d9/dd5/pci_8hpp_source.html">pci.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00152">152</a> of file <a class="el" href="../../d9/dd5/pci_8hpp_source.html">pci.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -607,9 +607,9 @@ SubordinateBusNumber</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="textblock"><p><a class="el" href="../../d8/d81/classPCI_1_1PCI.html">PCI</a> Header Type 2 (PCI-to-CardBus Bridge) </p>
+<div class="textblock"><p><a class="el" href="../../d0/d8f/namespacePCI.html">PCI</a> Header Type 2 (PCI-to-CardBus Bridge) </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00187">187</a> of file <a class="el" href="../../d9/dd5/pci_8hpp_source.html">pci.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00182">182</a> of file <a class="el" href="../../d9/dd5/pci_8hpp_source.html">pci.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -766,7 +766,7 @@ SubsystemVendorID</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00214">214</a> of file <a class="el" href="../../d9/dd5/pci_8hpp_source.html">pci.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00209">209</a> of file <a class="el" href="../../d9/dd5/pci_8hpp_source.html">pci.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -815,7 +815,7 @@ StartBus</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00223">223</a> of file <a class="el" href="../../d9/dd5/pci_8hpp_source.html">pci.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00218">218</a> of file <a class="el" href="../../d9/dd5/pci_8hpp_source.html">pci.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">

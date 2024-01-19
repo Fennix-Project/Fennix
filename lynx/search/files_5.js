@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['makefile_300',['Makefile',['../d7/dd3/BIOS_2Makefile.html',1,'(Global Namespace)'],['../d9/d65/Makefile.html',1,'(Global Namespace)'],['../d2/d43/UEFI_2Makefile.html',1,'(Global Namespace)']]],
-  ['memory_2ecpp_301',['Memory.cpp',['../d8/dcc/Memory_8cpp.html',1,'']]],
-  ['memory_2ehpp_302',['memory.hpp',['../da/d3e/memory_8hpp.html',1,'']]]
+  ['physicalmemorymanager_2ecpp_300',['PhysicalMemoryManager.cpp',['../d4/d60/PhysicalMemoryManager_8cpp.html',1,'']]],
+  ['print_2einc_301',['print.inc',['../db/d68/print_8inc.html',1,'']]],
+  ['printf_2ec_302',['printf.c',['../d1/d3d/printf_8c.html',1,'']]],
+  ['printf_2eh_303',['printf.h',['../d3/d6b/printf_8h.html',1,'']]]
 ];

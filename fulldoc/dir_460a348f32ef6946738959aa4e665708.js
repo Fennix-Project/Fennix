@@ -25,7 +25,7 @@ var dir_460a348f32ef6946738959aa4e665708 =
     [ "shgetc.c", "d3/d41/shgetc_8c.html", "d3/d41/shgetc_8c" ],
     [ "shgetc.h", "db/dd6/shgetc_8h.html", "db/dd6/shgetc_8h" ],
     [ "stdio_impl.h", "d8/d0b/stdio__impl_8h.html", "d8/d0b/stdio__impl_8h" ],
-    [ "syscall.h", "de/da8/src_2internal_2syscall_8h.html", "de/da8/src_2internal_2syscall_8h" ],
+    [ "syscall.h", "d9/db2/Userspace_2musl_2src_2internal_2syscall_8h.html", "d9/db2/Userspace_2musl_2src_2internal_2syscall_8h" ],
     [ "syscall_ret.c", "dc/df5/syscall__ret_8c.html", "dc/df5/syscall__ret_8c" ],
     [ "vdso.c", "d2/d68/vdso_8c.html", null ],
     [ "version.c", "d7/d8b/musl_2src_2internal_2version_8c.html", "d7/d8b/musl_2src_2internal_2version_8c" ]

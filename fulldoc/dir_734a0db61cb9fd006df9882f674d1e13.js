@@ -8,30 +8,30 @@ var dir_734a0db61cb9fd006df9882f674d1e13 =
     [ "io.h", "df/d9b/Userspace_2musl_2arch_2generic_2bits_2io_8h.html", null ],
     [ "ioctl.h", "d1/d11/arch_2generic_2bits_2ioctl_8h.html", "d1/d11/arch_2generic_2bits_2ioctl_8h" ],
     [ "ioctl_fix.h", "dd/d3a/generic_2bits_2ioctl__fix_8h.html", null ],
-    [ "ipc.h", "d4/d99/Userspace_2musl_2arch_2generic_2bits_2ipc_8h.html", [
-      [ "ipc_perm", "de/d49/Userspace_2musl_2arch_2x32_2bits_2ipc_8h.html#d4/d0a/structipc__perm", [
-        [ "__ipc_perm_key", "de/d49/Userspace_2musl_2arch_2x32_2bits_2ipc_8h.html#a1c617959f19f3b09e36ea24807151942", null ],
-        [ "__ipc_perm_seq", "de/d49/Userspace_2musl_2arch_2x32_2bits_2ipc_8h.html#a1bfa644eea578aead7c26c692fac84b4", null ],
-        [ "__pad1", "de/d49/Userspace_2musl_2arch_2x32_2bits_2ipc_8h.html#aff1f49e26791b43aecae350aaad5e653", null ],
-        [ "__pad1", "de/d49/Userspace_2musl_2arch_2x32_2bits_2ipc_8h.html#aff1f49e26791b43aecae350aaad5e653", null ],
-        [ "__pad1", "de/d49/Userspace_2musl_2arch_2x32_2bits_2ipc_8h.html#a5b07dc795daa83859e095931be08391f", null ],
-        [ "__pad2", "de/d49/Userspace_2musl_2arch_2x32_2bits_2ipc_8h.html#a6744d9f423d138e8a1fd3cc563fab12e", null ],
-        [ "__pad2", "de/d49/Userspace_2musl_2arch_2x32_2bits_2ipc_8h.html#a6744d9f423d138e8a1fd3cc563fab12e", null ],
-        [ "__pad3", "de/d49/Userspace_2musl_2arch_2x32_2bits_2ipc_8h.html#a63c234bcd88f0685a4b9d463a305050d", null ],
-        [ "__unused1", "de/d49/Userspace_2musl_2arch_2x32_2bits_2ipc_8h.html#a97b9c34b4c5ebcd9ef842b1b688c4a70", null ],
-        [ "__unused2", "de/d49/Userspace_2musl_2arch_2x32_2bits_2ipc_8h.html#a5fdaacf3adef88bd00f7ca3e4afa5785", null ],
-        [ "cgid", "de/d49/Userspace_2musl_2arch_2x32_2bits_2ipc_8h.html#a1501ad9c5a481e39cfc3814ad5810dc7", null ],
-        [ "cuid", "de/d49/Userspace_2musl_2arch_2x32_2bits_2ipc_8h.html#ae9d42dc0bc6e79354ac6830e534338a4", null ],
-        [ "gid", "de/d49/Userspace_2musl_2arch_2x32_2bits_2ipc_8h.html#af340f116f3b1bb3fd7ba8c02815d0da1", null ],
-        [ "mode", "de/d49/Userspace_2musl_2arch_2x32_2bits_2ipc_8h.html#ab949b2a2f2358f7d0771d32dc96b1563", null ],
-        [ "uid", "de/d49/Userspace_2musl_2arch_2x32_2bits_2ipc_8h.html#af7cfffc0f428ebbde9fb19b73d2ba7b5", null ]
+    [ "ipc.h", "db/d5f/arch_2generic_2bits_2ipc_8h.html", [
+      [ "ipc_perm", "d1/d36/arch_2x32_2bits_2ipc_8h.html#d4/d0a/structipc__perm", [
+        [ "__ipc_perm_key", "d1/d36/arch_2x32_2bits_2ipc_8h.html#a1c617959f19f3b09e36ea24807151942", null ],
+        [ "__ipc_perm_seq", "d1/d36/arch_2x32_2bits_2ipc_8h.html#a1bfa644eea578aead7c26c692fac84b4", null ],
+        [ "__pad1", "d1/d36/arch_2x32_2bits_2ipc_8h.html#aff1f49e26791b43aecae350aaad5e653", null ],
+        [ "__pad1", "d1/d36/arch_2x32_2bits_2ipc_8h.html#aff1f49e26791b43aecae350aaad5e653", null ],
+        [ "__pad1", "d1/d36/arch_2x32_2bits_2ipc_8h.html#a5b07dc795daa83859e095931be08391f", null ],
+        [ "__pad2", "d1/d36/arch_2x32_2bits_2ipc_8h.html#a6744d9f423d138e8a1fd3cc563fab12e", null ],
+        [ "__pad2", "d1/d36/arch_2x32_2bits_2ipc_8h.html#a6744d9f423d138e8a1fd3cc563fab12e", null ],
+        [ "__pad3", "d1/d36/arch_2x32_2bits_2ipc_8h.html#a63c234bcd88f0685a4b9d463a305050d", null ],
+        [ "__unused1", "d1/d36/arch_2x32_2bits_2ipc_8h.html#a97b9c34b4c5ebcd9ef842b1b688c4a70", null ],
+        [ "__unused2", "d1/d36/arch_2x32_2bits_2ipc_8h.html#a5fdaacf3adef88bd00f7ca3e4afa5785", null ],
+        [ "cgid", "d1/d36/arch_2x32_2bits_2ipc_8h.html#a1501ad9c5a481e39cfc3814ad5810dc7", null ],
+        [ "cuid", "d1/d36/arch_2x32_2bits_2ipc_8h.html#ae9d42dc0bc6e79354ac6830e534338a4", null ],
+        [ "gid", "d1/d36/arch_2x32_2bits_2ipc_8h.html#af340f116f3b1bb3fd7ba8c02815d0da1", null ],
+        [ "mode", "d1/d36/arch_2x32_2bits_2ipc_8h.html#ab949b2a2f2358f7d0771d32dc96b1563", null ],
+        [ "uid", "d1/d36/arch_2x32_2bits_2ipc_8h.html#af7cfffc0f428ebbde9fb19b73d2ba7b5", null ]
       ] ]
     ] ],
     [ "ipcstat.h", "d5/d41/generic_2bits_2ipcstat_8h.html", "d5/d41/generic_2bits_2ipcstat_8h" ],
     [ "kd.h", "d8/d3d/arch_2generic_2bits_2kd_8h.html", null ],
     [ "limits.h", "dc/d08/Userspace_2musl_2arch_2generic_2bits_2limits_8h.html", null ],
     [ "link.h", "d1/d43/arch_2generic_2bits_2link_8h.html", "d1/d43/arch_2generic_2bits_2link_8h" ],
-    [ "mman.h", "d6/da0/arch_2generic_2bits_2mman_8h.html", null ],
+    [ "mman.h", "df/d5b/Userspace_2musl_2arch_2generic_2bits_2mman_8h.html", null ],
     [ "msg.h", "d2/d80/arch_2generic_2bits_2msg_8h.html", [
       [ "msqid_ds", "d3/d4f/arch_2x32_2bits_2msg_8h.html#de/d01/structmsqid__ds", [
         [ "__msg_ctime_hi", "d3/d4f/arch_2x32_2bits_2msg_8h.html#a8ebad41c4b9e5a4a8b1450db462dbd45", null ],

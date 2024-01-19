@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -149,8 +149,8 @@ $(document).ready(function(){initNavTree('globals_func_c.html',''); initResizabl
 : <a class="el" href="db/d92/cargs_8c.html#a09872a4289ebc4bd42f14f372eae3c66">cargs.c</a>
 </li>
 <li>CalculateChecksum()
-: <a class="el" href="d4/d2d/net_8hpp.html#a8c14b5ee2df294ccbb24e2a889b108ba">net.hpp</a>
-, <a class="el" href="df/d13/checksum_8cpp.html#a8c14b5ee2df294ccbb24e2a889b108ba">checksum.cpp</a>
+: <a class="el" href="df/d13/checksum_8cpp.html#a8c14b5ee2df294ccbb24e2a889b108ba">checksum.cpp</a>
+, <a class="el" href="d4/d2d/net_8hpp.html#a8c14b5ee2df294ccbb24e2a889b108ba">net.hpp</a>
 </li>
 <li>calloc()
 : <a class="el" href="d8/dc8/group__ALLOCHOOKS.html#ga9db1af54761723ecddbd1e253c01a2ad">liballoc_1_1.h</a>
@@ -165,11 +165,8 @@ $(document).ready(function(){initNavTree('globals_func_c.html',''); initResizabl
 : <a class="el" href="d8/d5c/kernel__io_8cpp.html#a134fc0278992a7af17a676a896fd9a35">kernel_io.cpp</a>
 </li>
 <li>clamp()
-: <a class="el" href="d3/d82/convert_8h.html#afe1aaae133f1be0d0fc313107bbff7a1">convert.h</a>
-, <a class="el" href="d3/d68/convert_8cpp.html#a4ad5605089787fd2e895cfe89f5e0b0d">convert.cpp</a>
-</li>
-<li>CleanupProcessesThreadWrapper()
-: <a class="el" href="d4/d70/kernel__thread_8cpp.html#a66bbdc963b194dcfe2754094e09f3c43">kernel_thread.cpp</a>
+: <a class="el" href="d3/d68/convert_8cpp.html#a4ad5605089787fd2e895cfe89f5e0b0d">convert.cpp</a>
+, <a class="el" href="d3/d82/convert_8h.html#afe1aaae133f1be0d0fc313107bbff7a1">convert.h</a>
 </li>
 <li>cmd_cat()
 : <a class="el" href="db/d47/cmds_8hpp.html#ae3222952c9177cba755016141ce502cc">cmds.hpp</a>
@@ -179,9 +176,13 @@ $(document).ready(function(){initNavTree('globals_func_c.html',''); initResizabl
 : <a class="el" href="db/d47/cmds_8hpp.html#aa0a0b922e1f67d1180cc8499c21f6bef">cmds.hpp</a>
 , <a class="el" href="d0/d81/cd_8cpp.html#aa0a0b922e1f67d1180cc8499c21f6bef">cd.cpp</a>
 </li>
+<li>cmd_clear()
+: <a class="el" href="db/d47/cmds_8hpp.html#abfaa19dcc4385eeb4b72f2cbc5b528ab">cmds.hpp</a>
+, <a class="el" href="d7/dd2/clear_8cpp.html#a7126f1c6b9127870bbf8a5686f986514">clear.cpp</a>
+</li>
 <li>cmd_echo()
-: <a class="el" href="df/dea/echo_8cpp.html#ac06ba0a4f416818114e49bcf5095faa7">echo.cpp</a>
-, <a class="el" href="db/d47/cmds_8hpp.html#ac06ba0a4f416818114e49bcf5095faa7">cmds.hpp</a>
+: <a class="el" href="db/d47/cmds_8hpp.html#ac06ba0a4f416818114e49bcf5095faa7">cmds.hpp</a>
+, <a class="el" href="df/dea/echo_8cpp.html#ac06ba0a4f416818114e49bcf5095faa7">echo.cpp</a>
 </li>
 <li>cmd_exit()
 : <a class="el" href="db/d47/cmds_8hpp.html#a639fef419a40ccf98246cae8bb0b9891">cmds.hpp</a>
@@ -199,21 +200,33 @@ $(document).ready(function(){initNavTree('globals_func_c.html',''); initResizabl
 : <a class="el" href="db/d47/cmds_8hpp.html#a56ac7dda950de67b84d246966b6be71e">cmds.hpp</a>
 , <a class="el" href="dd/d95/ls_8cpp.html#a56ac7dda950de67b84d246966b6be71e">ls.cpp</a>
 </li>
+<li>cmd_lsacpi()
+: <a class="el" href="db/d47/cmds_8hpp.html#ae475c3a14ecff161015abaa5d5639c03">cmds.hpp</a>
+, <a class="el" href="d3/dfb/lsacpi_8cpp.html#a1da48a8547f6be2d312c6b71728e1b46">lsacpi.cpp</a>
+</li>
+<li>cmd_lsmod()
+: <a class="el" href="db/d47/cmds_8hpp.html#add9f36ef628046d473ad215c84e1c525">cmds.hpp</a>
+, <a class="el" href="db/dac/lsmod_8cpp.html#a7df1172cfec84425d341b719e633f9de">lsmod.cpp</a>
+</li>
 <li>cmd_lsof()
 : <a class="el" href="db/d47/cmds_8hpp.html#ac332abc4f898568481413bbadb94b019">cmds.hpp</a>
 , <a class="el" href="db/df2/kshell_2commands_2lsof_8cpp.html#a2d7b1c2ec6bec97479088f8c183a8178">lsof.cpp</a>
 </li>
 <li>cmd_lspci()
 : <a class="el" href="db/d47/cmds_8hpp.html#a17c4fad31f1ff04c15cd14dd2f4ec969">cmds.hpp</a>
-, <a class="el" href="d4/d8d/lspci_8cpp.html#a501389b9698cb88cee6c5c55269542b8">lspci.cpp</a>
+, <a class="el" href="d4/d8d/lspci_8cpp.html#a17c4fad31f1ff04c15cd14dd2f4ec969">lspci.cpp</a>
 </li>
 <li>cmd_mem()
 : <a class="el" href="db/d47/cmds_8hpp.html#ac6f39d234686c206bcc60abc26ece16e">cmds.hpp</a>
 , <a class="el" href="d1/d6f/mem_8cpp.html#ada735e9df3088dfce080c42102511bbf">mem.cpp</a>
 </li>
+<li>cmd_modinfo()
+: <a class="el" href="db/d47/cmds_8hpp.html#a8a766782bfd3025a46b1c1e96038eeba">cmds.hpp</a>
+, <a class="el" href="d9/d44/modinfo_8cpp.html#a8a766782bfd3025a46b1c1e96038eeba">modinfo.cpp</a>
+</li>
 <li>cmd_ps()
-: <a class="el" href="db/d47/cmds_8hpp.html#a5a8954ae6f88515ebde70f841c60605f">cmds.hpp</a>
-, <a class="el" href="dc/d0e/ps_8cpp.html#aff20dd75cb7f0a5ab3ecc9174380e3b5">ps.cpp</a>
+: <a class="el" href="dc/d0e/ps_8cpp.html#aff20dd75cb7f0a5ab3ecc9174380e3b5">ps.cpp</a>
+, <a class="el" href="db/d47/cmds_8hpp.html#a5a8954ae6f88515ebde70f841c60605f">cmds.hpp</a>
 </li>
 <li>cmd_reboot()
 : <a class="el" href="db/d47/cmds_8hpp.html#a97a442890cba3f4b9e6ef3d8edd8ad36">cmds.hpp</a>
@@ -227,9 +240,13 @@ $(document).ready(function(){initNavTree('globals_func_c.html',''); initResizabl
 : <a class="el" href="db/d47/cmds_8hpp.html#a34796f1b1f7cbdf2fbe99f59473a59db">cmds.hpp</a>
 , <a class="el" href="d9/d25/top_8cpp.html#af1b0ac08b698f9d841d8b015590c6646">top.cpp</a>
 </li>
+<li>cmd_tree()
+: <a class="el" href="db/d47/cmds_8hpp.html#ae6819b920a1b30032bdd057d45489b34">cmds.hpp</a>
+, <a class="el" href="d1/d12/tree_8cpp.html#ae6819b920a1b30032bdd057d45489b34">tree.cpp</a>
+</li>
 <li>cmd_uname()
-: <a class="el" href="db/d47/cmds_8hpp.html#a8301398671ab8005729152682606a75b">cmds.hpp</a>
-, <a class="el" href="dd/d8b/uname_8cpp.html#a8301398671ab8005729152682606a75b">uname.cpp</a>
+: <a class="el" href="d2/de2/kshell_2commands_2uname_8cpp.html#a8301398671ab8005729152682606a75b">uname.cpp</a>
+, <a class="el" href="db/d47/cmds_8hpp.html#a8301398671ab8005729152682606a75b">cmds.hpp</a>
 </li>
 <li>cmd_uptime()
 : <a class="el" href="db/d47/cmds_8hpp.html#a4b56b7b77f0e839367ef49e2c3d06ed1">cmds.hpp</a>
@@ -257,9 +274,12 @@ $(document).ready(function(){initNavTree('globals_func_c.html',''); initResizabl
 : <a class="el" href="d1/d85/filesystem_8hpp.html#a0c7518235c1384debeb9e38b04623417">filesystem.hpp</a>
 , <a class="el" href="d8/d5c/kernel__io_8cpp.html#a0c7518235c1384debeb9e38b04623417">kernel_io.cpp</a>
 </li>
+<li>CreatePageTable()
+: <a class="el" href="d8/d71/memory_8cpp.html#ad9c0496fc9d217f52060bfe511f5db86">memory.cpp</a>
+</li>
 <li>cubicInterpolate()
-: <a class="el" href="d3/d82/convert_8h.html#ad8af9cfba2887a9409f3dd2359ea53bb">convert.h</a>
-, <a class="el" href="d3/d68/convert_8cpp.html#a63d3b802c95a7dbf44c2242c3c6cf266">convert.cpp</a>
+: <a class="el" href="d3/d68/convert_8cpp.html#a63d3b802c95a7dbf44c2242c3c6cf266">convert.cpp</a>
+, <a class="el" href="d3/d82/convert_8h.html#ad8af9cfba2887a9409f3dd2359ea53bb">convert.h</a>
 </li>
 <li>cwk_path_change_basename()
 : <a class="el" href="da/d7d/cwalk_8h.html#a13992aee0f81f3d51e1c793a97fb780a">cwalk.h</a>
@@ -274,8 +294,8 @@ $(document).ready(function(){initNavTree('globals_func_c.html',''); initResizabl
 , <a class="el" href="d3/dc4/cwalk_8c.html#a60ae05adcc035bd0f06a8244d4ad7500">cwalk.c</a>
 </li>
 <li>cwk_path_change_segment()
-: <a class="el" href="da/d7d/cwalk_8h.html#a38033b645a7a0fa1c43921a64af51acd">cwalk.h</a>
-, <a class="el" href="d3/dc4/cwalk_8c.html#acdc8c69218f67780f4b8e167a41e1995">cwalk.c</a>
+: <a class="el" href="d3/dc4/cwalk_8c.html#acdc8c69218f67780f4b8e167a41e1995">cwalk.c</a>
+, <a class="el" href="da/d7d/cwalk_8h.html#a38033b645a7a0fa1c43921a64af51acd">cwalk.h</a>
 </li>
 <li>cwk_path_find_next_stop()
 : <a class="el" href="d3/dc4/cwalk_8c.html#a67a63e3978a34a02d116cff7d06c4c73">cwalk.c</a>
@@ -300,8 +320,8 @@ $(document).ready(function(){initNavTree('globals_func_c.html',''); initResizabl
 , <a class="el" href="d3/dc4/cwalk_8c.html#a01bddf6e55305f34c31f720d5c09e149">cwalk.c</a>
 </li>
 <li>cwk_path_get_first_segment()
-: <a class="el" href="d3/dc4/cwalk_8c.html#ad7f13a9126b2159c07b031a496d654fe">cwalk.c</a>
-, <a class="el" href="da/d7d/cwalk_8h.html#a97e64700e1df97572fb7df1f6ce3a1f3">cwalk.h</a>
+: <a class="el" href="da/d7d/cwalk_8h.html#a97e64700e1df97572fb7df1f6ce3a1f3">cwalk.h</a>
+, <a class="el" href="d3/dc4/cwalk_8c.html#ad7f13a9126b2159c07b031a496d654fe">cwalk.c</a>
 </li>
 <li>cwk_path_get_first_segment_joined()
 : <a class="el" href="d3/dc4/cwalk_8c.html#a1a43318c3244e8b93d3c686c35821e09">cwalk.c</a>
@@ -321,8 +341,8 @@ $(document).ready(function(){initNavTree('globals_func_c.html',''); initResizabl
 : <a class="el" href="d3/dc4/cwalk_8c.html#aaf12f585ced2b3fcfe70531641a6fadd">cwalk.c</a>
 </li>
 <li>cwk_path_get_next_segment()
-: <a class="el" href="d3/dc4/cwalk_8c.html#acfd833c41dae993e90dba669564a63f4">cwalk.c</a>
-, <a class="el" href="da/d7d/cwalk_8h.html#a5d7659aaa8b1a7f8e9c1097e7b4dc912">cwalk.h</a>
+: <a class="el" href="da/d7d/cwalk_8h.html#a5d7659aaa8b1a7f8e9c1097e7b4dc912">cwalk.h</a>
+, <a class="el" href="d3/dc4/cwalk_8c.html#acfd833c41dae993e90dba669564a63f4">cwalk.c</a>
 </li>
 <li>cwk_path_get_next_segment_joined()
 : <a class="el" href="d3/dc4/cwalk_8c.html#a2ba74980728c6b7c0757fe4ed6491071">cwalk.c</a>
@@ -383,15 +403,15 @@ $(document).ready(function(){initNavTree('globals_func_c.html',''); initResizabl
 : <a class="el" href="d3/dc4/cwalk_8c.html#a94681354e2648fec4ce13153a78339b3">cwalk.c</a>
 </li>
 <li>cwk_path_join()
-: <a class="el" href="da/d7d/cwalk_8h.html#a2b0ad7a91b604b5fff516499b84c97d7">cwalk.h</a>
-, <a class="el" href="d3/dc4/cwalk_8c.html#ad3590f6588b2461fcf8f3ad84bfc5d42">cwalk.c</a>
+: <a class="el" href="d3/dc4/cwalk_8c.html#ad3590f6588b2461fcf8f3ad84bfc5d42">cwalk.c</a>
+, <a class="el" href="da/d7d/cwalk_8h.html#a2b0ad7a91b604b5fff516499b84c97d7">cwalk.h</a>
 </li>
 <li>cwk_path_join_and_normalize_multiple()
 : <a class="el" href="d3/dc4/cwalk_8c.html#ac88ffacd0f2aa502b9f67c6d5acc9b65">cwalk.c</a>
 </li>
 <li>cwk_path_join_multiple()
-: <a class="el" href="d3/dc4/cwalk_8c.html#a940c081e6d90d13c77aa41a3bd36e94f">cwalk.c</a>
-, <a class="el" href="da/d7d/cwalk_8h.html#ac032cd6779d648b793ef66efbb6219d6">cwalk.h</a>
+: <a class="el" href="da/d7d/cwalk_8h.html#ac032cd6779d648b793ef66efbb6219d6">cwalk.h</a>
+, <a class="el" href="d3/dc4/cwalk_8c.html#a940c081e6d90d13c77aa41a3bd36e94f">cwalk.c</a>
 </li>
 <li>cwk_path_normalize()
 : <a class="el" href="da/d7d/cwalk_8h.html#a670897583339fbff8befc11da880018c">cwalk.h</a>

@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -89,25 +89,25 @@ $(document).ready(function(){initNavTree('dd/d2a/md_Kernel_TODO.html','../../');
 <div class="title">TODO </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><ul>
+<div class="textblock"><hr  />
+<ul>
 <li>[x] Optimize <a class="el" href="../../d6/d37/namespaceSMP.html">SMP</a>.</li>
-</ul>
-<p>[ ] Support IPv6.</p><ul>
-<li>[ ] Endianess of the network stack (currently: [HOST](LSB)&lt;=&gt;[NETWORK](MSB)). Not sure if this is a standard or not.</li>
+<li>[ ] Support IPv6.</li>
+<li>[ ] <strike>Endianess of the network stack (currently: [HOST](LSB)&lt;=&gt;[NETWORK](MSB)). Not sure if this is a standard or not.</strike> (???)</li>
 <li>[ ] Support 32-bit applications (ELF, PE, etc).</li>
-<li>[ ] Do not map the entire memory. Map only the needed memory address at allocation time.</li>
+<li>[ ] <strike>Do not map the entire memory. Map only the needed memory address at allocation time.</strike> (we just copy the pages for userland, see <code><a class="el" href="../../de/d2d/table_8hpp.html#a4b2ffea5b96198cd1c738a59a5edf579" title="Fork this PageTable.">Fork()</a></code> inside <a href="../../core/memory/page_table.cpp">core/memory/page_table.cpp</a>)</li>
 <li>[ ] Implementation of logging (beside serial) with log rotation.</li>
 <li>[x] Implement a better task manager. (replace struct P/TCB with classes)</li>
-<li>[ ] Rewrite virtual file system. (it's very bad, I don't know how I wrote it this bad)</li>
+<li>[ ] Rewrite virtual file system.</li>
 <li>[ ] Colors in crash screen are not following the kernel color scheme.</li>
-<li>[x] Find a way to add intrinsics.</li>
+<li>[x] <strike>Find a way to add intrinsics.</strike> (not feasible, use inline assembly)</li>
 <li>[ ] Rework PSF1 font loader.</li>
-<li>[x] The cleanup should be done by a thread (tasking). This is done to avoid a deadlock.</li>
+<li>[x] <strike>The cleanup should be done by a thread (tasking). This is done to avoid a deadlock.</strike> (not needed, everything is done by the scheduler)</li>
 <li>[ ] Implement a better Display::SetBrightness() function.</li>
 <li>[ ] Fix memcpy, memset and memcmp functions (they are not working properly with SIMD).</li>
-<li>[x] Fully support i386.</li>
+<li>[ ] Fully support i386.</li>
 <li>[ ] Support Aarch64.</li>
-<li>[ ] <a class="el" href="../../d6/d37/namespaceSMP.html">SMP</a> trampoline shouldn't be hardcoded at 0x2000.</li>
+<li>[ ] <strike><a class="el" href="../../d6/d37/namespaceSMP.html">SMP</a> trampoline shouldn't be hardcoded at 0x2000.</strike> (0x2000 is in the conventional memory, it's fine)</li>
 <li>[ ] Rework the stack guard.</li>
 <li>[x] Mutex implementation.</li>
 <li>[ ] Update <a class="el" href="../../da/d5f/namespaceSMBIOS.html">SMBIOS</a> functions to support newer versions and actually use it.</li>
@@ -115,10 +115,30 @@ $(document).ready(function(){initNavTree('dd/d2a/md_Kernel_TODO.html','../../');
 <li>[ ] Implement lazy allocation. (page faults)</li>
 <li>[ ] Bootstrap should have a separate bss section + PHDR.</li>
 <li>[ ] Reimplement the driver conflict detection.</li>
-<li>[ ] Elf loader shouldn't create a full copy of the elf binary. Copy only the needed sections.</li>
+<li>[x] Elf loader shouldn't create a full copy of the elf binary. Copy only the needed sections.</li>
 <li>[ ] Use NX-bit.</li>
-<li>[ ] Fix <a class="el" href="../../d8/d29/classstd_1_1string.html" title="String class String class that can be used to store strings.">std::string</a></li>
-<li>[ ] Rewrite PS/2 drivers. </li>
+<li>[ ] Fix std::string.</li>
+<li>[x] Rewrite PS/2 drivers.</li>
+<li>[ ] Improve signal handling.</li>
+<li>[ ] Improve the way the kernel crashes.<ul>
+<li>Add panic() function.</li>
+<li>Handle assertion failures.</li>
+</ul>
+</li>
+<li>[ ] Optimize screen printing.<ul>
+<li>On real hardware it's very slow, a solution is dirty printing.</li>
+</ul>
+</li>
+<li>[ ] Thread ids should follow the POSIX standard.<ul>
+<li>When a new process is created, the first thread should have the same id as the process id.</li>
+<li>If pid is 400, the first thread should have the id 400. The second thread should have the id 401, etc.</li>
+</ul>
+</li>
+<li>[ ] Optimize the scheduler<ul>
+<li>Create a separate list for processes that are waiting for a resource or a signal, etc.</li>
+<li>Use all cores to schedule threads. </li>
+</ul>
+</li>
 </ul>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

@@ -89,34 +89,52 @@ $(document).ready(function(){initNavTree('d9/dbc/treefs_8cpp_source.html','../..
 <div class="title">treefs.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d9/dbc/treefs_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifdef DEBUG</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d0/dbb/t_8h.html">t.h</a>&quot;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;../kernel.h&quot;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keywordtype">void</span> TreeFS(<a class="code" href="../../df/d69/classvfs_1_1Node.html">vfs::Node</a> *<a class="code" href="../../d3/ddd/tsearch_8h.html#d5/da1/structnode">node</a>, <span class="keywordtype">int</span> Depth)</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">foreach</span> (<span class="keyword">auto</span> Chld <span class="keywordflow">in</span> <a class="code" href="../../d3/ddd/tsearch_8h.html#d5/da1/structnode">node</a>-&gt;Children)</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    {</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <a class="code" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;%*c %s\eFFFFFF\n&quot;</span>, Depth, <span class="charliteral">&#39; &#39;</span>, Chld-&gt;Name);</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="../../d9/dbb/namespacePS2Mouse.html#a21df90cf5971458c8602f6121bba4236">Config</a>.BootAnimation)</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;            <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a776c5cf7a196100de3050c86c7510656">SetBuffer</a>(0);</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <a class="code" href="../../dd/d24/kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a>-&gt;<a class="code" href="../../dc/dc5/classTasking_1_1Task.html#aca47cb25035f4b46587395845daaafad">Sleep</a>(100);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        TreeFS(Chld, Depth + 1);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    }</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// DEBUG</span></div>
-<div class="ttc" id="aKernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_html_ae34a762828cbff7cce62bda6571b2bc0"><div class="ttname"><a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a></div><div class="ttdeci">#define printf(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00060">liballoc_1_1.c:60</a></div></div>
-<div class="ttc" id="aclassTasking_1_1Task_html_aca47cb25035f4b46587395845daaafad"><div class="ttname"><a href="../../dc/dc5/classTasking_1_1Task.html#aca47cb25035f4b46587395845daaafad">Tasking::Task::Sleep</a></div><div class="ttdeci">void Sleep(uint64_t Milliseconds, bool NoSwitch=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d9c/task_8cpp_source.html#l00254">task.cpp:254</a></div></div>
+<a href="../../d9/dbc/treefs_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">    This file is part of Fennix Kernel.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">    Fennix Kernel is free software: you can redistribute it and/or</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">    modify it under the terms of the GNU General Public License as</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">    published by the Free Software Foundation, either version 3 of</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">    the License, or (at your option) any later version.</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">    Fennix Kernel is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">    but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">    GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">    You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">    along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#ifdef DEBUG</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d0/dbb/t_8h.html">t.h</a>&quot;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;../kernel.h&quot;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keywordtype">void</span> TreeFS(<a class="code" href="../../df/d69/classvfs_1_1Node.html">vfs::Node</a> *<a class="code" href="../../d3/ddd/tsearch_8h.html#d5/da1/structnode">node</a>, <span class="keywordtype">int</span> Depth)</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordflow">foreach</span> (<span class="keyword">auto</span> Chld <span class="keywordflow">in</span> <a class="code" href="../../d3/ddd/tsearch_8h.html#d5/da1/structnode">node</a>-&gt;Children)</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <a class="code" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;%*c %s\eFFFFFF\n&quot;</span>, Depth, <span class="charliteral">&#39; &#39;</span>, Chld-&gt;Name);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="../../dd/d24/kernel_8cpp.html#af11d2c55903d5518696db3a642bfada4">Config</a>.<a class="code" href="../../d1/dfc/kconfig_8hpp.html#acd3bfa4ac97d7d64646ed51c539a5fc3">Quiet</a>)</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a776c5cf7a196100de3050c86c7510656">SetBuffer</a>(0);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <a class="code" href="../../dd/d24/kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a>-&gt;<a class="code" href="../../dc/dc5/classTasking_1_1Task.html#aca47cb25035f4b46587395845daaafad">Sleep</a>(100);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        TreeFS(Chld, Depth + 1);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// DEBUG</span></div>
+<div class="ttc" id="aKernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_html_ae34a762828cbff7cce62bda6571b2bc0"><div class="ttname"><a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a></div><div class="ttdeci">#define printf(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00061">liballoc_1_1.c:61</a></div></div>
+<div class="ttc" id="aclassTasking_1_1Task_html_aca47cb25035f4b46587395845daaafad"><div class="ttname"><a href="../../dc/dc5/classTasking_1_1Task.html#aca47cb25035f4b46587395845daaafad">Tasking::Task::Sleep</a></div><div class="ttdeci">void Sleep(uint64_t Milliseconds, bool NoSwitch=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d9c/task_8cpp_source.html#l00246">task.cpp:246</a></div></div>
 <div class="ttc" id="aclassVideo_1_1Display_html_a776c5cf7a196100de3050c86c7510656"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#a776c5cf7a196100de3050c86c7510656">Video::Display::SetBuffer</a></div><div class="ttdeci">void SetBuffer(int Index)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d86/display_8cpp_source.html#l00067">display.cpp:67</a></div></div>
-<div class="ttc" id="aclassvfs_1_1Node_html"><div class="ttname"><a href="../../df/d69/classvfs_1_1Node.html">vfs::Node</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00168">filesystem.hpp:169</a></div></div>
-<div class="ttc" id="akernel_8cpp_html_a5a8d7736911609823f0ff8f3c8f51df2"><div class="ttname"><a href="../../dd/d24/kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a></div><div class="ttdeci">Tasking::Task * TaskManager</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d24/kernel_8cpp_source.html#l00069">kernel.cpp:69</a></div></div>
+<div class="ttc" id="aclassvfs_1_1Node_html"><div class="ttname"><a href="../../df/d69/classvfs_1_1Node.html">vfs::Node</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00215">filesystem.hpp:216</a></div></div>
+<div class="ttc" id="akconfig_8hpp_html_acd3bfa4ac97d7d64646ed51c539a5fc3"><div class="ttname"><a href="../../d1/dfc/kconfig_8hpp.html#acd3bfa4ac97d7d64646ed51c539a5fc3">KernelConfig::Quiet</a></div><div class="ttdeci">bool Quiet</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dfc/kconfig_8hpp_source.html#l00042">kconfig.hpp:42</a></div></div>
+<div class="ttc" id="akernel_8cpp_html_a5a8d7736911609823f0ff8f3c8f51df2"><div class="ttname"><a href="../../dd/d24/kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a></div><div class="ttdeci">Tasking::Task * TaskManager</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d24/kernel_8cpp_source.html#l00063">kernel.cpp:63</a></div></div>
 <div class="ttc" id="akernel_8cpp_html_ad16e05b6fc09d13310729e16882edc4d"><div class="ttname"><a href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a></div><div class="ttdeci">Video::Display * Display</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d24/kernel_8cpp_source.html#l00059">kernel.cpp:59</a></div></div>
-<div class="ttc" id="anamespacePS2Mouse_html_a21df90cf5971458c8602f6121bba4236"><div class="ttname"><a href="../../d9/dbb/namespacePS2Mouse.html#a21df90cf5971458c8602f6121bba4236">PS2Mouse::Config</a></div><div class="ttdeci">Config</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dde/PersonalSystem2_2mouse_8hpp_source.html#l00034">mouse.hpp:35</a></div></div>
+<div class="ttc" id="akernel_8cpp_html_af11d2c55903d5518696db3a642bfada4"><div class="ttname"><a href="../../dd/d24/kernel_8cpp.html#af11d2c55903d5518696db3a642bfada4">Config</a></div><div class="ttdeci">struct KernelConfig Config</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d24/kernel_8cpp_source.html#l00043">kernel.cpp:45</a></div></div>
 <div class="ttc" id="at_8h_html"><div class="ttname"><a href="../../d0/dbb/t_8h.html">t.h</a></div></div>
 <div class="ttc" id="atsearch_8h_html_d5/da1/structnode"><div class="ttname"><a href="../../d3/ddd/tsearch_8h.html#d5/da1/structnode">node</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d24/tsort_8c_source.html#l00033">tsort.c:33</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

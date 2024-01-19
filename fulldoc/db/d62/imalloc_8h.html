@@ -125,7 +125,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ada8646bf32e7ff835a8968049acca2b3"><td class="memItemLeft" align="right" valign="top">void <a class="el" href="../../dd/d9a/apps_2base_2bash_2lib_2malloc_2malloc_8c.html#a4ae9028ebda061e9a232ba03d281a45c">_malloc_block_signals</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d62/imalloc_8h.html#ada8646bf32e7ff835a8968049acca2b3">PARAMS</a> ((<a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *, <a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *))</td></tr>
+<tr class="memitem:ada8646bf32e7ff835a8968049acca2b3"><td class="memItemLeft" align="right" valign="top">void <a class="el" href="../../dd/d9a/apps_2base_2bash_2lib_2malloc_2malloc_8c.html#a4ae9028ebda061e9a232ba03d281a45c">_malloc_block_signals</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d62/imalloc_8h.html#ada8646bf32e7ff835a8968049acca2b3">PARAMS</a> ((<a class="el" href="../../dd/d5f/signal_8hpp.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *, <a class="el" href="../../dd/d5f/signal_8hpp.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *))</td></tr>
 <tr class="separator:ada8646bf32e7ff835a8968049acca2b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -235,7 +235,7 @@ Functions</h2></td></tr>
 <div class="line">    size_t * mzp = (<span class="keywordtype">size_t</span> *)(charp);                   \</div>
 <div class="line">    unsigned <span class="keywordtype">long</span> mctmp = (nbytes)/<span class="keyword">sizeof</span>(<span class="keywordtype">size_t</span>);          \</div>
 <div class="line">    long mcn;                               \</div>
-<div class="line">    if (mctmp &lt; 8) mcn = 0; <a class="code" href="../../df/d22/namespaceACPI.html#ad2ee62be9410588c9453f20b40ca66e7">else</a> { mcn = (mctmp-1)/8; mctmp &amp;= 7; } \</div>
+<div class="line">    if (mctmp &lt; 8) mcn = 0; else { mcn = (mctmp-1)/8; mctmp &amp;= 7; } \</div>
 <div class="line">    switch (mctmp) {                            \</div>
 <div class="line">      case 0: <span class="keywordflow">for</span>(;;) { *mzp++ = 0;                 \</div>
 <div class="line">      case 7:      *mzp++ = 0;                      \</div>
@@ -249,8 +249,7 @@ Functions</h2></td></tr>
 <div class="line"><a class="code" href="../../d3/d82/convert_8h.html#ac72cd3c233680f95fd1d168a22c912ad">  else									\</a></div>
 <div class="line"><a class="code" href="../../d3/d82/convert_8h.html#ac72cd3c233680f95fd1d168a22c912ad">    memset</a> ((charp), 0, (nbytes));                  \</div>
 <div class="line">} <span class="keywordflow">while</span>(0)</div>
-<div class="ttc" id="aconvert_8h_html_ac72cd3c233680f95fd1d168a22c912ad"><div class="ttname"><a href="../../d3/d82/convert_8h.html#ac72cd3c233680f95fd1d168a22c912ad">memset</a></div><div class="ttdeci">#define memset(dest, c, n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d82/convert_8h_source.html#l00120">convert.h:120</a></div></div>
-<div class="ttc" id="anamespaceACPI_html_ad2ee62be9410588c9453f20b40ca66e7"><div class="ttname"><a href="../../df/d22/namespaceACPI.html#ad2ee62be9410588c9453f20b40ca66e7">ACPI::else</a></div><div class="ttdeci">else</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d6c/dsdt_8cpp_source.html#l00121">dsdt.cpp:122</a></div></div>
+<div class="ttc" id="aconvert_8h_html_ac72cd3c233680f95fd1d168a22c912ad"><div class="ttname"><a href="../../d3/d82/convert_8h.html#ac72cd3c233680f95fd1d168a22c912ad">memset</a></div><div class="ttdeci">#define memset(dest, c, n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d82/convert_8h_source.html#l00129">convert.h:129</a></div></div>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="../../db/d62/imalloc_8h_source.html#l00086">86</a> of file <a class="el" href="../../db/d62/imalloc_8h_source.html">imalloc.h</a>.</p>
 
@@ -293,7 +292,7 @@ Functions</h2></td></tr>
 <div class="line">    size_t* mcdst = (<span class="keywordtype">size_t</span>*) dest;                 \</div>
 <div class="line">    unsigned <span class="keywordtype">long</span> mctmp = (nbytes)/<span class="keyword">sizeof</span>(<span class="keywordtype">size_t</span>);          \</div>
 <div class="line">    long mcn;                               \</div>
-<div class="line">    if (mctmp &lt; 8) mcn = 0; <a class="code" href="../../df/d22/namespaceACPI.html#ad2ee62be9410588c9453f20b40ca66e7">else</a> { mcn = (mctmp-1)/8; mctmp &amp;= 7; } \</div>
+<div class="line">    if (mctmp &lt; 8) mcn = 0; else { mcn = (mctmp-1)/8; mctmp &amp;= 7; } \</div>
 <div class="line">    switch (mctmp) {                            \</div>
 <div class="line">      case 0: <span class="keywordflow">for</span>(;;) { *mcdst++ = *mcsrc++;                \</div>
 <div class="line">      case 7:      *mcdst++ = *mcsrc++;                 \</div>
@@ -307,7 +306,7 @@ Functions</h2></td></tr>
 <div class="line"><a class="code" href="../../d3/d82/convert_8h.html#a309e07aa23e76adc2ad0830978663c45">    memcpy</a> ((dest), (<a class="code" href="../../df/d84/arping_8c.html#a858376c0918f93e656c8c0d76c63dbe8">src</a>), (nbytes))                    \</div>
 <div class="line">} <span class="keywordflow">while</span>(0)</div>
 <div class="ttc" id="aarping_8c_html_a858376c0918f93e656c8c0d76c63dbe8"><div class="ttname"><a href="../../df/d84/arping_8c.html#a858376c0918f93e656c8c0d76c63dbe8">src</a></div><div class="ttdeci">#define src</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d84/arping_8c_source.html#l00088">arping.c:88</a></div></div>
-<div class="ttc" id="aconvert_8h_html_a309e07aa23e76adc2ad0830978663c45"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a309e07aa23e76adc2ad0830978663c45">memcpy</a></div><div class="ttdeci">#define memcpy(dest, src, n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d82/convert_8h_source.html#l00116">convert.h:116</a></div></div>
+<div class="ttc" id="aconvert_8h_html_a309e07aa23e76adc2ad0830978663c45"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a309e07aa23e76adc2ad0830978663c45">memcpy</a></div><div class="ttdeci">#define memcpy(dest, src, n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d82/convert_8h_source.html#l00125">convert.h:125</a></div></div>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="../../db/d62/imalloc_8h_source.html#l00146">146</a> of file <a class="el" href="../../db/d62/imalloc_8h_source.html">imalloc.h</a>.</p>
 
@@ -349,7 +348,7 @@ Functions</h2></td></tr>
 <div class="line">    register <span class="keywordtype">char</span> * mzp = (charp);                  \</div>
 <div class="line">    unsigned <span class="keywordtype">long</span> mctmp = (nbytes);                 \</div>
 <div class="line">    register <span class="keywordtype">long</span> mcn;                          \</div>
-<div class="line">    if (mctmp &lt; 8) mcn = 0; <a class="code" href="../../df/d22/namespaceACPI.html#ad2ee62be9410588c9453f20b40ca66e7">else</a> { mcn = (mctmp-1)/8; mctmp &amp;= 7; } \</div>
+<div class="line">    if (mctmp &lt; 8) mcn = 0; else { mcn = (mctmp-1)/8; mctmp &amp;= 7; } \</div>
 <div class="line">    switch (mctmp) {                            \</div>
 <div class="line">      case 0: <span class="keywordflow">for</span>(;;) { *mzp++ = xch;                   \</div>
 <div class="line">      case 7:      *mzp++ = xch;                    \</div>
@@ -508,7 +507,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void <a class="el" href="../../dd/d9a/apps_2base_2bash_2lib_2malloc_2malloc_8c.html#a4ae9028ebda061e9a232ba03d281a45c">_malloc_block_signals</a> PARAMS </td>
           <td>(</td>
-          <td class="paramtype">(<a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *, <a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *)&#160;</td>
+          <td class="paramtype">(<a class="el" href="../../dd/d5f/signal_8hpp.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *, <a class="el" href="../../dd/d5f/signal_8hpp.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *)&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>

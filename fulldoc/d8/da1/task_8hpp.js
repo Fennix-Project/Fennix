@@ -20,6 +20,13 @@ var task_8hpp =
       [ "UserTime", "d9/d3e/namespaceTasking.html#a059654ee8fa36c9a9780453da0ca7fe0", null ],
       [ "Year", "d9/d3e/namespaceTasking.html#a3c8a75c770b3425732c1c40479a8eac4", null ]
     ] ],
+    [ "ThreadLocalStorage", "d9/d3e/namespaceTasking.html#d7/dd5/structTasking_1_1ThreadLocalStorage", [
+      [ "Align", "d9/d3e/namespaceTasking.html#a47f4b333fd509cebf8c4e6456c60ed73", null ],
+      [ "fSize", "d9/d3e/namespaceTasking.html#adf12445b2274b40856265c61fe7651a4", null ],
+      [ "pBase", "d9/d3e/namespaceTasking.html#a44b027bf03156d941a4d12ba28127561", null ],
+      [ "Size", "d9/d3e/namespaceTasking.html#a45140faf743a58ae739aa52147fecaa7", null ],
+      [ "vBase", "d9/d3e/namespaceTasking.html#ab3409c6403e88b595274b9ff610a8322", null ]
+    ] ],
     [ "gsTCB", "d9/d3e/namespaceTasking.html#d5/d12/structTasking_1_1gsTCB", [
       [ "ScPages", "d9/d3e/namespaceTasking.html#af69a012dd4dfe47d648b961b95e4ca98", null ],
       [ "SyscallStack", "d9/d3e/namespaceTasking.html#ad5a38f54834e6824cbd080bbf479b579", null ],
@@ -56,22 +63,20 @@ var task_8hpp =
       [ "GroupID", "d9/d3e/namespaceTasking.html#acd3d7a118dec3d95a5e057cacabaa442", null ],
       [ "UserID", "d9/d3e/namespaceTasking.html#a57c7869106fd3be06d0e273a1fd8bbd3", null ]
     ] ],
-    [ "PEXIT", "d8/da1/task_8hpp.html#a3f396a5788f48a761516791722376f47", null ],
-    [ "TEXIT", "d8/da1/task_8hpp.html#a2eb27b42a373d4f7e66d4fac4e6ce241", null ],
     [ "thisProcess", "d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8", null ],
     [ "thisThread", "d8/da1/task_8hpp.html#a1cf492bc489f4879fe6f67325e8f8dc7", null ],
     [ "IP", "d8/da1/task_8hpp.html#acf7f74020dfbe0bd9bbce8a2877abb6d", null ],
-    [ "PID", "d8/da1/task_8hpp.html#a751a57ef6a40c1dc96de2fa13e29b03e", null ],
-    [ "TID", "d8/da1/task_8hpp.html#a4997704a70b8f8cc2b51aff2cf4e1f17", null ],
-    [ "KillErrorCodes", "d8/da1/task_8hpp.html#a80f195a3819fbc143c8c557cc4c16ae7", [
-      [ "KILL_SCHEDULER_DESTRUCTION", "d8/da1/task_8hpp.html#a80f195a3819fbc143c8c557cc4c16ae7ac70d565c3766df493f932b4351fe3ee9", null ],
-      [ "KILL_CXXABI_EXCEPTION", "d8/da1/task_8hpp.html#a80f195a3819fbc143c8c557cc4c16ae7a49f974482c14ec22545bbe618d851891", null ],
-      [ "KILL_BY_OTHER_PROCESS", "d8/da1/task_8hpp.html#a80f195a3819fbc143c8c557cc4c16ae7afee714a5d29a760c667348144b3db95e", null ],
-      [ "KILL_SYSCALL", "d8/da1/task_8hpp.html#a80f195a3819fbc143c8c557cc4c16ae7ab2ef1684c097cbec580c77d3771d410b", null ],
-      [ "KILL_CRASH", "d8/da1/task_8hpp.html#a80f195a3819fbc143c8c557cc4c16ae7a55154038477ba53433ef21becc79ea9e", null ],
-      [ "KILL_OOM", "d8/da1/task_8hpp.html#a80f195a3819fbc143c8c557cc4c16ae7a5db1738520d017ad44bc7ba4e83e04e2", null ],
-      [ "KILL_ERROR", "d8/da1/task_8hpp.html#a80f195a3819fbc143c8c557cc4c16ae7a40849aba4e019370ef75dc3d76022532", null ],
-      [ "KILL_SUCCESS", "d8/da1/task_8hpp.html#a80f195a3819fbc143c8c557cc4c16ae7af61681c0a4b664c818dcf792fe4439f8", null ]
+    [ "PID", "d8/da1/task_8hpp.html#aa76aeff7a55bd771f722c58ffb339acf", null ],
+    [ "TID", "d8/da1/task_8hpp.html#a2b7195d8a433379237f9463270f97e12", null ],
+    [ "KillCode", "d8/da1/task_8hpp.html#a3623a6b9ea1e6b126eed6c14901cb94e", [
+      [ "KILL_SCHEDULER_DESTRUCTION", "d8/da1/task_8hpp.html#a3623a6b9ea1e6b126eed6c14901cb94eac70d565c3766df493f932b4351fe3ee9", null ],
+      [ "KILL_CXXABI_EXCEPTION", "d8/da1/task_8hpp.html#a3623a6b9ea1e6b126eed6c14901cb94ea49f974482c14ec22545bbe618d851891", null ],
+      [ "KILL_BY_OTHER_PROCESS", "d8/da1/task_8hpp.html#a3623a6b9ea1e6b126eed6c14901cb94eafee714a5d29a760c667348144b3db95e", null ],
+      [ "KILL_SYSCALL", "d8/da1/task_8hpp.html#a3623a6b9ea1e6b126eed6c14901cb94eab2ef1684c097cbec580c77d3771d410b", null ],
+      [ "KILL_CRASH", "d8/da1/task_8hpp.html#a3623a6b9ea1e6b126eed6c14901cb94ea55154038477ba53433ef21becc79ea9e", null ],
+      [ "KILL_OOM", "d8/da1/task_8hpp.html#a3623a6b9ea1e6b126eed6c14901cb94ea5db1738520d017ad44bc7ba4e83e04e2", null ],
+      [ "KILL_ERROR", "d8/da1/task_8hpp.html#a3623a6b9ea1e6b126eed6c14901cb94ea40849aba4e019370ef75dc3d76022532", null ],
+      [ "KILL_SUCCESS", "d8/da1/task_8hpp.html#a3623a6b9ea1e6b126eed6c14901cb94eaf61681c0a4b664c818dcf792fe4439f8", null ]
     ] ],
     [ "TaskArchitecture", "d8/da1/task_8hpp.html#a96e537039eec201fc357dae47c819302", [
       [ "UnknownArchitecture", "d8/da1/task_8hpp.html#a96e537039eec201fc357dae47c819302a5b2a90cc96dd262a5f1d340deaa28628", null ],
@@ -108,18 +113,19 @@ var task_8hpp =
       [ "_PriorityMin", "d8/da1/task_8hpp.html#a6e7b9a12601b9ef62ca79d6b801c29c8acdc962c500581fd12465adfc8ccb9c50", null ],
       [ "_PriorityMax", "d8/da1/task_8hpp.html#a6e7b9a12601b9ef62ca79d6b801c29c8a80342285a95513c6ed17b15880e1b3b6", null ]
     ] ],
-    [ "TaskState", "d8/da1/task_8hpp.html#abbba64463e2df2b5f909cc6fe9cfbd74", [
-      [ "UnknownStatus", "d8/da1/task_8hpp.html#abbba64463e2df2b5f909cc6fe9cfbd74ae4434abf01289f805a0123cb3c674588", null ],
-      [ "Ready", "d8/da1/task_8hpp.html#abbba64463e2df2b5f909cc6fe9cfbd74ad63d08060d63334012f68b23d130f56e", null ],
-      [ "Running", "d8/da1/task_8hpp.html#abbba64463e2df2b5f909cc6fe9cfbd74a04712359124153cb2d93d8f09cabe8ed", null ],
-      [ "Sleeping", "d8/da1/task_8hpp.html#abbba64463e2df2b5f909cc6fe9cfbd74a04b9cd09b1c1946e6dd37f79903067fd", null ],
-      [ "Blocked", "d8/da1/task_8hpp.html#abbba64463e2df2b5f909cc6fe9cfbd74afe2e4038377625035a20f5f4e5496219", null ],
-      [ "Stopped", "d8/da1/task_8hpp.html#abbba64463e2df2b5f909cc6fe9cfbd74a8922799a2dec53328f38596177889efd", null ],
-      [ "Waiting", "d8/da1/task_8hpp.html#abbba64463e2df2b5f909cc6fe9cfbd74af0c3719b73450e078a5c5c2d05cd5b83", null ],
-      [ "Zombie", "d8/da1/task_8hpp.html#abbba64463e2df2b5f909cc6fe9cfbd74a18dbf84b8bdb31f7955be3eef42610fc", null ],
-      [ "Terminated", "d8/da1/task_8hpp.html#abbba64463e2df2b5f909cc6fe9cfbd74a773f96280709f0b4ee36122b01357f51", null ],
-      [ "_StatusMin", "d8/da1/task_8hpp.html#abbba64463e2df2b5f909cc6fe9cfbd74a2547ba923c87a848418e8c90331a5593", null ],
-      [ "_StatusMax", "d8/da1/task_8hpp.html#abbba64463e2df2b5f909cc6fe9cfbd74a122d9cb11d78b0a8a082332d7ec18f98", null ]
+    [ "TaskState", "d8/da1/task_8hpp.html#a1caa7bfee242fe8216026227bfd9db2e", [
+      [ "UnknownStatus", "d8/da1/task_8hpp.html#a1caa7bfee242fe8216026227bfd9db2eae4434abf01289f805a0123cb3c674588", null ],
+      [ "Ready", "d8/da1/task_8hpp.html#a1caa7bfee242fe8216026227bfd9db2ead63d08060d63334012f68b23d130f56e", null ],
+      [ "Running", "d8/da1/task_8hpp.html#a1caa7bfee242fe8216026227bfd9db2ea04712359124153cb2d93d8f09cabe8ed", null ],
+      [ "Sleeping", "d8/da1/task_8hpp.html#a1caa7bfee242fe8216026227bfd9db2ea04b9cd09b1c1946e6dd37f79903067fd", null ],
+      [ "Blocked", "d8/da1/task_8hpp.html#a1caa7bfee242fe8216026227bfd9db2eafe2e4038377625035a20f5f4e5496219", null ],
+      [ "Stopped", "d8/da1/task_8hpp.html#a1caa7bfee242fe8216026227bfd9db2ea8922799a2dec53328f38596177889efd", null ],
+      [ "Waiting", "d8/da1/task_8hpp.html#a1caa7bfee242fe8216026227bfd9db2eaf0c3719b73450e078a5c5c2d05cd5b83", null ],
+      [ "Zombie", "d8/da1/task_8hpp.html#a1caa7bfee242fe8216026227bfd9db2ea18dbf84b8bdb31f7955be3eef42610fc", null ],
+      [ "CoreDump", "d8/da1/task_8hpp.html#a1caa7bfee242fe8216026227bfd9db2ea3b848731f4575c98b0f13c8ef2693e10", null ],
+      [ "Terminated", "d8/da1/task_8hpp.html#a1caa7bfee242fe8216026227bfd9db2ea773f96280709f0b4ee36122b01357f51", null ],
+      [ "_StatusMin", "d8/da1/task_8hpp.html#a1caa7bfee242fe8216026227bfd9db2ea2547ba923c87a848418e8c90331a5593", null ],
+      [ "_StatusMax", "d8/da1/task_8hpp.html#a1caa7bfee242fe8216026227bfd9db2ea122d9cb11d78b0a8a082332d7ec18f98", null ]
     ] ],
     [ "TaskingScheduler_OneShot", "d8/da1/task_8hpp.html#ad0da2a8ac06428e420d5f197f499e28e", null ]
 ];

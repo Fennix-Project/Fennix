@@ -137,6 +137,20 @@ Enumerations</h2></td></tr>
 &#160;&#160;<a class="el" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea219d98e149d3daf5d9e79dd95edb0fe0">sc_lseek</a>
 , <a class="el" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcead668697b3ff1739b2b98ed4e56c598cb">sc_fork</a>
 , <a class="el" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceaaa242cd5082bf1fb09de8900c75f6c1b">sc_MaxSyscall</a>
+, <a class="el" href="../../df/dba/Drivers_2include_2syscall_8h.html#a7646da588c70d4a6c38c0e3cef328fcea078239864f6f21e0c82d1ad26f3e1205">sc_exit</a> = 0
+, <br />
+&#160;&#160;<a class="el" href="../../df/dba/Drivers_2include_2syscall_8h.html#a7646da588c70d4a6c38c0e3cef328fcea6006b7c3f3cc9bcb341f7fe8211848f3">sc_mmap</a>
+, <a class="el" href="../../df/dba/Drivers_2include_2syscall_8h.html#a7646da588c70d4a6c38c0e3cef328fcea1d696e07aaa7203a9bb2554b1a5d89b4">sc_munmap</a>
+, <a class="el" href="../../df/dba/Drivers_2include_2syscall_8h.html#a7646da588c70d4a6c38c0e3cef328fceac65640eeeda1636f33f63581c8a86d3d">sc_mprotect</a>
+, <a class="el" href="../../df/dba/Drivers_2include_2syscall_8h.html#a7646da588c70d4a6c38c0e3cef328fcea6c4e7bd2e27b346e82b9d4aff306350d">sc_open</a>
+, <br />
+&#160;&#160;<a class="el" href="../../df/dba/Drivers_2include_2syscall_8h.html#a7646da588c70d4a6c38c0e3cef328fcea983cb5e9978ef235c2c7ef406bb4b1ff">sc_close</a>
+, <a class="el" href="../../df/dba/Drivers_2include_2syscall_8h.html#a7646da588c70d4a6c38c0e3cef328fcea29812577b595f60edb4fa9c6e3d019fe">sc_read</a>
+, <a class="el" href="../../df/dba/Drivers_2include_2syscall_8h.html#a7646da588c70d4a6c38c0e3cef328fceacad2ae333457fd2cfb891d02b5f84aa7">sc_write</a>
+, <a class="el" href="../../df/dba/Drivers_2include_2syscall_8h.html#a7646da588c70d4a6c38c0e3cef328fcea219d98e149d3daf5d9e79dd95edb0fe0">sc_lseek</a>
+, <br />
+&#160;&#160;<a class="el" href="../../df/dba/Drivers_2include_2syscall_8h.html#a7646da588c70d4a6c38c0e3cef328fcead668697b3ff1739b2b98ed4e56c598cb">sc_fork</a>
+, <a class="el" href="../../df/dba/Drivers_2include_2syscall_8h.html#a7646da588c70d4a6c38c0e3cef328fceaaa242cd5082bf1fb09de8900c75f6c1b">sc_MaxSyscall</a>
 <br />
  }</td></tr>
 <tr class="separator:a7646da588c70d4a6c38c0e3cef328fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -350,6 +364,18 @@ Functions</h2></td></tr>
 <p>Enumeration of all the native syscalls available in the kernel </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7646da588c70d4a6c38c0e3cef328fcea078239864f6f21e0c82d1ad26f3e1205"></a>sc_exit&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7646da588c70d4a6c38c0e3cef328fcea6006b7c3f3cc9bcb341f7fe8211848f3"></a>sc_mmap&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7646da588c70d4a6c38c0e3cef328fcea1d696e07aaa7203a9bb2554b1a5d89b4"></a>sc_munmap&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7646da588c70d4a6c38c0e3cef328fceac65640eeeda1636f33f63581c8a86d3d"></a>sc_mprotect&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7646da588c70d4a6c38c0e3cef328fcea6c4e7bd2e27b346e82b9d4aff306350d"></a>sc_open&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7646da588c70d4a6c38c0e3cef328fcea983cb5e9978ef235c2c7ef406bb4b1ff"></a>sc_close&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7646da588c70d4a6c38c0e3cef328fcea29812577b595f60edb4fa9c6e3d019fe"></a>sc_read&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7646da588c70d4a6c38c0e3cef328fceacad2ae333457fd2cfb891d02b5f84aa7"></a>sc_write&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7646da588c70d4a6c38c0e3cef328fcea219d98e149d3daf5d9e79dd95edb0fe0"></a>sc_lseek&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7646da588c70d4a6c38c0e3cef328fcead668697b3ff1739b2b98ed4e56c598cb"></a>sc_fork&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7646da588c70d4a6c38c0e3cef328fceaaa242cd5082bf1fb09de8900c75f6c1b"></a>sc_MaxSyscall&#160;</td><td class="fielddoc"><p>Not a real syscall </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a7646da588c70d4a6c38c0e3cef328fcea078239864f6f21e0c82d1ad26f3e1205"></a>sc_exit&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7646da588c70d4a6c38c0e3cef328fcea6006b7c3f3cc9bcb341f7fe8211848f3"></a>sc_mmap&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7646da588c70d4a6c38c0e3cef328fcea1d696e07aaa7203a9bb2554b1a5d89b4"></a>sc_munmap&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7646da588c70d4a6c38c0e3cef328fceac65640eeeda1636f33f63581c8a86d3d"></a>sc_mprotect&#160;</td><td class="fielddoc"></td></tr>

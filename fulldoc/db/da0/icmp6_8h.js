@@ -6,7 +6,7 @@ var icmp6_8h =
     [ "icmp6_hdr", "db/da0/icmp6_8h.html#d6/d70/structicmp6__hdr", [
       [ "icmp6_cksum", "db/da0/icmp6_8h.html#a111d9a80ef510d1d865320c229539ffb", null ],
       [ "icmp6_code", "db/da0/icmp6_8h.html#a2ee6790ae2931d39921346200bb6676d", null ],
-      [ "icmp6_dataun", "db/da0/icmp6_8h.html#ad93e4d294f00cbd41bae865a74a501bc", null ],
+      [ "icmp6_dataun", "db/da0/icmp6_8h.html#a66c11570709785fd78a78e1a250c2b44", null ],
       [ "icmp6_type", "db/da0/icmp6_8h.html#a61a949afe549d40f4ca7c12c049930c2", null ]
     ] ],
     [ "nd_router_solicit", "db/da0/icmp6_8h.html#d8/dcf/structnd__router__solicit", [

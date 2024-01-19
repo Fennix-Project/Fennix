@@ -104,8 +104,6 @@ $(document).ready(function(){initNavTree('de/d93/lock_8cpp.html','../../'); init
 Macros</h2></td></tr>
 <tr class="memitem:af0c8da48e20c32ecfa6eea0f8740af12"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d93/lock_8cpp.html#af0c8da48e20c32ecfa6eea0f8740af12">DEADLOCK_TIMEOUT</a>&#160;&#160;&#160;0x10000000</td></tr>
 <tr class="separator:af0c8da48e20c32ecfa6eea0f8740af12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82223758dc60acc4fca2aa79f1b71bff"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d93/lock_8cpp.html#a82223758dc60acc4fca2aa79f1b71bff">DEADLOCK_TIMEOUT_DEBUGGER</a>&#160;&#160;&#160;0x100000</td></tr>
-<tr class="separator:a82223758dc60acc4fca2aa79f1b71bff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -114,7 +112,7 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ad451dcbadb40bd78b3bfcf21de647d72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5e/stdbool_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d93/lock_8cpp.html#ad451dcbadb40bd78b3bfcf21de647d72">ForceUnlock</a> = <a class="el" href="../../d8/d3a/doomtype_8h.html#a7c6368b321bd9acd0149b030bb8275edae9de385ef6fe9bf3360d1038396b884c">false</a></td></tr>
+<tr class="memitem:ad451dcbadb40bd78b3bfcf21de647d72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d93/lock_8cpp.html#ad451dcbadb40bd78b3bfcf21de647d72">ForceUnlock</a> = <a class="el" href="../../d8/d3a/doomtype_8h.html#a7c6368b321bd9acd0149b030bb8275edae9de385ef6fe9bf3360d1038396b884c">false</a></td></tr>
 <tr class="separator:ad451dcbadb40bd78b3bfcf21de647d72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9f00a127e2ebb1c38cb4610090ee39b"><td class="memItemLeft" align="right" valign="top">std::atomic_size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d93/lock_8cpp.html#ab9f00a127e2ebb1c38cb4610090ee39b">LocksCount</a> = 0</td></tr>
 <tr class="separator:ab9f00a127e2ebb1c38cb4610090ee39b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -132,23 +130,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d93/lock_8cpp_source.html#l00093">93</a> of file <a class="el" href="../../de/d93/lock_8cpp_source.html">lock.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a82223758dc60acc4fca2aa79f1b71bff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82223758dc60acc4fca2aa79f1b71bff">&#9670;&nbsp;</a></span>DEADLOCK_TIMEOUT_DEBUGGER</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define DEADLOCK_TIMEOUT_DEBUGGER&#160;&#160;&#160;0x100000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/d93/lock_8cpp_source.html#l00094">94</a> of file <a class="el" href="../../de/d93/lock_8cpp_source.html">lock.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d93/lock_8cpp_source.html#l00089">89</a> of file <a class="el" href="../../de/d93/lock_8cpp_source.html">lock.cpp</a>.</p>
 
 </div>
 </div>
@@ -168,11 +150,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d93/lock_8cpp_source.html#l00100">100</a> of file <a class="el" href="../../de/d93/lock_8cpp_source.html">lock.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="../../de/d93/lock_8cpp.html#ab9f00a127e2ebb1c38cb4610090ee39b">LocksCount</a>.load(); }</div>
-<div class="ttc" id="alock_8cpp_html_ab9f00a127e2ebb1c38cb4610090ee39b"><div class="ttname"><a href="../../de/d93/lock_8cpp.html#ab9f00a127e2ebb1c38cb4610090ee39b">LocksCount</a></div><div class="ttdeci">std::atomic_size_t LocksCount</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d93/lock_8cpp_source.html#l00098">lock.cpp:98</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../de/d93/lock_8cpp_source.html#l00095">95</a> of file <a class="el" href="../../de/d93/lock_8cpp_source.html">lock.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="../../de/d93/lock_8cpp.html#ab9f00a127e2ebb1c38cb4610090ee39b">LocksCount</a>.load(); }</div>
+<div class="ttc" id="alock_8cpp_html_ab9f00a127e2ebb1c38cb4610090ee39b"><div class="ttname"><a href="../../de/d93/lock_8cpp.html#ab9f00a127e2ebb1c38cb4610090ee39b">LocksCount</a></div><div class="ttdeci">std::atomic_size_t LocksCount</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d93/lock_8cpp_source.html#l00093">lock.cpp:93</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d93/lock_8cpp_source.html#l00098">LocksCount</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d93/lock_8cpp_source.html#l00093">LocksCount</a>.</p>
 
 </div>
 </div>
@@ -184,14 +166,14 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d5e/stdbool_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> ForceUnlock = <a class="el" href="../../d8/d3a/doomtype_8h.html#a7c6368b321bd9acd0149b030bb8275edae9de385ef6fe9bf3360d1038396b884c">false</a></td>
+          <td class="memname"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> ForceUnlock = <a class="el" href="../../d8/d3a/doomtype_8h.html#a7c6368b321bd9acd0149b030bb8275edae9de385ef6fe9bf3360d1038396b884c">false</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d93/lock_8cpp_source.html#l00097">97</a> of file <a class="el" href="../../de/d93/lock_8cpp_source.html">lock.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d93/lock_8cpp_source.html#l00092">92</a> of file <a class="el" href="../../de/d93/lock_8cpp_source.html">lock.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d5f/crash__handler_8cpp_source.html#l00926">CrashHandler::Handle_x86_32()</a>, and <a class="el" href="../../d1/d5f/crash__handler_8cpp_source.html#l00833">CrashHandler::Handle_x86_64()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d5f/crash__handler_8cpp_source.html#l00942">CrashHandler::Handle_x86_32()</a>, and <a class="el" href="../../d1/d5f/crash__handler_8cpp_source.html#l00844">CrashHandler::Handle_x86_64()</a>.</p>
 
 </div>
 </div>
@@ -207,9 +189,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d93/lock_8cpp_source.html#l00098">98</a> of file <a class="el" href="../../de/d93/lock_8cpp_source.html">lock.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d93/lock_8cpp_source.html#l00093">93</a> of file <a class="el" href="../../de/d93/lock_8cpp_source.html">lock.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d93/lock_8cpp_source.html#l00100">GetLocksCount()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d93/lock_8cpp_source.html#l00095">GetLocksCount()</a>.</p>
 
 </div>
 </div>

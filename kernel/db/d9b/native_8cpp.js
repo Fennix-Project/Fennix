@@ -5,7 +5,6 @@ var native_8cpp =
       [ "Name", "db/d9b/native_8cpp.html#a78ba64e0086364f774ae6a0b5a76768d", null ],
       [ "RequiredID", "db/d9b/native_8cpp.html#a8fb161011abf5426e3073021c59ce44d", null ]
     ] ],
-    [ "SysFrm", "db/d9b/native_8cpp.html#aa07f2f09156b7539a5c1bb0a7334ddeb", null ],
     [ "HandleNativeSyscalls", "db/d9b/native_8cpp.html#a938b5ce7b58a561df89fdd87f6b8ac52", null ],
     [ "sys_close", "db/d9b/native_8cpp.html#a7f8e5386a39dd1ecdc195c524ac54440", null ],
     [ "sys_exit", "db/d9b/native_8cpp.html#a6846f41615da17d2822b4b3f3681d9f8", null ],

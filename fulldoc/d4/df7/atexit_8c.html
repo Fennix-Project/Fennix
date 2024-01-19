@@ -330,7 +330,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp_source.html#l00072">__atexit_func_count</a>, <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp_source.html#l00071">__atexit_funcs</a>, <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp_source.html#l00034">atexit_func_entry_t::destructor_func</a>, <a class="el" href="../../d0/dd9/getusershell_8c_source.html#l00009">f</a>, <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, and <a class="el" href="../../dd/dfd/Kernel_2library_2printf_8c_source.html#l01558">printf()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d24/kernel_8cpp_source.html#l00467">BeforeShutdown()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d24/kernel_8cpp_source.html#l00371">BeforeShutdown()</a>.</p>
 
 </div>
 </div>
@@ -352,7 +352,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/df7/atexit_8c_source.html#l00026">26</a> of file <a class="el" href="../../d4/df7/atexit_8c_source.html">atexit.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a> (*<a class="code" href="../../de/dcc/awk_8c.html#dd/d55/structfunc__s">func</a>)(<span class="keywordtype">void</span> *), *<a class="code" href="../../d1/d40/vfwprintf_8c.html#d9/ddc/unionarg">arg</a>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    void (*<a class="code" href="../../de/dcc/awk_8c.html#dd/d55/structfunc__s">func</a>)(<span class="keywordtype">void</span> *), *<a class="code" href="../../d1/d40/vfwprintf_8c.html#d9/ddc/unionarg">arg</a>;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../dd/d42/lock_8h.html#a2f41aca864bb48d137ed64b2dca9f50a">LOCK</a>(<a class="code" href="../../d4/df7/atexit_8c.html#a6a733c9ba5924e19957e8516b132ccd9">lock</a>);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">for</span> (; <a class="code" href="../../d4/df7/atexit_8c.html#a3592dbf34b02b87a974abb8dc8cd642d">head</a>; <a class="code" href="../../d4/df7/atexit_8c.html#a3592dbf34b02b87a974abb8dc8cd642d">head</a>=<a class="code" href="../../d4/df7/atexit_8c.html#a3592dbf34b02b87a974abb8dc8cd642d">head</a>-&gt;<a class="code" href="../../d2/d1a/structfl.html#ad813020a5aca0e912caf603921fa9c24">next</a>, <a class="code" href="../../d4/df7/atexit_8c.html#a83d6e2127b4cc5e01f2012608487d31a">slot</a>=<a class="code" href="../../d4/df7/atexit_8c.html#a698c124f1c293f98840449d6c5b9d984">COUNT</a>) <span class="keywordflow">while</span>(<a class="code" href="../../d4/df7/atexit_8c.html#a83d6e2127b4cc5e01f2012608487d31a">slot</a>--&gt;0) {</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="../../de/dcc/awk_8c.html#dd/d55/structfunc__s">func</a> = <a class="code" href="../../d4/df7/atexit_8c.html#a3592dbf34b02b87a974abb8dc8cd642d">head</a>-&gt;<a class="code" href="../../d2/d1a/structfl.html#a9851412bb0047d3372e5099503561f30">f</a>[<a class="code" href="../../d4/df7/atexit_8c.html#a83d6e2127b4cc5e01f2012608487d31a">slot</a>];</div>
@@ -363,9 +363,8 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
 <div class="ttc" id="aawk_8c_html_dd/d55/structfunc__s"><div class="ttname"><a href="../../de/dcc/awk_8c.html#dd/d55/structfunc__s">func_s</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcc/awk_8c_source.html#l00140">awk.c:140</a></div></div>
-<div class="ttc" id="anamespaceModule_html_aa56762f1e0bc7b507d773d431829e1a0"><div class="ttname"><a href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">Module::void</a></div><div class="ttdeci">int void(Handle.InterruptCallback))(&amp;regs)</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/df7/atexit_8c_source.html#l00019">fl::a</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00013">COUNT</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00018">fl::f</a>, <a class="el" href="../../d4/df7/atexit_8c.html#a3592dbf34b02b87a974abb8dc8cd642d">head</a>, <a class="el" href="../../dd/d42/lock_8h_source.html#l00006">LOCK</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00023">lock</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00017">fl::next</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00022">slot</a>, <a class="el" href="../../dd/d42/lock_8h_source.html#l00007">UNLOCK</a>, and <a class="el" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">Module::void()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/df7/atexit_8c_source.html#l00019">fl::a</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00013">COUNT</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00018">fl::f</a>, <a class="el" href="../../d4/df7/atexit_8c.html#a3592dbf34b02b87a974abb8dc8cd642d">head</a>, <a class="el" href="../../dd/d42/lock_8h_source.html#l00006">LOCK</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00023">lock</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00017">fl::next</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00022">slot</a>, and <a class="el" href="../../dd/d42/lock_8h_source.html#l00007">UNLOCK</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d85/exit_8c_source.html#l00027">exit()</a>.</p>
 
@@ -425,13 +424,13 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/df7/atexit_8c_source.html#l00071">71</a> of file <a class="el" href="../../d4/df7/atexit_8c_source.html">atexit.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;{</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    ((<a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a> (*)(<a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a>))(<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)<a class="code" href="../../d8/d64/glob__loop_8c.html#ac483f6ce851c9ecd9fb835ff7551737c">p</a>)();</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    ((void (*)(void))(<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)<a class="code" href="../../d8/d64/glob__loop_8c.html#ac483f6ce851c9ecd9fb835ff7551737c">p</a>)();</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;}</div>
 <div class="ttc" id="aglob__loop_8c_html_ac483f6ce851c9ecd9fb835ff7551737c"><div class="ttname"><a href="../../d8/d64/glob__loop_8c.html#ac483f6ce851c9ecd9fb835ff7551737c">p</a></div><div class="ttdeci">p</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d64/glob__loop_8c_source.html#l00031">glob_loop.c:31</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00031">p</a>, and <a class="el" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">Module::void()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00031">p</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/df7/atexit_8c_source.html#l00076">atexit()</a>, <a class="el" href="../../d1/dd4/linux_8cpp_source.html#l01089">HandleLinuxSyscalls()</a>, and <a class="el" href="../../db/d9b/native_8cpp_source.html#l00139">HandleNativeSyscalls()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/df7/atexit_8c_source.html#l00076">atexit()</a>, <a class="el" href="../../d1/dd4/linux_8cpp_source.html#l02806">HandleLinuxSyscalls()</a>, and <a class="el" href="../../db/d9b/native_8cpp_source.html#l00130">HandleNativeSyscalls()</a>.</p>
 
 </div>
 </div>

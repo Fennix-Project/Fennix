@@ -13,6 +13,7 @@ var dir_f6afea1f11e371a5eb8eaf7be6cd53d5 =
     [ "sched.h", "d7/d00/sched_8h.html", null ],
     [ "std.hpp", "d1/d8c/std_8hpp.html", "d1/d8c/std_8hpp" ],
     [ "stdarg.h", "d1/d2d/stdarg_8h.html", null ],
+    [ "stdatomic.h", "d6/d07/stdatomic_8h.html", "d6/d07/stdatomic_8h" ],
     [ "stddef.h", "d3/dce/stddef_8h.html", null ],
     [ "stdint.h", "df/dd8/stdint_8h.html", null ],
     [ "stdio.h", "d6/dd1/stdio_8h.html", null ],
@@ -20,7 +21,14 @@ var dir_f6afea1f11e371a5eb8eaf7be6cd53d5 =
     [ "string.h", "da/d66/string_8h.html", null ],
     [ "strings.h", "d6/d90/strings_8h.html", null ],
     [ "stropts.h", "d3/de9/stropts_8h.html", "d3/de9/stropts_8h" ],
-    [ "unistd.h", "da/d6f/unistd_8h.html", null ],
+    [ "time.h", "de/df7/time_8h.html", [
+      [ "timespec", "de/df7/time_8h.html#da/d1c/structtimespec", [
+        [ "tv_nsec", "de/df7/time_8h.html#ae3c7510dafa8cbcaede866ed13c99683", null ],
+        [ "tv_sec", "de/df7/time_8h.html#afc3302668d7cb5952f590da69fdd4955", null ]
+      ] ]
+    ] ],
+    [ "unistd.h", "da/d6f/unistd_8h.html", "da/d6f/unistd_8h" ],
     [ "unwind.h", "d3/db6/unwind_8h.html", "d3/db6/unwind_8h" ],
+    [ "utsname.h", "d5/d3d/utsname_8h.html", "d5/d3d/utsname_8h" ],
     [ "wchar.h", "d9/dae/wchar_8h.html", null ]
 ];

@@ -2,7 +2,7 @@ var busybox_2coreutils_2expr_8c =
 [
     [ "valinfo", "da/deb/busybox_2coreutils_2expr_8c.html#dc/d8f/structvalinfo", [
       [ "type", "da/deb/busybox_2coreutils_2expr_8c.html#a775ba2b603321429c1e7046b858541ae", null ],
-      [ "u", "da/deb/busybox_2coreutils_2expr_8c.html#a64bce605f45a1b39a9e18c51f02fc840", null ]
+      [ "u", "da/deb/busybox_2coreutils_2expr_8c.html#a9eb37f3c82d94eb703144bdbd3c7599d", null ]
     ] ],
     [ "globals", "d8/d11/structglobals.html", "d8/d11/structglobals" ],
     [ "valinfo.u", "da/deb/busybox_2coreutils_2expr_8c.html#d3/d7e/unionvalinfo_8u", [

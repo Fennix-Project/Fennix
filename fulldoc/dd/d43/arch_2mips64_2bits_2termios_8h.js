@@ -6,9 +6,11 @@ var arch_2mips64_2bits_2termios_8h =
       [ "c_cc", "db/d49/arch_2powerpc64_2bits_2termios_8h.html#a6058cfc222551ee750c72142299acb2e", null ],
       [ "c_cflag", "db/d49/arch_2powerpc64_2bits_2termios_8h.html#a5d42b95faa4745c3bea53652d2812162", null ],
       [ "c_iflag", "db/d49/arch_2powerpc64_2bits_2termios_8h.html#a85b6c86d2a3db45a3829488190e357e4", null ],
+      [ "c_ispeed", "db/d49/arch_2powerpc64_2bits_2termios_8h.html#a02ae972cbc9fb2cf4a1aa6a6751a421a", null ],
       [ "c_lflag", "db/d49/arch_2powerpc64_2bits_2termios_8h.html#a91bdd7691180800fccc4b791466ee9c3", null ],
       [ "c_line", "db/d49/arch_2powerpc64_2bits_2termios_8h.html#aeeafa1ceb36342fd91b67027dbdaaf8a", null ],
-      [ "c_oflag", "db/d49/arch_2powerpc64_2bits_2termios_8h.html#ad6e2cfedb81530e5a6a3a0e30b8c6362", null ]
+      [ "c_oflag", "db/d49/arch_2powerpc64_2bits_2termios_8h.html#ad6e2cfedb81530e5a6a3a0e30b8c6362", null ],
+      [ "c_ospeed", "db/d49/arch_2powerpc64_2bits_2termios_8h.html#a3f42b69c0c7fa4ce2179cb61f8c7ca99", null ]
     ] ],
     [ "B0", "dd/d43/arch_2mips64_2bits_2termios_8h.html#a8a03ef52aa4926d1d75cb647ac768622", null ],
     [ "B1000000", "dd/d43/arch_2mips64_2bits_2termios_8h.html#a32dc4578657dac59f79f0bc7ffc9416f", null ],

@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Userspace
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Fennix Userspace Documentation</div>
+   <div id="projectbrief">Userspace Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -125,16 +125,16 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/db0/dynlink_8c.html#af3054366f27929432795c5ae420a5294">strcmp</a>(mode, <span class="stringliteral">&quot;none&quot;</span>) == 0)</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <a class="code" href="../../d7/dd7/libbb_8h.html#a068ce7e06ca614762acbe0ea350d61e4">logmode</a> = <a class="code" href="../../d7/dd7/libbb_8h.html#a9b29769343da78881f442e657eb62b6eace15cc27cace40b77ff526c7b3bb8617">LOGMODE_NONE</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <a class="code" href="../../d7/dd7/libbb_8h.html#a068ce7e06ca614762acbe0ea350d61e4">logmode</a> = <a class="code" href="../../d7/dd7/libbb_8h.html#a1e8054db89feba236b2235d16d0bd1adace15cc27cace40b77ff526c7b3bb8617">LOGMODE_NONE</a>;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#if ENABLE_FEATURE_SYSLOG</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d5/db0/dynlink_8c.html#af3054366f27929432795c5ae420a5294">strcmp</a>(mode, <span class="stringliteral">&quot;syslog&quot;</span>) == 0)</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="../../d7/dd7/libbb_8h.html#a068ce7e06ca614762acbe0ea350d61e4">logmode</a> = <a class="code" href="../../d7/dd7/libbb_8h.html#a9b29769343da78881f442e657eb62b6ea3a16a99e59fdf197ddc2c00c37b4ebc3">LOGMODE_SYSLOG</a>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="../../d7/dd7/libbb_8h.html#a068ce7e06ca614762acbe0ea350d61e4">logmode</a> = <a class="code" href="../../d7/dd7/libbb_8h.html#a1e8054db89feba236b2235d16d0bd1ada3a16a99e59fdf197ddc2c00c37b4ebc3">LOGMODE_SYSLOG</a>;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
 <div class="ttc" id="adynlink_8c_html_af3054366f27929432795c5ae420a5294"><div class="ttname"><a href="../../d5/db0/dynlink_8c.html#af3054366f27929432795c5ae420a5294">strcmp</a></div><div class="ttdeci">#define strcmp(l, r)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/db0/dynlink_8c_source.html#l00174">dynlink.c:174</a></div></div>
 <div class="ttc" id="alibbb_8h_html_a068ce7e06ca614762acbe0ea350d61e4"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#a068ce7e06ca614762acbe0ea350d61e4">logmode</a></div><div class="ttdeci">smallint logmode</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/db5/verror__msg_8c_source.html#l00017">verror_msg.c:17</a></div></div>
-<div class="ttc" id="alibbb_8h_html_a9b29769343da78881f442e657eb62b6ea3a16a99e59fdf197ddc2c00c37b4ebc3"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#a9b29769343da78881f442e657eb62b6ea3a16a99e59fdf197ddc2c00c37b4ebc3">LOGMODE_SYSLOG</a></div><div class="ttdeci">@ LOGMODE_SYSLOG</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd7/libbb_8h_source.html#l01418">libbb.h:1418</a></div></div>
-<div class="ttc" id="alibbb_8h_html_a9b29769343da78881f442e657eb62b6eace15cc27cace40b77ff526c7b3bb8617"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#a9b29769343da78881f442e657eb62b6eace15cc27cace40b77ff526c7b3bb8617">LOGMODE_NONE</a></div><div class="ttdeci">@ LOGMODE_NONE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd7/libbb_8h_source.html#l01416">libbb.h:1416</a></div></div>
+<div class="ttc" id="alibbb_8h_html_a1e8054db89feba236b2235d16d0bd1ada3a16a99e59fdf197ddc2c00c37b4ebc3"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#a1e8054db89feba236b2235d16d0bd1ada3a16a99e59fdf197ddc2c00c37b4ebc3">LOGMODE_SYSLOG</a></div><div class="ttdeci">@ LOGMODE_SYSLOG</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd7/libbb_8h_source.html#l01418">libbb.h:1418</a></div></div>
+<div class="ttc" id="alibbb_8h_html_a1e8054db89feba236b2235d16d0bd1adace15cc27cace40b77ff526c7b3bb8617"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#a1e8054db89feba236b2235d16d0bd1adace15cc27cace40b77ff526c7b3bb8617">LOGMODE_NONE</a></div><div class="ttdeci">@ LOGMODE_NONE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd7/libbb_8h_source.html#l01416">libbb.h:1416</a></div></div>
 <div class="ttc" id="aos2compat_8h_html_aafc8c101dfb6313ab0416a6c5903ce66"><div class="ttname"><a href="../../d2/d02/os2compat_8h.html#aafc8c101dfb6313ab0416a6c5903ce66">getenv</a></div><div class="ttdeci">#define getenv</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d02/os2compat_8h_source.html#l00045">os2compat.h:45</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/d02/os2compat_8h_source.html#l00045">getenv</a>, <a class="el" href="../../d5/db5/verror__msg_8c_source.html#l00017">logmode</a>, <a class="el" href="../../d7/dd7/libbb_8h_source.html#l01416">LOGMODE_NONE</a>, <a class="el" href="../../d7/dd7/libbb_8h_source.html#l01418">LOGMODE_SYSLOG</a>, and <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00174">strcmp</a>.</p>

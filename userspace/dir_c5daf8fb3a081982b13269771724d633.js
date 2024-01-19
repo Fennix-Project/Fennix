@@ -3,7 +3,7 @@ var dir_c5daf8fb3a081982b13269771724d633 =
     [ "bits", "dir_1881ef4899cc66abaaec7b3c2ef9aa8d.html", "dir_1881ef4899cc66abaaec7b3c2ef9aa8d" ],
     [ "sys", "dir_918ea886cbadf85b29ab1feabfe13ad0.html", "dir_918ea886cbadf85b29ab1feabfe13ad0" ],
     [ "assert.h", "d5/da2/libc_2include_2assert_8h.html", null ],
-    [ "aux.h", "d3/d1e/libc_2include_2aux_8h.html", "d3/d1e/libc_2include_2aux_8h" ],
+    [ "aux.h", "d8/d7b/aux_8h.html", "d8/d7b/aux_8h" ],
     [ "ctype.h", "d3/d6c/libc_2include_2ctype_8h.html", "d3/d6c/libc_2include_2ctype_8h" ],
     [ "dlfcn.h", "df/d97/libc_2include_2dlfcn_8h.html", "df/d97/libc_2include_2dlfcn_8h" ],
     [ "errno.h", "d7/d8c/libc_2include_2errno_8h.html", "d7/d8c/libc_2include_2errno_8h" ],

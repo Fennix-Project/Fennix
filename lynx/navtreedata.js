@@ -25,7 +25,6 @@
 var NAVTREE =
 [
   [ "Fennix Lynx Bootloader", "index.html", [
-    [ "Doxygen", "index.html", null ],
     [ "Lynx", "da/d22/md_Lynx_README.html", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Namespaces", "namespaces.html", [

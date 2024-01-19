@@ -362,6 +362,6 @@ var hush_8c =
     [ "unbackslash", "d6/d90/hush_8c.html#af755ad4278123c147db6049f2919349b", null ],
     [ "xdup_CLOEXEC_and_close", "d6/d90/hush_8c.html#a8a7001b50718e5410bdadb8f07732ecc", null ],
     [ "ALIGN1", "d6/d90/hush_8c.html#acd5acb5ddd8ef3c6c46bba40d34a58ad", null ],
-    [ "ALIGN4", "d6/d90/hush_8c.html#a4840f966721e5932873dda9295a9b4b4", null ],
+    [ "ALIGN4", "d6/d90/hush_8c.html#acb8c1e677794743bbd5b4d679bac9d12", null ],
     [ "ALIGN_PTR", "d6/d90/hush_8c.html#af7877c2be55edf7dcbbe7eebcb8bbb2d", null ]
 ];

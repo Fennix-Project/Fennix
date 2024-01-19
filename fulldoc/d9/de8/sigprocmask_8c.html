@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d9/de8/sigprocmask_8c.html','../../');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a90655aecbf91f9ade152eaa0ced5c3a5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de8/sigprocmask_8c.html#a90655aecbf91f9ade152eaa0ced5c3a5">sigprocmask</a> (int how, const <a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *restrict set, <a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *restrict <a class="el" href="../../d4/dcd/nmeter_8c.html#a3a539e6d7382aa2150a8ce8f33b91deb">old</a>)</td></tr>
+<tr class="memitem:a90655aecbf91f9ade152eaa0ced5c3a5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/de8/sigprocmask_8c.html#a90655aecbf91f9ade152eaa0ced5c3a5">sigprocmask</a> (int how, const <a class="el" href="../../dd/d5f/signal_8hpp.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *restrict set, <a class="el" href="../../dd/d5f/signal_8hpp.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *restrict <a class="el" href="../../d4/dcd/nmeter_8c.html#a3a539e6d7382aa2150a8ce8f33b91deb">old</a>)</td></tr>
 <tr class="separator:a90655aecbf91f9ade152eaa0ced5c3a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -117,13 +117,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *restrict&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dd/d5f/signal_8hpp.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *restrict&#160;</td>
           <td class="paramname"><em>set</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *restrict&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/d5f/signal_8hpp.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *restrict&#160;</td>
           <td class="paramname"><em>old</em>&#160;</td>
         </tr>
         <tr>
@@ -141,11 +141,11 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = r;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div>
-<div class="ttc" id="aKernel_2include__std_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00409">errno.h:409</a></div></div>
+<div class="ttc" id="aKernel_2include__std_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00410">errno.h:410</a></div></div>
 <div class="ttc" id="anmeter_8c_html_a3a539e6d7382aa2150a8ce8f33b91deb"><div class="ttname"><a href="../../d4/dcd/nmeter_8c.html#a3a539e6d7382aa2150a8ce8f33b91deb">old</a></div><div class="ttdeci">ullong old[CPU_FIELDCNT]</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dcd/nmeter_8c_source.html#l00351">nmeter.c:351</a></div></div>
 <div class="ttc" id="apthread__sigmask_8c_html_a31d0d292cd21c920eaaa99707bc2ae16"><div class="ttname"><a href="../../da/dc6/pthread__sigmask_8c.html#a31d0d292cd21c920eaaa99707bc2ae16">pthread_sigmask</a></div><div class="ttdeci">int pthread_sigmask(int how, const sigset_t *restrict set, sigset_t *restrict old)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc6/pthread__sigmask_8c_source.html#l00005">pthread_sigmask.c:5</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00409">errno</a>, <a class="el" href="../../d4/dcd/nmeter_8c_source.html#l00351">old</a>, and <a class="el" href="../../da/dc6/pthread__sigmask_8c_source.html#l00005">pthread_sigmask()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00410">errno</a>, <a class="el" href="../../d4/dcd/nmeter_8c_source.html#l00351">old</a>, and <a class="el" href="../../da/dc6/pthread__sigmask_8c_source.html#l00005">pthread_sigmask()</a>.</p>
 
 </div>
 </div>

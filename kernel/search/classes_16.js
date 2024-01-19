@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['waetheader_8580',['WAETHeader',['../d3/d21/classACPI_1_1ACPI.html#d1/d66/structACPI_1_1ACPI_1_1WAETHeader',1,'ACPI::ACPI']]],
-  ['weak_5fptr_8581',['weak_ptr',['../d8/dcc/namespacestd.html#da/d49/classstd_1_1weak__ptr',1,'std']]],
-  ['winsize_8582',['winsize',['../d9/df4/ioctl_8hpp.html#da/d40/structwinsize',1,'']]]
+  ['xcr0_9551',['XCR0',['../d9/d25/namespaceCPU_1_1x64.html#d5/dc7/unionCPU_1_1x64_1_1XCR0',1,'CPU::x64']]],
+  ['xcr0_2e_5f_5funnamed160_5f_5f_9552',['XCR0.__unnamed160__',['../d9/d25/namespaceCPU_1_1x64.html#df/dcc/structCPU_1_1x64_1_1XCR0_8____unnamed160____',1,'CPU::x64']]]
 ];

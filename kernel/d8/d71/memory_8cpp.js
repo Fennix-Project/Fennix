@@ -2,10 +2,11 @@ var memory_8cpp =
 [
     [ "memdbg", "d8/d71/memory_8cpp.html#a3a43746d8cd3253899c9a16365b16a8a", null ],
     [ "calloc", "d8/dc8/group__ALLOCHOOKS.html#ga9db1af54761723ecddbd1e253c01a2ad", null ],
+    [ "CreatePageTable", "d8/d71/memory_8cpp.html#ad9c0496fc9d217f52060bfe511f5db86", null ],
     [ "free", "d8/dc8/group__ALLOCHOOKS.html#ga4835fe140973dbc5e1aafd9c33acf6d4", null ],
     [ "InitializeMemoryManagement", "d8/d71/memory_8cpp.html#aa8c8a5c0a8206627e72131163ccbcf80", null ],
     [ "malloc", "d8/dc8/group__ALLOCHOOKS.html#ga5223b5fb1255b5179f53b0595fe9251c", null ],
-    [ "MapFramebuffer", "d8/d71/memory_8cpp.html#a99ced0be06a7ab2eb92e4f1763826729", null ],
+    [ "MapFramebuffer", "d8/d71/memory_8cpp.html#af508d8ca85be7c843dc6fdf25732804c", null ],
     [ "MapFromZero", "d8/d71/memory_8cpp.html#a675098b84919e77ca79812185b1d205b", null ],
     [ "MapKernel", "d8/d71/memory_8cpp.html#a3a205b52fa44d4836443eaf96c4c7613", null ],
     [ "operator delete", "d8/d71/memory_8cpp.html#a0bdfc4ea90f9da116443115a2b4dba30", null ],

@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Userspace
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Fennix Userspace Documentation</div>
+   <div id="projectbrief">Userspace Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -111,7 +111,7 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a068ce7e06ca614762acbe0ea350d61e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/platform_8h.html#ad05b39cab98c2ea86551b631e839efbf">smallint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db5/verror__msg_8c.html#a068ce7e06ca614762acbe0ea350d61e4">logmode</a> = <a class="el" href="../../d7/dd7/libbb_8h.html#a9b29769343da78881f442e657eb62b6ea6a0eccc5a855e708567f889f9f582ac1">LOGMODE_STDIO</a></td></tr>
+<tr class="memitem:a068ce7e06ca614762acbe0ea350d61e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d03/platform_8h.html#ad05b39cab98c2ea86551b631e839efbf">smallint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db5/verror__msg_8c.html#a068ce7e06ca614762acbe0ea350d61e4">logmode</a> = <a class="el" href="../../d7/dd7/libbb_8h.html#a1e8054db89feba236b2235d16d0bd1ada6a0eccc5a855e708567f889f9f582ac1">LOGMODE_STDIO</a></td></tr>
 <tr class="separator:a068ce7e06ca614762acbe0ea350d61e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb60d82d71615f45af21b8235e3bb1b8"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db5/verror__msg_8c.html#aeb60d82d71615f45af21b8235e3bb1b8">msg_eol</a> = &quot;\n&quot;</td></tr>
 <tr class="separator:aeb60d82d71615f45af21b8235e3bb1b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -366,12 +366,12 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        used += msgeol_len;</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    }</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/db5/verror__msg_8c.html#a068ce7e06ca614762acbe0ea350d61e4">logmode</a> &amp; <a class="code" href="../../d7/dd7/libbb_8h.html#a9b29769343da78881f442e657eb62b6ea6a0eccc5a855e708567f889f9f582ac1">LOGMODE_STDIO</a>) {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/db5/verror__msg_8c.html#a068ce7e06ca614762acbe0ea350d61e4">logmode</a> &amp; <a class="code" href="../../d7/dd7/libbb_8h.html#a1e8054db89feba236b2235d16d0bd1ada6a0eccc5a855e708567f889f9f582ac1">LOGMODE_STDIO</a>) {</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <a class="code" href="../../d7/dd7/libbb_8h.html#a8f037f44db72dcde4db67b3cb5dee815">fflush_all</a>();</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <a class="code" href="../../d7/dd7/libbb_8h.html#a8d23358117d93e33f882d41a3af20b64">full_write</a>(<a class="code" href="../../de/d97/musl_2include_2unistd_8h.html#ae2fe1725bb5e9823d089c46b9ed5266e">STDERR_FILENO</a>, msg, used);</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    }</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">#if ENABLE_FEATURE_SYSLOG</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/db5/verror__msg_8c.html#a068ce7e06ca614762acbe0ea350d61e4">logmode</a> &amp; <a class="code" href="../../d7/dd7/libbb_8h.html#a9b29769343da78881f442e657eb62b6ea3a16a99e59fdf197ddc2c00c37b4ebc3">LOGMODE_SYSLOG</a>) {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/db5/verror__msg_8c.html#a068ce7e06ca614762acbe0ea350d61e4">logmode</a> &amp; <a class="code" href="../../d7/dd7/libbb_8h.html#a1e8054db89feba236b2235d16d0bd1ada3a16a99e59fdf197ddc2c00c37b4ebc3">LOGMODE_SYSLOG</a>) {</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <a class="code" href="../../d7/d30/syslog_8h.html#a8fd4d039dfe941b0576bab9cbe3ee4d9">syslog</a>(syslog_level, <span class="stringliteral">&quot;%s&quot;</span>, msg + applet_len);</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    }</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">#endif</span></div>
@@ -384,10 +384,10 @@ Variables</h2></td></tr>
 <div class="ttc" id="adynlink_8c_html_a2c6efa7679f8cd9f61af96e105017560"><div class="ttname"><a href="../../d5/db0/dynlink_8c.html#a2c6efa7679f8cd9f61af96e105017560">free</a></div><div class="ttdeci">#define free</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/db0/dynlink_8c_source.html#l00036">dynlink.c:36</a></div></div>
 <div class="ttc" id="agen-helpfiles_8c_html_add539a5755e4c4070b0c8ca97477fe47"><div class="ttname"><a href="../../d6/ddf/gen-helpfiles_8c.html#add539a5755e4c4070b0c8ca97477fe47">strcpy</a></div><div class="ttdeci">char * strcpy()</div></div>
 <div class="ttc" id="aindividual_8c_html_a66e4d65a78130a56b02ed9937a9859b5"><div class="ttname"><a href="../../d9/d65/individual_8c.html#a66e4d65a78130a56b02ed9937a9859b5">applet_name</a></div><div class="ttdeci">const char * applet_name</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d65/individual_8c_source.html#l00008">individual.c:8</a></div></div>
+<div class="ttc" id="alibbb_8h_html_a1e8054db89feba236b2235d16d0bd1ada3a16a99e59fdf197ddc2c00c37b4ebc3"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#a1e8054db89feba236b2235d16d0bd1ada3a16a99e59fdf197ddc2c00c37b4ebc3">LOGMODE_SYSLOG</a></div><div class="ttdeci">@ LOGMODE_SYSLOG</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd7/libbb_8h_source.html#l01418">libbb.h:1418</a></div></div>
+<div class="ttc" id="alibbb_8h_html_a1e8054db89feba236b2235d16d0bd1ada6a0eccc5a855e708567f889f9f582ac1"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#a1e8054db89feba236b2235d16d0bd1ada6a0eccc5a855e708567f889f9f582ac1">LOGMODE_STDIO</a></div><div class="ttdeci">@ LOGMODE_STDIO</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd7/libbb_8h_source.html#l01417">libbb.h:1417</a></div></div>
 <div class="ttc" id="alibbb_8h_html_a8d23358117d93e33f882d41a3af20b64"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#a8d23358117d93e33f882d41a3af20b64">full_write</a></div><div class="ttdeci">ssize_t full_write(int fd, const void *buf, size_t count) FAST_FUNC</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db8/full__write_8c_source.html#l00017">full_write.c:17</a></div></div>
 <div class="ttc" id="alibbb_8h_html_a8f037f44db72dcde4db67b3cb5dee815"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#a8f037f44db72dcde4db67b3cb5dee815">fflush_all</a></div><div class="ttdeci">int fflush_all(void) FAST_FUNC</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dd6/xfuncs__printf_8c_source.html#l00307">xfuncs_printf.c:307</a></div></div>
-<div class="ttc" id="alibbb_8h_html_a9b29769343da78881f442e657eb62b6ea3a16a99e59fdf197ddc2c00c37b4ebc3"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#a9b29769343da78881f442e657eb62b6ea3a16a99e59fdf197ddc2c00c37b4ebc3">LOGMODE_SYSLOG</a></div><div class="ttdeci">@ LOGMODE_SYSLOG</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd7/libbb_8h_source.html#l01418">libbb.h:1418</a></div></div>
-<div class="ttc" id="alibbb_8h_html_a9b29769343da78881f442e657eb62b6ea6a0eccc5a855e708567f889f9f582ac1"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#a9b29769343da78881f442e657eb62b6ea6a0eccc5a855e708567f889f9f582ac1">LOGMODE_STDIO</a></div><div class="ttdeci">@ LOGMODE_STDIO</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd7/libbb_8h_source.html#l01417">libbb.h:1417</a></div></div>
 <div class="ttc" id="alibc_2include_2stdarg_8h_html_a19fd5658c088617859d4a89c657ec5cc"><div class="ttname"><a href="../../d1/dba/libc_2include_2stdarg_8h.html#a19fd5658c088617859d4a89c657ec5cc">va_copy</a></div><div class="ttdeci">#define va_copy(dest, src)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dba/libc_2include_2stdarg_8h_source.html#l00011">stdarg.h:11</a></div></div>
 <div class="ttc" id="alibc_2include_2string_8h_html_a008e171a518fe0e0352f31b245e03875"><div class="ttname"><a href="../../dc/da4/libc_2include_2string_8h.html#a008e171a518fe0e0352f31b245e03875">strlen</a></div><div class="ttdeci">size_t strlen(const char *str)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db0/string_8c_source.html#l00005">string.c:5</a></div></div>
 <div class="ttc" id="alibc_2include_2string_8h_html_a802c986820d3866639922b6bc9484f90"><div class="ttname"><a href="../../dc/da4/libc_2include_2string_8h.html#a802c986820d3866639922b6bc9484f90">memmove</a></div><div class="ttdeci">void * memmove(void *dest, const void *src, size_t n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/de5/memop_8c_source.html#l00290">memop.c:290</a></div></div>
@@ -410,7 +410,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/d03/platform_8h.html#ad05b39cab98c2ea86551b631e839efbf">smallint</a> logmode = <a class="el" href="../../d7/dd7/libbb_8h.html#a9b29769343da78881f442e657eb62b6ea6a0eccc5a855e708567f889f9f582ac1">LOGMODE_STDIO</a></td>
+          <td class="memname"><a class="el" href="../../de/d03/platform_8h.html#ad05b39cab98c2ea86551b631e839efbf">smallint</a> logmode = <a class="el" href="../../d7/dd7/libbb_8h.html#a1e8054db89feba236b2235d16d0bd1ada6a0eccc5a855e708567f889f9f582ac1">LOGMODE_STDIO</a></td>
         </tr>
       </table>
 </div><div class="memdoc">

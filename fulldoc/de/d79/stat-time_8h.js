@@ -1,6 +1,7 @@
 var stat_time_8h =
 [
     [ "timespec", "de/d79/stat-time_8h.html#da/d1c/structtimespec", [
+      [ "tv_nsec", "de/d79/stat-time_8h.html#ae3c7510dafa8cbcaede866ed13c99683", null ],
       [ "tv_nsec", "de/d79/stat-time_8h.html#aa9689622a344d847333e534ac23d3093", null ],
       [ "tv_sec", "de/d79/stat-time_8h.html#afc3302668d7cb5952f590da69fdd4955", null ]
     ] ],

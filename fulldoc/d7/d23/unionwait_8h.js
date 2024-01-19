@@ -1,9 +1,9 @@
 var unionwait_8h =
 [
     [ "wait", "d7/d23/unionwait_8h.html#de/d61/unionwait", [
-      [ "w_S", "d7/d23/unionwait_8h.html#a10e89675b07dca1aaf42d2474fbc4e41", null ],
+      [ "w_S", "d7/d23/unionwait_8h.html#a531ecb8d5f426ff1dcb51e81d38528d7", null ],
       [ "w_status", "d7/d23/unionwait_8h.html#acf7db74d249efc70e36c999def67f51d", null ],
-      [ "w_T", "d7/d23/unionwait_8h.html#a40bd5bc3ca703c361135e35f251e902f", null ]
+      [ "w_T", "d7/d23/unionwait_8h.html#a14fecd38322e10e90785a4d875269d8c", null ]
     ] ],
     [ "wait.w_T", "d7/d23/unionwait_8h.html#d2/dde/structwait_8w__T", [
       [ "w_Coredump", "d7/d23/unionwait_8h.html#a69019b2d397dc1e32f616e391bd1fc4e", null ],

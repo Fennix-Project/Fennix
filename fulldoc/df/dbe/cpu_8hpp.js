@@ -43,6 +43,7 @@ var cpu_8hpp =
       [ "xmm", "de/d52/namespacex32.html#a5b2d2abd1a9affcd908aa8795f12da99", null ]
     ] ],
     [ "__packed", "d7/db0/namespacex64.html#df/db8/unionx64_1_1____packed", [
+      [ "__aligned", "d7/db0/namespacex64.html#a6eaa569dad3449898f4d5c990242282a", null ],
       [ "raw", "d7/db0/namespacex64.html#a02c4ad7949e5dc88619310619a12113b", null ],
       [ "raw", "d7/db0/namespacex64.html#a8405ed3021278d653b5d021eec5eeceb", null ]
     ] ],
@@ -120,7 +121,7 @@ var cpu_8hpp =
       [ "x29", "dc/dce/namespaceaarch64.html#a81cf27b563546c9886ce5210e4e49d94", null ],
       [ "x30", "dc/dce/namespaceaarch64.html#ad80cb1ad6f567fb099a112ee314e19fb", null ]
     ] ],
-    [ "__packed.__unnamed767__", "de/d52/namespacex32.html#d1/dab/structx32_1_1____packed_8____unnamed767____", [
+    [ "__packed.__unnamed544__", "de/d52/namespacex32.html#da/dce/structx32_1_1____packed_8____unnamed544____", [
       [ "ApicBaseHi", "de/d52/namespacex32.html#a0e3aad2f7384b2da11dbe3af7588bb7d", null ],
       [ "ApicBaseLo", "de/d52/namespacex32.html#a78a92cde996f5ab594d36d58a7580274", null ],
       [ "BSP", "de/d52/namespacex32.html#adb55f5a9e3472e08cf5af25914d2c94a", null ],
@@ -129,7 +130,7 @@ var cpu_8hpp =
       [ "Reserved0", "de/d52/namespacex32.html#a3cdecefb5fa15c31235080e3dfac5a6d", null ],
       [ "Reserved1", "de/d52/namespacex32.html#a93876cb309016fa725517b046474c44b", null ]
     ] ],
-    [ "EFLAGS.__unnamed769__", "de/d52/namespacex32.html#da/d8e/structx32_1_1EFLAGS_8____unnamed769____", [
+    [ "EFLAGS.__unnamed546__", "de/d52/namespacex32.html#de/dcc/structx32_1_1EFLAGS_8____unnamed546____", [
       [ "AC", "de/d52/namespacex32.html#a4144e097d2fa7a491cec2a7a4322f2bc", null ],
       [ "AF", "de/d52/namespacex32.html#a06fa567b72d78b7e3ea746973fbbd1d5", null ],
       [ "AlwaysOne", "de/d52/namespacex32.html#aede1a165030b54c6ad9fd6f430f8b37c", null ],
@@ -152,7 +153,7 @@ var cpu_8hpp =
       [ "VM", "de/d52/namespacex32.html#a583a65df9db4119165f5ea0abaa50281", null ],
       [ "ZF", "de/d52/namespacex32.html#a8ec66b3387ffaa10d0be63d1a95c280a", null ]
     ] ],
-    [ "DR6.__unnamed771__", "de/d52/namespacex32.html#d5/dbb/structx32_1_1DR6_8____unnamed771____", [
+    [ "DR6.__unnamed548__", "de/d52/namespacex32.html#d7/d5a/structx32_1_1DR6_8____unnamed548____", [
       [ "B0", "de/d52/namespacex32.html#a4c769c2c9989abb9fa024ab9930270e5", null ],
       [ "B1", "de/d52/namespacex32.html#ac9512565ef6194ca664dc41ec0de7a53", null ],
       [ "B2", "de/d52/namespacex32.html#abbd97b00c539801e32317ab550867ec4", null ],
@@ -164,7 +165,7 @@ var cpu_8hpp =
       [ "Reserved1", "de/d52/namespacex32.html#a93876cb309016fa725517b046474c44b", null ],
       [ "Reserved2", "de/d52/namespacex32.html#ad783eb173ee49cc2a004bc1ca1313615", null ]
     ] ],
-    [ "DR7.__unnamed773__", "de/d52/namespacex32.html#de/da7/structx32_1_1DR7_8____unnamed773____", [
+    [ "DR7.__unnamed550__", "de/d52/namespacex32.html#dc/d73/structx32_1_1DR7_8____unnamed550____", [
       [ "G0", "de/d52/namespacex32.html#a22294e216be9e629e37caf9fa0cc5872", null ],
       [ "G1", "de/d52/namespacex32.html#ac0497521d35d66866e3af408094864c3", null ],
       [ "G2", "de/d52/namespacex32.html#ad24bade136bc8cd77e37395ea94226eb", null ],
@@ -188,7 +189,7 @@ var cpu_8hpp =
       [ "RW2", "de/d52/namespacex32.html#a424148acf2adb331977c39998e2cfe36", null ],
       [ "RW3", "de/d52/namespacex32.html#ac211beff9de93518ff3fb577f625a245", null ]
     ] ],
-    [ "__packed.__unnamed775__", "d7/db0/namespacex64.html#d6/dd7/structx64_1_1____packed_8____unnamed775____", [
+    [ "__packed.__aligned", "d7/db0/namespacex64.html#de/dd8/structx64_1_1____packed_8____aligned", [
       [ "ABAHigh", "d7/db0/namespacex64.html#a3e7b82e00c9f1dbd1ae1bfa7117ad7e4", null ],
       [ "ABALow", "d7/db0/namespacex64.html#a8c6af7ba7656fff5ec82e0c3d7ed8a00", null ],
       [ "AE", "d7/db0/namespacex64.html#aea8a1a99f6c94c275a58dcd78f418c1f", null ],
@@ -198,11 +199,11 @@ var cpu_8hpp =
       [ "Reserved1", "d7/db0/namespacex64.html#a93876cb309016fa725517b046474c44b", null ],
       [ "Reserved2", "d7/db0/namespacex64.html#ad783eb173ee49cc2a004bc1ca1313615", null ]
     ] ],
-    [ "__packed.__unnamed777__", "d7/db0/namespacex64.html#df/dc1/structx64_1_1____packed_8____unnamed777____", [
+    [ "__packed.__unnamed554__", "d7/db0/namespacex64.html#dc/d69/structx64_1_1____packed_8____unnamed554____", [
       [ "AID", "d7/db0/namespacex64.html#a5ef612cfef9d854de7c3f963fcc33c8b", null ],
       [ "Reserved", "d7/db0/namespacex64.html#a942d4e37dd5607ab68e54755540d4a47", null ]
     ] ],
-    [ "RFLAGS.__unnamed779__", "d7/db0/namespacex64.html#db/d19/structx64_1_1RFLAGS_8____unnamed779____", [
+    [ "RFLAGS.__unnamed558__", "d7/db0/namespacex64.html#d4/d34/structx64_1_1RFLAGS_8____unnamed558____", [
       [ "AC", "d7/db0/namespacex64.html#a4144e097d2fa7a491cec2a7a4322f2bc", null ],
       [ "AF", "d7/db0/namespacex64.html#a06fa567b72d78b7e3ea746973fbbd1d5", null ],
       [ "AlwaysOne", "d7/db0/namespacex64.html#aede1a165030b54c6ad9fd6f430f8b37c", null ],
@@ -226,7 +227,7 @@ var cpu_8hpp =
       [ "VM", "d7/db0/namespacex64.html#a583a65df9db4119165f5ea0abaa50281", null ],
       [ "ZF", "d7/db0/namespacex64.html#a8ec66b3387ffaa10d0be63d1a95c280a", null ]
     ] ],
-    [ "EFER.__unnamed781__", "d7/db0/namespacex64.html#dc/daa/structx64_1_1EFER_8____unnamed781____", [
+    [ "EFER.__unnamed580__", "d7/db0/namespacex64.html#d7/de1/structx64_1_1EFER_8____unnamed580____", [
       [ "FFXSR", "d7/db0/namespacex64.html#a7f31fb80ec8aebb4ba3d71448fadf795", null ],
       [ "LMA", "d7/db0/namespacex64.html#a6df8d0415ebe8faadcf40719ec36f209", null ],
       [ "LME", "d7/db0/namespacex64.html#adfdad30fb438d14f9742408313e1b6a3", null ],
@@ -239,7 +240,7 @@ var cpu_8hpp =
       [ "SVME", "d7/db0/namespacex64.html#a7736dcefdc757d139bbe54b6f4731704", null ],
       [ "TCE", "d7/db0/namespacex64.html#aa93108959b74bc7abe4ffb1344be0769", null ]
     ] ],
-    [ "DR6.__unnamed783__", "d7/db0/namespacex64.html#d7/dd0/structx64_1_1DR6_8____unnamed783____", [
+    [ "DR6.__unnamed589__", "d7/db0/namespacex64.html#dc/de9/structx64_1_1DR6_8____unnamed589____", [
       [ "B0", "d7/db0/namespacex64.html#a4c769c2c9989abb9fa024ab9930270e5", null ],
       [ "B1", "d7/db0/namespacex64.html#ac9512565ef6194ca664dc41ec0de7a53", null ],
       [ "B2", "d7/db0/namespacex64.html#abbd97b00c539801e32317ab550867ec4", null ],
@@ -252,7 +253,7 @@ var cpu_8hpp =
       [ "Reserved2", "d7/db0/namespacex64.html#ad783eb173ee49cc2a004bc1ca1313615", null ],
       [ "Reserved3", "d7/db0/namespacex64.html#ab3edf740b9a6b5d2be22c377fe076c04", null ]
     ] ],
-    [ "DR7.__unnamed785__", "d7/db0/namespacex64.html#d4/d06/structx64_1_1DR7_8____unnamed785____", [
+    [ "DR7.__unnamed598__", "d7/db0/namespacex64.html#d9/d14/structx64_1_1DR7_8____unnamed598____", [
       [ "G0", "d7/db0/namespacex64.html#a22294e216be9e629e37caf9fa0cc5872", null ],
       [ "G1", "d7/db0/namespacex64.html#ac0497521d35d66866e3af408094864c3", null ],
       [ "G2", "d7/db0/namespacex64.html#ad24bade136bc8cd77e37395ea94226eb", null ],
@@ -277,7 +278,7 @@ var cpu_8hpp =
       [ "RW2", "d7/db0/namespacex64.html#a424148acf2adb331977c39998e2cfe36", null ],
       [ "RW3", "d7/db0/namespacex64.html#ac211beff9de93518ff3fb577f625a245", null ]
     ] ],
-    [ "PageFaultErrorCode.__unnamed787__", "d7/db0/namespacex64.html#d5/d91/structx64_1_1PageFaultErrorCode_8____unnamed787____", [
+    [ "PageFaultErrorCode.__unnamed609__", "d7/db0/namespacex64.html#d4/d34/structx64_1_1PageFaultErrorCode_8____unnamed609____", [
       [ "I", "d7/db0/namespacex64.html#add7536794b63bf90eccfd37f9b147d7f", null ],
       [ "P", "d7/db0/namespacex64.html#a44c29edb103a2872f519ad0c9a0fdaaa", null ],
       [ "PK", "d7/db0/namespacex64.html#ad71bdd22c8bb93b8d287dce6f46aed25", null ],
@@ -289,12 +290,13 @@ var cpu_8hpp =
       [ "U", "d7/db0/namespacex64.html#a4c614360da93c0a041b22e537de151eb", null ],
       [ "W", "d7/db0/namespacex64.html#a61e9c06ea9a85a5088a499df6458d276", null ]
     ] ],
-    [ "SelectorErrorCode.__unnamed789__", "d7/db0/namespacex64.html#d7/dbd/structx64_1_1SelectorErrorCode_8____unnamed789____", [
+    [ "SelectorErrorCode.__unnamed623__", "d7/db0/namespacex64.html#d8/dcf/structx64_1_1SelectorErrorCode_8____unnamed623____", [
       [ "External", "d7/db0/namespacex64.html#ab206a1b4ea1097761f78e8876f6da779", null ],
       [ "Idx", "d7/db0/namespacex64.html#a3c81cbbd361d97d7021798df6ff50939", null ],
       [ "Reserved", "d7/db0/namespacex64.html#a942d4e37dd5607ab68e54755540d4a47", null ],
       [ "Table", "d7/db0/namespacex64.html#a51c45b795d5d18a3e4e0c37e8b20a141", null ]
     ] ],
+    [ "thisPageTable", "df/dbe/cpu_8hpp.html#adf6237eb2d523ea01afa38024b37a2ac", null ],
     [ "DR6", "df/dbe/cpu_8hpp.html#ab2014fbe7b7b897b74f12c9407fcd590", null ],
     [ "DR6", "df/dbe/cpu_8hpp.html#ae8f1c938f9b1d8e009d3b25104e9e814", null ],
     [ "DR7", "df/dbe/cpu_8hpp.html#a7d95504fd36d9d673f994150a5bb6fb1", null ],
@@ -341,6 +343,7 @@ var cpu_8hpp =
       [ "SIMD_AVX512VPCLMULQDQ", "df/dbe/cpu_8hpp.html#a9b7152a6891aa829fafb5d7cdc3c31c9a636676c68215b9220738fc0a699fe846", null ],
       [ "SIMD_AVX512VAES", "df/dbe/cpu_8hpp.html#a9b7152a6891aa829fafb5d7cdc3c31c9a22d18e3234ec28a2a6c1d8677c96c950", null ]
     ] ],
+    [ "__aligned", "df/dbe/cpu_8hpp.html#a5c3f97076b768870ee83f59df20ecc8c", null ],
     [ "CheckSIMD", "df/dbe/cpu_8hpp.html#a1175128f59cc4c5428896140965fc8f5", null ],
     [ "CheckSIMD", "df/dbe/cpu_8hpp.html#a3d16e0a922dd9127759b9d447c983ffd", null ],
     [ "Counter", "df/dbe/cpu_8hpp.html#a52ee1b0b14d6f08c3ec13c99bb11a5d8", null ],
@@ -368,5 +371,15 @@ var cpu_8hpp =
     [ "Pause", "df/dbe/cpu_8hpp.html#a000fcb89a8500e356b8a1efee0d389b6", null ],
     [ "Vendor", "df/dbe/cpu_8hpp.html#a5ec1ffd60694e9823ed2cb69ee1b37cd", null ],
     [ "__packed", "df/dbe/cpu_8hpp.html#a9a3cf5083b038e0e52eafd5de98a11e3", null ],
-    [ "__packed", "df/dbe/cpu_8hpp.html#a77368c2d682f97388bd780d3983a4f8d", null ]
+    [ "fcw", "df/dbe/cpu_8hpp.html#a2e33b01fe25cb595f498d300575eb310", null ],
+    [ "fop", "df/dbe/cpu_8hpp.html#aaaf1ee01ae13a6701cbbcdc3f8330da9", null ],
+    [ "fsw", "df/dbe/cpu_8hpp.html#ab22d66ef6012b705c21f163e38fa496e", null ],
+    [ "ftw", "df/dbe/cpu_8hpp.html#ae7c0ce85422a2a1bb4c709c3fa9bfdd5", null ],
+    [ "mxcsr", "df/dbe/cpu_8hpp.html#a1485787f3c2fb8d9f8e3668eb0dbbfe3", null ],
+    [ "mxcsrmask", "df/dbe/cpu_8hpp.html#ab34c8517083c2fe1c7d1a7bfce6896d5", null ],
+    [ "rdp", "df/dbe/cpu_8hpp.html#a631e90d006f9914332fd0898840cf728", null ],
+    [ "Reserved", "df/dbe/cpu_8hpp.html#a68394408e82008fe25bfe2931b59ce58", null ],
+    [ "rip", "df/dbe/cpu_8hpp.html#a90e28f434559f0582a69699dc4dbc286", null ],
+    [ "st", "df/dbe/cpu_8hpp.html#a3a64417463dada5f616e896c2f393e9e", null ],
+    [ "xmm", "df/dbe/cpu_8hpp.html#a0a70c3b20deed66804857c7998a83ded", null ]
 ];

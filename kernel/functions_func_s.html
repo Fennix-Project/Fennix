@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -88,6 +88,9 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 &#160;
 
 <h3><a id="index_s"></a>- s -</h3><ul>
+<li>Schedule()
+: <a class="el" href="dc/dc5/classTasking_1_1Task.html#a17c474a210907d5ea33256118757338e">Tasking::Task</a>
+</li>
 <li>SchedulerSearchProcessThread()
 : <a class="el" href="dc/dc5/classTasking_1_1Task.html#af2fc1bf40490928cdad2a5341fb585ff">Tasking::Task</a>
 </li>
@@ -96,9 +99,6 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 </li>
 <li>Search()
 : <a class="el" href="d9/d9b/classNetworkARP_1_1ARP.html#afd2f2f436226e54fdc798184c3d32ed2">NetworkARP::ARP</a>
-</li>
-<li>SearchByToken()
-: <a class="el" href="df/d7e/classInterProcessCommunication_1_1IPC.html#a74a4092a4f824ec8450011e7864a47df">InterProcessCommunication::IPC</a>
 </li>
 <li>SearchTables()
 : <a class="el" href="d3/d21/classACPI_1_1ACPI.html#a035077c5de0ff628300e57c8b64132e3">ACPI::ACPI</a>
@@ -118,13 +118,21 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 : <a class="el" href="d2/d37/classPIC_1_1PIC.html#acc7dc000d45d6baf88d146b575a35a86">PIC::PIC</a>
 </li>
 <li>SendInitIPI()
-: <a class="el" href="d4/da9/classAPIC_1_1APIC.html#ac47f85f37b8b577dff348c4938d240d7">APIC::APIC</a>
+: <a class="el" href="d4/da9/classAPIC_1_1APIC.html#aeb6c1be1a3562d9253e17b354a87cada">APIC::APIC</a>
+</li>
+<li>SendSignal()
+: <a class="el" href="d6/d17/classTasking_1_1PCB.html#a3d4d1374e75b36e80661d2f72a4ecca8">Tasking::PCB</a>
+, <a class="el" href="d2/d8b/classTasking_1_1Signal.html#ad0fbd2cbcf9d487b83db39cd7c089178">Tasking::Signal</a>
+, <a class="el" href="da/daf/classTasking_1_1TCB.html#acb9190d13afcca571bc2531a93f12d84">Tasking::TCB</a>
 </li>
 <li>SendStartupIPI()
 : <a class="el" href="d4/da9/classAPIC_1_1APIC.html#a352b53a3f13e561344404f75f9a74823">APIC::APIC</a>
 </li>
 <li>Set()
 : <a class="el" href="d3/d19/classBitmap.html#a4bf4b9b0c64d38c90825fb2c23aebb8a">Bitmap</a>
+</li>
+<li>SetAction()
+: <a class="el" href="d2/d8b/classTasking_1_1Signal.html#a25424bc0de931fab3096c4c1a872d610">Tasking::Signal</a>
 </li>
 <li>SetAddress()
 : <a class="el" href="d9/d3b/unionMemory_1_1PageDirectoryEntry.html#ad26f50fbdbfd7cae83ac8611a6c4d654">Memory::PageDirectoryEntry</a>
@@ -142,9 +150,6 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 <li>SetBufferCursor()
 : <a class="el" href="db/d81/classVideo_1_1Display.html#ada154af6b649756ab6bb6c6df5743eba">Video::Display</a>
 </li>
-<li>SetCleanupThread()
-: <a class="el" href="dc/dc5/classTasking_1_1Task.html#ab9f330dd3499699220c307803dad184a">Tasking::Task</a>
-</li>
 <li>SetCritical()
 : <a class="el" href="da/daf/classTasking_1_1TCB.html#a421fc4b87573abd0194625680c485864">Tasking::TCB</a>
 </li>
@@ -157,17 +162,41 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 <li>SetDoNotScroll()
 : <a class="el" href="db/d81/classVideo_1_1Display.html#a23f83bade6c42e3589c5cff0039569ff">Video::Display</a>
 </li>
+<li>SetExe()
+: <a class="el" href="d6/d17/classTasking_1_1PCB.html#a1948b5580399295b765234a041d93855">Tasking::PCB</a>
+</li>
+<li>SetExitCode()
+: <a class="el" href="d6/d17/classTasking_1_1PCB.html#a66bd0e558d086ffb6356ac9cb8d1008c">Tasking::PCB</a>
+, <a class="el" href="da/daf/classTasking_1_1TCB.html#a5b6aa0f935981ff256a392b64d4b227a">Tasking::TCB</a>
+</li>
+<li>SetFlags()
+: <a class="el" href="da/d88/classvfs_1_1FileDescriptorTable.html#ac6455e12cb8fd68633516193eeb5d358">vfs::FileDescriptorTable</a>
+</li>
 <li>SetInterruptNumber()
 : <a class="el" href="dd/dae/classInterrupts_1_1Handler.html#a3c0d670ae749a9b104ab9a742b52c507">Interrupts::Handler</a>
 </li>
 <li>SetKernelDebugMode()
 : <a class="el" href="da/daf/classTasking_1_1TCB.html#a3db2cb39195f0cd43d746e37aa32f65f">Tasking::TCB</a>
 </li>
+<li>SetMask()
+: <a class="el" href="d2/d8b/classTasking_1_1Signal.html#ac1c0c8a65bbd04f58efcd118c809fe94">Tasking::Signal</a>
+</li>
 <li>SetPixel()
 : <a class="el" href="db/d81/classVideo_1_1Display.html#ae52a43d1cf247cf0dd03787b31e5b880">Video::Display</a>
 </li>
 <li>SetPriority()
 : <a class="el" href="da/daf/classTasking_1_1TCB.html#a3a93c13898bacc57a757a892a66cd48c">Tasking::TCB</a>
+</li>
+<li>SetState()
+: <a class="el" href="d6/d17/classTasking_1_1PCB.html#aa901c90c3a22c257c73ef8ac2261d581">Tasking::PCB</a>
+, <a class="el" href="da/daf/classTasking_1_1TCB.html#a531994780badcf1dbcadaf36c3ca3032">Tasking::TCB</a>
+</li>
+<li>SetTable()
+: <a class="el" href="dc/d90/classMemory_1_1ProgramBreak.html#ae98585de369c8c2a9cc46cb412fc668e">Memory::ProgramBreak</a>
+, <a class="el" href="d5/d49/classMemory_1_1VirtualMemoryArea.html#af10e6065c8c471c07494f31ca6cd59d2">Memory::VirtualMemoryArea</a>
+</li>
+<li>SetupThreadLocalStorage()
+: <a class="el" href="da/daf/classTasking_1_1TCB.html#a675b8a9be048ff20cb28686802d56e5a">Tasking::TCB</a>
 </li>
 <li>SetupUserStack_aarch64()
 : <a class="el" href="da/daf/classTasking_1_1TCB.html#ae53f440da1afafb0b188f919b82ab6a6">Tasking::TCB</a>
@@ -188,15 +217,20 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 : <a class="el" href="dd/dc9/classACPI_1_1DSDT.html#ab2af55e6642a559adaae02f4e485cc0b">ACPI::DSDT</a>
 , <a class="el" href="d0/df9/classPower_1_1Power.html#a5fed53e9d5d08db417dbec98e24305df">Power::Power</a>
 </li>
+<li>Signal()
+: <a class="el" href="d2/d8b/classTasking_1_1Signal.html#a7ad514c516e360b39e2be2709361a048">Tasking::Signal</a>
+</li>
 <li>SignalShutdown()
 : <a class="el" href="dc/dc5/classTasking_1_1Task.html#ac1700ba7536af55599cedce3d8b93f36">Tasking::Task</a>
 </li>
 <li>Size()
 : <a class="el" href="db/d1a/classHashMap.html#ae7a2f576f206fa55d484d848e6ed30ca">HashMap&lt; K, V &gt;</a>
 </li>
-<li>size()
-: <a class="el" href="d8/d29/classstd_1_1string.html#a669d026a65f27aa46e635aa8460f438c">std::string</a>
-, <a class="el" href="d4/d3a/classstd_1_1unordered__map.html#a9bdc32dbd75f4249dcccd0d4d0a1bcc9">std::unordered_map&lt; key_type, value_type &gt;</a>
+<li>SlaveDeviceFile()
+: <a class="el" href="d8/d86/classDriver_1_1SlaveDeviceFile.html#ad19a2d3c0a8d2885501dfcae5085a097">Driver::SlaveDeviceFile</a>
+</li>
+<li>SlavePTY()
+: <a class="el" href="dd/d30/classvfs_1_1SlavePTY.html#a23dc3f48d2fc45493cab01842393ca47">vfs::SlavePTY</a>
 </li>
 <li>Sleep()
 : <a class="el" href="dc/dc5/classTasking_1_1Task.html#aca47cb25035f4b46587395845daaafad">Tasking::Task</a>
@@ -219,29 +253,20 @@ $(document).ready(function(){initNavTree('functions_func_s.html',''); initResiza
 <li>StackGuard()
 : <a class="el" href="dc/dbe/classMemory_1_1StackGuard.html#af39ba290a1fd8c9a7d875bb1597e66a3">Memory::StackGuard</a>
 </li>
-<li>StartCMD()
-: <a class="el" href="dc/d01/classAdvancedHostControllerInterface_1_1Port.html#ae7367ff736e75fa7762588b4810f5375">AdvancedHostControllerInterface::Port</a>
-</li>
 <li>StartNetworkStack()
 : <a class="el" href="d0/d99/classNetworkInterfaceManager_1_1NetworkInterface.html#ad6632d541583aa39dc22afbc820a5180">NetworkInterfaceManager::NetworkInterface</a>
+</li>
+<li>StartScheduler()
+: <a class="el" href="dc/dc5/classTasking_1_1Task.html#ad9efb9b4aa32c5e3a3c58833bfa9ff9e">Tasking::Task</a>
 </li>
 <li>StartService()
 : <a class="el" href="d0/d99/classNetworkInterfaceManager_1_1NetworkInterface.html#a4cc2d210a86c53e066fddaeaabf323bc">NetworkInterfaceManager::NetworkInterface</a>
 </li>
-<li>StopCMD()
-: <a class="el" href="dc/d01/classAdvancedHostControllerInterface_1_1Port.html#a78c014a7b8484ff7c1e6758264c76b2d">AdvancedHostControllerInterface::Port</a>
-</li>
 <li>StopNetworkStack()
 : <a class="el" href="d0/d99/classNetworkInterfaceManager_1_1NetworkInterface.html#adb8ef1e074d096045566a8196f4f4553">NetworkInterfaceManager::NetworkInterface</a>
 </li>
-<li>string()
-: <a class="el" href="d8/d29/classstd_1_1string.html#a51dc6f5da53c34c0baccebfc16db36af">std::string</a>
-</li>
 <li>string2int()
 : <a class="el" href="d7/d0a/classvfs_1_1USTAR.html#ad0b1097b5b6cbf4fc0e26569a12890c3">vfs::USTAR</a>
-</li>
-<li>substr()
-: <a class="el" href="d8/d29/classstd_1_1string.html#a063b9097b75422fc024d10c7a5ad8de4">std::string</a>
 </li>
 <li>swap()
 : <a class="el" href="df/ddb/classstd_1_1shared__ptr.html#a8029336af25252284303d0b32757a853">std::shared_ptr&lt; T &gt;</a>

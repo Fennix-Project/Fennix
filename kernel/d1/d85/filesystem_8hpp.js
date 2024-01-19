@@ -36,18 +36,7 @@ var filesystem_8hpp =
     [ "RefNode", "da/d28/classvfs_1_1RefNode.html", "da/d28/classvfs_1_1RefNode" ],
     [ "Virtual", "d8/d64/classvfs_1_1Virtual.html", "d8/d64/classvfs_1_1Virtual" ],
     [ "FileDescriptorTable", "da/d88/classvfs_1_1FileDescriptorTable.html", "da/d88/classvfs_1_1FileDescriptorTable" ],
-    [ "Fildes", "da/d88/classvfs_1_1FileDescriptorTable.html#dc/da8/structvfs_1_1FileDescriptorTable_1_1Fildes", [
-      [ "Descriptor", "da/d88/classvfs_1_1FileDescriptorTable.html#ae8cc7d2392033df46316e8f356bdc087", null ],
-      [ "Flags", "da/d88/classvfs_1_1FileDescriptorTable.html#a9a14a4d371eecc0dcea1196b665c9d2f", null ],
-      [ "Handle", "da/d88/classvfs_1_1FileDescriptorTable.html#a5eb8c6574c082725f37a4df2c34a298c", null ],
-      [ "Mode", "da/d88/classvfs_1_1FileDescriptorTable.html#afb2a5eebc9f9bb26339b02bb0fe782a4", null ]
-    ] ],
-    [ "DupFildes", "da/d88/classvfs_1_1FileDescriptorTable.html#dc/d93/structvfs_1_1FileDescriptorTable_1_1DupFildes", [
-      [ "Descriptor", "da/d88/classvfs_1_1FileDescriptorTable.html#accc074de21685d9fb09fc9c92ab09ab4", null ],
-      [ "Flags", "da/d88/classvfs_1_1FileDescriptorTable.html#aae802d272699ddef702b19bb54e4eb5a", null ],
-      [ "Handle", "da/d88/classvfs_1_1FileDescriptorTable.html#a829e98f3be7317f2e49574e96b8826c6", null ],
-      [ "Mode", "da/d88/classvfs_1_1FileDescriptorTable.html#a1c0afae60b9f6b51d498e0cbbc26b665", null ]
-    ] ],
+    [ "Fildes", "dc/da8/structvfs_1_1FileDescriptorTable_1_1Fildes.html", "dc/da8/structvfs_1_1FileDescriptorTable_1_1Fildes" ],
     [ "O_APPEND", "d1/d85/filesystem_8hpp.html#ae036f789407d21f07b211552d67b3214", null ],
     [ "O_CLOEXEC", "d1/d85/filesystem_8hpp.html#ad6d8fbe4e494b4dbe051612572d3f757", null ],
     [ "O_CREAT", "d1/d85/filesystem_8hpp.html#a1cf6b1de1fffedaa1d26b189e9a8d2cc", null ],
@@ -105,5 +94,11 @@ var filesystem_8hpp =
     [ "fwrite", "d1/d85/filesystem_8hpp.html#a08608c0aa56801926439704f198622e7", null ],
     [ "lseek", "d1/d85/filesystem_8hpp.html#a8bd74caed008a66808d92d57fa74d9f6", null ],
     [ "lstat", "d1/d85/filesystem_8hpp.html#af52d2b78c938af5e279e57ffa2644ff8", null ],
-    [ "stat", "d1/d85/filesystem_8hpp.html#a495553b93f6e4b88e7d82195f189cb22", null ]
+    [ "operator!=", "d1/d85/filesystem_8hpp.html#aac61b84d7346413e147c8970ec0ac735", null ],
+    [ "operator==", "d1/d85/filesystem_8hpp.html#aed3ee677165931aceee57d0c6d9e4432", null ],
+    [ "stat", "d1/d85/filesystem_8hpp.html#a495553b93f6e4b88e7d82195f189cb22", null ],
+    [ "Descriptor", "d1/d85/filesystem_8hpp.html#a58be20fe2c4bcd0fbc91413078659fc8", null ],
+    [ "Flags", "d1/d85/filesystem_8hpp.html#ac3e60a9fc42fb6c0b656191ebb1d658b", null ],
+    [ "Handle", "d1/d85/filesystem_8hpp.html#a607bc7717301cb76f68f42a278c9b7b6", null ],
+    [ "Mode", "d1/d85/filesystem_8hpp.html#a103f92bee2848a4abd9c26dae80a1b0a", null ]
 ];

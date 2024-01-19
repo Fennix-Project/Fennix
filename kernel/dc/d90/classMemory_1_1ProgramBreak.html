@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -97,9 +97,11 @@ $(document).ready(function(){initNavTree('dc/d90/classMemory_1_1ProgramBreak.htm
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a821fb1c4b1bb28f9a5b2737b4066c277"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a821fb1c4b1bb28f9a5b2737b4066c277">brk</a> (void *<a class="el" href="../../d9/d4e/gigabit_8hpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>)</td></tr>
+<tr class="memitem:ae98585de369c8c2a9cc46cb412fc668e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d90/classMemory_1_1ProgramBreak.html#ae98585de369c8c2a9cc46cb412fc668e">SetTable</a> (<a class="el" href="../../df/d1d/classMemory_1_1PageTable.html">PageTable</a> *<a class="el" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a940510829476fe22006c188eb761b450">Table</a>)</td></tr>
+<tr class="separator:ae98585de369c8c2a9cc46cb412fc668e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a821fb1c4b1bb28f9a5b2737b4066c277"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a821fb1c4b1bb28f9a5b2737b4066c277">brk</a> (void *<a class="el" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>)</td></tr>
 <tr class="separator:a821fb1c4b1bb28f9a5b2737b4066c277"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43d14f02ef06755f9e490e072a6d48a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a43d14f02ef06755f9e490e072a6d48a1">InitBrk</a> (<a class="el" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> <a class="el" href="../../d9/d4e/gigabit_8hpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>)</td></tr>
+<tr class="memitem:a43d14f02ef06755f9e490e072a6d48a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a43d14f02ef06755f9e490e072a6d48a1">InitBrk</a> (<a class="el" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>)</td></tr>
 <tr class="separator:a43d14f02ef06755f9e490e072a6d48a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41830a6ea79643f004d9d89c13095dcc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a41830a6ea79643f004d9d89c13095dcc">ProgramBreak</a> (<a class="el" href="../../df/d1d/classMemory_1_1PageTable.html">PageTable</a> *<a class="el" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a940510829476fe22006c188eb761b450">Table</a>, <a class="el" href="../../d5/d49/classMemory_1_1VirtualMemoryArea.html">VirtualMemoryArea</a> *mm)</td></tr>
 <tr class="separator:a41830a6ea79643f004d9d89c13095dcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -147,19 +149,22 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/db2/brk_8cpp_source.html#l00080">80</a> of file <a class="el" href="../../d4/db2/brk_8cpp_source.html">brk.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    {</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <a class="code" href="../../dc/da7/assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a940510829476fe22006c188eb761b450">Table</a> != <span class="keyword">nullptr</span>);</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <a class="code" href="../../dc/da7/assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a4ed7c46701e5c7fffe294de62fcbd965">vma</a> != <span class="keyword">nullptr</span>);</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        this-&gt;<a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a940510829476fe22006c188eb761b450">Table</a> = <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a940510829476fe22006c188eb761b450">Table</a>;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        this-&gt;<a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a4ed7c46701e5c7fffe294de62fcbd965">vma</a> = <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a4ed7c46701e5c7fffe294de62fcbd965">vma</a>;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/db2/brk_8cpp_source.html#l00086">86</a> of file <a class="el" href="../../d4/db2/brk_8cpp_source.html">brk.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    {</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <a class="code" href="../../dc/da7/assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a940510829476fe22006c188eb761b450">Table</a> != <span class="keyword">nullptr</span>);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <a class="code" href="../../dc/da7/assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a4ed7c46701e5c7fffe294de62fcbd965">vma</a> != <span class="keyword">nullptr</span>);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;+ %#lx&quot;</span>, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        this-&gt;<a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a940510829476fe22006c188eb761b450">Table</a> = <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a940510829476fe22006c188eb761b450">Table</a>;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        this-&gt;<a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a4ed7c46701e5c7fffe294de62fcbd965">vma</a> = <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a4ed7c46701e5c7fffe294de62fcbd965">vma</a>;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    }</div>
 <div class="ttc" id="aassert_8h_html_af576bf8ffa22a44e53018c67095ffbf0"><div class="ttname"><a href="../../dc/da7/assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a></div><div class="ttdeci">#define assert(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da7/assert_8h_source.html#l00023">assert.h:23</a></div></div>
 <div class="ttc" id="aclassMemory_1_1ProgramBreak_html_a4ed7c46701e5c7fffe294de62fcbd965"><div class="ttname"><a href="../../dc/d90/classMemory_1_1ProgramBreak.html#a4ed7c46701e5c7fffe294de62fcbd965">Memory::ProgramBreak::vma</a></div><div class="ttdeci">VirtualMemoryArea * vma</div><div class="ttdef"><b>Definition:</b> <a href="../../de/de1/brk_8hpp_source.html#l00033">brk.hpp:33</a></div></div>
 <div class="ttc" id="aclassMemory_1_1ProgramBreak_html_a940510829476fe22006c188eb761b450"><div class="ttname"><a href="../../dc/d90/classMemory_1_1ProgramBreak.html#a940510829476fe22006c188eb761b450">Memory::ProgramBreak::Table</a></div><div class="ttdeci">PageTable * Table</div><div class="ttdef"><b>Definition:</b> <a href="../../de/de1/brk_8hpp_source.html#l00032">brk.hpp:32</a></div></div>
+<div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00094">debug.h:94</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/da7/assert_8h_source.html#l00023">assert</a>, <a class="el" href="../../de/de1/brk_8hpp_source.html#l00032">Table</a>, and <a class="el" href="../../de/de1/brk_8hpp_source.html#l00033">vma</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/da7/assert_8h_source.html#l00023">assert</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, <a class="el" href="../../de/de1/brk_8hpp_source.html#l00032">Table</a>, and <a class="el" href="../../de/de1/brk_8hpp_source.html#l00033">vma</a>.</p>
 
 </div>
 </div>
@@ -178,12 +183,16 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/db2/brk_8cpp_source.html#l00089">89</a> of file <a class="el" href="../../d4/db2/brk_8cpp_source.html">brk.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    {</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="comment">/* Do nothing because VirtualMemoryArea</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">            will be destroyed later. */</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/db2/brk_8cpp_source.html#l00097">97</a> of file <a class="el" href="../../d4/db2/brk_8cpp_source.html">brk.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    {</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;- %#lx&quot;</span>, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="comment">/* Do nothing because VirtualMemoryArea</span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="comment">            will be destroyed later. */</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    }</div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -212,68 +221,75 @@ Private Attributes</h2></td></tr>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        }</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="comment">/* Get the current program break. */</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a> == <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a> == <span class="keyword">nullptr</span>)</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <span class="keywordflow">return</span> (<span class="keywordtype">void</span> *)<a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#af030147be3c58d7ff13fe6a0e721b6b3">Break</a>;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="comment">/* Check if the address is valid. */</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">if</span> ((<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a> &lt; <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#ab29b11fe6c82b144b3416ad012a41ec6">HeapStart</a>)</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <span class="keywordflow">return</span> (<span class="keywordtype">void</span> *)-<a class="code" href="../../d8/dc2/errno_8h.html#a6a05c923dad0c1208043e9c20a58c8e5">ENOMEM</a>;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        Virtual vmm = Virtual(this-&gt;<a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a940510829476fe22006c188eb761b450">Table</a>);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordflow">if</span> ((<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a> &gt; <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#af030147be3c58d7ff13fe6a0e721b6b3">Break</a>)</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        {</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            <span class="comment">/* Allocate more memory. */</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <span class="keywordtype">size_t</span> Pages = <a class="code" href="../../d4/dc3/macro_8hpp.html#a10029add9db6f0340d9bd2be9b2d1048">TO_PAGES</a>(<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>(<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>) - <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#af030147be3c58d7ff13fe6a0e721b6b3">Break</a>);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <span class="keywordtype">void</span> *Allocated = <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a4ed7c46701e5c7fffe294de62fcbd965">vma</a>-&gt;<a class="code" href="../../d5/d49/classMemory_1_1VirtualMemoryArea.html#a5cd1bbf687359e9a9a19d61968b89232">RequestPages</a>(Pages);</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            <span class="keywordflow">if</span> (Allocated == <span class="keyword">nullptr</span>)</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                <span class="keywordflow">return</span> (<span class="keywordtype">void</span> *)-<a class="code" href="../../d8/dc2/errno_8h.html#a6a05c923dad0c1208043e9c20a58c8e5">ENOMEM</a>;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <span class="comment">/* Map the allocated pages. */</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; Pages; i++)</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            {</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                <span class="keywordtype">void</span> *VirtAddr = (<span class="keywordtype">void</span> *)(<a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#af030147be3c58d7ff13fe6a0e721b6b3">Break</a> + (i * <a class="code" href="../../d4/dc3/macro_8hpp.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a>));</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                <span class="keywordtype">void</span> *PhysAddr = (<span class="keywordtype">void</span> *)(<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>(Allocated) + (i * <a class="code" href="../../d4/dc3/macro_8hpp.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a>));</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                vmm.Map(VirtAddr, PhysAddr, <a class="code" href="../../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2a2e2cbfec756dc2799e930bcb018f3da0">RW</a> | <a class="code" href="../../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2ad4ef4c4cde11ca945e056ebb58f0a1c0">US</a>);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            }</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#af030147be3c58d7ff13fe6a0e721b6b3">Break</a> = (<a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <span class="keywordflow">return</span> (<span class="keywordtype">void</span> *)<a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#af030147be3c58d7ff13fe6a0e721b6b3">Break</a>;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        }</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">if</span> ((<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a> &lt; <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#ab29b11fe6c82b144b3416ad012a41ec6">HeapStart</a>)</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Address %#lx is less than HeapStart %#lx&quot;</span>, <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>, <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#ab29b11fe6c82b144b3416ad012a41ec6">HeapStart</a>);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <span class="keywordflow">return</span> (<span class="keywordtype">void</span> *)-<a class="code" href="../../d8/dc2/errno_8h.html#a6a05c923dad0c1208043e9c20a58c8e5">ENOMEM</a>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        }</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        Virtual vmm(this-&gt;<a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a940510829476fe22006c188eb761b450">Table</a>);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">if</span> ((<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a> &gt; <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#af030147be3c58d7ff13fe6a0e721b6b3">Break</a>)</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        {</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            <span class="comment">/* Allocate more memory. */</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            <a class="code" href="../../d6/de6/include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a> Pages = <a class="code" href="../../d4/dc3/macro_8hpp.html#a10029add9db6f0340d9bd2be9b2d1048">TO_PAGES</a>(<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>(<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>) - <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#af030147be3c58d7ff13fe6a0e721b6b3">Break</a>);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <span class="keywordtype">void</span> *Allocated = <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a4ed7c46701e5c7fffe294de62fcbd965">vma</a>-&gt;<a class="code" href="../../d5/d49/classMemory_1_1VirtualMemoryArea.html#a5cd1bbf687359e9a9a19d61968b89232">RequestPages</a>(Pages);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <span class="keywordflow">if</span> (Allocated == <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                <span class="keywordflow">return</span> (<span class="keywordtype">void</span> *)-<a class="code" href="../../d8/dc2/errno_8h.html#a6a05c923dad0c1208043e9c20a58c8e5">ENOMEM</a>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <span class="comment">/* Map the allocated pages. */</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <span class="keywordflow">for</span> (<a class="code" href="../../d6/de6/include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a> i = 0; i &lt; Pages; i++)</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                <span class="keywordtype">void</span> *VirtAddr = (<span class="keywordtype">void</span> *)(<a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#af030147be3c58d7ff13fe6a0e721b6b3">Break</a> + (i * <a class="code" href="../../d4/dc3/macro_8hpp.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a>));</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                <span class="keywordtype">void</span> *PhysAddr = (<span class="keywordtype">void</span> *)(<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>(Allocated) + (i * <a class="code" href="../../d4/dc3/macro_8hpp.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a>));</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Mapping %#lx to %#lx&quot;</span>, VirtAddr, PhysAddr);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                vmm.Map(VirtAddr, PhysAddr, <a class="code" href="../../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2a2e2cbfec756dc2799e930bcb018f3da0">RW</a> | <a class="code" href="../../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2ad4ef4c4cde11ca945e056ebb58f0a1c0">US</a>);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            }</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="comment">/* Free memory. */</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordtype">size_t</span> Pages = <a class="code" href="../../d4/dc3/macro_8hpp.html#a10029add9db6f0340d9bd2be9b2d1048">TO_PAGES</a>(<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>(<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>) - <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#af030147be3c58d7ff13fe6a0e721b6b3">Break</a>);</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a4ed7c46701e5c7fffe294de62fcbd965">vma</a>-&gt;<a class="code" href="../../d5/d49/classMemory_1_1VirtualMemoryArea.html#af0ea755b06dea2605ecce60504b84322">FreePages</a>((<span class="keywordtype">void</span> *)<a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#af030147be3c58d7ff13fe6a0e721b6b3">Break</a>, Pages);</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="comment">/* Unmap the freed pages. */</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; Pages; i++)</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        {</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Page = <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#af030147be3c58d7ff13fe6a0e721b6b3">Break</a> - (i * 0x1000);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            vmm.Remap((<span class="keywordtype">void</span> *)Page, (<span class="keywordtype">void</span> *)Page, <a class="code" href="../../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2a2125f893386d8c165e3cbab119d564a1">PTFlag::P</a> | <a class="code" href="../../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2a2e2cbfec756dc2799e930bcb018f3da0">PTFlag::RW</a>);</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        }</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#af030147be3c58d7ff13fe6a0e721b6b3">Break</a> = (<a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">return</span> (<span class="keywordtype">void</span> *)<a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#af030147be3c58d7ff13fe6a0e721b6b3">Break</a>;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
-<div class="ttc" id="aXallocV1_8cpp_html_a6fc2b8ed8be1aa26731a45000f43b8cc"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a></div><div class="ttdeci">void * Address</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00001">XallocV1.cpp:1</a></div></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#af030147be3c58d7ff13fe6a0e721b6b3">Break</a> = <a class="code" href="../../d6/de6/include_2types_8h.html#a7a4ba4f2dbc3879306d8518c2670dd77">ROUND_UP</a>(<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>(<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>), <a class="code" href="../../d4/dc3/macro_8hpp.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a>);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Round up %#lx to %#lx&quot;</span>, <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>, <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#af030147be3c58d7ff13fe6a0e721b6b3">Break</a>);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        }</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="comment">/* Free memory. */</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <a class="code" href="../../d6/de6/include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a> Pages = <a class="code" href="../../d4/dc3/macro_8hpp.html#a10029add9db6f0340d9bd2be9b2d1048">TO_PAGES</a>(<a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#af030147be3c58d7ff13fe6a0e721b6b3">Break</a> - <a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>(<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>));</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a4ed7c46701e5c7fffe294de62fcbd965">vma</a>-&gt;<a class="code" href="../../d5/d49/classMemory_1_1VirtualMemoryArea.html#af0ea755b06dea2605ecce60504b84322">FreePages</a>((<span class="keywordtype">void</span> *)<a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#af030147be3c58d7ff13fe6a0e721b6b3">Break</a>, Pages);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="comment">/* Unmap the freed pages. */</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="../../d6/de6/include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a> i = 0; i &lt; Pages; i++)</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Page = <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#af030147be3c58d7ff13fe6a0e721b6b3">Break</a> - (i * 0x1000);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            vmm.Remap((<span class="keywordtype">void</span> *)Page, (<span class="keywordtype">void</span> *)Page, <a class="code" href="../../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2a2e2cbfec756dc2799e930bcb018f3da0">RW</a>);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Unmapping %#lx&quot;</span>, Page);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        }</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#af030147be3c58d7ff13fe6a0e721b6b3">Break</a> = (<a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordflow">return</span> (<span class="keywordtype">void</span> *)<a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#af030147be3c58d7ff13fe6a0e721b6b3">Break</a>;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div>
+<div class="ttc" id="aXallocV1_8cpp_html_ae0cc8a5c23a59a178d241a27f12b1ef5"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a></div><div class="ttdeci">void * Address</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00001">XallocV1.cpp:1</a></div></div>
 <div class="ttc" id="aarithmetic__operations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddd/arithmetic__operations_8c_source.html#l00294">arithmetic_operations.c:294</a></div></div>
 <div class="ttc" id="aclassMemory_1_1ProgramBreak_html_ab29b11fe6c82b144b3416ad012a41ec6"><div class="ttname"><a href="../../dc/d90/classMemory_1_1ProgramBreak.html#ab29b11fe6c82b144b3416ad012a41ec6">Memory::ProgramBreak::HeapStart</a></div><div class="ttdeci">uintptr_t HeapStart</div><div class="ttdef"><b>Definition:</b> <a href="../../de/de1/brk_8hpp_source.html#l00035">brk.hpp:35</a></div></div>
 <div class="ttc" id="aclassMemory_1_1ProgramBreak_html_af030147be3c58d7ff13fe6a0e721b6b3"><div class="ttname"><a href="../../dc/d90/classMemory_1_1ProgramBreak.html#af030147be3c58d7ff13fe6a0e721b6b3">Memory::ProgramBreak::Break</a></div><div class="ttdeci">uintptr_t Break</div><div class="ttdef"><b>Definition:</b> <a href="../../de/de1/brk_8hpp_source.html#l00036">brk.hpp:36</a></div></div>
-<div class="ttc" id="aclassMemory_1_1VirtualMemoryArea_html_a5cd1bbf687359e9a9a19d61968b89232"><div class="ttname"><a href="../../d5/d49/classMemory_1_1VirtualMemoryArea.html#a5cd1bbf687359e9a9a19d61968b89232">Memory::VirtualMemoryArea::RequestPages</a></div><div class="ttdeci">void * RequestPages(size_t Count, bool User=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/ded/vma_8cpp_source.html#l00118">vma.cpp:118</a></div></div>
-<div class="ttc" id="aclassMemory_1_1VirtualMemoryArea_html_af0ea755b06dea2605ecce60504b84322"><div class="ttname"><a href="../../d5/d49/classMemory_1_1VirtualMemoryArea.html#af0ea755b06dea2605ecce60504b84322">Memory::VirtualMemoryArea::FreePages</a></div><div class="ttdeci">void FreePages(void *Address, size_t Count)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/ded/vma_8cpp_source.html#l00144">vma.cpp:144</a></div></div>
+<div class="ttc" id="aclassMemory_1_1VirtualMemoryArea_html_a5cd1bbf687359e9a9a19d61968b89232"><div class="ttname"><a href="../../d5/d49/classMemory_1_1VirtualMemoryArea.html#a5cd1bbf687359e9a9a19d61968b89232">Memory::VirtualMemoryArea::RequestPages</a></div><div class="ttdeci">void * RequestPages(size_t Count, bool User=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/ded/vma_8cpp_source.html#l00120">vma.cpp:120</a></div></div>
+<div class="ttc" id="aclassMemory_1_1VirtualMemoryArea_html_af0ea755b06dea2605ecce60504b84322"><div class="ttname"><a href="../../d5/d49/classMemory_1_1VirtualMemoryArea.html#af0ea755b06dea2605ecce60504b84322">Memory::VirtualMemoryArea::FreePages</a></div><div class="ttdeci">void FreePages(void *Address, size_t Count)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/ded/vma_8cpp_source.html#l00143">vma.cpp:143</a></div></div>
 <div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00086">debug.h:86</a></div></div>
 <div class="ttc" id="aerrno_8h_html_a6a05c923dad0c1208043e9c20a58c8e5"><div class="ttname"><a href="../../d8/dc2/errno_8h.html#a6a05c923dad0c1208043e9c20a58c8e5">ENOMEM</a></div><div class="ttdeci">#define ENOMEM</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc2/errno_8h_source.html#l00055">errno.h:55</a></div></div>
 <div class="ttc" id="aerrno_8h_html_af0fac1cea1165b4debec7f686edf3313"><div class="ttname"><a href="../../d8/dc2/errno_8h.html#af0fac1cea1165b4debec7f686edf3313">EAGAIN</a></div><div class="ttdeci">#define EAGAIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc2/errno_8h_source.html#l00052">errno.h:52</a></div></div>
 <div class="ttc" id="ainclude_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00186">types.h:186</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_a7a4ba4f2dbc3879306d8518c2670dd77"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a7a4ba4f2dbc3879306d8518c2670dd77">ROUND_UP</a></div><div class="ttdeci">#define ROUND_UP(x, y)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00099">types.h:99</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_af10f4c58d91a6fa30ccc8a19d0ecbf48"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a></div><div class="ttdeci">intptr_t ssize_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00199">types.h:199</a></div></div>
 <div class="ttc" id="amacro_8hpp_html_a10029add9db6f0340d9bd2be9b2d1048"><div class="ttname"><a href="../../d4/dc3/macro_8hpp.html#a10029add9db6f0340d9bd2be9b2d1048">TO_PAGES</a></div><div class="ttdeci">#define TO_PAGES(d)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dc3/macro_8hpp_source.html#l00046">macro.hpp:46</a></div></div>
 <div class="ttc" id="amacro_8hpp_html_a7d467c1d283fdfa1f2081ba1e0d01b6e"><div class="ttname"><a href="../../d4/dc3/macro_8hpp.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a></div><div class="ttdeci">#define PAGE_SIZE</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dc3/macro_8hpp_source.html#l00036">macro.hpp:36</a></div></div>
-<div class="ttc" id="anamespaceMemory_html_a0e8df7832e7ea87aa8937798d28472b2a2125f893386d8c165e3cbab119d564a1"><div class="ttname"><a href="../../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2a2125f893386d8c165e3cbab119d564a1">Memory::P</a></div><div class="ttdeci">@ P</div><div class="ttdoc">Present.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2d/table_8hpp_source.html#l00032">table.hpp:32</a></div></div>
 <div class="ttc" id="anamespaceMemory_html_a0e8df7832e7ea87aa8937798d28472b2a2e2cbfec756dc2799e930bcb018f3da0"><div class="ttname"><a href="../../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2a2e2cbfec756dc2799e930bcb018f3da0">Memory::RW</a></div><div class="ttdeci">@ RW</div><div class="ttdoc">Read/Write.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2d/table_8hpp_source.html#l00035">table.hpp:35</a></div></div>
 <div class="ttc" id="anamespaceMemory_html_a0e8df7832e7ea87aa8937798d28472b2ad4ef4c4cde11ca945e056ebb58f0a1c0"><div class="ttname"><a href="../../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2ad4ef4c4cde11ca945e056ebb58f0a1c0">Memory::US</a></div><div class="ttdeci">@ US</div><div class="ttdoc">User/Supervisor.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2d/table_8hpp_source.html#l00038">table.hpp:38</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00001">Address</a>, <a class="el" href="../../de/de1/brk_8hpp_source.html#l00036">Break</a>, <a class="el" href="../../d8/dc2/errno_8h_source.html#l00052">EAGAIN</a>, <a class="el" href="../../d8/dc2/errno_8h_source.html#l00055">ENOMEM</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00086">error</a>, <a class="el" href="../../da/ded/vma_8cpp_source.html#l00144">Memory::VirtualMemoryArea::FreePages()</a>, <a class="el" href="../../de/de1/brk_8hpp_source.html#l00035">HeapStart</a>, <a class="el" href="../../d0/d6c/arch_2aarch64_2memory_2vmm_8cpp_source.html#l00033">Memory::Virtual::Map()</a>, <a class="el" href="../../de/d2d/table_8hpp_source.html#l00032">Memory::P</a>, <a class="el" href="../../d4/dc3/macro_8hpp_source.html#l00036">PAGE_SIZE</a>, <a class="el" href="../../d3/dff/virtual_8hpp_source.html#l00271">Memory::Virtual::Remap()</a>, <a class="el" href="../../da/ded/vma_8cpp_source.html#l00118">Memory::VirtualMemoryArea::RequestPages()</a>, <a class="el" href="../../de/d2d/table_8hpp_source.html#l00035">Memory::RW</a>, <a class="el" href="../../de/de1/brk_8hpp_source.html#l00032">Table</a>, <a class="el" href="../../d4/dc3/macro_8hpp_source.html#l00046">TO_PAGES</a>, <a class="el" href="../../de/d2d/table_8hpp_source.html#l00038">Memory::US</a>, and <a class="el" href="../../de/de1/brk_8hpp_source.html#l00033">vma</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00001">Address</a>, <a class="el" href="../../de/de1/brk_8hpp_source.html#l00036">Break</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, <a class="el" href="../../d8/dc2/errno_8h_source.html#l00052">EAGAIN</a>, <a class="el" href="../../d8/dc2/errno_8h_source.html#l00055">ENOMEM</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00086">error</a>, <a class="el" href="../../da/ded/vma_8cpp_source.html#l00143">Memory::VirtualMemoryArea::FreePages()</a>, <a class="el" href="../../de/de1/brk_8hpp_source.html#l00035">HeapStart</a>, <a class="el" href="../../d0/d6c/arch_2aarch64_2memory_2vmm_8cpp_source.html#l00033">Memory::Virtual::Map()</a>, <a class="el" href="../../d4/dc3/macro_8hpp_source.html#l00036">PAGE_SIZE</a>, <a class="el" href="../../d3/dff/virtual_8hpp_source.html#l00270">Memory::Virtual::Remap()</a>, <a class="el" href="../../da/ded/vma_8cpp_source.html#l00120">Memory::VirtualMemoryArea::RequestPages()</a>, <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00099">ROUND_UP</a>, <a class="el" href="../../de/d2d/table_8hpp_source.html#l00035">Memory::RW</a>, <a class="el" href="../../de/de1/brk_8hpp_source.html#l00032">Table</a>, <a class="el" href="../../d4/dc3/macro_8hpp_source.html#l00046">TO_PAGES</a>, <a class="el" href="../../de/d2d/table_8hpp_source.html#l00038">Memory::US</a>, and <a class="el" href="../../de/de1/brk_8hpp_source.html#l00033">vma</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/dd4/linux_8cpp_source.html#l00328">linux_brk()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/dd4/linux_8cpp_source.html#l00409">linux_brk()</a>.</p>
 
 </div>
 </div>
@@ -301,14 +317,47 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/de1/brk_8hpp_source.html#l00042">42</a> of file <a class="el" href="../../de/de1/brk_8hpp_source.html">brk.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        {</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <span class="keyword">function</span>(<span class="stringliteral">&quot;%#lx&quot;</span>, <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#ab29b11fe6c82b144b3416ad012a41ec6">HeapStart</a> = <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#af030147be3c58d7ff13fe6a0e721b6b3">Break</a> = <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="../../de/de1/brk_8hpp_source.html#l00045">45</a> of file <a class="el" href="../../de/de1/brk_8hpp_source.html">brk.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        {</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            <span class="keyword">function</span>(<span class="stringliteral">&quot;%#lx&quot;</span>, <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#ab29b11fe6c82b144b3416ad012a41ec6">HeapStart</a> = <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#af030147be3c58d7ff13fe6a0e721b6b3">Break</a> = <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00001">Address</a>, <a class="el" href="../../de/de1/brk_8hpp_source.html#l00036">Break</a>, and <a class="el" href="../../de/de1/brk_8hpp_source.html#l00035">HeapStart</a>.</p>
+
+</div>
+</div>
+<a id="ae98585de369c8c2a9cc46cb412fc668e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae98585de369c8c2a9cc46cb412fc668e">&#9670;&nbsp;</a></span>SetTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Memory::ProgramBreak::SetTable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d1d/classMemory_1_1PageTable.html">PageTable</a> *&#160;</td>
+          <td class="paramname"><em>Table</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/de1/brk_8hpp_source.html#l00040">40</a> of file <a class="el" href="../../de/de1/brk_8hpp_source.html">brk.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;{ this-&gt;<a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a940510829476fe22006c188eb761b450">Table</a> = <a class="code" href="../../dc/d90/classMemory_1_1ProgramBreak.html#a940510829476fe22006c188eb761b450">Table</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../de/de1/brk_8hpp_source.html#l00032">Table</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/dd4/linux_8cpp_source.html#l00624">linux_fork()</a>.</p>
 
 </div>
 </div>
@@ -335,7 +384,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/de1/brk_8hpp_source.html#l00036">36</a> of file <a class="el" href="../../de/de1/brk_8hpp_source.html">brk.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/db2/brk_8cpp_source.html#l00027">brk()</a>, and <a class="el" href="../../de/de1/brk_8hpp_source.html#l00042">InitBrk()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/db2/brk_8cpp_source.html#l00027">brk()</a>, and <a class="el" href="../../de/de1/brk_8hpp_source.html#l00045">InitBrk()</a>.</p>
 
 </div>
 </div>
@@ -361,7 +410,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/de1/brk_8hpp_source.html#l00035">35</a> of file <a class="el" href="../../de/de1/brk_8hpp_source.html">brk.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/db2/brk_8cpp_source.html#l00027">brk()</a>, and <a class="el" href="../../de/de1/brk_8hpp_source.html#l00042">InitBrk()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/db2/brk_8cpp_source.html#l00027">brk()</a>, and <a class="el" href="../../de/de1/brk_8hpp_source.html#l00045">InitBrk()</a>.</p>
 
 </div>
 </div>
@@ -387,7 +436,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/de1/brk_8hpp_source.html#l00032">32</a> of file <a class="el" href="../../de/de1/brk_8hpp_source.html">brk.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/db2/brk_8cpp_source.html#l00027">brk()</a>, and <a class="el" href="../../d4/db2/brk_8cpp_source.html#l00080">ProgramBreak()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/db2/brk_8cpp_source.html#l00027">brk()</a>, <a class="el" href="../../d4/db2/brk_8cpp_source.html#l00086">ProgramBreak()</a>, and <a class="el" href="../../de/de1/brk_8hpp_source.html#l00040">SetTable()</a>.</p>
 
 </div>
 </div>
@@ -413,7 +462,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/de1/brk_8hpp_source.html#l00033">33</a> of file <a class="el" href="../../de/de1/brk_8hpp_source.html">brk.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/db2/brk_8cpp_source.html#l00027">brk()</a>, and <a class="el" href="../../d4/db2/brk_8cpp_source.html#l00080">ProgramBreak()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/db2/brk_8cpp_source.html#l00027">brk()</a>, and <a class="el" href="../../d4/db2/brk_8cpp_source.html#l00086">ProgramBreak()</a>.</p>
 
 </div>
 </div>

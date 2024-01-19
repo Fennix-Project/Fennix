@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('dc/db5/clock__nanosleep__time32_8c.htm
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a61eb1dd70354710317903cf09c0c51d0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db5/clock__nanosleep__time32_8c.html#a61eb1dd70354710317903cf09c0c51d0">__clock_nanosleep_time32</a> (clockid_t clk, int <a class="el" href="../../db/dd4/sm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a>, const struct <a class="el" href="../../da/de1/time32_8h.html#dd/d96/structtimespec32">timespec32</a> *req32, struct <a class="el" href="../../da/de1/time32_8h.html#dd/d96/structtimespec32">timespec32</a> *rem32)</td></tr>
+<tr class="memitem:a61eb1dd70354710317903cf09c0c51d0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db5/clock__nanosleep__time32_8c.html#a61eb1dd70354710317903cf09c0c51d0">__clock_nanosleep_time32</a> (<a class="el" href="../../da/d63/defs_8hpp.html#a6dcac6a5cea7d9c842145e1444d91e22">clockid_t</a> clk, int <a class="el" href="../../db/dd4/sm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a>, const struct <a class="el" href="../../da/de1/time32_8h.html#dd/d96/structtimespec32">timespec32</a> *req32, struct <a class="el" href="../../da/de1/time32_8h.html#dd/d96/structtimespec32">timespec32</a> *rem32)</td></tr>
 <tr class="separator:a61eb1dd70354710317903cf09c0c51d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -112,7 +112,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int __clock_nanosleep_time32 </td>
           <td>(</td>
-          <td class="paramtype">clockid_t&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/d63/defs_8hpp.html#a6dcac6a5cea7d9c842145e1444d91e22">clockid_t</a>&#160;</td>
           <td class="paramname"><em>clk</em>, </td>
         </tr>
         <tr>
@@ -154,11 +154,11 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
 <div class="ttc" id="aKernel_2include__std_2errno_8h_html_a46b83d9f6c23b1b65a8cecfd775ddaed"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a46b83d9f6c23b1b65a8cecfd775ddaed">EINTR</a></div><div class="ttdeci">#define EINTR</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00031">errno.h:31</a></div></div>
 <div class="ttc" id="adumpkmap_8c_html_abb0829cce9dd20a40ae0d86890ae85c6"><div class="ttname"><a href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a></div><div class="ttdeci">#define flags</div></div>
-<div class="ttc" id="astat-time_8h_html_da/d1c/structtimespec"><div class="ttname"><a href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d79/stat-time_8h_source.html#l00034">stat-time.h:35</a></div></div>
+<div class="ttc" id="astat-time_8h_html_da/d1c/structtimespec"><div class="ttname"><a href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d98/Kernel_2include__std_2time_8h_source.html#l00023">time.h:24</a></div></div>
 <div class="ttc" id="atime32_8h_html_a92bde6cadfeb47e4c18369cc1196601f"><div class="ttname"><a href="../../da/de1/time32_8h.html#a92bde6cadfeb47e4c18369cc1196601f">timespec32::tv_nsec</a></div><div class="ttdeci">long tv_nsec</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de1/time32_8h_source.html#l00020">time32.h:20</a></div></div>
 <div class="ttc" id="atime32_8h_html_af8db5cfd5569ae1a34067b62508db932"><div class="ttname"><a href="../../da/de1/time32_8h.html#af8db5cfd5569ae1a34067b62508db932">timespec32::tv_sec</a></div><div class="ttdeci">long tv_sec</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de1/time32_8h_source.html#l00019">time32.h:19</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00031">EINTR</a>, <a class="el" href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a>, <a class="el" href="../../de/d79/stat-time_8h_source.html#l00037">timespec::tv_nsec</a>, <a class="el" href="../../da/de1/time32_8h_source.html#l00020">timespec32::tv_nsec</a>, <a class="el" href="../../de/d79/stat-time_8h_source.html#l00036">timespec::tv_sec</a>, and <a class="el" href="../../da/de1/time32_8h_source.html#l00019">timespec32::tv_sec</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00031">EINTR</a>, <a class="el" href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a>, <a class="el" href="../../de/d98/Kernel_2include__std_2time_8h_source.html#l00026">timespec::tv_nsec</a>, <a class="el" href="../../da/de1/time32_8h_source.html#l00020">timespec32::tv_nsec</a>, <a class="el" href="../../de/d98/Kernel_2include__std_2time_8h_source.html#l00025">timespec::tv_sec</a>, and <a class="el" href="../../da/de1/time32_8h_source.html#l00019">timespec32::tv_sec</a>.</p>
 
 </div>
 </div>

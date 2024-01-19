@@ -113,9 +113,9 @@ Macros</h2></td></tr>
 <tr class="separator:a1de6625fa208285b5f2b043fa9c537e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d467c1d283fdfa1f2081ba1e0d01b6e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a>&#160;&#160;&#160;0x1000</td></tr>
 <tr class="separator:a7d467c1d283fdfa1f2081ba1e0d01b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10029add9db6f0340d9bd2be9b2d1048"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a10029add9db6f0340d9bd2be9b2d1048">TO_PAGES</a>(d)&#160;&#160;&#160;(d / <a class="el" href="../../db/dc8/libc_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a> + 1)</td></tr>
+<tr class="memitem:a10029add9db6f0340d9bd2be9b2d1048"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a10029add9db6f0340d9bd2be9b2d1048">TO_PAGES</a>(d)&#160;&#160;&#160;(d / <a class="el" href="../../d3/d5a/base_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a> + 1)</td></tr>
 <tr class="separator:a10029add9db6f0340d9bd2be9b2d1048"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8af6466c29c08f6443c392f25181fe3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#ac8af6466c29c08f6443c392f25181fe3">FROM_PAGES</a>(d)&#160;&#160;&#160;(d * <a class="el" href="../../db/dc8/libc_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a> - 1)</td></tr>
+<tr class="memitem:ac8af6466c29c08f6443c392f25181fe3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#ac8af6466c29c08f6443c392f25181fe3">FROM_PAGES</a>(d)&#160;&#160;&#160;(d * <a class="el" href="../../d3/d5a/base_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a> - 1)</td></tr>
 <tr class="separator:ac8af6466c29c08f6443c392f25181fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2ed1581af9d674b98f3aa559cba18ac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#ab2ed1581af9d674b98f3aa559cba18ac">NORMAL_VMA_OFFSET</a>&#160;&#160;&#160;0xFFFF800000000000</td></tr>
 <tr class="separator:ab2ed1581af9d674b98f3aa559cba18ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -127,13 +127,13 @@ Macros</h2></td></tr>
 <tr class="memitem:aa6e99f855eb906d87180d7c66506ba49"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aa6e99f855eb906d87180d7c66506ba49">USER_HEAP_BASE</a>&#160;&#160;&#160;0xFFFFD00000000000</td></tr>
 <tr class="memdesc:aa6e99f855eb906d87180d7c66506ba49"><td class="mdescLeft">&#160;</td><td class="mdescRight">USER_HEAP_BASE is the base address of the user heap allocated by the kernel.  <a href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aa6e99f855eb906d87180d7c66506ba49">More...</a><br /></td></tr>
 <tr class="separator:aa6e99f855eb906d87180d7c66506ba49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa700d7a085f4fa2439650b7675228b88"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aa700d7a085f4fa2439650b7675228b88">kmalloc</a>(<a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)&#160;&#160;&#160;<a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aa4706c18fd31dbd81870ce719c098d96">HeapMalloc</a>(<a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</td></tr>
+<tr class="memitem:aa700d7a085f4fa2439650b7675228b88"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aa700d7a085f4fa2439650b7675228b88">kmalloc</a>(<a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a7da24467a0654ce2d1b0d8d0a09eee4b">Size</a>)&#160;&#160;&#160;<a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aa4706c18fd31dbd81870ce719c098d96">HeapMalloc</a>(<a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a7da24467a0654ce2d1b0d8d0a09eee4b">Size</a>)</td></tr>
 <tr class="separator:aa700d7a085f4fa2439650b7675228b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a778ebd1959202ffd1073f89a446caf8b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a778ebd1959202ffd1073f89a446caf8b">kcalloc</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>,  <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)&#160;&#160;&#160;<a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#ac296350bb79ac35ec60a6e976bb4c99e">HeapCalloc</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</td></tr>
+<tr class="memitem:a778ebd1959202ffd1073f89a446caf8b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a778ebd1959202ffd1073f89a446caf8b">kcalloc</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>,  <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a7da24467a0654ce2d1b0d8d0a09eee4b">Size</a>)&#160;&#160;&#160;<a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#ac296350bb79ac35ec60a6e976bb4c99e">HeapCalloc</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>, <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a7da24467a0654ce2d1b0d8d0a09eee4b">Size</a>)</td></tr>
 <tr class="separator:a778ebd1959202ffd1073f89a446caf8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c1f3b7e5e4c2c928206834a68a75b6c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a2c1f3b7e5e4c2c928206834a68a75b6c">krealloc</a>(<a class="el" href="../../d9/d4e/gigabit_8hpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>,  <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)&#160;&#160;&#160;<a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a0a040753e4a4cccce6354a50184d35eb">HeapRealloc</a>(<a class="el" href="../../d9/d4e/gigabit_8hpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</td></tr>
+<tr class="memitem:a2c1f3b7e5e4c2c928206834a68a75b6c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a2c1f3b7e5e4c2c928206834a68a75b6c">krealloc</a>(<a class="el" href="../../d0/daf/ac97_8cpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a>,  <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a7da24467a0654ce2d1b0d8d0a09eee4b">Size</a>)&#160;&#160;&#160;<a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a0a040753e4a4cccce6354a50184d35eb">HeapRealloc</a>(<a class="el" href="../../d0/daf/ac97_8cpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a>, <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a7da24467a0654ce2d1b0d8d0a09eee4b">Size</a>)</td></tr>
 <tr class="separator:a2c1f3b7e5e4c2c928206834a68a75b6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef27615e6561e63428541f98e7e60b88"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aef27615e6561e63428541f98e7e60b88">kfree</a>(<a class="el" href="../../d9/d4e/gigabit_8hpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>)&#160;&#160;&#160;<a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aa7c05e2c931fbcebd2d48516e991f672">HeapFree</a>(<a class="el" href="../../d9/d4e/gigabit_8hpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>)</td></tr>
+<tr class="memitem:aef27615e6561e63428541f98e7e60b88"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aef27615e6561e63428541f98e7e60b88">kfree</a>(<a class="el" href="../../d0/daf/ac97_8cpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a>)&#160;&#160;&#160;<a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aa7c05e2c931fbcebd2d48516e991f672">HeapFree</a>(<a class="el" href="../../d0/daf/ac97_8cpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a>)</td></tr>
 <tr class="separator:aef27615e6561e63428541f98e7e60b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -153,15 +153,15 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abd13770fbbe364986c76319b5f6c57f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#abd13770fbbe364986c76319b5f6c57f3">InitializeMemoryManagement</a> (EFI_HANDLE ImageHandle, EFI_SYSTEM_TABLE *SystemTable)</td></tr>
+<tr class="memitem:abd13770fbbe364986c76319b5f6c57f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#abd13770fbbe364986c76319b5f6c57f3">InitializeMemoryManagement</a> (EFI_HANDLE ImageHandle, EFI_SYSTEM_TABLE *SystemTable)</td></tr>
 <tr class="separator:abd13770fbbe364986c76319b5f6c57f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4706c18fd31dbd81870ce719c098d96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aa4706c18fd31dbd81870ce719c098d96">HeapMalloc</a> (<a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</td></tr>
+<tr class="memitem:aa4706c18fd31dbd81870ce719c098d96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aa4706c18fd31dbd81870ce719c098d96">HeapMalloc</a> (<a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a7da24467a0654ce2d1b0d8d0a09eee4b">Size</a>)</td></tr>
 <tr class="separator:aa4706c18fd31dbd81870ce719c098d96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac296350bb79ac35ec60a6e976bb4c99e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#ac296350bb79ac35ec60a6e976bb4c99e">HeapCalloc</a> (<a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>, <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</td></tr>
+<tr class="memitem:ac296350bb79ac35ec60a6e976bb4c99e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#ac296350bb79ac35ec60a6e976bb4c99e">HeapCalloc</a> (<a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>, <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a7da24467a0654ce2d1b0d8d0a09eee4b">Size</a>)</td></tr>
 <tr class="separator:ac296350bb79ac35ec60a6e976bb4c99e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a040753e4a4cccce6354a50184d35eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a0a040753e4a4cccce6354a50184d35eb">HeapRealloc</a> (void *<a class="el" href="../../d9/d4e/gigabit_8hpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>, <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</td></tr>
+<tr class="memitem:a0a040753e4a4cccce6354a50184d35eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a0a040753e4a4cccce6354a50184d35eb">HeapRealloc</a> (void *<a class="el" href="../../d0/daf/ac97_8cpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a>, <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a7da24467a0654ce2d1b0d8d0a09eee4b">Size</a>)</td></tr>
 <tr class="separator:a0a040753e4a4cccce6354a50184d35eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7c05e2c931fbcebd2d48516e991f672"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aa7c05e2c931fbcebd2d48516e991f672">HeapFree</a> (void *<a class="el" href="../../d9/d4e/gigabit_8hpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>)</td></tr>
+<tr class="memitem:aa7c05e2c931fbcebd2d48516e991f672"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aa7c05e2c931fbcebd2d48516e991f672">HeapFree</a> (void *<a class="el" href="../../d0/daf/ac97_8cpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a>)</td></tr>
 <tr class="separator:aa7c05e2c931fbcebd2d48516e991f672"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -252,7 +252,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">d</td><td>)</td>
-          <td>&#160;&#160;&#160;(d * <a class="el" href="../../db/dc8/libc_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a> - 1)</td>
+          <td>&#160;&#160;&#160;(d * <a class="el" href="../../d3/d5a/base_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a> - 1)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -277,12 +277,12 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>&#160;</td>
+          <td class="paramname"><a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a7da24467a0654ce2d1b0d8d0a09eee4b">Size</a>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#ac296350bb79ac35ec60a6e976bb4c99e">HeapCalloc</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#ac296350bb79ac35ec60a6e976bb4c99e">HeapCalloc</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>, <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a7da24467a0654ce2d1b0d8d0a09eee4b">Size</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -335,8 +335,8 @@ Functions</h2></td></tr>
           <td class="memname">#define kfree</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d9/d4e/gigabit_8hpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aa7c05e2c931fbcebd2d48516e991f672">HeapFree</a>(<a class="el" href="../../d9/d4e/gigabit_8hpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>)</td>
+          <td class="paramname"><a class="el" href="../../d0/daf/ac97_8cpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a></td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aa7c05e2c931fbcebd2d48516e991f672">HeapFree</a>(<a class="el" href="../../d0/daf/ac97_8cpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -355,8 +355,8 @@ Functions</h2></td></tr>
           <td class="memname">#define kmalloc</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aa4706c18fd31dbd81870ce719c098d96">HeapMalloc</a>(<a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</td>
+          <td class="paramname"><a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a7da24467a0654ce2d1b0d8d0a09eee4b">Size</a></td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aa4706c18fd31dbd81870ce719c098d96">HeapMalloc</a>(<a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a7da24467a0654ce2d1b0d8d0a09eee4b">Size</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -375,18 +375,18 @@ Functions</h2></td></tr>
           <td class="memname">#define krealloc</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d9/d4e/gigabit_8hpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>, </td>
+          <td class="paramname"><a class="el" href="../../d0/daf/ac97_8cpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>&#160;</td>
+          <td class="paramname"><a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a7da24467a0654ce2d1b0d8d0a09eee4b">Size</a>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a0a040753e4a4cccce6354a50184d35eb">HeapRealloc</a>(<a class="el" href="../../d9/d4e/gigabit_8hpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a0a040753e4a4cccce6354a50184d35eb">HeapRealloc</a>(<a class="el" href="../../d0/daf/ac97_8cpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a>, <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a7da24467a0654ce2d1b0d8d0a09eee4b">Size</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -470,7 +470,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">d</td><td>)</td>
-          <td>&#160;&#160;&#160;(d / <a class="el" href="../../db/dc8/libc_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a> + 1)</td>
+          <td>&#160;&#160;&#160;(d / <a class="el" href="../../d3/d5a/base_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a> + 1)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -602,7 +602,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void* HeapCalloc </td>
+          <td class="memname"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void* HeapCalloc </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
           <td class="paramname"><em>n</em>, </td>
@@ -639,7 +639,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void HeapFree </td>
+          <td class="memname"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void HeapFree </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>Address</em></td><td>)</td>
@@ -651,9 +651,9 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00126">126</a> of file <a class="el" href="../../d8/dcc/Memory_8cpp_source.html">Memory.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;{</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <a class="code" href="../../d8/dc8/group__ALLOCHOOKS.html#ga397816ee230d64fe081f93d31bf5a534">PREFIX</a>(<a class="code" href="../../d5/db0/dynlink_8c.html#a2c6efa7679f8cd9f61af96e105017560">free</a>)</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    (<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    (<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>);</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;}</div>
-<div class="ttc" id="aXallocV1_8cpp_html_a6fc2b8ed8be1aa26731a45000f43b8cc"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a></div><div class="ttdeci">void * Address</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00001">XallocV1.cpp:1</a></div></div>
+<div class="ttc" id="aXallocV1_8cpp_html_ae0cc8a5c23a59a178d241a27f12b1ef5"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a></div><div class="ttdeci">void * Address</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00001">XallocV1.cpp:1</a></div></div>
 <div class="ttc" id="adynlink_8c_html_a2c6efa7679f8cd9f61af96e105017560"><div class="ttname"><a href="../../d5/db0/dynlink_8c.html#a2c6efa7679f8cd9f61af96e105017560">free</a></div><div class="ttdeci">#define free</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/db0/dynlink_8c_source.html#l00036">dynlink.c:36</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00001">Address</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00036">free</a>, and <a class="el" href="../../d8/d5c/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8h_source.html#l00020">PREFIX</a>.</p>
@@ -669,7 +669,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void* HeapMalloc </td>
+          <td class="memname"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void* HeapMalloc </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
           <td class="paramname"><em>Size</em></td><td>)</td>
@@ -695,7 +695,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void* HeapRealloc </td>
+          <td class="memname"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void* HeapRealloc </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>Address</em>, </td>
@@ -715,7 +715,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00125">125</a> of file <a class="el" href="../../d8/dcc/Memory_8cpp_source.html">Memory.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="../../d8/dc8/group__ALLOCHOOKS.html#ga397816ee230d64fe081f93d31bf5a534">PREFIX</a>(<a class="code" href="../../d5/db0/dynlink_8c.html#a1b739878adcdb46fb5d209af7ce79628">realloc</a>)(<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>, <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>); }</div>
+<div class="fragment"><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="../../d8/dc8/group__ALLOCHOOKS.html#ga397816ee230d64fe081f93d31bf5a534">PREFIX</a>(<a class="code" href="../../d5/db0/dynlink_8c.html#a1b739878adcdb46fb5d209af7ce79628">realloc</a>)(<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>, <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>); }</div>
 <div class="ttc" id="adynlink_8c_html_a1b739878adcdb46fb5d209af7ce79628"><div class="ttname"><a href="../../d5/db0/dynlink_8c.html#a1b739878adcdb46fb5d209af7ce79628">realloc</a></div><div class="ttdeci">#define realloc</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/db0/dynlink_8c_source.html#l00035">dynlink.c:35</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00001">Address</a>, <a class="el" href="../../d8/d5c/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8h_source.html#l00020">PREFIX</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00035">realloc</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">Size</a>.</p>
@@ -729,7 +729,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void InitializeMemoryManagement </td>
+          <td class="memname"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void InitializeMemoryManagement </td>
           <td>(</td>
           <td class="paramtype">EFI_HANDLE&#160;</td>
           <td class="paramname"><em>ImageHandle</em>, </td>
@@ -861,9 +861,9 @@ Functions</h2></td></tr>
 <div class="ttc" id="aaarch64_2crt__arch_8h_html_a5ca5c7b25f3542384caad5c6fecf0ec1"><div class="ttname"><a href="../../d3/dfc/aarch64_2crt__arch_8h.html#a5ca5c7b25f3542384caad5c6fecf0ec1">__asm__</a></div><div class="ttdeci">__asm__(&quot;.text \n&quot; &quot;.global &quot; START &quot;\n&quot; &quot;.type &quot; START &quot;,%function\n&quot; START &quot;:\n&quot; &quot;	mov x29, #0\n&quot; &quot;	mov x30, #0\n&quot; &quot;	mov x0, sp\n&quot; &quot;.weak _DYNAMIC\n&quot; &quot;.hidden _DYNAMIC\n&quot; &quot;	adrp x1, _DYNAMIC\n&quot; &quot;	add x1, x1, #:lo12:_DYNAMIC\n&quot; &quot;	and sp, x0, #-16\n&quot; &quot;	b &quot; START &quot;_c\n&quot;)</div></div>
 <div class="ttc" id="aarithmetic__operations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddd/arithmetic__operations_8c_source.html#l00294">arithmetic_operations.c:294</a></div></div>
 <div class="ttc" id="aclassMemory_1_1PageTable_html"><div class="ttname"><a href="../../df/d1d/classMemory_1_1PageTable.html">Memory::PageTable</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2d/table_8hpp_source.html#l00499">table.hpp:500</a></div></div>
-<div class="ttc" id="aclassMemory_1_1Physical_html_a03b49cf1ae297ad5be7113a8f5910f0c"><div class="ttname"><a href="../../d6/d05/classMemory_1_1Physical.html#a03b49cf1ae297ad5be7113a8f5910f0c">Memory::Physical::LockPage</a></div><div class="ttdeci">void LockPage(void *Address)</div><div class="ttdoc">Lock page.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/db5/pmm_8cpp_source.html#l00206">pmm.cpp:206</a></div></div>
+<div class="ttc" id="aclassMemory_1_1Physical_html_a03b49cf1ae297ad5be7113a8f5910f0c"><div class="ttname"><a href="../../d6/d05/classMemory_1_1Physical.html#a03b49cf1ae297ad5be7113a8f5910f0c">Memory::Physical::LockPage</a></div><div class="ttdeci">void LockPage(void *Address)</div><div class="ttdoc">Lock page.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/db5/pmm_8cpp_source.html#l00210">pmm.cpp:210</a></div></div>
 <div class="ttc" id="aclassMemory_1_1Physical_html_a17133e6b26d8573066776218e44b1075"><div class="ttname"><a href="../../d6/d05/classMemory_1_1Physical.html#a17133e6b26d8573066776218e44b1075">Memory::Physical::GetReservedMemory</a></div><div class="ttdeci">uint64_t GetReservedMemory()</div><div class="ttdoc">Get Reserved Memory.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/db5/pmm_8cpp_source.html#l00041">pmm.cpp:41</a></div></div>
-<div class="ttc" id="aclassMemory_1_1Physical_html_a18e11ac34c69651cb2cb09a443eebbce"><div class="ttname"><a href="../../d6/d05/classMemory_1_1Physical.html#a18e11ac34c69651cb2cb09a443eebbce">Memory::Physical::Init</a></div><div class="ttdeci">void Init()</div><div class="ttdoc">Do not use.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/db5/pmm_8cpp_source.html#l00316">pmm.cpp:316</a></div></div>
+<div class="ttc" id="aclassMemory_1_1Physical_html_a18e11ac34c69651cb2cb09a443eebbce"><div class="ttname"><a href="../../d6/d05/classMemory_1_1Physical.html#a18e11ac34c69651cb2cb09a443eebbce">Memory::Physical::Init</a></div><div class="ttdeci">void Init()</div><div class="ttdoc">Do not use.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/db5/pmm_8cpp_source.html#l00320">pmm.cpp:320</a></div></div>
 <div class="ttc" id="aclassMemory_1_1Physical_html_a3a4128c8dfefc70e4a932d1afb7cabbf"><div class="ttname"><a href="../../d6/d05/classMemory_1_1Physical.html#a3a4128c8dfefc70e4a932d1afb7cabbf">Memory::Physical::RequestPage</a></div><div class="ttdeci">void * RequestPage()</div><div class="ttdoc">Request page.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/db5/pmm_8cpp_source.html#l00083">pmm.cpp:83</a></div></div>
 <div class="ttc" id="aclassMemory_1_1Physical_html_a46c9b6a72efc3fa824a4c8314585cfa2"><div class="ttname"><a href="../../d6/d05/classMemory_1_1Physical.html#a46c9b6a72efc3fa824a4c8314585cfa2">Memory::Physical::GetUsedMemory</a></div><div class="ttdeci">uint64_t GetUsedMemory()</div><div class="ttdoc">Get Used Memory.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/db5/pmm_8cpp_source.html#l00046">pmm.cpp:46</a></div></div>
 <div class="ttc" id="aclassMemory_1_1Physical_html_ae245f38fbc387df7d7ce3e7e56396962"><div class="ttname"><a href="../../d6/d05/classMemory_1_1Physical.html#ae245f38fbc387df7d7ce3e7e56396962">Memory::Physical::GetTotalMemory</a></div><div class="ttdeci">uint64_t GetTotalMemory()</div><div class="ttdoc">Get Total Memory.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/db5/pmm_8cpp_source.html#l00031">pmm.cpp:31</a></div></div>
@@ -879,7 +879,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="anamespaceMemory_html_a0e8df7832e7ea87aa8937798d28472b2ad4ef4c4cde11ca945e056ebb58f0a1c0"><div class="ttname"><a href="../../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2ad4ef4c4cde11ca945e056ebb58f0a1c0">Memory::US</a></div><div class="ttdeci">@ US</div><div class="ttdoc">User/Supervisor.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2d/table_8hpp_source.html#l00038">table.hpp:38</a></div></div>
 <div class="ttc" id="arx_8c_html_a580a88f98668df1ac5e1683cae31c0b3"><div class="ttname"><a href="../../d7/d4f/rx_8c.html#a580a88f98668df1ac5e1683cae31c0b3">BS</a></div><div class="ttdeci">#define BS</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d4f/rx_8c_source.html#l00042">rx.c:42</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/dfc/aarch64_2crt__arch_8h.html#a5ca5c7b25f3542384caad5c6fecf0ec1">__asm__()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00007">_data</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00007">_edata</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00007">_etext</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00007">_text</a>, <a class="el" href="../../d7/d4f/rx_8c_source.html#l00042">BS</a>, <a class="el" href="../../d9/db5/pmm_8cpp_source.html#l00041">Memory::Physical::GetReservedMemory()</a>, <a class="el" href="../../d9/db5/pmm_8cpp_source.html#l00031">Memory::Physical::GetTotalMemory()</a>, <a class="el" href="../../d9/db5/pmm_8cpp_source.html#l00046">Memory::Physical::GetUsedMemory()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp.html#af8df9953c8c190fdb02a4319088284c3">ImageBase</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00088">info</a>, <a class="el" href="../../d9/db5/pmm_8cpp_source.html#l00316">Memory::Physical::Init()</a>, <a class="el" href="../../d6/dcc/decompress__gunzip_8c_source.html#l00508">k</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00011">KernelAllocator</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00012">KernelPageTable</a>, <a class="el" href="../../d9/db5/pmm_8cpp_source.html#l00206">Memory::Physical::LockPage()</a>, <a class="el" href="../../d0/d6c/arch_2aarch64_2memory_2vmm_8cpp_source.html#l00033">Memory::Virtual::Map()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00014">memset()</a>, <a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp_source.html#l00040">NORMAL_VMA_OFFSET</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00037">NULL</a>, <a class="el" href="../../d4/dc3/macro_8hpp_source.html#l00036">PAGE_SIZE</a>, <a class="el" href="../../d9/d4f/amd64_2cpu_2apic_8hpp_source.html#l00117">APIC::Physical</a>, <a class="el" href="../../dd/dfd/Kernel_2library_2printf_8c_source.html#l01558">printf()</a>, <a class="el" href="../../d9/db5/pmm_8cpp_source.html#l00083">Memory::Physical::RequestPage()</a>, <a class="el" href="../../de/d2d/table_8hpp_source.html#l00035">Memory::RW</a>, <a class="el" href="../../d7/d5b/mail_8c.html#a6943d6e2e83995c648644bc0a4d36f53">status</a>, <a class="el" href="../../d6/dec/gm__loop_8c_source.html#l00079">t</a>, and <a class="el" href="../../de/d2d/table_8hpp_source.html#l00038">Memory::US</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/dfc/aarch64_2crt__arch_8h.html#a5ca5c7b25f3542384caad5c6fecf0ec1">__asm__()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00007">_data</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00007">_edata</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00007">_etext</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00007">_text</a>, <a class="el" href="../../d7/d4f/rx_8c_source.html#l00042">BS</a>, <a class="el" href="../../d9/db5/pmm_8cpp_source.html#l00041">Memory::Physical::GetReservedMemory()</a>, <a class="el" href="../../d9/db5/pmm_8cpp_source.html#l00031">Memory::Physical::GetTotalMemory()</a>, <a class="el" href="../../d9/db5/pmm_8cpp_source.html#l00046">Memory::Physical::GetUsedMemory()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp.html#af8df9953c8c190fdb02a4319088284c3">ImageBase</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00088">info</a>, <a class="el" href="../../d9/db5/pmm_8cpp_source.html#l00320">Memory::Physical::Init()</a>, <a class="el" href="../../d6/dcc/decompress__gunzip_8c_source.html#l00508">k</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00011">KernelAllocator</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00012">KernelPageTable</a>, <a class="el" href="../../d9/db5/pmm_8cpp_source.html#l00210">Memory::Physical::LockPage()</a>, <a class="el" href="../../d0/d6c/arch_2aarch64_2memory_2vmm_8cpp_source.html#l00033">Memory::Virtual::Map()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00014">memset()</a>, <a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp_source.html#l00040">NORMAL_VMA_OFFSET</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00037">NULL</a>, <a class="el" href="../../d4/dc3/macro_8hpp_source.html#l00036">PAGE_SIZE</a>, <a class="el" href="../../d9/d4f/amd64_2cpu_2apic_8hpp_source.html#l00117">APIC::Physical</a>, <a class="el" href="../../dd/dfd/Kernel_2library_2printf_8c_source.html#l01558">printf()</a>, <a class="el" href="../../d9/db5/pmm_8cpp_source.html#l00083">Memory::Physical::RequestPage()</a>, <a class="el" href="../../de/d2d/table_8hpp_source.html#l00035">Memory::RW</a>, <a class="el" href="../../d7/d5b/mail_8c.html#a6943d6e2e83995c648644bc0a4d36f53">status</a>, <a class="el" href="../../d6/dec/gm__loop_8c_source.html#l00079">t</a>, and <a class="el" href="../../de/d2d/table_8hpp_source.html#l00038">Memory::US</a>.</p>
 
 </div>
 </div>

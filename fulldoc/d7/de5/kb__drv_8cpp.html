@@ -114,9 +114,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a74812ff2bc32eeaf974c748b3274e8ac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de5/kb__drv_8cpp.html#a74812ff2bc32eeaf974c748b3274e8ac">WaitRead</a>&#160;&#160;&#160;PS2Wait(<a class="el" href="../../d8/d3a/doomtype_8h.html#a7c6368b321bd9acd0149b030bb8275eda08f175a5505a10b9ed657defeb050e4b">true</a>)</td></tr>
+<tr class="memitem:a74812ff2bc32eeaf974c748b3274e8ac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de5/kb__drv_8cpp.html#a74812ff2bc32eeaf974c748b3274e8ac">WaitRead</a>&#160;&#160;&#160;<a class="el" href="../../d1/da8/aip_8c.html#af2ae44f829abc7018863d9bf8fb9b859">PS2Wait</a>(<a class="el" href="../../d8/d3a/doomtype_8h.html#a7c6368b321bd9acd0149b030bb8275eda08f175a5505a10b9ed657defeb050e4b">true</a>)</td></tr>
 <tr class="separator:a74812ff2bc32eeaf974c748b3274e8ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19606565e26b80a607d0146bea252960"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de5/kb__drv_8cpp.html#a19606565e26b80a607d0146bea252960">WaitWrite</a>&#160;&#160;&#160;PS2Wait(<a class="el" href="../../d8/d3a/doomtype_8h.html#a7c6368b321bd9acd0149b030bb8275edae9de385ef6fe9bf3360d1038396b884c">false</a>)</td></tr>
+<tr class="memitem:a19606565e26b80a607d0146bea252960"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de5/kb__drv_8cpp.html#a19606565e26b80a607d0146bea252960">WaitWrite</a>&#160;&#160;&#160;<a class="el" href="../../d1/da8/aip_8c.html#af2ae44f829abc7018863d9bf8fb9b859">PS2Wait</a>(<a class="el" href="../../d8/d3a/doomtype_8h.html#a7c6368b321bd9acd0149b030bb8275edae9de385ef6fe9bf3360d1038396b884c">false</a>)</td></tr>
 <tr class="separator:a19606565e26b80a607d0146bea252960"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -145,7 +145,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define WaitRead&#160;&#160;&#160;PS2Wait(<a class="el" href="../../d8/d3a/doomtype_8h.html#a7c6368b321bd9acd0149b030bb8275eda08f175a5505a10b9ed657defeb050e4b">true</a>)</td>
+          <td class="memname">#define WaitRead&#160;&#160;&#160;<a class="el" href="../../d1/da8/aip_8c.html#af2ae44f829abc7018863d9bf8fb9b859">PS2Wait</a>(<a class="el" href="../../d8/d3a/doomtype_8h.html#a7c6368b321bd9acd0149b030bb8275eda08f175a5505a10b9ed657defeb050e4b">true</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -159,7 +159,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define WaitWrite&#160;&#160;&#160;PS2Wait(<a class="el" href="../../d8/d3a/doomtype_8h.html#a7c6368b321bd9acd0149b030bb8275edae9de385ef6fe9bf3360d1038396b884c">false</a>)</td>
+          <td class="memname">#define WaitWrite&#160;&#160;&#160;<a class="el" href="../../d1/da8/aip_8c.html#af2ae44f829abc7018863d9bf8fb9b859">PS2Wait</a>(<a class="el" href="../../d8/d3a/doomtype_8h.html#a7c6368b321bd9acd0149b030bb8275edae9de385ef6fe9bf3360d1038396b884c">false</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -193,9 +193,9 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/de5/kb__drv_8cpp_source.html#l00051">51</a> of file <a class="el" href="../../d7/de5/kb__drv_8cpp_source.html">kb_drv.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;{</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/d22/namespacePS2Keyboard.html#a8d7ae6492e7718110ed5c1e345f8ea8a">ScanCode</a> &amp; 0x80)</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordflow">if</span> (ScanCode &amp; 0x80)</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    {</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">switch</span> (<a class="code" href="../../d5/d22/namespacePS2Keyboard.html#a8d7ae6492e7718110ed5c1e345f8ea8a">ScanCode</a>)</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">switch</span> (ScanCode)</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        {</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../dc/dd9/chfcts_8hpp.html#a0ada92b8263d776ca3c779d2a0e031bca9895716e20c1a0037a61b2b4ba5bf584">KEY_U_LSHIFT</a>:</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <a class="code" href="../../d7/de5/kb__drv_8cpp.html#a39e6cbd92507fd69495893910ace6f1f">LowerCase</a> = <span class="keyword">true</span>;</div>
@@ -209,7 +209,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    {</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">switch</span> (<a class="code" href="../../d5/d22/namespacePS2Keyboard.html#a8d7ae6492e7718110ed5c1e345f8ea8a">ScanCode</a>)</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">switch</span> (ScanCode)</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        {</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../dc/dd9/chfcts_8hpp.html#a0ada92b8263d776ca3c779d2a0e031bca7e248ea83488fb64fd66d49cd56b100a">KEY_D_RETURN</a>:</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <span class="keywordflow">return</span> <span class="charliteral">&#39;\n&#39;</span>;</div>
@@ -220,15 +220,15 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <a class="code" href="../../d7/de5/kb__drv_8cpp.html#a39e6cbd92507fd69495893910ace6f1f">LowerCase</a> = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../dc/dd9/chfcts_8hpp.html#a0ada92b8263d776ca3c779d2a0e031bca90b0b0f6a79820267fd83f5babf1bd36">KEY_INVALID</a>;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../dc/dd9/chfcts_8hpp.html#a0ada92b8263d776ca3c779d2a0e031bcad24060fb684a06058e27b33d9351f22e">KEY_D_BACKSPACE</a>:</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d5/d22/namespacePS2Keyboard.html#a8d7ae6492e7718110ed5c1e345f8ea8a">ScanCode</a>;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <span class="keywordflow">return</span> ScanCode;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        {</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d5/d22/namespacePS2Keyboard.html#a8d7ae6492e7718110ed5c1e345f8ea8a">ScanCode</a> &gt; 0x39)</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <span class="keywordflow">if</span> (ScanCode &gt; 0x39)</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d7/de5/kb__drv_8cpp.html#a39e6cbd92507fd69495893910ace6f1f">LowerCase</a>)</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d7/de5/kb__drv_8cpp.html#a843e356ba12f99b266c7a21d3472f525">sc_ascii_low</a>[<a class="code" href="../../d5/d22/namespacePS2Keyboard.html#a8d7ae6492e7718110ed5c1e345f8ea8a">ScanCode</a>];</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d7/de5/kb__drv_8cpp.html#a843e356ba12f99b266c7a21d3472f525">sc_ascii_low</a>[ScanCode];</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d7/de5/kb__drv_8cpp.html#a29757af72ff3074e4f11e0be67431b88">sc_ascii_high</a>[<a class="code" href="../../d5/d22/namespacePS2Keyboard.html#a8d7ae6492e7718110ed5c1e345f8ea8a">ScanCode</a>];</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d7/de5/kb__drv_8cpp.html#a29757af72ff3074e4f11e0be67431b88">sc_ascii_high</a>[ScanCode];</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        }</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        }</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div>
@@ -244,9 +244,10 @@ Variables</h2></td></tr>
 <div class="ttc" id="akb__drv_8cpp_html_a29757af72ff3074e4f11e0be67431b88"><div class="ttname"><a href="../../d7/de5/kb__drv_8cpp.html#a29757af72ff3074e4f11e0be67431b88">sc_ascii_high</a></div><div class="ttdeci">const char sc_ascii_high[]</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de5/kb__drv_8cpp_source.html#l00043">kb_drv.cpp:43</a></div></div>
 <div class="ttc" id="akb__drv_8cpp_html_a39e6cbd92507fd69495893910ace6f1f"><div class="ttname"><a href="../../d7/de5/kb__drv_8cpp.html#a39e6cbd92507fd69495893910ace6f1f">LowerCase</a></div><div class="ttdeci">static int LowerCase</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de5/kb__drv_8cpp_source.html#l00049">kb_drv.cpp:49</a></div></div>
 <div class="ttc" id="akb__drv_8cpp_html_a843e356ba12f99b266c7a21d3472f525"><div class="ttname"><a href="../../d7/de5/kb__drv_8cpp.html#a843e356ba12f99b266c7a21d3472f525">sc_ascii_low</a></div><div class="ttdeci">const char sc_ascii_low[]</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de5/kb__drv_8cpp_source.html#l00037">kb_drv.cpp:37</a></div></div>
-<div class="ttc" id="anamespacePS2Keyboard_html_a8d7ae6492e7718110ed5c1e345f8ea8a"><div class="ttname"><a href="../../d5/d22/namespacePS2Keyboard.html#a8d7ae6492e7718110ed5c1e345f8ea8a">PS2Keyboard::ScanCode</a></div><div class="ttdeci">uint8_t ScanCode</div><div class="ttdef"><b>Definition:</b> <a href="../../de/db9/Keyboard_8cpp_source.html#l00032">Keyboard.cpp:32</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/dd9/chfcts_8hpp_source.html#l00101">KEY_D_BACKSPACE</a>, <a class="el" href="../../dc/dd9/chfcts_8hpp_source.html#l00129">KEY_D_LSHIFT</a>, <a class="el" href="../../dc/dd9/chfcts_8hpp_source.html#l00115">KEY_D_RETURN</a>, <a class="el" href="../../dc/dd9/chfcts_8hpp_source.html#l00141">KEY_D_RSHIFT</a>, <a class="el" href="../../dc/dd9/chfcts_8hpp_source.html#l00087">KEY_INVALID</a>, <a class="el" href="../../dc/dd9/chfcts_8hpp_source.html#l00223">KEY_U_LSHIFT</a>, <a class="el" href="../../dc/dd9/chfcts_8hpp_source.html#l00235">KEY_U_RSHIFT</a>, <a class="el" href="../../d7/de5/kb__drv_8cpp_source.html#l00049">LowerCase</a>, <a class="el" href="../../d7/de5/kb__drv_8cpp_source.html#l00043">sc_ascii_high</a>, <a class="el" href="../../d7/de5/kb__drv_8cpp_source.html#l00037">sc_ascii_low</a>, and <a class="el" href="../../de/db9/Keyboard_8cpp_source.html#l00032">PS2Keyboard::ScanCode</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/dd9/chfcts_8hpp_source.html#l00101">KEY_D_BACKSPACE</a>, <a class="el" href="../../dc/dd9/chfcts_8hpp_source.html#l00129">KEY_D_LSHIFT</a>, <a class="el" href="../../dc/dd9/chfcts_8hpp_source.html#l00115">KEY_D_RETURN</a>, <a class="el" href="../../dc/dd9/chfcts_8hpp_source.html#l00141">KEY_D_RSHIFT</a>, <a class="el" href="../../dc/dd9/chfcts_8hpp_source.html#l00087">KEY_INVALID</a>, <a class="el" href="../../dc/dd9/chfcts_8hpp_source.html#l00223">KEY_U_LSHIFT</a>, <a class="el" href="../../dc/dd9/chfcts_8hpp_source.html#l00235">KEY_U_RSHIFT</a>, <a class="el" href="../../d7/de5/kb__drv_8cpp_source.html#l00049">LowerCase</a>, <a class="el" href="../../d7/de5/kb__drv_8cpp_source.html#l00043">sc_ascii_high</a>, and <a class="el" href="../../d7/de5/kb__drv_8cpp_source.html#l00037">sc_ascii_low</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/de5/kb__drv_8cpp_source.html#l00239">CrashHandler::CrashKeyboardDriver::OnInterruptReceived()</a>.</p>
 
 </div>
 </div>

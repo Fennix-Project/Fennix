@@ -2,6 +2,8 @@ var namespacePCI =
 [
     [ "Descriptors", "d1/d62/namespacePCI_1_1Descriptors.html", [
       [ "PCIVendors", "d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586c", [
+        [ "Apple", "d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca7f3feeb84d086fb89e15eaacf88ec185", null ],
+        [ "BusLogic", "d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca7d0d929882159800d8882d7b7feb5b0c", null ],
         [ "SymbiosLogic", "d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca08bdc748c2ababb9ba6420f422a9913b", null ],
         [ "RedHat", "d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586cae9e68d351e0368ce2280767c69d49c4f", null ],
         [ "REDHat2", "d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca2e0c84924b5c7d841d7f01bff34078f9", null ],
@@ -36,7 +38,7 @@ var namespacePCI =
     [ "PCIHeader2", "d0/d8f/namespacePCI.html#d7/d86/structPCI_1_1PCIHeader2", "d0/d8f/namespacePCI_d7/d86/structPCI_1_1PCIHeader2_dup" ],
     [ "DeviceConfig", "d0/d8f/namespacePCI.html#d8/de9/structPCI_1_1DeviceConfig", "d0/d8f/namespacePCI_d8/de9/structPCI_1_1DeviceConfig_dup" ],
     [ "PCIDevice", "d0/d8f/namespacePCI.html#d2/d9d/structPCI_1_1PCIDevice", "d0/d8f/namespacePCI_d2/d9d/structPCI_1_1PCIDevice_dup" ],
-    [ "PCI", "d8/d81/classPCI_1_1PCI.html", "d8/d81/classPCI_1_1PCI" ],
+    [ "Manager", "d4/dad/classPCI_1_1Manager.html", "d4/dad/classPCI_1_1Manager" ],
     [ "PCICommands", "d0/d8f/namespacePCI.html#a4cfe0f91749b9ec5b3a95b119f7a4b09", [
       [ "PCI_COMMAND_IO", "d0/d8f/namespacePCI.html#a4cfe0f91749b9ec5b3a95b119f7a4b09a62a2a1e7bb729a0a105b6b28ec8c748c", null ],
       [ "PCI_COMMAND_MEMORY", "d0/d8f/namespacePCI.html#a4cfe0f91749b9ec5b3a95b119f7a4b09a76e4651535a6b8d258a9122ba5e9be57", null ],
@@ -50,5 +52,5 @@ var namespacePCI =
       [ "PCI_COMMAND_FAST_BACK", "d0/d8f/namespacePCI.html#a4cfe0f91749b9ec5b3a95b119f7a4b09a269e92f06c328cbd8220711581e43a6c", null ],
       [ "PCI_COMMAND_INTX_DISABLE", "d0/d8f/namespacePCI.html#a4cfe0f91749b9ec5b3a95b119f7a4b09a81d0620cdf140f7fdc330e3f28ea6ab2", null ]
     ] ],
-    [ "__packed", "d0/d8f/namespacePCI.html#ab14ef18818f70d4e49086a3ab292ca52", null ]
+    [ "__packed", "d0/d8f/namespacePCI.html#ac5f4899a906fa10eccd1feb32e360485", null ]
 ];

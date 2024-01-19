@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['ddt_5fata_52',['ddt_ATA',['../db/de4/driver_8h.html#afcd378c40e1174c74b79e47404cc960fa5bc1b28874eac51a42491b28f0edfc2f',1,'driver.h']]],
+  ['ddt_5faudio_53',['ddt_Audio',['../db/de4/driver_8h.html#afcd378c40e1174c74b79e47404cc960fa1f3c5b18d143495c5a295bff2f318037',1,'driver.h']]],
+  ['ddt_5fgamepad_54',['ddt_Gamepad',['../db/de4/driver_8h.html#afcd378c40e1174c74b79e47404cc960fac6c393907064805db0fc9de6936589a9',1,'driver.h']]],
+  ['ddt_5fjoystick_55',['ddt_Joystick',['../db/de4/driver_8h.html#afcd378c40e1174c74b79e47404cc960fac087aae38fac45bca06ffae0d7932ce2',1,'driver.h']]],
+  ['ddt_5fkeyboard_56',['ddt_Keyboard',['../db/de4/driver_8h.html#afcd378c40e1174c74b79e47404cc960fa9d21136f04b9cab940a51f65dbd2b1b2',1,'driver.h']]],
+  ['ddt_5fmouse_57',['ddt_Mouse',['../db/de4/driver_8h.html#afcd378c40e1174c74b79e47404cc960fa4b18a574c4f97c3dd5a4a7273d47761d',1,'driver.h']]],
+  ['ddt_5fnetwork_58',['ddt_Network',['../db/de4/driver_8h.html#afcd378c40e1174c74b79e47404cc960fa8c80250957b783c909aeb07d6356a3e3',1,'driver.h']]],
+  ['ddt_5fnvme_59',['ddt_NVMe',['../db/de4/driver_8h.html#afcd378c40e1174c74b79e47404cc960fa96826ff52861e90ed09b23fee250c8a5',1,'driver.h']]],
+  ['ddt_5fsata_60',['ddt_SATA',['../db/de4/driver_8h.html#afcd378c40e1174c74b79e47404cc960fa4e0220cf66d2f67c7378d8ceaecb60a1',1,'driver.h']]],
+  ['ddt_5ftouchpad_61',['ddt_Touchpad',['../db/de4/driver_8h.html#afcd378c40e1174c74b79e47404cc960faa532bd5c44f91c9c06df0e177b80ff8c',1,'driver.h']]],
+  ['ddt_5ftouchscreen_62',['ddt_Touchscreen',['../db/de4/driver_8h.html#afcd378c40e1174c74b79e47404cc960faa5623a7c6011702519ca6b4fcf5e8566',1,'driver.h']]],
+  ['debuglog_63',['DebugLog',['../d3/d5a/base_8h.html#a967a363e442e6f2e6755b582197a37ca',1,'base.h']]],
+  ['dev_5ft_64',['dev_t',['../d9/d49/types_8h.html#ab46c2d8e15a0ce794a8935841e5d6b92',1,'types.h']]],
+  ['device_65',['Device',['../db/de4/driver_8h.html#a9621e2b64bb89fa541c5028c377f4788',1,'__PCIArray::Device()'],['../d9/d97/pci_8h.html#a5cef34566c05448ba32fe4c2471f4335',1,'__attribute__::Device()'],['../d9/d97/pci_8h.html#a70e8123ed01deec0c941aab234c7bb7c',1,'__attribute__::Device()']]],
+  ['devicedrivertype_66',['DeviceDriverType',['../db/de4/driver_8h.html#afcd378c40e1174c74b79e47404cc960f',1,'driver.h']]],
+  ['deviceid_67',['DeviceID',['../d9/d97/pci_8h.html#a98ae6cf864126f6a5e77aafde0b0f2ba',1,'__attribute__']]],
+  ['driver_2eh_68',['driver.h',['../db/de4/driver_8h.html',1,'']]],
+  ['driverinfo_69',['DriverInfo',['../d3/d5a/base_8h.html#acf7409fcedfd7c9da9535a7998fd5b88',1,'base.h']]],
+  ['drvclose_5ft_70',['drvClose_t',['../da/d09/audio_8h.html#a5d177c8b9451d521d0a4f570b5ce17a1',1,'drvClose_t():&#160;audio.h'],['../de/d40/block_8h.html#a5d177c8b9451d521d0a4f570b5ce17a1',1,'drvClose_t():&#160;block.h'],['../d7/d97/net_8h.html#a5d177c8b9451d521d0a4f570b5ce17a1',1,'drvClose_t():&#160;net.h']]],
+  ['drvioctl_5ft_71',['drvIoctl_t',['../de/d40/block_8h.html#a8e55264ff3783d018cc22dfb1390fa82',1,'drvIoctl_t():&#160;block.h'],['../d7/d97/net_8h.html#a8e55264ff3783d018cc22dfb1390fa82',1,'drvIoctl_t():&#160;net.h'],['../da/d09/audio_8h.html#a8e55264ff3783d018cc22dfb1390fa82',1,'drvIoctl_t():&#160;audio.h']]],
+  ['drvopen_5ft_72',['drvOpen_t',['../da/d09/audio_8h.html#a0851079073488aeb69de25e4408c378a',1,'drvOpen_t():&#160;audio.h'],['../de/d40/block_8h.html#a0851079073488aeb69de25e4408c378a',1,'drvOpen_t():&#160;block.h'],['../d7/d97/net_8h.html#a0851079073488aeb69de25e4408c378a',1,'drvOpen_t():&#160;net.h']]],
+  ['drvread_5ft_73',['drvRead_t',['../da/d09/audio_8h.html#a6c6794ea31fa18279baabb6afa226d09',1,'drvRead_t():&#160;audio.h'],['../de/d40/block_8h.html#a6c6794ea31fa18279baabb6afa226d09',1,'drvRead_t():&#160;block.h'],['../d7/d97/net_8h.html#a6c6794ea31fa18279baabb6afa226d09',1,'drvRead_t():&#160;net.h']]],
+  ['drvwrite_5ft_74',['drvWrite_t',['../da/d09/audio_8h.html#a037d493bc1c2f8d617d9a5b20df8916a',1,'drvWrite_t():&#160;audio.h'],['../de/d40/block_8h.html#a037d493bc1c2f8d617d9a5b20df8916a',1,'drvWrite_t():&#160;block.h'],['../d7/d97/net_8h.html#a037d493bc1c2f8d617d9a5b20df8916a',1,'drvWrite_t():&#160;net.h']]]
+];

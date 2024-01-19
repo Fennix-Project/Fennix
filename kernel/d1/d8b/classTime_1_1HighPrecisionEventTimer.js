@@ -14,7 +14,6 @@ var classTime_1_1HighPrecisionEventTimer =
     [ "HighPrecisionEventTimer", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#af2bb73b62f4eb26b70d52be390fa2287", null ],
     [ "~HighPrecisionEventTimer", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#abb3243ffd9ad6fda796eabdde85ba75b", null ],
     [ "CalculateTarget", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a57b632d87355aa7db421b1f7f925e004", null ],
-    [ "ConvertUnit", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a3ebfea8115dbb3ea6690f88e165609bd", null ],
     [ "GetCounter", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#af7c3e5a3401f424e6ba6b2fbe12d56cd", null ],
     [ "GetNanosecondsSinceClassCreation", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a71c33d56f6c1050f1e364ca5c84000a6", null ],
     [ "Sleep", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a4bc82d45b251a0734520b89c7572ff3d", null ],

@@ -1,6 +1,10 @@
 var libc_2include_2sys_2wait_8h =
 [
     [ "siginfo_t", "d1/d7b/libc_2include_2sys_2wait_8h.html#dc/dbc/structsiginfo__t", [
+      [ "__si_fields", "d1/d7b/libc_2include_2sys_2wait_8h.html#adca6a55300f760e928998c753f476c03", null ],
+      [ "si_code", "d1/d7b/libc_2include_2sys_2wait_8h.html#a0dd36ae3e9df589f5755f88c93671c2d", null ],
+      [ "si_errno", "d1/d7b/libc_2include_2sys_2wait_8h.html#ae840a8f2824bab1693577f19f4d0432d", null ],
+      [ "si_signo", "d1/d7b/libc_2include_2sys_2wait_8h.html#a238821f6eb15317d3d7b10efef80b9c7", null ],
       [ "stub", "d1/d7b/libc_2include_2sys_2wait_8h.html#aa91552fa3db0a0570cefe972d3ef31a0", null ]
     ] ],
     [ "WCONTINUED", "d1/d7b/libc_2include_2sys_2wait_8h.html#afcc090a70f53d677b748f4b1a4b896e6", null ],

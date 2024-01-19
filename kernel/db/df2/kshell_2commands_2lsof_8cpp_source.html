@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('db/df2/kshell_2commands_2lsof_8cpp_sou
 <div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../db/d47/cmds_8hpp.html#ac332abc4f898568481413bbadb94b019">   22</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../db/df2/kshell_2commands_2lsof_8cpp.html#a2d7b1c2ec6bec97479088f8c183a8178">cmd_lsof</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *)</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="../../d2/dc3/liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;PROCESS  FD    NAME\n&quot;</span>);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">foreach</span> (<span class="keyword">auto</span> Proc <span class="keywordflow">in</span> <a class="code" href="../../dd/d24/kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a>-&gt;<a class="code" href="../../dc/dc5/classTasking_1_1Task.html#a38f561c4ca10088bb316d2d624357338">GetProcessList</a>())</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">foreach</span> (<span class="keyword">auto</span> Proc <span class="keywordflow">in</span> <a class="code" href="../../dd/d24/kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a>-&gt;<a class="code" href="../../dc/dc5/classTasking_1_1Task.html#a41ffe2449c44b0b8317f6fa00217a843">GetProcessList</a>())</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    {</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordflow">if</span> (!Proc)</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <span class="keywordflow">continue</span>;</div>
@@ -125,10 +125,10 @@ $(document).ready(function(){initNavTree('db/df2/kshell_2commands_2lsof_8cpp_sou
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                   fd.Handle-&gt;node-&gt;FullPath);</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
-<div class="ttc" id="aclassTasking_1_1Task_html_a38f561c4ca10088bb316d2d624357338"><div class="ttname"><a href="../../dc/dc5/classTasking_1_1Task.html#a38f561c4ca10088bb316d2d624357338">Tasking::Task::GetProcessList</a></div><div class="ttdeci">std::vector&lt; PCB * &gt; GetProcessList()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00512">task.hpp:512</a></div></div>
-<div class="ttc" id="akernel_8cpp_html_a5a8d7736911609823f0ff8f3c8f51df2"><div class="ttname"><a href="../../dd/d24/kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a></div><div class="ttdeci">Tasking::Task * TaskManager</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d24/kernel_8cpp_source.html#l00069">kernel.cpp:69</a></div></div>
+<div class="ttc" id="aclassTasking_1_1Task_html_a41ffe2449c44b0b8317f6fa00217a843"><div class="ttname"><a href="../../dc/dc5/classTasking_1_1Task.html#a41ffe2449c44b0b8317f6fa00217a843">Tasking::Task::GetProcessList</a></div><div class="ttdeci">std::list&lt; PCB * &gt; GetProcessList()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00561">task.hpp:561</a></div></div>
+<div class="ttc" id="akernel_8cpp_html_a5a8d7736911609823f0ff8f3c8f51df2"><div class="ttname"><a href="../../dd/d24/kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a></div><div class="ttdeci">Tasking::Task * TaskManager</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d24/kernel_8cpp_source.html#l00063">kernel.cpp:63</a></div></div>
 <div class="ttc" id="akshell_2commands_2lsof_8cpp_html_a2d7b1c2ec6bec97479088f8c183a8178"><div class="ttname"><a href="../../db/df2/kshell_2commands_2lsof_8cpp.html#a2d7b1c2ec6bec97479088f8c183a8178">cmd_lsof</a></div><div class="ttdeci">void cmd_lsof(const char *)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/df2/kshell_2commands_2lsof_8cpp_source.html#l00022">lsof.cpp:22</a></div></div>
-<div class="ttc" id="aliballoc__1__1_8c_html_ae34a762828cbff7cce62bda6571b2bc0"><div class="ttname"><a href="../../d2/dc3/liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a></div><div class="ttdeci">#define printf(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc3/liballoc__1__1_8c_source.html#l00060">liballoc_1_1.c:60</a></div></div>
+<div class="ttc" id="aliballoc__1__1_8c_html_ae34a762828cbff7cce62bda6571b2bc0"><div class="ttname"><a href="../../d2/dc3/liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a></div><div class="ttdeci">#define printf(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc3/liballoc__1__1_8c_source.html#l00061">liballoc_1_1.c:61</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

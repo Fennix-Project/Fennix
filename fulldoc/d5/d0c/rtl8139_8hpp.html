@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix: Kernel/modules/Realtek/rtl8139.hpp File Reference</title>
+<title>Fennix: Drivers/network/rtl8139/rtl8139.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -87,71 +87,580 @@ $(document).ready(function(){initNavTree('d5/d0c/rtl8139_8hpp.html','../../'); i
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">rtl8139.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;types.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d7/d11/mapi_8hpp_source.html">../../mapi.hpp</a>&quot;</code><br />
 </div>
 <p><a href="../../d5/d0c/rtl8139_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
-<tr class="memitem:da/d38/structRTL8139_1_1BARData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d26/namespaceRTL8139.html#da/d38/structRTL8139_1_1BARData">RTL8139::BARData</a></td></tr>
-<tr class="separator:da/d38/structRTL8139_1_1BARData"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d2/d6f/structRXQueueEntry"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0c/rtl8139_8hpp.html#d2/d6f/structRXQueueEntry">RXQueueEntry</a></td></tr>
+<tr class="separator:d2/d6f/structRXQueueEntry"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:dd/d26/namespaceRTL8139"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d26/namespaceRTL8139.html">RTL8139</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ad9594755a99c59fb9089cb25c5568edd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0c/rtl8139_8hpp.html#ad9594755a99c59fb9089cb25c5568edd">InterruptStatus</a> { <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#ad9594755a99c59fb9089cb25c5568eddaf77a5ffda29fc226ed1e7973803f1f10">RecOK</a> = 0x1
+, <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#ad9594755a99c59fb9089cb25c5568edda2c690e258b815e8d59359007091e86fc">RecBad</a> = 0x2
+, <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#ad9594755a99c59fb9089cb25c5568eddafe09f20b33a1020f43b8ba6784fc122e">SendOK</a> = 0x4
+, <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#ad9594755a99c59fb9089cb25c5568eddaab8a2f9bea18f811918c181712fcd0d9">SendBad</a> = 0x8
+ }</td></tr>
+<tr class="separator:ad9594755a99c59fb9089cb25c5568edd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ad30e86f1a29784008b46644af9518f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a3ad30e86f1a29784008b46644af9518f">ReceiveConfig</a> { <br />
+&#160;&#160;<a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a3ad30e86f1a29784008b46644af9518fa4554987cd7762f01c2f2e07b3dc31f5a">RcAB</a> = 0x1
+, <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a3ad30e86f1a29784008b46644af9518fa5ec7a18c4ce3de3cf73eea95317f6c78">RcAM</a> = 0x2
+, <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a3ad30e86f1a29784008b46644af9518fa9d966403b6dc8797c4f2c51cb0ba1e85">RcAPM</a> = 0x4
+, <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a3ad30e86f1a29784008b46644af9518fa5b11df6a63f5c7ac05c57efc230f6b6a">RcAAP</a> = 0x8
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a3ad30e86f1a29784008b46644af9518fa9036c40ef178da0efb0d2836468d15dd">RcWRAP</a> = 0x80
+<br />
+ }</td></tr>
+<tr class="separator:a3ad30e86f1a29784008b46644af9518f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19af2466c0539d02c49b0e9375bc6d1e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1e">Registers</a> { <br />
+&#160;&#160;<a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1eacae56066366e57a5248428cd46f7df22">RegMAC</a> = 0x0
+, <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1ea79a9d20242022a40e4acc05334597243">RegMAR</a> = 0x8
+, <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1ea33d8dd341b6ed19d5021bf5153e1de8e">RegRBSTART</a> = 0x30
+, <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1ea03522cfecd24066987162481ceb7affe">RegCMD</a> = 0x37
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1ea78856b428ca766d581ff0a86bcc6c2c5">RegCAPR</a> = 0x38
+, <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1ea5ec336765741be835b53e9fcb80c7bfc">regRCR</a> = 0x44
+, <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1eafcb9d2a906dfb36a628bcaf74a9f0c46">RegCONFIG1</a> = 0x52
+, <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1eac49f6f03af70fc9fd7b1e22b9ebf31f1">RegIMR</a> = 0x3C
+, <br />
+&#160;&#160;<a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1ea4105f3dcc593b7d6a41e795a9fd2d284">RegISR</a> = 0x3E
+<br />
+ }</td></tr>
+<tr class="separator:a19af2466c0539d02c49b0e9375bc6d1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad8738e963382b40001c993b4a5e3f950"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d26/namespaceRTL8139.html#ad8738e963382b40001c993b4a5e3f950">RTL8139::DriverEntry</a> (void *<a class="el" href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a>)</td></tr>
-<tr class="separator:ad8738e963382b40001c993b4a5e3f950"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a634b535262ec0ebf25d2758263647f47"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d26/namespaceRTL8139.html#a634b535262ec0ebf25d2758263647f47">RTL8139::CallbackHandler</a> (<a class="el" href="../../d7/d11/mapi_8hpp.html#d4/dc4/unionKernelCallback">KernelCallback</a> *<a class="el" href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a>)</td></tr>
-<tr class="separator:a634b535262ec0ebf25d2758263647f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0befcb443e15d116660665886be2bc2e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d26/namespaceRTL8139.html#a0befcb443e15d116660665886be2bc2e">RTL8139::InterruptCallback</a> (<a class="el" href="../../d7/d11/mapi_8hpp.html#da/db4/unionCPURegisters">CPURegisters</a> *)</td></tr>
-<tr class="separator:a0befcb443e15d116660665886be2bc2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77390edc98a6544bc784e0b76f096590"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#d2/d6f/structRXQueueEntry">RXQueueEntry</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a77390edc98a6544bc784e0b76f096590">__attribute__</a> ((packed))</td></tr>
+<tr class="separator:a77390edc98a6544bc784e0b76f096590"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a725d888123501c2f038199503b78bfb0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a725d888123501c2f038199503b78bfb0">cxx_Panic</a> ()</td></tr>
+<tr class="separator:a725d888123501c2f038199503b78bfb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1b166734806bf3c7836cc14e766303b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0c/rtl8139_8hpp.html#ab1b166734806bf3c7836cc14e766303b">cxx_Probe</a> ()</td></tr>
+<tr class="separator:ab1b166734806bf3c7836cc14e766303b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2360a63c67c2171cf11ec075fed32c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0c/rtl8139_8hpp.html#ad2360a63c67c2171cf11ec075fed32c3">cxx_Initialize</a> ()</td></tr>
+<tr class="separator:ad2360a63c67c2171cf11ec075fed32c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a533e53180ecaabc14c3b0230bb7a5171"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a533e53180ecaabc14c3b0230bb7a5171">cxx_Finalize</a> ()</td></tr>
+<tr class="separator:a533e53180ecaabc14c3b0230bb7a5171"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a095175dabcb7cd83bddf2bea50371121"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a095175dabcb7cd83bddf2bea50371121">Buffer</a></td></tr>
+<tr class="separator:a095175dabcb7cd83bddf2bea50371121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7da24467a0654ce2d1b0d8d0a09eee4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a7da24467a0654ce2d1b0d8d0a09eee4b">Size</a></td></tr>
+<tr class="separator:a7da24467a0654ce2d1b0d8d0a09eee4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13d6bb88f9979880c5d3da3081f3d41e"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#ad9594755a99c59fb9089cb25c5568edd">InterruptStatus</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a13d6bb88f9979880c5d3da3081f3d41e">__attribute__</a></td></tr>
+<tr class="separator:a13d6bb88f9979880c5d3da3081f3d41e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
-<a name="da/d38/structRTL8139_1_1BARData" id="da/d38/structRTL8139_1_1BARData"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#da/d38/structRTL8139_1_1BARData">&#9670;&nbsp;</a></span>RTL8139::BARData</h2>
+<a name="d2/d6f/structRXQueueEntry" id="d2/d6f/structRXQueueEntry"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d2/d6f/structRXQueueEntry">&#9670;&nbsp;</a></span>RXQueueEntry</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct RTL8139::BARData</td>
+          <td class="memname">struct RXQueueEntry</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d5/d0c/rtl8139_8hpp_source.html#l00026">26</a> of file <a class="el" href="../../d5/d0c/rtl8139_8hpp_source.html">rtl8139.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d0c/rtl8139_8hpp_source.html#l00022">22</a> of file <a class="el" href="../../d5/d0c/rtl8139_8hpp_source.html">rtl8139.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a2ed57d803a00bc00958656e3df92a366"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="a2669c30c42394f5d2e0839db962404c2"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *</td>
 <td class="fieldname">
-IOBase</td>
+Buffer</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a8feb9df2e0b878fadf7995c111d06638"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="ab077b927bfeec951cf8befecf22a6624"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
-MemoryBase</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ae419442cb30724a437093f320ed69765"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
-<td class="fieldname">
-Type</td>
+Size</td>
 <td class="fielddoc">
 </td></tr>
 </table>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ad9594755a99c59fb9089cb25c5568edd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9594755a99c59fb9089cb25c5568edd">&#9670;&nbsp;</a></span>InterruptStatus</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#ad9594755a99c59fb9089cb25c5568edd">InterruptStatus</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad9594755a99c59fb9089cb25c5568eddaf77a5ffda29fc226ed1e7973803f1f10"></a>RecOK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad9594755a99c59fb9089cb25c5568edda2c690e258b815e8d59359007091e86fc"></a>RecBad&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad9594755a99c59fb9089cb25c5568eddafe09f20b33a1020f43b8ba6784fc122e"></a>SendOK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad9594755a99c59fb9089cb25c5568eddaab8a2f9bea18f811918c181712fcd0d9"></a>SendBad&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d0c/rtl8139_8hpp_source.html#l00028">28</a> of file <a class="el" href="../../d5/d0c/rtl8139_8hpp_source.html">rtl8139.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="../../d5/d0c/rtl8139_8hpp.html#ad9594755a99c59fb9089cb25c5568eddaf77a5ffda29fc226ed1e7973803f1f10">RecOK</a> = 0x1,</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="../../d5/d0c/rtl8139_8hpp.html#ad9594755a99c59fb9089cb25c5568edda2c690e258b815e8d59359007091e86fc">RecBad</a> = 0x2,</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../d5/d0c/rtl8139_8hpp.html#ad9594755a99c59fb9089cb25c5568eddafe09f20b33a1020f43b8ba6784fc122e">SendOK</a> = 0x4,</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="../../d5/d0c/rtl8139_8hpp.html#ad9594755a99c59fb9089cb25c5568eddaab8a2f9bea18f811918c181712fcd0d9">SendBad</a> = 0x8,</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;};</div>
+<div class="ttc" id="artl8139_8hpp_html_ad9594755a99c59fb9089cb25c5568edda2c690e258b815e8d59359007091e86fc"><div class="ttname"><a href="../../d5/d0c/rtl8139_8hpp.html#ad9594755a99c59fb9089cb25c5568edda2c690e258b815e8d59359007091e86fc">RecBad</a></div><div class="ttdeci">@ RecBad</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d0c/rtl8139_8hpp_source.html#l00031">rtl8139.hpp:31</a></div></div>
+<div class="ttc" id="artl8139_8hpp_html_ad9594755a99c59fb9089cb25c5568eddaab8a2f9bea18f811918c181712fcd0d9"><div class="ttname"><a href="../../d5/d0c/rtl8139_8hpp.html#ad9594755a99c59fb9089cb25c5568eddaab8a2f9bea18f811918c181712fcd0d9">SendBad</a></div><div class="ttdeci">@ SendBad</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d0c/rtl8139_8hpp_source.html#l00033">rtl8139.hpp:33</a></div></div>
+<div class="ttc" id="artl8139_8hpp_html_ad9594755a99c59fb9089cb25c5568eddaf77a5ffda29fc226ed1e7973803f1f10"><div class="ttname"><a href="../../d5/d0c/rtl8139_8hpp.html#ad9594755a99c59fb9089cb25c5568eddaf77a5ffda29fc226ed1e7973803f1f10">RecOK</a></div><div class="ttdeci">@ RecOK</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d0c/rtl8139_8hpp_source.html#l00030">rtl8139.hpp:30</a></div></div>
+<div class="ttc" id="artl8139_8hpp_html_ad9594755a99c59fb9089cb25c5568eddafe09f20b33a1020f43b8ba6784fc122e"><div class="ttname"><a href="../../d5/d0c/rtl8139_8hpp.html#ad9594755a99c59fb9089cb25c5568eddafe09f20b33a1020f43b8ba6784fc122e">SendOK</a></div><div class="ttdeci">@ SendOK</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d0c/rtl8139_8hpp_source.html#l00032">rtl8139.hpp:32</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a3ad30e86f1a29784008b46644af9518f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ad30e86f1a29784008b46644af9518f">&#9670;&nbsp;</a></span>ReceiveConfig</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a3ad30e86f1a29784008b46644af9518f">ReceiveConfig</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3ad30e86f1a29784008b46644af9518fa4554987cd7762f01c2f2e07b3dc31f5a"></a>RcAB&#160;</td><td class="fielddoc"><p>Accept broadcast packets sent to mac ff:ff:ff:ff:ff:ff </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3ad30e86f1a29784008b46644af9518fa5ec7a18c4ce3de3cf73eea95317f6c78"></a>RcAM&#160;</td><td class="fielddoc"><p>Accept packets sent to the multicast address </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3ad30e86f1a29784008b46644af9518fa9d966403b6dc8797c4f2c51cb0ba1e85"></a>RcAPM&#160;</td><td class="fielddoc"><p>Accept packets sent to the NIC's MAC address </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3ad30e86f1a29784008b46644af9518fa5b11df6a63f5c7ac05c57efc230f6b6a"></a>RcAAP&#160;</td><td class="fielddoc"><p>Accept all packets (promiscuous mode) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a3ad30e86f1a29784008b46644af9518fa9036c40ef178da0efb0d2836468d15dd"></a>RcWRAP&#160;</td><td class="fielddoc"><p>The WRAP bit is used to tell the NIC to wrap around the ring buffer when it reaches the end of the buffer.</p>
+<dl class="section note"><dt>Note</dt><dd>If this bit is set, the buffer must have an additional 1500 bytes of space at the end of the buffer to prevent the NIC from overflowing the buffer. </dd></dl>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d0c/rtl8139_8hpp_source.html#l00036">36</a> of file <a class="el" href="../../d5/d0c/rtl8139_8hpp_source.html">rtl8139.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="../../d5/d0c/rtl8139_8hpp.html#a3ad30e86f1a29784008b46644af9518fa4554987cd7762f01c2f2e07b3dc31f5a">RcAB</a> = 0x1,</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="../../d5/d0c/rtl8139_8hpp.html#a3ad30e86f1a29784008b46644af9518fa5ec7a18c4ce3de3cf73eea95317f6c78">RcAM</a> = 0x2,</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="../../d5/d0c/rtl8139_8hpp.html#a3ad30e86f1a29784008b46644af9518fa9d966403b6dc8797c4f2c51cb0ba1e85">RcAPM</a> = 0x4,</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="code" href="../../d5/d0c/rtl8139_8hpp.html#a3ad30e86f1a29784008b46644af9518fa5b11df6a63f5c7ac05c57efc230f6b6a">RcAAP</a> = 0x8,</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <a class="code" href="../../d5/d0c/rtl8139_8hpp.html#a3ad30e86f1a29784008b46644af9518fa9036c40ef178da0efb0d2836468d15dd">RcWRAP</a> = 0x80,</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;};</div>
+<div class="ttc" id="artl8139_8hpp_html_a3ad30e86f1a29784008b46644af9518fa4554987cd7762f01c2f2e07b3dc31f5a"><div class="ttname"><a href="../../d5/d0c/rtl8139_8hpp.html#a3ad30e86f1a29784008b46644af9518fa4554987cd7762f01c2f2e07b3dc31f5a">RcAB</a></div><div class="ttdeci">@ RcAB</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d0c/rtl8139_8hpp_source.html#l00042">rtl8139.hpp:42</a></div></div>
+<div class="ttc" id="artl8139_8hpp_html_a3ad30e86f1a29784008b46644af9518fa5b11df6a63f5c7ac05c57efc230f6b6a"><div class="ttname"><a href="../../d5/d0c/rtl8139_8hpp.html#a3ad30e86f1a29784008b46644af9518fa5b11df6a63f5c7ac05c57efc230f6b6a">RcAAP</a></div><div class="ttdeci">@ RcAAP</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d0c/rtl8139_8hpp_source.html#l00060">rtl8139.hpp:60</a></div></div>
+<div class="ttc" id="artl8139_8hpp_html_a3ad30e86f1a29784008b46644af9518fa5ec7a18c4ce3de3cf73eea95317f6c78"><div class="ttname"><a href="../../d5/d0c/rtl8139_8hpp.html#a3ad30e86f1a29784008b46644af9518fa5ec7a18c4ce3de3cf73eea95317f6c78">RcAM</a></div><div class="ttdeci">@ RcAM</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d0c/rtl8139_8hpp_source.html#l00048">rtl8139.hpp:48</a></div></div>
+<div class="ttc" id="artl8139_8hpp_html_a3ad30e86f1a29784008b46644af9518fa9036c40ef178da0efb0d2836468d15dd"><div class="ttname"><a href="../../d5/d0c/rtl8139_8hpp.html#a3ad30e86f1a29784008b46644af9518fa9036c40ef178da0efb0d2836468d15dd">RcWRAP</a></div><div class="ttdeci">@ RcWRAP</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d0c/rtl8139_8hpp_source.html#l00074">rtl8139.hpp:74</a></div></div>
+<div class="ttc" id="artl8139_8hpp_html_a3ad30e86f1a29784008b46644af9518fa9d966403b6dc8797c4f2c51cb0ba1e85"><div class="ttname"><a href="../../d5/d0c/rtl8139_8hpp.html#a3ad30e86f1a29784008b46644af9518fa9d966403b6dc8797c4f2c51cb0ba1e85">RcAPM</a></div><div class="ttdeci">@ RcAPM</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d0c/rtl8139_8hpp_source.html#l00054">rtl8139.hpp:54</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a19af2466c0539d02c49b0e9375bc6d1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19af2466c0539d02c49b0e9375bc6d1e">&#9670;&nbsp;</a></span>Registers</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1e">Registers</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a19af2466c0539d02c49b0e9375bc6d1eacae56066366e57a5248428cd46f7df22"></a>RegMAC&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a19af2466c0539d02c49b0e9375bc6d1ea79a9d20242022a40e4acc05334597243"></a>RegMAR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a19af2466c0539d02c49b0e9375bc6d1ea33d8dd341b6ed19d5021bf5153e1de8e"></a>RegRBSTART&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a19af2466c0539d02c49b0e9375bc6d1ea03522cfecd24066987162481ceb7affe"></a>RegCMD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a19af2466c0539d02c49b0e9375bc6d1ea78856b428ca766d581ff0a86bcc6c2c5"></a>RegCAPR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a19af2466c0539d02c49b0e9375bc6d1ea5ec336765741be835b53e9fcb80c7bfc"></a>regRCR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a19af2466c0539d02c49b0e9375bc6d1eafcb9d2a906dfb36a628bcaf74a9f0c46"></a>RegCONFIG1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a19af2466c0539d02c49b0e9375bc6d1eac49f6f03af70fc9fd7b1e22b9ebf31f1"></a>RegIMR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a19af2466c0539d02c49b0e9375bc6d1ea4105f3dcc593b7d6a41e795a9fd2d284"></a>RegISR&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d0c/rtl8139_8hpp_source.html#l00077">77</a> of file <a class="el" href="../../d5/d0c/rtl8139_8hpp_source.html">rtl8139.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;{</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <a class="code" href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1eacae56066366e57a5248428cd46f7df22">RegMAC</a> = 0x0,</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <a class="code" href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1ea79a9d20242022a40e4acc05334597243">RegMAR</a> = 0x8,</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <a class="code" href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1ea33d8dd341b6ed19d5021bf5153e1de8e">RegRBSTART</a> = 0x30,</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <a class="code" href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1ea03522cfecd24066987162481ceb7affe">RegCMD</a> = 0x37,</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <a class="code" href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1ea78856b428ca766d581ff0a86bcc6c2c5">RegCAPR</a> = 0x38,</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <a class="code" href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1ea5ec336765741be835b53e9fcb80c7bfc">regRCR</a> = 0x44,</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <a class="code" href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1eafcb9d2a906dfb36a628bcaf74a9f0c46">RegCONFIG1</a> = 0x52,</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <a class="code" href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1eac49f6f03af70fc9fd7b1e22b9ebf31f1">RegIMR</a> = 0x3C,</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="code" href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1ea4105f3dcc593b7d6a41e795a9fd2d284">RegISR</a> = 0x3E,</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;};</div>
+<div class="ttc" id="artl8139_8hpp_html_a19af2466c0539d02c49b0e9375bc6d1ea03522cfecd24066987162481ceb7affe"><div class="ttname"><a href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1ea03522cfecd24066987162481ceb7affe">RegCMD</a></div><div class="ttdeci">@ RegCMD</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d0c/rtl8139_8hpp_source.html#l00082">rtl8139.hpp:82</a></div></div>
+<div class="ttc" id="artl8139_8hpp_html_a19af2466c0539d02c49b0e9375bc6d1ea33d8dd341b6ed19d5021bf5153e1de8e"><div class="ttname"><a href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1ea33d8dd341b6ed19d5021bf5153e1de8e">RegRBSTART</a></div><div class="ttdeci">@ RegRBSTART</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d0c/rtl8139_8hpp_source.html#l00081">rtl8139.hpp:81</a></div></div>
+<div class="ttc" id="artl8139_8hpp_html_a19af2466c0539d02c49b0e9375bc6d1ea4105f3dcc593b7d6a41e795a9fd2d284"><div class="ttname"><a href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1ea4105f3dcc593b7d6a41e795a9fd2d284">RegISR</a></div><div class="ttdeci">@ RegISR</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d0c/rtl8139_8hpp_source.html#l00087">rtl8139.hpp:87</a></div></div>
+<div class="ttc" id="artl8139_8hpp_html_a19af2466c0539d02c49b0e9375bc6d1ea5ec336765741be835b53e9fcb80c7bfc"><div class="ttname"><a href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1ea5ec336765741be835b53e9fcb80c7bfc">regRCR</a></div><div class="ttdeci">@ regRCR</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d0c/rtl8139_8hpp_source.html#l00084">rtl8139.hpp:84</a></div></div>
+<div class="ttc" id="artl8139_8hpp_html_a19af2466c0539d02c49b0e9375bc6d1ea78856b428ca766d581ff0a86bcc6c2c5"><div class="ttname"><a href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1ea78856b428ca766d581ff0a86bcc6c2c5">RegCAPR</a></div><div class="ttdeci">@ RegCAPR</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d0c/rtl8139_8hpp_source.html#l00083">rtl8139.hpp:83</a></div></div>
+<div class="ttc" id="artl8139_8hpp_html_a19af2466c0539d02c49b0e9375bc6d1ea79a9d20242022a40e4acc05334597243"><div class="ttname"><a href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1ea79a9d20242022a40e4acc05334597243">RegMAR</a></div><div class="ttdeci">@ RegMAR</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d0c/rtl8139_8hpp_source.html#l00080">rtl8139.hpp:80</a></div></div>
+<div class="ttc" id="artl8139_8hpp_html_a19af2466c0539d02c49b0e9375bc6d1eac49f6f03af70fc9fd7b1e22b9ebf31f1"><div class="ttname"><a href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1eac49f6f03af70fc9fd7b1e22b9ebf31f1">RegIMR</a></div><div class="ttdeci">@ RegIMR</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d0c/rtl8139_8hpp_source.html#l00086">rtl8139.hpp:86</a></div></div>
+<div class="ttc" id="artl8139_8hpp_html_a19af2466c0539d02c49b0e9375bc6d1eacae56066366e57a5248428cd46f7df22"><div class="ttname"><a href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1eacae56066366e57a5248428cd46f7df22">RegMAC</a></div><div class="ttdeci">@ RegMAC</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d0c/rtl8139_8hpp_source.html#l00079">rtl8139.hpp:79</a></div></div>
+<div class="ttc" id="artl8139_8hpp_html_a19af2466c0539d02c49b0e9375bc6d1eafcb9d2a906dfb36a628bcaf74a9f0c46"><div class="ttname"><a href="../../d5/d0c/rtl8139_8hpp.html#a19af2466c0539d02c49b0e9375bc6d1eafcb9d2a906dfb36a628bcaf74a9f0c46">RegCONFIG1</a></div><div class="ttdeci">@ RegCONFIG1</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d0c/rtl8139_8hpp_source.html#l00085">rtl8139.hpp:85</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a77390edc98a6544bc784e0b76f096590"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77390edc98a6544bc784e0b76f096590">&#9670;&nbsp;</a></span>__attribute__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#d2/d6f/structRXQueueEntry">RXQueueEntry</a> <a class="el" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a> </td>
+          <td>(</td>
+          <td class="paramtype">(packed)&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/def/mb__64bit__map_8cpp_source.html#l00001">1</a> of file <a class="el" href="../../d9/def/mb__64bit__map_8cpp_source.html">mb_64bit_map.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">struct</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    {</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="../../d9/def/mb__64bit__map_8cpp.html#a778f4bee950ae142c87d00db61dc4eec">Present</a> : 1;            <span class="comment">// 0</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordtype">bool</span> ReadWrite : 1;          <span class="comment">// 1</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordtype">bool</span> UserSupervisor : 1;     <span class="comment">// 2</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordtype">bool</span> WriteThrough : 1;       <span class="comment">// 3</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordtype">bool</span> CacheDisable : 1;       <span class="comment">// 4</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordtype">bool</span> Accessed : 1;           <span class="comment">// 5</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordtype">bool</span> Dirty : 1;              <span class="comment">// 6</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordtype">bool</span> PageAttributeTable : 1; <span class="comment">// 7</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordtype">bool</span> Global : 1;             <span class="comment">// 8</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Available0 : 3;      <span class="comment">// 9-11</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a> : 40;       <span class="comment">// 12-51</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Available1 : 7;     <span class="comment">// 52-58</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> ProtectionKey : 4;   <span class="comment">// 59-62</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordtype">bool</span> ExecuteDisable : 1;     <span class="comment">// 63</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    };</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="code" href="../../d9/def/mb__64bit__map_8cpp.html#afdfada931d65616cdca84dcedfeacef0">raw</a>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> <span class="keyword">inline</span> <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a1afe765b4510add91239ee23e5a89ba4">NIF</a> <span class="keywordtype">void</span> <a class="code" href="../../d9/def/mb__64bit__map_8cpp.html#a2ad4bb70afd581e2ee563711a3f0a708">SetAddress</a>(<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> _Address)</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    {</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        _Address &amp;= 0x000000FFFFFFFFFF;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        this-&gt;raw &amp;= 0xFFF0000000000FFF;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        this-&gt;raw |= (_Address &lt;&lt; 12);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> <span class="keyword">inline</span> <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a1afe765b4510add91239ee23e5a89ba4">NIF</a> <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> GetAddress() { <span class="keywordflow">return</span> (this-&gt;raw &amp; 0x000FFFFFFFFFF000) &gt;&gt; 12; }</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;};</div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a1afe765b4510add91239ee23e5a89ba4"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a1afe765b4510add91239ee23e5a89ba4">NIF</a></div><div class="ttdeci">#define NIF</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00418">types.h:418</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00160">types.h:160</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00186">types.h:186</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a6034e8cd4bcd5bacfd060abd01bbd8a8"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a></div><div class="ttdeci">#define __always_inline</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00364">types.h:364</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a72459587db2f8ad7625b1814b20fff25"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a></div><div class="ttdeci">#define SafeFunction</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00416">types.h:416</a></div></div>
+<div class="ttc" id="aXallocV1_8cpp_html_ae0cc8a5c23a59a178d241a27f12b1ef5"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a></div><div class="ttdeci">void * Address</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00001">XallocV1.cpp:1</a></div></div>
+<div class="ttc" id="aarithmetic__operations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddd/arithmetic__operations_8c_source.html#l00295">arithmetic_operations.c:295</a></div></div>
+<div class="ttc" id="aarithmetic__operations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddd/arithmetic__operations_8c_source.html#l00294">arithmetic_operations.c:294</a></div></div>
+<div class="ttc" id="amb__64bit__map_8cpp_html_a2ad4bb70afd581e2ee563711a3f0a708"><div class="ttname"><a href="../../d9/def/mb__64bit__map_8cpp.html#a2ad4bb70afd581e2ee563711a3f0a708">SetAddress</a></div><div class="ttdeci">PTE SetAddress((uintptr_t) PhysicalAddress &gt;&gt; 12)</div></div>
+<div class="ttc" id="amb__64bit__map_8cpp_html_a778f4bee950ae142c87d00db61dc4eec"><div class="ttname"><a href="../../d9/def/mb__64bit__map_8cpp.html#a778f4bee950ae142c87d00db61dc4eec">Present</a></div><div class="ttdeci">PTE Present</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/def/mb__64bit__map_8cpp_source.html#l00273">mb_64bit_map.cpp:273</a></div></div>
+<div class="ttc" id="amb__64bit__map_8cpp_html_afdfada931d65616cdca84dcedfeacef0"><div class="ttname"><a href="../../d9/def/mb__64bit__map_8cpp.html#afdfada931d65616cdca84dcedfeacef0">raw</a></div><div class="ttdeci">PML4 raw</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/def/mb__64bit__map_8cpp_source.html#l00223">mb_64bit_map.cpp:223</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00364">__always_inline</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00001">Address</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00418">NIF</a>, <a class="el" href="../../d9/def/mb__64bit__map_8cpp_source.html#l00273">Present</a>, <a class="el" href="../../d9/def/mb__64bit__map_8cpp_source.html#l00223">raw</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00416">SafeFunction</a>, and <a class="el" href="../../d9/def/mb__64bit__map_8cpp.html#a2ad4bb70afd581e2ee563711a3f0a708">SetAddress()</a>.</p>
+
+</div>
+</div>
+<a id="a533e53180ecaabc14c3b0230bb7a5171"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a533e53180ecaabc14c3b0230bb7a5171">&#9670;&nbsp;</a></span>cxx_Finalize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> int cxx_Finalize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/daf/ac97_8cpp_source.html#l00830">830</a> of file <a class="el" href="../../d0/daf/ac97_8cpp_source.html">ac97.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;{</div>
+<div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160;    PCIArray *<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a> = <a class="code" href="../../d0/daf/ac97_8cpp.html#a1f127ad53b394ecab0c97ae186e1b386">Devices</a>;</div>
+<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;    <span class="keywordtype">size_t</span> Count = 0;</div>
+<div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a> != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;    {</div>
+<div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;        <span class="keywordflow">if</span> (Count++ &gt; <span class="keyword">sizeof</span>(<a class="code" href="../../d0/daf/ac97_8cpp.html#afcb2a48b401d0c86313f7e9e74ab2b22">Drivers</a>) / <span class="keyword">sizeof</span>(<a class="code" href="../../d9/d72/classAC97Device.html">AC97Device</a> *))</div>
+<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160; </div>
+<div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;        PCIHeader0 *PCIBaseAddress = (PCIHeader0 *)<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>-&gt;Device-&gt;Header;</div>
+<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> PCIBAR0 = PCIBaseAddress-&gt;BAR0;</div>
+<div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Type = PCIBAR0 &amp; 1;</div>
+<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;        <a class="code" href="../../d9/def/mb__64bit__map_8cpp.html#a7d5d79792cdea43010184ab50d14ac5a">if</a> (Type != 1)</div>
+<div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;        {</div>
+<div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;            <a class="code" href="../../d3/d5a/base_8h.html#a2d2945c5952955d702f894ff0e4fc618">Log</a>(<span class="stringliteral">&quot;Device %x:%x.%d BAR0 is not I/O.&quot;</span>,</div>
+<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;                PCIBaseAddress-&gt;Header.VendorID,</div>
+<div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;                PCIBaseAddress-&gt;Header.DeviceID,</div>
+<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;                PCIBaseAddress-&gt;Header.ProgIF);</div>
+<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;        }</div>
+<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160; </div>
+<div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160;        <span class="keyword">delete</span> <a class="code" href="../../d0/daf/ac97_8cpp.html#afcb2a48b401d0c86313f7e9e74ab2b22">Drivers</a>[Count++];</div>
+<div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;        <a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>-&gt;Device-&gt;Header-&gt;Command |= <a class="code" href="../../d9/d97/pci_8h.html#ad2e0ff6581aedf5d86fb4e3cbcc08a31aff3170b5e4c33261d0f2f060a5b446d6">PCI_COMMAND_INTX_DISABLE</a>;</div>
+<div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;        <a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a> = (PCIArray *)<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>-&gt;Next;</div>
+<div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;    }</div>
+<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160; </div>
+<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;}</div>
+<div class="ttc" id="aac97_8cpp_html_a1f127ad53b394ecab0c97ae186e1b386"><div class="ttname"><a href="../../d0/daf/ac97_8cpp.html#a1f127ad53b394ecab0c97ae186e1b386">Devices</a></div><div class="ttdeci">PCIArray * Devices</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daf/ac97_8cpp_source.html#l00717">ac97.cpp:717</a></div></div>
+<div class="ttc" id="aac97_8cpp_html_afcb2a48b401d0c86313f7e9e74ab2b22"><div class="ttname"><a href="../../d0/daf/ac97_8cpp.html#afcb2a48b401d0c86313f7e9e74ab2b22">Drivers</a></div><div class="ttdeci">AC97Device * Drivers[4]</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daf/ac97_8cpp_source.html#l00691">ac97.cpp:691</a></div></div>
+<div class="ttc" id="abase_8h_html_a2d2945c5952955d702f894ff0e4fc618"><div class="ttname"><a href="../../d3/d5a/base_8h.html#a2d2945c5952955d702f894ff0e4fc618">Log</a></div><div class="ttdeci">void Log(const char *Format,...)</div><div class="ttdoc">Print to the kernel logger.</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de2/base_8c_source.html#l00125">base.c:125</a></div></div>
+<div class="ttc" id="aclassAC97Device_html"><div class="ttname"><a href="../../d9/d72/classAC97Device.html">AC97Device</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daf/ac97_8cpp_source.html#l00352">ac97.cpp:353</a></div></div>
+<div class="ttc" id="amb__64bit__map_8cpp_html_a7d5d79792cdea43010184ab50d14ac5a"><div class="ttname"><a href="../../d9/def/mb__64bit__map_8cpp.html#a7d5d79792cdea43010184ab50d14ac5a">if</a></div><div class="ttdeci">if(!PML4.Present)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/def/mb__64bit__map_8cpp_source.html#l00205">mb_64bit_map.cpp:205</a></div></div>
+<div class="ttc" id="apci_8h_html_ad2e0ff6581aedf5d86fb4e3cbcc08a31aff3170b5e4c33261d0f2f060a5b446d6"><div class="ttname"><a href="../../d9/d97/pci_8h.html#ad2e0ff6581aedf5d86fb4e3cbcc08a31aff3170b5e4c33261d0f2f060a5b446d6">PCI_COMMAND_INTX_DISABLE</a></div><div class="ttdeci">@ PCI_COMMAND_INTX_DISABLE</div><div class="ttdoc">INTx Emulation Disable.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d97/pci_8h_source.html#l00048">pci.h:47</a></div></div>
+<div class="ttc" id="asetxid_8c_html_d5/d06/structctx"><div class="ttname"><a href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/setgroups_8c_source.html#l00007">setgroups.c:7</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad2360a63c67c2171cf11ec075fed32c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2360a63c67c2171cf11ec075fed32c3">&#9670;&nbsp;</a></span>cxx_Initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> int cxx_Initialize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>We loop through all the devices and initialize them</p>
+
+<p class="definition">Definition at line <a class="el" href="../../d0/daf/ac97_8cpp_source.html#l00776">776</a> of file <a class="el" href="../../d0/daf/ac97_8cpp_source.html">ac97.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;{</div>
+<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;    PCIArray *<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a> = <a class="code" href="../../d0/daf/ac97_8cpp.html#a1f127ad53b394ecab0c97ae186e1b386">Devices</a>;</div>
+<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;    <span class="keywordtype">size_t</span> Count = 0;</div>
+<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a> != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;    {</div>
+<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;        <span class="keywordflow">if</span> (Count &gt; <span class="keyword">sizeof</span>(<a class="code" href="../../d0/daf/ac97_8cpp.html#afcb2a48b401d0c86313f7e9e74ab2b22">Drivers</a>) / <span class="keyword">sizeof</span>(<a class="code" href="../../d9/d72/classAC97Device.html">AC97Device</a> *))</div>
+<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160; </div>
+<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;        PCIHeader0 *PCIBaseAddress = (PCIHeader0 *)<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>-&gt;Device-&gt;Header;</div>
+<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> PCIBAR0 = PCIBaseAddress-&gt;BAR0;</div>
+<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Type = PCIBAR0 &amp; 1;</div>
+<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;        <a class="code" href="../../d9/def/mb__64bit__map_8cpp.html#a7d5d79792cdea43010184ab50d14ac5a">if</a> (Type != 1)</div>
+<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;        {</div>
+<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;            <a class="code" href="../../d3/d5a/base_8h.html#a2d2945c5952955d702f894ff0e4fc618">Log</a>(<span class="stringliteral">&quot;Device %x:%x.%d BAR0 is not I/O.&quot;</span>,</div>
+<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;                PCIBaseAddress-&gt;Header.VendorID,</div>
+<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;                PCIBaseAddress-&gt;Header.DeviceID,</div>
+<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;                PCIBaseAddress-&gt;Header.ProgIF);</div>
+<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;        }</div>
+<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160; </div>
+<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;        <a class="code" href="../../d1/d48/namespaceDriver.html#a76701f5ecb13655e551b65c3aa8fc269">InitializePCI</a>(<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>-&gt;Device);</div>
+<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160; </div>
+<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;        <a class="code" href="../../d0/daf/ac97_8cpp.html#afcb2a48b401d0c86313f7e9e74ab2b22">Drivers</a>[Count] = <span class="keyword">new</span> <a class="code" href="../../d9/d72/classAC97Device.html">AC97Device</a>((PCIHeader0 *)<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>-&gt;Device-&gt;Header);</div>
+<div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;        <span class="comment">/* FIXME: bad code */</span></div>
+<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;        <span class="keywordflow">switch</span> (Count)</div>
+<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;        {</div>
+<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;        <span class="keywordflow">case</span> 0:</div>
+<div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160;            <a class="code" href="../../d1/d48/namespaceDriver.html#a037a8439b02442dc6aba8627d437fef8">RegisterInterruptHandler</a>(<a class="code" href="../../d9/d97/pci_8h.html#a11780e1a6b719257a35670eb14e8ab52">iLine</a>(<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>-&gt;Device), (<span class="keywordtype">void</span> *)<a class="code" href="../../d0/daf/ac97_8cpp.html#a3f3301fe6451a58d5cca852eccbc6d62">OIR</a>(0));</div>
+<div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;        <span class="keywordflow">case</span> 1:</div>
+<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;            <a class="code" href="../../d1/d48/namespaceDriver.html#a037a8439b02442dc6aba8627d437fef8">RegisterInterruptHandler</a>(<a class="code" href="../../d9/d97/pci_8h.html#a11780e1a6b719257a35670eb14e8ab52">iLine</a>(<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>-&gt;Device), (<span class="keywordtype">void</span> *)<a class="code" href="../../d0/daf/ac97_8cpp.html#a3f3301fe6451a58d5cca852eccbc6d62">OIR</a>(1));</div>
+<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;        <span class="keywordflow">case</span> 2:</div>
+<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;            <a class="code" href="../../d1/d48/namespaceDriver.html#a037a8439b02442dc6aba8627d437fef8">RegisterInterruptHandler</a>(<a class="code" href="../../d9/d97/pci_8h.html#a11780e1a6b719257a35670eb14e8ab52">iLine</a>(<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>-&gt;Device), (<span class="keywordtype">void</span> *)<a class="code" href="../../d0/daf/ac97_8cpp.html#a3f3301fe6451a58d5cca852eccbc6d62">OIR</a>(2));</div>
+<div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160;        <span class="keywordflow">case</span> 3:</div>
+<div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;            <a class="code" href="../../d1/d48/namespaceDriver.html#a037a8439b02442dc6aba8627d437fef8">RegisterInterruptHandler</a>(<a class="code" href="../../d9/d97/pci_8h.html#a11780e1a6b719257a35670eb14e8ab52">iLine</a>(<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>-&gt;Device), (<span class="keywordtype">void</span> *)<a class="code" href="../../d0/daf/ac97_8cpp.html#a3f3301fe6451a58d5cca852eccbc6d62">OIR</a>(3));</div>
+<div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;        }</div>
+<div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;        <a class="code" href="../../d4/dba/Drivers_2include_2types_8h.html#ab46c2d8e15a0ce794a8935841e5d6b92">dev_t</a> ret = <a class="code" href="../../d1/d48/namespaceDriver.html#aabd58e1b3238e94d096a961602dafec3">RegisterAudioDevice</a>(<a class="code" href="../../d4/d55/Kernel_2driver_8h.html#afcd378c40e1174c74b79e47404cc960fa1f3c5b18d143495c5a295bff2f318037">ddt_Audio</a>,</div>
+<div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;                                        <a class="code" href="../../d0/daf/ac97_8cpp.html#a28a7c1fdeae4c9e8402b81c6cf513622">drvOpen</a>, <a class="code" href="../../d0/daf/ac97_8cpp.html#a7e887522f4eef74ff37c5546b9bb14ea">drvClose</a>,</div>
+<div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;                                        <a class="code" href="../../d0/daf/ac97_8cpp.html#a5624253312dfce6b09273b086b77367c">drvRead</a>, <a class="code" href="../../d0/daf/ac97_8cpp.html#a17be2e5805011d42fd1b156a198ce79b">drvWrite</a>,</div>
+<div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;                                        <a class="code" href="../../d0/daf/ac97_8cpp.html#ad00f321780ef2151f903b8d4899acfda">drvIoctl</a>);</div>
+<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;        <a class="code" href="../../d0/daf/ac97_8cpp.html#af2c0b847d207b2ae67cbba4a8a83f68c">AudioID</a>[Count] = ret;</div>
+<div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;        Count++;</div>
+<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;        <a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a> = (PCIArray *)<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>-&gt;Next;</div>
+<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;    }</div>
+<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160; </div>
+<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;}</div>
+<div class="ttc" id="aDrivers_2include_2types_8h_html_ab46c2d8e15a0ce794a8935841e5d6b92"><div class="ttname"><a href="../../d4/dba/Drivers_2include_2types_8h.html#ab46c2d8e15a0ce794a8935841e5d6b92">dev_t</a></div><div class="ttdeci">__SIZE_TYPE__ dev_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dba/Drivers_2include_2types_8h_source.html#l00057">types.h:57</a></div></div>
+<div class="ttc" id="aKernel_2driver_8h_html_afcd378c40e1174c74b79e47404cc960fa1f3c5b18d143495c5a295bff2f318037"><div class="ttname"><a href="../../d4/d55/Kernel_2driver_8h.html#afcd378c40e1174c74b79e47404cc960fa1f3c5b18d143495c5a295bff2f318037">ddt_Audio</a></div><div class="ttdeci">@ ddt_Audio</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d55/Kernel_2driver_8h_source.html#l00208">driver.h:208</a></div></div>
+<div class="ttc" id="aac97_8cpp_html_a17be2e5805011d42fd1b156a198ce79b"><div class="ttname"><a href="../../d0/daf/ac97_8cpp.html#a17be2e5805011d42fd1b156a198ce79b">drvWrite</a></div><div class="ttdeci">size_t drvWrite(dev_t, dev_t min, uint8_t *Buffer, size_t Size, off_t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daf/ac97_8cpp_source.html#l00707">ac97.cpp:707</a></div></div>
+<div class="ttc" id="aac97_8cpp_html_a28a7c1fdeae4c9e8402b81c6cf513622"><div class="ttname"><a href="../../d0/daf/ac97_8cpp.html#a28a7c1fdeae4c9e8402b81c6cf513622">drvOpen</a></div><div class="ttdeci">int drvOpen(dev_t, dev_t, int, mode_t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daf/ac97_8cpp_source.html#l00703">ac97.cpp:703</a></div></div>
+<div class="ttc" id="aac97_8cpp_html_a3f3301fe6451a58d5cca852eccbc6d62"><div class="ttname"><a href="../../d0/daf/ac97_8cpp.html#a3f3301fe6451a58d5cca852eccbc6d62">OIR</a></div><div class="ttdeci">#define OIR(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daf/ac97_8cpp_source.html#l00694">ac97.cpp:694</a></div></div>
+<div class="ttc" id="aac97_8cpp_html_a5624253312dfce6b09273b086b77367c"><div class="ttname"><a href="../../d0/daf/ac97_8cpp.html#a5624253312dfce6b09273b086b77367c">drvRead</a></div><div class="ttdeci">size_t drvRead(dev_t, dev_t, uint8_t *, size_t, off_t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daf/ac97_8cpp_source.html#l00705">ac97.cpp:705</a></div></div>
+<div class="ttc" id="aac97_8cpp_html_a7e887522f4eef74ff37c5546b9bb14ea"><div class="ttname"><a href="../../d0/daf/ac97_8cpp.html#a7e887522f4eef74ff37c5546b9bb14ea">drvClose</a></div><div class="ttdeci">int drvClose(dev_t, dev_t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daf/ac97_8cpp_source.html#l00704">ac97.cpp:704</a></div></div>
+<div class="ttc" id="aac97_8cpp_html_ad00f321780ef2151f903b8d4899acfda"><div class="ttname"><a href="../../d0/daf/ac97_8cpp.html#ad00f321780ef2151f903b8d4899acfda">drvIoctl</a></div><div class="ttdeci">int drvIoctl(dev_t, dev_t min, unsigned long Request, void *Argp)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daf/ac97_8cpp_source.html#l00712">ac97.cpp:712</a></div></div>
+<div class="ttc" id="aac97_8cpp_html_af2c0b847d207b2ae67cbba4a8a83f68c"><div class="ttname"><a href="../../d0/daf/ac97_8cpp.html#af2c0b847d207b2ae67cbba4a8a83f68c">AudioID</a></div><div class="ttdeci">dev_t AudioID[4]</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daf/ac97_8cpp_source.html#l00692">ac97.cpp:692</a></div></div>
+<div class="ttc" id="anamespaceDriver_html_a037a8439b02442dc6aba8627d437fef8"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a037a8439b02442dc6aba8627d437fef8">Driver::RegisterInterruptHandler</a></div><div class="ttdeci">int RegisterInterruptHandler(dev_t MajorID, uint8_t IRQ, void *Handler)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d48/api_8cpp_source.html#l00099">api.cpp:99</a></div></div>
+<div class="ttc" id="anamespaceDriver_html_a76701f5ecb13655e551b65c3aa8fc269"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a76701f5ecb13655e551b65c3aa8fc269">Driver::InitializePCI</a></div><div class="ttdeci">void InitializePCI(dev_t MajorID, void *_Header)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d48/api_8cpp_source.html#l00600">api.cpp:600</a></div></div>
+<div class="ttc" id="anamespaceDriver_html_aabd58e1b3238e94d096a961602dafec3"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#aabd58e1b3238e94d096a961602dafec3">Driver::RegisterAudioDevice</a></div><div class="ttdeci">dev_t RegisterAudioDevice(dev_t MajorID, DeviceDriverType Type, void *Open, void *Close, void *Read, void *Write, void *Ioctl)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d48/api_8cpp_source.html#l00314">api.cpp:314</a></div></div>
+<div class="ttc" id="apci_8h_html_a11780e1a6b719257a35670eb14e8ab52"><div class="ttname"><a href="../../d9/d97/pci_8h.html#a11780e1a6b719257a35670eb14e8ab52">iLine</a></div><div class="ttdeci">uint8_t iLine(PCIDevice *Device)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/de8/pci_8c_source.html#l00047">pci.c:47</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a725d888123501c2f038199503b78bfb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a725d888123501c2f038199503b78bfb0">&#9670;&nbsp;</a></span>cxx_Panic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> int cxx_Panic </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/daf/ac97_8cpp_source.html#l00718">718</a> of file <a class="el" href="../../d0/daf/ac97_8cpp_source.html">ac97.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;{</div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;    PCIArray *<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a> = <a class="code" href="../../d0/daf/ac97_8cpp.html#a1f127ad53b394ecab0c97ae186e1b386">Devices</a>;</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;    <span class="keywordtype">short</span> Count = 0;</div>
+<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a> != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;    {</div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d0/daf/ac97_8cpp.html#afcb2a48b401d0c86313f7e9e74ab2b22">Drivers</a>[Count] != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;            <a class="code" href="../../d0/daf/ac97_8cpp.html#afcb2a48b401d0c86313f7e9e74ab2b22">Drivers</a>[Count]-&gt;<a class="code" href="../../d9/d72/classAC97Device.html#a19b2954a7d8ef306371bce6acc9e33d9">Panic</a>();</div>
+<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;        Count++;</div>
+<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;        <a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a> = (PCIArray *)<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>-&gt;Next;</div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;    }</div>
+<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160; </div>
+<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;}</div>
+<div class="ttc" id="aclassAC97Device_html_a19b2954a7d8ef306371bce6acc9e33d9"><div class="ttname"><a href="../../d9/d72/classAC97Device.html#a19b2954a7d8ef306371bce6acc9e33d9">AC97Device::Panic</a></div><div class="ttdeci">void Panic()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daf/ac97_8cpp_source.html#l00590">ac97.cpp:590</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab1b166734806bf3c7836cc14e766303b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1b166734806bf3c7836cc14e766303b">&#9670;&nbsp;</a></span>cxx_Probe()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> int cxx_Probe </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/daf/ac97_8cpp_source.html#l00733">733</a> of file <a class="el" href="../../d0/daf/ac97_8cpp_source.html">ac97.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;{</div>
+<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> VendorIDs[] = {0x8086, <a class="code" href="../../d4/d55/Kernel_2driver_8h.html#a8f953c934c895e70362cdc1b4ae8e639">PCI_END</a>};</div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> DeviceIDs[] = {0x2415, <a class="code" href="../../d4/d55/Kernel_2driver_8h.html#a8f953c934c895e70362cdc1b4ae8e639">PCI_END</a>};</div>
+<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;    <a class="code" href="../../d0/daf/ac97_8cpp.html#a1f127ad53b394ecab0c97ae186e1b386">Devices</a> = <a class="code" href="../../d9/d97/pci_8h.html#aa94d20b97c0cf8f7da9c55f502b6fddd">FindPCIDevices</a>(VendorIDs, DeviceIDs);</div>
+<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d0/daf/ac97_8cpp.html#a1f127ad53b394ecab0c97ae186e1b386">Devices</a> == <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;    {</div>
+<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;        <a class="code" href="../../d3/d5a/base_8h.html#a2d2945c5952955d702f894ff0e4fc618">Log</a>(<span class="stringliteral">&quot;No AC&#39;97 device found.&quot;</span>);</div>
+<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;        <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab9b8cc17d1947160d13faaba7a18d6d1">ENODEV</a>;</div>
+<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;    }</div>
+<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160; </div>
+<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;    PCIArray *<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a> = <a class="code" href="../../d0/daf/ac97_8cpp.html#a1f127ad53b394ecab0c97ae186e1b386">Devices</a>;</div>
+<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;    <span class="keywordtype">bool</span> Found = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;    <span class="keywordtype">size_t</span> Count = 0;</div>
+<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a> != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;    {</div>
+<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;        <span class="keywordflow">if</span> (Count++ &gt; <span class="keyword">sizeof</span>(<a class="code" href="../../d0/daf/ac97_8cpp.html#afcb2a48b401d0c86313f7e9e74ab2b22">Drivers</a>) / <span class="keyword">sizeof</span>(<a class="code" href="../../d9/d72/classAC97Device.html">AC97Device</a> *))</div>
+<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160; </div>
+<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;        PCIHeader0 *PCIBaseAddress = (PCIHeader0 *)<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>-&gt;Device-&gt;Header;</div>
+<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> PCIBAR0 = PCIBaseAddress-&gt;BAR0;</div>
+<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Type = PCIBAR0 &amp; 1;</div>
+<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;        <a class="code" href="../../d9/def/mb__64bit__map_8cpp.html#a7d5d79792cdea43010184ab50d14ac5a">if</a> (Type != 1)</div>
+<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;        {</div>
+<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;            <a class="code" href="../../d3/d5a/base_8h.html#a2d2945c5952955d702f894ff0e4fc618">Log</a>(<span class="stringliteral">&quot;Device %x:%x.%d BAR0 is not I/O.&quot;</span>,</div>
+<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;                PCIBaseAddress-&gt;Header.VendorID,</div>
+<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;                PCIBaseAddress-&gt;Header.DeviceID,</div>
+<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;                PCIBaseAddress-&gt;Header.ProgIF);</div>
+<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;        }</div>
+<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160; </div>
+<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;        Found = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;        <a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a> = (PCIArray *)<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>-&gt;Next;</div>
+<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;    }</div>
+<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160; </div>
+<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;    <span class="keywordflow">if</span> (!Found)</div>
+<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;    {</div>
+<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;        <a class="code" href="../../d3/d5a/base_8h.html#a2d2945c5952955d702f894ff0e4fc618">Log</a>(<span class="stringliteral">&quot;No valid AC&#39;97 device found.&quot;</span>);</div>
+<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;        <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a>;</div>
+<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;    }</div>
+<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;}</div>
+<div class="ttc" id="aKernel_2driver_8h_html_a8f953c934c895e70362cdc1b4ae8e639"><div class="ttname"><a href="../../d4/d55/Kernel_2driver_8h.html#a8f953c934c895e70362cdc1b4ae8e639">PCI_END</a></div><div class="ttdeci">#define PCI_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d55/Kernel_2driver_8h_source.html#l00055">driver.h:55</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a5debae8b2a1ec20a6694c0c443ee399e"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></div><div class="ttdeci">__UINT16_TYPE__ uint16_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00161">types.h:161</a></div></div>
+<div class="ttc" id="aKernel_2include__std_2errno_8h_html_a2d1678d5a7cc8ce499643f3b8957def4"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a></div><div class="ttdeci">#define EINVAL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00085">errno.h:85</a></div></div>
+<div class="ttc" id="aKernel_2include__std_2errno_8h_html_ab9b8cc17d1947160d13faaba7a18d6d1"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab9b8cc17d1947160d13faaba7a18d6d1">ENODEV</a></div><div class="ttdeci">#define ENODEV</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00076">errno.h:76</a></div></div>
+<div class="ttc" id="apci_8h_html_aa94d20b97c0cf8f7da9c55f502b6fddd"><div class="ttname"><a href="../../d9/d97/pci_8h.html#aa94d20b97c0cf8f7da9c55f502b6fddd">FindPCIDevices</a></div><div class="ttdeci">PCIArray * FindPCIDevices(uint16_t Vendors[], uint16_t Devices[])</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/de8/pci_8c_source.html#l00027">pci.c:27</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a13d6bb88f9979880c5d3da3081f3d41e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13d6bb88f9979880c5d3da3081f3d41e">&#9670;&nbsp;</a></span>__attribute__</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#ad9594755a99c59fb9089cb25c5568edd">InterruptStatus</a> <a class="el" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a095175dabcb7cd83bddf2bea50371121"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a095175dabcb7cd83bddf2bea50371121">&#9670;&nbsp;</a></span>Buffer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>* Buffer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d0c/rtl8139_8hpp_source.html#l00000">0</a> of file <a class="el" href="../../d5/d0c/rtl8139_8hpp_source.html">rtl8139.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../db/d86/display_8cpp_source.html#l00086">Video::Display::ClearBuffer()</a>, <a class="el" href="../../d3/daf/Kernel_2library_2crc32_8c_source.html#l00087">crc32()</a>, <a class="el" href="../../db/d86/display_8cpp_source.html#l00036">Video::Display::CreateBuffer()</a>, <a class="el" href="../../db/d86/display_8cpp_source.html#l00097">Video::Display::DeleteBuffer()</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00372">drvRead()</a>, <a class="el" href="../../d0/daf/ac97_8cpp_source.html#l00707">drvWrite()</a>, <a class="el" href="../../d2/dbb/dumper_8cpp_source.html#l00040">DumpData()</a>, <a class="el" href="../../d1/d5f/crash__handler_8cpp_source.html#l00068">CrashHandler::EHDumpData()</a>, <a class="el" href="../../d2/d82/elf__rel_8cpp_source.html#l00028">Execute::ELFLoadRel()</a>, <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00662">itoa()</a>, <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00690">ltoa()</a>, <a class="el" href="../../d2/d2d/Drivers_2misc_2vmware_2main_8c_source.html#l00377">MessageReceive()</a>, <a class="el" href="../../d2/d2d/Drivers_2misc_2vmware_2main_8c_source.html#l00273">MessageReceiveHB()</a>, <a class="el" href="../../d2/d2d/Drivers_2misc_2vmware_2main_8c_source.html#l00293">MessageReceiveLB()</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00044">operator delete()</a>, <a class="el" href="../../d8/da3/disk_8hpp_source.html#l00112">Disk::Partition::Read()</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00029">vfs::RefNode::read()</a>, <a class="el" href="../../d7/d70/node_8cpp_source.html#l00043">vfs::Node::read()</a>, <a class="el" href="../../de/da4/ptym_8cpp_source.html#l00027">vfs::MasterPTY::read()</a>, <a class="el" href="../../d5/daa/ptys_8cpp_source.html#l00027">vfs::SlavePTY::read()</a>, <a class="el" href="../../dc/d61/slave_8cpp_source.html#l00058">Driver::SlaveDeviceFile::read()</a>, <a class="el" href="../../da/d62/master_8cpp_source.html#l00059">Driver::MasterDeviceFile::read()</a>, <a class="el" href="../../dd/d55/storage_2devices_2random_8cpp_source.html#l00026">vfs::RandomDevice::read()</a>, <a class="el" href="../../db/d6f/zero_8cpp_source.html#l00027">vfs::ZeroDevice::read()</a>, <a class="el" href="../../de/d2f/kcon_8cpp_source.html#l00027">vfs::KConDevice::read()</a>, <a class="el" href="../../da/de7/fsh_8c_source.html#l00032">ReadLine()</a>, <a class="el" href="../../d7/d5f/net_8c_source.html#l00033">ReportNetworkPacket()</a>, <a class="el" href="../../d5/d48/api_8cpp_source.html#l00390">Driver::ReportNetworkPacket()</a>, <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00375">reverse()</a>, <a class="el" href="../../db/d86/display_8cpp_source.html#l00200">Video::Display::Scroll()</a>, <a class="el" href="../../db/d86/display_8cpp_source.html#l00111">Video::Display::SetBrightness()</a>, <a class="el" href="../../db/d86/display_8cpp_source.html#l00067">Video::Display::SetBuffer()</a>, <a class="el" href="../../da/d8a/shell_8cpp_source.html#l00082">StartKernelShell()</a>, <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00121">MediaAccessControl::ToString()</a>, <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00187">InternetProtocol::Version4::ToStringBigEndian()</a>, <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00221">InternetProtocol::Version6::ToStringBigEndian()</a>, <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00180">InternetProtocol::Version4::ToStringLittleEndian()</a>, <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00214">InternetProtocol::Version6::ToStringLittleEndian()</a>, <a class="el" href="../../d5/d87/pci_8cpp_source.html#l00044">PCI::Descriptors::u32ToHexString()</a>, <a class="el" href="../../d5/d87/pci_8cpp_source.html#l00029">PCI::Descriptors::u8ToHexString()</a>, <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00718">ultoa()</a>, <a class="el" href="../../d8/da3/disk_8hpp_source.html#l00121">Disk::Partition::Write()</a>, <a class="el" href="../../d0/daf/ac97_8cpp_source.html#l00369">AC97Device::write()</a>, <a class="el" href="../../de/d94/e1000_8cpp_source.html#l00169">E1000Device::write()</a>, <a class="el" href="../../d7/d05/rtl8139_8cpp_source.html#l00060">RTL8139Device::write()</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00037">vfs::RefNode::write()</a>, <a class="el" href="../../d7/d70/node_8cpp_source.html#l00053">vfs::Node::write()</a>, <a class="el" href="../../de/da4/ptym_8cpp_source.html#l00035">vfs::MasterPTY::write()</a>, <a class="el" href="../../d5/daa/ptys_8cpp_source.html#l00035">vfs::SlavePTY::write()</a>, <a class="el" href="../../dc/d61/slave_8cpp_source.html#l00081">Driver::SlaveDeviceFile::write()</a>, <a class="el" href="../../da/d62/master_8cpp_source.html#l00093">Driver::MasterDeviceFile::write()</a>, <a class="el" href="../../de/d2f/kcon_8cpp_source.html#l00032">vfs::KConDevice::write()</a>, and <a class="el" href="../../d9/d8f/tty_8cpp_source.html#l00026">vfs::TTYDevice::write()</a>.</p>
+
+</div>
+</div>
+<a id="a7da24467a0654ce2d1b0d8d0a09eee4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7da24467a0654ce2d1b0d8d0a09eee4b">&#9670;&nbsp;</a></span>Size</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Size</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d0c/rtl8139_8hpp_source.html#l00001">1</a> of file <a class="el" href="../../d5/d0c/rtl8139_8hpp_source.html">rtl8139.hpp</a>.</p>
 
 </div>
 </div>
@@ -160,7 +669,7 @@ Type</td>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_6bd7ae448e999fc4806673008d3d7608.html">modules</a></li><li class="navelem"><a class="el" href="../../dir_16f83508cf68e7e5321d8188f5bed38b.html">Realtek</a></li><li class="navelem"><a class="el" href="../../d5/d0c/rtl8139_8hpp.html">rtl8139.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_60925fc218da8ca7908795bf5f624060.html">Drivers</a></li><li class="navelem"><a class="el" href="../../dir_c7faab1e4d918703eb25223cf062de98.html">network</a></li><li class="navelem"><a class="el" href="../../dir_39619fcd4cb6dbfca0e9489233112c92.html">rtl8139</a></li><li class="navelem"><a class="el" href="../../d5/d0c/rtl8139_8hpp.html">rtl8139.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

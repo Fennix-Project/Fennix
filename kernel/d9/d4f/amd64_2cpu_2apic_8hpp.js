@@ -126,16 +126,6 @@ var amd64_2cpu_2apic_8hpp =
       [ "VEC", "d3/d88/namespaceAPIC.html#a390853dfff13724af5495d195be51bb2", null ],
       [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ]
     ] ],
-    [ "__packed.__unnamed29__", "d3/d88/namespaceAPIC.html#dd/db2/structAPIC_1_1____packed_8____unnamed29____", [
-      [ "ASE", "d3/d88/namespaceAPIC.html#a227468a5bad2ead3a4489ca2efc8b96b", null ],
-      [ "FCC", "d3/d88/namespaceAPIC.html#aa44b9f61b43631a04f181b6ab1259e51", null ],
-      [ "MaximumRedirectionEntry", "d3/d88/namespaceAPIC.html#a528bff8b6bcc79dfa0a42073f5eec7e9", null ],
-      [ "Reserved", "d3/d88/namespaceAPIC.html#a942d4e37dd5607ab68e54755540d4a47", null ],
-      [ "Reserved0", "d3/d88/namespaceAPIC.html#a3cdecefb5fa15c31235080e3dfac5a6d", null ],
-      [ "Reserved2", "d3/d88/namespaceAPIC.html#ad783eb173ee49cc2a004bc1ca1313615", null ],
-      [ "VEC", "d3/d88/namespaceAPIC.html#a390853dfff13724af5495d195be51bb2", null ],
-      [ "Version", "d3/d88/namespaceAPIC.html#a34b6cd75171affba6957e308dcbd92be", null ]
-    ] ],
     [ "ErrorStatusRegister.__unnamed9__", "d3/d88/namespaceAPIC.html#d6/dd8/structAPIC_1_1ErrorStatusRegister_8____unnamed9____", [
       [ "IRA", "d3/d88/namespaceAPIC.html#a6c5d82631a1b2759e3add55b7609c58b", null ],
       [ "RAE", "d3/d88/namespaceAPIC.html#a7d19412a3c79b3d2f800164479ed5cb8", null ],

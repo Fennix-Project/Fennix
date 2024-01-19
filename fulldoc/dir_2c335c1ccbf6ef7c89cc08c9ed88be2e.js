@@ -6,6 +6,7 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "memory", "dir_b6ab17d5ba3b9a8a18b47a4bc59982c5.html", "dir_b6ab17d5ba3b9a8a18b47a4bc59982c5" ],
     [ "net", "dir_7d037a37ac426a4d7d1a8da0a2cc4a25.html", "dir_7d037a37ac426a4d7d1a8da0a2cc4a25" ],
     [ "stb", "dir_7b88f14dc0898fb5d4ae87ce590f2a34.html", "dir_7b88f14dc0898fb5d4ae87ce590f2a34" ],
+    [ "syscall", "dir_cb1be2d007f1b33d56b6ba232a305361.html", "dir_cb1be2d007f1b33d56b6ba232a305361" ],
     [ "abi.h", "df/d31/abi_8h.html", "df/d31/abi_8h" ],
     [ "acpi.hpp", "d1/d90/acpi_8hpp.html", [
       [ "ACPI", "d3/d21/classACPI_1_1ACPI.html", "d3/d21/classACPI_1_1ACPI" ],
@@ -26,6 +27,20 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
         [ "AddressSpace", "d3/d21/classACPI_1_1ACPI.html#abbfdb7d7b6d0d7fc15947e67b57f58f2", null ],
         [ "BitOffset", "d3/d21/classACPI_1_1ACPI.html#ad32a56f37ec49df90c6ad477809e0541", null ],
         [ "BitWidth", "d3/d21/classACPI_1_1ACPI.html#adb73c091bf61a9727f7b85477138176f", null ]
+      ] ],
+      [ "DBG2Device", "d3/d21/classACPI_1_1ACPI.html#dc/d67/structACPI_1_1ACPI_1_1DBG2Device", [
+        [ "AddressSizeOffset", "d3/d21/classACPI_1_1ACPI.html#a3f4a8d5f56176c43f33922724b83e9fe", null ],
+        [ "BaseAddressRegisterOffset", "d3/d21/classACPI_1_1ACPI.html#a7f353d9d5fb1cba6e81a50ebcb79749f", null ],
+        [ "Length", "d3/d21/classACPI_1_1ACPI.html#aec6e2f4ef3afdadd2d9ed6835af49611", null ],
+        [ "NamespaceStringLength", "d3/d21/classACPI_1_1ACPI.html#a9a665eafe2c43f857461eca726d176d7", null ],
+        [ "NamespaceStringOffset", "d3/d21/classACPI_1_1ACPI.html#abbf3d8627f46e933493c220f55064e20", null ],
+        [ "NumberofGenericAddressRegisters", "d3/d21/classACPI_1_1ACPI.html#aff8085c3ab3b8224461d0d9c2d5b3ed0", null ],
+        [ "OemDataLength", "d3/d21/classACPI_1_1ACPI.html#a3edee642ed7b48a67827e48372e1399e", null ],
+        [ "OemDataOffset", "d3/d21/classACPI_1_1ACPI.html#aa46ae526cc57fbca21498126dcb7698f", null ],
+        [ "PortSubtype", "d3/d21/classACPI_1_1ACPI.html#ab9acd8d9a089627697ad83b83ac0f5b4", null ],
+        [ "PortType", "d3/d21/classACPI_1_1ACPI.html#ac2a3d927be9663ea1b97a8d9dfcc810b", null ],
+        [ "Reserved", "d3/d21/classACPI_1_1ACPI.html#a6ecb27c4ecb3b5bf8feb3addc47e2e9f", null ],
+        [ "Revision", "d3/d21/classACPI_1_1ACPI.html#a4da873e0abde4d0d46c433f5906905eb", null ]
       ] ],
       [ "MCFGHeader", "d3/d21/classACPI_1_1ACPI.html#dd/db0/structACPI_1_1ACPI_1_1MCFGHeader", [
         [ "Header", "d3/d21/classACPI_1_1ACPI.html#aeca0bc703f70b6e8cc2c75b215e6d235", null ],
@@ -138,6 +153,21 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
         [ "Header", "d3/d21/classACPI_1_1ACPI.html#a0f9e21ad451dce55f9db5960118dff0d", null ],
         [ "LocalControllerAddress", "d3/d21/classACPI_1_1ACPI.html#af220dd8649e2ea83fb3f7026c2f73648", null ]
       ] ],
+      [ "SSDTHeader", "d3/d21/classACPI_1_1ACPI.html#d0/d1e/structACPI_1_1ACPI_1_1SSDTHeader", [
+        [ "DefinitionBlock", "d3/d21/classACPI_1_1ACPI.html#a6574c4ca42af0f955d60ea71fc75f7af", null ],
+        [ "Header", "d3/d21/classACPI_1_1ACPI.html#ab2c2fc0aad7f04cce6028d710322c84e", null ]
+      ] ],
+      [ "DBGPHeader", "d3/d21/classACPI_1_1ACPI.html#d8/d5d/structACPI_1_1ACPI_1_1DBGPHeader", [
+        [ "BaseAddress", "d3/d21/classACPI_1_1ACPI.html#a228284230d40ffcbd0c59604a91c1550", null ],
+        [ "Header", "d3/d21/classACPI_1_1ACPI.html#a285edecfef77f9b35acb25f834b77687", null ],
+        [ "InterfaceType", "d3/d21/classACPI_1_1ACPI.html#a3c0faf9bcd2f1adc1552a5a950f704e6", null ],
+        [ "Reserved", "d3/d21/classACPI_1_1ACPI.html#a4b364143ed2975a8eb92ae3e8898bce8", null ]
+      ] ],
+      [ "DBG2Header", "d3/d21/classACPI_1_1ACPI.html#d5/d9c/structACPI_1_1ACPI_1_1DBG2Header", [
+        [ "Header", "d3/d21/classACPI_1_1ACPI.html#ae18928038c55ee419dba817829995173", null ],
+        [ "NumberDbgDeviceInfo", "d3/d21/classACPI_1_1ACPI.html#ac00ca9a0558b9d95026a871bb15bf667", null ],
+        [ "OffsetDbgDeviceInfo", "d3/d21/classACPI_1_1ACPI.html#ae308db07fe3a6f60ab58f8b83c630810", null ]
+      ] ],
       [ "MADT", "da/db9/classACPI_1_1MADT.html", "da/db9/classACPI_1_1MADT" ],
       [ "APICHeader", "da/db9/classACPI_1_1MADT.html#d9/d48/structACPI_1_1MADT_1_1APICHeader", [
         [ "Length", "da/db9/classACPI_1_1MADT.html#a9a5abfdcf8dda98717eedd1202d6218d", null ],
@@ -187,22 +217,21 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "debug.h", "db/d16/debug_8h.html", "db/d16/debug_8h" ],
     [ "disk.hpp", "d8/da3/disk_8hpp.html", "d8/da3/disk_8hpp" ],
     [ "display.hpp", "d2/da4/display_8hpp.html", "d2/da4/display_8hpp" ],
+    [ "driver.hpp", "d7/d7e/driver_8hpp.html", "d7/d7e/driver_8hpp" ],
     [ "dumper.hpp", "d5/dd9/dumper_8hpp.html", "d5/dd9/dumper_8hpp" ],
     [ "elf.h", "d4/dae/Kernel_2include_2elf_8h.html", "d4/dae/Kernel_2include_2elf_8h" ],
-    [ "emmintrin.h", "d9/dae/emmintrin_8h.html", null ],
     [ "exec.hpp", "d2/d83/exec_8hpp.html", "d2/d83/exec_8hpp" ],
     [ "filesystem.hpp", "d1/d85/filesystem_8hpp.html", "d1/d85/filesystem_8hpp" ],
     [ "hashmap.hpp", "d2/d89/hashmap_8hpp.html", "d2/d89/hashmap_8hpp" ],
+    [ "ini.h", "d3/d50/ini_8h.html", "d3/d50/ini_8h" ],
     [ "intrin.hpp", "df/db4/intrin_8hpp.html", "df/db4/intrin_8hpp" ],
     [ "ints.hpp", "d0/d36/ints_8hpp.html", "d0/d36/ints_8hpp" ],
     [ "io.h", "db/d92/Kernel_2include_2io_8h.html", null ],
-    [ "ipc.hpp", "d1/d02/ipc_8hpp.html", "d1/d02/ipc_8hpp" ],
     [ "kconfig.hpp", "d1/dfc/kconfig_8hpp.html", "d1/dfc/kconfig_8hpp" ],
     [ "kshell.hpp", "da/df7/kshell_8hpp.html", "da/df7/kshell_8hpp" ],
     [ "lock.hpp", "d3/d01/Kernel_2include_2lock_8hpp.html", null ],
     [ "md5.h", "da/db0/md5_8h.html", "da/db0/md5_8h" ],
     [ "memory.hpp", "d9/df8/Kernel_2include_2memory_8hpp.html", "d9/df8/Kernel_2include_2memory_8hpp" ],
-    [ "module.hpp", "de/def/module_8hpp.html", "de/def/module_8hpp" ],
     [ "msexec.h", "de/d63/msexec_8h.html", "de/d63/msexec_8h" ],
     [ "pci.hpp", "d9/dd5/pci_8hpp.html", "d9/dd5/pci_8hpp" ],
     [ "power.hpp", "db/dfa/power_8hpp.html", [
@@ -210,7 +239,7 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     ] ],
     [ "printf.h", "dc/df9/Kernel_2include_2printf_8h.html", "dc/df9/Kernel_2include_2printf_8h" ],
     [ "rand.hpp", "d4/d0b/rand_8hpp.html", "d4/d0b/rand_8hpp" ],
-    [ "signal.h", "d4/dc2/Kernel_2include_2signal_8h.html", "d4/dc2/Kernel_2include_2signal_8h" ],
+    [ "signal.hpp", "dd/d5f/signal_8hpp.html", "dd/d5f/signal_8hpp" ],
     [ "smart_ptr.hpp", "d4/d8f/include_2smart__ptr_8hpp.html", null ],
     [ "smp.hpp", "d4/d33/smp_8hpp.html", "d4/d33/smp_8hpp" ],
     [ "symbols.hpp", "d7/d94/symbols_8hpp.html", [

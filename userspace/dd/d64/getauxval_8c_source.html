@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Userspace
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Fennix Userspace Documentation</div>
+   <div id="projectbrief">Userspace Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('dd/d64/getauxval_8c_source.html','../.
 <div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="../../d0/dd9/src_2include_2sys_2auxv_8h.html#a27b546c1711588466cb907f6fe2311dc">    5</a></span>&#160;<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code" href="../../dd/d64/getauxval_8c.html#ad75fcaedbb3d9d8dbba8bf91d8cf0d16">__getauxval</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> item)</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordtype">size_t</span> *auxv = <a class="code" href="../../db/dc8/libc_8h.html#a562c50deef56f1ef956e231f804c5d0b">libc</a>.auxv;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (item == <a class="code" href="../../d1/d8c/apps_2system_2init_2aux_8h.html#ab260ff441f79a29f19d7c100d6293d5f">AT_SECURE</a>) <span class="keywordflow">return</span> <a class="code" href="../../db/dc8/libc_8h.html#a562c50deef56f1ef956e231f804c5d0b">libc</a>.secure;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (item == <a class="code" href="../../df/d55/userspace__test_8c.html#ab260ff441f79a29f19d7c100d6293d5f">AT_SECURE</a>) <span class="keywordflow">return</span> <a class="code" href="../../db/dc8/libc_8h.html#a562c50deef56f1ef956e231f804c5d0b">libc</a>.secure;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">for</span> (; *auxv; auxv+=2)</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keywordflow">if</span> (*auxv==item) <span class="keywordflow">return</span> auxv[1];</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#a03e689f378f643d16ea7537918528a48">ENOENT</a>;</div>
@@ -104,7 +104,6 @@ $(document).ready(function(){initNavTree('dd/d64/getauxval_8c_source.html','../.
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../dd/d64/getauxval_8c.html#a93e6a5f7f3222c4df6a19bcd7080261c">   15</a></span>&#160;<a class="code" href="../../dd/d64/getauxval_8c.html#a93e6a5f7f3222c4df6a19bcd7080261c">weak_alias</a>(<a class="code" href="../../dd/d64/getauxval_8c.html#ad75fcaedbb3d9d8dbba8bf91d8cf0d16">__getauxval</a>, <a class="code" href="../../de/da8/include_2sys_2auxv_8h.html#a551f37b35ba054931336e803e4fb90a4">getauxval</a>);</div>
-<div class="ttc" id="aapps_2system_2init_2aux_8h_html_ab260ff441f79a29f19d7c100d6293d5f"><div class="ttname"><a href="../../d1/d8c/apps_2system_2init_2aux_8h.html#ab260ff441f79a29f19d7c100d6293d5f">AT_SECURE</a></div><div class="ttdeci">#define AT_SECURE</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d8c/apps_2system_2init_2aux_8h_source.html#l00024">aux.h:24</a></div></div>
 <div class="ttc" id="agetauxval_8c_html_a93e6a5f7f3222c4df6a19bcd7080261c"><div class="ttname"><a href="../../dd/d64/getauxval_8c.html#a93e6a5f7f3222c4df6a19bcd7080261c">weak_alias</a></div><div class="ttdeci">weak_alias(__getauxval, getauxval)</div></div>
 <div class="ttc" id="agetauxval_8c_html_ad75fcaedbb3d9d8dbba8bf91d8cf0d16"><div class="ttname"><a href="../../dd/d64/getauxval_8c.html#ad75fcaedbb3d9d8dbba8bf91d8cf0d16">__getauxval</a></div><div class="ttdeci">unsigned long __getauxval(unsigned long item)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d64/getauxval_8c_source.html#l00005">getauxval.c:5</a></div></div>
 <div class="ttc" id="ainclude_2sys_2auxv_8h_html_a551f37b35ba054931336e803e4fb90a4"><div class="ttname"><a href="../../de/da8/include_2sys_2auxv_8h.html#a551f37b35ba054931336e803e4fb90a4">getauxval</a></div><div class="ttdeci">unsigned long getauxval(unsigned long)</div></div>
@@ -112,6 +111,7 @@ $(document).ready(function(){initNavTree('dd/d64/getauxval_8c_source.html','../.
 <div class="ttc" id="alibc_2include_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno.h:135</a></div></div>
 <div class="ttc" id="alibc_8h_html"><div class="ttname"><a href="../../db/dc8/libc_8h.html">libc.h</a></div></div>
 <div class="ttc" id="alibc_8h_html_a562c50deef56f1ef956e231f804c5d0b"><div class="ttname"><a href="../../db/dc8/libc_8h.html#a562c50deef56f1ef956e231f804c5d0b">libc</a></div><div class="ttdeci">#define libc</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dc8/libc_8h_source.html#l00038">libc.h:38</a></div></div>
+<div class="ttc" id="auserspace__test_8c_html_ab260ff441f79a29f19d7c100d6293d5f"><div class="ttname"><a href="../../df/d55/userspace__test_8c.html#ab260ff441f79a29f19d7c100d6293d5f">AT_SECURE</a></div><div class="ttdeci">#define AT_SECURE</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d55/userspace__test_8c_source.html#l00041">userspace_test.c:41</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

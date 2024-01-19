@@ -9,9 +9,9 @@ var netstat_8c =
     [ "inet_params", "dd/d3f/netstat_8c.html#d8/dc2/structinet__params", [
       [ "inode", "dd/d3f/netstat_8c.html#ac94827a7ba4c9a356cb86ceb0272e3d1", null ],
       [ "local_port", "dd/d3f/netstat_8c.html#a3185c9d141d744f4b0e775f20be443b7", null ],
-      [ "localaddr", "dd/d3f/netstat_8c.html#a32dac2a4c4260b119a7fdf0c44029860", null ],
+      [ "localaddr", "dd/d3f/netstat_8c.html#aefabc81c1ffbe8667fc3500443cdb89b", null ],
       [ "rem_port", "dd/d3f/netstat_8c.html#a6d368253ea051855413975998c095892", null ],
-      [ "remaddr", "dd/d3f/netstat_8c.html#a14b1779b70db1478ce240e3bd23c5d35", null ],
+      [ "remaddr", "dd/d3f/netstat_8c.html#ae3750fb5ce0ce22ea18738348287d7ba", null ],
       [ "rxq", "dd/d3f/netstat_8c.html#a4e7c51997b38ddbb0d37efdfa2c57045", null ],
       [ "state", "dd/d3f/netstat_8c.html#a4005189cfe7f7f1c30104afdb8376ef1", null ],
       [ "txq", "dd/d3f/netstat_8c.html#ad005e514931cb9a479696ffabbd646b1", null ],

@@ -157,9 +157,9 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa9ad1dd22b1dbe1eb0a3c44803da6fc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dd4/linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7b/libc_2include_2sys_2wait_8h.html#aa9ad1dd22b1dbe1eb0a3c44803da6fc4">wait</a> (int *wstatus)</td></tr>
+<tr class="memitem:aa9ad1dd22b1dbe1eb0a3c44803da6fc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d23/Userspace_2libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7b/libc_2include_2sys_2wait_8h.html#aa9ad1dd22b1dbe1eb0a3c44803da6fc4">wait</a> (int *wstatus)</td></tr>
 <tr class="separator:aa9ad1dd22b1dbe1eb0a3c44803da6fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b0bf87bfa87bef2f83452175a34bf2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dd4/linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7b/libc_2include_2sys_2wait_8h.html#a3b0bf87bfa87bef2f83452175a34bf2d">waitpid</a> (<a class="el" href="../../d1/dd4/linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a> <a class="el" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>, int *wstatus, int <a class="el" href="../../d3/df2/ifconfig_8c.html#d1/d38/structoptions">options</a>)</td></tr>
+<tr class="memitem:a3b0bf87bfa87bef2f83452175a34bf2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d23/Userspace_2libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7b/libc_2include_2sys_2wait_8h.html#a3b0bf87bfa87bef2f83452175a34bf2d">waitpid</a> (<a class="el" href="../../d1/d23/Userspace_2libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a> <a class="el" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>, int *wstatus, int <a class="el" href="../../d3/df2/ifconfig_8c.html#d1/d38/structoptions">options</a>)</td></tr>
 <tr class="separator:a3b0bf87bfa87bef2f83452175a34bf2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75afa44f50cc5355f7bdb8b266dd2d6c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d7b/libc_2include_2sys_2wait_8h.html#a75afa44f50cc5355f7bdb8b266dd2d6c">waitid</a> (<a class="el" href="../../d1/d7b/libc_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1e">idtype_t</a> idtype, <a class="el" href="../../d1/d23/Userspace_2libc_2include_2sys_2types_8h.html#a7f13a96f05e6a74e9b416154cbe5e2e2">id_t</a> id, <a class="el" href="../../d1/d7b/libc_2include_2sys_2wait_8h.html#dc/dbc/structsiginfo__t">siginfo_t</a> *infop, int <a class="el" href="../../d3/df2/ifconfig_8c.html#d1/d38/structoptions">options</a>)</td></tr>
 <tr class="separator:a75afa44f50cc5355f7bdb8b266dd2d6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,9 +177,33 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d7b/libc_2include_2sys_2wait_8h_source.html#l00013">13</a> of file <a class="el" href="../../d1/d7b/libc_2include_2sys_2wait_8h_source.html">wait.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00262">262</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="adca6a55300f760e928998c753f476c03"></a>union <a class="el" href="../../dd/d5f/signal_8hpp.html#d9/d0b/unionsiginfo__t_8____si__fields">siginfo_t</a></td>
+<td class="fieldname">
+__si_fields</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a0dd36ae3e9df589f5755f88c93671c2d"></a>int</td>
+<td class="fieldname">
+si_code</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ae840a8f2824bab1693577f19f4d0432d"></a>int</td>
+<td class="fieldname">
+si_errno</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a238821f6eb15317d3d7b10efef80b9c7"></a>int</td>
+<td class="fieldname">
+si_signo</td>
+<td class="fielddoc">
+</td></tr>
 <tr><td class="fieldtype">
 <a id="aa91552fa3db0a0570cefe972d3ef31a0"></a>int</td>
 <td class="fieldname">
@@ -540,7 +564,7 @@ stub</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/dd4/linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a> <a class="el" href="../../d7/d23/unionwait_8h.html#de/d61/unionwait">wait</a> </td>
+          <td class="memname"><a class="el" href="../../d1/d23/Userspace_2libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a> <a class="el" href="../../d7/d23/unionwait_8h.html#de/d61/unionwait">wait</a> </td>
           <td>(</td>
           <td class="paramtype">int *&#160;</td>
           <td class="paramname"><em>wstatus</em></td><td>)</td>
@@ -557,7 +581,7 @@ stub</td>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d3/df1/libc_2src_2std_2sys_2wait_8c_source.html#l00008">waitpid()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/daf/open__transformer_8c_source.html#l00067">check_errors_in_children()</a>, <a class="el" href="../../d7/d7c/system_2init_2init_8c_source.html#l00036">main()</a>, <a class="el" href="../../d1/d23/runsvdir_8c_source.html#l00236">runsvdir_main()</a>, <a class="el" href="../../d6/d90/hush_8c_source.html#l07749">setup_heredoc()</a>, <a class="el" href="../../d7/d4c/timeout_8c_source.html#l00066">timeout_main()</a>, and <a class="el" href="../../d0/de2/base_2busybox_2init_2init_8c_source.html#l00572">waitfor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/daf/open__transformer_8c_source.html#l00067">check_errors_in_children()</a>, <a class="el" href="../../da/de7/fsh_8c_source.html#l00071">ExecuteCommand()</a>, <a class="el" href="../../da/de7/fsh_8c_source.html#l00100">HandleSignal()</a>, <a class="el" href="../../df/d55/userspace__test_8c_source.html#l00721">main()</a>, <a class="el" href="../../d1/d23/runsvdir_8c_source.html#l00236">runsvdir_main()</a>, <a class="el" href="../../d6/d90/hush_8c_source.html#l07749">setup_heredoc()</a>, <a class="el" href="../../d7/d4c/timeout_8c_source.html#l00066">timeout_main()</a>, and <a class="el" href="../../d0/de2/base_2busybox_2init_2init_8c_source.html#l00572">waitfor()</a>.</p>
 
 </div>
 </div>
@@ -603,7 +627,7 @@ stub</td>
 <div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00088">info</a>, <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00059">syscall_cp</a>, and <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00008">type</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00088">info</a>, <a class="el" href="../../d9/db2/Userspace_2musl_2src_2internal_2syscall_8h_source.html#l00059">syscall_cp</a>, and <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00008">type</a>.</p>
 
 </div>
 </div>
@@ -614,9 +638,9 @@ stub</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/dd4/linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a> waitpid </td>
+          <td class="memname"><a class="el" href="../../d1/d23/Userspace_2libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a> waitpid </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/dd4/linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d1/d23/Userspace_2libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a>&#160;</td>
           <td class="paramname"><em>pid</em>, </td>
         </tr>
         <tr>
@@ -643,7 +667,7 @@ stub</td>
 <div class="fragment"><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../d9/de8/bootchartd_8c_source.html#l00346">bootchartd_main()</a>, <a class="el" href="../../d9/da1/crond_8c_source.html#l00975">check_completions()</a>, <a class="el" href="../../d6/d90/hush_8c_source.html#l09077">checkjobs()</a>, <a class="el" href="../../d0/d43/mconf_8c_source.html#l00462">exec_conf()</a>, <a class="el" href="../../da/d22/docproc_8c_source.html#l00079">exec_kernel_doc()</a>, <a class="el" href="../../d8/deb/forkpty_8c_source.html#l00009">forkpty()</a>, <a class="el" href="../../d0/de2/base_2busybox_2init_2init_8c_source.html#l01039">init_main()</a>, <a class="el" href="../../d0/de2/base_2busybox_2init_2init_8c_source.html#l00734">pause_and_low_level_reboot()</a>, <a class="el" href="../../d1/d0c/posix__spawn_8c_source.html#l00164">posix_spawn()</a>, <a class="el" href="../../d8/dbe/wordexp_8c_source.html#l00014">reap()</a>, <a class="el" href="../../df/d6d/xfuncs_8c_source.html#l00393">safe_waitpid()</a>, <a class="el" href="../../d4/dfd/system_8c_source.html#l00011">system()</a>, <a class="el" href="../../d0/d11/fsck_8c_source.html#l00414">wait_one()</a>, and <a class="el" href="../../d1/dbe/ash_8c_source.html#l04311">waitproc()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/de8/bootchartd_8c_source.html#l00346">bootchartd_main()</a>, <a class="el" href="../../d9/da1/crond_8c_source.html#l00975">check_completions()</a>, <a class="el" href="../../d6/d90/hush_8c_source.html#l09077">checkjobs()</a>, <a class="el" href="../../d0/d43/mconf_8c_source.html#l00462">exec_conf()</a>, <a class="el" href="../../da/d22/docproc_8c_source.html#l00079">exec_kernel_doc()</a>, <a class="el" href="../../d8/deb/forkpty_8c_source.html#l00009">forkpty()</a>, <a class="el" href="../../d0/de2/base_2busybox_2init_2init_8c_source.html#l01039">init_main()</a>, <a class="el" href="../../df/d55/userspace__test_8c_source.html#l00721">main()</a>, <a class="el" href="../../d0/de2/base_2busybox_2init_2init_8c_source.html#l00734">pause_and_low_level_reboot()</a>, <a class="el" href="../../d1/d0c/posix__spawn_8c_source.html#l00164">posix_spawn()</a>, <a class="el" href="../../d8/dbe/wordexp_8c_source.html#l00014">reap()</a>, <a class="el" href="../../df/d6d/xfuncs_8c_source.html#l00393">safe_waitpid()</a>, <a class="el" href="../../d4/dfd/system_8c_source.html#l00011">system()</a>, <a class="el" href="../../df/d55/userspace__test_8c_source.html#l00395">test_execve_fork()</a>, <a class="el" href="../../d0/d11/fsck_8c_source.html#l00414">wait_one()</a>, and <a class="el" href="../../d1/dbe/ash_8c_source.html#l04311">waitproc()</a>.</p>
 
 </div>
 </div>

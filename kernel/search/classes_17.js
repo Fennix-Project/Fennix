@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['xcr0_8583',['XCR0',['../d9/d25/namespaceCPU_1_1x64.html#d5/dc7/unionCPU_1_1x64_1_1XCR0',1,'CPU::x64']]],
-  ['xcr0_2e_5f_5funnamed765_5f_5f_8584',['XCR0.__unnamed765__',['../d9/d25/namespaceCPU_1_1x64.html#d8/df9/structCPU_1_1x64_1_1XCR0_8____unnamed765____',1,'CPU::x64']]]
+  ['zerodevice_9553',['ZeroDevice',['../df/d89/classvfs_1_1ZeroDevice.html',1,'vfs']]]
 ];

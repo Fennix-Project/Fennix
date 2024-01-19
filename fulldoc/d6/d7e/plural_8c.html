@@ -235,7 +235,7 @@ Macros</h2></td></tr>
 <tr class="separator:a0ea34e09602d1ede033f16ba669ef24b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6d6ca80e87922f90264f1a4a802ea04"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d7e/plural_8c.html#af6d6ca80e87922f90264f1a4a802ea04">YYDPRINTF</a>(Args)</td></tr>
 <tr class="separator:af6d6ca80e87922f90264f1a4a802ea04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c510d33cb388afc9411141ba3076a36"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d7e/plural_8c.html#a1c510d33cb388afc9411141ba3076a36">YY_SYMBOL_PRINT</a>(Title,  <a class="el" href="../../d0/da5/Fex_8hpp.html#a875f6ae629219a43a4a631840c1cbaba">Type</a>,  Value,  Location)</td></tr>
+<tr class="memitem:a1c510d33cb388afc9411141ba3076a36"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d7e/plural_8c.html#a1c510d33cb388afc9411141ba3076a36">YY_SYMBOL_PRINT</a>(Title,  Type,  Value,  Location)</td></tr>
 <tr class="separator:a1c510d33cb388afc9411141ba3076a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a52157fbe194e3a347afc4ef750af77"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d7e/plural_8c.html#a7a52157fbe194e3a347afc4ef750af77">YY_STACK_PRINT</a>(Bottom,  Top)</td></tr>
 <tr class="separator:a7a52157fbe194e3a347afc4ef750af77"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -778,7 +778,7 @@ yyvs_alloc</td>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d0/da5/Fex_8hpp.html#a875f6ae629219a43a4a631840c1cbaba">Type</a>, </td>
+          <td class="paramname">Type, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2131,7 +2131,7 @@ yyvs_alloc</td>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;      newp-&gt;<a class="code" href="../../d0/ddf/structexpression.html#a231f8335262357a45053fdf96b080840">nargs</a> = <a class="code" href="../../d0/ddf/structexpression.html#a231f8335262357a45053fdf96b080840">nargs</a>;</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;      newp-&gt;<a class="code" href="../../d0/ddf/structexpression.html#ac652962f66237f89f302683c92337b9e">operation</a> = <a class="code" href="../../d5/df6/structop.html">op</a>;</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;      <span class="keywordflow">for</span> (<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = <a class="code" href="../../d0/ddf/structexpression.html#a231f8335262357a45053fdf96b080840">nargs</a> - 1; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &gt;= 0; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>--)</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    newp-&gt;<a class="code" href="../../d0/ddf/structexpression.html#a2792aeb06b83df109e6dd8b7a5e547bd">val</a>.args[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>] = <a class="code" href="../../d1/d0c/posix__spawn_8c.html#d8/d08/structargs">args</a>[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>];</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    newp-&gt;<a class="code" href="../../d0/ddf/structexpression.html#aa173acff3364f68b52ee78ef95745f8c">val</a>.args[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>] = <a class="code" href="../../d1/d0c/posix__spawn_8c.html#d8/d08/structargs">args</a>[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>];</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;      <span class="keywordflow">return</span> newp;</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    }</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160; </div>
@@ -2148,11 +2148,11 @@ yyvs_alloc</td>
 <div class="ttc" id="aposix__spawn_8c_html_d8/d08/structargs"><div class="ttname"><a href="../../d1/d0c/posix__spawn_8c.html#d8/d08/structargs">args</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d51/mq__notify_8c_source.html#l00010">mq_notify.c:10</a></div></div>
 <div class="ttc" id="astructexpression_html"><div class="ttname"><a href="../../d0/ddf/structexpression.html">expression</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd5/plural-exp_8h_source.html#l00044">plural-exp.h:45</a></div></div>
 <div class="ttc" id="astructexpression_html_a231f8335262357a45053fdf96b080840"><div class="ttname"><a href="../../d0/ddf/structexpression.html#a231f8335262357a45053fdf96b080840">expression::nargs</a></div><div class="ttdeci">int nargs</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd5/plural-exp_8h_source.html#l00046">plural-exp.h:46</a></div></div>
-<div class="ttc" id="astructexpression_html_a2792aeb06b83df109e6dd8b7a5e547bd"><div class="ttname"><a href="../../d0/ddf/structexpression.html#a2792aeb06b83df109e6dd8b7a5e547bd">expression::val</a></div><div class="ttdeci">union expression::@857 val</div></div>
+<div class="ttc" id="astructexpression_html_aa173acff3364f68b52ee78ef95745f8c"><div class="ttname"><a href="../../d0/ddf/structexpression.html#aa173acff3364f68b52ee78ef95745f8c">expression::val</a></div><div class="ttdeci">union expression::@811 val</div></div>
 <div class="ttc" id="astructexpression_html_ac652962f66237f89f302683c92337b9e"><div class="ttname"><a href="../../d0/ddf/structexpression.html#ac652962f66237f89f302683c92337b9e">expression::operation</a></div><div class="ttdeci">enum expression::operator operation</div></div>
 <div class="ttc" id="astructop_html"><div class="ttname"><a href="../../d5/df6/structop.html">op</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dae/dc_8c_source.html#l00193">dc.c:193</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/dd5/plural-exp_8h_source.html#l00108">FREE_EXPRESSION</a>, <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../d7/d55/alloca_8c_source.html#l00079">malloc</a>, <a class="el" href="../../db/dd5/plural-exp_8h_source.html#l00046">expression::nargs</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00037">NULL</a>, <a class="el" href="../../d0/ddf/structexpression.html#ac652962f66237f89f302683c92337b9e">expression::operation</a>, and <a class="el" href="../../d0/ddf/structexpression.html#a2792aeb06b83df109e6dd8b7a5e547bd">expression::val</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dd5/plural-exp_8h_source.html#l00108">FREE_EXPRESSION</a>, <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../d7/d55/alloca_8c_source.html#l00079">malloc</a>, <a class="el" href="../../db/dd5/plural-exp_8h_source.html#l00046">expression::nargs</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00037">NULL</a>, <a class="el" href="../../d0/ddf/structexpression.html#ac652962f66237f89f302683c92337b9e">expression::operation</a>, and <a class="el" href="../../d0/ddf/structexpression.html#aa173acff3364f68b52ee78ef95745f8c">expression::val</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/d7e/plural_8c_source.html#l00214">new_exp_0()</a>, <a class="el" href="../../d6/d7e/plural_8c_source.html#l00221">new_exp_1()</a>, <a class="el" href="../../d6/d7e/plural_8c_source.html#l00232">new_exp_2()</a>, and <a class="el" href="../../d6/d7e/plural_8c_source.html#l00245">new_exp_3()</a>.</p>
 
@@ -2560,20 +2560,20 @@ yyvs_alloc</td>
 <p class="definition">Definition at line <a class="el" href="../../d6/d7e/plural_8c_source.html#l01510">1510</a> of file <a class="el" href="../../d6/d7e/plural_8c_source.html">plural.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l01511"></a><span class="lineno"> 1511</span>&#160;    {</div>
 <div class="line"><a name="l01512"></a><span class="lineno"> 1512</span>&#160;    <span class="keywordflow">case</span> 3:</div>
-<div class="line"><a name="l01513"></a><span class="lineno"> 1513</span>&#160;      <a class="code" href="../../db/dd5/plural-exp_8h.html#aff6e8b8919e4c668b9dd02e41aa09fb8">FREE_EXPRESSION</a> (<a class="code" href="../../d6/d7e/plural_8c.html#acbcfea7f473aa85e56bd8d5faafb9a7f">exp</a>-&gt;<a class="code" href="../../d0/ddf/structexpression.html#a2792aeb06b83df109e6dd8b7a5e547bd">val</a>.args[2]);</div>
+<div class="line"><a name="l01513"></a><span class="lineno"> 1513</span>&#160;      <a class="code" href="../../db/dd5/plural-exp_8h.html#aff6e8b8919e4c668b9dd02e41aa09fb8">FREE_EXPRESSION</a> (<a class="code" href="../../d6/d7e/plural_8c.html#acbcfea7f473aa85e56bd8d5faafb9a7f">exp</a>-&gt;<a class="code" href="../../d0/ddf/structexpression.html#aa173acff3364f68b52ee78ef95745f8c">val</a>.args[2]);</div>
 <div class="line"><a name="l01514"></a><span class="lineno"> 1514</span>&#160;      <span class="comment">/* FALLTHROUGH */</span></div>
 <div class="line"><a name="l01515"></a><span class="lineno"> 1515</span>&#160;    <span class="keywordflow">case</span> 2:</div>
-<div class="line"><a name="l01516"></a><span class="lineno"> 1516</span>&#160;      <a class="code" href="../../db/dd5/plural-exp_8h.html#aff6e8b8919e4c668b9dd02e41aa09fb8">FREE_EXPRESSION</a> (<a class="code" href="../../d6/d7e/plural_8c.html#acbcfea7f473aa85e56bd8d5faafb9a7f">exp</a>-&gt;<a class="code" href="../../d0/ddf/structexpression.html#a2792aeb06b83df109e6dd8b7a5e547bd">val</a>.args[1]);</div>
+<div class="line"><a name="l01516"></a><span class="lineno"> 1516</span>&#160;      <a class="code" href="../../db/dd5/plural-exp_8h.html#aff6e8b8919e4c668b9dd02e41aa09fb8">FREE_EXPRESSION</a> (<a class="code" href="../../d6/d7e/plural_8c.html#acbcfea7f473aa85e56bd8d5faafb9a7f">exp</a>-&gt;<a class="code" href="../../d0/ddf/structexpression.html#aa173acff3364f68b52ee78ef95745f8c">val</a>.args[1]);</div>
 <div class="line"><a name="l01517"></a><span class="lineno"> 1517</span>&#160;      <span class="comment">/* FALLTHROUGH */</span></div>
 <div class="line"><a name="l01518"></a><span class="lineno"> 1518</span>&#160;    <span class="keywordflow">case</span> 1:</div>
-<div class="line"><a name="l01519"></a><span class="lineno"> 1519</span>&#160;      <a class="code" href="../../db/dd5/plural-exp_8h.html#aff6e8b8919e4c668b9dd02e41aa09fb8">FREE_EXPRESSION</a> (<a class="code" href="../../d6/d7e/plural_8c.html#acbcfea7f473aa85e56bd8d5faafb9a7f">exp</a>-&gt;<a class="code" href="../../d0/ddf/structexpression.html#a2792aeb06b83df109e6dd8b7a5e547bd">val</a>.args[0]);</div>
+<div class="line"><a name="l01519"></a><span class="lineno"> 1519</span>&#160;      <a class="code" href="../../db/dd5/plural-exp_8h.html#aff6e8b8919e4c668b9dd02e41aa09fb8">FREE_EXPRESSION</a> (<a class="code" href="../../d6/d7e/plural_8c.html#acbcfea7f473aa85e56bd8d5faafb9a7f">exp</a>-&gt;<a class="code" href="../../d0/ddf/structexpression.html#aa173acff3364f68b52ee78ef95745f8c">val</a>.args[0]);</div>
 <div class="line"><a name="l01520"></a><span class="lineno"> 1520</span>&#160;      <span class="comment">/* FALLTHROUGH */</span></div>
 <div class="line"><a name="l01521"></a><span class="lineno"> 1521</span>&#160;    <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l01522"></a><span class="lineno"> 1522</span>&#160;      <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l01523"></a><span class="lineno"> 1523</span>&#160;    }</div>
 <div class="ttc" id="aplural_8c_html_acbcfea7f473aa85e56bd8d5faafb9a7f"><div class="ttname"><a href="../../d6/d7e/plural_8c.html#acbcfea7f473aa85e56bd8d5faafb9a7f">exp</a></div><div class="ttdeci">void internal_function struct expression * exp</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d7e/plural_8c_source.html#l01504">plural.c:1504</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/d7e/plural_8c_source.html#l01504">exp</a>, <a class="el" href="../../db/dd5/plural-exp_8h_source.html#l00108">FREE_EXPRESSION</a>, and <a class="el" href="../../d0/ddf/structexpression.html#a2792aeb06b83df109e6dd8b7a5e547bd">expression::val</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d7e/plural_8c_source.html#l01504">exp</a>, <a class="el" href="../../db/dd5/plural-exp_8h_source.html#l00108">FREE_EXPRESSION</a>, and <a class="el" href="../../d0/ddf/structexpression.html#aa173acff3364f68b52ee78ef95745f8c">expression::val</a>.</p>
 
 </div>
 </div>
@@ -2620,7 +2620,7 @@ yyvs_alloc</td>
 <p class="definition">Definition at line <a class="el" href="../../d6/d7e/plural_8c_source.html#l00861">861</a> of file <a class="el" href="../../d6/d7e/plural_8c_source.html">plural.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160;{</div>
 <div class="line"><a name="l00867"></a><span class="lineno">  867</span>&#160;  <span class="comment">/* Pacify ``unused variable&#39;&#39; warnings.  */</span></div>
-<div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;  (<a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a>) yyvaluep;</div>
+<div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;  (void) yyvaluep;</div>
 <div class="line"><a name="l00869"></a><span class="lineno">  869</span>&#160; </div>
 <div class="line"><a name="l00870"></a><span class="lineno">  870</span>&#160;  <span class="keywordflow">if</span> (!yymsg)</div>
 <div class="line"><a name="l00871"></a><span class="lineno">  871</span>&#160;    yymsg = <span class="stringliteral">&quot;Deleting&quot;</span>;</div>
@@ -2633,10 +2633,9 @@ yyvs_alloc</td>
 <div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;        <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;    }</div>
 <div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;}</div>
-<div class="ttc" id="anamespaceModule_html_aa56762f1e0bc7b507d773d431829e1a0"><div class="ttname"><a href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">Module::void</a></div><div class="ttdeci">int void(Handle.InterruptCallback))(&amp;regs)</div></div>
 <div class="ttc" id="aplural_8c_html_a1c510d33cb388afc9411141ba3076a36"><div class="ttname"><a href="../../d6/d7e/plural_8c.html#a1c510d33cb388afc9411141ba3076a36">YY_SYMBOL_PRINT</a></div><div class="ttdeci">#define YY_SYMBOL_PRINT(Title, Type, Value, Location)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d7e/plural_8c_source.html#l00735">plural.c:735</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">Module::void()</a>, and <a class="el" href="../../d6/d7e/plural_8c_source.html#l00735">YY_SYMBOL_PRINT</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d7e/plural_8c_source.html#l00735">YY_SYMBOL_PRINT</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/d7e/plural_8c_source.html#l00912">yyparse()</a>.</p>
 

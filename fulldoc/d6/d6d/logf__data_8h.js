@@ -3,7 +3,7 @@ var logf__data_8h =
     [ "logf_data", "d6/d6d/logf__data_8h.html#d7/d7e/structlogf__data", [
       [ "ln2", "d6/d6d/logf__data_8h.html#a165744322a36b209a0454ea7339cdaf8", null ],
       [ "poly", "d6/d6d/logf__data_8h.html#ae9b718f7f1fad7540055859458bbe5bf", null ],
-      [ "tab", "d6/d6d/logf__data_8h.html#a0263f086be03b474b5a5ec4ba955b4c1", null ]
+      [ "tab", "d6/d6d/logf__data_8h.html#a03de0a0a823581301bccac436fb23515", null ]
     ] ],
     [ "logf_data.tab", "d6/d6d/logf__data_8h.html#dd/dab/structlogf__data_8tab", [
       [ "invc", "d6/d6d/logf__data_8h.html#ac793896b0f1ce01182868fbf8e05ad42", null ],

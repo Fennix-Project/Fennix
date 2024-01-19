@@ -58,15 +58,15 @@ var Userspace_2libc_2ElfInterpreter_2elf_8h =
     ] ],
     [ "Elf32_Dyn", "d5/d81/Userspace_2musl_2include_2elf_8h.html#d8/d23/structElf32__Dyn", [
       [ "d_tag", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a0edbe45a1c49cbb352dc3e1937369180", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a97ddae06e2b37c763f7823029706aea1", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#af2f70627ebda0f39525ad05bf52776a9", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#ab999a33c075e4b31ae8cf7487e7a74a0", null ]
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a6589ce30f1fc06d3db0b46663678c8fb", null ],
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a66c1842f62ad158784f476a35fde201e", null ],
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f500767b2cc722ce847ba6904ecaceb", null ]
     ] ],
     [ "Elf64_Dyn", "d5/d81/Userspace_2musl_2include_2elf_8h.html#dd/d27/structElf64__Dyn", [
       [ "d_tag", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a74a63e5acb7d8ddc946a5b0c5eb3c26a", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a77cfaa98f0042cb3963c39b78394c68b", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#acd0783e205e4fd7c6de35705653ca3c5", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a6757606035a869a020f90d0cbf8df46d", null ]
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a79b21804fabac4714b33b98e861abec6", null ],
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a4764adc55289bbd55dbf16a03c785c34", null ],
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a1a5523f86b721a8deab081b349e3aa90", null ]
     ] ],
     [ "Elf64_Phdr", "d5/d81/Userspace_2musl_2include_2elf_8h.html#d3/d7b/structElf64__Phdr", [
       [ "p_align", "d5/d81/Userspace_2musl_2include_2elf_8h.html#aa89a4b1835998c8866e821d777a2f879", null ],
@@ -271,8 +271,6 @@ var Userspace_2libc_2ElfInterpreter_2elf_8h =
       [ "PT_TLS", "d4/dae/Kernel_2include_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a35043cd8c586647c07d6a8ab7c3f7b31", null ],
       [ "PT_LOPROC", "d4/dae/Kernel_2include_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a20f5617084b54d26ae506ce9dabf3dc5", null ],
       [ "PT_HIPROC", "d4/dae/Kernel_2include_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a384e8634c1aa98561199b04d3f49a48b", null ],
-      [ "PT_GNU_EH_FRAME", "d4/dae/Kernel_2include_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2adb27e86abc40960ca0544a9c6f660424", null ],
-      [ "PT_GNU_STACK", "d4/dae/Kernel_2include_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a4c9884d60c50de08002a5d27f3a144e5", null ],
       [ "PT_NULL", "d2/de8/Userspace_2libc_2ElfInterpreter_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a62bfb1b538f27e5e3c5f80c4630110c6", null ],
       [ "PT_LOAD", "d2/de8/Userspace_2libc_2ElfInterpreter_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2afd8c9848b0be143b8aed12433c366e33", null ],
       [ "PT_DYNAMIC", "d2/de8/Userspace_2libc_2ElfInterpreter_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2adb5972d68614ececce857a4a0e59eb73", null ],

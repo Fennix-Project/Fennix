@@ -2,7 +2,7 @@ var Userspace_2musl_2include_2sched_8h =
 [
     [ "sched_param", "d0/d36/Userspace_2musl_2include_2sched_8h.html#d4/d82/structsched__param", [
       [ "__reserved1", "d0/d36/Userspace_2musl_2include_2sched_8h.html#acb37f14728d7e330728ec2cd3f7ae6df", null ],
-      [ "__reserved2", "d0/d36/Userspace_2musl_2include_2sched_8h.html#a4d92efef20c4c07e059727112464be21", null ],
+      [ "__reserved2", "d0/d36/Userspace_2musl_2include_2sched_8h.html#ae8a729d06bd1abc0d31c665fb5d888e9", null ],
       [ "__reserved3", "d0/d36/Userspace_2musl_2include_2sched_8h.html#a16b53b4184905f2cc587f14812853e52", null ],
       [ "sched_priority", "d0/d36/Userspace_2musl_2include_2sched_8h.html#aa0f2640949273f2c30549ed8d1bb197e", null ]
     ] ],

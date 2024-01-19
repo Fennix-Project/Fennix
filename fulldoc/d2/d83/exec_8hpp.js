@@ -15,7 +15,6 @@ var exec_8hpp =
     [ "ELFObject", "d3/dc8/classExecute_1_1ELFObject.html", "d3/dc8/classExecute_1_1ELFObject" ],
     [ "BinaryType", "d2/d83/exec_8hpp.html#af4e1abcc5b1e4823d6a344e90bd6dfef", [
       [ "BinTypeInvalid", "d2/d83/exec_8hpp.html#af4e1abcc5b1e4823d6a344e90bd6dfefae36f6938ddfbfbfe38fa6cf384fb6d19", null ],
-      [ "BinTypeFex", "d2/d83/exec_8hpp.html#af4e1abcc5b1e4823d6a344e90bd6dfefa4d86e9673c01f19bd31f096c363cf976", null ],
       [ "BinTypeELF", "d2/d83/exec_8hpp.html#af4e1abcc5b1e4823d6a344e90bd6dfefa6928c465385d0a26e049a88b34a524f4", null ],
       [ "BinTypePE", "d2/d83/exec_8hpp.html#af4e1abcc5b1e4823d6a344e90bd6dfefad046408a5647cdbf181157853f1ed4f1", null ],
       [ "BinTypeNE", "d2/d83/exec_8hpp.html#af4e1abcc5b1e4823d6a344e90bd6dfefa7b9fe36e6e4a575b5550167eab17a9c8", null ],
@@ -37,5 +36,5 @@ var exec_8hpp =
     [ "GetELFSection", "d2/d83/exec_8hpp.html#ad4527c193949a102a6793a17f1e2fb45", null ],
     [ "GetELFSheader", "d2/d83/exec_8hpp.html#a31dfd87b6fa1ef7beaa37ed956b34097", null ],
     [ "GetELFStringTable", "d2/d83/exec_8hpp.html#a4d3d0d454ea84db99c805b1ed826f8d8", null ],
-    [ "Spawn", "d2/d83/exec_8hpp.html#a3b3cfddf6a8ff694736f944c401c5ee0", null ]
+    [ "Spawn", "d2/d83/exec_8hpp.html#a33418df4178a13a0c2c946f311d73ea9", null ]
 ];

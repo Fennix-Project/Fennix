@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -114,6 +114,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
+<tr class="memitem:aa7eb1afb55af4918be36a39eb479b0ae"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d28/classvfs_1_1RefNode.html#aa7eb1afb55af4918be36a39eb479b0ae">SpecialData</a></td></tr>
+<tr class="separator:aa7eb1afb55af4918be36a39eb479b0ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdd932496c2a562c80878436079e821e"><td class="memItemLeft" align="right" valign="top">decltype(<a class="el" href="../../da/d28/classvfs_1_1RefNode.html#acc2e5c61c75d3b2759e8583cd8fecf01">FileSize</a>) &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d28/classvfs_1_1RefNode.html#afdd932496c2a562c80878436079e821e">Size</a> = <a class="el" href="../../da/d28/classvfs_1_1RefNode.html#acc2e5c61c75d3b2759e8583cd8fecf01">FileSize</a></td></tr>
 <tr class="separator:afdd932496c2a562c80878436079e821e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5cd831cacc6c4940addc652cd22b01f"><td class="memItemLeft" align="right" valign="top">decltype(<a class="el" href="../../da/d28/classvfs_1_1RefNode.html#a1e3fe9f61670fe7c57e782b4b8ed2b4c">n</a>) &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d28/classvfs_1_1RefNode.html#ae5cd831cacc6c4940addc652cd22b01f">node</a> = <a class="el" href="../../da/d28/classvfs_1_1RefNode.html#a1e3fe9f61670fe7c57e782b4b8ed2b4c">n</a></td></tr>
@@ -139,7 +141,7 @@ Friends</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00244">244</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00305">305</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a159bbb56cf3100b3bc430df33cf94dbd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a159bbb56cf3100b3bc430df33cf94dbd">&#9670;&nbsp;</a></span>RefNode()</h2>
@@ -184,15 +186,15 @@ Friends</h2></td></tr>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Created reference node for %s [%#lx]&quot;</span>,</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;              this-&gt;<a class="code" href="../../da/d28/classvfs_1_1RefNode.html#ae5cd831cacc6c4940addc652cd22b01f">node</a>-&gt;FullPath, (<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    }</div>
-<div class="ttc" id="aclassvfs_1_1RefNode_html_a783594033524cad4cf5c0c77c4c8de93"><div class="ttname"><a href="../../da/d28/classvfs_1_1RefNode.html#a783594033524cad4cf5c0c77c4c8de93">vfs::RefNode::SymlinkTo</a></div><div class="ttdeci">RefNode * SymlinkTo</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00250">filesystem.hpp:250</a></div></div>
-<div class="ttc" id="aclassvfs_1_1RefNode_html_acc2e5c61c75d3b2759e8583cd8fecf01"><div class="ttname"><a href="../../da/d28/classvfs_1_1RefNode.html#acc2e5c61c75d3b2759e8583cd8fecf01">vfs::RefNode::FileSize</a></div><div class="ttdeci">off_t FileSize</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00248">filesystem.hpp:248</a></div></div>
-<div class="ttc" id="aclassvfs_1_1RefNode_html_ae5cd831cacc6c4940addc652cd22b01f"><div class="ttname"><a href="../../da/d28/classvfs_1_1RefNode.html#ae5cd831cacc6c4940addc652cd22b01f">vfs::RefNode::node</a></div><div class="ttdeci">decltype(n) &amp; node</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00254">filesystem.hpp:254</a></div></div>
+<div class="ttc" id="aclassvfs_1_1RefNode_html_a783594033524cad4cf5c0c77c4c8de93"><div class="ttname"><a href="../../da/d28/classvfs_1_1RefNode.html#a783594033524cad4cf5c0c77c4c8de93">vfs::RefNode::SymlinkTo</a></div><div class="ttdeci">RefNode * SymlinkTo</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00311">filesystem.hpp:311</a></div></div>
+<div class="ttc" id="aclassvfs_1_1RefNode_html_acc2e5c61c75d3b2759e8583cd8fecf01"><div class="ttname"><a href="../../da/d28/classvfs_1_1RefNode.html#acc2e5c61c75d3b2759e8583cd8fecf01">vfs::RefNode::FileSize</a></div><div class="ttdeci">off_t FileSize</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00309">filesystem.hpp:309</a></div></div>
+<div class="ttc" id="aclassvfs_1_1RefNode_html_ae5cd831cacc6c4940addc652cd22b01f"><div class="ttname"><a href="../../da/d28/classvfs_1_1RefNode.html#ae5cd831cacc6c4940addc652cd22b01f">vfs::RefNode::node</a></div><div class="ttdeci">decltype(n) &amp; node</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00317">filesystem.hpp:317</a></div></div>
 <div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00094">debug.h:94</a></div></div>
 <div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00086">debug.h:86</a></div></div>
 <div class="ttc" id="ainclude_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00186">types.h:186</a></div></div>
-<div class="ttc" id="anamespacevfs_html_a9862defe2d0358e9299acf55bdb6eb73a5e213d43a0e0066faf1b548b41c7caff"><div class="ttname"><a href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73a5e213d43a0e0066faf1b548b41c7caff">vfs::SYMLINK</a></div><div class="ttdeci">@ SYMLINK</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00163">filesystem.hpp:163</a></div></div>
+<div class="ttc" id="anamespacevfs_html_a9862defe2d0358e9299acf55bdb6eb73a5e213d43a0e0066faf1b548b41c7caff"><div class="ttname"><a href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73a5e213d43a0e0066faf1b548b41c7caff">vfs::SYMLINK</a></div><div class="ttdeci">@ SYMLINK</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00204">filesystem.hpp:204</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d70/node_8cpp_source.html#l00053">vfs::Node::CreateReference()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00086">error</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00248">FileSize</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00189">vfs::Node::FullPath</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00254">node</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00207">vfs::Node::Size</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00163">vfs::SYMLINK</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00193">vfs::Node::Symlink</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00194">vfs::Node::SymlinkTarget</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00250">SymlinkTo</a>, and <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00190">vfs::Node::Type</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d70/node_8cpp_source.html#l00073">vfs::Node::CreateReference()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00086">error</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00309">FileSize</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00256">vfs::Node::FullPath</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00317">node</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00274">vfs::Node::Size</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00204">vfs::SYMLINK</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00260">vfs::Node::Symlink</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00261">vfs::Node::SymlinkTarget</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00311">SymlinkTo</a>, and <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00257">vfs::Node::Type</a>.</p>
 
 </div>
 </div>
@@ -215,13 +217,14 @@ Friends</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    {</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <span class="keywordflow">if</span> (this-&gt;<a class="code" href="../../da/d28/classvfs_1_1RefNode.html#a783594033524cad4cf5c0c77c4c8de93">SymlinkTo</a>)</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            this-&gt;<a class="code" href="../../da/d28/classvfs_1_1RefNode.html#ae5cd831cacc6c4940addc652cd22b01f">node</a>-&gt;SymlinkTarget-&gt;RemoveReference(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        this-&gt;<a class="code" href="../../da/d28/classvfs_1_1RefNode.html#ae5cd831cacc6c4940addc652cd22b01f">node</a>-&gt;RemoveReference(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160; </div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Destroyed reference node for %s [%#lx]&quot;</span>,</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;              this-&gt;<a class="code" href="../../da/d28/classvfs_1_1RefNode.html#ae5cd831cacc6c4940addc652cd22b01f">node</a>-&gt;FullPath, (<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    }</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160; </div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        this-&gt;<a class="code" href="../../da/d28/classvfs_1_1RefNode.html#ae5cd831cacc6c4940addc652cd22b01f">node</a>-&gt;RemoveReference(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160; </div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Destroyed reference node for %s [%#lx]&quot;</span>,</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;              this-&gt;<a class="code" href="../../da/d28/classvfs_1_1RefNode.html#ae5cd831cacc6c4940addc652cd22b01f">node</a>-&gt;FullPath, (<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00254">node</a>, and <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00250">SymlinkTo</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00317">node</a>, and <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00311">SymlinkTo</a>.</p>
 
 </div>
 </div>
@@ -261,9 +264,9 @@ Friends</h2></td></tr>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    }</div>
 <div class="ttc" id="aclassvfs_1_1RefNode_html_a988a75ae5cf9c7199feeba9aaeed47b4"><div class="ttname"><a href="../../da/d28/classvfs_1_1RefNode.html#a988a75ae5cf9c7199feeba9aaeed47b4">vfs::RefNode::ioctl</a></div><div class="ttdeci">int ioctl(unsigned long Request, void *Argp)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8e/ref__node_8cpp_source.html#l00113">ref_node.cpp:113</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00113">ioctl()</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00254">node</a>, and <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00250">SymlinkTo</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00113">ioctl()</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00317">node</a>, and <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00311">SymlinkTo</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00605">vfs::FileDescriptorTable::_ioctl()</a>, and <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00113">ioctl()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00626">vfs::FileDescriptorTable::_ioctl()</a>, and <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00113">ioctl()</a>.</p>
 
 </div>
 </div>
@@ -301,12 +304,12 @@ Friends</h2></td></tr>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/d28/classvfs_1_1RefNode.html#ae5cd831cacc6c4940addc652cd22b01f">node</a>-&gt;read(Buffer, <a class="code" href="../../da/d28/classvfs_1_1RefNode.html#afdd932496c2a562c80878436079e821e">Size</a>, this-&gt;<a class="code" href="../../da/d28/classvfs_1_1RefNode.html#acb09e871b067dda3e25f2664c95c81ab">FileOffset</a>.load());</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div>
 <div class="ttc" id="aclassvfs_1_1RefNode_html_ac29445daaf3961ece14bfcd305d3f5b5"><div class="ttname"><a href="../../da/d28/classvfs_1_1RefNode.html#ac29445daaf3961ece14bfcd305d3f5b5">vfs::RefNode::read</a></div><div class="ttdeci">size_t read(uint8_t *Buffer, size_t Size)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8e/ref__node_8cpp_source.html#l00029">ref_node.cpp:29</a></div></div>
-<div class="ttc" id="aclassvfs_1_1RefNode_html_acb09e871b067dda3e25f2664c95c81ab"><div class="ttname"><a href="../../da/d28/classvfs_1_1RefNode.html#acb09e871b067dda3e25f2664c95c81ab">vfs::RefNode::FileOffset</a></div><div class="ttdeci">std::atomic_int64_t FileOffset</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00247">filesystem.hpp:247</a></div></div>
-<div class="ttc" id="aclassvfs_1_1RefNode_html_afdd932496c2a562c80878436079e821e"><div class="ttname"><a href="../../da/d28/classvfs_1_1RefNode.html#afdd932496c2a562c80878436079e821e">vfs::RefNode::Size</a></div><div class="ttdeci">decltype(FileSize) &amp; Size</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00253">filesystem.hpp:253</a></div></div>
+<div class="ttc" id="aclassvfs_1_1RefNode_html_acb09e871b067dda3e25f2664c95c81ab"><div class="ttname"><a href="../../da/d28/classvfs_1_1RefNode.html#acb09e871b067dda3e25f2664c95c81ab">vfs::RefNode::FileOffset</a></div><div class="ttdeci">std::atomic_int64_t FileOffset</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00308">filesystem.hpp:308</a></div></div>
+<div class="ttc" id="aclassvfs_1_1RefNode_html_afdd932496c2a562c80878436079e821e"><div class="ttname"><a href="../../da/d28/classvfs_1_1RefNode.html#afdd932496c2a562c80878436079e821e">vfs::RefNode::Size</a></div><div class="ttdeci">decltype(FileSize) &amp; Size</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00316">filesystem.hpp:316</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00247">FileOffset</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00254">node</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00029">read()</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00253">Size</a>, and <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00250">SymlinkTo</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00308">FileOffset</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00317">node</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00029">read()</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00316">Size</a>, and <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00311">SymlinkTo</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00328">vfs::FileDescriptorTable::_read()</a>, <a class="el" href="../../db/d04/boot__logo_8cpp_source.html#l00047">BootLogoAnimationThread()</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00029">read()</a>, and <a class="el" href="../../da/d7e/execve_8cpp_source.html#l00049">sys_execve()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00402">vfs::FileDescriptorTable::_read()</a>, <a class="el" href="../../d1/dd4/linux_8cpp_source.html#l00710">linux_execve()</a>, <a class="el" href="../../d1/dd4/linux_8cpp_source.html#l01156">linux_uname()</a>, <a class="el" href="../../d5/d15/driver_8cpp_source.html#l00165">Driver::Manager::LoadDriverFile()</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00029">read()</a>, and <a class="el" href="../../da/d7e/execve_8cpp_source.html#l00035">sys_execve()</a>.</p>
 
 </div>
 </div>
@@ -410,9 +413,9 @@ Friends</h2></td></tr>
 <div class="ttc" id="afilesystem_8hpp_html_a4c8d0b76b470ba65a43ca46a88320f39"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#a4c8d0b76b470ba65a43ca46a88320f39">SEEK_CUR</a></div><div class="ttdeci">#define SEEK_CUR</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00031">filesystem.hpp:31</a></div></div>
 <div class="ttc" id="afilesystem_8hpp_html_ad2a2e6c114780c3071efd24f16c7f7d8"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#ad2a2e6c114780c3071efd24f16c7f7d8">SEEK_END</a></div><div class="ttdeci">#define SEEK_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00032">filesystem.hpp:32</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/dc2/errno_8h_source.html#l00085">EINVAL</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00086">error</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00247">FileOffset</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00248">FileSize</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00045">seek()</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00031">SEEK_CUR</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00032">SEEK_END</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00030">SEEK_SET</a>, and <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00250">SymlinkTo</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dc2/errno_8h_source.html#l00085">EINVAL</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00086">error</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00308">FileOffset</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00309">FileSize</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00045">seek()</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00031">SEEK_CUR</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00032">SEEK_END</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00030">SEEK_SET</a>, and <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00311">SymlinkTo</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00417">vfs::FileDescriptorTable::_lseek()</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00045">seek()</a>, and <a class="el" href="../../da/d7e/execve_8cpp_source.html#l00049">sys_execve()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00471">vfs::FileDescriptorTable::_lseek()</a>, <a class="el" href="../../d1/dd4/linux_8cpp_source.html#l00710">linux_execve()</a>, <a class="el" href="../../d5/d15/driver_8cpp_source.html#l00165">Driver::Manager::LoadDriverFile()</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00045">seek()</a>, and <a class="el" href="../../da/d7e/execve_8cpp_source.html#l00035">sys_execve()</a>.</p>
 
 </div>
 </div>
@@ -451,9 +454,9 @@ Friends</h2></td></tr>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div>
 <div class="ttc" id="aclassvfs_1_1RefNode_html_a14810cab8a278850168b0287de6b0ef9"><div class="ttname"><a href="../../da/d28/classvfs_1_1RefNode.html#a14810cab8a278850168b0287de6b0ef9">vfs::RefNode::write</a></div><div class="ttdeci">size_t write(uint8_t *Buffer, size_t Size)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8e/ref__node_8cpp_source.html#l00037">ref_node.cpp:37</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00247">FileOffset</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00254">node</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00253">Size</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00250">SymlinkTo</a>, and <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00037">write()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00308">FileOffset</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00317">node</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00316">Size</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00311">SymlinkTo</a>, and <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00037">write()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00347">vfs::FileDescriptorTable::_write()</a>, and <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00037">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00414">vfs::FileDescriptorTable::_write()</a>, and <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00037">write()</a>.</p>
 
 </div>
 </div>
@@ -478,7 +481,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00265">265</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00328">328</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
 </div>
 </div>
@@ -502,7 +505,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00264">264</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00327">327</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
 </div>
 </div>
@@ -527,7 +530,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00247">247</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00308">308</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00029">read()</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00045">seek()</a>, and <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00037">write()</a>.</p>
 
@@ -553,9 +556,9 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00248">248</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00309">309</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00135">vfs::FileDescriptorTable::AddFileDescriptor()</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00121">RefNode()</a>, and <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00045">seek()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00121">RefNode()</a>, and <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00045">seek()</a>.</p>
 
 </div>
 </div>
@@ -579,7 +582,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00249">249</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00310">310</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
 </div>
 </div>
@@ -595,9 +598,9 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00254">254</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00317">317</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00468">vfs::FileDescriptorTable::_fstat()</a>, <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00500">vfs::FileDescriptorTable::_lstat()</a>, <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00437">vfs::FileDescriptorTable::_stat()</a>, <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00293">vfs::FileDescriptorTable::GetAbsolutePath()</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00113">ioctl()</a>, <a class="el" href="../../dd/d24/kernel_8cpp_source.html#l00113">Main()</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00029">read()</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00121">RefNode()</a>, <a class="el" href="../../da/d7e/execve_8cpp_source.html#l00049">sys_execve()</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00037">write()</a>, and <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00149">~RefNode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00514">vfs::FileDescriptorTable::_fstat()</a>, <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00538">vfs::FileDescriptorTable::_lstat()</a>, <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00483">vfs::FileDescriptorTable::_stat()</a>, <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00176">vfs::FileDescriptorTable::AddFileDescriptor()</a>, <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00334">vfs::FileDescriptorTable::GetAbsolutePath()</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00113">ioctl()</a>, <a class="el" href="../../da/dce/kernel__vfs_8cpp_source.html#l00031">KernelVFS()</a>, <a class="el" href="../../d1/dd4/linux_8cpp_source.html#l00710">linux_execve()</a>, <a class="el" href="../../d1/dd4/linux_8cpp_source.html#l01634">linux_getdents64()</a>, <a class="el" href="../../d1/dd4/linux_8cpp_source.html#l01292">linux_readlink()</a>, <a class="el" href="../../d5/d15/driver_8cpp_source.html#l00165">Driver::Manager::LoadDriverFile()</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00029">read()</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00121">RefNode()</a>, <a class="el" href="../../da/d7e/execve_8cpp_source.html#l00035">sys_execve()</a>, <a class="el" href="../../d4/d44/readlink_8cpp_source.html#l00034">sys_readlink()</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00037">write()</a>, and <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00149">~RefNode()</a>.</p>
 
 </div>
 </div>
@@ -613,9 +616,27 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00253">253</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00316">316</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/d04/boot__logo_8cpp_source.html#l00047">BootLogoAnimationThread()</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00029">read()</a>, and <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00037">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/dd4/linux_8cpp_source.html#l01156">linux_uname()</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00029">read()</a>, and <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00037">write()</a>.</p>
+
+</div>
+</div>
+<a id="aa7eb1afb55af4918be36a39eb479b0ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7eb1afb55af4918be36a39eb479b0ae">&#9670;&nbsp;</a></span>SpecialData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* vfs::RefNode::SpecialData</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00314">314</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d0/d76/ptmx_8cpp_source.html#l00049">vfs::PTMXDevice::RemovePTY()</a>.</p>
 
 </div>
 </div>
@@ -639,7 +660,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00250">250</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00311">311</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00113">ioctl()</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00029">read()</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00121">RefNode()</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00045">seek()</a>, <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00037">write()</a>, and <a class="el" href="../../d0/d8e/ref__node_8cpp_source.html#l00149">~RefNode()</a>.</p>
 

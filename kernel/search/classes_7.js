@@ -1,17 +1,18 @@
 var searchData=
 [
-  ['fadtheader_8270',['FADTHeader',['../d3/d21/classACPI_1_1ACPI.html#df/d0c/structACPI_1_1ACPI_1_1FADTHeader',1,'ACPI::ACPI']]],
-  ['fat_8271',['FAT',['../d8/dbb/classvfs_1_1FAT.html',1,'vfs']]],
-  ['fex_8272',['Fex',['../d2/ddc/structFex.html',1,'']]],
-  ['fexextended_8273',['FexExtended',['../d0/da5/Fex_8hpp.html#d5/d3a/structFexExtended',1,'']]],
-  ['fexextended_2eexecutable_8274',['FexExtended.Executable',['../d0/da5/Fex_8hpp.html#d0/de5/structFexExtended_8Executable',1,'']]],
-  ['fexextended_2emodule_8275',['FexExtended.Module',['../d4/d65/structFexExtended_8Module.html',1,'']]],
-  ['fildes_8276',['Fildes',['../da/d88/classvfs_1_1FileDescriptorTable.html#dc/da8/structvfs_1_1FileDescriptorTable_1_1Fildes',1,'vfs::FileDescriptorTable']]],
-  ['filedescriptortable_8277',['FileDescriptorTable',['../da/d88/classvfs_1_1FileDescriptorTable.html',1,'vfs']]],
-  ['fileheader_8278',['FileHeader',['../d7/d0a/classvfs_1_1USTAR.html#d4/db5/structvfs_1_1USTAR_1_1FileHeader',1,'vfs::USTAR']]],
-  ['fis_5freg_5fh2d_8279',['FIS_REG_H2D',['../de/da1/namespaceAdvancedHostControllerInterface.html#dc/de2/structAdvancedHostControllerInterface_1_1FIS__REG__H2D',1,'AdvancedHostControllerInterface']]],
-  ['font_8280',['Font',['../d3/d41/classVideo_1_1Font.html',1,'Video']]],
-  ['fontinfo_8281',['FontInfo',['../d6/de2/namespaceVideo.html#d5/d8f/structVideo_1_1FontInfo',1,'Video']]],
-  ['framebufferinfo_8282',['FramebufferInfo',['../db/d96/structBootInfo.html#dc/d85/structBootInfo_1_1FramebufferInfo',1,'BootInfo']]],
-  ['fxstate_8283',['FXState',['../de/d52/namespacex32.html#d7/d2c/structx32_1_1FXState',1,'x32::FXState'],['../d7/db0/namespacex64.html#d0/da3/structx64_1_1FXState',1,'x64::FXState']]]
+  ['gcov_5fctr_5finfo_9267',['gcov_ctr_info',['../d9/d44/structgcov__ctr__info.html',1,'']]],
+  ['gcov_5ffn_5finfo_9268',['gcov_fn_info',['../dd/d2a/gcov_8cpp.html#dd/d8a/structgcov__fn__info',1,'']]],
+  ['gcov_5finfo_9269',['gcov_info',['../dd/d2a/gcov_8cpp.html#df/d04/structgcov__info',1,'']]],
+  ['genericaddressstructure_9270',['GenericAddressStructure',['../d3/d21/classACPI_1_1ACPI.html#db/df1/structACPI_1_1ACPI_1_1GenericAddressStructure',1,'ACPI::ACPI']]],
+  ['global_5fcache_5ft_9271',['global_cache_t',['../df/dc0/rpmalloc_8c.html#db/d6b/structglobal__cache__t',1,'']]],
+  ['globaldescriptortableaccess_9272',['GlobalDescriptorTableAccess',['../d1/d69/namespaceGlobalDescriptorTable.html#d8/d80/unionGlobalDescriptorTable_1_1GlobalDescriptorTableEntry_1_1GlobalDescriptorTableAccess',1,'GlobalDescriptorTable::GlobalDescriptorTableEntry::GlobalDescriptorTableAccess'],['../d1/d69/namespaceGlobalDescriptorTable.html#d3/d67/unionGlobalDescriptorTable_1_1TaskStateSegmentEntry_1_1GlobalDescriptorTableAccess',1,'GlobalDescriptorTable::TaskStateSegmentEntry::GlobalDescriptorTableAccess']]],
+  ['globaldescriptortableaccess_2e_5f_5fpacked_9273',['GlobalDescriptorTableAccess.__packed',['../d1/d69/namespaceGlobalDescriptorTable.html#d0/dbe/structGlobalDescriptorTable_1_1GlobalDescriptorTableEntry_1_1GlobalDescriptorTableAccess_8____packed',1,'GlobalDescriptorTable::GlobalDescriptorTableEntry::GlobalDescriptorTableAccess.__packed'],['../d1/d69/namespaceGlobalDescriptorTable.html#dc/d45/structGlobalDescriptorTable_1_1TaskStateSegmentEntry_1_1GlobalDescriptorTableAccess_8____packed',1,'GlobalDescriptorTable::TaskStateSegmentEntry::GlobalDescriptorTableAccess.__packed']]],
+  ['globaldescriptortabledescriptor_9274',['GlobalDescriptorTableDescriptor',['../d1/d69/namespaceGlobalDescriptorTable.html#db/d81/structGlobalDescriptorTable_1_1GlobalDescriptorTableDescriptor',1,'GlobalDescriptorTable']]],
+  ['globaldescriptortableentries_9275',['GlobalDescriptorTableEntries',['../d1/d69/namespaceGlobalDescriptorTable.html#db/db2/structGlobalDescriptorTable_1_1GlobalDescriptorTableEntries',1,'GlobalDescriptorTable']]],
+  ['globaldescriptortableentry_9276',['GlobalDescriptorTableEntry',['../d1/d69/namespaceGlobalDescriptorTable.html#d9/d63/structGlobalDescriptorTable_1_1GlobalDescriptorTableEntry',1,'GlobalDescriptorTable']]],
+  ['globaldescriptortableflags_9277',['GlobalDescriptorTableFlags',['../d1/d69/namespaceGlobalDescriptorTable.html#db/db2/unionGlobalDescriptorTable_1_1GlobalDescriptorTableEntry_1_1GlobalDescriptorTableFlags',1,'GlobalDescriptorTable::GlobalDescriptorTableEntry']]],
+  ['globaldescriptortableflags_2e_5f_5fpacked_9278',['GlobalDescriptorTableFlags.__packed',['../d1/d69/namespaceGlobalDescriptorTable.html#d6/d8d/structGlobalDescriptorTable_1_1GlobalDescriptorTableEntry_1_1GlobalDescriptorTableFlags_8____packed',1,'GlobalDescriptorTable::GlobalDescriptorTableEntry']]],
+  ['gstcb_9279',['gsTCB',['../d9/d3e/namespaceTasking.html#d5/d12/structTasking_1_1gsTCB',1,'Tasking']]],
+  ['guidpartitiontable_9280',['GUIDPartitionTable',['../d1/d29/namespaceDisk.html#df/dcb/structDisk_1_1GUIDPartitionTable',1,'Disk']]],
+  ['guidpartitiontableentry_9281',['GUIDPartitionTableEntry',['../d1/d29/namespaceDisk.html#d6/d5a/structDisk_1_1GUIDPartitionTableEntry',1,'Disk']]]
 ];

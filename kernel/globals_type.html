@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -89,13 +89,16 @@ $(document).ready(function(){initNavTree('globals_type.html',''); initResizable(
 
 <h3><a id="index__5F"></a>- _ -</h3><ul>
 <li>__attribute__
-: <a class="el" href="d3/db6/unwind_8h.html#a089da0611c3e0959e48925198a99af04">unwind.h</a>
+: <a class="el" href="d3/db6/unwind_8h.html#ac90a08f75bb9060c209b3430307baa9c">unwind.h</a>
 </li>
 <li>__kernel_old_time_t
-: <a class="el" href="d1/dd4/linux_8cpp.html#a1a558dc0c703ba668ef7818cb1a9eb90">linux.cpp</a>
+: <a class="el" href="da/d63/defs_8hpp.html#a1a558dc0c703ba668ef7818cb1a9eb90">defs.hpp</a>
 </li>
 <li>__kernel_suseconds_t
-: <a class="el" href="d1/dd4/linux_8cpp.html#abbf3c18ae2e4688a081cb9679749f34d">linux.cpp</a>
+: <a class="el" href="da/d63/defs_8hpp.html#abbf3c18ae2e4688a081cb9679749f34d">defs.hpp</a>
+</li>
+<li>_Atomic
+: <a class="el" href="df/dc0/rpmalloc_8c.html#a472f0bf448a2dc3f31c0b79acd70d829">rpmalloc.c</a>
 </li>
 <li>_Unwind_Action
 : <a class="el" href="d3/db6/unwind_8h.html#a09fdc8f727b214f5168e3690b0ddfa21">unwind.h</a>
@@ -132,8 +135,14 @@ $(document).ready(function(){initNavTree('globals_type.html',''); initResizable(
 <li>CallPtr
 : <a class="el" href="dd/d24/kernel_8cpp.html#a9aa5b5a5410c2e97df5759c3e6d8c318">kernel.cpp</a>
 </li>
+<li>cc_t
+: <a class="el" href="d4/d0a/termios_8hpp.html#a02a4a51b25871e505aad0dcae945a0dc">termios.hpp</a>
+</li>
 <li>CHAR
 : <a class="el" href="de/d63/msexec_8h.html#aebb9e13210d88d43e32e735ada43a425">msexec.h</a>
+</li>
+<li>clockid_t
+: <a class="el" href="da/d63/defs_8hpp.html#a6dcac6a5cea7d9c842145e1444d91e22">defs.hpp</a>
 </li>
 <li>cpuid_t
 : <a class="el" href="d7/d48/cpuid__amd_8hpp.html#a21fd4735acfa92806734ecf28ef975c5">cpuid_amd.hpp</a>
@@ -159,11 +168,17 @@ $(document).ready(function(){initNavTree('globals_type.html',''); initResizable(
 <li>Elf32_Ehdr
 : <a class="el" href="d1/d9e/elf_8h.html#a813325dbda814fb708a5c81675be9b36">elf.h</a>
 </li>
+<li>Elf32_greg_t
+: <a class="el" href="d1/d9e/elf_8h.html#acf497237bd27164109f432d6644b2799">elf.h</a>
+</li>
 <li>Elf32_Half
 : <a class="el" href="d1/d9e/elf_8h.html#a2ff0787d7d1bae0f251192806a2974ca">elf.h</a>
 </li>
 <li>Elf32_Off
 : <a class="el" href="d1/d9e/elf_8h.html#a655751f9b317369b93c581ea8ed84516">elf.h</a>
+</li>
+<li>Elf32_pid_t
+: <a class="el" href="d1/d9e/elf_8h.html#acf7dfd1cf7912ab740459de7d9ece724">elf.h</a>
 </li>
 <li>Elf32_Rel
 : <a class="el" href="d1/d9e/elf_8h.html#a0e283038a29bc7b9055ac33771ac5d78">elf.h</a>
@@ -186,11 +201,17 @@ $(document).ready(function(){initNavTree('globals_type.html',''); initResizable(
 <li>Elf64_Ehdr
 : <a class="el" href="d1/d9e/elf_8h.html#af59c9cc8cec9316330f757a0fbd79956">elf.h</a>
 </li>
+<li>Elf64_greg_t
+: <a class="el" href="d1/d9e/elf_8h.html#a7492dc7aedeb626bb9f827d772886a59">elf.h</a>
+</li>
 <li>Elf64_Half
 : <a class="el" href="d1/d9e/elf_8h.html#adb6a5584018b431da3472e7c6a7fd731">elf.h</a>
 </li>
 <li>Elf64_Off
 : <a class="el" href="d1/d9e/elf_8h.html#a6f7837bc80df7a68291fce54ff088849">elf.h</a>
+</li>
+<li>Elf64_pid_t
+: <a class="el" href="d1/d9e/elf_8h.html#a909ffb0c91c832982f9cd6ed71912709">elf.h</a>
 </li>
 <li>Elf64_Rel
 : <a class="el" href="d1/d9e/elf_8h.html#a85e455599c36c4a33413c401c05f61d3">elf.h</a>
@@ -233,6 +254,19 @@ $(document).ready(function(){initNavTree('globals_type.html',''); initResizable(
 <li>gcov_type
 : <a class="el" href="dd/d2a/gcov_8cpp.html#af02f96494747db45b9efcd7153f59bba">gcov.cpp</a>
 </li>
+<li>global_cache_t
+: <a class="el" href="df/dc0/rpmalloc_8c.html#abb5df2e5e21b2980d57f68200c97da21">rpmalloc.c</a>
+</li>
+</ul>
+
+
+<h3><a id="index_h"></a>- h -</h3><ul>
+<li>heap_size_class_t
+: <a class="el" href="df/dc0/rpmalloc_8c.html#a10712f237da38c0bbb00bf9693dd9f6d">rpmalloc.c</a>
+</li>
+<li>heap_t
+: <a class="el" href="df/dc0/rpmalloc_8c.html#a75c19bcef00dee4542c1ddab212e29a8">rpmalloc.c</a>
+</li>
 </ul>
 
 
@@ -258,6 +292,9 @@ $(document).ready(function(){initNavTree('globals_type.html',''); initResizable(
 <li>IMAGE_SECTION_HEADER
 : <a class="el" href="de/d63/msexec_8h.html#afb4b59970ba3e0a5f651675c455ea3ad">msexec.h</a>
 </li>
+<li>ini_t
+: <a class="el" href="d3/d50/ini_8h.html#a0e546e16faabdc7ef2ed5262de82623b">ini.h</a>
+</li>
 <li>INT
 : <a class="el" href="de/d63/msexec_8h.html#a392e62da233ed3e2f7c3fd4f487a3896">msexec.h</a>
 </li>
@@ -271,8 +308,8 @@ $(document).ready(function(){initNavTree('globals_type.html',''); initResizable(
 : <a class="el" href="d6/de6/include_2types_8h.html#a3489c66fde928eaa6731f18a5aef2c54">types.h</a>
 </li>
 <li>int64_t
-: <a class="el" href="dd/ddd/arithmetic__operations_8c.html#a996e72f71b11a5bb8b3b7b6936b1516d">arithmetic_operations.c</a>
-, <a class="el" href="d6/de6/include_2types_8h.html#ac714c0d2c1a4adb10e73cab29623314b">types.h</a>
+: <a class="el" href="d6/de6/include_2types_8h.html#ac714c0d2c1a4adb10e73cab29623314b">types.h</a>
+, <a class="el" href="dd/ddd/arithmetic__operations_8c.html#a996e72f71b11a5bb8b3b7b6936b1516d">arithmetic_operations.c</a>
 </li>
 <li>int8_t
 : <a class="el" href="d6/de6/include_2types_8h.html#accbd6432732c88ad6adc5365800433b6">types.h</a>
@@ -406,9 +443,6 @@ $(document).ready(function(){initNavTree('globals_type.html',''); initResizable(
 <li>PFLOAT
 : <a class="el" href="de/d63/msexec_8h.html#a659f272f7c6a88a64d3dfc2306384a5a">msexec.h</a>
 </li>
-<li>pid_t
-: <a class="el" href="d1/dd4/linux_8cpp.html#a288e13e815d43b06e75819f8939524df">linux.cpp</a>
-</li>
 <li>PIMAGE_DATA_DIRECTORY
 : <a class="el" href="de/d63/msexec_8h.html#ab9bc1f8ca30fb0e2e5cea0ba65b46df4">msexec.h</a>
 </li>
@@ -457,6 +491,22 @@ $(document).ready(function(){initNavTree('globals_type.html',''); initResizable(
 </ul>
 
 
+<h3><a id="index_r"></a>- r -</h3><ul>
+<li>rlim_t
+: <a class="el" href="da/d63/defs_8hpp.html#a1fdd908a459a3857bf74ed29fed9defa">defs.hpp</a>
+</li>
+<li>rpmalloc_config_t
+: <a class="el" href="d2/d43/rpmalloc_8h.html#afea1bd62321a935b2ce6e268c7bcaf10">rpmalloc.h</a>
+</li>
+<li>rpmalloc_global_statistics_t
+: <a class="el" href="d2/d43/rpmalloc_8h.html#a8ed79e533ed034f305cf34cff57bd4a7">rpmalloc.h</a>
+</li>
+<li>rpmalloc_thread_statistics_t
+: <a class="el" href="d2/d43/rpmalloc_8h.html#aaef706ac2be95d5a4f00bfab78128234">rpmalloc.h</a>
+</li>
+</ul>
+
+
 <h3><a id="index_s"></a>- s -</h3><ul>
 <li>SHORT
 : <a class="el" href="de/d63/msexec_8h.html#a9909bd3cf05f0906045f2ee85be4eeac">msexec.h</a>
@@ -464,8 +514,32 @@ $(document).ready(function(){initNavTree('globals_type.html',''); initResizable(
 <li>sig_atomic_t
 : <a class="el" href="d6/de6/include_2types_8h.html#aa1b8df8ccbb184c1af64769e84a9a086">types.h</a>
 </li>
+<li>sigset_t
+: <a class="el" href="dd/d5f/signal_8hpp.html#a9140a5882f847f67b8155c759ac6aa05">signal.hpp</a>
+</li>
+<li>size_class_t
+: <a class="el" href="df/dc0/rpmalloc_8c.html#a58b8a67689d7a172819769e39f933e66">rpmalloc.c</a>
+</li>
 <li>size_t
 : <a class="el" href="d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">types.h</a>
+</li>
+<li>span_active_t
+: <a class="el" href="df/dc0/rpmalloc_8c.html#af801d58362e979c2a31744800624dcf9">rpmalloc.c</a>
+</li>
+<li>span_cache_t
+: <a class="el" href="df/dc0/rpmalloc_8c.html#aece665fc81eaec031382485a4a2ea5b7">rpmalloc.c</a>
+</li>
+<li>span_large_cache_t
+: <a class="el" href="df/dc0/rpmalloc_8c.html#a8e7b9e9139e15a9faa403425e19b0c13">rpmalloc.c</a>
+</li>
+<li>span_list_t
+: <a class="el" href="df/dc0/rpmalloc_8c.html#af2f2ee0936896aa297771a26dec63027">rpmalloc.c</a>
+</li>
+<li>span_t
+: <a class="el" href="df/dc0/rpmalloc_8c.html#aa34fdcc23a2d119e7436a33e05ddb665">rpmalloc.c</a>
+</li>
+<li>speed_t
+: <a class="el" href="d4/d0a/termios_8hpp.html#a14a0666abcf3bb67c7ff400b4a450467">termios.hpp</a>
 </li>
 <li>ssize_t
 : <a class="el" href="d6/de6/include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">types.h</a>
@@ -492,6 +566,9 @@ $(document).ready(function(){initNavTree('globals_type.html',''); initResizable(
 
 
 <h3><a id="index_t"></a>- t -</h3><ul>
+<li>tcflag_t
+: <a class="el" href="d4/d0a/termios_8hpp.html#ac9d3e47a1913b6665ee950e89ccb916b">termios.hpp</a>
+</li>
 <li>TrapGate
 : <a class="el" href="dc/d7c/SegmentDescriptors_8hpp.html#a04b8304edb6369a789c1bbbed674c8d8">SegmentDescriptors.hpp</a>
 </li>

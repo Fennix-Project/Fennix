@@ -101,7 +101,7 @@ var pci_8hpp =
       [ "Function", "d0/d8f/namespacePCI.html#a3cfadabdfe3be590527f42bfb7f2ab36", null ],
       [ "Header", "d0/d8f/namespacePCI.html#a0214a26b08a27e4e46e834541b462416", null ]
     ] ],
-    [ "PCI", "d8/d81/classPCI_1_1PCI.html", "d8/d81/classPCI_1_1PCI" ],
+    [ "Manager", "d4/dad/classPCI_1_1Manager.html", "d4/dad/classPCI_1_1Manager" ],
     [ "PCICommands", "d9/dd5/pci_8hpp.html#a4cfe0f91749b9ec5b3a95b119f7a4b09", [
       [ "PCI_COMMAND_IO", "d9/dd5/pci_8hpp.html#a4cfe0f91749b9ec5b3a95b119f7a4b09a62a2a1e7bb729a0a105b6b28ec8c748c", null ],
       [ "PCI_COMMAND_MEMORY", "d9/dd5/pci_8hpp.html#a4cfe0f91749b9ec5b3a95b119f7a4b09a76e4651535a6b8d258a9122ba5e9be57", null ],
@@ -116,6 +116,8 @@ var pci_8hpp =
       [ "PCI_COMMAND_INTX_DISABLE", "d9/dd5/pci_8hpp.html#a4cfe0f91749b9ec5b3a95b119f7a4b09a81d0620cdf140f7fdc330e3f28ea6ab2", null ]
     ] ],
     [ "PCIVendors", "d9/dd5/pci_8hpp.html#a9b174a996d5ead64c595b3081edb586c", [
+      [ "Apple", "d9/dd5/pci_8hpp.html#a9b174a996d5ead64c595b3081edb586ca7f3feeb84d086fb89e15eaacf88ec185", null ],
+      [ "BusLogic", "d9/dd5/pci_8hpp.html#a9b174a996d5ead64c595b3081edb586ca7d0d929882159800d8882d7b7feb5b0c", null ],
       [ "SymbiosLogic", "d9/dd5/pci_8hpp.html#a9b174a996d5ead64c595b3081edb586ca08bdc748c2ababb9ba6420f422a9913b", null ],
       [ "RedHat", "d9/dd5/pci_8hpp.html#a9b174a996d5ead64c595b3081edb586cae9e68d351e0368ce2280767c69d49c4f", null ],
       [ "REDHat2", "d9/dd5/pci_8hpp.html#a9b174a996d5ead64c595b3081edb586ca2e0c84924b5c7d841d7f01bff34078f9", null ],
@@ -140,6 +142,6 @@ var pci_8hpp =
     [ "NetworkControllerSubclassName", "d9/dd5/pci_8hpp.html#a595bf39d83d2c3d0b0abdf11be7b2234", null ],
     [ "SerialBusControllerSubclassName", "d9/dd5/pci_8hpp.html#a5be72c0739b02fc38678124f2f5b0748", null ],
     [ "WirelessControllerSubclassName", "d9/dd5/pci_8hpp.html#a3cbb46aaf63c529bb59db2e4f328d606", null ],
-    [ "__packed", "d9/dd5/pci_8hpp.html#ab14ef18818f70d4e49086a3ab292ca52", null ],
+    [ "__packed", "d9/dd5/pci_8hpp.html#ac5f4899a906fa10eccd1feb32e360485", null ],
     [ "DeviceClasses", "d9/dd5/pci_8hpp.html#a98398363e470d42d292fc43e72c22dae", null ]
 ];

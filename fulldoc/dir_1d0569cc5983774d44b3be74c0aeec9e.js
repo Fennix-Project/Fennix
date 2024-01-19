@@ -7,7 +7,7 @@ var dir_1d0569cc5983774d44b3be74c0aeec9e =
     [ "InitArray.c", "da/d9b/InitArray_8c.html", "da/d9b/InitArray_8c" ],
     [ "Lock.cpp", "d4/d90/Lock_8cpp.html", null ],
     [ "lock.hpp", "d8/de9/Userspace_2libc_2src_2lock_8hpp.html", null ],
-    [ "main.c", "d0/d29/main_8c.html", "d0/d29/main_8c" ],
+    [ "main.c", "d3/d7f/Userspace_2libc_2src_2main_8c.html", "d3/d7f/Userspace_2libc_2src_2main_8c" ],
     [ "Makefile", "d6/dfb/Userspace_2libc_2src_2Makefile.html", null ],
     [ "Runtime.c", "d8/d5b/Runtime_8c.html", "d8/d5b/Runtime_8c" ],
     [ "setjmp.c", "d5/db0/libc_2src_2setjmp_8c.html", "d5/db0/libc_2src_2setjmp_8c" ]

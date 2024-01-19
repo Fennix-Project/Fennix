@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -93,6 +93,7 @@ $(document).ready(function(){initNavTree('d1/d90/acpi_8hpp.html','../../'); init
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>&gt;</code><br />
+<code>#include &lt;unordered_map&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d9/d36/binfo_8h_source.html">boot/binfo.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d0/d36/ints_8hpp_source.html">ints.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>&gt;</code><br />
@@ -108,6 +109,8 @@ Data Structures</h2></td></tr>
 <tr class="separator:d1/de6/structACPI_1_1ACPI_1_1ACPIHeader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:db/df1/structACPI_1_1ACPI_1_1GenericAddressStructure"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d21/classACPI_1_1ACPI.html#db/df1/structACPI_1_1ACPI_1_1GenericAddressStructure">ACPI::ACPI::GenericAddressStructure</a></td></tr>
 <tr class="separator:db/df1/structACPI_1_1ACPI_1_1GenericAddressStructure"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dc/d67/structACPI_1_1ACPI_1_1DBG2Device"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d21/classACPI_1_1ACPI.html#dc/d67/structACPI_1_1ACPI_1_1DBG2Device">ACPI::ACPI::DBG2Device</a></td></tr>
+<tr class="separator:dc/d67/structACPI_1_1ACPI_1_1DBG2Device"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:dd/db0/structACPI_1_1ACPI_1_1MCFGHeader"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d21/classACPI_1_1ACPI.html#dd/db0/structACPI_1_1ACPI_1_1MCFGHeader">ACPI::ACPI::MCFGHeader</a></td></tr>
 <tr class="separator:dd/db0/structACPI_1_1ACPI_1_1MCFGHeader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:da/d4b/structACPI_1_1ACPI_1_1HPETHeader"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d21/classACPI_1_1ACPI.html#da/d4b/structACPI_1_1ACPI_1_1HPETHeader">ACPI::ACPI::HPETHeader</a></td></tr>
@@ -128,6 +131,12 @@ Data Structures</h2></td></tr>
 <tr class="separator:da/d64/structACPI_1_1ACPI_1_1HESTHeader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d3/d66/structACPI_1_1ACPI_1_1MADTHeader"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d21/classACPI_1_1ACPI.html#d3/d66/structACPI_1_1ACPI_1_1MADTHeader">ACPI::ACPI::MADTHeader</a></td></tr>
 <tr class="separator:d3/d66/structACPI_1_1ACPI_1_1MADTHeader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d0/d1e/structACPI_1_1ACPI_1_1SSDTHeader"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d21/classACPI_1_1ACPI.html#d0/d1e/structACPI_1_1ACPI_1_1SSDTHeader">ACPI::ACPI::SSDTHeader</a></td></tr>
+<tr class="separator:d0/d1e/structACPI_1_1ACPI_1_1SSDTHeader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d8/d5d/structACPI_1_1ACPI_1_1DBGPHeader"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d21/classACPI_1_1ACPI.html#d8/d5d/structACPI_1_1ACPI_1_1DBGPHeader">ACPI::ACPI::DBGPHeader</a></td></tr>
+<tr class="separator:d8/d5d/structACPI_1_1ACPI_1_1DBGPHeader"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d5/d9c/structACPI_1_1ACPI_1_1DBG2Header"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d21/classACPI_1_1ACPI.html#d5/d9c/structACPI_1_1ACPI_1_1DBG2Header">ACPI::ACPI::DBG2Header</a></td></tr>
+<tr class="separator:d5/d9c/structACPI_1_1ACPI_1_1DBG2Header"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db9/classACPI_1_1MADT.html">ACPI::MADT</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d9/d48/structACPI_1_1MADT_1_1APICHeader"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db9/classACPI_1_1MADT.html#d9/d48/structACPI_1_1MADT_1_1APICHeader">ACPI::MADT::APICHeader</a></td></tr>
@@ -163,7 +172,7 @@ Namespaces</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00033">33</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00034">34</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -236,7 +245,7 @@ Signature[4]</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00046">46</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00047">47</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -273,6 +282,97 @@ BitWidth</td>
 
 </div>
 </div>
+<a name="dc/d67/structACPI_1_1ACPI_1_1DBG2Device" id="dc/d67/structACPI_1_1ACPI_1_1DBG2Device"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dc/d67/structACPI_1_1ACPI_1_1DBG2Device">&#9670;&nbsp;</a></span>ACPI::ACPI::DBG2Device</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct ACPI::ACPI::DBG2Device</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00096">96</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a3f4a8d5f56176c43f33922724b83e9fe"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+AddressSizeOffset</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a7f353d9d5fb1cba6e81a50ebcb79749f"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+BaseAddressRegisterOffset</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aec6e2f4ef3afdadd2d9ed6835af49611"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+Length</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a9a665eafe2c43f857461eca726d176d7"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+NamespaceStringLength</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="abbf3d8627f46e933493c220f55064e20"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+NamespaceStringOffset</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aff8085c3ab3b8224461d0d9c2d5b3ed0"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+NumberofGenericAddressRegisters</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a3edee642ed7b48a67827e48372e1399e"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+OemDataLength</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aa46ae526cc57fbca21498126dcb7698f"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+OemDataOffset</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ab9acd8d9a089627697ad83b83ac0f5b4"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+PortSubtype</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ac2a3d927be9663ea1b97a8d9dfcc810b"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+PortType</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a6ecb27c4ecb3b5bf8feb3addc47e2e9f"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+Reserved</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a4da873e0abde4d0d46c433f5906905eb"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+Revision</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
 <a name="dd/db0/structACPI_1_1ACPI_1_1MCFGHeader" id="dd/db0/structACPI_1_1ACPI_1_1MCFGHeader"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#dd/db0/structACPI_1_1ACPI_1_1MCFGHeader">&#9670;&nbsp;</a></span>ACPI::ACPI::MCFGHeader</h2>
 
@@ -285,7 +385,7 @@ BitWidth</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00055">55</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00116">116</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -316,7 +416,7 @@ Reserved</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00061">61</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00122">122</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -401,7 +501,7 @@ Reserved: 1</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00076">76</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00137">137</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -732,7 +832,7 @@ X_PMTimerBlock</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00132">132</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00193">193</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -793,7 +893,7 @@ Version</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00143">143</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00204">204</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -830,7 +930,7 @@ TableRevision</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00150">150</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00211">211</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -873,7 +973,7 @@ StartMethod</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00158">158</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00219">219</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -916,7 +1016,7 @@ Reserved</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00166">166</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00227">227</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -947,7 +1047,7 @@ Header</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00172">172</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00233">233</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -978,7 +1078,7 @@ Header</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00178">178</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00239">239</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -1009,6 +1109,118 @@ LocalControllerAddress</td>
 
 </div>
 </div>
+<a name="d0/d1e/structACPI_1_1ACPI_1_1SSDTHeader" id="d0/d1e/structACPI_1_1ACPI_1_1SSDTHeader"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d0/d1e/structACPI_1_1ACPI_1_1SSDTHeader">&#9670;&nbsp;</a></span>ACPI::ACPI::SSDTHeader</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct ACPI::ACPI::SSDTHeader</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00247">247</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a6574c4ca42af0f955d60ea71fc75f7af"></a>char</td>
+<td class="fieldname">
+DefinitionBlock[]</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ab2c2fc0aad7f04cce6028d710322c84e"></a><a class="el" href="../../d3/d21/classACPI_1_1ACPI.html#d1/de6/structACPI_1_1ACPI_1_1ACPIHeader">ACPIHeader</a></td>
+<td class="fieldname">
+Header</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="d8/d5d/structACPI_1_1ACPI_1_1DBGPHeader" id="d8/d5d/structACPI_1_1ACPI_1_1DBGPHeader"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d8/d5d/structACPI_1_1ACPI_1_1DBGPHeader">&#9670;&nbsp;</a></span>ACPI::ACPI::DBGPHeader</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct ACPI::ACPI::DBGPHeader</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00253">253</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a228284230d40ffcbd0c59604a91c1550"></a><a class="el" href="../../d3/d21/classACPI_1_1ACPI.html#db/df1/structACPI_1_1ACPI_1_1GenericAddressStructure">GenericAddressStructure</a></td>
+<td class="fieldname">
+BaseAddress</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a285edecfef77f9b35acb25f834b77687"></a><a class="el" href="../../d3/d21/classACPI_1_1ACPI.html#d1/de6/structACPI_1_1ACPI_1_1ACPIHeader">ACPIHeader</a></td>
+<td class="fieldname">
+Header</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a3c0faf9bcd2f1adc1552a5a950f704e6"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+InterfaceType</td>
+<td class="fielddoc">
+<p>0 - 16550 compatible 1 - Subset of 16550 </p>
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a4b364143ed2975a8eb92ae3e8898bce8"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+Reserved[3]</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="d5/d9c/structACPI_1_1ACPI_1_1DBG2Header" id="d5/d9c/structACPI_1_1ACPI_1_1DBG2Header"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d5/d9c/structACPI_1_1ACPI_1_1DBG2Header">&#9670;&nbsp;</a></span>ACPI::ACPI::DBG2Header</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct ACPI::ACPI::DBG2Header</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00265">265</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="ae18928038c55ee419dba817829995173"></a><a class="el" href="../../d3/d21/classACPI_1_1ACPI.html#d1/de6/structACPI_1_1ACPI_1_1ACPIHeader">ACPIHeader</a></td>
+<td class="fieldname">
+Header</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ac00ca9a0558b9d95026a871bb15bf667"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<td class="fieldname">
+NumberDbgDeviceInfo</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ae308db07fe3a6f60ab58f8b83c630810"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<td class="fieldname">
+OffsetDbgDeviceInfo</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
 <a name="d9/d48/structACPI_1_1MADT_1_1APICHeader" id="d9/d48/structACPI_1_1MADT_1_1APICHeader"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#d9/d48/structACPI_1_1MADT_1_1APICHeader">&#9670;&nbsp;</a></span>ACPI::MADT::APICHeader</h2>
 
@@ -1021,7 +1233,7 @@ LocalControllerAddress</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00208">208</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00300">300</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -1052,7 +1264,7 @@ Type</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00214">214</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00306">306</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -1101,7 +1313,7 @@ reserved</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00223">223</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00315">315</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -1150,7 +1362,7 @@ IRQSource</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00232">232</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00324">324</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -1193,7 +1405,7 @@ processor</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00240">240</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00332">332</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -1236,7 +1448,7 @@ Header</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00248">248</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00340">340</a> of file <a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">

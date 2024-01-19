@@ -37,6 +37,7 @@ var convert_8cpp =
     [ "strcpy_unsafe", "d3/d68/convert_8cpp.html#a7b6086df458c8c7454cf5188ccdd7e56", null ],
     [ "strdup", "d3/d68/convert_8cpp.html#a8b9f91b8a3b0cbee9eb0406696f6413b", null ],
     [ "strlen", "d3/d68/convert_8cpp.html#ab6488fdd5637e939b13fc92be39e2a5e", null ],
+    [ "strncasecmp", "d3/d68/convert_8cpp.html#abe3cc2ef8acf25aa9a68a264940e0b14", null ],
     [ "strncmp", "d3/d68/convert_8cpp.html#a58420c57c20bf37db7f2c0a6622af40a", null ],
     [ "strncpy", "d3/d68/convert_8cpp.html#acf62e58d0c42ac0cc4ece5cc5e924c46", null ],
     [ "strstr", "d3/d68/convert_8cpp.html#a40344e121ba3db236e1f464857957239", null ],

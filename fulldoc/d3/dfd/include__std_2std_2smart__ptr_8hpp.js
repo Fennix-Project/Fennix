@@ -7,9 +7,6 @@ var include__std_2std_2smart__ptr_8hpp =
     [ "shared_ptr", "df/ddb/classstd_1_1shared__ptr.html", "df/ddb/classstd_1_1shared__ptr" ],
     [ "counter", "d6/d51/classstd_1_1shared__ptr_1_1counter.html", "d6/d51/classstd_1_1shared__ptr_1_1counter" ],
     [ "spdbg", "d3/dfd/include__std_2std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da", null ],
-    [ "remove_reference_t", "d3/dfd/include__std_2std_2smart__ptr_8hpp.html#a1de5d405966c0d4f9d72f2c89f82c960", null ],
-    [ "forward", "d3/dfd/include__std_2std_2smart__ptr_8hpp.html#aba4b8a01458ab13414b0fdbcc85820ef", null ],
-    [ "forward", "d3/dfd/include__std_2std_2smart__ptr_8hpp.html#a7de6141cbc66578566a2747bef639818", null ],
     [ "make_shared", "d3/dfd/include__std_2std_2smart__ptr_8hpp.html#a508b90b46e6012ecb37e46107963cf80", null ],
     [ "make_smart", "d3/dfd/include__std_2std_2smart__ptr_8hpp.html#a108196ce675cc051d33a30b7dbcca2a3", null ]
 ];

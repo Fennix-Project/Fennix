@@ -65,8 +65,8 @@ var unused__ufs_8c =
       [ "fs_spc", "d7/d4a/unused__ufs_8c.html#a63d53b1175229d392eb1ac7947b0c4f1", null ],
       [ "fs_time", "d7/d4a/unused__ufs_8c.html#a0e91b94ba3d64819c5f395fdcafd1d24", null ],
       [ "fs_trackskew", "d7/d4a/unused__ufs_8c.html#a764a1cc8ddfdff49d8061087989b4620", null ],
-      [ "fs_u11", "d7/d4a/unused__ufs_8c.html#a5aa7fa239828efdc5efdcfa16a1c5d72", null ],
-      [ "fs_u2", "d7/d4a/unused__ufs_8c.html#a6bc87d25667b1f9a8070b89267f9db09", null ]
+      [ "fs_u11", "d7/d4a/unused__ufs_8c.html#a85a830c7593cae3e45884b00c5e58307", null ],
+      [ "fs_u2", "d7/d4a/unused__ufs_8c.html#a56314bffce322c591c842e15806baf30", null ]
     ] ],
     [ "ufs_csum", "d7/d4a/unused__ufs_8c.html#df/df7/structufs__super__block_1_1ufs__csum", [
       [ "cs_nbfree", "d7/d4a/unused__ufs_8c.html#a20963a884a05b0395c07c6840d1ddc18", null ],

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix Kernel: Kernel/storage/fs/root.cpp Source File</title>
+<title>Fennix Kernel: Kernel/storage/devices/root.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -117,27 +117,27 @@ $(document).ready(function(){initNavTree('d2/d19/root_8cpp_source.html','../../'
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;               <a class="code" href="../../d7/dfa/namespaceCPU.html#aa2666633b57974db680ea4f94c98f510">Name</a>,</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;               <a class="code" href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73af8f9369591b600ddb1996a21840eeac5">MOUNTPOINT</a>)</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    {</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        this-&gt;<a class="code" href="../../df/d69/classvfs_1_1Node.html#ac7871f85fc5015d9be33cff1ba44ffbb">vFS</a> = <a class="code" href="../../dd/d24/kernel_8cpp.html#a277679a5638e76b6fd08abe5deee2022">fs</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        this-&gt;<a class="code" href="../../df/d69/classvfs_1_1Node.html#ac7871f85fc5015d9be33cff1ba44ffbb">vFS</a> = <a class="code" href="../../da/dce/kernel__vfs_8cpp.html#a277679a5638e76b6fd08abe5deee2022">fs</a>;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        vfs_ctx-&gt;<a class="code" href="../../d8/d64/classvfs_1_1Virtual.html#a5fbc5002ab9d40f364f0b60d6b8d7f2b">GetRootNode</a>()-&gt;<a class="code" href="../../df/d69/classvfs_1_1Node.html#a5f51e2006852156e65682e58f8840de6">Children</a>.push_back(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
-<div class="ttc" id="aclassvfs_1_1Node_html"><div class="ttname"><a href="../../df/d69/classvfs_1_1Node.html">vfs::Node</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00168">filesystem.hpp:169</a></div></div>
-<div class="ttc" id="aclassvfs_1_1Node_html_a5f51e2006852156e65682e58f8840de6"><div class="ttname"><a href="../../df/d69/classvfs_1_1Node.html#a5f51e2006852156e65682e58f8840de6">vfs::Node::Children</a></div><div class="ttdeci">std::vector&lt; Node * &gt; Children</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00208">filesystem.hpp:208</a></div></div>
-<div class="ttc" id="aclassvfs_1_1Node_html_ac7871f85fc5015d9be33cff1ba44ffbb"><div class="ttname"><a href="../../df/d69/classvfs_1_1Node.html#ac7871f85fc5015d9be33cff1ba44ffbb">vfs::Node::vFS</a></div><div class="ttdeci">class Virtual * vFS</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00186">filesystem.hpp:186</a></div></div>
-<div class="ttc" id="aclassvfs_1_1Virtual_html"><div class="ttname"><a href="../../d8/d64/classvfs_1_1Virtual.html">vfs::Virtual</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00268">filesystem.hpp:269</a></div></div>
-<div class="ttc" id="aclassvfs_1_1Virtual_html_a5fbc5002ab9d40f364f0b60d6b8d7f2b"><div class="ttname"><a href="../../d8/d64/classvfs_1_1Virtual.html#a5fbc5002ab9d40f364f0b60d6b8d7f2b">vfs::Virtual::GetRootNode</a></div><div class="ttdeci">Node * GetRootNode()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00284">filesystem.hpp:284</a></div></div>
+<div class="ttc" id="aclassvfs_1_1Node_html"><div class="ttname"><a href="../../df/d69/classvfs_1_1Node.html">vfs::Node</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00215">filesystem.hpp:216</a></div></div>
+<div class="ttc" id="aclassvfs_1_1Node_html_a5f51e2006852156e65682e58f8840de6"><div class="ttname"><a href="../../df/d69/classvfs_1_1Node.html#a5f51e2006852156e65682e58f8840de6">vfs::Node::Children</a></div><div class="ttdeci">std::vector&lt; Node * &gt; Children</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00275">filesystem.hpp:275</a></div></div>
+<div class="ttc" id="aclassvfs_1_1Node_html_ac7871f85fc5015d9be33cff1ba44ffbb"><div class="ttname"><a href="../../df/d69/classvfs_1_1Node.html#ac7871f85fc5015d9be33cff1ba44ffbb">vfs::Node::vFS</a></div><div class="ttdeci">class Virtual * vFS</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00253">filesystem.hpp:253</a></div></div>
+<div class="ttc" id="aclassvfs_1_1Virtual_html"><div class="ttname"><a href="../../d8/d64/classvfs_1_1Virtual.html">vfs::Virtual</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00331">filesystem.hpp:332</a></div></div>
+<div class="ttc" id="aclassvfs_1_1Virtual_html_a5fbc5002ab9d40f364f0b60d6b8d7f2b"><div class="ttname"><a href="../../d8/d64/classvfs_1_1Virtual.html#a5fbc5002ab9d40f364f0b60d6b8d7f2b">vfs::Virtual::GetRootNode</a></div><div class="ttdeci">Node * GetRootNode()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00347">filesystem.hpp:347</a></div></div>
 <div class="ttc" id="aclassvfs_1_1vfsRoot_html_a597e3772631b94ce9ef99f1024f4cc61"><div class="ttname"><a href="../../dd/da8/classvfs_1_1vfsRoot.html#a597e3772631b94ce9ef99f1024f4cc61">vfs::vfsRoot::vfsRoot</a></div><div class="ttdeci">vfsRoot(const char *Name, Virtual *vfs_ctx)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d19/root_8cpp_source.html#l00024">root.cpp:24</a></div></div>
-<div class="ttc" id="akernel_8cpp_html_a277679a5638e76b6fd08abe5deee2022"><div class="ttname"><a href="../../dd/d24/kernel_8cpp.html#a277679a5638e76b6fd08abe5deee2022">fs</a></div><div class="ttdeci">vfs::Virtual * fs</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d24/kernel_8cpp_source.html#l00064">kernel.cpp:64</a></div></div>
+<div class="ttc" id="akernel__vfs_8cpp_html_a277679a5638e76b6fd08abe5deee2022"><div class="ttname"><a href="../../da/dce/kernel__vfs_8cpp.html#a277679a5638e76b6fd08abe5deee2022">fs</a></div><div class="ttdeci">vfs::Virtual * fs</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dce/kernel__vfs_8cpp_source.html#l00024">kernel_vfs.cpp:24</a></div></div>
 <div class="ttc" id="amounts_8hpp_html"><div class="ttname"><a href="../../d4/d48/mounts_8hpp.html">mounts.hpp</a></div></div>
 <div class="ttc" id="anamespaceCPU_html_aa2666633b57974db680ea4f94c98f510"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#aa2666633b57974db680ea4f94c98f510">CPU::Name</a></div><div class="ttdeci">const char * Name()</div><div class="ttdoc">Get CPU name.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfc/cpu_8cpp_source.html#l00062">cpu.cpp:62</a></div></div>
 <div class="ttc" id="anamespacevfs_html"><div class="ttname"><a href="../../dc/dcb/namespacevfs.html">vfs</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/de8/ext2_8hpp_source.html#l00025">ext2.hpp:26</a></div></div>
-<div class="ttc" id="anamespacevfs_html_a9862defe2d0358e9299acf55bdb6eb73af8f9369591b600ddb1996a21840eeac5"><div class="ttname"><a href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73af8f9369591b600ddb1996a21840eeac5">vfs::MOUNTPOINT</a></div><div class="ttdeci">@ MOUNTPOINT</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00165">filesystem.hpp:164</a></div></div>
+<div class="ttc" id="anamespacevfs_html_a9862defe2d0358e9299acf55bdb6eb73af8f9369591b600ddb1996a21840eeac5"><div class="ttname"><a href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73af8f9369591b600ddb1996a21840eeac5">vfs::MOUNTPOINT</a></div><div class="ttdeci">@ MOUNTPOINT</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00206">filesystem.hpp:205</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_dd8bd4d6a0d3f3aaf32a75653999712b.html">storage</a></li><li class="navelem"><a class="el" href="../../dir_d3d6ae5bb2b43a1b06441e7694a368e5.html">fs</a></li><li class="navelem"><a class="el" href="../../d2/d19/root_8cpp.html">root.cpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_dd8bd4d6a0d3f3aaf32a75653999712b.html">storage</a></li><li class="navelem"><a class="el" href="../../dir_bd9269ef519e33deea48b95dae4777d1.html">devices</a></li><li class="navelem"><a class="el" href="../../d2/d19/root_8cpp.html">root.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

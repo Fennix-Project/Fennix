@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -108,16 +108,16 @@ $(document).ready(function(){initNavTree('dc/d56/std__string_8cpp_source.html','
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#ifdef DEBUG</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d4/da0/string_8hpp.html">std/string.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../da/d3e/memory_8hpp.html">memory.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../db/d16/debug_8h.html">debug.h</a>&gt;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../da/d3e/memory_8hpp.html">memory.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../db/d16/debug_8h.html">debug.h</a>&gt;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keywordtype">void</span> TestString()</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">char</span> *sanity_alloc = (<span class="keywordtype">char</span> *)<a class="code" href="../../da/d3e/memory_8hpp.html#aa700d7a085f4fa2439650b7675228b88">kmalloc</a>(1024);</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 1024; i++)</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        sanity_alloc[i] = <span class="charliteral">&#39;A&#39;</span>;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../d8/d29/classstd_1_1string.html">std::string</a> hw(<span class="stringliteral">&quot;Hello, world!&quot;</span>);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    std::string hw(<span class="stringliteral">&quot;Hello, world!&quot;</span>);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 1024; i++)</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">if</span> (sanity_alloc[i] != <span class="charliteral">&#39;A&#39;</span>)</div>
@@ -146,7 +146,7 @@ $(document).ready(function(){initNavTree('dc/d56/std__string_8cpp_source.html','
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <a class="code" href="../../da/d3e/memory_8hpp.html#aef27615e6561e63428541f98e7e60b88">kfree</a>(sanity_alloc);</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <a class="code" href="../../d8/d29/classstd_1_1string.html">std::string</a> hi(<span class="stringliteral">&quot;Hi&quot;</span>);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    std::string hi(<span class="stringliteral">&quot;Hi&quot;</span>);</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">char</span> chi[3];</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    chi[0] = hi[0];</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    chi[1] = hi[1];</div>
@@ -181,9 +181,9 @@ $(document).ready(function(){initNavTree('dc/d56/std__string_8cpp_source.html','
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <a class="code" href="../../d6/de6/include_2types_8h.html#aa9230594915ed6dc218abef840f043b7">inf_loop</a>;</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <a class="code" href="../../d8/d29/classstd_1_1string.html">std::string</a> eq0(<span class="stringliteral">&quot;Hello, world!&quot;</span>);</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <a class="code" href="../../d8/d29/classstd_1_1string.html">std::string</a> eq1(<span class="stringliteral">&quot;Hello, world!&quot;</span>);</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <a class="code" href="../../d8/d29/classstd_1_1string.html">std::string</a> eq2(<span class="stringliteral">&quot;World, hello!&quot;</span>);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    std::string eq0(<span class="stringliteral">&quot;Hello, world!&quot;</span>);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    std::string eq1(<span class="stringliteral">&quot;Hello, world!&quot;</span>);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    std::string eq2(<span class="stringliteral">&quot;World, hello!&quot;</span>);</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordflow">if</span> (eq0 == eq1)</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;String equality works!&quot;</span>);</div>
@@ -218,17 +218,17 @@ $(document).ready(function(){initNavTree('dc/d56/std__string_8cpp_source.html','
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <a class="code" href="../../d6/de6/include_2types_8h.html#aa9230594915ed6dc218abef840f043b7">inf_loop</a>;</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    }</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160; </div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <a class="code" href="../../d8/d29/classstd_1_1string.html">std::string</a> a(<span class="stringliteral">&quot;Hello&quot;</span>);</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <a class="code" href="../../d8/d29/classstd_1_1string.html">std::string</a> b(<span class="stringliteral">&quot;World&quot;</span>);</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <a class="code" href="../../d8/d29/classstd_1_1string.html">std::string</a> c;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    std::string a(<span class="stringliteral">&quot;Hello&quot;</span>);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    std::string b(<span class="stringliteral">&quot;World&quot;</span>);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    std::string c;</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    c = a + <span class="stringliteral">&quot;, &quot;</span> + b + <span class="stringliteral">&quot;!&quot;</span>;</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160; </div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="keywordflow">if</span> (c == <span class="stringliteral">&quot;Hello, World!&quot;</span>)</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;String addition works!&quot;</span>);</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    {</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;String addition doesn&#39;t work! \&quot;%s\&quot;&quot;</span>, c.<a class="code" href="../../d8/d29/classstd_1_1string.html#a6cea7d665828a8cfd273dc2afe451f7f">c_str</a>());</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        <a class="code" href="../../d6/de6/include_2types_8h.html#aa9230594915ed6dc218abef840f043b7">inf_loop</a>;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;String addition doesn&#39;t work! \&quot;%s\&quot;&quot;</span>, c.c_str());</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        <span class="comment">// inf_loop;</span></div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    }</div>
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160; </div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 1024; i++)</div>
@@ -242,17 +242,14 @@ $(document).ready(function(){initNavTree('dc/d56/std__string_8cpp_source.html','
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;}</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160; </div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// DEBUG</span></div>
-<div class="ttc" id="aclassstd_1_1string_html"><div class="ttname"><a href="../../d8/d29/classstd_1_1string.html">std::string</a></div><div class="ttdoc">String class String class that can be used to store strings.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/da0/string_8hpp_source.html#l00049">string.hpp:50</a></div></div>
-<div class="ttc" id="aclassstd_1_1string_html_a6cea7d665828a8cfd273dc2afe451f7f"><div class="ttname"><a href="../../d8/d29/classstd_1_1string.html#a6cea7d665828a8cfd273dc2afe451f7f">std::string::c_str</a></div><div class="ttdeci">const char * c_str() const</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/da0/string_8hpp_source.html#l00090">string.hpp:90</a></div></div>
-<div class="ttc" id="aconvert_8h_html_a5206cb6f52495066146ae3a41d166eb7"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a5206cb6f52495066146ae3a41d166eb7">strcmp</a></div><div class="ttdeci">int strcmp(const char *l, const char *r)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d68/convert_8cpp_source.html#l00123">convert.cpp:123</a></div></div>
+<div class="ttc" id="aconvert_8h_html_a5206cb6f52495066146ae3a41d166eb7"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a5206cb6f52495066146ae3a41d166eb7">strcmp</a></div><div class="ttdeci">int strcmp(const char *l, const char *r)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d68/convert_8cpp_source.html#l00135">convert.cpp:135</a></div></div>
 <div class="ttc" id="adebug_8h_html"><div class="ttname"><a href="../../db/d16/debug_8h.html">debug.h</a></div></div>
 <div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00094">debug.h:94</a></div></div>
 <div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00086">debug.h:86</a></div></div>
 <div class="ttc" id="ainclude_2types_8h_html_aa9230594915ed6dc218abef840f043b7"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#aa9230594915ed6dc218abef840f043b7">inf_loop</a></div><div class="ttdeci">#define inf_loop</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00047">types.h:47</a></div></div>
 <div class="ttc" id="amemory_8hpp_html"><div class="ttname"><a href="../../da/d3e/memory_8hpp.html">memory.hpp</a></div></div>
-<div class="ttc" id="amemory_8hpp_html_aa700d7a085f4fa2439650b7675228b88"><div class="ttname"><a href="../../da/d3e/memory_8hpp.html#aa700d7a085f4fa2439650b7675228b88">kmalloc</a></div><div class="ttdeci">#define kmalloc(Size)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d3e/memory_8hpp_source.html#l00083">memory.hpp:83</a></div></div>
-<div class="ttc" id="amemory_8hpp_html_aef27615e6561e63428541f98e7e60b88"><div class="ttname"><a href="../../da/d3e/memory_8hpp.html#aef27615e6561e63428541f98e7e60b88">kfree</a></div><div class="ttdeci">#define kfree(Address)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d3e/memory_8hpp_source.html#l00086">memory.hpp:86</a></div></div>
-<div class="ttc" id="astring_8hpp_html"><div class="ttname"><a href="../../d4/da0/string_8hpp.html">string.hpp</a></div></div>
+<div class="ttc" id="amemory_8hpp_html_aa700d7a085f4fa2439650b7675228b88"><div class="ttname"><a href="../../da/d3e/memory_8hpp.html#aa700d7a085f4fa2439650b7675228b88">kmalloc</a></div><div class="ttdeci">#define kmalloc(Size)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d3e/memory_8hpp_source.html#l00094">memory.hpp:94</a></div></div>
+<div class="ttc" id="amemory_8hpp_html_aef27615e6561e63428541f98e7e60b88"><div class="ttname"><a href="../../da/d3e/memory_8hpp.html#aef27615e6561e63428541f98e7e60b88">kfree</a></div><div class="ttdeci">#define kfree(Address)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d3e/memory_8hpp_source.html#l00097">memory.hpp:97</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

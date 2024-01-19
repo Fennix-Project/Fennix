@@ -3,6 +3,8 @@ var classvfs_1_1Virtual =
     [ "Virtual", "d8/d64/classvfs_1_1Virtual.html#a5ed65c7924b9294571e30b6ebd7c9d17", null ],
     [ "~Virtual", "d8/d64/classvfs_1_1Virtual.html#a528a0093e3f7607233c55014f0996327", null ],
     [ "Create", "d8/d64/classvfs_1_1Virtual.html#a99f93922810e6e9cf6cf19590307fff3", null ],
+    [ "CreateIfNotExists", "d8/d64/classvfs_1_1Virtual.html#a6a42771325134877549c42c628bcd1b7", null ],
+    [ "CreateLink", "d8/d64/classvfs_1_1Virtual.html#a76e9818724c95793b02b161510f0c57f", null ],
     [ "Delete", "d8/d64/classvfs_1_1Virtual.html#abe4fbcba329f2d57a043e6ce4e84e80f", null ],
     [ "Delete", "d8/d64/classvfs_1_1Virtual.html#a2e93720d404c27724f1e3f483dfd628b", null ],
     [ "GetNodeFromPath", "d8/d64/classvfs_1_1Virtual.html#acd2f13e6b8ada2d15edfe097501313b1", null ],

@@ -18,5 +18,6 @@ var namespaceTime =
       [ "Years", "d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1ae4ce246a5ac8ab86b92cfdfa9103a09e", null ]
     ] ],
     [ "ConvertFromUnix", "d3/d56/namespaceTime.html#a1231a50a2b4e4577567eb0ca2aa2f2e5", null ],
+    [ "ConvertUnit", "d3/d56/namespaceTime.html#aa3de05de92c48e4f33917aa743e8502e", null ],
     [ "ReadClock", "d3/d56/namespaceTime.html#a09943ec2020bc73e7b83c4c31db2a344", null ]
 ];

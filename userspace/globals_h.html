@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Userspace
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Fennix Userspace Documentation</div>
+   <div id="projectbrief">Userspace Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('globals_h.html',''); initResizable(); 
 : <a class="el" href="da/dd8/h__errno_8c.html#a2a1ce3f2040007303d36c0b682b5ac10">h_errno.c</a>
 </li>
 <li>h_opt_home_httpd
-: <a class="el" href="d1/de7/httpd_8c.html#a337d6b8d9f9cc2b4d207e433a70d3987a43c800fcef77d4aa672b3091ced38aea">httpd.c</a>
+: <a class="el" href="d1/de7/httpd_8c.html#a282841548f1d79a386bbeb4172ebf942a43c800fcef77d4aa672b3091ced38aea">httpd.c</a>
 </li>
 <li>H_SHIFT
 : <a class="el" href="d6/dd0/gzip_8c.html#a2b197a68538e31c816ea8b8fa08b6d12">gzip.c</a>
@@ -229,6 +229,9 @@ $(document).ready(function(){initNavTree('globals_h.html',''); initResizable(); 
 <li>handlers
 : <a class="el" href="da/df1/mkbuiltins_8c.html#a00f1895bf5428092b658a65aa2b0edbc">mkbuiltins.c</a>
 </li>
+<li>HandleSignal()
+: <a class="el" href="da/de7/fsh_8c.html#a62d48667ec1367513e86d0baa260415a">fsh.c</a>
+</li>
 <li>handling_termsig
 : <a class="el" href="da/d12/sig_8c.html#a4ee2d91a87f855d6bf3bcc568b3f7030">sig.c</a>
 </li>
@@ -340,8 +343,8 @@ $(document).ready(function(){initNavTree('globals_h.html',''); initResizable(); 
 <li>hash_grow()
 : <a class="el" href="d7/deb/hashlib_8c.html#a9b1cd151d348d66c5aac99f3d6431761">hashlib.c</a>
 </li>
-<li>hash_handshake
-: <a class="el" href="d3/d47/apps_2base_2busybox_2networking_2tls_8c.html#a859e8181c002d45232991f43512b7246">tls.c</a>
+<li>hash_handshake()
+: <a class="el" href="d3/d47/apps_2base_2busybox_2networking_2tls_8c.html#aedd1f273ec6b3939d9999e3e19a9dff6">tls.c</a>
 </li>
 <li>hash_init()
 : <a class="el" href="de/dcc/awk_8c.html#ac48d7e89c3024e88ed159e1088c1c8d0">awk.c</a>
@@ -417,12 +420,14 @@ $(document).ready(function(){initNavTree('globals_h.html',''); initResizable(); 
 <li>hash_shrink()
 : <a class="el" href="d7/deb/hashlib_8c.html#a577def299336c4c1ae293ce5a0fa8ecd">hashlib.c</a>
 </li>
+<li>HASH_SIZE
+: <a class="el" href="d6/dd0/gzip_8c.html#ad6074dd11ab3c97c8135c43aab03ae95">gzip.c</a>
+</li>
 <li>hash_size()
 : <a class="el" href="d7/deb/hashlib_8c.html#a1398acb60400d896182b9f37c713c4df">hashlib.c</a>
 </li>
 <li>HASH_SIZE
 : <a class="el" href="d5/daf/inode__hash_8c.html#ad6074dd11ab3c97c8135c43aab03ae95">inode_hash.c</a>
-, <a class="el" href="d6/dd0/gzip_8c.html#ad6074dd11ab3c97c8135c43aab03ae95">gzip.c</a>
 </li>
 <li>hash_string()
 : <a class="el" href="d7/deb/hashlib_8c.html#aae99e3e34be4680d0aa6d69befa0d66c">hashlib.c</a>
@@ -478,8 +483,8 @@ $(document).ready(function(){initNavTree('globals_h.html',''); initResizable(); 
 , <a class="el" href="de/dbb/mntent_8c.html#a5a5596ac228bdc0054f4b9f6a0b29c34">mntent.c</a>
 </li>
 <li>HASZERO
-: <a class="el" href="d2/d37/strlcpy_8c.html#ab5535094991cbb3793d5ad23a1631fe8">strlcpy.c</a>
-, <a class="el" href="d3/d67/strlen_8c.html#ab5535094991cbb3793d5ad23a1631fe8">strlen.c</a>
+: <a class="el" href="d3/d67/strlen_8c.html#ab5535094991cbb3793d5ad23a1631fe8">strlen.c</a>
+, <a class="el" href="d2/d37/strlcpy_8c.html#ab5535094991cbb3793d5ad23a1631fe8">strlcpy.c</a>
 , <a class="el" href="d6/d3b/musl_2src_2string_2strchrnul_8c.html#ab5535094991cbb3793d5ad23a1631fe8">strchrnul.c</a>
 , <a class="el" href="d2/d3a/stpcpy_8c.html#ab5535094991cbb3793d5ad23a1631fe8">stpcpy.c</a>
 , <a class="el" href="d9/dd9/memchr_8c.html#ab5535094991cbb3793d5ad23a1631fe8">memchr.c</a>
@@ -556,8 +561,8 @@ $(document).ready(function(){initNavTree('globals_h.html',''); initResizable(); 
 : <a class="el" href="de/d03/platform_8h.html#a169ec4e03eaff4026542e35bc3e74792">platform.h</a>
 </li>
 <li>HAVE_RTA_TABLE
-: <a class="el" href="d7/d27/iprule_8c.html#aa0d34ee8bfa39afaa40a53403d9a7a2e">iprule.c</a>
-, <a class="el" href="db/d12/iproute_8c.html#aa0d34ee8bfa39afaa40a53403d9a7a2e">iproute.c</a>
+: <a class="el" href="db/d12/iproute_8c.html#aa0d34ee8bfa39afaa40a53403d9a7a2e">iproute.c</a>
+, <a class="el" href="d7/d27/iprule_8c.html#aa0d34ee8bfa39afaa40a53403d9a7a2e">iprule.c</a>
 </li>
 <li>HAVE_SETBIT
 : <a class="el" href="de/d03/platform_8h.html#ac9fc58a113dbc793b6eae651270f1e34">platform.h</a>
@@ -758,13 +763,16 @@ $(document).ready(function(){initNavTree('globals_h.html',''); initResizable(); 
 : <a class="el" href="df/dec/ar_8c.html#a4613526d44d959b475864d515fff51b1">ar.c</a>
 </li>
 <li>HEADROOM
-: <a class="el" href="d5/d4a/httpd__indexcgi_8c.html#a70bd01545ca54514ee53e0eb670b9562aa60dc56f391b5c3fcf4142bb2a221fc4">httpd_indexcgi.c</a>
+: <a class="el" href="d5/d4a/httpd__indexcgi_8c.html#a755c96456945ef03bae544705e8cca64aa60dc56f391b5c3fcf4142bb2a221fc4">httpd_indexcgi.c</a>
 </li>
 <li>headsupactive
 : <a class="el" href="d3/dbb/hu__stuff_8c.html#ac00536cf511089d943e7183e89f08675">hu_stuff.c</a>
 </li>
 <li>heap
 : <a class="el" href="da/d71/huffman_8c.html#a256be6651fb2d98e76c466f9db72c614">huffman.c</a>
+</li>
+<li>heap_end
+: <a class="el" href="df/d55/userspace__test_8c.html#a8756eef6b9b5f51e335e9a9e01600a1f">userspace_test.c</a>
 </li>
 <li>HEAP_SIZE
 : <a class="el" href="d6/dd0/gzip_8c.html#a1b45302695680930829cac31d65e41e1">gzip.c</a>
@@ -923,8 +931,8 @@ $(document).ready(function(){initNavTree('globals_h.html',''); initResizable(); 
 , <a class="el" href="da/def/crypt__md5_8c.html#a669de569f9eb0c035c36a4d74ddf953e">crypt_md5.c</a>
 </li>
 <li>HHPRE
-: <a class="el" href="d3/d61/vfprintf_8c.html#ad1f4e3ecbb9f45a17834b3dbc10326c0af1a4a865a6129c1b49dabfdb86aa502e">vfprintf.c</a>
-, <a class="el" href="d1/d40/vfwprintf_8c.html#adcc593c8598e177d84744589d573e1bdaf1a4a865a6129c1b49dabfdb86aa502e">vfwprintf.c</a>
+: <a class="el" href="d3/d61/vfprintf_8c.html#adcc593c8598e177d84744589d573e1bdaf1a4a865a6129c1b49dabfdb86aa502e">vfprintf.c</a>
+, <a class="el" href="d1/d40/vfwprintf_8c.html#ad1f4e3ecbb9f45a17834b3dbc10326c0af1a4a865a6129c1b49dabfdb86aa502e">vfwprintf.c</a>
 </li>
 <li>HI
 : <a class="el" href="dd/dde/musl_2src_2math_2log_8c.html#a355125bc7c72a18ed70d4a3e24a3e0ce">log.c</a>
@@ -1200,12 +1208,12 @@ $(document).ready(function(){initNavTree('globals_h.html',''); initResizable(); 
 : <a class="el" href="db/de3/histfile_8c.html#a92b483d7660b4cab3513cc7064056985">histfile.c</a>
 , <a class="el" href="df/d04/history_8h.html#aa9cea6ef26c393d90f292eb915407a7a">history.h</a>
 </li>
-<li>HISTORY_WORD_DELIMITERS
-: <a class="el" href="d7/d43/histexpand_8c.html#a362a9be5e371c3d129bf9f664c786ad1">histexpand.c</a>
-</li>
 <li>history_word_delimiters
 : <a class="el" href="d7/d43/histexpand_8c.html#ab85582fa01b82e13fa1dcef33ea9ff56">histexpand.c</a>
 , <a class="el" href="df/d04/history_8h.html#ab85582fa01b82e13fa1dcef33ea9ff56">history.h</a>
+</li>
+<li>HISTORY_WORD_DELIMITERS
+: <a class="el" href="d7/d43/histexpand_8c.html#a362a9be5e371c3d129bf9f664c786ad1">histexpand.c</a>
 </li>
 <li>history_write_timestamps
 : <a class="el" href="db/de3/histfile_8c.html#acc8ffd4888ea01ba0f408a685c877384">histfile.c</a>
@@ -1251,8 +1259,8 @@ $(document).ready(function(){initNavTree('globals_h.html',''); initResizable(); 
 : <a class="el" href="db/d85/display_8c.html#af033eb4112c597660a3b9fd8f31f7698">display.c</a>
 </li>
 <li>host2sockaddr()
-: <a class="el" href="d8/d4c/xconnect_8c.html#ae7abf4d88499e9a2f7866d4cd078dbd7">xconnect.c</a>
-, <a class="el" href="d7/dd7/libbb_8h.html#a87224687177db72dfcbd2d65f97b4bb0">libbb.h</a>
+: <a class="el" href="d7/dd7/libbb_8h.html#a87224687177db72dfcbd2d65f97b4bb0">libbb.h</a>
+, <a class="el" href="d8/d4c/xconnect_8c.html#ae7abf4d88499e9a2f7866d4cd078dbd7">xconnect.c</a>
 </li>
 <li>host_and_af2sockaddr
 : <a class="el" href="d7/dd7/libbb_8h.html#afd9fb60e6078e503ebcc6415bf04b100">libbb.h</a>
@@ -1294,8 +1302,8 @@ $(document).ready(function(){initNavTree('globals_h.html',''); initResizable(); 
 : <a class="el" href="d7/dea/unused__hpfs_8c.html#a2a57b9c0a781e85b214da983f90814aa">unused_hpfs.c</a>
 </li>
 <li>HPRE
-: <a class="el" href="d3/d61/vfprintf_8c.html#ad1f4e3ecbb9f45a17834b3dbc10326c0a6bf99e0fc71e316540cb997fe749736f">vfprintf.c</a>
-, <a class="el" href="d1/d40/vfwprintf_8c.html#adcc593c8598e177d84744589d573e1bda6bf99e0fc71e316540cb997fe749736f">vfwprintf.c</a>
+: <a class="el" href="d3/d61/vfprintf_8c.html#adcc593c8598e177d84744589d573e1bda6bf99e0fc71e316540cb997fe749736f">vfprintf.c</a>
+, <a class="el" href="d1/d40/vfwprintf_8c.html#ad1f4e3ecbb9f45a17834b3dbc10326c0a6bf99e0fc71e316540cb997fe749736f">vfwprintf.c</a>
 </li>
 <li>HPRIME
 : <a class="el" href="d9/dea/decompress__uncompress_8c.html#a647a06ea789145b17b3502561ca70c95">decompress_uncompress.c</a>
@@ -1381,49 +1389,49 @@ $(document).ready(function(){initNavTree('globals_h.html',''); initResizable(); 
 , <a class="el" href="d7/de8/htons_8c.html#aabce0f8d453c3380e5b8a3d4947eb48c">htons.c</a>
 </li>
 <li>HTTP_BAD_REQUEST
-: <a class="el" href="d1/de7/httpd_8c.html#a737c1bdca78a4eec48fa026fcca3dd9ba173b2a55d636fe537b9069a4fb3388f2">httpd.c</a>
+: <a class="el" href="d1/de7/httpd_8c.html#a19ec6beb56ffd72599a9e41ec1024563a173b2a55d636fe537b9069a4fb3388f2">httpd.c</a>
 </li>
 <li>HTTP_CONTINUE
-: <a class="el" href="d1/de7/httpd_8c.html#a737c1bdca78a4eec48fa026fcca3dd9ba80fda2cfe303c918be39ff1d50b95264">httpd.c</a>
+: <a class="el" href="d1/de7/httpd_8c.html#a19ec6beb56ffd72599a9e41ec1024563a80fda2cfe303c918be39ff1d50b95264">httpd.c</a>
 </li>
 <li>HTTP_ENTITY_TOO_LARGE
-: <a class="el" href="d1/de7/httpd_8c.html#a737c1bdca78a4eec48fa026fcca3dd9bae42f22a4bd64114735009ec15762bb26">httpd.c</a>
+: <a class="el" href="d1/de7/httpd_8c.html#a19ec6beb56ffd72599a9e41ec1024563ae42f22a4bd64114735009ec15762bb26">httpd.c</a>
 </li>
 <li>http_error_page
 : <a class="el" href="d1/de7/httpd_8c.html#a354a816626dae4d9b3d238992299e5a9">httpd.c</a>
 </li>
 <li>HTTP_FORBIDDEN
-: <a class="el" href="d1/de7/httpd_8c.html#a737c1bdca78a4eec48fa026fcca3dd9ba7aec6e8ecb79ff84830a69e52ff01d17">httpd.c</a>
+: <a class="el" href="d1/de7/httpd_8c.html#a19ec6beb56ffd72599a9e41ec1024563a7aec6e8ecb79ff84830a69e52ff01d17">httpd.c</a>
 </li>
 <li>HTTP_INTERNAL_SERVER_ERROR
-: <a class="el" href="d1/de7/httpd_8c.html#a737c1bdca78a4eec48fa026fcca3dd9bac7d2e49bfead01d65a890a2e80e5b3a6">httpd.c</a>
+: <a class="el" href="d1/de7/httpd_8c.html#a19ec6beb56ffd72599a9e41ec1024563ac7d2e49bfead01d65a890a2e80e5b3a6">httpd.c</a>
 </li>
 <li>HTTP_MOVED_TEMPORARILY
-: <a class="el" href="d1/de7/httpd_8c.html#a737c1bdca78a4eec48fa026fcca3dd9ba4da81f45ef811b8ee61158f7c8d1dc14">httpd.c</a>
+: <a class="el" href="d1/de7/httpd_8c.html#a19ec6beb56ffd72599a9e41ec1024563a4da81f45ef811b8ee61158f7c8d1dc14">httpd.c</a>
 </li>
 <li>HTTP_NOT_FOUND
-: <a class="el" href="d1/de7/httpd_8c.html#a737c1bdca78a4eec48fa026fcca3dd9ba7a2f2a109c030ee9d2d5afe761232451">httpd.c</a>
+: <a class="el" href="d1/de7/httpd_8c.html#a19ec6beb56ffd72599a9e41ec1024563a7a2f2a109c030ee9d2d5afe761232451">httpd.c</a>
 </li>
 <li>HTTP_NOT_IMPLEMENTED
-: <a class="el" href="d1/de7/httpd_8c.html#a737c1bdca78a4eec48fa026fcca3dd9bad46f8921b20784b1d781ed4fcc13c39a">httpd.c</a>
+: <a class="el" href="d1/de7/httpd_8c.html#a19ec6beb56ffd72599a9e41ec1024563ad46f8921b20784b1d781ed4fcc13c39a">httpd.c</a>
 </li>
 <li>HTTP_NOT_MODIFIED
-: <a class="el" href="d1/de7/httpd_8c.html#a737c1bdca78a4eec48fa026fcca3dd9ba4d2b0e5c4eda4d6e45bbe2360c299d5a">httpd.c</a>
+: <a class="el" href="d1/de7/httpd_8c.html#a19ec6beb56ffd72599a9e41ec1024563a4d2b0e5c4eda4d6e45bbe2360c299d5a">httpd.c</a>
 </li>
 <li>HTTP_OK
-: <a class="el" href="d1/de7/httpd_8c.html#a737c1bdca78a4eec48fa026fcca3dd9ba43f8027764325bbcad2f773511156d0a">httpd.c</a>
+: <a class="el" href="d1/de7/httpd_8c.html#a19ec6beb56ffd72599a9e41ec1024563a43f8027764325bbcad2f773511156d0a">httpd.c</a>
 </li>
 <li>HTTP_PARTIAL_CONTENT
-: <a class="el" href="d1/de7/httpd_8c.html#a737c1bdca78a4eec48fa026fcca3dd9ba999eb85d52738d8914626a076c8395f3">httpd.c</a>
+: <a class="el" href="d1/de7/httpd_8c.html#a19ec6beb56ffd72599a9e41ec1024563a999eb85d52738d8914626a076c8395f3">httpd.c</a>
 </li>
 <li>HTTP_REQUEST_TIMEOUT
-: <a class="el" href="d1/de7/httpd_8c.html#a737c1bdca78a4eec48fa026fcca3dd9badcc34faaeb56b1d491853257833854a3">httpd.c</a>
+: <a class="el" href="d1/de7/httpd_8c.html#a19ec6beb56ffd72599a9e41ec1024563adcc34faaeb56b1d491853257833854a3">httpd.c</a>
 </li>
 <li>http_response
-: <a class="el" href="d1/de7/httpd_8c.html#ab4dacc993e51beb5e8056424f87a4158">httpd.c</a>
+: <a class="el" href="d1/de7/httpd_8c.html#a2a92c044866f6efb187feed4d5f321f6">httpd.c</a>
 </li>
 <li>HTTP_UNAUTHORIZED
-: <a class="el" href="d1/de7/httpd_8c.html#a737c1bdca78a4eec48fa026fcca3dd9ba74677f364201a3d068bc6b9db7359288">httpd.c</a>
+: <a class="el" href="d1/de7/httpd_8c.html#a19ec6beb56ffd72599a9e41ec1024563a74677f364201a3d068bc6b9db7359288">httpd.c</a>
 </li>
 <li>httpd_main()
 : <a class="el" href="d1/de7/httpd_8c.html#a0e98e0fc0a880a49c5edfcb3334d7b23">httpd.c</a>

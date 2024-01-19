@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['raw_889',['Raw',['../d1/de1/aip_8h.html#a0aeb1f673a677a69047678d8dc1550d1',1,'PS2_STATUSES::Raw()'],['../d1/de1/aip_8h.html#aabcce9d04cf80862c31c591b284ee358',1,'PS2_CONFIGURATION::Raw()'],['../d1/de1/aip_8h.html#a6f55d35c117c53b1aa5b104e550674dd',1,'PS2_OUTPUT_PORT::Raw()'],['../d7/df4/kbd_8h.html#a1c786a0ac638f742e31267026602ac54',1,'PS2_KBD_TYPEMATIC::Raw()']]],
+  ['registeraudiodevice_890',['RegisterAudioDevice',['../dc/dec/struct____driverAPI.html#a36aeaf4f51c1c709b88a890bc40858dc',1,'__driverAPI']]],
+  ['registerblockdevice_891',['RegisterBlockDevice',['../dc/dec/struct____driverAPI.html#a93ad2dfe60e816d0b9bbf64ab004b5fd',1,'__driverAPI']]],
+  ['registerfunction_892',['RegisterFunction',['../dc/dec/struct____driverAPI.html#af6392f49f3e13f9df9c948e8901c87d7',1,'__driverAPI']]],
+  ['registerinputdevice_893',['RegisterInputDevice',['../dc/dec/struct____driverAPI.html#a4d30da5e88721e6a849365b38dde0b5d',1,'__driverAPI']]],
+  ['registerinterrupthandler_894',['RegisterInterruptHandler',['../dc/dec/struct____driverAPI.html#ae3df44ccf99af84b4f273bf010dd6ce4',1,'__driverAPI']]],
+  ['registernetdevice_895',['RegisterNetDevice',['../dc/dec/struct____driverAPI.html#a0fb14411b5c9619c8e7e6fefc1e0d04e',1,'__driverAPI']]],
+  ['removemapflag_896',['RemoveMapFlag',['../dc/dec/struct____driverAPI.html#a86f7634072a438a82d55a3d3e90ab6ca',1,'__driverAPI']]],
+  ['reportabsolutemouseevent_897',['ReportAbsoluteMouseEvent',['../dc/dec/struct____driverAPI.html#a1ac011593f0b77ae250c4fabcb31bd23',1,'__driverAPI']]],
+  ['reportkeyboardevent_898',['ReportKeyboardEvent',['../dc/dec/struct____driverAPI.html#a134a0c7e3651a0e821c0d0e6c69cdbe4',1,'__driverAPI']]],
+  ['reportnetworkpacket_899',['ReportNetworkPacket',['../dc/dec/struct____driverAPI.html#a02484cf689fe925df1af1bd49d972d16',1,'__driverAPI']]],
+  ['reportrelativemouseevent_900',['ReportRelativeMouseEvent',['../dc/dec/struct____driverAPI.html#a619767f35919258edad79db51492b8ac',1,'__driverAPI']]],
+  ['requestpages_901',['RequestPages',['../dc/dec/struct____driverAPI.html#a494f89b484a7cf6e8880da6b07ce1a0b',1,'__driverAPI']]],
+  ['reserved_902',['Reserved',['../d9/d97/pci_8h.html#a57e0aa05de0a45d24023e5c56eba520e',1,'__attribute__']]],
+  ['reserved0_903',['Reserved0',['../d9/d97/pci_8h.html#a8dcff031235d3326f495f0b2d1db5114',1,'__attribute__']]],
+  ['reserved1_904',['Reserved1',['../d9/d97/pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb',1,'__attribute__']]],
+  ['reserved2_905',['Reserved2',['../d9/d97/pci_8h.html#acf89fc9ee55923d8f97e524e05867464',1,'__attribute__']]],
+  ['revisionid_906',['RevisionID',['../d9/d97/pci_8h.html#a11d59d8180946892dd910c63cbe2c261',1,'__attribute__']]],
+  ['rightbutton_907',['RightButton',['../dc/ded/mouse_8h.html#ae720ea34653c53edca8e6006ac14eedb',1,'mouse.h']]]
+];

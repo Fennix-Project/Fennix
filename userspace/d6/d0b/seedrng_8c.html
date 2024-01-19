@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Userspace
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Fennix Userspace Documentation</div>
+   <div id="projectbrief">Userspace Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -213,14 +213,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d0b/seedrng_8c_source.html#l00056">56</a> of file <a class="el" href="../../d6/d0b/seedrng_8c_source.html">seedrng.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;     {</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="../../d6/d0b/seedrng_8c.html#a0724528cce39d640312f4a7ad1a893f7a9706fd141157e93e6f2f27a408c7d359">MIN_SEED_LEN</a> = <a class="code" href="../../d7/dd7/libbb_8h.html#a1812ab31015cef0a41c6d4f3ae07f13da0bc3102f049b590dff06d0ed0360796e">SHA256_OUTSIZE</a>,</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="../../d6/d0b/seedrng_8c.html#a0724528cce39d640312f4a7ad1a893f7a9706fd141157e93e6f2f27a408c7d359">MIN_SEED_LEN</a> = <a class="code" href="../../d7/dd7/libbb_8h.html#a52864abcf6ebd8d120995b36fe6ce06ea0bc3102f049b590dff06d0ed0360796e">SHA256_OUTSIZE</a>,</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="comment">/* kernels &lt; 5.18 could return short reads from getrandom()</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">     * if signal is pending and length is &gt; 256.</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">     * Let&#39;s limit our reads to 256 bytes.</span></div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">     */</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="../../d6/d0b/seedrng_8c.html#a0724528cce39d640312f4a7ad1a893f7a6c2b9823f7a8b5fce3ba67439b4f9b39">MAX_SEED_LEN</a> = 256,</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;};</div>
-<div class="ttc" id="alibbb_8h_html_a1812ab31015cef0a41c6d4f3ae07f13da0bc3102f049b590dff06d0ed0360796e"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#a1812ab31015cef0a41c6d4f3ae07f13da0bc3102f049b590dff06d0ed0360796e">SHA256_OUTSIZE</a></div><div class="ttdeci">@ SHA256_OUTSIZE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd7/libbb_8h_source.html#l02187">libbb.h:2187</a></div></div>
+<div class="ttc" id="alibbb_8h_html_a52864abcf6ebd8d120995b36fe6ce06ea0bc3102f049b590dff06d0ed0360796e"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#a52864abcf6ebd8d120995b36fe6ce06ea0bc3102f049b590dff06d0ed0360796e">SHA256_OUTSIZE</a></div><div class="ttdeci">@ SHA256_OUTSIZE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd7/libbb_8h_source.html#l02187">libbb.h:2187</a></div></div>
 <div class="ttc" id="aseedrng_8c_html_a0724528cce39d640312f4a7ad1a893f7a6c2b9823f7a8b5fce3ba67439b4f9b39"><div class="ttname"><a href="../../d6/d0b/seedrng_8c.html#a0724528cce39d640312f4a7ad1a893f7a6c2b9823f7a8b5fce3ba67439b4f9b39">MAX_SEED_LEN</a></div><div class="ttdeci">@ MAX_SEED_LEN</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d0b/seedrng_8c_source.html#l00062">seedrng.c:62</a></div></div>
 <div class="ttc" id="aseedrng_8c_html_a0724528cce39d640312f4a7ad1a893f7a9706fd141157e93e6f2f27a408c7d359"><div class="ttname"><a href="../../d6/d0b/seedrng_8c.html#a0724528cce39d640312f4a7ad1a893f7a9706fd141157e93e6f2f27a408c7d359">MIN_SEED_LEN</a></div><div class="ttdeci">@ MIN_SEED_LEN</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d0b/seedrng_8c_source.html#l00057">seedrng.c:57</a></div></div>
 </div><!-- fragment -->
@@ -569,7 +569,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;<span class="comment">//Length is not random, and taking its address spills variable to stack</span></div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;<span class="comment">//  sha256_hash(&amp;hash, &amp;new_seed_len, sizeof(new_seed_len));</span></div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <a class="code" href="../../d7/dd7/libbb_8h.html#adcf4665d8233db496b14ec49eea15605">sha256_hash</a>(&amp;hash, new_seed, new_seed_len);</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <a class="code" href="../../d7/dd7/libbb_8h.html#ab42cdfb5c0af90b251817b7237b8536a">sha256_end</a>(&amp;hash, new_seed + new_seed_len - <a class="code" href="../../d7/dd7/libbb_8h.html#a1812ab31015cef0a41c6d4f3ae07f13da0bc3102f049b590dff06d0ed0360796e">SHA256_OUTSIZE</a>);</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <a class="code" href="../../d7/dd7/libbb_8h.html#ab42cdfb5c0af90b251817b7237b8536a">sha256_end</a>(&amp;hash, new_seed + new_seed_len - <a class="code" href="../../d7/dd7/libbb_8h.html#a52864abcf6ebd8d120995b36fe6ce06ea0bc3102f049b590dff06d0ed0360796e">SHA256_OUTSIZE</a>);</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160; </div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <a class="code" href="../../dc/d4d/libc_2include_2stdio_8h.html#a98631211a4a8aee62f572375d5b637be">printf</a>(<span class="stringliteral">&quot;Saving %u bits of %screditable seed for next boot\n&quot;</span>,</div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        (<span class="keywordtype">unsigned</span>)new_seed_len * 8, new_seed_creditable ? <span class="stringliteral">&quot;&quot;</span> : <span class="stringliteral">&quot;non-&quot;</span>);</div>

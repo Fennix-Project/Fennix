@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('dd/df2/sigsuspend_8c.html','../../'); 
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae5f92586ad50092a7813465eeef792c0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df2/sigsuspend_8c.html#ae5f92586ad50092a7813465eeef792c0">sigsuspend</a> (const <a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *mask)</td></tr>
+<tr class="memitem:ae5f92586ad50092a7813465eeef792c0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df2/sigsuspend_8c.html#ae5f92586ad50092a7813465eeef792c0">sigsuspend</a> (const <a class="el" href="../../dd/d5f/signal_8hpp.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *mask)</td></tr>
 <tr class="separator:ae5f92586ad50092a7813465eeef792c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -111,7 +111,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int sigsuspend </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../dd/d5f/signal_8hpp.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *&#160;</td>
           <td class="paramname"><em>mask</em></td><td>)</td>
           <td></td>
         </tr>
@@ -120,12 +120,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/df2/sigsuspend_8c_source.html#l00004">4</a> of file <a class="el" href="../../dd/df2/sigsuspend_8c_source.html">sigsuspend.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a>(SYS_rt_sigsuspend, mask, <a class="code" href="../../dc/d00/Userspace_2musl_2arch_2aarch64_2bits_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">_NSIG</a>/8);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d9/db2/Userspace_2musl_2src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a>(SYS_rt_sigsuspend, mask, <a class="code" href="../../d5/dac/musl_2arch_2aarch64_2bits_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">_NSIG</a>/8);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="aUserspace_2musl_2arch_2aarch64_2bits_2signal_8h_html_a275020780cb70a8b0cba8db5accc5d19"><div class="ttname"><a href="../../dc/d00/Userspace_2musl_2arch_2aarch64_2bits_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">_NSIG</a></div><div class="ttdeci">#define _NSIG</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d00/Userspace_2musl_2arch_2aarch64_2bits_2signal_8h_source.html#l00153">signal.h:153</a></div></div>
-<div class="ttc" id="asrc_2internal_2syscall_8h_html_a0dc7f19edb1df0f10eb8270a15b7b994"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a></div><div class="ttdeci">#define syscall_cp(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00059">syscall.h:59</a></div></div>
+<div class="ttc" id="aUserspace_2musl_2src_2internal_2syscall_8h_html_a0dc7f19edb1df0f10eb8270a15b7b994"><div class="ttname"><a href="../../d9/db2/Userspace_2musl_2src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a></div><div class="ttdeci">#define syscall_cp(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/db2/Userspace_2musl_2src_2internal_2syscall_8h_source.html#l00059">syscall.h:59</a></div></div>
+<div class="ttc" id="amusl_2arch_2aarch64_2bits_2signal_8h_html_a275020780cb70a8b0cba8db5accc5d19"><div class="ttname"><a href="../../d5/dac/musl_2arch_2aarch64_2bits_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">_NSIG</a></div><div class="ttdeci">#define _NSIG</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dac/musl_2arch_2aarch64_2bits_2signal_8h_source.html#l00153">signal.h:153</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/d00/Userspace_2musl_2arch_2aarch64_2bits_2signal_8h_source.html#l00153">_NSIG</a>, and <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00059">syscall_cp</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/dac/musl_2arch_2aarch64_2bits_2signal_8h_source.html#l00153">_NSIG</a>, and <a class="el" href="../../d9/db2/Userspace_2musl_2src_2internal_2syscall_8h_source.html#l00059">syscall_cp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d5a/sigpause_8c_source.html#l00003">sigpause()</a>, <a class="el" href="../../d3/db2/busybox_2libbb_2signals_8c_source.html#l00096">wait_for_any_sig()</a>, and <a class="el" href="../../d1/dbe/ash_8c_source.html#l04311">waitproc()</a>.</p>
 

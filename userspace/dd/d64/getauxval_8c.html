@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Userspace
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Fennix Userspace Documentation</div>
+   <div id="projectbrief">Userspace Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -124,18 +124,18 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../dd/d64/getauxval_8c_source.html#l00005">5</a> of file <a class="el" href="../../dd/d64/getauxval_8c_source.html">getauxval.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordtype">size_t</span> *auxv = <a class="code" href="../../db/dc8/libc_8h.html#a562c50deef56f1ef956e231f804c5d0b">libc</a>.auxv;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (item == <a class="code" href="../../d1/d8c/apps_2system_2init_2aux_8h.html#ab260ff441f79a29f19d7c100d6293d5f">AT_SECURE</a>) <span class="keywordflow">return</span> <a class="code" href="../../db/dc8/libc_8h.html#a562c50deef56f1ef956e231f804c5d0b">libc</a>.secure;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (item == <a class="code" href="../../df/d55/userspace__test_8c.html#ab260ff441f79a29f19d7c100d6293d5f">AT_SECURE</a>) <span class="keywordflow">return</span> <a class="code" href="../../db/dc8/libc_8h.html#a562c50deef56f1ef956e231f804c5d0b">libc</a>.secure;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">for</span> (; *auxv; auxv+=2)</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keywordflow">if</span> (*auxv==item) <span class="keywordflow">return</span> auxv[1];</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#a03e689f378f643d16ea7537918528a48">ENOENT</a>;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
-<div class="ttc" id="aapps_2system_2init_2aux_8h_html_ab260ff441f79a29f19d7c100d6293d5f"><div class="ttname"><a href="../../d1/d8c/apps_2system_2init_2aux_8h.html#ab260ff441f79a29f19d7c100d6293d5f">AT_SECURE</a></div><div class="ttdeci">#define AT_SECURE</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d8c/apps_2system_2init_2aux_8h_source.html#l00024">aux.h:24</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_a03e689f378f643d16ea7537918528a48"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#a03e689f378f643d16ea7537918528a48">ENOENT</a></div><div class="ttdeci">#define ENOENT</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00005">errno.h:5</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno.h:135</a></div></div>
 <div class="ttc" id="alibc_8h_html_a562c50deef56f1ef956e231f804c5d0b"><div class="ttname"><a href="../../db/dc8/libc_8h.html#a562c50deef56f1ef956e231f804c5d0b">libc</a></div><div class="ttdeci">#define libc</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dc8/libc_8h_source.html#l00038">libc.h:38</a></div></div>
+<div class="ttc" id="auserspace__test_8c_html_ab260ff441f79a29f19d7c100d6293d5f"><div class="ttname"><a href="../../df/d55/userspace__test_8c.html#ab260ff441f79a29f19d7c100d6293d5f">AT_SECURE</a></div><div class="ttdeci">#define AT_SECURE</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d55/userspace__test_8c_source.html#l00041">userspace_test.c:41</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d8c/apps_2system_2init_2aux_8h_source.html#l00024">AT_SECURE</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00005">ENOENT</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, and <a class="el" href="../../db/dc8/libc_8h_source.html#l00038">libc</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d55/userspace__test_8c_source.html#l00041">AT_SECURE</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00005">ENOENT</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, and <a class="el" href="../../db/dc8/libc_8h_source.html#l00038">libc</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/d77/aio_8c_source.html#l00083">__aio_get_queue()</a>, and <a class="el" href="../../d4/dba/musl_2src_2conf_2sysconf_8c_source.html#l00028">sysconf()</a>.</p>
 

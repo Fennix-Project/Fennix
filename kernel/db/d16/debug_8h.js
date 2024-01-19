@@ -33,5 +33,6 @@ var debug_8h =
     [ "SysDbgLockedWrite", "db/d16/debug_8h.html#ad17774aaa40ec3cb8087624ff71f0894", null ],
     [ "SysDbgLockedWriteLine", "db/d16/debug_8h.html#a4f70f6e676b3da79e8fc2d7fd4637261", null ],
     [ "SysDbgWrite", "db/d16/debug_8h.html#abc59a019ad3de095adabdb813af7a867", null ],
-    [ "SysDbgWriteLine", "db/d16/debug_8h.html#a74f3fc61fe0e1344da54caea3bdc2d4f", null ]
+    [ "SysDbgWriteLine", "db/d16/debug_8h.html#a74f3fc61fe0e1344da54caea3bdc2d4f", null ],
+    [ "uart_wrapper", "db/d16/debug_8h.html#a3405f4ecea18d00f6537c924f02d291a", null ]
 ];

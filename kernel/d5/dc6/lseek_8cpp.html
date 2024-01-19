@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -86,7 +86,6 @@ $(document).ready(function(){initNavTree('d5/dc6/lseek_8cpp.html','../../'); ini
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">lseek.cpp File Reference</div>  </div>
@@ -100,37 +99,14 @@ $(document).ready(function(){initNavTree('d5/dc6/lseek_8cpp.html','../../'); ini
 <code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d2/d6e/syscalls_8h_source.html">../../syscalls.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/daa/kernel_8h_source.html">../../kernel.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d24/ipc_8h_source.html">../../ipc.h</a>&quot;</code><br />
 </div>
 <p><a href="../../d5/dc6/lseek_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:aa07f2f09156b7539a5c1bb0a7334ddeb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc6/lseek_8cpp.html#aa07f2f09156b7539a5c1bb0a7334ddeb">SysFrm</a>&#160;&#160;&#160;<a class="el" href="../../d0/d35/syscalls_8hpp.html#d3/d19/structSyscallsFrame">SyscallsFrame</a></td></tr>
-<tr class="separator:aa07f2f09156b7539a5c1bb0a7334ddeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa41eb960b68f3028de8e945c3a0229b4"><td class="memItemLeft" align="right" valign="top">off_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc6/lseek_8cpp.html#aa41eb960b68f3028de8e945c3a0229b4">sys_lseek</a> (<a class="el" href="../../db/d9b/native_8cpp.html#aa07f2f09156b7539a5c1bb0a7334ddeb">SysFrm</a> *, int fildes, off_t offset, int whence)</td></tr>
+<tr class="memitem:aa41eb960b68f3028de8e945c3a0229b4"><td class="memItemLeft" align="right" valign="top">off_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc6/lseek_8cpp.html#aa41eb960b68f3028de8e945c3a0229b4">sys_lseek</a> (<a class="el" href="../../d0/d35/syscalls_8hpp.html#aa07f2f09156b7539a5c1bb0a7334ddeb">SysFrm</a> *, int fildes, off_t offset, int whence)</td></tr>
 <tr class="separator:aa41eb960b68f3028de8e945c3a0229b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="aa07f2f09156b7539a5c1bb0a7334ddeb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa07f2f09156b7539a5c1bb0a7334ddeb">&#9670;&nbsp;</a></span>SysFrm</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SysFrm&#160;&#160;&#160;<a class="el" href="../../d0/d35/syscalls_8hpp.html#d3/d19/structSyscallsFrame">SyscallsFrame</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d5/dc6/lseek_8cpp_source.html#l00038">38</a> of file <a class="el" href="../../d5/dc6/lseek_8cpp_source.html">lseek.cpp</a>.</p>
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="aa41eb960b68f3028de8e945c3a0229b4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa41eb960b68f3028de8e945c3a0229b4">&#9670;&nbsp;</a></span>sys_lseek()</h2>
@@ -141,7 +117,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">off_t sys_lseek </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d9b/native_8cpp.html#aa07f2f09156b7539a5c1bb0a7334ddeb">SysFrm</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/d35/syscalls_8hpp.html#aa07f2f09156b7539a5c1bb0a7334ddeb">SysFrm</a> *&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -170,22 +146,20 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/dc6/lseek_8cpp_source.html#l00047">47</a> of file <a class="el" href="../../d5/dc6/lseek_8cpp_source.html">lseek.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;{</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keyword">function</span>(<span class="stringliteral">&quot;%d, %d, %d&quot;</span>, fildes, offset, whence);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="../../d6/d17/classTasking_1_1PCB.html">PCB</a> *pcb = <a class="code" href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a>;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="../../da/d88/classvfs_1_1FileDescriptorTable.html">vfs::FileDescriptorTable</a> *fdt = pcb-&gt;<a class="code" href="../../d6/d17/classTasking_1_1PCB.html#aaf2f4c22bc6ba11ae549a3331d493d80">FileDescriptors</a>;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordflow">return</span> fdt-&gt;<a class="code" href="../../da/d88/classvfs_1_1FileDescriptorTable.html#a0e1f14ff1d575a665b613ff613ac05d3">_lseek</a>(fildes, offset, whence);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
-<div class="ttc" id="aclassTasking_1_1PCB_html"><div class="ttname"><a href="../../d6/d17/classTasking_1_1PCB.html">Tasking::PCB</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00331">task.hpp:332</a></div></div>
-<div class="ttc" id="aclassTasking_1_1PCB_html_aaf2f4c22bc6ba11ae549a3331d493d80"><div class="ttname"><a href="../../d6/d17/classTasking_1_1PCB.html#aaf2f4c22bc6ba11ae549a3331d493d80">Tasking::PCB::FileDescriptors</a></div><div class="ttdeci">FileDescriptorTable * FileDescriptors</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00379">task.hpp:379</a></div></div>
-<div class="ttc" id="aclassvfs_1_1FileDescriptorTable_html"><div class="ttname"><a href="../../da/d88/classvfs_1_1FileDescriptorTable.html">vfs::FileDescriptorTable</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00308">filesystem.hpp:309</a></div></div>
-<div class="ttc" id="aclassvfs_1_1FileDescriptorTable_html_a0e1f14ff1d575a665b613ff613ac05d3"><div class="ttname"><a href="../../da/d88/classvfs_1_1FileDescriptorTable.html#a0e1f14ff1d575a665b613ff613ac05d3">vfs::FileDescriptorTable::_lseek</a></div><div class="ttdeci">off_t _lseek(int fd, off_t offset, int whence)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d3a/file__descriptor_8cpp_source.html#l00417">file_descriptor.cpp:417</a></div></div>
-<div class="ttc" id="atask_8hpp_html_abcc2c2d29a284c2304deb5d0778c59c8"><div class="ttname"><a href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a></div><div class="ttdeci">#define thisProcess</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00618">task.hpp:618</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d5/dc6/lseek_8cpp_source.html#l00032">32</a> of file <a class="el" href="../../d5/dc6/lseek_8cpp_source.html">lseek.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">function</span>(<span class="stringliteral">&quot;%d, %d, %d&quot;</span>, fildes, offset, whence);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="../../d6/d17/classTasking_1_1PCB.html">PCB</a> *pcb = <a class="code" href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="../../da/d88/classvfs_1_1FileDescriptorTable.html">vfs::FileDescriptorTable</a> *fdt = pcb-&gt;<a class="code" href="../../d6/d17/classTasking_1_1PCB.html#aaf2f4c22bc6ba11ae549a3331d493d80">FileDescriptors</a>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">return</span> fdt-&gt;<a class="code" href="../../da/d88/classvfs_1_1FileDescriptorTable.html#a0e1f14ff1d575a665b613ff613ac05d3">_lseek</a>(fildes, offset, whence);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
+<div class="ttc" id="aclassTasking_1_1PCB_html"><div class="ttname"><a href="../../d6/d17/classTasking_1_1PCB.html">Tasking::PCB</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00383">task.hpp:384</a></div></div>
+<div class="ttc" id="aclassTasking_1_1PCB_html_aaf2f4c22bc6ba11ae549a3331d493d80"><div class="ttname"><a href="../../d6/d17/classTasking_1_1PCB.html#aaf2f4c22bc6ba11ae549a3331d493d80">Tasking::PCB::FileDescriptors</a></div><div class="ttdeci">FileDescriptorTable * FileDescriptors</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00430">task.hpp:430</a></div></div>
+<div class="ttc" id="aclassvfs_1_1FileDescriptorTable_html"><div class="ttname"><a href="../../da/d88/classvfs_1_1FileDescriptorTable.html">vfs::FileDescriptorTable</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00374">filesystem.hpp:375</a></div></div>
+<div class="ttc" id="aclassvfs_1_1FileDescriptorTable_html_a0e1f14ff1d575a665b613ff613ac05d3"><div class="ttname"><a href="../../da/d88/classvfs_1_1FileDescriptorTable.html#a0e1f14ff1d575a665b613ff613ac05d3">vfs::FileDescriptorTable::_lseek</a></div><div class="ttdeci">off_t _lseek(int fd, off_t offset, int whence)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d3a/file__descriptor_8cpp_source.html#l00471">file_descriptor.cpp:471</a></div></div>
+<div class="ttc" id="atask_8hpp_html_abcc2c2d29a284c2304deb5d0778c59c8"><div class="ttname"><a href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a></div><div class="ttdeci">#define thisProcess</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00674">task.hpp:674</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00417">vfs::FileDescriptorTable::_lseek()</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00379">Tasking::PCB::FileDescriptors</a>, and <a class="el" href="../../d8/da1/task_8hpp_source.html#l00618">thisProcess</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/dd4/linux_8cpp_source.html#l00264">linux_lseek()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00471">vfs::FileDescriptorTable::_lseek()</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00430">Tasking::PCB::FileDescriptors</a>, and <a class="el" href="../../d8/da1/task_8hpp_source.html#l00674">thisProcess</a>.</p>
 
 </div>
 </div>

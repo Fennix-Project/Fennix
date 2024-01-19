@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['zero_11758',['zero',['../d5/dba/multiboot2_8h.html#a1e8db52da1ca1c6f5e2e96baec2c9256',1,'multiboot_mmap_entry']]],
-  ['zero_11759',['Zero',['../d2/db2/namespaceInterruptDescriptorTable.html#a22f037a82b235857510ea8f388f70032',1,'InterruptDescriptorTable::LDTDescriptor::Zero()'],['../d2/db2/namespaceInterruptDescriptorTable.html#aacd19b9ab985d2b9bb9cdcbd12d14911',1,'InterruptDescriptorTable::CallGate::Zero()'],['../d2/db2/namespaceInterruptDescriptorTable.html#aeb13fcc8b112684ea683d7e315d326f6',1,'InterruptDescriptorTable::InterruptGate::Zero()'],['../d2/db2/namespaceInterruptDescriptorTable.html#a70e84d5c40b9b00fa709f010827f0ca6',1,'InterruptDescriptorTable::TaskGate::Zero()'],['../dc/d7c/SegmentDescriptors_8hpp.html#a445d87488f8e94dbd01e61e1da3b983c',1,'InterruptGate::Zero()']]],
-  ['zero0_11760',['Zero0',['../dc/d7c/SegmentDescriptors_8hpp.html#a108f61bb2c8c24624eb4e8876eb1c28b',1,'CallGate::Zero0()'],['../dc/d7c/SegmentDescriptors_8hpp.html#ad435ecab2d728ce93803cdad0af9347d',1,'SystemSegmentDescriptor::Zero0()']]],
-  ['zero1_11761',['Zero1',['../d2/db2/namespaceInterruptDescriptorTable.html#abde535b94f83682e007dfbe3e4fefcd5',1,'InterruptDescriptorTable::LDTDescriptor::Zero1()'],['../dc/d7c/SegmentDescriptors_8hpp.html#af5c9ac6edb3f96fe9da023eea57e2bf6',1,'CallGate::Zero1()'],['../dc/d7c/SegmentDescriptors_8hpp.html#ae959328b36fbbe2ab76bfa16e7c02c16',1,'SystemSegmentDescriptor::Zero1()']]]
+  ['year_12982',['Year',['../d9/d3e/namespaceTasking.html#a3c8a75c770b3425732c1c40479a8eac4',1,'Tasking::TaskInfo::Year()'],['../d3/d56/namespaceTime.html#a43e62109546c452c8219aed07c37ad89',1,'Time::Clock::Year()']]],
+  ['yield_12983',['Yield',['../dc/dec/struct____driverAPI.html#a05712e18fdd7faa973b57242594306a3',1,'__driverAPI']]],
+  ['yourip_12984',['YourIP',['../dd/d53/namespaceNetworkDHCP.html#a072574ecb4dd4387280e52728dfa4cea',1,'NetworkDHCP::DHCPHeader']]]
 ];

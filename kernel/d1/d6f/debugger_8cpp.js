@@ -7,7 +7,7 @@ var debugger_8cpp =
     [ "SysDbgLockedWriteLine", "d1/d6f/debugger_8cpp.html#a28f7a498abccd52664f93166690666aa", null ],
     [ "SysDbgWrite", "d1/d6f/debugger_8cpp.html#a55b292fe972bd5a8d8827a77239889b0", null ],
     [ "SysDbgWriteLine", "d1/d6f/debugger_8cpp.html#a7e983c40736e7356d26412a80c7f121b", null ],
-    [ "uart_wrapper", "d1/d6f/debugger_8cpp.html#a880c069d39b415a57e61af1c0961e3dc", null ],
+    [ "uart_wrapper", "d1/d6f/debugger_8cpp.html#a3dc982a98fa0985c2244b6a6cfb4e536", null ],
     [ "Write", "d1/d6f/debugger_8cpp.html#a56519f591431842de3118d8b729bdaec", null ],
     [ "WriteLine", "d1/d6f/debugger_8cpp.html#a2fd34f75c42a378c4a07656d9ad28d35", null ],
     [ "WritePrefix", "d1/d6f/debugger_8cpp.html#adbc8a86ad7c99107caaaf1cf9453bca9", null ],

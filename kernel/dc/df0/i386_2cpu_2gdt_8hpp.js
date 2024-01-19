@@ -2,7 +2,7 @@ var i386_2cpu_2gdt_8hpp =
 [
     [ "TaskStateSegmentEntry", "d1/d69/namespaceGlobalDescriptorTable.html#da/d55/structGlobalDescriptorTable_1_1TaskStateSegmentEntry", [
       [ "GlobalDescriptorTableAccess", "d1/d69/namespaceGlobalDescriptorTable.html#d3/d67/unionGlobalDescriptorTable_1_1TaskStateSegmentEntry_1_1GlobalDescriptorTableAccess", [
-        [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#a483b4134aa360e7fa242ccf1e47f8132", null ],
+        [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#a293a82a19c6b5a5bf28a40cd57a28d1c", null ],
         [ "Raw", "d1/d69/namespaceGlobalDescriptorTable.html#ae2b222a90e15d71a072ca43b7a404106", null ]
       ] ],
       [ "GlobalDescriptorTableAccess.__packed", "d1/d69/namespaceGlobalDescriptorTable.html#dc/d45/structGlobalDescriptorTable_1_1TaskStateSegmentEntry_1_1GlobalDescriptorTableAccess_8____packed", [
@@ -24,13 +24,13 @@ var i386_2cpu_2gdt_8hpp =
       [ "Reserved", "d1/d69/namespaceGlobalDescriptorTable.html#a05b4f9e900c865a216d0c618e0043b10", null ]
     ] ],
     [ "GlobalDescriptorTableAccess", "d1/d69/namespaceGlobalDescriptorTable.html#d3/d67/unionGlobalDescriptorTable_1_1TaskStateSegmentEntry_1_1GlobalDescriptorTableAccess", [
-      [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#a483b4134aa360e7fa242ccf1e47f8132", null ],
+      [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#a293a82a19c6b5a5bf28a40cd57a28d1c", null ],
       [ "Raw", "d1/d69/namespaceGlobalDescriptorTable.html#ae2b222a90e15d71a072ca43b7a404106", null ]
     ] ],
     [ "TaskStateSegment", "d1/d76/structGlobalDescriptorTable_1_1TaskStateSegment.html", "d1/d76/structGlobalDescriptorTable_1_1TaskStateSegment" ],
     [ "GlobalDescriptorTableEntry", "d1/d69/namespaceGlobalDescriptorTable.html#d9/d63/structGlobalDescriptorTable_1_1GlobalDescriptorTableEntry", [
       [ "GlobalDescriptorTableAccess", "d1/d69/namespaceGlobalDescriptorTable.html#d8/d80/unionGlobalDescriptorTable_1_1GlobalDescriptorTableEntry_1_1GlobalDescriptorTableAccess", [
-        [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#ac66abba835b876432c4a687707f603c0", null ],
+        [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#af18d86cc9541fe8f3e9682e7c03dfb3c", null ],
         [ "Raw", "d1/d69/namespaceGlobalDescriptorTable.html#a6cf1a2fb78e07ed77d2b64085c0c8c89", null ]
       ] ],
       [ "GlobalDescriptorTableAccess.__packed", "d1/d69/namespaceGlobalDescriptorTable.html#d0/dbe/structGlobalDescriptorTable_1_1GlobalDescriptorTableEntry_1_1GlobalDescriptorTableAccess_8____packed", [
@@ -43,7 +43,7 @@ var i386_2cpu_2gdt_8hpp =
         [ "S", "d1/d69/namespaceGlobalDescriptorTable.html#a5dbc98dcc983a70728bd082d1a47546e", null ]
       ] ],
       [ "GlobalDescriptorTableFlags", "d1/d69/namespaceGlobalDescriptorTable.html#db/db2/unionGlobalDescriptorTable_1_1GlobalDescriptorTableEntry_1_1GlobalDescriptorTableFlags", [
-        [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#a422286a7d15ede597ec14acdba941829", null ],
+        [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#a51a16344bcd1acef4142f54f1aceffe8", null ],
         [ "Raw", "d1/d69/namespaceGlobalDescriptorTable.html#ad1cf8d7ffae014ea8d21b9cdcc85f251", null ]
       ] ],
       [ "GlobalDescriptorTableFlags.__packed", "d1/d69/namespaceGlobalDescriptorTable.html#d6/d8d/structGlobalDescriptorTable_1_1GlobalDescriptorTableEntry_1_1GlobalDescriptorTableFlags_8____packed", [
@@ -61,11 +61,11 @@ var i386_2cpu_2gdt_8hpp =
       [ "Limit0", "d1/d69/namespaceGlobalDescriptorTable.html#ab662f36fff58910d86d66d844794d404", null ]
     ] ],
     [ "GlobalDescriptorTableAccess", "d1/d69/namespaceGlobalDescriptorTable.html#d8/d80/unionGlobalDescriptorTable_1_1GlobalDescriptorTableEntry_1_1GlobalDescriptorTableAccess", [
-      [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#ac66abba835b876432c4a687707f603c0", null ],
+      [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#af18d86cc9541fe8f3e9682e7c03dfb3c", null ],
       [ "Raw", "d1/d69/namespaceGlobalDescriptorTable.html#a6cf1a2fb78e07ed77d2b64085c0c8c89", null ]
     ] ],
     [ "GlobalDescriptorTableFlags", "d1/d69/namespaceGlobalDescriptorTable.html#db/db2/unionGlobalDescriptorTable_1_1GlobalDescriptorTableEntry_1_1GlobalDescriptorTableFlags", [
-      [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#a422286a7d15ede597ec14acdba941829", null ],
+      [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#a51a16344bcd1acef4142f54f1aceffe8", null ],
       [ "Raw", "d1/d69/namespaceGlobalDescriptorTable.html#ad1cf8d7ffae014ea8d21b9cdcc85f251", null ]
     ] ],
     [ "GlobalDescriptorTableEntries", "d1/d69/namespaceGlobalDescriptorTable.html#db/db2/structGlobalDescriptorTable_1_1GlobalDescriptorTableEntries", [

@@ -4,7 +4,7 @@ var luks_8c =
       [ "cipherMode", "d7/d59/luks_8c.html#ab172424f284f24571e40c011bf5f7c57", null ],
       [ "cipherName", "d7/d59/luks_8c.html#a9b0396f0dd77982def8b9e519ecd02e2", null ],
       [ "hashSpec", "d7/d59/luks_8c.html#a5227183726d696384ebbce20f5f8ce29", null ],
-      [ "keyblock", "d7/d59/luks_8c.html#ad79837076723c9033b4f1365cb238fbb", null ],
+      [ "keyblock", "d7/d59/luks_8c.html#a090e3248e68b124401adbc8e12f65f66", null ],
       [ "keyBytes", "d7/d59/luks_8c.html#ad25513ce174b0a66aa24bc6113f0e132", null ],
       [ "magic", "d7/d59/luks_8c.html#a4abbd9acd5ebe467a96d9320fe06504b", null ],
       [ "mkDigest", "d7/d59/luks_8c.html#a2d450d0c9497a226046c419bd4b9cce0", null ],

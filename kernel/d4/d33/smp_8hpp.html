@@ -30,7 +30,7 @@
    <div id="projectname">Fennix Kernel
    &#160;<span id="projectnumber">1.0.0</span>
    </div>
-   <div id="projectbrief">Opeating System from scratch made in C and C++</div>
+   <div id="projectbrief">Kernel Documentation</div>
   </td>
  </tr>
  </tbody>
@@ -116,7 +116,7 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a163aa934e4e42ebaea98661d54c0af08"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d33/smp_8hpp.html#a163aa934e4e42ebaea98661d54c0af08">MAX_CPU</a>&#160;&#160;&#160;256</td></tr>
+<tr class="memitem:a163aa934e4e42ebaea98661d54c0af08"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d33/smp_8hpp.html#a163aa934e4e42ebaea98661d54c0af08">MAX_CPU</a>&#160;&#160;&#160;255</td></tr>
 <tr class="memdesc:a163aa934e4e42ebaea98661d54c0af08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum supported number of <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a> cores by the kernel.  <a href="../../d4/d33/smp_8hpp.html#a163aa934e4e42ebaea98661d54c0af08">More...</a><br /></td></tr>
 <tr class="separator:a163aa934e4e42ebaea98661d54c0af08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39c988cf13da29ba3d8293d925456ab1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d33/smp_8hpp.html#a39c988cf13da29ba3d8293d925456ab1">CPU_DATA_CHECKSUM</a>&#160;&#160;&#160;0xC0FFEE</td></tr>
@@ -277,7 +277,7 @@ Used by <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related f
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MAX_CPU&#160;&#160;&#160;256</td>
+          <td class="memname">#define MAX_CPU&#160;&#160;&#160;255</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -428,9 +428,9 @@ Used by <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related f
 <div class="ttc" id="asmp_8hpp_html_a39c988cf13da29ba3d8293d925456ab1"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a39c988cf13da29ba3d8293d925456ab1">CPU_DATA_CHECKSUM</a></div><div class="ttdeci">#define CPU_DATA_CHECKSUM</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00028">smp.hpp:28</a></div></div>
 <div class="ttc" id="asmp_8hpp_html_a92c6b1cf703f9e064f5efc0907f80379"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a92c6b1cf703f9e064f5efc0907f80379">IsActive</a></div><div class="ttdeci">bool IsActive</div><div class="ttdoc">Is CPU online?</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00025">smp.hpp:25</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/d4f/amd64_2cpu_2apic_8hpp_source.html#l00031">APIC::APIC_ID</a>, <a class="el" href="../../dc/da7/assert_8h_source.html#l00023">assert</a>, <a class="el" href="../../d9/d36/binfo_8h_source.html#l00007">Checksum</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00028">CPU_DATA_CHECKSUM</a>, <a class="el" href="../../d8/d21/aarch64_2cpu_2smp_8cpp_source.html#l00026">CPUEnabled</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00086">error</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00025">IsActive</a>, <a class="el" href="../../d3/d82/x32_2msr_8hpp_source.html#l00325">CPU::x32::MSR_X2APIC_APICID</a>, <a class="el" href="../../d4/db2/x64_2msr_8hpp_source.html#l00325">CPU::x64::MSR_X2APIC_APICID</a>, <a class="el" href="../../dc/dfa/amd64_2cpu_2apic_8cpp_source.html#l00049">APIC::APIC::Read()</a>, <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00405">unlikely</a>, and <a class="el" href="../../d9/d4f/amd64_2cpu_2apic_8hpp_source.html#l00352">APIC::APIC::x2APIC</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d4f/amd64_2cpu_2apic_8hpp_source.html#l00031">APIC::APIC_ID</a>, <a class="el" href="../../dc/da7/assert_8h_source.html#l00023">assert</a>, <a class="el" href="../../d9/d36/binfo_8h_source.html#l00007">Checksum</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00028">CPU_DATA_CHECKSUM</a>, <a class="el" href="../../d8/d21/aarch64_2cpu_2smp_8cpp_source.html#l00026">CPUEnabled</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00086">error</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00025">IsActive</a>, <a class="el" href="../../d8/d71/memory_8cpp_source.html#l00045">KernelPageTable</a>, <a class="el" href="../../d6/d07/stdatomic_8h_source.html#l00024">memory_order_acquire</a>, <a class="el" href="../../d3/d82/x32_2msr_8hpp_source.html#l00325">CPU::x32::MSR_X2APIC_APICID</a>, <a class="el" href="../../d4/db2/x64_2msr_8hpp_source.html#l00325">CPU::x64::MSR_X2APIC_APICID</a>, <a class="el" href="../../dc/dfa/amd64_2cpu_2apic_8cpp_source.html#l00049">APIC::APIC::Read()</a>, <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00368">swap()</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00206">thisPageTable</a>, <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00411">unlikely</a>, and <a class="el" href="../../d9/d4f/amd64_2cpu_2apic_8hpp_source.html#l00352">APIC::APIC::x2APIC</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00035">__cxxabiv1::__cxa_get_globals()</a>, <a class="el" href="../../d9/d9c/task_8cpp_source.html#l00157">Tasking::Task::GetCurrentProcess()</a>, <a class="el" href="../../d9/d9c/task_8cpp_source.html#l00162">Tasking::Task::GetCurrentThread()</a>, <a class="el" href="../../d9/dee/amd64_2cpu_2gdt_8cpp_source.html#l00215">GlobalDescriptorTable::GetKernelStack()</a>, <a class="el" href="../../d1/d5f/crash__handler_8cpp_source.html#l01151">CrashHandler::Handle()</a>, <a class="el" href="../../d1/d5f/crash__handler_8cpp_source.html#l00926">CrashHandler::Handle_x86_32()</a>, <a class="el" href="../../d1/d5f/crash__handler_8cpp_source.html#l00833">CrashHandler::Handle_x86_64()</a>, <a class="el" href="../../da/da7/interrupts__manager_8cpp_source.html#l00145">Interrupts::MainInterruptHandler()</a>, <a class="el" href="../../d9/dee/amd64_2cpu_2gdt_8cpp_source.html#l00197">GlobalDescriptorTable::SetKernelStack()</a>, <a class="el" href="../../db/d8b/scheduler_8cpp_source.html#l00109">TaskingScheduler_OneShot()</a>, <a class="el" href="../../d3/d35/thread_8cpp_source.html#l00050">ThreadDoExit()</a>, <a class="el" href="../../dc/dfa/amd64_2cpu_2apic_8cpp_source.html#l00427">APIC::Timer::Timer()</a>, <a class="el" href="../../d5/ddf/user__handler_8cpp_source.html#l00035">UserModeExceptionHandler()</a>, and <a class="el" href="../../d9/d9c/task_8cpp_source.html#l00424">Tasking::Task::~Task()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00035">__cxxabiv1::__cxa_get_globals()</a>, <a class="el" href="../../d9/d9c/task_8cpp_source.html#l00147">Tasking::Task::GetCurrentProcess()</a>, <a class="el" href="../../d9/d9c/task_8cpp_source.html#l00152">Tasking::Task::GetCurrentThread()</a>, <a class="el" href="../../d9/dee/amd64_2cpu_2gdt_8cpp_source.html#l00215">GlobalDescriptorTable::GetKernelStack()</a>, <a class="el" href="../../d1/d5f/crash__handler_8cpp_source.html#l01174">CrashHandler::Handle()</a>, <a class="el" href="../../d1/d5f/crash__handler_8cpp_source.html#l00942">CrashHandler::Handle_x86_32()</a>, <a class="el" href="../../d1/d5f/crash__handler_8cpp_source.html#l00844">CrashHandler::Handle_x86_64()</a>, <a class="el" href="../../da/da7/interrupts__manager_8cpp_source.html#l00283">Interrupts::MainInterruptHandler()</a>, <a class="el" href="../../d0/d6c/dsdt_8cpp_source.html#l00057">ACPI::DSDT::OnInterruptReceived()</a>, <a class="el" href="../../d9/dee/amd64_2cpu_2gdt_8cpp_source.html#l00197">GlobalDescriptorTable::SetKernelStack()</a>, <a class="el" href="../../db/d8b/scheduler_8cpp_source.html#l00109">TaskingScheduler_OneShot()</a>, <a class="el" href="../../d3/d35/thread_8cpp_source.html#l00050">ThreadDoExit()</a>, <a class="el" href="../../dc/dfa/amd64_2cpu_2apic_8cpp_source.html#l00427">APIC::Timer::Timer()</a>, <a class="el" href="../../d5/ddf/user__handler_8cpp_source.html#l00035">UserModeExceptionHandler()</a>, and <a class="el" href="../../d9/d9c/task_8cpp_source.html#l00443">Tasking::Task::~Task()</a>.</p>
 
 </div>
 </div>
@@ -469,7 +469,7 @@ Used by <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related f
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00010">10</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d9c/task_8cpp_source.html#l00424">Tasking::Task::~Task()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d9c/task_8cpp_source.html#l00443">Tasking::Task::~Task()</a>.</p>
 
 </div>
 </div>
@@ -489,7 +489,7 @@ Used by <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related f
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00013">13</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d35/thread_8cpp_source.html#l00050">ThreadDoExit()</a>, and <a class="el" href="../../d9/d9c/task_8cpp_source.html#l00424">Tasking::Task::~Task()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d35/thread_8cpp_source.html#l00050">ThreadDoExit()</a>, and <a class="el" href="../../d9/d9c/task_8cpp_source.html#l00443">Tasking::Task::~Task()</a>.</p>
 
 </div>
 </div>
@@ -563,7 +563,7 @@ Used by <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related f
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00004">4</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dab/ipc_8cpp_source.html#l00077">InterProcessCommunication::IPC::Allocate()</a>, <a class="el" href="../../d8/dab/ipc_8cpp_source.html#l00098">InterProcessCommunication::IPC::Deallocate()</a>, <a class="el" href="../../d8/dab/ipc_8cpp_source.html#l00058">InterProcessCommunication::IPC::Destroy()</a>, <a class="el" href="../../d9/d9c/task_8cpp_source.html#l00167">Tasking::Task::GetProcessByID()</a>, <a class="el" href="../../d9/d9c/task_8cpp_source.html#l00178">Tasking::Task::GetThreadByID()</a>, <a class="el" href="../../d8/dab/ipc_8cpp_source.html#l00229">InterProcessCommunication::IPC::HandleSyscall()</a>, <a class="el" href="../../d8/dab/ipc_8cpp_source.html#l00181">InterProcessCommunication::IPC::Listen()</a>, <a class="el" href="../../d0/d4c/process_8cpp_source.html#l00093">Tasking::PCB::PCB()</a>, <a class="el" href="../../d8/dab/ipc_8cpp_source.html#l00117">InterProcessCommunication::IPC::Read()</a>, <a class="el" href="../../d3/d35/thread_8cpp_source.html#l00330">Tasking::TCB::TCB()</a>, <a class="el" href="../../dc/dfa/amd64_2cpu_2apic_8cpp_source.html#l00427">APIC::Timer::Timer()</a>, <a class="el" href="../../d8/dab/ipc_8cpp_source.html#l00196">InterProcessCommunication::IPC::Wait()</a>, <a class="el" href="../../d8/dab/ipc_8cpp_source.html#l00147">InterProcessCommunication::IPC::Write()</a>, and <a class="el" href="../../d0/d4c/process_8cpp_source.html#l00207">Tasking::PCB::~PCB()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d9c/task_8cpp_source.html#l00157">Tasking::Task::GetProcessByID()</a>, <a class="el" href="../../d9/d9c/task_8cpp_source.html#l00168">Tasking::Task::GetThreadByID()</a>, <a class="el" href="../../da/d62/master_8cpp_source.html#l00209">Driver::MasterDeviceFile::NewAudio()</a>, <a class="el" href="../../da/d62/master_8cpp_source.html#l00194">Driver::MasterDeviceFile::NewBlock()</a>, <a class="el" href="../../da/d62/master_8cpp_source.html#l00224">Driver::MasterDeviceFile::NewNet()</a>, <a class="el" href="../../d0/d6c/dsdt_8cpp_source.html#l00057">ACPI::DSDT::OnInterruptReceived()</a>, <a class="el" href="../../da/d62/master_8cpp_source.html#l00239">Driver::MasterDeviceFile::Register()</a>, <a class="el" href="../../da/d62/master_8cpp_source.html#l00134">Driver::MasterDeviceFile::ReportKeyEvent()</a>, <a class="el" href="../../d9/d9c/task_8cpp_source.html#l00274">Tasking::Task::SignalShutdown()</a>, <a class="el" href="../../dc/dfa/amd64_2cpu_2apic_8cpp_source.html#l00427">APIC::Timer::Timer()</a>, <a class="el" href="../../da/d62/master_8cpp_source.html#l00263">Driver::MasterDeviceFile::Unregister()</a>, and <a class="el" href="../../d9/d9c/task_8cpp_source.html#l00443">Tasking::Task::~Task()</a>.</p>
 
 </div>
 </div>
@@ -603,7 +603,7 @@ Used by <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related f
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00001">1</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d35/thread_8cpp_source.html#l00155">Tasking::__no_sanitize()</a>, <a class="el" href="../../df/db5/stack__check_8cpp_source.html#l00055">__stack_chk_fail()</a>, <a class="el" href="../../d9/dee/amd64_2cpu_2gdt_8cpp_source.html#l00197">GlobalDescriptorTable::SetKernelStack()</a>, <a class="el" href="../../dd/dd9/amd64_2cpu_2smp_8cpp_source.html#l00077">StartCPU()</a>, <a class="el" href="../../d3/d35/thread_8cpp_source.html#l00330">Tasking::TCB::TCB()</a>, and <a class="el" href="../../d3/d35/thread_8cpp_source.html#l00528">Tasking::TCB::~TCB()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d35/thread_8cpp_source.html#l00183">Tasking::__no_sanitize()</a>, <a class="el" href="../../df/db5/stack__check_8cpp_source.html#l00055">__stack_chk_fail()</a>, <a class="el" href="../../d9/dee/amd64_2cpu_2gdt_8cpp_source.html#l00197">GlobalDescriptorTable::SetKernelStack()</a>, and <a class="el" href="../../dd/dd9/amd64_2cpu_2smp_8cpp_source.html#l00080">StartCPU()</a>.</p>
 
 </div>
 </div>
