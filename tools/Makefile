@@ -55,33 +55,33 @@ do_qemu:
 do_binutils_64:
 	cd build-binutils64 && \
 	../binutils-gdb/configure --target=x86_64-fennix \
-	--prefix="$(CROSS_DIR)" \
+	--prefix="$(CROSS_DIR)" --disable-nls \
 	--with-sysroot --enable-shared --disable-werror && \
 	make all -j$(shell nproc) && make install
 
 do_gcc_64:
 	cd build-gcc64 && \
 	../gcc/configure --target=x86_64-fennix \
-	--prefix="$(CROSS_DIR)" \
+	--prefix="$(CROSS_DIR)" --disable-nls \
 	--enable-languages=c,c++ --enable-shared --without-headers && \
 	make all-gcc -j$(shell nproc) && \
 	make all-target-libgcc -j$(shell nproc) && \
 	make install-gcc -j$(shell nproc) && \
-	make install-target-libgcc  -j$(shell nproc)
+	make install-target-libgcc -j$(shell nproc)
 
 do_binutils_32:
 	cd build-binutils32 && \
 	../binutils-gdb/configure --target=i386-fennix \
-	--prefix="$(CROSS_DIR)" \
+	--prefix="$(CROSS_DIR)" --disable-nls \
 	--with-sysroot --enable-shared --disable-werror && \
 	make all -j$(shell nproc) && make install
 
 do_gcc_32:
 	cd build-gcc32 && \
 	../gcc/configure --target=i386-fennix \
-	--prefix="$(CROSS_DIR)" \
+	--prefix="$(CROSS_DIR)" --disable-nls \
 	--enable-languages=c,c++ --enable-shared --without-headers && \
 	make all-gcc -j$(shell nproc) && \
 	make all-target-libgcc -j$(shell nproc) && \
 	make install-gcc -j$(shell nproc) && \
-	make install-target-libgcc  -j$(shell nproc)
+	make install-target-libgcc -j$(shell nproc)
