@@ -21,8 +21,8 @@ do_limine:
 	git clone https://github.com/limine-bootloader/limine.git --branch=v6.x-branch-binary --depth=1
 
 clone_all:
-	git clone https://github.com/Fennix-Project/binutils-gdb.git binutils-gdb
-	git clone https://github.com/Fennix-Project/gcc.git gcc
+	git clone -b binutils-2_42-branch --single-branch https://github.com/Fennix-Project/binutils-gdb.git binutils-gdb
+	git clone -b releases/gcc-13 --single-branch https://github.com/Fennix-Project/gcc.git gcc
 	wget https://download.qemu.org/qemu-${QEMU_VERSION}.tar.xz
 	tar xvJf qemu-${QEMU_VERSION}.tar.xz
 	rm -f qemu-${QEMU_VERSION}.tar.xz
