@@ -62,7 +62,7 @@ do_binutils_64:
 do_gcc_64:
 	cd build-gcc64 && \
 	../gcc/configure --target=x86_64-fennix \
-	--prefix="$(CROSS_DIR)" --disable-nls \
+	--prefix="$(CROSS_DIR)" --disable-nls --enable-default-pie \
 	--enable-languages=c,c++ --enable-shared --without-headers && \
 	make all-gcc -j$(shell nproc) && \
 	make all-target-libgcc -j$(shell nproc) && \
@@ -79,7 +79,7 @@ do_binutils_32:
 do_gcc_32:
 	cd build-gcc32 && \
 	../gcc/configure --target=i386-fennix \
-	--prefix="$(CROSS_DIR)" --disable-nls \
+	--prefix="$(CROSS_DIR)" --disable-nls --enable-default-pie \
 	--enable-languages=c,c++ --enable-shared --without-headers && \
 	make all-gcc -j$(shell nproc) && \
 	make all-target-libgcc -j$(shell nproc) && \
