@@ -19,6 +19,7 @@ initrd.tar.gz
 *.log
 *.log.*
 *.img
+*.qcow2
 *.iso
 *.drv
 *.fex
