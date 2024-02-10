@@ -28,7 +28,7 @@ QEMUFLAGS += -device vmware-svga -M q35 \
 			 -device ahci,id=ahci \
 			 -drive id=bootdsk,file=$(OSNAME).iso,format=raw,if=none \
 			 -device ide-hd,drive=bootdsk,bus=ahci.0 \
-			 -drive id=disk,file=qemu-disk.img,format=raw,if=none \
+			 -drive id=disk,file=qemu-disk.qcow2,if=none \
 			 -device ide-hd,drive=disk,bus=ahci.1 \
 			 -audiodev pa,id=pa1,server=/run/user/1000/pulse/native \
 			 -machine pcspk-audiodev=pa1 \
@@ -76,10 +76,10 @@ doxygen:
 	doxygen Drivers/Doxyfile
 
 qemu_vdisk:
-ifneq (,$(wildcard ./qemu-disk.img))
-	$(info qemu-disk.img Already exists)
+ifneq (,$(wildcard ./qemu-disk.qcow2))
+	$(info qemu-disk.qcow2 Already exists)
 else
-	dd if=/dev/zero of=qemu-disk.img bs=1024K count=4000
+	qemu-img create -f qcow2 qemu-disk.qcow2 1G
 endif
 
 # Install necessary packages, build cross-compiler etc...
