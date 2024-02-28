@@ -130,7 +130,7 @@ $(document).ready(function(){initNavTree('d2/d68/i386_2bootstrap_2Multiboot_2mul
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Multiboot magic is NULL&quot;</span>);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">if</span> (Info == <a class="code" href="../../d6/de6/include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Multiboot info is NULL&quot;</span>);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        CPU::Stop();</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="../../d7/dfa/namespaceCPU.html#a43d66aba1e2db1bbe0b9233304298f9e">CPU::Stop</a>();</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (Magic == <a class="code" href="../../d2/d68/i386_2bootstrap_2Multiboot_2multiboot_8cpp.html#aacd617f4e3daafd6eab95fb6215ccae4">MULTIBOOT_BOOTLOADER_MAGIC</a>)</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="../../de/d2b/amd64_2bootstrap_2multiboot_2multiboot_8cpp.html#aa89997ede4fbb648662e747d8d55682e">multiboot_parse</a>(mb2binfo, Magic, Info);</div>
@@ -139,7 +139,7 @@ $(document).ready(function(){initNavTree('d2/d68/i386_2bootstrap_2Multiboot_2mul
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    {</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Unknown multiboot magic %#x&quot;</span>, Magic);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        CPU::Stop();</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <a class="code" href="../../d7/dfa/namespaceCPU.html#a43d66aba1e2db1bbe0b9233304298f9e">CPU::Stop</a>();</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
 <div class="ttc" id="aamd64_2bootstrap_2multiboot_2multiboot_8cpp_html_a6384035ca4bdc11954b3a0fdd4b297f2"><div class="ttname"><a href="../../de/d2b/amd64_2bootstrap_2multiboot_2multiboot_8cpp.html#a6384035ca4bdc11954b3a0fdd4b297f2">multiboot_main</a></div><div class="ttdeci">EXTERNC void multiboot_main(uintptr_t Magic, uintptr_t Info)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/amd64_2bootstrap_2multiboot_2multiboot_8cpp_source.html#l00032">multiboot.cpp:32</a></div></div>
@@ -152,6 +152,7 @@ $(document).ready(function(){initNavTree('d2/d68/i386_2bootstrap_2Multiboot_2mul
 <div class="ttc" id="ainclude_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00186">types.h:186</a></div></div>
 <div class="ttc" id="ainclude_2types_8h_html_a95e1d92b2619a326b2e86600f3d23100"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a></div><div class="ttdeci">#define EXTERNC</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00029">types.h:29</a></div></div>
 <div class="ttc" id="amemory_8hpp_html"><div class="ttname"><a href="../../da/d3e/memory_8hpp.html">memory.hpp</a></div></div>
+<div class="ttc" id="anamespaceCPU_html_a43d66aba1e2db1bbe0b9233304298f9e"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#a43d66aba1e2db1bbe0b9233304298f9e">CPU::Stop</a></div><div class="ttdeci">nsa __noreturn __used void Stop()</div><div class="ttdoc">Stop the CPU (infinite loop)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00157">cpu.hpp:157</a></div></div>
 <div class="ttc" id="astructBootInfo_html"><div class="ttname"><a href="../../db/d96/structBootInfo.html">BootInfo</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d36/binfo_8h_source.html#l00047">binfo.h:48</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

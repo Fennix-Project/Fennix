@@ -17,8 +17,8 @@ var amd64_2cpu_2smp_8cpp =
       [ "TRAMPOLINE_START", "d6/dfe/i386_2cpu_2smp_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa21a467d1df7f6bfa2d2b79ec0b812780", null ]
     ] ],
     [ "__aligned", "dd/dd9/amd64_2cpu_2smp_8cpp.html#aabdc1cdab2bdc4e8bc624fa54cfb8a26", null ],
-    [ "GetCPU", "dd/dd9/amd64_2cpu_2smp_8cpp.html#a3566340b6a222c5755e4b2281916308e", null ],
-    [ "GetCurrentCPU", "dd/dd9/amd64_2cpu_2smp_8cpp.html#a554fc11f8a93510db1c570b03954f45f", null ],
+    [ "GetCPU", "dd/dd9/amd64_2cpu_2smp_8cpp.html#aba5a831d1350ee89078305b86755a4ce", null ],
+    [ "GetCurrentCPU", "dd/dd9/amd64_2cpu_2smp_8cpp.html#aedb4bf9f108bb0ebefd49c5d922692d9", null ],
     [ "Initialize", "dd/dd9/amd64_2cpu_2smp_8cpp.html#a83df3dc276fba1e673fcf5551113ca7e", null ],
     [ "StartCPU", "dd/dd9/amd64_2cpu_2smp_8cpp.html#ad88aab0241b508d296eb247bb0d77448", null ],
     [ "_trampoline_end", "dd/dd9/amd64_2cpu_2smp_8cpp.html#ae70ade7b09a28a5731dee3d4d3b1407b", null ],

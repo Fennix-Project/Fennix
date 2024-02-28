@@ -14,6 +14,7 @@ var dir_0befaf9d32b914567ccf0e83b7a19c45 =
     [ "lspci.cpp", "d4/d8d/lspci_8cpp.html", "d4/d8d/lspci_8cpp" ],
     [ "mem.cpp", "d1/d6f/mem_8cpp.html", "d1/d6f/mem_8cpp" ],
     [ "modinfo.cpp", "d9/d44/modinfo_8cpp.html", "d9/d44/modinfo_8cpp" ],
+    [ "panic.cpp", "d6/d1e/panic_8cpp.html", "d6/d1e/panic_8cpp" ],
     [ "ps.cpp", "dc/d0e/ps_8cpp.html", "dc/d0e/ps_8cpp" ],
     [ "reboot.cpp", "d9/d41/reboot_8cpp.html", "d9/d41/reboot_8cpp" ],
     [ "shutdown.cpp", "df/d04/shutdown_8cpp.html", "df/d04/shutdown_8cpp" ],

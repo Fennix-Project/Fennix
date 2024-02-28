@@ -3,7 +3,7 @@ var kbd_8h =
     [ "PS2_KBD_TYPEMATIC", "d7/df4/kbd_8h.html#d5/d94/unionPS2__KBD__TYPEMATIC", [
       [ "Raw", "d7/df4/kbd_8h.html#a1c786a0ac638f742e31267026602ac54", null ]
     ] ],
-    [ "PS2_KBD_TYPEMATIC.__unnamed1241__", "d7/df4/kbd_8h.html#da/d3c/structPS2__KBD__TYPEMATIC_8____unnamed1241____", [
+    [ "PS2_KBD_TYPEMATIC.__unnamed1243__", "d7/df4/kbd_8h.html#dd/da4/structPS2__KBD__TYPEMATIC_8____unnamed1243____", [
       [ "Delay", "d7/df4/kbd_8h.html#a8f497c1a3d15af9e0c215019f26b887d", null ],
       [ "RepeatRate", "d7/df4/kbd_8h.html#ab0a4e5ca864ccf625afe5cbd853b490c", null ],
       [ "Zero", "d7/df4/kbd_8h.html#ad7ed4ee1df437474d005188535f74875", null ]

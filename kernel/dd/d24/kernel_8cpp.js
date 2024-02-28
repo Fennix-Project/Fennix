@@ -22,7 +22,6 @@ var kernel_8cpp =
     [ "KernelSymbolTable", "dd/d24/kernel_8cpp.html#a7495caffa5b73a2490dcd48a91869694", null ],
     [ "PCIManager", "dd/d24/kernel_8cpp.html#a2f59dbd6d0e8536d7e174ed6e10d76d7", null ],
     [ "PowerManager", "dd/d24/kernel_8cpp.html#ac4acbd97a34e46e0e3b1f643e7d9ce94", null ],
-    [ "PutCharBufferIndex", "dd/d24/kernel_8cpp.html#aa4dd97cb9d17b2b3c90082c567852aa0", null ],
     [ "TaskManager", "dd/d24/kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2", null ],
     [ "TimeManager", "dd/d24/kernel_8cpp.html#ad5fb15538e6988f0db36d754a4a7d08d", null ]
 ];

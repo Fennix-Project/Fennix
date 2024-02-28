@@ -248,6 +248,6 @@ var NAVTREEINDEX125 =
 "d6/d86/fdisk_8c.html#af65c9488b5c43c3216664219e6f7055b":[5,0,0,0,0,1,27,13,74],
 "d6/d86/fdisk_8c.html#af682a3b58d27eb9dcacc2b892cc5607f":[5,0,0,0,0,1,27,13,4,6],
 "d6/d86/fdisk_8c.html#af857ea875ff7b4d5869d17753ecbb0d7":[5,0,0,0,0,1,27,13,121],
-"d6/d86/fdisk_8c.html#afa5532f9b588cfd0d3093f9108aac598":[5,0,0,0,0,1,27,13,5,3],
-"d6/d86/fdisk_8c.html#afa5532f9b588cfd0d3093f9108aac598":[5,0,0,0,0,1,27,13,4,0,3]
+"d6/d86/fdisk_8c.html#afa5532f9b588cfd0d3093f9108aac598":[5,0,0,0,0,1,27,13,4,0,3],
+"d6/d86/fdisk_8c.html#afa5532f9b588cfd0d3093f9108aac598":[5,0,0,0,0,1,27,13,5,3]
 };

@@ -671,9 +671,9 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>__MouseButtons.__unnamed17__</Name>
+            <Name>__MouseButtons.__unnamed15__</Name>
             <Path>db/de4/driver_8h.html</Path>
-            <Anchor>d0/d50/struct____MouseButtons_8____unnamed17____</Anchor>
+            <Anchor>dc/d64/struct____MouseButtons_8____unnamed15____</Anchor>
             <Subnodes>
              <Node>
               <Name>Button4</Name>
@@ -856,9 +856,9 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>MouseReport.__unnamed13__.__unnamed15__</Name>
+            <Name>MouseReport.__unnamed13__.__unnamed17__</Name>
             <Path>de/ded/input_8h.html</Path>
-            <Anchor>da/d31/structMouseReport_8____unnamed13_____8____unnamed15____</Anchor>
+            <Anchor>de/d3a/structMouseReport_8____unnamed13_____8____unnamed17____</Anchor>
             <Subnodes>
              <Node>
               <Name>Button4</Name>
@@ -1103,9 +1103,9 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>PS2_STATUSES.__unnamed7__</Name>
+            <Name>PS2_STATUSES.__unnamed6__</Name>
             <Path>d1/de1/aip_8h.html</Path>
-            <Anchor>dd/daa/structPS2__STATUSES_8____unnamed7____</Anchor>
+            <Anchor>d0/d37/structPS2__STATUSES_8____unnamed6____</Anchor>
             <Subnodes>
              <Node>
               <Name>CommandData</Name>
@@ -1706,9 +1706,9 @@
                   </Subnodes>
                  </Node>
                  <Node>
-                  <Name>PS2_STATUSES.__unnamed7__</Name>
+                  <Name>PS2_STATUSES.__unnamed6__</Name>
                   <Path>d1/de1/aip_8h.html</Path>
-                  <Anchor>dd/daa/structPS2__STATUSES_8____unnamed7____</Anchor>
+                  <Anchor>d0/d37/structPS2__STATUSES_8____unnamed6____</Anchor>
                   <Subnodes>
                    <Node>
                     <Name>CommandData</Name>
@@ -2626,9 +2626,9 @@
                   </Subnodes>
                  </Node>
                  <Node>
-                  <Name>__MouseButtons.__unnamed17__</Name>
+                  <Name>__MouseButtons.__unnamed15__</Name>
                   <Path>db/de4/driver_8h.html</Path>
-                  <Anchor>d0/d50/struct____MouseButtons_8____unnamed17____</Anchor>
+                  <Anchor>dc/d64/struct____MouseButtons_8____unnamed15____</Anchor>
                   <Subnodes>
                    <Node>
                     <Name>Button4</Name>
@@ -4208,9 +4208,9 @@
                   </Subnodes>
                  </Node>
                  <Node>
-                  <Name>MouseReport.__unnamed13__.__unnamed15__</Name>
+                  <Name>MouseReport.__unnamed13__.__unnamed17__</Name>
                   <Path>de/ded/input_8h.html</Path>
-                  <Anchor>da/d31/structMouseReport_8____unnamed13_____8____unnamed15____</Anchor>
+                  <Anchor>de/d3a/structMouseReport_8____unnamed13_____8____unnamed17____</Anchor>
                   <Subnodes>
                    <Node>
                     <Name>Button4</Name>

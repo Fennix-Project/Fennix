@@ -86,7 +86,9 @@ $(document).ready(function(){initNavTree('dc/d6b/Kernel_2include__std_2assert_8h
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">assert.h File Reference</div>  </div>
 </div><!--header-->
@@ -101,6 +103,18 @@ Macros</h2></td></tr>
 <tr class="separator:af576bf8ffa22a44e53018c67095ffbf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95ff86cf1c81dcfa1136948e2bed6561"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#a95ff86cf1c81dcfa1136948e2bed6561">assert_allow_continue</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)</td></tr>
 <tr class="separator:a95ff86cf1c81dcfa1136948e2bed6561"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a1f48a5944feacf68c09d79c7dc5bcaee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#a1f48a5944feacf68c09d79c7dc5bcaee">__attribute__</a> ((<a class="el" href="../../d6/dd0/stdnoreturn_8h.html#a4a453f3a748e55cbdac6fcc79357cfef">noreturn</a>)) <a class="el" href="../../d4/d38/ui_8cpp.html#a8535f5c9a4e614a381459d0bcf245fe0">DisplayAssertionFailed</a>(const char *File</td></tr>
+<tr class="separator:a1f48a5944feacf68c09d79c7dc5bcaee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a2537ccf0428e822f2e2b4499172bc80b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#a2537ccf0428e822f2e2b4499172bc80b">Line</a></td></tr>
+<tr class="separator:a2537ccf0428e822f2e2b4499172bc80b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac970cdd478368df588fca373a6679e34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void int const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#ac970cdd478368df588fca373a6679e34">Expression</a></td></tr>
+<tr class="separator:ac970cdd478368df588fca373a6679e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="af576bf8ffa22a44e53018c67095ffbf0"></a>
@@ -118,19 +132,19 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span>                                           \</div>
-<div class="line">    {                                            \</div>
-<div class="line">        if (<a class="code" href="../../dd/d71/gettextP_8h.html#a2a2cf4a629132aed16f845d4d1bffd95">__builtin_expect</a>(!!(!(<a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)), 0))       \</div>
-<div class="line">        {                                        \</div>
-<div class="line">            error(<span class="stringliteral">&quot;Assertion failed! [%s]&quot;</span>, #<a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>); \</div>
-<div class="line">            int3;                                \</div>
-<div class="line">            __builtin_unreachable();             \</div>
-<div class="line">        }                                        \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span>                                                      \</div>
+<div class="line">    {                                                       \</div>
+<div class="line">        if (<a class="code" href="../../dd/d71/gettextP_8h.html#a2a2cf4a629132aed16f845d4d1bffd95">__builtin_expect</a>(!!(!(<a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)), 0))                  \</div>
+<div class="line">        {                                                   \</div>
+<div class="line">            error(<span class="stringliteral">&quot;Assertion failed! [%s]&quot;</span>, #<a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>);            \</div>
+<div class="line">            DisplayAssertionFailed(__FILE__, __LINE__, #<a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>); \</div>
+<div class="line">            __builtin_unreachable();                        \</div>
+<div class="line">        }                                                   \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
 <div class="ttc" id="agettextP_8h_html_a2a2cf4a629132aed16f845d4d1bffd95"><div class="ttname"><a href="../../dd/d71/gettextP_8h.html#a2a2cf4a629132aed16f845d4d1bffd95">__builtin_expect</a></div><div class="ttdeci">#define __builtin_expect(expr, val)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d71/gettextP_8h_source.html#l00060">gettextP.h:60</a></div></div>
 <div class="ttc" id="amusl_2src_2prng_2random_8c_html_aeb26462df30f47f6fd73ee802457812b"><div class="ttname"><a href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a></div><div class="ttdeci">static uint32_t * x</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da2/musl_2src_2prng_2random_8c_source.html#l00025">random.c:25</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html#l00023">23</a> of file <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html">assert.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html#l00026">26</a> of file <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html">assert.h</a>.</p>
 
 </div>
 </div>
@@ -157,7 +171,63 @@ Macros</h2></td></tr>
 <div class="line">        }                                        \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html#l00034">34</a> of file <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html">assert.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html#l00037">37</a> of file <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html">assert.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a1f48a5944feacf68c09d79c7dc5bcaee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f48a5944feacf68c09d79c7dc5bcaee">&#9670;&nbsp;</a></span>__attribute__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void <a class="el" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a> </td>
+          <td>(</td>
+          <td class="paramtype">(<a class="el" href="../../d6/dd0/stdnoreturn_8h.html#a4a453f3a748e55cbdac6fcc79357cfef">noreturn</a>)&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ac970cdd478368df588fca373a6679e34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac970cdd478368df588fca373a6679e34">&#9670;&nbsp;</a></span>Expression</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void int const char* Expression</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html#l00024">24</a> of file <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html">assert.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/d38/ui_8cpp_source.html#l00682">DisplayAssertionFailed()</a>.</p>
+
+</div>
+</div>
+<a id="a2537ccf0428e822f2e2b4499172bc80b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2537ccf0428e822f2e2b4499172bc80b">&#9670;&nbsp;</a></span>Line</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> void int Line</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html#l00023">23</a> of file <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html">assert.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/d38/ui_8cpp_source.html#l00682">DisplayAssertionFailed()</a>, <a class="el" href="../../d1/d6f/debugger_8cpp_source.html#l00148">SysDbg::LockedWrite()</a>, <a class="el" href="../../d1/d6f/debugger_8cpp_source.html#l00162">SysDbg::LockedWriteLine()</a>, <a class="el" href="../../d1/d6f/debugger_8cpp_source.html#l00208">SysDbgLockedWrite()</a>, <a class="el" href="../../d1/d6f/debugger_8cpp_source.html#l00223">SysDbgLockedWriteLine()</a>, <a class="el" href="../../d1/d6f/debugger_8cpp_source.html#l00179">SysDbgWrite()</a>, <a class="el" href="../../d1/d6f/debugger_8cpp_source.html#l00193">SysDbgWriteLine()</a>, <a class="el" href="../../d1/d6f/debugger_8cpp_source.html#l00121">SysDbg::Write()</a>, <a class="el" href="../../d1/d6f/debugger_8cpp_source.html#l00134">SysDbg::WriteLine()</a>, and <a class="el" href="../../d1/d6f/debugger_8cpp_source.html#l00074">WritePrefix()</a>.</p>
 
 </div>
 </div>

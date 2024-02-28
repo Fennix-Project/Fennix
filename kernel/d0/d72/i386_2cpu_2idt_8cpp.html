@@ -293,12 +293,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/da7/interrupts__manager_8cpp_source.html#l00040">40</a> of file <a class="el" href="../../da/da7/interrupts__manager_8cpp_source.html">interrupts_manager.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="../../d2/d57/namespaceCrashHandler.html#a202e013cac1a108322c79e592f3a5e0c">CrashHandler::Handle</a>(<a class="code" href="../../d8/d12/Xalloc_8hpp.html#a7aacb0e1bf77e9bd405d9409047baad7">Data</a>);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
-<div class="ttc" id="aXalloc_8hpp_html_a7aacb0e1bf77e9bd405d9409047baad7"><div class="ttname"><a href="../../d8/d12/Xalloc_8hpp.html#a7aacb0e1bf77e9bd405d9409047baad7">Data</a></div><div class="ttdeci">Xuint8_t * Data</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d12/Xalloc_8hpp_source.html#l00006">Xalloc.hpp:6</a></div></div>
-<div class="ttc" id="anamespaceCrashHandler_html_a202e013cac1a108322c79e592f3a5e0c"><div class="ttname"><a href="../../d2/d57/namespaceCrashHandler.html#a202e013cac1a108322c79e592f3a5e0c">CrashHandler::Handle</a></div><div class="ttdeci">SafeFunction void Handle(void *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d5f/crash__handler_8cpp_source.html#l01174">crash_handler.cpp:1174</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../da/da7/interrupts__manager_8cpp_source.html#l00041">41</a> of file <a class="el" href="../../da/da7/interrupts__manager_8cpp_source.html">interrupts_manager.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;{</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="../../da/da7/interrupts__manager_8cpp.html#a28bfad677f64ee12b6e7f512e6b65720">HandleException</a>((CPU::ExceptionFrame *)Frame);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div>
+<div class="ttc" id="ainterrupts__manager_8cpp_html_a28bfad677f64ee12b6e7f512e6b65720"><div class="ttname"><a href="../../da/da7/interrupts__manager_8cpp.html#a28bfad677f64ee12b6e7f512e6b65720">HandleException</a></div><div class="ttdeci">void HandleException(CPU::ExceptionFrame *Frame)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/def/handler_8cpp_source.html#l00225">handler.cpp:225</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>

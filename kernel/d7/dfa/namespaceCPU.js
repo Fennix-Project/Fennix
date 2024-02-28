@@ -1,10 +1,11 @@
 var namespaceCPU =
 [
+    [ "aarch64", "d8/dbc/namespaceCPU_1_1aarch64.html", "d8/dbc/namespaceCPU_1_1aarch64" ],
     [ "MemBar", "d0/db2/namespaceCPU_1_1MemBar.html", [
-      [ "Barrier", "d0/db2/namespaceCPU_1_1MemBar.html#a525cea82c83d47a0e91e0be29aca9585", null ],
-      [ "Fence", "d0/db2/namespaceCPU_1_1MemBar.html#a0c75bddb3523ac1a2ab3e6ef61d5c097", null ],
-      [ "LoadFence", "d0/db2/namespaceCPU_1_1MemBar.html#a5e90f3e94af6f163f40c479511b50c83", null ],
-      [ "StoreFence", "d0/db2/namespaceCPU_1_1MemBar.html#aae78a022088e75c42d8bb2431069ab87", null ]
+      [ "Barrier", "d0/db2/namespaceCPU_1_1MemBar.html#af9738a239df90f24d79edd855ad76831", null ],
+      [ "Fence", "d0/db2/namespaceCPU_1_1MemBar.html#a1bf0851d9ac89aba28a5f0c432ad723a", null ],
+      [ "LoadFence", "d0/db2/namespaceCPU_1_1MemBar.html#a825a2ced7e80f04a5659ab76da482ba3", null ],
+      [ "StoreFence", "d0/db2/namespaceCPU_1_1MemBar.html#abc482b8c27424a30e56e358ebe2372b5", null ]
     ] ],
     [ "x32", "de/d78/namespaceCPU_1_1x32.html", "de/d78/namespaceCPU_1_1x32" ],
     [ "x64", "d9/d25/namespaceCPU_1_1x64.html", "d9/d25/namespaceCPU_1_1x64" ],
@@ -50,12 +51,14 @@ var namespaceCPU =
     [ "CheckSIMD", "d7/dfa/namespaceCPU.html#a3d16e0a922dd9127759b9d447c983ffd", null ],
     [ "Counter", "d7/dfa/namespaceCPU.html#adfe4248cc88b3b6deebb92b8e074561a", null ],
     [ "GetCPUFeat", "d7/dfa/namespaceCPU.html#a7ff3f6fb9b8ad231333186213730d207", null ],
+    [ "Halt", "d7/dfa/namespaceCPU.html#a5a8c0cec9df180033ce7e710317eec3c", null ],
     [ "Hypervisor", "d7/dfa/namespaceCPU.html#a045407e047f73998e6a6f6c759c4edb6", null ],
     [ "InitializeFeatures", "d7/dfa/namespaceCPU.html#a468f1f9a421fc5b73355598e96a58d5c", null ],
-    [ "Interrupts", "d7/dfa/namespaceCPU.html#a1cc036b2143b4358a3857bbef3921968", null ],
+    [ "Interrupts", "d7/dfa/namespaceCPU.html#a0d106989c5e6c864175365b9ed51c960", null ],
     [ "Name", "d7/dfa/namespaceCPU.html#aa2666633b57974db680ea4f94c98f510", null ],
-    [ "PageTable", "d7/dfa/namespaceCPU.html#a24120d57f8ed5bafeeca4d7d9e74594e", null ],
-    [ "Pause", "d7/dfa/namespaceCPU.html#a000fcb89a8500e356b8a1efee0d389b6", null ],
+    [ "PageTable", "d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5", null ],
+    [ "Pause", "d7/dfa/namespaceCPU.html#a84a4fab0619f0ce21510172b1aab17ee", null ],
+    [ "Stop", "d7/dfa/namespaceCPU.html#a43d66aba1e2db1bbe0b9233304298f9e", null ],
     [ "Vendor", "d7/dfa/namespaceCPU.html#a5ec1ffd60694e9823ed2cb69ee1b37cd", null ],
     [ "SSEEnabled", "d7/dfa/namespaceCPU.html#a244fa33d0fa8ba7d4481cb5627cf2337", null ]
 ];

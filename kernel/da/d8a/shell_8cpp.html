@@ -139,15 +139,15 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d8a/shell_8cpp_source.html#l00388">388</a> of file <a class="el" href="../../da/d8a/shell_8cpp_source.html">shell.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;{</div>
-<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;    <a class="code" href="../../da/d8a/shell_8cpp.html#af9d5e140597037dddfd009372971c059">StartKernelShell</a>();</div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;    <a class="code" href="../../d6/de6/include_2types_8h.html#aa9230594915ed6dc218abef840f043b7">inf_loop</a>;</div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../da/d8a/shell_8cpp_source.html#l00389">389</a> of file <a class="el" href="../../da/d8a/shell_8cpp_source.html">shell.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;{</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;    <a class="code" href="../../da/d8a/shell_8cpp.html#af9d5e140597037dddfd009372971c059">StartKernelShell</a>();</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;    <a class="code" href="../../d6/de6/include_2types_8h.html#aa9230594915ed6dc218abef840f043b7">inf_loop</a>;</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;}</div>
 <div class="ttc" id="ainclude_2types_8h_html_aa9230594915ed6dc218abef840f043b7"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#aa9230594915ed6dc218abef840f043b7">inf_loop</a></div><div class="ttdeci">#define inf_loop</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00047">types.h:47</a></div></div>
-<div class="ttc" id="ashell_8cpp_html_af9d5e140597037dddfd009372971c059"><div class="ttname"><a href="../../da/d8a/shell_8cpp.html#af9d5e140597037dddfd009372971c059">StartKernelShell</a></div><div class="ttdeci">void StartKernelShell()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d8a/shell_8cpp_source.html#l00082">shell.cpp:82</a></div></div>
+<div class="ttc" id="ashell_8cpp_html_af9d5e140597037dddfd009372971c059"><div class="ttname"><a href="../../da/d8a/shell_8cpp.html#af9d5e140597037dddfd009372971c059">StartKernelShell</a></div><div class="ttdeci">void StartKernelShell()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d8a/shell_8cpp_source.html#l00083">shell.cpp:83</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00047">inf_loop</a>, and <a class="el" href="../../da/d8a/shell_8cpp_source.html#l00082">StartKernelShell()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00047">inf_loop</a>, and <a class="el" href="../../da/d8a/shell_8cpp_source.html#l00083">StartKernelShell()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d4/d70/kernel__thread_8cpp_source.html#l00064">KernelMainThread()</a>.</p>
 
@@ -186,313 +186,313 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d8a/shell_8cpp_source.html#l00082">82</a> of file <a class="el" href="../../da/d8a/shell_8cpp_source.html">shell.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;{</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">if</span> (ShellLock.Locked())</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    SmartLock(ShellLock);</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Starting kernel shell...&quot;</span>);</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <a class="code" href="../../dd/d24/kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a>(<span class="stringliteral">&quot;Starting kernel shell...&quot;</span>);</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <a class="code" href="../../d8/da1/task_8hpp.html#a1cf492bc489f4879fe6f67325e8f8dc7">thisThread</a>-&gt;SetPriority(<a class="code" href="../../d9/d3e/namespaceTasking.html#a6e7b9a12601b9ef62ca79d6b801c29c8abc37da077a4c3351142e364e7ab2b2ca">Tasking::TaskPriority::High</a>);</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    std::string Buffer;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    std::vector&lt;std::string *&gt; History;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordtype">size_t</span> HistoryIndex = 0;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordtype">bool</span> CtrlDown = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordtype">bool</span> UpperCase = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">bool</span> TabDoublePress = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordtype">int</span> kfd = <a class="code" href="../../d1/d85/filesystem_8hpp.html#ae2ec3b9037ed12c33f4f7327099f615c">fopen</a>(<span class="stringliteral">&quot;/dev/key&quot;</span>, <span class="stringliteral">&quot;r&quot;</span>);</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordflow">if</span> (kfd &lt; 0)</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    {</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <a class="code" href="../../dd/d24/kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a>(<span class="stringliteral">&quot;Failed to open keyboard device! %s&quot;</span>,</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;               <a class="code" href="../../d8/dc2/errno_8h.html#aa543636846d2125989b108e2f62b4731">strerror</a>(kfd));</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    }</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <a class="code" href="../../d2/dc3/liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;Using \eCA21F6/dev/key\eCCCCCC for keyboard input.\n&quot;</span>);</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordflow">while</span> (<span class="keyword">true</span>)</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    {</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keywordtype">size_t</span> BackspaceCount = 0;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        Buffer.clear();</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <a class="code" href="../../df/d69/classvfs_1_1Node.html">vfs::Node</a> *cwd = <a class="code" href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a>-&gt;CurrentWorkingDirectory;</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="keywordflow">if</span> (!cwd)</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            cwd = <a class="code" href="../../da/dce/kernel__vfs_8cpp.html#a277679a5638e76b6fd08abe5deee2022">fs</a>-&gt;<a class="code" href="../../d8/d64/classvfs_1_1Virtual.html#acd2f13e6b8ada2d15edfe097501313b1">GetNodeFromPath</a>(<span class="stringliteral">&quot;/&quot;</span>);</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160; </div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <a class="code" href="../../d2/dc3/liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;\e34C6EB%s@%s:%s$ \eCCCCCC&quot;</span>,</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;               <span class="stringliteral">&quot;kernel&quot;</span>,</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;               <span class="stringliteral">&quot;fennix&quot;</span>,</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;               cwd-&gt;<a class="code" href="../../df/d69/classvfs_1_1Node.html#a6c6b426715cf1d724c9e99b7cbd10b8b">FullPath</a>);</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a776c5cf7a196100de3050c86c7510656">SetBuffer</a>(0);</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160; </div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <a class="code" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> scBuf[2];</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        scBuf[1] = 0x00; <span class="comment">/* Request scan code */</span></div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <a class="code" href="../../d6/de6/include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a> nBytes;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <span class="keywordflow">while</span> (<span class="keyword">true</span>)</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        {</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;            nBytes = <a class="code" href="../../d1/d85/filesystem_8hpp.html#a59e6d0024b412f266839f22638916254">fread</a>(kfd, scBuf, 2);</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;            <span class="keywordflow">if</span> (nBytes == 0)</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;            <span class="keywordflow">if</span> (nBytes &lt; 0)</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            {</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                <a class="code" href="../../dd/d24/kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a>(<span class="stringliteral">&quot;Failed to read from keyboard device: %s&quot;</span>,</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                       <a class="code" href="../../d8/dc2/errno_8h.html#aa543636846d2125989b108e2f62b4731">strerror</a>((<span class="keywordtype">int</span>)nBytes));</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;            }</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160; </div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;            <span class="keywordflow">if</span> (scBuf[0] == 0x00)</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160; </div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;            <a class="code" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> sc = scBuf[0];</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;            <span class="keywordflow">switch</span> (sc &amp; ~<a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35ac2439afec39a5b43a1fd36a4316379a7">KEY_PRESSED</a>)</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;            {</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35ad5355d7d2d2582960da81aefe8cd941d">KEY_LEFT_CTRL</a>:</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35aeb9ff466eebcae7089b92b717e4fad58">KEY_RIGHT_CTRL</a>:</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            {</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                <span class="keywordflow">if</span> (sc &amp; <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35ac2439afec39a5b43a1fd36a4316379a7">KEY_PRESSED</a>)</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;                    CtrlDown = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                    CtrlDown = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            }</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35a5d5eb3601a49913c3ab0f9bcbdc5918a">KEY_LEFT_SHIFT</a>:</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35a125ed6244c499a097a3e1cb111c8fa9c">KEY_RIGHT_SHIFT</a>:</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;            {</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;                <span class="keywordflow">if</span> (sc &amp; <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35ac2439afec39a5b43a1fd36a4316379a7">KEY_PRESSED</a>)</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                    UpperCase = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;                    UpperCase = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;            }</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35aa3cd0158e01f834cebcfb3fc5578df4b">KEY_BACKSPACE</a>:</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;            {</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;                <span class="keywordflow">if</span> (!(sc &amp; <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35ac2439afec39a5b43a1fd36a4316379a7">KEY_PRESSED</a>))</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160; </div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;                <span class="keywordflow">if</span> (BackspaceCount == 0)</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160; </div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;                <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#ab05a86198845ef9aefa590cea4166a82">Print</a>(<span class="charliteral">&#39;\b&#39;</span>, 0);</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                Buffer.pop_back();</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;                BackspaceCount--;</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;                <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a776c5cf7a196100de3050c86c7510656">SetBuffer</a>(0);</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;            }</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35aa35707694e2bab78d36903af6198e6f5">KEY_UP_ARROW</a>:</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;            {</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                <span class="keywordflow">if</span> (!(sc &amp; <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35ac2439afec39a5b43a1fd36a4316379a7">KEY_PRESSED</a>))</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160; </div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;                <span class="keywordflow">if</span> (History.size() == 0 ||</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;                    HistoryIndex == 0)</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160; </div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                HistoryIndex--;</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160; </div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; Buffer.size(); i++)</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#ab05a86198845ef9aefa590cea4166a82">Print</a>(<span class="charliteral">&#39;\b&#39;</span>, 0);</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a776c5cf7a196100de3050c86c7510656">SetBuffer</a>(0);</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160; </div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                Buffer = History[HistoryIndex]-&gt;c_str();</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160; </div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; <a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(Buffer.c_str()); i++)</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#ab05a86198845ef9aefa590cea4166a82">Print</a>(Buffer[i], 0);</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;                BackspaceCount = Buffer.size();</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;                <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a776c5cf7a196100de3050c86c7510656">SetBuffer</a>(0);</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;            }</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35a682c2546c34dea8d730992bc1616fca9">KEY_DOWN_ARROW</a>:</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;            {</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;                <span class="keywordflow">if</span> (!(sc &amp; <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35ac2439afec39a5b43a1fd36a4316379a7">KEY_PRESSED</a>))</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160; </div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                <span class="keywordflow">if</span> (History.size() == 0 ||</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;                    HistoryIndex == History.size())</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160; </div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;                <span class="keywordflow">if</span> (HistoryIndex == History.size() - 1)</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;                {</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;                    HistoryIndex++;</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; Buffer.size(); i++)</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;                        <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#ab05a86198845ef9aefa590cea4166a82">Print</a>(<span class="charliteral">&#39;\b&#39;</span>, 0);</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;                    BackspaceCount = Buffer.size();</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a776c5cf7a196100de3050c86c7510656">SetBuffer</a>(0);</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;                }</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160; </div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; Buffer.size(); i++)</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#ab05a86198845ef9aefa590cea4166a82">Print</a>(<span class="charliteral">&#39;\b&#39;</span>, 0);</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a776c5cf7a196100de3050c86c7510656">SetBuffer</a>(0);</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160; </div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                HistoryIndex++;</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                Buffer = History[HistoryIndex]-&gt;c_str();</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160; </div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; <a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(Buffer.c_str()); i++)</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#ab05a86198845ef9aefa590cea4166a82">Print</a>(Buffer[i], 0);</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160; </div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                BackspaceCount = Buffer.size();</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a776c5cf7a196100de3050c86c7510656">SetBuffer</a>(0);</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            }</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35a60c75f9c8eded88ef76c0c94da27963c">KEY_TAB</a>:</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;            {</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                <span class="keywordflow">if</span> (!(sc &amp; <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35ac2439afec39a5b43a1fd36a4316379a7">KEY_PRESSED</a>))</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160; </div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                <span class="keywordflow">if</span> (!TabDoublePress)</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                {</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                    TabDoublePress = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;                }</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                TabDoublePress = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                <span class="keywordflow">if</span> (Buffer.size() == 0)</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                {</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;                    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; <span class="keyword">sizeof</span>(<a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>) / <span class="keyword">sizeof</span>(<a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>[0]); i++)</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;                        <a class="code" href="../../d2/dc3/liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;%s &quot;</span>, <a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>[i].<a class="code" href="../../d7/dfa/namespaceCPU.html#aa2666633b57974db680ea4f94c98f510">Name</a>);</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160; </div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#ab05a86198845ef9aefa590cea4166a82">Print</a>(<span class="charliteral">&#39;\n&#39;</span>, 0);</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a776c5cf7a196100de3050c86c7510656">SetBuffer</a>(0);</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;                    <span class="keywordflow">goto</span> SecLoopEnd;</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;                }</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160; </div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; Buffer.size(); i++)</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#ab05a86198845ef9aefa590cea4166a82">Print</a>(<span class="charliteral">&#39;\b&#39;</span>, 0);</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;                <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a776c5cf7a196100de3050c86c7510656">SetBuffer</a>(0);</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160; </div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; <span class="keyword">sizeof</span>(<a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>) / <span class="keyword">sizeof</span>(<a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>[0]); i++)</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;                {</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;                    <span class="keywordflow">if</span> (<a class="code" href="../../d3/d82/convert_8h.html#a9afae77e412a26e6c01e26b89d5c2b47">strncmp</a>(Buffer.c_str(), <a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>[i].<a class="code" href="../../df/d2d/structCommand.html#a76aaaf3ea7322a2ac57e037f1c8bb00e">Name</a>, Buffer.size()) == 0)</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;                    {</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;                        Buffer = <a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>[i].<a class="code" href="../../df/d2d/structCommand.html#a76aaaf3ea7322a2ac57e037f1c8bb00e">Name</a>;</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; <a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(Buffer.c_str()); i++)</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;                            <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#ab05a86198845ef9aefa590cea4166a82">Print</a>(Buffer[i], 0);</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;                        BackspaceCount = Buffer.size();</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;                        <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a776c5cf7a196100de3050c86c7510656">SetBuffer</a>(0);</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;                    }</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;                }</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;            }</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;            <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;            }</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160; </div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;            <span class="keywordflow">if</span> (!(sc &amp; <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35ac2439afec39a5b43a1fd36a4316379a7">KEY_PRESSED</a>))</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160; </div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;            <span class="keywordflow">if</span> (!<a class="code" href="../../d1/d48/namespaceDriver.html#aa15c158a46238ef96d949982b0184368">Driver::IsValidChar</a>(sc))</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160; </div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            <span class="keywordtype">char</span> c = <a class="code" href="../../d1/d48/namespaceDriver.html#a9fab207aeeb0a63bebbeb8dbbccef3c7">Driver::GetScanCode</a>(sc, UpperCase);</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160; </div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;            <span class="keywordflow">if</span> (CtrlDown)</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;            {</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;                <span class="keywordflow">switch</span> (<a class="code" href="../../d8/dcc/namespacestd.html#a032f3c464805eef3f21e60c95058a9e1">std::toupper</a>((<span class="keywordtype">char</span>)c))</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;                {</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;                <span class="keywordflow">case</span> <span class="charliteral">&#39;C&#39;</span>:</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                {</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#ab05a86198845ef9aefa590cea4166a82">Print</a>(<span class="charliteral">&#39;^&#39;</span>, 0);</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#ab05a86198845ef9aefa590cea4166a82">Print</a>(<span class="charliteral">&#39;C&#39;</span>, 0);</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#ab05a86198845ef9aefa590cea4166a82">Print</a>(<span class="charliteral">&#39;\n&#39;</span>, 0);</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;                    <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;No SIGINT handler yet.&quot;</span>);</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a776c5cf7a196100de3050c86c7510656">SetBuffer</a>(0);</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                    <span class="keywordflow">goto</span> SecLoopEnd;</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;                }</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;                <span class="keywordflow">case</span> <span class="charliteral">&#39;D&#39;</span>:</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                {</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#ab05a86198845ef9aefa590cea4166a82">Print</a>(<span class="charliteral">&#39;^&#39;</span>, 0);</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#ab05a86198845ef9aefa590cea4166a82">Print</a>(<span class="charliteral">&#39;D&#39;</span>, 0);</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#ab05a86198845ef9aefa590cea4166a82">Print</a>(<span class="charliteral">&#39;\n&#39;</span>, 0);</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;                    <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;No SIGKILL handler yet.&quot;</span>);</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a776c5cf7a196100de3050c86c7510656">SetBuffer</a>(0);</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                    <span class="keywordflow">goto</span> SecLoopEnd;</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                }</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                }</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;            }</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160; </div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;            <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#ab05a86198845ef9aefa590cea4166a82">Print</a>(c, 0);</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;            <span class="keywordflow">if</span> (c == <span class="charliteral">&#39;\n&#39;</span>)</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;            {</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;                <span class="keywordflow">if</span> (Buffer.length() &gt; 0)</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;                {</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;                    std::string *hBuff = <span class="keyword">new</span> std::string(Buffer.c_str());</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;                    History.push_back(hBuff);</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;                    HistoryIndex = History.size();</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;                }</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;            }</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160; </div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;            Buffer += c;</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;            BackspaceCount++;</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;            <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a776c5cf7a196100de3050c86c7510656">SetBuffer</a>(0);</div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        }</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    SecLoopEnd:</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160; </div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        <span class="keywordflow">if</span> (Buffer.length() == 0)</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;            <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160; </div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;        <span class="keywordtype">bool</span> Found = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; <span class="keyword">sizeof</span>(<a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>) / <span class="keyword">sizeof</span>(<a class="code" href="../../df/d2d/structCommand.html">Command</a>); i++)</div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        {</div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;            std::string cmd_extracted;</div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; Buffer.length(); i++)</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;            {</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;                <span class="keywordflow">if</span> (Buffer[i] == <span class="charliteral">&#39; &#39;</span>)</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;                    <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;                cmd_extracted += Buffer[i];</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;            }</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160; </div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;            <span class="comment">// debug(&quot;cmd: %s, array[%d]: %s&quot;, cmd_extracted.c_str(), i, commands[i].Name);</span></div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d3/d82/convert_8h.html#a9afae77e412a26e6c01e26b89d5c2b47">strncmp</a>(<a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>[i].<a class="code" href="../../d7/dfa/namespaceCPU.html#aa2666633b57974db680ea4f94c98f510">Name</a>, cmd_extracted.c_str(), cmd_extracted.size()) == 0)</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;            {</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(<a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>[i].<a class="code" href="../../d7/dfa/namespaceCPU.html#aa2666633b57974db680ea4f94c98f510">Name</a>) != cmd_extracted.size())</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160; </div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;                Found = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160; </div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;                std::string arg_only;</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;                <span class="keyword">const</span> <span class="keywordtype">char</span> *cmd_name = <a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>[i].<a class="code" href="../../df/d2d/structCommand.html#a76aaaf3ea7322a2ac57e037f1c8bb00e">Name</a>;</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = <a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(cmd_name) + 1; i &lt; Buffer.length(); i++)</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;                    arg_only += Buffer[i];</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160; </div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>[i].Function)</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;                    <a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>[i].<a class="code" href="../../df/d2d/structCommand.html#a745920f54baa841ca954c2eef591a6ae">Function</a>(arg_only.c_str());</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;                {</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;                    std::string cmd_only;</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;                    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; Buffer.length(); i++)</div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;                    {</div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;                        <span class="keywordflow">if</span> (Buffer[i] == <span class="charliteral">&#39; &#39;</span>)</div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;                            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;                        cmd_only += Buffer[i];</div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;                    }</div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;                    <a class="code" href="../../d2/dc3/liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;%s: command not implemented\n&quot;</span>,</div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;                           cmd_only.c_str());</div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;                }</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;            }</div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;        }</div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160; </div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;        <span class="keywordflow">if</span> (!Found)</div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;        {</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;            std::string cmd_only;</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; Buffer.length(); i++)</div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;            {</div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;                <span class="keywordflow">if</span> (Buffer[i] == <span class="charliteral">&#39; &#39;</span>)</div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;                    <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;                cmd_only += Buffer[i];</div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;            }</div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;            <a class="code" href="../../d2/dc3/liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;%s: command not found\n&quot;</span>,</div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;                   cmd_only.c_str());</div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;        }</div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;    }</div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;}</div>
-<div class="ttc" id="aclassVideo_1_1Display_html_a776c5cf7a196100de3050c86c7510656"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#a776c5cf7a196100de3050c86c7510656">Video::Display::SetBuffer</a></div><div class="ttdeci">void SetBuffer(int Index)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d86/display_8cpp_source.html#l00067">display.cpp:67</a></div></div>
-<div class="ttc" id="aclassVideo_1_1Display_html_ab05a86198845ef9aefa590cea4166a82"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#ab05a86198845ef9aefa590cea4166a82">Video::Display::Print</a></div><div class="ttdeci">char Print(char Char, int Index, bool WriteToUART=false)</div></div>
+<p class="definition">Definition at line <a class="el" href="../../da/d8a/shell_8cpp_source.html#l00083">83</a> of file <a class="el" href="../../da/d8a/shell_8cpp_source.html">shell.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;{</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">if</span> (ShellLock.Locked())</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    SmartLock(ShellLock);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Starting kernel shell...&quot;</span>);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <a class="code" href="../../dd/d24/kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a>(<span class="stringliteral">&quot;Starting kernel shell...&quot;</span>);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <a class="code" href="../../d8/da1/task_8hpp.html#a1cf492bc489f4879fe6f67325e8f8dc7">thisThread</a>-&gt;SetPriority(<a class="code" href="../../d9/d3e/namespaceTasking.html#a6e7b9a12601b9ef62ca79d6b801c29c8abc37da077a4c3351142e364e7ab2b2ca">Tasking::TaskPriority::High</a>);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    std::string strBuf;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    std::vector&lt;std::string *&gt; history;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordtype">size_t</span> hIdx = 0;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordtype">bool</span> ctrlDown = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">bool</span> upperCase = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordtype">bool</span> tabDblPress = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordtype">int</span> kfd = <a class="code" href="../../d1/d85/filesystem_8hpp.html#ae2ec3b9037ed12c33f4f7327099f615c">fopen</a>(<span class="stringliteral">&quot;/dev/key&quot;</span>, <span class="stringliteral">&quot;r&quot;</span>);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordflow">if</span> (kfd &lt; 0)</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    {</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <a class="code" href="../../dd/d24/kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a>(<span class="stringliteral">&quot;Failed to open keyboard device! %s&quot;</span>,</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;               <a class="code" href="../../d8/dc2/errno_8h.html#aa543636846d2125989b108e2f62b4731">strerror</a>(kfd));</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <a class="code" href="../../d2/dc3/liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;Using \eCA21F6/dev/key\eCCCCCC for keyboard input.\n&quot;</span>);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordflow">while</span> (<span class="keyword">true</span>)</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    {</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        <span class="keywordtype">size_t</span> bsCount = 0;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        strBuf.clear();</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160; </div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <a class="code" href="../../df/d69/classvfs_1_1Node.html">vfs::Node</a> *cwd = <a class="code" href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a>-&gt;CurrentWorkingDirectory;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <span class="keywordflow">if</span> (!cwd)</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            cwd = <a class="code" href="../../da/dce/kernel__vfs_8cpp.html#a277679a5638e76b6fd08abe5deee2022">fs</a>-&gt;<a class="code" href="../../d8/d64/classvfs_1_1Virtual.html#acd2f13e6b8ada2d15edfe097501313b1">GetNodeFromPath</a>(<span class="stringliteral">&quot;/&quot;</span>);</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160; </div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <a class="code" href="../../d2/dc3/liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;\e34C6EB%s@%s:%s$ \eCCCCCC&quot;</span>,</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;               <span class="stringliteral">&quot;kernel&quot;</span>,</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;               <span class="stringliteral">&quot;fennix&quot;</span>,</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;               cwd-&gt;<a class="code" href="../../df/d69/classvfs_1_1Node.html#a6c6b426715cf1d724c9e99b7cbd10b8b">FullPath</a>);</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a46fb68a788300fb307186327ff781835">UpdateBuffer</a>();</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160; </div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <a class="code" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> scBuf[2];</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        scBuf[1] = 0x00; <span class="comment">/* Request scan code */</span></div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <a class="code" href="../../d6/de6/include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a> nBytes;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <span class="keywordflow">while</span> (<span class="keyword">true</span>)</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        {</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;            nBytes = <a class="code" href="../../d1/d85/filesystem_8hpp.html#a59e6d0024b412f266839f22638916254">fread</a>(kfd, scBuf, 2);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            <span class="keywordflow">if</span> (nBytes == 0)</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            <span class="keywordflow">if</span> (nBytes &lt; 0)</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;            {</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                <a class="code" href="../../dd/d24/kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a>(<span class="stringliteral">&quot;Failed to read from keyboard device: %s&quot;</span>,</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                       <a class="code" href="../../d8/dc2/errno_8h.html#aa543636846d2125989b108e2f62b4731">strerror</a>((<span class="keywordtype">int</span>)nBytes));</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;            }</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160; </div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;            <span class="keywordflow">if</span> (scBuf[0] == 0x00)</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160; </div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;            <a class="code" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> sc = scBuf[0];</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;            <span class="keywordflow">switch</span> (sc &amp; ~<a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35ac2439afec39a5b43a1fd36a4316379a7">KEY_PRESSED</a>)</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;            {</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35ad5355d7d2d2582960da81aefe8cd941d">KEY_LEFT_CTRL</a>:</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35aeb9ff466eebcae7089b92b717e4fad58">KEY_RIGHT_CTRL</a>:</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            {</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;                <span class="keywordflow">if</span> (sc &amp; <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35ac2439afec39a5b43a1fd36a4316379a7">KEY_PRESSED</a>)</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;                    ctrlDown = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;                    ctrlDown = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            }</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35a5d5eb3601a49913c3ab0f9bcbdc5918a">KEY_LEFT_SHIFT</a>:</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35a125ed6244c499a097a3e1cb111c8fa9c">KEY_RIGHT_SHIFT</a>:</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;            {</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                <span class="keywordflow">if</span> (sc &amp; <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35ac2439afec39a5b43a1fd36a4316379a7">KEY_PRESSED</a>)</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;                    upperCase = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;                    upperCase = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            }</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35aa3cd0158e01f834cebcfb3fc5578df4b">KEY_BACKSPACE</a>:</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;            {</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                <span class="keywordflow">if</span> (!(sc &amp; <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35ac2439afec39a5b43a1fd36a4316379a7">KEY_PRESSED</a>))</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160; </div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                <span class="keywordflow">if</span> (bsCount == 0)</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160; </div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a81e8cd47ad4fea46c0f09d52861c6f92">Print</a>(<span class="charliteral">&#39;\b&#39;</span>);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;                strBuf.pop_back();</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;                bsCount--;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a46fb68a788300fb307186327ff781835">UpdateBuffer</a>();</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;            }</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35aa35707694e2bab78d36903af6198e6f5">KEY_UP_ARROW</a>:</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;            {</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                <span class="keywordflow">if</span> (!(sc &amp; <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35ac2439afec39a5b43a1fd36a4316379a7">KEY_PRESSED</a>))</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160; </div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;                <span class="keywordflow">if</span> (history.size() == 0 ||</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;                    hIdx == 0)</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160; </div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                hIdx--;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160; </div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; strBuf.size(); i++)</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a81e8cd47ad4fea46c0f09d52861c6f92">Print</a>(<span class="charliteral">&#39;\b&#39;</span>);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a46fb68a788300fb307186327ff781835">UpdateBuffer</a>();</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160; </div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;                strBuf = history[hIdx]-&gt;c_str();</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160; </div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; <a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(strBuf.c_str()); i++)</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a81e8cd47ad4fea46c0f09d52861c6f92">Print</a>(strBuf[i]);</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;                bsCount = strBuf.size();</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;                <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a46fb68a788300fb307186327ff781835">UpdateBuffer</a>();</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;            }</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35a682c2546c34dea8d730992bc1616fca9">KEY_DOWN_ARROW</a>:</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            {</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;                <span class="keywordflow">if</span> (!(sc &amp; <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35ac2439afec39a5b43a1fd36a4316379a7">KEY_PRESSED</a>))</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160; </div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;                <span class="keywordflow">if</span> (history.size() == 0 ||</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                    hIdx == history.size())</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160; </div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;                <span class="keywordflow">if</span> (hIdx == history.size() - 1)</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;                {</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                    hIdx++;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;                    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; strBuf.size(); i++)</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;                        <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a81e8cd47ad4fea46c0f09d52861c6f92">Print</a>(<span class="charliteral">&#39;\b&#39;</span>);</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;                    bsCount = strBuf.size();</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a46fb68a788300fb307186327ff781835">UpdateBuffer</a>();</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                }</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160; </div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; strBuf.size(); i++)</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a81e8cd47ad4fea46c0f09d52861c6f92">Print</a>(<span class="charliteral">&#39;\b&#39;</span>);</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;                <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a46fb68a788300fb307186327ff781835">UpdateBuffer</a>();</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160; </div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                hIdx++;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                strBuf = history[hIdx]-&gt;c_str();</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160; </div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; <a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(strBuf.c_str()); i++)</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a81e8cd47ad4fea46c0f09d52861c6f92">Print</a>(strBuf[i]);</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160; </div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                bsCount = strBuf.size();</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a46fb68a788300fb307186327ff781835">UpdateBuffer</a>();</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            }</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35a60c75f9c8eded88ef76c0c94da27963c">KEY_TAB</a>:</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;            {</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                <span class="keywordflow">if</span> (!(sc &amp; <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35ac2439afec39a5b43a1fd36a4316379a7">KEY_PRESSED</a>))</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160; </div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                <span class="keywordflow">if</span> (!tabDblPress)</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                {</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                    tabDblPress = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                }</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                tabDblPress = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                <span class="keywordflow">if</span> (strBuf.size() == 0)</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;                {</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;                    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; <span class="keyword">sizeof</span>(<a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>) / <span class="keyword">sizeof</span>(<a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>[0]); i++)</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;                        <a class="code" href="../../d2/dc3/liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;%s &quot;</span>, <a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>[i].<a class="code" href="../../d7/dfa/namespaceCPU.html#aa2666633b57974db680ea4f94c98f510">Name</a>);</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160; </div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a81e8cd47ad4fea46c0f09d52861c6f92">Print</a>(<span class="charliteral">&#39;\n&#39;</span>);</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a46fb68a788300fb307186327ff781835">UpdateBuffer</a>();</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;                    <span class="keywordflow">goto</span> SecLoopEnd;</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;                }</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160; </div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; strBuf.size(); i++)</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a81e8cd47ad4fea46c0f09d52861c6f92">Print</a>(<span class="charliteral">&#39;\b&#39;</span>);</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a46fb68a788300fb307186327ff781835">UpdateBuffer</a>();</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160; </div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; <span class="keyword">sizeof</span>(<a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>) / <span class="keyword">sizeof</span>(<a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>[0]); i++)</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;                {</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;                    <span class="keywordflow">if</span> (<a class="code" href="../../d3/d82/convert_8h.html#a9afae77e412a26e6c01e26b89d5c2b47">strncmp</a>(strBuf.c_str(), <a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>[i].<a class="code" href="../../df/d2d/structCommand.html#a76aaaf3ea7322a2ac57e037f1c8bb00e">Name</a>, strBuf.size()) == 0)</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;                    {</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                        strBuf = <a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>[i].<a class="code" href="../../df/d2d/structCommand.html#a76aaaf3ea7322a2ac57e037f1c8bb00e">Name</a>;</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;                        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; <a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(strBuf.c_str()); i++)</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;                            <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a81e8cd47ad4fea46c0f09d52861c6f92">Print</a>(strBuf[i]);</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;                        bsCount = strBuf.size();</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                        <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a46fb68a788300fb307186327ff781835">UpdateBuffer</a>();</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;                        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;                    }</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                }</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;            }</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;            <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;            }</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160; </div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;            <span class="keywordflow">if</span> (!(sc &amp; <a class="code" href="../../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35ac2439afec39a5b43a1fd36a4316379a7">KEY_PRESSED</a>))</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160; </div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;            <span class="keywordflow">if</span> (!<a class="code" href="../../d1/d48/namespaceDriver.html#aa15c158a46238ef96d949982b0184368">Driver::IsValidChar</a>(sc))</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160; </div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;            <span class="keywordtype">char</span> c = <a class="code" href="../../d1/d48/namespaceDriver.html#a9fab207aeeb0a63bebbeb8dbbccef3c7">Driver::GetScanCode</a>(sc, upperCase);</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160; </div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;            <span class="keywordflow">if</span> (ctrlDown)</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;            {</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;                <span class="keywordflow">switch</span> (<a class="code" href="../../d8/dcc/namespacestd.html#a032f3c464805eef3f21e60c95058a9e1">std::toupper</a>((<span class="keywordtype">char</span>)c))</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;                {</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                <span class="keywordflow">case</span> <span class="charliteral">&#39;C&#39;</span>:</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;                {</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a81e8cd47ad4fea46c0f09d52861c6f92">Print</a>(<span class="charliteral">&#39;^&#39;</span>);</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a81e8cd47ad4fea46c0f09d52861c6f92">Print</a>(<span class="charliteral">&#39;C&#39;</span>);</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a81e8cd47ad4fea46c0f09d52861c6f92">Print</a>(<span class="charliteral">&#39;\n&#39;</span>);</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;                    <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;No SIGINT handler yet.&quot;</span>);</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a46fb68a788300fb307186327ff781835">UpdateBuffer</a>();</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;                    <span class="keywordflow">goto</span> SecLoopEnd;</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;                }</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                <span class="keywordflow">case</span> <span class="charliteral">&#39;D&#39;</span>:</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;                {</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a81e8cd47ad4fea46c0f09d52861c6f92">Print</a>(<span class="charliteral">&#39;^&#39;</span>);</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a81e8cd47ad4fea46c0f09d52861c6f92">Print</a>(<span class="charliteral">&#39;D&#39;</span>);</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a81e8cd47ad4fea46c0f09d52861c6f92">Print</a>(<span class="charliteral">&#39;\n&#39;</span>);</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;                    <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;No SIGKILL handler yet.&quot;</span>);</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a46fb68a788300fb307186327ff781835">UpdateBuffer</a>();</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                    <span class="keywordflow">goto</span> SecLoopEnd;</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                }</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;                }</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;            }</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160; </div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;            <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a81e8cd47ad4fea46c0f09d52861c6f92">Print</a>(c);</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;            <span class="keywordflow">if</span> (c == <span class="charliteral">&#39;\n&#39;</span>)</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;            {</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;                <span class="keywordflow">if</span> (strBuf.length() &gt; 0)</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;                {</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;                    std::string *hBuff = <span class="keyword">new</span> std::string(strBuf.c_str());</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;                    history.push_back(hBuff);</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;                    hIdx = history.size();</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;                }</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;            }</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160; </div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;            strBuf += c;</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;            bsCount++;</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;            <a class="code" href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a>-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a46fb68a788300fb307186327ff781835">UpdateBuffer</a>();</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;        }</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;    SecLoopEnd:</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160; </div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;        <span class="keywordflow">if</span> (strBuf.length() == 0)</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160; </div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        <span class="keywordtype">bool</span> Found = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; <span class="keyword">sizeof</span>(<a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>) / <span class="keyword">sizeof</span>(<a class="code" href="../../df/d2d/structCommand.html">Command</a>); i++)</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        {</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;            std::string cmd_extracted;</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; strBuf.length(); i++)</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;            {</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;                <span class="keywordflow">if</span> (strBuf[i] == <span class="charliteral">&#39; &#39;</span>)</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;                cmd_extracted += strBuf[i];</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;            }</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160; </div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;            <span class="comment">// debug(&quot;cmd: %s, array[%d]: %s&quot;, cmd_extracted.c_str(), i, commands[i].Name);</span></div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d3/d82/convert_8h.html#a9afae77e412a26e6c01e26b89d5c2b47">strncmp</a>(<a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>[i].<a class="code" href="../../d7/dfa/namespaceCPU.html#aa2666633b57974db680ea4f94c98f510">Name</a>, cmd_extracted.c_str(), cmd_extracted.size()) == 0)</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;            {</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(<a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>[i].<a class="code" href="../../d7/dfa/namespaceCPU.html#aa2666633b57974db680ea4f94c98f510">Name</a>) != cmd_extracted.size())</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160; </div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;                Found = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160; </div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;                std::string arg_only;</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;                <span class="keyword">const</span> <span class="keywordtype">char</span> *cmd_name = <a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>[i].<a class="code" href="../../df/d2d/structCommand.html#a76aaaf3ea7322a2ac57e037f1c8bb00e">Name</a>;</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = <a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(cmd_name) + 1; i &lt; strBuf.length(); i++)</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;                    arg_only += strBuf[i];</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160; </div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>[i].Function)</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;                    <a class="code" href="../../da/d8a/shell_8cpp.html#a0e78d30041c35b9a6a020d95aa6d6089">commands</a>[i].<a class="code" href="../../df/d2d/structCommand.html#a745920f54baa841ca954c2eef591a6ae">Function</a>(arg_only.c_str());</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;                {</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;                    std::string cmd_only;</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;                    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; strBuf.length(); i++)</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;                    {</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;                        <span class="keywordflow">if</span> (strBuf[i] == <span class="charliteral">&#39; &#39;</span>)</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;                            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;                        cmd_only += strBuf[i];</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;                    }</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;                    <a class="code" href="../../d2/dc3/liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;%s: command not implemented\n&quot;</span>,</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;                           cmd_only.c_str());</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;                }</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;            }</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;        }</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160; </div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;        <span class="keywordflow">if</span> (!Found)</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;        {</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;            std::string cmd_only;</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; strBuf.length(); i++)</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;            {</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;                <span class="keywordflow">if</span> (strBuf[i] == <span class="charliteral">&#39; &#39;</span>)</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;                cmd_only += strBuf[i];</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;            }</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;            <a class="code" href="../../d2/dc3/liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;%s: command not found\n&quot;</span>,</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;                   cmd_only.c_str());</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;        }</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;    }</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;}</div>
+<div class="ttc" id="aclassVideo_1_1Display_html_a46fb68a788300fb307186327ff781835"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#a46fb68a788300fb307186327ff781835">Video::Display::UpdateBuffer</a></div><div class="ttdeci">void UpdateBuffer()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d86/display_8cpp_source.html#l00270">display.cpp:270</a></div></div>
+<div class="ttc" id="aclassVideo_1_1Display_html_a81e8cd47ad4fea46c0f09d52861c6f92"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#a81e8cd47ad4fea46c0f09d52861c6f92">Video::Display::Print</a></div><div class="ttdeci">char Print(char Char, Video::Font *Font=nullptr, bool WriteToUART=false, bool IgnoreSpecialChars=false)</div></div>
 <div class="ttc" id="aclassvfs_1_1Node_html"><div class="ttname"><a href="../../df/d69/classvfs_1_1Node.html">vfs::Node</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00215">filesystem.hpp:216</a></div></div>
 <div class="ttc" id="aclassvfs_1_1Node_html_a6c6b426715cf1d724c9e99b7cbd10b8b"><div class="ttname"><a href="../../df/d69/classvfs_1_1Node.html#a6c6b426715cf1d724c9e99b7cbd10b8b">vfs::Node::FullPath</a></div><div class="ttdeci">const char * FullPath</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00256">filesystem.hpp:256</a></div></div>
 <div class="ttc" id="aclassvfs_1_1Virtual_html_acd2f13e6b8ada2d15edfe097501313b1"><div class="ttname"><a href="../../d8/d64/classvfs_1_1Virtual.html#acd2f13e6b8ada2d15edfe097501313b1">vfs::Virtual::GetNodeFromPath</a></div><div class="ttdeci">Node * GetNodeFromPath(const char *Path, Node *Parent=nullptr)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8f/filesystem_8cpp_source.html#l00112">filesystem.cpp:112</a></div></div>
@@ -514,11 +514,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="afilesystem_8hpp_html_ae2ec3b9037ed12c33f4f7327099f615c"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#ae2ec3b9037ed12c33f4f7327099f615c">fopen</a></div><div class="ttdeci">int fopen(const char *pathname, const char *mode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d5c/kernel__io_8cpp_source.html#l00033">kernel_io.cpp:33</a></div></div>
 <div class="ttc" id="ainclude_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00160">types.h:160</a></div></div>
 <div class="ttc" id="ainclude_2types_8h_html_af10f4c58d91a6fa30ccc8a19d0ecbf48"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a></div><div class="ttdeci">intptr_t ssize_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00199">types.h:199</a></div></div>
-<div class="ttc" id="akernel_8cpp_html_a856ca7c6595acc2941208b1241cd8f3e"><div class="ttname"><a href="../../dd/d24/kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a></div><div class="ttdeci">EXTERNC void KPrint(const char *Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d24/kernel_8cpp_source.html#l00104">kernel.cpp:104</a></div></div>
+<div class="ttc" id="akernel_8cpp_html_a856ca7c6595acc2941208b1241cd8f3e"><div class="ttname"><a href="../../dd/d24/kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a></div><div class="ttdeci">EXTERNC void KPrint(const char *Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d24/kernel_8cpp_source.html#l00102">kernel.cpp:102</a></div></div>
 <div class="ttc" id="akernel_8cpp_html_ad16e05b6fc09d13310729e16882edc4d"><div class="ttname"><a href="../../dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a></div><div class="ttdeci">Video::Display * Display</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d24/kernel_8cpp_source.html#l00059">kernel.cpp:59</a></div></div>
 <div class="ttc" id="akernel__vfs_8cpp_html_a277679a5638e76b6fd08abe5deee2022"><div class="ttname"><a href="../../da/dce/kernel__vfs_8cpp.html#a277679a5638e76b6fd08abe5deee2022">fs</a></div><div class="ttdeci">vfs::Virtual * fs</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dce/kernel__vfs_8cpp_source.html#l00024">kernel_vfs.cpp:24</a></div></div>
 <div class="ttc" id="aliballoc__1__1_8c_html_ae34a762828cbff7cce62bda6571b2bc0"><div class="ttname"><a href="../../d2/dc3/liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a></div><div class="ttdeci">#define printf(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc3/liballoc__1__1_8c_source.html#l00061">liballoc_1_1.c:61</a></div></div>
-<div class="ttc" id="anamespaceCPU_html_aa2666633b57974db680ea4f94c98f510"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#aa2666633b57974db680ea4f94c98f510">CPU::Name</a></div><div class="ttdeci">const char * Name()</div><div class="ttdoc">Get CPU name.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfc/cpu_8cpp_source.html#l00062">cpu.cpp:62</a></div></div>
+<div class="ttc" id="anamespaceCPU_html_aa2666633b57974db680ea4f94c98f510"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#aa2666633b57974db680ea4f94c98f510">CPU::Name</a></div><div class="ttdeci">const char * Name()</div><div class="ttdoc">Get CPU name.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfc/cpu_8cpp_source.html#l00061">cpu.cpp:61</a></div></div>
 <div class="ttc" id="anamespaceDriver_html_a9fab207aeeb0a63bebbeb8dbbccef3c7"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a9fab207aeeb0a63bebbeb8dbbccef3c7">Driver::GetScanCode</a></div><div class="ttdeci">char GetScanCode(uint8_t ScanCode, bool Upper)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d49/scancode_8cpp_source.html#l00320">scancode.cpp:320</a></div></div>
 <div class="ttc" id="anamespaceDriver_html_aa15c158a46238ef96d949982b0184368"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#aa15c158a46238ef96d949982b0184368">Driver::IsValidChar</a></div><div class="ttdeci">bool IsValidChar(uint8_t ScanCode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d49/scancode_8cpp_source.html#l00335">scancode.cpp:335</a></div></div>
 <div class="ttc" id="anamespaceTasking_html_a6e7b9a12601b9ef62ca79d6b801c29c8abc37da077a4c3351142e364e7ab2b2ca"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html#a6e7b9a12601b9ef62ca79d6b801c29c8abc37da077a4c3351142e364e7ab2b2ca">Tasking::High</a></div><div class="ttdeci">@ High</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00173">task.hpp:173</a></div></div>
@@ -527,12 +527,12 @@ Variables</h2></td></tr>
 <div class="ttc" id="astructCommand_html"><div class="ttname"><a href="../../df/d2d/structCommand.html">Command</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/d8a/shell_8cpp_source.html#l00030">shell.cpp:31</a></div></div>
 <div class="ttc" id="astructCommand_html_a745920f54baa841ca954c2eef591a6ae"><div class="ttname"><a href="../../df/d2d/structCommand.html#a745920f54baa841ca954c2eef591a6ae">Command::Function</a></div><div class="ttdeci">void(* Function)(const char *)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d8a/shell_8cpp_source.html#l00033">shell.cpp:33</a></div></div>
 <div class="ttc" id="astructCommand_html_a76aaaf3ea7322a2ac57e037f1c8bb00e"><div class="ttname"><a href="../../df/d2d/structCommand.html#a76aaaf3ea7322a2ac57e037f1c8bb00e">Command::Name</a></div><div class="ttdeci">const char * Name</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d8a/shell_8cpp_source.html#l00032">shell.cpp:32</a></div></div>
-<div class="ttc" id="atask_8hpp_html_a1cf492bc489f4879fe6f67325e8f8dc7"><div class="ttname"><a href="../../d8/da1/task_8hpp.html#a1cf492bc489f4879fe6f67325e8f8dc7">thisThread</a></div><div class="ttdeci">#define thisThread</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00675">task.hpp:675</a></div></div>
-<div class="ttc" id="atask_8hpp_html_abcc2c2d29a284c2304deb5d0778c59c8"><div class="ttname"><a href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a></div><div class="ttdeci">#define thisProcess</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00674">task.hpp:674</a></div></div>
+<div class="ttc" id="atask_8hpp_html_a1cf492bc489f4879fe6f67325e8f8dc7"><div class="ttname"><a href="../../d8/da1/task_8hpp.html#a1cf492bc489f4879fe6f67325e8f8dc7">thisThread</a></div><div class="ttdeci">#define thisThread</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00671">task.hpp:671</a></div></div>
+<div class="ttc" id="atask_8hpp_html_abcc2c2d29a284c2304deb5d0778c59c8"><div class="ttname"><a href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a></div><div class="ttdeci">#define thisProcess</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00670">task.hpp:670</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/d8a/shell_8cpp_source.html#l00036">commands</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, <a class="el" href="../../dd/d24/kernel_8cpp_source.html#l00059">Display</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>, <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html#l00033">fopen()</a>, <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html#l00055">fread()</a>, <a class="el" href="../../da/dce/kernel__vfs_8cpp_source.html#l00024">fs</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00256">vfs::Node::FullPath</a>, <a class="el" href="../../da/d8a/shell_8cpp_source.html#l00033">Command::Function</a>, <a class="el" href="../../d9/d8f/filesystem_8cpp_source.html#l00112">vfs::Virtual::GetNodeFromPath()</a>, <a class="el" href="../../d2/d49/scancode_8cpp_source.html#l00320">Driver::GetScanCode()</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00173">Tasking::High</a>, <a class="el" href="../../d2/d49/scancode_8cpp_source.html#l00335">Driver::IsValidChar()</a>, <a class="el" href="../../db/de4/driver_8h_source.html#l00137">KEY_BACKSPACE</a>, <a class="el" href="../../db/de4/driver_8h_source.html#l00159">KEY_DOWN_ARROW</a>, <a class="el" href="../../db/de4/driver_8h_source.html#l00128">KEY_LEFT_CTRL</a>, <a class="el" href="../../db/de4/driver_8h_source.html#l00130">KEY_LEFT_SHIFT</a>, <a class="el" href="../../db/de4/driver_8h_source.html#l00192">KEY_PRESSED</a>, <a class="el" href="../../db/de4/driver_8h_source.html#l00129">KEY_RIGHT_CTRL</a>, <a class="el" href="../../db/de4/driver_8h_source.html#l00131">KEY_RIGHT_SHIFT</a>, <a class="el" href="../../db/de4/driver_8h_source.html#l00138">KEY_TAB</a>, <a class="el" href="../../db/de4/driver_8h_source.html#l00156">KEY_UP_ARROW</a>, <a class="el" href="../../dd/d24/kernel_8cpp_source.html#l00104">KPrint()</a>, <a class="el" href="../../d7/dfc/cpu_8cpp_source.html#l00062">CPU::Name()</a>, <a class="el" href="../../da/d8a/shell_8cpp_source.html#l00032">Command::Name</a>, <a class="el" href="../../db/d81/classVideo_1_1Display.html#ab05a86198845ef9aefa590cea4166a82">Video::Display::Print()</a>, <a class="el" href="../../d2/dc3/liballoc__1__1_8c_source.html#l00061">printf</a>, <a class="el" href="../../db/d86/display_8cpp_source.html#l00067">Video::Display::SetBuffer()</a>, <a class="el" href="../../d1/db0/errno_8cpp_source.html#l00035">strerror()</a>, <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00064">strlen()</a>, <a class="el" href="../../d3/d82/convert_8h.html#a9afae77e412a26e6c01e26b89d5c2b47">strncmp()</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00674">thisProcess</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00675">thisThread</a>, and <a class="el" href="../../d1/d8c/std_8hpp_source.html#l00059">std::toupper()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d8a/shell_8cpp_source.html#l00036">commands</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, <a class="el" href="../../dd/d24/kernel_8cpp_source.html#l00059">Display</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>, <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html#l00033">fopen()</a>, <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html#l00055">fread()</a>, <a class="el" href="../../da/dce/kernel__vfs_8cpp_source.html#l00024">fs</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00256">vfs::Node::FullPath</a>, <a class="el" href="../../da/d8a/shell_8cpp_source.html#l00033">Command::Function</a>, <a class="el" href="../../d9/d8f/filesystem_8cpp_source.html#l00112">vfs::Virtual::GetNodeFromPath()</a>, <a class="el" href="../../d2/d49/scancode_8cpp_source.html#l00320">Driver::GetScanCode()</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00173">Tasking::High</a>, <a class="el" href="../../d2/d49/scancode_8cpp_source.html#l00335">Driver::IsValidChar()</a>, <a class="el" href="../../db/de4/driver_8h_source.html#l00137">KEY_BACKSPACE</a>, <a class="el" href="../../db/de4/driver_8h_source.html#l00159">KEY_DOWN_ARROW</a>, <a class="el" href="../../db/de4/driver_8h_source.html#l00128">KEY_LEFT_CTRL</a>, <a class="el" href="../../db/de4/driver_8h_source.html#l00130">KEY_LEFT_SHIFT</a>, <a class="el" href="../../db/de4/driver_8h_source.html#l00192">KEY_PRESSED</a>, <a class="el" href="../../db/de4/driver_8h_source.html#l00129">KEY_RIGHT_CTRL</a>, <a class="el" href="../../db/de4/driver_8h_source.html#l00131">KEY_RIGHT_SHIFT</a>, <a class="el" href="../../db/de4/driver_8h_source.html#l00138">KEY_TAB</a>, <a class="el" href="../../db/de4/driver_8h_source.html#l00156">KEY_UP_ARROW</a>, <a class="el" href="../../dd/d24/kernel_8cpp_source.html#l00102">KPrint()</a>, <a class="el" href="../../d7/dfc/cpu_8cpp_source.html#l00061">CPU::Name()</a>, <a class="el" href="../../da/d8a/shell_8cpp_source.html#l00032">Command::Name</a>, <a class="el" href="../../db/d81/classVideo_1_1Display.html#a81e8cd47ad4fea46c0f09d52861c6f92">Video::Display::Print()</a>, <a class="el" href="../../d2/dc3/liballoc__1__1_8c_source.html#l00061">printf</a>, <a class="el" href="../../d1/db0/errno_8cpp_source.html#l00035">strerror()</a>, <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00064">strlen()</a>, <a class="el" href="../../d3/d82/convert_8h.html#a9afae77e412a26e6c01e26b89d5c2b47">strncmp()</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00670">thisProcess</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00671">thisThread</a>, <a class="el" href="../../d1/d8c/std_8hpp_source.html#l00059">std::toupper()</a>, and <a class="el" href="../../db/d86/display_8cpp_source.html#l00270">Video::Display::UpdateBuffer()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d8a/shell_8cpp_source.html#l00388">KShellThread()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d8a/shell_8cpp_source.html#l00389">KShellThread()</a>.</p>
 
 </div>
 </div>
@@ -559,7 +559,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d8a/shell_8cpp_source.html#l00036">36</a> of file <a class="el" href="../../da/d8a/shell_8cpp_source.html">shell.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d8a/shell_8cpp_source.html#l00082">StartKernelShell()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d8a/shell_8cpp_source.html#l00083">StartKernelShell()</a>.</p>
 
 </div>
 </div>

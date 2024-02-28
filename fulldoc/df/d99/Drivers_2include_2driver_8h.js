@@ -8,7 +8,7 @@ var Drivers_2include_2driver_8h =
       [ "Next", "df/d99/Drivers_2include_2driver_8h.html#ad532712d834c9742319f9e5e10eb0dc2", null ]
     ] ],
     [ "__driverAPI", "dc/dec/struct____driverAPI.html", "dc/dec/struct____driverAPI" ],
-    [ "__MouseButtons.__unnamed1253__", "df/d99/Drivers_2include_2driver_8h.html#da/de1/struct____MouseButtons_8____unnamed1253____", [
+    [ "__MouseButtons.__unnamed1255__", "df/d99/Drivers_2include_2driver_8h.html#d8/dba/struct____MouseButtons_8____unnamed1255____", [
       [ "Button4", "df/d99/Drivers_2include_2driver_8h.html#a91ff24acfc01cc2c3a4238a272a37d07", null ],
       [ "Button5", "df/d99/Drivers_2include_2driver_8h.html#af8849babaeaee3344306b87310664d65", null ],
       [ "Button6", "df/d99/Drivers_2include_2driver_8h.html#a375ccc6b3a6125cc5c67f2c700a55b72", null ],

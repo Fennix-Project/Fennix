@@ -9,7 +9,7 @@ var include_2aip_8h =
     [ "PS2_OUTPUT_PORT", "d9/da8/include_2aip_8h.html#da/dc6/unionPS2__OUTPUT__PORT", [
       [ "Raw", "d9/da8/include_2aip_8h.html#a6f55d35c117c53b1aa5b104e550674dd", null ]
     ] ],
-    [ "PS2_STATUSES.__unnamed1247__", "d9/da8/include_2aip_8h.html#d6/d38/structPS2__STATUSES_8____unnamed1247____", [
+    [ "PS2_STATUSES.__unnamed1249__", "d9/da8/include_2aip_8h.html#d4/d29/structPS2__STATUSES_8____unnamed1249____", [
       [ "CommandData", "d9/da8/include_2aip_8h.html#ad3c1a945d3b7f0aa9f0bbcb1bdc77d37", null ],
       [ "InputBufferFull", "d9/da8/include_2aip_8h.html#a999955f00254a1ec83b388b8142ac5e6", null ],
       [ "OutputBufferFull", "d9/da8/include_2aip_8h.html#aa9b7be021da7a0ec83d707bd42740f3d", null ],
@@ -19,7 +19,7 @@ var include_2aip_8h =
       [ "Unknown1", "d9/da8/include_2aip_8h.html#a28c5637b237d55031f1b3772d731c041", null ],
       [ "Unknown2", "d9/da8/include_2aip_8h.html#afe489f6ef777e98956c00038b863eb0f", null ]
     ] ],
-    [ "PS2_CONFIGURATION.__unnamed1249__", "d9/da8/include_2aip_8h.html#d3/d37/structPS2__CONFIGURATION_8____unnamed1249____", [
+    [ "PS2_CONFIGURATION.__unnamed1251__", "d9/da8/include_2aip_8h.html#da/d6e/structPS2__CONFIGURATION_8____unnamed1251____", [
       [ "Port1Clock", "d9/da8/include_2aip_8h.html#a44c6b11fcf9b6a9a6e7fe2a969b58b0f", null ],
       [ "Port1Interrupt", "d9/da8/include_2aip_8h.html#a78e48bc7d4778ddc8e647ec195da3e1a", null ],
       [ "Port1Translation", "d9/da8/include_2aip_8h.html#af4c84ba01a644fbe45e4b9e09f827168", null ],
@@ -29,7 +29,7 @@ var include_2aip_8h =
       [ "Zero0", "d9/da8/include_2aip_8h.html#ad31cba1790c6843a18adfc7ddfcee23e", null ],
       [ "Zero1", "d9/da8/include_2aip_8h.html#ac1bea7eee679d45845dc20ba9cc0cc20", null ]
     ] ],
-    [ "PS2_OUTPUT_PORT.__unnamed1251__", "d9/da8/include_2aip_8h.html#dd/d81/structPS2__OUTPUT__PORT_8____unnamed1251____", [
+    [ "PS2_OUTPUT_PORT.__unnamed1253__", "d9/da8/include_2aip_8h.html#d2/d73/structPS2__OUTPUT__PORT_8____unnamed1253____", [
       [ "A20Gate", "d9/da8/include_2aip_8h.html#ab24700857c7c1e39353a7d8d12212ee9", null ],
       [ "Port1InputBufferFull", "d9/da8/include_2aip_8h.html#aba33c9a5143b225eab7df62ac376741f", null ],
       [ "Port1OutputBufferFull", "d9/da8/include_2aip_8h.html#acd4e8faa0cb2df34eef242730f9abbcf", null ],

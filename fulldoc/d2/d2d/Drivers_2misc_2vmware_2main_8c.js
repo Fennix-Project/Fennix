@@ -10,19 +10,19 @@ var Drivers_2misc_2vmware_2main_8c =
       [ "CookieLow", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#aed708e965d428124283d73ef39bb962a", null ],
       [ "TCLOChannel", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#af951263a5ef79fada86d095ebd46e38c", null ]
     ] ],
-    [ "VMwareCommand.__unnamed1260__", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#d7/d83/unionVMwareCommand_8____unnamed1260____", [
+    [ "VMwareCommand.__unnamed1262__", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#d5/d09/unionVMwareCommand_8____unnamed1262____", [
       [ "ax", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a9cea1e2473aaf49955fa34faac95b3e7", null ],
       [ "magic", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a2f3a4fccca6406e35bcf33e92dd93135", null ]
     ] ],
-    [ "VMwareCommand.__unnamed1262__", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#d5/d09/unionVMwareCommand_8____unnamed1262____", [
+    [ "VMwareCommand.__unnamed1264__", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#db/daf/unionVMwareCommand_8____unnamed1264____", [
       [ "bx", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a6f5770d50b01a0abbce803768d3592b0", null ],
       [ "size", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#af7bd60b75b29d79b660a2859395c1a24", null ]
     ] ],
-    [ "VMwareCommand.__unnamed1264__", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#db/daf/unionVMwareCommand_8____unnamed1264____", [
+    [ "VMwareCommand.__unnamed1266__", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#da/dd9/unionVMwareCommand_8____unnamed1266____", [
       [ "command", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a1dccadfed7bcbb036c56a4afb97e906f", null ],
       [ "cx", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a0bdff8095c8bf1b38775bf35547a1317", null ]
     ] ],
-    [ "VMwareCommand.__unnamed1266__", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#da/dd9/unionVMwareCommand_8____unnamed1266____", [
+    [ "VMwareCommand.__unnamed1268__", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#d3/db5/unionVMwareCommand_8____unnamed1268____", [
       [ "dx", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#aacd2b09d39705a84bff035c18c9faea9", null ],
       [ "port", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a901555fb06e346cb065ceb9808dcfc25", null ]
     ] ],

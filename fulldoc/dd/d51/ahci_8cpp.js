@@ -89,10 +89,12 @@ var ahci_8cpp =
       [ "Reserved1", "dd/d51/ahci_8cpp.html#a044dddb4cb03eadb84b5d0a7c71dce9c", null ]
     ] ],
     [ "Port", "d3/d7b/classPort.html", "d3/d7b/classPort" ],
+    [ "ATA_CMD_IDENTIFY", "dd/d51/ahci_8cpp.html#a572958103bba5d355c7fe135ae7526bd", null ],
     [ "ATA_CMD_READ_DMA_EX", "dd/d51/ahci_8cpp.html#a38dd4451240fdf39ed56148f148e9ffd", null ],
     [ "ATA_CMD_WRITE_DMA_EX", "dd/d51/ahci_8cpp.html#aad07fe181bd03623b039bca75664ec29", null ],
     [ "ATA_DEV_BUSY", "dd/d51/ahci_8cpp.html#a32b0d71691c7e21ded44e462fe3de8db", null ],
     [ "ATA_DEV_DRQ", "dd/d51/ahci_8cpp.html#af12bdbc024458d3a760650e93bc32cb3", null ],
+    [ "ATAPI_CMD_IDENTIFY_PACKET", "dd/d51/ahci_8cpp.html#af054375f649eb899ed9c2559ecba3d62", null ],
     [ "HBA_PORT_DEV_PRESENT", "dd/d51/ahci_8cpp.html#aaeb840d36dea7b5dd045e4372e86ab1a", null ],
     [ "HBA_PORT_IPM_ACTIVE", "dd/d51/ahci_8cpp.html#a7799cbde4e99b339a61cb79ba018ed78", null ],
     [ "HBA_PxCMD_CR", "dd/d51/ahci_8cpp.html#ad2550f8f63fa32140f93da1b95354cf6", null ],
@@ -121,6 +123,7 @@ var ahci_8cpp =
       [ "PM", "dd/d51/ahci_8cpp.html#a7674c329addda8fbe6176bbbf25c8b21a4e84ba06a563492b48e6b6e25dd85c2d", null ],
       [ "SATAPI", "dd/d51/ahci_8cpp.html#a7674c329addda8fbe6176bbbf25c8b21a4dbae02a8c82ef71f515500f26e2f1c2", null ]
     ] ],
+    [ "__attribute__", "dd/d51/ahci_8cpp.html#a3da80a21817284656fab2366ce440546", null ],
     [ "CheckPortType", "dd/d51/ahci_8cpp.html#afdee1e06ba3d90e76724c7fddee28acd", null ],
     [ "cxx_Finalize", "dd/d51/ahci_8cpp.html#a533e53180ecaabc14c3b0230bb7a5171", null ],
     [ "cxx_Initialize", "dd/d51/ahci_8cpp.html#ad2360a63c67c2171cf11ec075fed32c3", null ],

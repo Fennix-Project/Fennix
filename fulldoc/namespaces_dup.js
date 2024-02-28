@@ -1,11 +1,9 @@
 var namespaces_dup =
 [
     [ "__cxxabiv1", "da/d75/namespace____cxxabiv1.html", "da/d75/namespace____cxxabiv1" ],
-    [ "aarch64", "dc/dce/namespaceaarch64.html", "dc/dce/namespaceaarch64" ],
     [ "ACPI", "df/d22/namespaceACPI.html", "df/d22/namespaceACPI" ],
     [ "APIC", "d3/d88/namespaceAPIC.html", "d3/d88/namespaceAPIC" ],
     [ "CPU", "d7/dfa/namespaceCPU.html", "d7/dfa/namespaceCPU" ],
-    [ "CrashHandler", "d2/d57/namespaceCrashHandler.html", "d2/d57/namespaceCrashHandler" ],
     [ "Disk", "d1/d29/namespaceDisk.html", "d1/d29/namespaceDisk" ],
     [ "Driver", "d1/d48/namespaceDriver.html", "d1/d48/namespaceDriver" ],
     [ "Execute", "d5/d27/namespaceExecute.html", "d5/d27/namespaceExecute" ],
@@ -63,7 +61,5 @@ var namespaces_dup =
     [ "UniversalAsynchronousReceiverTransmitter", "d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html", "d3/d65/namespaceUniversalAsynchronousReceiverTransmitter" ],
     [ "vfs", "dc/dcb/namespacevfs.html", "dc/dcb/namespacevfs" ],
     [ "Video", "d6/de2/namespaceVideo.html", "d6/de2/namespaceVideo" ],
-    [ "x32", "de/d52/namespacex32.html", "de/d52/namespacex32" ],
-    [ "x64", "d7/db0/namespacex64.html", "d7/db0/namespacex64" ],
     [ "Xalloc", "dc/d0a/namespaceXalloc.html", "dc/d0a/namespaceXalloc" ]
 ];

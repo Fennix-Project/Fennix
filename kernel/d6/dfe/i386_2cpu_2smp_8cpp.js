@@ -17,8 +17,8 @@ var i386_2cpu_2smp_8cpp =
       [ "TRAMPOLINE_START", "d6/dfe/i386_2cpu_2smp_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa21a467d1df7f6bfa2d2b79ec0b812780", null ]
     ] ],
     [ "__aligned", "d6/dfe/i386_2cpu_2smp_8cpp.html#aabdc1cdab2bdc4e8bc624fa54cfb8a26", null ],
-    [ "GetCPU", "d6/dfe/i386_2cpu_2smp_8cpp.html#a3566340b6a222c5755e4b2281916308e", null ],
-    [ "GetCurrentCPU", "d6/dfe/i386_2cpu_2smp_8cpp.html#a554fc11f8a93510db1c570b03954f45f", null ],
+    [ "GetCPU", "d6/dfe/i386_2cpu_2smp_8cpp.html#aba5a831d1350ee89078305b86755a4ce", null ],
+    [ "GetCurrentCPU", "d6/dfe/i386_2cpu_2smp_8cpp.html#aedb4bf9f108bb0ebefd49c5d922692d9", null ],
     [ "Initialize", "d6/dfe/i386_2cpu_2smp_8cpp.html#a83df3dc276fba1e673fcf5551113ca7e", null ],
     [ "CPUEnabled", "d6/dfe/i386_2cpu_2smp_8cpp.html#a8c0438c158eaa1a1fc7fe66512c99e6a", null ]
 ];

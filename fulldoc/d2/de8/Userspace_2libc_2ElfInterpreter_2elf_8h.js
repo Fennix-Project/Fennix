@@ -58,15 +58,15 @@ var Userspace_2libc_2ElfInterpreter_2elf_8h =
     ] ],
     [ "Elf32_Dyn", "d5/d81/Userspace_2musl_2include_2elf_8h.html#d8/d23/structElf32__Dyn", [
       [ "d_tag", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a0edbe45a1c49cbb352dc3e1937369180", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a6589ce30f1fc06d3db0b46663678c8fb", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a66c1842f62ad158784f476a35fde201e", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f500767b2cc722ce847ba6904ecaceb", null ]
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a2c7ebbe11ca5152994acf863abc6d4d0", null ],
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a372cbf8d7954175bb37d9b550dbb542e", null ],
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a645ecb7384b5e52bb9bfca27910f2433", null ]
     ] ],
     [ "Elf64_Dyn", "d5/d81/Userspace_2musl_2include_2elf_8h.html#dd/d27/structElf64__Dyn", [
       [ "d_tag", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a74a63e5acb7d8ddc946a5b0c5eb3c26a", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a79b21804fabac4714b33b98e861abec6", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a4764adc55289bbd55dbf16a03c785c34", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a1a5523f86b721a8deab081b349e3aa90", null ]
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a558206711cbf0ab83e83b1d4d12fa051", null ],
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#af3e85bc7a45c089d29ab9f395a4fde3b", null ],
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#abe71f17a6d100f6a7887f50378614476", null ]
     ] ],
     [ "Elf64_Phdr", "d5/d81/Userspace_2musl_2include_2elf_8h.html#d3/d7b/structElf64__Phdr", [
       [ "p_align", "d5/d81/Userspace_2musl_2include_2elf_8h.html#aa89a4b1835998c8866e821d777a2f879", null ],

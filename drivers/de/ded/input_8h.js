@@ -8,7 +8,7 @@ var input_8h =
     [ "MouseReport.__unnamed13__", "de/ded/input_8h.html#df/dea/unionMouseReport_8____unnamed13____", [
       [ "Buttons", "de/ded/input_8h.html#a5b3ec15499a125805b5bbf8e4afcec8c", null ]
     ] ],
-    [ "MouseReport.__unnamed13__.__unnamed15__", "de/ded/input_8h.html#da/d31/structMouseReport_8____unnamed13_____8____unnamed15____", [
+    [ "MouseReport.__unnamed13__.__unnamed17__", "de/ded/input_8h.html#de/d3a/structMouseReport_8____unnamed13_____8____unnamed17____", [
       [ "Button4", "de/ded/input_8h.html#a91ff24acfc01cc2c3a4238a272a37d07", null ],
       [ "Button5", "de/ded/input_8h.html#af8849babaeaee3344306b87310664d65", null ],
       [ "LeftButton", "de/ded/input_8h.html#a2a81c1ce439d7652d7a61d55229c8043", null ],

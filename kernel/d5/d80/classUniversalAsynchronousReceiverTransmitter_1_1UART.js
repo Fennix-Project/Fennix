@@ -1,9 +1,9 @@
 var classUniversalAsynchronousReceiverTransmitter_1_1UART =
 [
-    [ "UART", "d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a51c839345074519cf50cb74e7e83f8f8", null ],
-    [ "~UART", "d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a39152ae4597eb7dfb91bdc20186a5c6d", null ],
-    [ "Read", "d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a41e27884b49098265b4f0b547384d7d9", null ],
-    [ "Write", "d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a7906991fad520423bc367e05767db183", null ],
+    [ "UART", "d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#ad0273dc8972d737fd03bfbcb34e920dc", null ],
+    [ "~UART", "d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a320d7d3e12dfb78d559649b7755b76d7", null ],
+    [ "Read", "d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a20c3247807541b20cc4abcf4e475e49a", null ],
+    [ "Write", "d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a40ec29555f6173dfadb113d5f0b87bc1", null ],
     [ "IsAvailable", "d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a67e0ebe3289534d32d36eb1797bd89e2", null ],
     [ "Port", "d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#ab8fe0fc3fd305d14e496ee8d63b1e144", null ]
 ];

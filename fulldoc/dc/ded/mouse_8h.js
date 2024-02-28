@@ -1,10 +1,10 @@
 var mouse_8h =
 [
     [ "PS2_MOUSE_PACKET", "dc/ded/mouse_8h.html#d3/d18/structPS2__MOUSE__PACKET", [
-      [ "Base", "dc/ded/mouse_8h.html#a516a21e37dd66ae38e1416a4e9caf907", null ],
+      [ "Base", "dc/ded/mouse_8h.html#a7ab5efd566498d682922276e3dc782db", null ],
       [ "XMovement", "dc/ded/mouse_8h.html#a03984accdad77fa5280f8724510170d4", null ],
       [ "YMovement", "dc/ded/mouse_8h.html#ae7ed739b075fbfcabddfb598f2ebb912", null ],
-      [ "ZMovement", "dc/ded/mouse_8h.html#aca853c53a9e24c423898bc7679ce0685", null ]
+      [ "ZMovement", "dc/ded/mouse_8h.html#a593abbc139f2e146da66f669666c4a19", null ]
     ] ],
     [ "PS2_MOUSE_PACKET.Base", "dc/ded/mouse_8h.html#d0/df2/unionPS2__MOUSE__PACKET_8Base", [
       [ "Raw", "dc/ded/mouse_8h.html#a65e65c8ab0d8609ce12fc68a03cb8e00", null ]

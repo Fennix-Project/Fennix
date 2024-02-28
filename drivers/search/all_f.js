@@ -125,7 +125,7 @@ var searchData=
   ['ps2_5foutput_5fport_2e_5f_5funnamed11_5f_5f_566',['PS2_OUTPUT_PORT.__unnamed11__',['../d1/de1/aip_8h.html#db/d00/structPS2__OUTPUT__PORT_8____unnamed11____',1,'']]],
   ['ps2_5fstatus_567',['PS2_STATUS',['../d1/de1/aip_8h.html#a5011033b67ebce0ddc40f985c04832e1',1,'aip.h']]],
   ['ps2_5fstatuses_568',['PS2_STATUSES',['../d1/de1/aip_8h.html#d7/d48/unionPS2__STATUSES',1,'']]],
-  ['ps2_5fstatuses_2e_5f_5funnamed7_5f_5f_569',['PS2_STATUSES.__unnamed7__',['../d1/de1/aip_8h.html#dd/daa/structPS2__STATUSES_8____unnamed7____',1,'']]],
+  ['ps2_5fstatuses_2e_5f_5funnamed6_5f_5f_569',['PS2_STATUSES.__unnamed6__',['../d1/de1/aip_8h.html#d0/d37/structPS2__STATUSES_8____unnamed6____',1,'']]],
   ['ps2_5ftest_5ffailed_570',['PS2_TEST_FAILED',['../d1/de1/aip_8h.html#ab807b48ac4960880a9107832b7b0f195',1,'aip.h']]],
   ['ps2_5ftest_5fpassed_571',['PS2_TEST_PASSED',['../d1/de1/aip_8h.html#a76797708c65d0cbfc053424ebcbf82d7',1,'aip.h']]],
   ['ps2acktimeout_572',['PS2ACKTimeout',['../d1/de1/aip_8h.html#a38ac8086f1219290834fa333d5f61d61',1,'aip.h']]],

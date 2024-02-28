@@ -15,7 +15,7 @@ var signal_8hpp =
     ] ],
     [ "sigevent", "d7/df9/structsigevent.html", "d7/df9/structsigevent" ],
     [ "siginfo_t", "dd/d5f/signal_8hpp.html#dc/dbc/structsiginfo__t", [
-      [ "__si_fields", "dd/d5f/signal_8hpp.html#adca6a55300f760e928998c753f476c03", null ],
+      [ "__si_fields", "dd/d5f/signal_8hpp.html#a668b294db726df3c795041314c8a1a26", null ],
       [ "si_code", "dd/d5f/signal_8hpp.html#a0dd36ae3e9df589f5755f88c93671c2d", null ],
       [ "si_errno", "dd/d5f/signal_8hpp.html#ae840a8f2824bab1693577f19f4d0432d", null ],
       [ "si_signo", "dd/d5f/signal_8hpp.html#a238821f6eb15317d3d7b10efef80b9c7", null ]

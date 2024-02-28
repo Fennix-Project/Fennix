@@ -1,7 +1,7 @@
 var limine_8c =
 [
     [ "InitLimine", "d7/de3/limine_8c.html#a22217aa434e191d8561c4e633f0c79c5", null ],
-    [ "InitLimineAfterStack", "d7/de3/limine_8c.html#a4ea33b2d02736d2d2f2e5ef9f14135fc", null ],
+    [ "InitLimineAfterStack", "d7/de3/limine_8c.html#a48560e9f9e390cc0cdd737e2a6666c18", null ],
     [ "BootloaderInfoRequest", "d7/de3/limine_8c.html#a4762b7cada64399acb562067ca5674bf", null ],
     [ "EntryPointRequest", "d7/de3/limine_8c.html#a0d9c849ab73e9b253f402f7e711dd560", null ],
     [ "FramebufferRequest", "d7/de3/limine_8c.html#ad205e7f58dc1d0b19636d2f38d9ca803", null ],

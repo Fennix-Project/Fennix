@@ -9,7 +9,7 @@ var aip_8h =
     [ "PS2_OUTPUT_PORT", "d1/de1/aip_8h.html#da/dc6/unionPS2__OUTPUT__PORT", [
       [ "Raw", "d1/de1/aip_8h.html#a6f55d35c117c53b1aa5b104e550674dd", null ]
     ] ],
-    [ "PS2_STATUSES.__unnamed7__", "d1/de1/aip_8h.html#dd/daa/structPS2__STATUSES_8____unnamed7____", [
+    [ "PS2_STATUSES.__unnamed6__", "d1/de1/aip_8h.html#d0/d37/structPS2__STATUSES_8____unnamed6____", [
       [ "CommandData", "d1/de1/aip_8h.html#ad3c1a945d3b7f0aa9f0bbcb1bdc77d37", null ],
       [ "InputBufferFull", "d1/de1/aip_8h.html#a999955f00254a1ec83b388b8142ac5e6", null ],
       [ "OutputBufferFull", "d1/de1/aip_8h.html#aa9b7be021da7a0ec83d707bd42740f3d", null ],

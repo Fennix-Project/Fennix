@@ -5,8 +5,8 @@ var log2__data_8h =
       [ "invln2lo", "df/d41/log2__data_8h.html#ab9fe6fbdee6bc92065696cc01c753aea", null ],
       [ "poly", "df/d41/log2__data_8h.html#a446b2eb38f82228fbd725f688e09b90b", null ],
       [ "poly1", "df/d41/log2__data_8h.html#a109a8b9976fa438c0809fab886317e35", null ],
-      [ "tab", "df/d41/log2__data_8h.html#a5d8d1a9499a38393190080e3e88e4f01", null ],
-      [ "tab2", "df/d41/log2__data_8h.html#a8e781a39a83258ba6aa6ee915b38d799", null ]
+      [ "tab", "df/d41/log2__data_8h.html#ace7081c3ddac76d5a677c1f58266c9f0", null ],
+      [ "tab2", "df/d41/log2__data_8h.html#a3d24027779e22af6bd73edfe7b7cadd9", null ]
     ] ],
     [ "log2_data.tab", "df/d41/log2__data_8h.html#d5/d3d/structlog2__data_8tab", [
       [ "invc", "df/d41/log2__data_8h.html#ac793896b0f1ce01182868fbf8e05ad42", null ],

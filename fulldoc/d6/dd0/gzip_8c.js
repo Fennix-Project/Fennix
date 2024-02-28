@@ -2,8 +2,8 @@ var gzip_8c =
 [
     [ "globals", "d8/d11/structglobals.html", "d8/d11/structglobals" ],
     [ "ct_data", "d6/dd0/gzip_8c.html#de/d7c/structct__data", [
-      [ "dl", "d6/dd0/gzip_8c.html#acbe00ef7502476580f3aa55904197a08", null ],
-      [ "fc", "d6/dd0/gzip_8c.html#a9a834e79bdddfebde901718c72aefaf6", null ]
+      [ "dl", "d6/dd0/gzip_8c.html#a6525c3d53d9058761df45829b25685d5", null ],
+      [ "fc", "d6/dd0/gzip_8c.html#a5a5bc639e0cb20daf5c9d269e7523cc3", null ]
     ] ],
     [ "tree_desc", "d6/dd0/gzip_8c.html#d9/d5b/structtree__desc", [
       [ "dyn_tree", "d6/dd0/gzip_8c.html#a532b4371e8e2da219cb85edc1e894643", null ],

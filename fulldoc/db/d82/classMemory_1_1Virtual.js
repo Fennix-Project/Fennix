@@ -11,6 +11,7 @@ var classMemory_1_1Virtual =
     [ "Virtual", "db/d82/classMemory_1_1Virtual.html#acc634057cea394c0bee246c5de84f9a2", null ],
     [ "~Virtual", "db/d82/classMemory_1_1Virtual.html#a75c97a61bce18d901a6c22f9a8e087ec", null ],
     [ "Check", "db/d82/classMemory_1_1Virtual.html#a6675d97c91771f3929ef657b295df42e", null ],
+    [ "CheckRegion", "db/d82/classMemory_1_1Virtual.html#a4767992ad3b7d523b780921682d2b7d0", null ],
     [ "GetMapType", "db/d82/classMemory_1_1Virtual.html#a812b887f09251adf70a99127c3fc2246", null ],
     [ "GetPDE", "db/d82/classMemory_1_1Virtual.html#ac9e576ca6e1156d327f7c5dfd68c3121", null ],
     [ "GetPhysical", "db/d82/classMemory_1_1Virtual.html#a3d92ca6f96e1c9a84ccf1b9c8477b86d", null ],

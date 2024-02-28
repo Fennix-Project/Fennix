@@ -2,7 +2,7 @@ var d6__common_8h =
 [
     [ "d6_packet", "d4/dc3/d6__common_8h.html#d2/d6c/structd6__packet", [
       [ "d6_options", "d4/dc3/d6__common_8h.html#a2e2d8a29ec0b26062608cadf2ca48138", null ],
-      [ "d6_u", "d4/dc3/d6__common_8h.html#a3cc3109018b81525d03127c0ab63cf81", null ]
+      [ "d6_u", "d4/dc3/d6__common_8h.html#af81dfe12484f224be867dba0ad365b63", null ]
     ] ],
     [ "ip6_udp_d6_packet", "d4/dc3/d6__common_8h.html#d0/d27/structip6__udp__d6__packet", [
       [ "data", "d4/dc3/d6__common_8h.html#a1f82f7e435be314ac823b6c7e0a6fb24", null ],

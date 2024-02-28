@@ -1,13 +1,12 @@
 var dir_4b43f92f3b36afcf854dcf934e6beeae =
 [
-    [ "crash", "dir_87742ad700bdda085784e0ec1ce131bc.html", "dir_87742ad700bdda085784e0ec1ce131bc" ],
     [ "driver", "dir_3f280b31f40a90922c2d1e4c2b157109.html", "dir_3f280b31f40a90922c2d1e4c2b157109" ],
     [ "memory", "dir_0324a785b1c9bd6cbd91488045f3d0b5.html", "dir_0324a785b1c9bd6cbd91488045f3d0b5" ],
+    [ "panic", "dir_166b9d5f57a7c18d09b2e7d550fe7548.html", "dir_166b9d5f57a7c18d09b2e7d550fe7548" ],
     [ "time", "dir_5d5d0ca51552d61e9f6bb31d80f60373.html", "dir_5d5d0ca51552d61e9f6bb31d80f60373" ],
     [ "video", "dir_f05e272383947968b419e0c555895616.html", "dir_f05e272383947968b419e0c555895616" ],
     [ "acpi.cpp", "d3/ddd/acpi_8cpp.html", "d3/ddd/acpi_8cpp" ],
     [ "cpu.cpp", "d7/dfc/cpu_8cpp.html", "d7/dfc/cpu_8cpp" ],
-    [ "crashhandler.hpp", "dc/d04/crashhandler_8hpp.html", "dc/d04/crashhandler_8hpp" ],
     [ "debugger.cpp", "d1/d6f/debugger_8cpp.html", "d1/d6f/debugger_8cpp" ],
     [ "disk.cpp", "d4/db6/disk_8cpp.html", null ],
     [ "dsdt.cpp", "d0/d6c/dsdt_8cpp.html", "d0/d6c/dsdt_8cpp" ],

@@ -8,7 +8,7 @@ var driver_8h =
       [ "Next", "db/de4/driver_8h.html#a26d05ed0210d3f4b2e4d882a2c802cbf", null ]
     ] ],
     [ "__driverAPI", "dc/dec/struct____driverAPI.html", "dc/dec/struct____driverAPI" ],
-    [ "__MouseButtons.__unnamed17__", "db/de4/driver_8h.html#d0/d50/struct____MouseButtons_8____unnamed17____", [
+    [ "__MouseButtons.__unnamed15__", "db/de4/driver_8h.html#dc/d64/struct____MouseButtons_8____unnamed15____", [
       [ "Button4", "db/de4/driver_8h.html#a91ff24acfc01cc2c3a4238a272a37d07", null ],
       [ "Button5", "db/de4/driver_8h.html#af8849babaeaee3344306b87310664d65", null ],
       [ "Button6", "db/de4/driver_8h.html#a375ccc6b3a6125cc5c67f2c700a55b72", null ],

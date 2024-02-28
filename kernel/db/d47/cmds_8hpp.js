@@ -15,6 +15,7 @@ var cmds_8hpp =
     [ "cmd_lspci", "db/d47/cmds_8hpp.html#a17c4fad31f1ff04c15cd14dd2f4ec969", null ],
     [ "cmd_mem", "db/d47/cmds_8hpp.html#ac6f39d234686c206bcc60abc26ece16e", null ],
     [ "cmd_modinfo", "db/d47/cmds_8hpp.html#a8a766782bfd3025a46b1c1e96038eeba", null ],
+    [ "cmd_panic", "db/d47/cmds_8hpp.html#a0f2ea6bac645fb9f1e6bf9e684f5f18e", null ],
     [ "cmd_ps", "db/d47/cmds_8hpp.html#a5a8954ae6f88515ebde70f841c60605f", null ],
     [ "cmd_reboot", "db/d47/cmds_8hpp.html#a97a442890cba3f4b9e6ef3d8edd8ad36", null ],
     [ "cmd_shutdown", "db/d47/cmds_8hpp.html#a8cde4eda21980fd27e55f2e740512ff7", null ],

@@ -14,7 +14,7 @@ var conf_8c =
     [ "conf_cnt", "d7/d99/conf_8c.html#adca36efa148f1f99a53c4314c0196a09", null ],
     [ "defconfig_file", "d7/d99/conf_8c.html#a253ecfdd14c77ecd5acbdde17e5ff86a", null ],
     [ "indent", "d7/d99/conf_8c.html#a913a30aaae68bab9c263fd5208679335", null ],
-    [ "input_mode", "d7/d99/conf_8c.html#a577ea29d2225616cc5ffebce651518d7", null ],
+    [ "input_mode", "d7/d99/conf_8c.html#a7d6b268be5caa5512f5ed312783076f6", null ],
     [ "line", "d7/d99/conf_8c.html#a96d8d868879325eddae046d8581d9ddd", null ],
     [ "nohelp_text", "d7/d99/conf_8c.html#a85c477cf5ab0bc5379eca2bd925754de", null ],
     [ "rootEntry", "d7/d99/conf_8c.html#afc3fc1db1d10054e31ec767a17a0678f", null ],

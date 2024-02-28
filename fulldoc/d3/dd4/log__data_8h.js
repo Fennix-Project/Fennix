@@ -5,8 +5,8 @@ var log__data_8h =
       [ "ln2lo", "d3/dd4/log__data_8h.html#ab92db273219b2caab3f0c9a74a1f5fe3", null ],
       [ "poly", "d3/dd4/log__data_8h.html#a7bb11d64d42e7755ad435c0c016810b6", null ],
       [ "poly1", "d3/dd4/log__data_8h.html#ae842442d18cc04967f408d9db9480f03", null ],
-      [ "tab", "d3/dd4/log__data_8h.html#a56e5a5df27c1a1720bc8755bef79e17d", null ],
-      [ "tab2", "d3/dd4/log__data_8h.html#a593687fe3013c2d14353448c22cb495d", null ]
+      [ "tab", "d3/dd4/log__data_8h.html#a9afa98ed837be0fe1d3d1cceebc1580b", null ],
+      [ "tab2", "d3/dd4/log__data_8h.html#a0fabfea307f3dcee91ec97b3d765f90a", null ]
     ] ],
     [ "log_data.tab", "d3/dd4/log__data_8h.html#d5/d71/structlog__data_8tab", [
       [ "invc", "d3/dd4/log__data_8h.html#ac793896b0f1ce01182868fbf8e05ad42", null ],

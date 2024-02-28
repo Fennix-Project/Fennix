@@ -17,10 +17,10 @@ var gcov_8cpp =
       [ "version", "dd/d2a/gcov_8cpp.html#a5a049ffed86d34489ff070cb5a258dd2", null ]
     ] ],
     [ "gcov_type", "dd/d2a/gcov_8cpp.html#af02f96494747db45b9efcd7153f59bba", null ],
-    [ "__gcov_exit", "dd/d2a/gcov_8cpp.html#af46986dd9da7d73211f00c1718be7687", null ],
-    [ "__gcov_flush", "dd/d2a/gcov_8cpp.html#afa474a5c10d30a5435cb5b37a82196ed", null ],
-    [ "__gcov_init", "dd/d2a/gcov_8cpp.html#aadeb752b8b89094799eafb738eefbeea", null ],
-    [ "__gcov_merge_add", "dd/d2a/gcov_8cpp.html#a1a8ff13479ea7962a560a63bd3691651", null ],
-    [ "__gcov_merge_single", "dd/d2a/gcov_8cpp.html#a73ffcef28ec596797b89b5ed7392a2e6", null ],
-    [ "gcov_uart_wrapper", "dd/d2a/gcov_8cpp.html#a6ff7332e72df1822dea65f1b014c4efc", null ]
+    [ "__gcov_exit", "dd/d2a/gcov_8cpp.html#a470a980403cb8f873c28ea954de49bd3", null ],
+    [ "__gcov_flush", "dd/d2a/gcov_8cpp.html#ab4758fa8c1737fce2ac3ede43b062a84", null ],
+    [ "__gcov_init", "dd/d2a/gcov_8cpp.html#a8358e1fe13257b4fee38730921783ae5", null ],
+    [ "__gcov_merge_add", "dd/d2a/gcov_8cpp.html#aba69793b2fc6f2af6e4fcb689af937cb", null ],
+    [ "__gcov_merge_single", "dd/d2a/gcov_8cpp.html#a25fc8e038296544f9dd16a0cda29402a", null ],
+    [ "gcov_uart_wrapper", "dd/d2a/gcov_8cpp.html#a81fcfcb200c0dbcdda87daece995a1ce", null ]
 ];

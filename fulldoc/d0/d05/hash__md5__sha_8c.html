@@ -1796,7 +1796,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01177"></a><span class="lineno"> 1177</span>&#160;    {</div>
 <div class="line"><a name="l01178"></a><span class="lineno"> 1178</span>&#160;        <span class="keywordflow">if</span> (!shaNI) {</div>
 <div class="line"><a name="l01179"></a><span class="lineno"> 1179</span>&#160;            <span class="keywordtype">unsigned</span> eax = 7, ebx = ebx, ecx = 0, edx = edx;</div>
-<div class="line"><a name="l01180"></a><span class="lineno"> 1180</span>&#160;            <a class="code" href="../../de/d52/namespacex32.html#a59fc3e9846845e2d0cfed907b03530e1">cpuid</a>(&amp;eax, &amp;ebx, &amp;ecx, &amp;edx);</div>
+<div class="line"><a name="l01180"></a><span class="lineno"> 1180</span>&#160;            <a class="code" href="../../de/d78/namespaceCPU_1_1x32.html#a3a5fea71c780c7bc4e1ff5e76dc7594b">cpuid</a>(&amp;eax, &amp;ebx, &amp;ecx, &amp;edx);</div>
 <div class="line"><a name="l01181"></a><span class="lineno"> 1181</span>&#160;            shaNI = ((ebx &gt;&gt; 28) &amp; 2) - 1; <span class="comment">/* bit 29 -&gt; 1 or -1 */</span></div>
 <div class="line"><a name="l01182"></a><span class="lineno"> 1182</span>&#160;        }</div>
 <div class="line"><a name="l01183"></a><span class="lineno"> 1183</span>&#160;        <span class="keywordflow">if</span> (shaNI &gt; 0)</div>
@@ -1806,7 +1806,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01187"></a><span class="lineno"> 1187</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l01188"></a><span class="lineno"> 1188</span>&#160;}</div>
 <div class="ttc" id="ahash__md5__sha_8c_html_a8d2ca5fc76169fa15868698cacd4bbc9"><div class="ttname"><a href="../../d0/d05/hash__md5__sha_8c.html#a8d2ca5fc76169fa15868698cacd4bbc9">sha1_process_block64</a></div><div class="ttdeci">static void FAST_FUNC sha1_process_block64(sha1_ctx_t *ctx)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d05/hash__md5__sha_8c_source.html#l00730">hash_md5_sha.c:730</a></div></div>
-<div class="ttc" id="anamespacex32_html_a59fc3e9846845e2d0cfed907b03530e1"><div class="ttname"><a href="../../de/d52/namespacex32.html#a59fc3e9846845e2d0cfed907b03530e1">x32::cpuid</a></div><div class="ttdeci">static void cpuid(uint32_t Function, uint32_t *eax, uint32_t *ebx, uint32_t *ecx, uint32_t *edx)</div><div class="ttdoc">CPUID.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00432">cpu.hpp:432</a></div></div>
+<div class="ttc" id="anamespaceCPU_1_1x32_html_a3a5fea71c780c7bc4e1ff5e76dc7594b"><div class="ttname"><a href="../../de/d78/namespaceCPU_1_1x32.html#a3a5fea71c780c7bc4e1ff5e76dc7594b">CPU::x32::cpuid</a></div><div class="ttdeci">static void cpuid(uint32_t Function, uint32_t *eax, uint32_t *ebx, uint32_t *ecx, uint32_t *edx)</div><div class="ttdoc">CPUID.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00432">cpu.hpp:432</a></div></div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="../../d6/d7f/md5__sha1__sum_8c_source.html#l00159">hash_file()</a>, and <a class="el" href="../../d3/d47/apps_2base_2busybox_2networking_2tls_8c_source.html#l00499">hmac()</a>.</p>
 
@@ -1992,7 +1992,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01231"></a><span class="lineno"> 1231</span>&#160;    {</div>
 <div class="line"><a name="l01232"></a><span class="lineno"> 1232</span>&#160;        <span class="keywordflow">if</span> (!shaNI) {</div>
 <div class="line"><a name="l01233"></a><span class="lineno"> 1233</span>&#160;            <span class="keywordtype">unsigned</span> eax = 7, ebx = ebx, ecx = 0, edx = edx;</div>
-<div class="line"><a name="l01234"></a><span class="lineno"> 1234</span>&#160;            <a class="code" href="../../de/d52/namespacex32.html#a59fc3e9846845e2d0cfed907b03530e1">cpuid</a>(&amp;eax, &amp;ebx, &amp;ecx, &amp;edx);</div>
+<div class="line"><a name="l01234"></a><span class="lineno"> 1234</span>&#160;            <a class="code" href="../../de/d78/namespaceCPU_1_1x32.html#a3a5fea71c780c7bc4e1ff5e76dc7594b">cpuid</a>(&amp;eax, &amp;ebx, &amp;ecx, &amp;edx);</div>
 <div class="line"><a name="l01235"></a><span class="lineno"> 1235</span>&#160;            shaNI = ((ebx &gt;&gt; 28) &amp; 2) - 1; <span class="comment">/* bit 29 -&gt; 1 or -1 */</span></div>
 <div class="line"><a name="l01236"></a><span class="lineno"> 1236</span>&#160;        }</div>
 <div class="line"><a name="l01237"></a><span class="lineno"> 1237</span>&#160;        <span class="keywordflow">if</span> (shaNI &gt; 0)</div>

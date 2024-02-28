@@ -497,23 +497,24 @@ $(document).ready(function(){initNavTree('d0/df4/Kernel_2include_2types_8h_sourc
 <div class="line"><a name="l00413"></a><span class="lineno"><a class="line" href="../../d0/df4/Kernel_2include_2types_8h.html#ad17d551e31d1828c68acf40684849b7e">  413</a></span>&#160;<span class="preprocessor">#define PUBLIC __visibility(&quot;default&quot;</span>)</div>
 <div class="line"><a name="l00414"></a><span class="lineno"><a class="line" href="../../d0/df4/Kernel_2include_2types_8h.html#a5e151c615eda34903514212f05a5ccf8">  414</a></span>&#160;<span class="preprocessor">#define PRIVATE __visibility(&quot;hidden&quot;</span>)</div>
 <div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160; </div>
-<div class="line"><a name="l00416"></a><span class="lineno"><a class="line" href="../../d0/df4/Kernel_2include_2types_8h.html#a72459587db2f8ad7625b1814b20fff25">  416</a></span>&#160;<span class="preprocessor">#define SafeFunction __no_stack_protector __no_sanitize_address __no_sanitize_undefined __no_address_safety_analysis __no_sanitize_thread</span></div>
-<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160; </div>
-<div class="line"><a name="l00418"></a><span class="lineno"><a class="line" href="../../d0/df4/Kernel_2include_2types_8h.html#a1afe765b4510add91239ee23e5a89ba4">  418</a></span>&#160;<span class="preprocessor">#define NIF __no_instrument_function</span></div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160; </div>
-<div class="line"><a name="l00420"></a><span class="lineno"><a class="line" href="../../d0/df4/Kernel_2include_2types_8h.html#af90a6cfd43c9a4509afa907f57b7ec82">  420</a></span>&#160;<span class="preprocessor">#define int3                    \</span></div>
-<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;<span class="preprocessor">    __asm__ __volatile__(&quot;int3&quot;</span> \</div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;                         :      \</div>
+<div class="line"><a name="l00416"></a><span class="lineno"><a class="line" href="../../d0/df4/Kernel_2include_2types_8h.html#abc8ee13ff8297a56250fe9288fbe01da">  416</a></span>&#160;<span class="preprocessor">#define NoSecurityAnalysis __no_stack_protector __no_sanitize_address __no_sanitize_undefined __no_address_safety_analysis __no_sanitize_thread</span></div>
+<div class="line"><a name="l00417"></a><span class="lineno"><a class="line" href="../../d0/df4/Kernel_2include_2types_8h.html#a0d3da560e24cfa70ee06d69ce540fa30">  417</a></span>&#160;<span class="preprocessor">#define nsa NoSecurityAnalysis</span></div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160; </div>
+<div class="line"><a name="l00419"></a><span class="lineno"><a class="line" href="../../d0/df4/Kernel_2include_2types_8h.html#a1afe765b4510add91239ee23e5a89ba4">  419</a></span>&#160;<span class="preprocessor">#define NIF __no_instrument_function</span></div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160; </div>
+<div class="line"><a name="l00421"></a><span class="lineno"><a class="line" href="../../d0/df4/Kernel_2include_2types_8h.html#af90a6cfd43c9a4509afa907f57b7ec82">  421</a></span>&#160;<span class="preprocessor">#define int3                    \</span></div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;<span class="preprocessor">    __asm__ __volatile__(&quot;int3&quot;</span> \</div>
 <div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;                         :      \</div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;                         : &quot;memory&quot;)</div>
-<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160; </div>
-<div class="line"><a name="l00426"></a><span class="lineno"><a class="line" href="../../d0/df4/Kernel_2include_2types_8h.html#a6d1e5409ffecd89ae472bdc6f604fed2">  426</a></span>&#160;<span class="preprocessor">#define StackPush(stack, type, value) \</span></div>
-<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;<span class="preprocessor">    *((type *)--stack) = value;</span></div>
-<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160; </div>
-<div class="line"><a name="l00429"></a><span class="lineno"><a class="line" href="../../d0/df4/Kernel_2include_2types_8h.html#ad83960e71be00ceb4da131ff4f588757">  429</a></span>&#160;<span class="preprocessor">#define StackPop(stack, type) \</span></div>
-<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;<span class="preprocessor">    *((type *)stack++)</span></div>
-<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160; </div>
-<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !__FENNIX_KERNEL_TYPES_H__</span></div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;                         :      \</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;                         : &quot;memory&quot;)</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160; </div>
+<div class="line"><a name="l00427"></a><span class="lineno"><a class="line" href="../../d0/df4/Kernel_2include_2types_8h.html#a6d1e5409ffecd89ae472bdc6f604fed2">  427</a></span>&#160;<span class="preprocessor">#define StackPush(stack, type, value) \</span></div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;<span class="preprocessor">    *((type *)--stack) = value;</span></div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160; </div>
+<div class="line"><a name="l00430"></a><span class="lineno"><a class="line" href="../../d0/df4/Kernel_2include_2types_8h.html#ad83960e71be00ceb4da131ff4f588757">  430</a></span>&#160;<span class="preprocessor">#define StackPop(stack, type) \</span></div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;<span class="preprocessor">    *((type *)stack++)</span></div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160; </div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !__FENNIX_KERNEL_TYPES_H__</span></div>
 <div class="ttc" id="aDrivers_2include_2types_8h_html_a37aff01e955441499997a359a4153b3d"><div class="ttname"><a href="../../d4/dba/Drivers_2include_2types_8h.html#a37aff01e955441499997a359a4153b3d">off_t</a></div><div class="ttdeci">__SIZE_TYPE__ off_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dba/Drivers_2include_2types_8h_source.html#l00058">types.h:58</a></div></div>
 <div class="ttc" id="aDrivers_2include_2types_8h_html_a4c39e0c5c2965112d6b55652a6b7f781"><div class="ttname"><a href="../../d4/dba/Drivers_2include_2types_8h.html#a4c39e0c5c2965112d6b55652a6b7f781">mode_t</a></div><div class="ttdeci">__INT32_TYPE__ mode_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dba/Drivers_2include_2types_8h_source.html#l00059">types.h:59</a></div></div>
 <div class="ttc" id="aDrivers_2include_2types_8h_html_ab46c2d8e15a0ce794a8935841e5d6b92"><div class="ttname"><a href="../../d4/dba/Drivers_2include_2types_8h.html#ab46c2d8e15a0ce794a8935841e5d6b92">dev_t</a></div><div class="ttdeci">__SIZE_TYPE__ dev_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dba/Drivers_2include_2types_8h_source.html#l00057">types.h:57</a></div></div>

@@ -8,5 +8,5 @@ var signal_8cpp =
     [ "_sig_linux_trampoline_start", "d1/d08/signal_8cpp.html#afcb7aff9a365729fad684499d7584ea6", null ],
     [ "_sig_native_trampoline_end", "d1/d08/signal_8cpp.html#ad813a8fdee7fb1c2d663cad6221db599", null ],
     [ "_sig_native_trampoline_start", "d1/d08/signal_8cpp.html#a185bc5c40c4651e1b806a915f63c6115", null ],
-    [ "signalMapping", "d1/d08/signal_8cpp.html#a3dff69b738600990a35fd1905cad4aea", null ]
+    [ "signalMapping", "d1/d08/signal_8cpp.html#aa19dd148823df424ae6afd642e505f81", null ]
 ];

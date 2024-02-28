@@ -4,13 +4,13 @@ var annotated_dup =
     [ "__driverAPI", "dc/dec/struct____driverAPI.html", "dc/dec/struct____driverAPI" ],
     [ "__driverAPI.APIVersion", "db/de4/driver_8h.html#d8/d94/struct____driverAPI_8APIVersion", "db/de4/driver_8h_d8/d94/struct____driverAPI_8APIVersion" ],
     [ "__MouseButtons", "db/de4/driver_8h.html#d3/d9c/union____MouseButtons", "db/de4/driver_8h_d3/d9c/union____MouseButtons" ],
-    [ "__MouseButtons.__unnamed17__", "db/de4/driver_8h.html#d0/d50/struct____MouseButtons_8____unnamed17____", "db/de4/driver_8h_d0/d50/struct____MouseButtons_8____unnamed17____" ],
+    [ "__MouseButtons.__unnamed15__", "db/de4/driver_8h.html#dc/d64/struct____MouseButtons_8____unnamed15____", "db/de4/driver_8h_dc/d64/struct____MouseButtons_8____unnamed15____" ],
     [ "__PCIArray", "db/de4/driver_8h.html#df/d8a/struct____PCIArray", "db/de4/driver_8h_df/d8a/struct____PCIArray" ],
     [ "InternetProtocol4", "d0/d1e/structInternetProtocol4.html", "d0/d1e/structInternetProtocol4" ],
     [ "MediaAccessControl", "d0/d48/structMediaAccessControl.html", "d0/d48/structMediaAccessControl" ],
     [ "MouseReport", "de/ded/input_8h.html#db/d9a/structMouseReport", "de/ded/input_8h_db/d9a/structMouseReport" ],
     [ "MouseReport.__unnamed13__", "de/ded/input_8h.html#df/dea/unionMouseReport_8____unnamed13____", "de/ded/input_8h_df/dea/unionMouseReport_8____unnamed13____" ],
-    [ "MouseReport.__unnamed13__.__unnamed15__", "de/ded/input_8h.html#da/d31/structMouseReport_8____unnamed13_____8____unnamed15____", "de/ded/input_8h_da/d31/structMouseReport_8____unnamed13_____8____unnamed15____" ],
+    [ "MouseReport.__unnamed13__.__unnamed17__", "de/ded/input_8h.html#de/d3a/structMouseReport_8____unnamed13_____8____unnamed17____", "de/ded/input_8h_de/d3a/structMouseReport_8____unnamed13_____8____unnamed17____" ],
     [ "PS2_CONFIGURATION", "d1/de1/aip_8h.html#d5/d42/unionPS2__CONFIGURATION", "d1/de1/aip_8h_d5/d42/unionPS2__CONFIGURATION" ],
     [ "PS2_CONFIGURATION.__unnamed9__", "d1/de1/aip_8h.html#dd/d65/structPS2__CONFIGURATION_8____unnamed9____", "d1/de1/aip_8h_dd/d65/structPS2__CONFIGURATION_8____unnamed9____" ],
     [ "PS2_KBD_TYPEMATIC", "d7/df4/kbd_8h.html#d5/d94/unionPS2__KBD__TYPEMATIC", "d7/df4/kbd_8h_d5/d94/unionPS2__KBD__TYPEMATIC" ],
@@ -21,5 +21,5 @@ var annotated_dup =
     [ "PS2_OUTPUT_PORT", "d1/de1/aip_8h.html#da/dc6/unionPS2__OUTPUT__PORT", "d1/de1/aip_8h_da/dc6/unionPS2__OUTPUT__PORT" ],
     [ "PS2_OUTPUT_PORT.__unnamed11__", "d1/de1/aip_8h.html#db/d00/structPS2__OUTPUT__PORT_8____unnamed11____", "d1/de1/aip_8h_db/d00/structPS2__OUTPUT__PORT_8____unnamed11____" ],
     [ "PS2_STATUSES", "d1/de1/aip_8h.html#d7/d48/unionPS2__STATUSES", "d1/de1/aip_8h_d7/d48/unionPS2__STATUSES" ],
-    [ "PS2_STATUSES.__unnamed7__", "d1/de1/aip_8h.html#dd/daa/structPS2__STATUSES_8____unnamed7____", "d1/de1/aip_8h_dd/daa/structPS2__STATUSES_8____unnamed7____" ]
+    [ "PS2_STATUSES.__unnamed6__", "d1/de1/aip_8h.html#d0/d37/structPS2__STATUSES_8____unnamed6____", "d1/de1/aip_8h_d0/d37/structPS2__STATUSES_8____unnamed6____" ]
 ];

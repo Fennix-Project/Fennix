@@ -10,5 +10,5 @@ var searchData=
   ['ps2_5foutput_5fport_718',['PS2_OUTPUT_PORT',['../d1/de1/aip_8h.html#da/dc6/unionPS2__OUTPUT__PORT',1,'']]],
   ['ps2_5foutput_5fport_2e_5f_5funnamed11_5f_5f_719',['PS2_OUTPUT_PORT.__unnamed11__',['../d1/de1/aip_8h.html#db/d00/structPS2__OUTPUT__PORT_8____unnamed11____',1,'']]],
   ['ps2_5fstatuses_720',['PS2_STATUSES',['../d1/de1/aip_8h.html#d7/d48/unionPS2__STATUSES',1,'']]],
-  ['ps2_5fstatuses_2e_5f_5funnamed7_5f_5f_721',['PS2_STATUSES.__unnamed7__',['../d1/de1/aip_8h.html#dd/daa/structPS2__STATUSES_8____unnamed7____',1,'']]]
+  ['ps2_5fstatuses_2e_5f_5funnamed6_5f_5f_721',['PS2_STATUSES.__unnamed6__',['../d1/de1/aip_8h.html#d0/d37/structPS2__STATUSES_8____unnamed6____',1,'']]]
 ];

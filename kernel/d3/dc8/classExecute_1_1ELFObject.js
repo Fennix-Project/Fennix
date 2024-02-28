@@ -9,8 +9,6 @@ var classExecute_1_1ELFObject =
     [ "LoadExec_x86_32", "d3/dc8/classExecute_1_1ELFObject.html#ae8b05524769df726e64f2ccc3cdf4c57", null ],
     [ "LoadExec_x86_64", "d3/dc8/classExecute_1_1ELFObject.html#ae175f287f4df4b20bca70b9084cd8711", null ],
     [ "LoadInterpreter", "d3/dc8/classExecute_1_1ELFObject.html#ab4f81ffb001438f833770ff302910af6", null ],
-    [ "LoadPhdrs_x86_32", "d3/dc8/classExecute_1_1ELFObject.html#a3657af06f6216d8cfe0dc1b05d1ec70b", null ],
-    [ "LoadPhdrs_x86_64", "d3/dc8/classExecute_1_1ELFObject.html#a158b9622f5a6b77e636120aa5c1487bc", null ],
     [ "argv", "d3/dc8/classExecute_1_1ELFObject.html#a65f0ef586542aa6b3bade5450bf52c49", null ],
     [ "auxv", "d3/dc8/classExecute_1_1ELFObject.html#a3cefc6768489604dbf046b83fbc51812", null ],
     [ "ELFargv", "d3/dc8/classExecute_1_1ELFObject.html#a80aa4b265131389a65d75a5057ddd9e1", null ],

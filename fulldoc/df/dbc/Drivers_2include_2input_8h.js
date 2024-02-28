@@ -5,10 +5,10 @@ var Drivers_2include_2input_8h =
       [ "Y", "df/dbc/Drivers_2include_2input_8h.html#a92f0aa684e984362cc400ff38507d6ce", null ],
       [ "Z", "df/dbc/Drivers_2include_2input_8h.html#aa8d96a2473f48cd0f643552256ed37a4", null ]
     ] ],
-    [ "MouseReport.__unnamed1255__", "df/dbc/Drivers_2include_2input_8h.html#de/d93/unionMouseReport_8____unnamed1255____", [
+    [ "MouseReport.__unnamed1257__", "df/dbc/Drivers_2include_2input_8h.html#da/dab/unionMouseReport_8____unnamed1257____", [
       [ "Buttons", "df/dbc/Drivers_2include_2input_8h.html#a5b3ec15499a125805b5bbf8e4afcec8c", null ]
     ] ],
-    [ "MouseReport.__unnamed1255__.__unnamed1257__", "df/dbc/Drivers_2include_2input_8h.html#de/dc8/structMouseReport_8____unnamed1255_____8____unnamed1257____", [
+    [ "MouseReport.__unnamed1257__.__unnamed1259__", "df/dbc/Drivers_2include_2input_8h.html#da/da9/structMouseReport_8____unnamed1257_____8____unnamed1259____", [
       [ "Button4", "df/dbc/Drivers_2include_2input_8h.html#a91ff24acfc01cc2c3a4238a272a37d07", null ],
       [ "Button5", "df/dbc/Drivers_2include_2input_8h.html#af8849babaeaee3344306b87310664d65", null ],
       [ "LeftButton", "df/dbc/Drivers_2include_2input_8h.html#a2a81c1ce439d7652d7a61d55229c8043", null ],

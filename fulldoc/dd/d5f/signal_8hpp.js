@@ -6,7 +6,7 @@ var signal_8hpp =
     ] ],
     [ "sched_param", "d0/d36/Userspace_2musl_2include_2sched_8h.html#d4/d82/structsched__param", [
       [ "__reserved1", "d0/d36/Userspace_2musl_2include_2sched_8h.html#acb37f14728d7e330728ec2cd3f7ae6df", null ],
-      [ "__reserved2", "d0/d36/Userspace_2musl_2include_2sched_8h.html#ae8a729d06bd1abc0d31c665fb5d888e9", null ],
+      [ "__reserved2", "d0/d36/Userspace_2musl_2include_2sched_8h.html#a5f595c11fd9e51f8a67ba49f7394d1b9", null ],
       [ "__reserved3", "d0/d36/Userspace_2musl_2include_2sched_8h.html#a16b53b4184905f2cc587f14812853e52", null ],
       [ "sched_priority", "d0/d36/Userspace_2musl_2include_2sched_8h.html#aa0f2640949273f2c30549ed8d1bb197e", null ]
     ] ],
@@ -18,7 +18,7 @@ var signal_8hpp =
     ] ],
     [ "sigevent", "d7/df9/structsigevent.html", "d7/df9/structsigevent" ],
     [ "siginfo_t", "d1/d7b/libc_2include_2sys_2wait_8h.html#dc/dbc/structsiginfo__t", [
-      [ "__si_fields", "d1/d7b/libc_2include_2sys_2wait_8h.html#adca6a55300f760e928998c753f476c03", null ],
+      [ "__si_fields", "d1/d7b/libc_2include_2sys_2wait_8h.html#a668b294db726df3c795041314c8a1a26", null ],
       [ "si_code", "d1/d7b/libc_2include_2sys_2wait_8h.html#a0dd36ae3e9df589f5755f88c93671c2d", null ],
       [ "si_errno", "d1/d7b/libc_2include_2sys_2wait_8h.html#ae840a8f2824bab1693577f19f4d0432d", null ],
       [ "si_signo", "d1/d7b/libc_2include_2sys_2wait_8h.html#a238821f6eb15317d3d7b10efef80b9c7", null ],
