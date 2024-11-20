@@ -15,7 +15,11 @@ QEMUFLAGS := -display gtk
 ifeq ($(OSARCH), amd64)
 QEMUFLAGS += -device vmware-svga -M q35 \
 			 -usb \
-			 -usbdevice mouse \
+			 -device qemu-xhci,id=xhci \
+			 -device usb-mouse,bus=xhci.0,pcap=mousex.pcap \
+			 -device usb-kbd,bus=xhci.0,pcap=kbdx.pcap \
+			 -device usb-mouse,pcap=mouse.pcap \
+			 -device usb-kbd,pcap=kbd.pcap \
 			 -net user \
 			 -netdev user,id=usernet0 \
 			 -device e1000,netdev=usernet0,mac=00:69:96:00:42:00 \
@@ -23,7 +27,7 @@ QEMUFLAGS += -device vmware-svga -M q35 \
 			 -serial file:serial.log \
 			 -serial file:profiler.log \
 			 -serial file:serial3.dmp \
-			 -serial file:serial4.dmp \
+			 -serial stdio \
 			 -parallel file:parallel.log \
 			 -device ahci,id=ahci \
 			 -drive id=bootdsk,file=$(OSNAME).iso,format=raw,if=none \
@@ -39,7 +43,11 @@ QEMUFLAGS += -device vmware-svga -M q35 \
 else ifeq ($(OSARCH), i386)
 QEMUFLAGS += -M q35 \
 			 -usb \
-			 -usbdevice mouse \
+			 -device qemu-xhci,id=xhci \
+			 -device usb-mouse,bus=xhci.0,pcap=mousex.pcap \
+			 -device usb-kbd,bus=xhci.0,pcap=kbdx.pcap \
+			 -device usb-mouse,pcap=mouse.pcap \
+			 -device usb-kbd,pcap=kbd.pcap \
 			 -net user \
 			 -netdev user,id=usernet0 \
 			 -device e1000,netdev=usernet0,mac=00:69:96:00:42:00 \
@@ -47,7 +55,7 @@ QEMUFLAGS += -M q35 \
 			 -serial file:serial.log \
 			 -serial file:profiler.log \
 			 -serial file:serial3.dmp \
-			 -serial file:serial4.dmp \
+			 -serial stdio \
 			 -parallel file:parallel.log \
 			 -hda $(OSNAME).iso \
 			 -audiodev pa,id=pa1,server=/run/user/1000/pulse/native \
@@ -62,7 +70,7 @@ QEMUFLAGS += -M raspi3b \
 			 -serial file:serial.log \
 			 -serial file:profiler.log \
 			 -serial file:serial3.dmp \
-			 -serial file:serial4.dmp \
+			 -serial stdio \
 			 -kernel $(OSNAME).img \
 			 -acpitable file=tools/SSDT1.dat
 endif
@@ -131,9 +139,9 @@ endif
 ifeq ($(BUILD_USERSPACE), 1)
 	cp -r Userspace/out/* initrd_tmp_data/
 endif
-#	tar czf initrd.tar.gz -C initrd_tmp_data/ ./ --format=ustar
-	tar cf initrd.tar.gz -C initrd_tmp_data/ ./ --format=ustar
-	cp Kernel/fennix.elf initrd.tar.gz \
+#	tar czf initrd.tar -C initrd_tmp_data/ ./ --format=ustar
+	tar cf initrd.tar -C initrd_tmp_data/ ./ --format=ustar
+	cp Kernel/fennix.elf initrd.tar \
 		iso_tmp_data/
 ifeq ($(BOOTLOADER), lynx)
 	cp tools/lynx.cfg Lynx/loader.bin Lynx/efi-loader.bin iso_tmp_data/
@@ -202,28 +210,28 @@ QEMUHWACCELERATION =
 QEMUMEMORY = -m 1G
 endif
 
-vscode_debug_only:
-	rm -f serial.log profiler.log serial3.dmp serial4.dmp network.dmp parallel.log
-	$(QEMU) -S -gdb tcp::1234 -d int -no-reboot -no-shutdown $(QEMU_UEFI_BIOS) -m 512M $(QEMUFLAGS) $(QEMU_SMP_DBG)
+clean_logs:
+	rm -f serial.log profiler.log serial3.dmp network.dmp parallel.log mouse.pcap kbd.pcap mousex.pcap kbdx.pcap
+
+vscode_debug_only: clean_logs
+	$(QEMU) -S -gdb tcp::1234 -d cpu_reset,int -no-reboot -no-shutdown $(QEMU_UEFI_BIOS) -m 512M $(QEMUFLAGS) $(QEMU_SMP_DBG)
 
 vscode_debug: build_lynx build_kernel build_userspace build_drivers build_image vscode_debug_only
 
-qemu: qemu_vdisk
-	rm -f serial.log profiler.log serial3.dmp serial4.dmp network.dmp parallel.log
+qemu: qemu_vdisk clean_logs
 	touch serial.log parallel.log
 	# x-terminal-emulator -e tail -f serial.log &
 #	x-terminal-emulator -e tail -f parallel.log &
 	$(QEMU) $(QEMU_UEFI_BIOS) -cpu host $(QEMUFLAGS) $(QEMUHWACCELERATION) $(QEMUMEMORY) $(QEMU_SMP)
 
-qemubios: qemu_vdisk
-	rm -f serial.log profiler.log serial3.dmp serial4.dmp network.dmp parallel.log
+qemubios: qemu_vdisk clean_logs
 	$(QEMU) -cpu host $(QEMUFLAGS) $(QEMUHWACCELERATION) $(QEMUMEMORY) $(QEMU_SMP)
 
 run: build qemu
 
-clean:
+clean: clean_logs
 	rm -rf doxygen-doc iso_tmp_data initrd_tmp_data
-	rm -f initrd.tar.gz $(OSNAME).iso $(OSNAME).img
+	rm -f initrd.tar $(OSNAME).iso $(OSNAME).img
 	make -C Kernel clean
 	make -C Lynx clean
 	make -C Userspace clean

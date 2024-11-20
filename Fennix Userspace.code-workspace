@@ -8,6 +8,9 @@
 		"debug.allowBreakpointsEverywhere": true,
 		"files.associations": {
 			"*.su": "tsv",
+			"thread": "cpp",
+			"bitset": "cpp",
+			"initializer_list": "cpp",
 			"fex.hpp": "c",
 			"types.h": "c",
 			"dlfcn.h": "c",
@@ -44,7 +47,11 @@
 			"pty.h": "c",
 			"string.h": "c",
 			"time.h": "c",
-			"reboot.h": "c"
+			"reboot.h": "c",
+			"*.in": "c",
+			"signal.h": "c",
+			"alltypes.h": "c",
+			"pr44328.C": "cpp"
 		},
 		"cSpell.words": [
 			"auxv",

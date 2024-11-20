@@ -14,7 +14,7 @@ tools/*
 !tools/*.cpp
 !tools/*.cfg
 doxygen-doc
-initrd.tar.gz
+initrd.tar
 .dccache
 *.log
 *.log.*

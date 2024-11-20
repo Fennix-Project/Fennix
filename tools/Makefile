@@ -20,28 +20,23 @@ do_ep:
 do_limine:
 	git clone https://github.com/limine-bootloader/limine.git --branch=v6.x-branch-binary --depth=1
 
-clone_all:
-	git clone -b binutils-2_42-branch --single-branch https://github.com/Fennix-Project/binutils-gdb.git binutils-gdb
-	git clone -b releases/gcc-13 --single-branch https://github.com/Fennix-Project/gcc.git gcc
+__clone_qemu:
 	wget https://download.qemu.org/qemu-${QEMU_VERSION}.tar.xz
 	tar xvJf qemu-${QEMU_VERSION}.tar.xz
 	rm -f qemu-${QEMU_VERSION}.tar.xz
 	mv qemu-${QEMU_VERSION} qemu
+
+__clone_all_no_qemu:
+	git clone -b binutils-2_42-branch --single-branch https://github.com/Fennix-Project/binutils-gdb.git binutils-gdb
+	git clone -b releases/gcc-13 --single-branch https://github.com/Fennix-Project/gcc.git gcc
+	cd gcc && $(shell ./contrib/download_prerequisites)
 	mkdir -p cross
-	mkdir -p qemu
 	mkdir -p build-binutils64
 	mkdir -p build-gcc64
 	mkdir -p build-binutils32
 	mkdir -p build-gcc32
 
-__clone_all_no_qemu:
-	git clone https://github.com/Fennix-Project/binutils-gdb.git binutils-gdb
-	git clone https://github.com/Fennix-Project/gcc.git gcc
-	mkdir -p cross
-	mkdir -p build-binutils64
-	mkdir -p build-gcc64
-	mkdir -p build-binutils32
-	mkdir -p build-gcc32
+clone_all: __clone_qemu __clone_all_no_qemu
 
 do_qemu:
 	cd qemu && \
