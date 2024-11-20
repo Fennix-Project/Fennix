@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('d7/dc5/utimes_8c.html','../../'); init
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af699a511c741e201d3f95bd8f96c1f2d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dc5/utimes_8c.html#af699a511c741e201d3f95bd8f96c1f2d">utimes</a> (const char *path, const struct <a class="el" href="../../dc/d3d/lib_2readline_2posixtime_8h.html#d1/d1b/structtimeval">timeval</a> <a class="el" href="../../d4/d61/musl_2src_2time_2times_8c.html#a9c40827577895355c0e7db337d3fcbc8">times</a>[2])</td></tr>
+<tr class="memitem:af699a511c741e201d3f95bd8f96c1f2d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dc5/utimes_8c.html#af699a511c741e201d3f95bd8f96c1f2d">utimes</a> (const char *path, const struct timeval <a class="el" href="../../d5/dec/times_8c.html#a9c40827577895355c0e7db337d3fcbc8">times</a>[2])</td></tr>
 <tr class="separator:af699a511c741e201d3f95bd8f96c1f2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -118,7 +118,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const struct <a class="el" href="../../dc/d3d/lib_2readline_2posixtime_8h.html#d1/d1b/structtimeval">timeval</a>&#160;</td>
+          <td class="paramtype">const struct timeval&#160;</td>
           <td class="paramname"><em>times</em>[2]&#160;</td>
         </tr>
         <tr>
@@ -131,15 +131,15 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/dc5/utimes_8c_source.html#l00005">5</a> of file <a class="el" href="../../d7/dc5/utimes_8c_source.html">utimes.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d9/d03/musl_2src_2include_2sys_2time_8h.html#abdaf4a9839db947723f67b91b60be2ba">__futimesat</a>(<a class="code" href="../../d2/d44/musl_2include_2fcntl_8h.html#a301749b9aa4b9416c329bb8b19345216">AT_FDCWD</a>, path, <a class="code" href="../../d4/d78/apps_2base_2bash_2lib_2sh_2times_8c.html#a9c40827577895355c0e7db337d3fcbc8">times</a>);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d9/d03/musl_2src_2include_2sys_2time_8h.html#abdaf4a9839db947723f67b91b60be2ba">__futimesat</a>(<a class="code" href="../../d2/d44/musl_2include_2fcntl_8h.html#a301749b9aa4b9416c329bb8b19345216">AT_FDCWD</a>, path, <a class="code" href="../../d3/d15/times_8h.html#ae09b58dd4e07018d157cc19d324dd6bc">times</a>);</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
-<div class="ttc" id="aapps_2base_2bash_2lib_2sh_2times_8c_html_a9c40827577895355c0e7db337d3fcbc8"><div class="ttname"><a href="../../d4/d78/apps_2base_2bash_2lib_2sh_2times_8c.html#a9c40827577895355c0e7db337d3fcbc8">times</a></div><div class="ttdeci">clock_t times(struct tms *tms)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d78/apps_2base_2bash_2lib_2sh_2times_8c_source.html#l00038">times.c:38</a></div></div>
 <div class="ttc" id="amusl_2include_2fcntl_8h_html_a301749b9aa4b9416c329bb8b19345216"><div class="ttname"><a href="../../d2/d44/musl_2include_2fcntl_8h.html#a301749b9aa4b9416c329bb8b19345216">AT_FDCWD</a></div><div class="ttdeci">#define AT_FDCWD</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d44/musl_2include_2fcntl_8h_source.html#l00060">fcntl.h:60</a></div></div>
 <div class="ttc" id="amusl_2src_2include_2sys_2time_8h_html_abdaf4a9839db947723f67b91b60be2ba"><div class="ttname"><a href="../../d9/d03/musl_2src_2include_2sys_2time_8h.html#abdaf4a9839db947723f67b91b60be2ba">__futimesat</a></div><div class="ttdeci">hidden int __futimesat(int, const char *, const struct timeval[2])</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dc0/futimesat_8c_source.html#l00007">futimesat.c:7</a></div></div>
+<div class="ttc" id="atimes_8h_html_ae09b58dd4e07018d157cc19d324dd6bc"><div class="ttname"><a href="../../d3/d15/times_8h.html#ae09b58dd4e07018d157cc19d324dd6bc">times</a></div><div class="ttdeci">clock_t times(struct tms *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dec/times_8c_source.html#l00004">times.c:4</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/dc0/futimesat_8c_source.html#l00007">__futimesat()</a>, <a class="el" href="../../d2/d44/musl_2include_2fcntl_8h_source.html#l00060">AT_FDCWD</a>, and <a class="el" href="../../d4/d78/apps_2base_2bash_2lib_2sh_2times_8c_source.html#l00038">times()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/dc0/futimesat_8c_source.html#l00007">__futimesat()</a>, <a class="el" href="../../d2/d44/musl_2include_2fcntl_8h_source.html#l00060">AT_FDCWD</a>, and <a class="el" href="../../d5/dec/times_8c_source.html#l00004">times()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d89/utimes__time32_8c_source.html#l00006">__utimes_time32()</a>, <a class="el" href="../../dc/d13/bbunzip_8c_source.html#l00040">bbunpack()</a>, <a class="el" href="../../d1/d64/copy__file_8c_source.html#l00080">copy_file()</a>, and <a class="el" href="../../d9/ded/data__extract__all_8c_source.html#l00008">data_extract_all()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d89/utimes__time32_8c_source.html#l00006">__utimes_time32()</a>.</p>
 
 </div>
 </div>

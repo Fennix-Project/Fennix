@@ -22,9 +22,6 @@ var lookup_8h =
       [ "sortkey", "dd/d45/lookup_8h.html#ab39bf9c0ac8930ef08364b1d9cb73c9a", null ]
     ] ],
     [ "service", "dd/d45/lookup_8h.html#dd/dde/structservice", [
-      [ "ino", "dd/d45/lookup_8h.html#a91f75377659275480f4d907ff53976e8", null ],
-      [ "isgone", "dd/d45/lookup_8h.html#ad622ebf6faee730dfc672bac7e3e9acb", null ],
-      [ "pid", "dd/d45/lookup_8h.html#a68858bb59fc73065d878b93b9ca14e63", null ],
       [ "port", "dd/d45/lookup_8h.html#ad49b3b87333ca90e3d3153624d7d4223", null ],
       [ "proto", "dd/d45/lookup_8h.html#a8d3d595f101037e7094f75d25dd53c48", null ],
       [ "socktype", "dd/d45/lookup_8h.html#a8c682feeabb0e88f7d03a6106e777f44", null ]

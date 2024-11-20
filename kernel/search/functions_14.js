@@ -1,16 +1,18 @@
 var searchData=
 [
-  ['v1_11253',['V1',['../d5/d32/classXalloc_1_1V1.html#a1c89bdc0c55361aa9099706509a1c024',1,'Xalloc::V1']]],
-  ['v2_11254',['V2',['../df/d2f/classXalloc_1_1V2.html#a61030a5dcf8d7d309d0d39d019c841f0',1,'Xalloc::V2']]],
-  ['valid_11255',['Valid',['../d0/d48/structMediaAccessControl.html#ad2f33be9751c82d3caa569e1feb285cc',1,'MediaAccessControl']]],
-  ['vendor_11256',['Vendor',['../d7/dfa/namespaceCPU.html#a5ec1ffd60694e9823ed2cb69ee1b37cd',1,'CPU']]],
-  ['vfctprintf_11257',['vfctprintf',['../d1/d3d/printf_8c.html#a024b7737a2f45d4e089e69fd86259199',1,'vfctprintf(void(*out)(char c, void *extra_arg), void *extra_arg, const char *format, va_list arg):&#160;printf.c'],['../d3/d6b/printf_8h.html#a47c8d7b7f2120352c780f49b0212a13d',1,'vfctprintf(void(*out)(char c, void *extra_arg), void *extra_arg, const char *format, va_list arg) ATTR_VPRINTF(3):&#160;printf.c']]],
-  ['vfsroot_11258',['vfsRoot',['../dd/da8/classvfs_1_1vfsRoot.html#a597e3772631b94ce9ef99f1024f4cc61',1,'vfs::vfsRoot']]],
-  ['virtual_11259',['Virtual',['../db/d82/classMemory_1_1Virtual.html#acc634057cea394c0bee246c5de84f9a2',1,'Memory::Virtual::Virtual()'],['../d8/d64/classvfs_1_1Virtual.html#a5ed65c7924b9294571e30b6ebd7c9d17',1,'vfs::Virtual::Virtual()']]],
-  ['virtualmemoryarea_11260',['VirtualMemoryArea',['../d5/d49/classMemory_1_1VirtualMemoryArea.html#a9738d2584583a4934398d7b91ab4b126',1,'Memory::VirtualMemoryArea']]],
-  ['vprintf_11261',['vprintf',['../d3/d6b/printf_8h.html#a60eafc0462174ced134abb3714d9c85a',1,'vprintf(const char *format, va_list arg) ATTR_VPRINTF(1):&#160;printf.c'],['../d1/d3d/printf_8c.html#ac6e63a30151a244ebf8d186bbfc33993',1,'vprintf(const char *format, va_list arg):&#160;printf.c']]],
-  ['vprintf_5fdumper_11262',['vprintf_dumper',['../d2/dbb/dumper_8cpp.html#a85dbb01b7d5c3548bcf1c9f5006985c4',1,'dumper.cpp']]],
-  ['vsnprintf_11263',['vsnprintf',['../d3/d6b/printf_8h.html#a715af29d23f9914db8ecafd4b94a7e14',1,'vsnprintf(char *s, size_t count, const char *format, va_list arg) ATTR_VPRINTF(3):&#160;printf.c'],['../d1/d3d/printf_8c.html#a20b2f66f54007c7c0dc9f882fe6fecd6',1,'vsnprintf(char *s, size_t n, const char *format, va_list arg):&#160;printf.c']]],
-  ['vsnprintf_5fimpl_11264',['vsnprintf_impl',['../d1/d3d/printf_8c.html#a8f113117ed86f8d40f5ff9af89131aca',1,'printf.c']]],
-  ['vsprintf_11265',['vsprintf',['../d3/d6b/printf_8h.html#a2e8aa13bfb0ae95cdd2a2dbeea602cce',1,'vsprintf(char *s, const char *format, va_list arg) ATTR_VPRINTF(2):&#160;printf.c'],['../d1/d3d/printf_8c.html#ab7d1618329533a1dd57662c0a402bf76',1,'vsprintf(char *s, const char *format, va_list arg):&#160;printf.c']]]
+  ['v1_12205',['V1',['../d5/d32/classXalloc_1_1V1.html#a1c89bdc0c55361aa9099706509a1c024',1,'Xalloc::V1']]],
+  ['v2_12206',['V2',['../df/d2f/classXalloc_1_1V2.html#a61030a5dcf8d7d309d0d39d019c841f0',1,'Xalloc::V2']]],
+  ['valid_12207',['Valid',['../d0/d48/structMediaAccessControl.html#ad2f33be9751c82d3caa569e1feb285cc',1,'MediaAccessControl']]],
+  ['vasprintf_12208',['vasprintf',['../df/dce/stdio_8cpp.html#a0854e3d6bab8fe2382fce41ad276fc38',1,'vasprintf(char **strp, const char *fmt, va_list ap):&#160;stdio.cpp'],['../d6/dd1/stdio_8h.html#a08a96b20f8339b3e260bd82d36d5f83c',1,'vasprintf(char **strp, const char *fmt, va_list ap) __attribute__((format(__printf__:&#160;stdio.h']]],
+  ['vendor_12209',['Vendor',['../d7/dfa/namespaceCPU.html#a5ec1ffd60694e9823ed2cb69ee1b37cd',1,'CPU']]],
+  ['vfctprintf_12210',['vfctprintf',['../d1/d3d/printf_8c.html#a024b7737a2f45d4e089e69fd86259199',1,'vfctprintf(void(*out)(char c, void *extra_arg), void *extra_arg, const char *format, va_list arg):&#160;printf.c'],['../d3/d6b/printf_8h.html#a47c8d7b7f2120352c780f49b0212a13d',1,'vfctprintf(void(*out)(char c, void *extra_arg), void *extra_arg, const char *format, va_list arg) ATTR_VPRINTF(3):&#160;printf.c']]],
+  ['virtual_12211',['Virtual',['../db/d82/classMemory_1_1Virtual.html#acc634057cea394c0bee246c5de84f9a2',1,'Memory::Virtual::Virtual()'],['../d8/d64/classvfs_1_1Virtual.html#a5ed65c7924b9294571e30b6ebd7c9d17',1,'vfs::Virtual::Virtual()']]],
+  ['virtualallocation_12212',['VirtualAllocation',['../d5/db9/classMemory_1_1VirtualAllocation.html#aab6a5f0821db105f989758f6a31ae5fe',1,'Memory::VirtualAllocation']]],
+  ['virtualmemoryarea_12213',['VirtualMemoryArea',['../d5/d49/classMemory_1_1VirtualMemoryArea.html#a76b9e6de6c34f51433a03dee9845911e',1,'Memory::VirtualMemoryArea']]],
+  ['virtualterminal_12214',['VirtualTerminal',['../d1/de0/classKernelConsole_1_1VirtualTerminal.html#a20713815a39803693deb9caca52362f5',1,'KernelConsole::VirtualTerminal']]],
+  ['vprintf_12215',['vprintf',['../d3/d6b/printf_8h.html#a60eafc0462174ced134abb3714d9c85a',1,'vprintf(const char *format, va_list arg) ATTR_VPRINTF(1):&#160;printf.c'],['../d6/dd1/stdio_8h.html#aa0e2c3030c08fe46d44c9131ecc33285',1,'vprintf(const char *format, va_list arg) __attribute__((format(__printf__:&#160;stdio.h'],['../d1/d3d/printf_8c.html#ac6e63a30151a244ebf8d186bbfc33993',1,'vprintf(const char *format, va_list arg):&#160;printf.c']]],
+  ['vprintf_5fdumper_12216',['vprintf_dumper',['../d2/dbb/dumper_8cpp.html#a85dbb01b7d5c3548bcf1c9f5006985c4',1,'dumper.cpp']]],
+  ['vsnprintf_12217',['vsnprintf',['../d3/d6b/printf_8h.html#a715af29d23f9914db8ecafd4b94a7e14',1,'vsnprintf(char *s, size_t count, const char *format, va_list arg) ATTR_VPRINTF(3):&#160;printf.c'],['../d6/dd1/stdio_8h.html#a5cfc08dc4a9c786161236f2067f9a349',1,'vsnprintf(char *s, size_t count, const char *format, va_list arg) __attribute__((format(__printf__:&#160;stdio.h'],['../d1/d3d/printf_8c.html#a20b2f66f54007c7c0dc9f882fe6fecd6',1,'vsnprintf(char *s, size_t n, const char *format, va_list arg):&#160;printf.c']]],
+  ['vsnprintf_5fimpl_12218',['vsnprintf_impl',['../d1/d3d/printf_8c.html#a8f113117ed86f8d40f5ff9af89131aca',1,'printf.c']]],
+  ['vsprintf_12219',['vsprintf',['../d3/d6b/printf_8h.html#a2e8aa13bfb0ae95cdd2a2dbeea602cce',1,'vsprintf(char *s, const char *format, va_list arg) ATTR_VPRINTF(2):&#160;printf.c'],['../d6/dd1/stdio_8h.html#a561373a43b4b20cc27ae1dca47e6b491',1,'vsprintf(char *s, const char *format, va_list arg) __attribute__((format(__printf__:&#160;stdio.h'],['../d1/d3d/printf_8c.html#ab7d1618329533a1dd57662c0a402bf76',1,'vsprintf(char *s, const char *format, va_list arg):&#160;printf.c']]]
 ];

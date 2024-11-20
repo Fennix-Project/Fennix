@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('de/d23/klogctl_8c.html','../../'); ini
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a958a71503f81804a4d65817303393068"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d23/klogctl_8c.html#a958a71503f81804a4d65817303393068">klogctl</a> (int <a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>, char *<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>, int len)</td></tr>
+<tr class="memitem:a958a71503f81804a4d65817303393068"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d23/klogctl_8c.html#a958a71503f81804a4d65817303393068">klogctl</a> (int type, char *<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>, int len)</td></tr>
 <tr class="separator:a958a71503f81804a4d65817303393068"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -136,15 +136,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d23/klogctl_8c_source.html#l00004">4</a> of file <a class="el" href="../../de/d23/klogctl_8c_source.html">klogctl.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_syslog, <a class="code" href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a>, <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, len);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_syslog, type, <a class="code" href="../../da/da9/setlocale_8c.html#a9375469e25223d13fe7c2facb5c319f7">buf</a>, len);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="aapps_2base_2busybox_2coreutils_2stat_8c_html_aa29b866765bdc5bdf87b7eb666d66093"><div class="ttname"><a href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a></div><div class="ttdeci">#define buf</div></div>
+<div class="ttc" id="asetlocale_8c_html_a9375469e25223d13fe7c2facb5c319f7"><div class="ttname"><a href="../../da/da9/setlocale_8c.html#a9375469e25223d13fe7c2facb5c319f7">buf</a></div><div class="ttdeci">static char buf[LC_ALL *(LOCALE_NAME_MAX+1)]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/da9/setlocale_8c_source.html#l00008">setlocale.c:8</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
-<div class="ttc" id="axatonum_8c_html_a53155e22eaa05190346890241be3367c"><div class="ttname"><a href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a></div><div class="ttdeci">#define type</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d80/xatonum_8c_source.html#l00011">xatonum.c:11</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>, and <a class="el" href="../../d1/d80/xatonum_8c_source.html#l00011">type</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../de/d76/dmesg_8c_source.html#l00061">dmesg_main()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/da9/setlocale_8c_source.html#l00008">buf</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
 </div>
 </div>

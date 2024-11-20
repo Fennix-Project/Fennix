@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('da/daf/getline_8c.html','../../'); ini
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7a855597e71892b93843add3ed36d355"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/daf/getline_8c.html#a7a855597e71892b93843add3ed36d355">getline</a> (char **restrict <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> *restrict <a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>, <a class="el" href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a> *restrict <a class="el" href="../../d7/d06/getpwent_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>)</td></tr>
+<tr class="memitem:a7a855597e71892b93843add3ed36d355"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/daf/getline_8c.html#a7a855597e71892b93843add3ed36d355">getline</a> (char **restrict s, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> *restrict <a class="el" href="../../dc/de5/random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>, <a class="el" href="../../d8/d67/Kernel_2include__std_2stdio_8h.html#de/dc3/structFILE">FILE</a> *restrict <a class="el" href="../../d7/d06/getpwent_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>)</td></tr>
 <tr class="separator:a7a855597e71892b93843add3ed36d355"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -122,7 +122,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a> *restrict&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d8/d67/Kernel_2include__std_2stdio_8h.html#de/dc3/structFILE">FILE</a> *restrict&#160;</td>
           <td class="paramname"><em>f</em>&#160;</td>
         </tr>
         <tr>
@@ -135,14 +135,15 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/daf/getline_8c_source.html#l00003">3</a> of file <a class="el" href="../../da/daf/getline_8c_source.html">getline.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/d1a/getdelim_8c.html#afaf3d7ee076e35ab1e5be3a810e46602">getdelim</a>(<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>, <span class="charliteral">&#39;\n&#39;</span>, <a class="code" href="../../d0/dd9/getusershell_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/d1a/getdelim_8c.html#afaf3d7ee076e35ab1e5be3a810e46602">getdelim</a>(s, <a class="code" href="../../dc/de5/random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>, <span class="charliteral">&#39;\n&#39;</span>, <a class="code" href="../../d0/dd9/getusershell_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
-<div class="ttc" id="aarpping_8c_html_ac9562ee4ecb3b8aeebeb04656e7e57a9"><div class="ttname"><a href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a></div><div class="ttdeci">#define s</div></div>
-<div class="ttc" id="adcigettext_8c_html_a58257445f1a929304e537613b62ebb35"><div class="ttname"><a href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a></div><div class="ttdeci">unsigned long int n</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d32/dcigettext_8c_source.html#l00441">dcigettext.c:441</a></div></div>
 <div class="ttc" id="agetdelim_8c_html_afaf3d7ee076e35ab1e5be3a810e46602"><div class="ttname"><a href="../../d4/d1a/getdelim_8c.html#afaf3d7ee076e35ab1e5be3a810e46602">getdelim</a></div><div class="ttdeci">ssize_t getdelim(char **restrict s, size_t *restrict n, int delim, FILE *restrict f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1a/getdelim_8c_source.html#l00007">getdelim.c:7</a></div></div>
 <div class="ttc" id="agetusershell_8c_html_a3efb0e1a16208deecbd84c15401f7cf8"><div class="ttname"><a href="../../d0/dd9/getusershell_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a></div><div class="ttdeci">static FILE * f</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd9/getusershell_8c_source.html#l00009">getusershell.c:9</a></div></div>
+<div class="ttc" id="arandom_8c_html_a76f11d9a0a47b94f72c2d0e77fb32240"><div class="ttname"><a href="../../dc/de5/random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a></div><div class="ttdeci">static int n</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de5/random_8c_source.html#l00022">random.c:22</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/dd9/getusershell_8c_source.html#l00009">f</a>, <a class="el" href="../../d4/d1a/getdelim_8c_source.html#l00007">getdelim()</a>, <a class="el" href="../../d0/d32/dcigettext_8c_source.html#l00441">n</a>, and <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/dd9/getusershell_8c_source.html#l00009">f</a>, <a class="el" href="../../d4/d1a/getdelim_8c_source.html#l00007">getdelim()</a>, and <a class="el" href="../../dc/de5/random_8c_source.html#l00022">n</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d3/d35/getgrent__a_8c_source.html#l00011">__getgrent_a()</a>, <a class="el" href="../../d6/d92/getpwent__a_8c_source.html#l00011">__getpwent_a()</a>, <a class="el" href="../../da/d68/fgetln_8c_source.html#l00005">fgetln()</a>, <a class="el" href="../../d2/d9a/fgetspent_8c_source.html#l00004">fgetspent()</a>, <a class="el" href="../../de/dbb/mntent_8c_source.html#l00023">getmntent_r()</a>, <a class="el" href="../../d0/dd9/getusershell_8c_source.html#l00023">getusershell()</a>, and <a class="el" href="../../df/d55/userspace__test_8c_source.html#l00294">test_stdio()</a>.</p>
 
 </div>
 </div>

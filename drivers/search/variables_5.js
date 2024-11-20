@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['freepages_839',['FreePages',['../dc/dec/struct____driverAPI.html#a49d934b083d31d43a87525e4288e204b',1,'__driverAPI']]],
-  ['function_840',['Function',['../d9/d97/pci_8h.html#a41799e343181bb0f313551ceacc1d699',1,'__attribute__']]]
+  ['flags_969',['Flags',['../df/d26/fs_8h.html#ab5bfae4f7951e37243599de928130341',1,'Inode::Flags()'],['../df/d26/fs_8h.html#a3790269ab0eed561191ef95d65747e82',1,'FileSystemInfo::Flags()'],['../df/d26/fs_8h.html#ac3e60a9fc42fb6c0b656191ebb1d658b',1,'Flags():&#160;fs.h']]],
+  ['function_970',['Function',['../d9/d97/pci_8h.html#a41799e343181bb0f313551ceacc1d699',1,'__attribute__']]]
 ];

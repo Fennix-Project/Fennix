@@ -1,8 +1,8 @@
 var dir_074df9cc1fb74d76bff746c5e66f2f07 =
 [
     [ "a64l.c", "dd/d7c/a64l_8c.html", "dd/d7c/a64l_8c" ],
-    [ "basename.c", "dc/dd9/musl_2src_2misc_2basename_8c.html", "dc/dd9/musl_2src_2misc_2basename_8c" ],
-    [ "dirname.c", "d7/d22/musl_2src_2misc_2dirname_8c.html", "d7/d22/musl_2src_2misc_2dirname_8c" ],
+    [ "basename.c", "d3/d5a/basename_8c.html", "d3/d5a/basename_8c" ],
+    [ "dirname.c", "d9/df0/dirname_8c.html", "d9/df0/dirname_8c" ],
     [ "ffs.c", "de/df2/ffs_8c.html", "de/df2/ffs_8c" ],
     [ "ffsl.c", "d9/df4/ffsl_8c.html", "d9/df4/ffsl_8c" ],
     [ "ffsll.c", "dd/dfa/ffsll_8c.html", "dd/dfa/ffsll_8c" ],
@@ -13,7 +13,7 @@ var dir_074df9cc1fb74d76bff746c5e66f2f07 =
     [ "getdomainname.c", "d9/d81/getdomainname_8c.html", "d9/d81/getdomainname_8c" ],
     [ "getentropy.c", "d5/dd2/getentropy_8c.html", "d5/dd2/getentropy_8c" ],
     [ "gethostid.c", "d8/d7f/gethostid_8c.html", "d8/d7f/gethostid_8c" ],
-    [ "getopt.c", "d7/dee/musl_2src_2misc_2getopt_8c.html", "d7/dee/musl_2src_2misc_2getopt_8c" ],
+    [ "getopt.c", "dc/d53/getopt_8c.html", "dc/d53/getopt_8c" ],
     [ "getopt_long.c", "de/de0/getopt__long_8c.html", "de/de0/getopt__long_8c" ],
     [ "getpriority.c", "d6/dda/getpriority_8c.html", "d6/dda/getpriority_8c" ],
     [ "getresgid.c", "dd/d7a/getresgid_8c.html", "dd/d7a/getresgid_8c" ],
@@ -31,12 +31,12 @@ var dir_074df9cc1fb74d76bff746c5e66f2f07 =
     [ "openpty.c", "d3/d8e/openpty_8c.html", "d3/d8e/openpty_8c" ],
     [ "ptsname.c", "da/dfc/ptsname_8c.html", "da/dfc/ptsname_8c" ],
     [ "pty.c", "dd/d8f/pty_8c.html", "dd/d8f/pty_8c" ],
-    [ "realpath.c", "d0/d21/musl_2src_2misc_2realpath_8c.html", "d0/d21/musl_2src_2misc_2realpath_8c" ],
+    [ "realpath.c", "de/d6a/realpath_8c.html", "de/d6a/realpath_8c" ],
     [ "setdomainname.c", "dd/dd7/setdomainname_8c.html", "dd/dd7/setdomainname_8c" ],
     [ "setpriority.c", "dc/d2b/setpriority_8c.html", "dc/d2b/setpriority_8c" ],
     [ "setrlimit.c", "d9/d7e/setrlimit_8c.html", "d9/d7e/setrlimit_8c" ],
     [ "syscall.c", "db/dd8/syscall_8c.html", "db/dd8/syscall_8c" ],
     [ "syslog.c", "d4/d2f/syslog_8c.html", "d4/d2f/syslog_8c" ],
-    [ "uname.c", "d7/d63/musl_2src_2misc_2uname_8c.html", "d7/d63/musl_2src_2misc_2uname_8c" ],
+    [ "uname.c", "df/dfe/uname_8c.html", "df/dfe/uname_8c" ],
     [ "wordexp.c", "d8/dbe/wordexp_8c.html", "d8/dbe/wordexp_8c" ]
 ];

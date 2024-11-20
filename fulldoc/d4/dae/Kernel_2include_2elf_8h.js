@@ -102,15 +102,15 @@ var Kernel_2include_2elf_8h =
     ] ],
     [ "Elf32_Dyn", "d5/d81/Userspace_2musl_2include_2elf_8h.html#d8/d23/structElf32__Dyn", [
       [ "d_tag", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a0edbe45a1c49cbb352dc3e1937369180", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a2c7ebbe11ca5152994acf863abc6d4d0", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a372cbf8d7954175bb37d9b550dbb542e", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a645ecb7384b5e52bb9bfca27910f2433", null ]
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#aa47d3c0e452101e66e75359f4c8b7bf0", null ],
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a63d62510b1afd2db0a129c27d0b3f18f", null ],
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#aa4482e1dba292c44b24374e7506bdb6c", null ]
     ] ],
     [ "Elf64_Dyn", "d5/d81/Userspace_2musl_2include_2elf_8h.html#dd/d27/structElf64__Dyn", [
       [ "d_tag", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a74a63e5acb7d8ddc946a5b0c5eb3c26a", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a558206711cbf0ab83e83b1d4d12fa051", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#af3e85bc7a45c089d29ab9f395a4fde3b", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#abe71f17a6d100f6a7887f50378614476", null ]
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#ab7e8ce9f3262a243fbe4ca582035f9f6", null ],
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#aad8eff5ecce60013ed091b3c875eaa30", null ],
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a963bceda64e1bdbd6c72595880dfa6f7", null ]
     ] ],
     [ "Elf32_Rela", "d5/d81/Userspace_2musl_2include_2elf_8h.html#d6/d35/structElf32__Rela", [
       [ "r_addend", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a1952286a900648afb9029c68a8bcea4d", null ],
@@ -518,8 +518,27 @@ var Kernel_2include_2elf_8h =
     [ "NT_VMCOREDD", "d4/dae/Kernel_2include_2elf_8h.html#a23b2cf2ecf3dc6f424a5a8aee377622c", null ],
     [ "NT_X86_XSTATE", "d4/dae/Kernel_2include_2elf_8h.html#ac493304ad89c06cf13bcd77db971b63d", null ],
     [ "SHF_ALLOC", "d4/dae/Kernel_2include_2elf_8h.html#a38476fe4ed88ac83ba86a4e103199a86", null ],
+    [ "SHF_EXCLUDE", "d4/dae/Kernel_2include_2elf_8h.html#a98ca1749abc6ff4d911bb617feda32fd", null ],
+    [ "SHF_EXECINSTR", "d4/dae/Kernel_2include_2elf_8h.html#ab3780594e35fbbc6e5028bcb921d0a76", null ],
+    [ "SHF_GROUP", "d4/dae/Kernel_2include_2elf_8h.html#aebc04de80df0464f9e5219e6aac45f36", null ],
+    [ "SHF_INFO_LINK", "d4/dae/Kernel_2include_2elf_8h.html#a55c4381ab5a6fe81cd75120dabe34efb", null ],
+    [ "SHF_LINK_ORDER", "d4/dae/Kernel_2include_2elf_8h.html#a3085e8ad26bada9ade3f7bb0ac0732d2", null ],
+    [ "SHF_MASKOS", "d4/dae/Kernel_2include_2elf_8h.html#ac28c1d15309ad8127ac3e7cb984bc195", null ],
+    [ "SHF_MASKPROC", "d4/dae/Kernel_2include_2elf_8h.html#a4a5fff5464bf6eb2a4d8a86481cff333", null ],
+    [ "SHF_MERGE", "d4/dae/Kernel_2include_2elf_8h.html#a3bb64a905c4977463bdd4ad7f30691db", null ],
+    [ "SHF_ORDERED", "d4/dae/Kernel_2include_2elf_8h.html#ad80d02913537850553f652eb8eb8de91", null ],
+    [ "SHF_OS_NONCONFORMING", "d4/dae/Kernel_2include_2elf_8h.html#a4c157dd84b2d90deef783fd4dbeba015", null ],
+    [ "SHF_STRINGS", "d4/dae/Kernel_2include_2elf_8h.html#a9122dd0dc0f69b0d03f694ac639a32d1", null ],
+    [ "SHF_TLS", "d4/dae/Kernel_2include_2elf_8h.html#a2484a824af96dca3fb77c4fb8898e83b", null ],
     [ "SHF_WRITE", "d4/dae/Kernel_2include_2elf_8h.html#a025c79223b0fee4676337d660f76b59b", null ],
     [ "SHN_ABS", "d4/dae/Kernel_2include_2elf_8h.html#a322030426afae1a37a8ba1ab86a39066", null ],
+    [ "SHN_AFTER", "d4/dae/Kernel_2include_2elf_8h.html#ac159fcc2e97ab3f1550e35c595a60898", null ],
+    [ "SHN_BEFORE", "d4/dae/Kernel_2include_2elf_8h.html#a1a7a3d24905f5b5d4fc020f4a5d830f0", null ],
+    [ "SHN_COMMON", "d4/dae/Kernel_2include_2elf_8h.html#a3d62721d3fe66370be9ec0ca0764ec7b", null ],
+    [ "SHN_HIPROC", "d4/dae/Kernel_2include_2elf_8h.html#a5e94b5a4fc1e90cfc5d08af79025171b", null ],
+    [ "SHN_HIRESERVE", "d4/dae/Kernel_2include_2elf_8h.html#aaac4804ef07b9da1d840d951469692f0", null ],
+    [ "SHN_LOPROC", "d4/dae/Kernel_2include_2elf_8h.html#ab9efa7bd7617e554f6158699401d4e10", null ],
+    [ "SHN_LORESERVE", "d4/dae/Kernel_2include_2elf_8h.html#ac663b490fedc8aeab91bf941772ba306", null ],
     [ "SHN_UNDEF", "d4/dae/Kernel_2include_2elf_8h.html#ab2f25695673c5f1c4ec723e595288411", null ],
     [ "Elf32_Addr", "d4/dae/Kernel_2include_2elf_8h.html#a40c6d4571e6001f443cc6a6474620158", null ],
     [ "Elf32_Ehdr", "d4/dae/Kernel_2include_2elf_8h.html#a813325dbda814fb708a5c81675be9b36", null ],
@@ -842,5 +861,11 @@ var Kernel_2include_2elf_8h =
       [ "STT_LOPROC", "d4/dae/Kernel_2include_2elf_8h.html#ac644bb92fd90a705862e66bd833184dca1a7d6ca0a47cb4c6e9905aa25d39c2e9", null ],
       [ "STT_SPARC_REGISTER", "d4/dae/Kernel_2include_2elf_8h.html#ac644bb92fd90a705862e66bd833184dca63ba9466b43d60eca810514d0e6ec730", null ],
       [ "STT_HIPROC", "d4/dae/Kernel_2include_2elf_8h.html#ac644bb92fd90a705862e66bd833184dcafdcb32801302cc6e465a6e09734c12e0", null ]
+    ] ],
+    [ "SymbolVisibilities", "d4/dae/Kernel_2include_2elf_8h.html#adae8aedf4fc23ac85ab6379e3286d509", [
+      [ "STV_DEFAULT", "d4/dae/Kernel_2include_2elf_8h.html#adae8aedf4fc23ac85ab6379e3286d509ae483851a5fd86dab0751babc728685cc", null ],
+      [ "STV_INTERNAL", "d4/dae/Kernel_2include_2elf_8h.html#adae8aedf4fc23ac85ab6379e3286d509adf263291f39f5bb6cb44263d74c9a84f", null ],
+      [ "STV_HIDDEN", "d4/dae/Kernel_2include_2elf_8h.html#adae8aedf4fc23ac85ab6379e3286d509af34d363de0717f9d5c0580f947bc0ca5", null ],
+      [ "STV_PROTECTED", "d4/dae/Kernel_2include_2elf_8h.html#adae8aedf4fc23ac85ab6379e3286d509abaf17c671c251e5cd0a8bd347fcd5b25", null ]
     ] ]
 ];

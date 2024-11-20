@@ -1,16 +1,24 @@
 var mouse_8h =
 [
-    [ "PS2_MOUSE_PACKET", "dc/ded/mouse_8h.html#d3/d18/structPS2__MOUSE__PACKET", [
-      [ "Base", "dc/ded/mouse_8h.html#a7ab5efd566498d682922276e3dc782db", null ],
-      [ "XMovement", "dc/ded/mouse_8h.html#a03984accdad77fa5280f8724510170d4", null ],
-      [ "YMovement", "dc/ded/mouse_8h.html#ae7ed739b075fbfcabddfb598f2ebb912", null ],
-      [ "ZMovement", "dc/ded/mouse_8h.html#a593abbc139f2e146da66f669666c4a19", null ]
+    [ "PS2_MOUSE_PACKET", "dc/d46/Drivers_2include_2aip_8h.html#d3/d18/structPS2__MOUSE__PACKET", [
+      [ "Base", "dc/d46/Drivers_2include_2aip_8h.html#a8b7c02091d6da469573da61d6b9850d9", null ],
+      [ "Base", "dc/d46/Drivers_2include_2aip_8h.html#ade05eb671c26a9fedba493200dce7e06", null ],
+      [ "Base", "dc/d46/Drivers_2include_2aip_8h.html#a701f38914c28aa8657238be0e10172a7", null ],
+      [ "XMovement", "dc/d46/Drivers_2include_2aip_8h.html#a03984accdad77fa5280f8724510170d4", null ],
+      [ "YMovement", "dc/d46/Drivers_2include_2aip_8h.html#ae7ed739b075fbfcabddfb598f2ebb912", null ],
+      [ "ZMovement", "dc/d46/Drivers_2include_2aip_8h.html#aca15f63997e6134335c2bcf7ed8252bb", null ],
+      [ "ZMovement", "dc/d46/Drivers_2include_2aip_8h.html#a629847d5f3a17649a33a8c6364b3b5d7", null ],
+      [ "ZMovement", "dc/d46/Drivers_2include_2aip_8h.html#a10791aeeca07b25a6a7555ce47b8b603", null ]
     ] ],
-    [ "PS2_MOUSE_PACKET.Base", "dc/ded/mouse_8h.html#d0/df2/unionPS2__MOUSE__PACKET_8Base", [
-      [ "Raw", "dc/ded/mouse_8h.html#a65e65c8ab0d8609ce12fc68a03cb8e00", null ]
+    [ "PS2_MOUSE_PACKET.Base", "dc/d46/Drivers_2include_2aip_8h.html#d0/df2/unionPS2__MOUSE__PACKET_8Base", [
+      [ "Raw", "dc/d46/Drivers_2include_2aip_8h.html#a65e65c8ab0d8609ce12fc68a03cb8e00", null ],
+      [ "Raw", "dc/d46/Drivers_2include_2aip_8h.html#a65e65c8ab0d8609ce12fc68a03cb8e00", null ],
+      [ "Raw", "dc/d46/Drivers_2include_2aip_8h.html#a65e65c8ab0d8609ce12fc68a03cb8e00", null ]
     ] ],
-    [ "PS2_MOUSE_PACKET.ZMovement", "dc/ded/mouse_8h.html#d3/d3e/unionPS2__MOUSE__PACKET_8ZMovement", [
-      [ "Raw", "dc/ded/mouse_8h.html#a65e65c8ab0d8609ce12fc68a03cb8e00", null ]
+    [ "PS2_MOUSE_PACKET.ZMovement", "dc/d46/Drivers_2include_2aip_8h.html#d3/d3e/unionPS2__MOUSE__PACKET_8ZMovement", [
+      [ "Raw", "dc/d46/Drivers_2include_2aip_8h.html#a65e65c8ab0d8609ce12fc68a03cb8e00", null ],
+      [ "Raw", "dc/d46/Drivers_2include_2aip_8h.html#a65e65c8ab0d8609ce12fc68a03cb8e00", null ],
+      [ "Raw", "dc/d46/Drivers_2include_2aip_8h.html#a65e65c8ab0d8609ce12fc68a03cb8e00", null ]
     ] ],
     [ "PS2_MOUSE_CMD_DISABLE_DATA_REPORTING", "dc/ded/mouse_8h.html#ad5515a4dbe6bf00f285039e3ba7e1b74", null ],
     [ "PS2_MOUSE_CMD_ENABLE_DATA_REPORTING", "dc/ded/mouse_8h.html#a59645119c76af5f8c5150065e372b841", null ],
@@ -33,10 +41,18 @@ var mouse_8h =
     [ "PS2_MOUSE_RESP_TEST_FAILED", "dc/ded/mouse_8h.html#a598e51d51617a1d80aaf56e19ef872fc", null ],
     [ "PS2_MOUSE_RESP_TEST_PASSED", "dc/ded/mouse_8h.html#a2c9c30e6c4f5213dabac40b2a501a93d", null ],
     [ "PS2_MOUSE_RESOLUTION", "dc/ded/mouse_8h.html#aed07baf84b6821e47550c706b103fad7", [
+      [ "PS2_MOUSE_RES_1", "d6/d73/Kernel_2include_2interface_2aip_8h.html#aed07baf84b6821e47550c706b103fad7a856a1c6cc3a816158e945299c040c7a7", null ],
+      [ "PS2_MOUSE_RES_2", "d6/d73/Kernel_2include_2interface_2aip_8h.html#aed07baf84b6821e47550c706b103fad7a32e6b1eb4bbb5014ef437e81fa1aaf15", null ],
+      [ "PS2_MOUSE_RES_4", "d6/d73/Kernel_2include_2interface_2aip_8h.html#aed07baf84b6821e47550c706b103fad7ad06de8d5228edc910b2a45ef3f64d11c", null ],
+      [ "PS2_MOUSE_RES_8", "d6/d73/Kernel_2include_2interface_2aip_8h.html#aed07baf84b6821e47550c706b103fad7aaadc22beea4ed7609400ddb1bd1e81c2", null ],
       [ "PS2_MOUSE_RES_1", "dc/ded/mouse_8h.html#aed07baf84b6821e47550c706b103fad7a856a1c6cc3a816158e945299c040c7a7", null ],
       [ "PS2_MOUSE_RES_2", "dc/ded/mouse_8h.html#aed07baf84b6821e47550c706b103fad7a32e6b1eb4bbb5014ef437e81fa1aaf15", null ],
       [ "PS2_MOUSE_RES_4", "dc/ded/mouse_8h.html#aed07baf84b6821e47550c706b103fad7ad06de8d5228edc910b2a45ef3f64d11c", null ],
-      [ "PS2_MOUSE_RES_8", "dc/ded/mouse_8h.html#aed07baf84b6821e47550c706b103fad7aaadc22beea4ed7609400ddb1bd1e81c2", null ]
+      [ "PS2_MOUSE_RES_8", "dc/ded/mouse_8h.html#aed07baf84b6821e47550c706b103fad7aaadc22beea4ed7609400ddb1bd1e81c2", null ],
+      [ "PS2_MOUSE_RES_1", "dc/d46/Drivers_2include_2aip_8h.html#aed07baf84b6821e47550c706b103fad7a856a1c6cc3a816158e945299c040c7a7", null ],
+      [ "PS2_MOUSE_RES_2", "dc/d46/Drivers_2include_2aip_8h.html#aed07baf84b6821e47550c706b103fad7a32e6b1eb4bbb5014ef437e81fa1aaf15", null ],
+      [ "PS2_MOUSE_RES_4", "dc/d46/Drivers_2include_2aip_8h.html#aed07baf84b6821e47550c706b103fad7ad06de8d5228edc910b2a45ef3f64d11c", null ],
+      [ "PS2_MOUSE_RES_8", "dc/d46/Drivers_2include_2aip_8h.html#aed07baf84b6821e47550c706b103fad7aaadc22beea4ed7609400ddb1bd1e81c2", null ]
     ] ],
     [ "Always0", "dc/ded/mouse_8h.html#ad636c779d8a2494cbf0e5bef39c32207", null ],
     [ "Always0_2", "dc/ded/mouse_8h.html#a64f89a7ebae40aae6fd6a15dd67dba12", null ],

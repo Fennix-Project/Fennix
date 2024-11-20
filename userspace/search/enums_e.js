@@ -1,12 +1,10 @@
 var searchData=
 [
-  ['pipe_5fstyle_63358',['pipe_style',['../d6/d90/hush_8c.html#a95c22b5ad16e8f2d995f7aa509e2f080',1,'hush.c']]],
-  ['plat_5fe_63359',['plat_e',['../d2/d78/p__spec_8h.html#ad46c72f353ae5de7b983ff417b0df959',1,'p_spec.h']]],
-  ['plattype_5fe_63360',['plattype_e',['../d2/d78/p__spec_8h.html#ab52a6e23a834774fe851035e5095b6d2',1,'p_spec.h']]],
-  ['playerstate_5ft_63361',['playerstate_t',['../d5/d9f/d__player_8h.html#ab84fc85bb3054c86cc71d59f17e81c72',1,'d_player.h']]],
-  ['powerduration_5ft_63362',['powerduration_t',['../d3/d47/doomdef_8h.html#a9f041025b996b9df0a088367ed9e3d5e',1,'doomdef.h']]],
-  ['powertype_5ft_63363',['powertype_t',['../d3/d47/doomdef_8h.html#ada461cebd7de36146f358613b1816564',1,'doomdef.h']]],
-  ['print_5fmode_63364',['print_mode',['../df/dab/setserial_8c.html#a2564ca1004d344ac4f8cabc87a2d35ff',1,'setserial.c']]],
-  ['prop_5ftype_63365',['prop_type',['../d4/d78/expr_8h.html#a403a578df6dfdc7e86f6bca789c523c2',1,'expr.h']]],
-  ['psprnum_5ft_63366',['psprnum_t',['../df/d67/p__pspr_8h.html#a361b82641ca00e49fc3d5f0ad8851928',1,'p_pspr.h']]]
+  ['thinkerclass_5ft_30832',['thinkerclass_t',['../dd/dc9/p__saveg_8c.html#ab9cdea99e394c6520630aeee342a2774',1,'p_saveg.c']]],
+  ['tre_5faddtags_5fsymbol_5ft_30833',['tre_addtags_symbol_t',['../d0/d86/regcomp_8c.html#a8f3aaf476f8152cadc6a2f87be4a59cb',1,'regcomp.c']]],
+  ['tre_5fast_5ftype_5ft_30834',['tre_ast_type_t',['../d0/d86/regcomp_8c.html#accf2e20fbd9d8a065a78a72c8db5777a',1,'regcomp.c']]],
+  ['tre_5fcopyast_5fsymbol_5ft_30835',['tre_copyast_symbol_t',['../d0/d86/regcomp_8c.html#a3e488b0265153ca3156299fa639235b3',1,'regcomp.c']]],
+  ['tre_5fexpand_5fast_5fsymbol_5ft_30836',['tre_expand_ast_symbol_t',['../d0/d86/regcomp_8c.html#ab7f7e90e8c6b686b459ac91e416eab56',1,'regcomp.c']]],
+  ['tre_5fnfl_5fstack_5fsymbol_5ft_30837',['tre_nfl_stack_symbol_t',['../d0/d86/regcomp_8c.html#a83b0467ec7a947196d9b888358049f80',1,'regcomp.c']]],
+  ['tre_5ftag_5fdirection_5ft_30838',['tre_tag_direction_t',['../db/d0a/tre_8h.html#a29a7cfa6a5594bd8cbde8e9850b83388',1,'tre.h']]]
 ];

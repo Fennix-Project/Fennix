@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['mem_5frel_5ft_63345',['mem_rel_t',['../db/dd7/memio_8h.html#a994115c838996d1160e859abea5db3ec',1,'memio.h']]],
-  ['memfile_5fmode_5ft_63346',['memfile_mode_t',['../d3/d55/memio_8c.html#a13704cf565ae42495bc522f21dd17573',1,'memio.c']]],
-  ['midievent_63347',['midievent',['../d7/dbe/mus2mid_8c.html#a61d9cd7694627b0a8deb5ecbdf443aab',1,'mus2mid.c']]],
-  ['mobjflag_5ft_63348',['mobjflag_t',['../df/d05/p__mobj_8h.html#ae37ec392724acd5928ddef02e4a372f7',1,'p_mobj.h']]],
-  ['mobjtype_5ft_63349',['mobjtype_t',['../d4/d21/info_8h.html#a2f6c6c60c0362e9ea1cf7ffe4d1ccfbd',1,'info.h']]],
-  ['musevent_63350',['musevent',['../d7/dbe/mus2mid_8c.html#a5b590153d23aef6533c8aef509b7a878',1,'mus2mid.c']]],
-  ['musicenum_5ft_63351',['musicenum_t',['../dc/ddc/sounds_8h.html#a78ab782fb72b1d992df5d30bf7270fa3',1,'sounds.h']]]
+  ['plat_5fe_30812',['plat_e',['../d2/d78/p__spec_8h.html#ad46c72f353ae5de7b983ff417b0df959',1,'p_spec.h']]],
+  ['plattype_5fe_30813',['plattype_e',['../d2/d78/p__spec_8h.html#ab52a6e23a834774fe851035e5095b6d2',1,'p_spec.h']]],
+  ['playerstate_5ft_30814',['playerstate_t',['../d5/d9f/d__player_8h.html#ab84fc85bb3054c86cc71d59f17e81c72',1,'d_player.h']]],
+  ['powerduration_5ft_30815',['powerduration_t',['../d3/d47/doomdef_8h.html#a9f041025b996b9df0a088367ed9e3d5e',1,'doomdef.h']]],
+  ['powertype_5ft_30816',['powertype_t',['../d3/d47/doomdef_8h.html#ada461cebd7de36146f358613b1816564',1,'doomdef.h']]],
+  ['psprnum_5ft_30817',['psprnum_t',['../df/d67/p__pspr_8h.html#a361b82641ca00e49fc3d5f0ad8851928',1,'p_pspr.h']]]
 ];

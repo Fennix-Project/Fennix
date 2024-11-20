@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('db/dde/internal_8h.html','../../'); in
 Macros</h2></td></tr>
 <tr class="memitem:a886597bf75849352561b1bc191f0712f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dde/internal_8h.html#a886597bf75849352561b1bc191f0712f">bittab</a>&#160;&#160;&#160;__fsmu8</td></tr>
 <tr class="separator:a886597bf75849352561b1bc191f0712f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab104f9234aa8f6fd2941a33de10b6762"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dde/internal_8h.html#ab104f9234aa8f6fd2941a33de10b6762">OOB</a>(<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>,  b)&#160;&#160;&#160;(((((b)&gt;&gt;3)-0x10)|(((b)&gt;&gt;3)+((<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0c18914b3041c2f583aba76f418399c2">int32_t</a>)(<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>)&gt;&gt;26))) &amp; ~7)</td></tr>
+<tr class="memitem:ab104f9234aa8f6fd2941a33de10b6762"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dde/internal_8h.html#ab104f9234aa8f6fd2941a33de10b6762">OOB</a>(c,  b)&#160;&#160;&#160;(((((b)&gt;&gt;3)-0x10)|(((b)&gt;&gt;3)+((<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0c18914b3041c2f583aba76f418399c2">int32_t</a>)(c)&gt;&gt;26))) &amp; ~7)</td></tr>
 <tr class="separator:ab104f9234aa8f6fd2941a33de10b6762"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8011d6dab73e8808981c948e35610884"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dde/internal_8h.html#a8011d6dab73e8808981c948e35610884">R</a>(a,  b)&#160;&#160;&#160;((<a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)((a==0x80 ? 0x40u-b : 0u-a) &lt;&lt; 23))</td></tr>
 <tr class="separator:a8011d6dab73e8808981c948e35610884"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -112,9 +112,9 @@ Macros</h2></td></tr>
 <tr class="separator:a1e43924adac4ae865aa0acf79710261c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c5526b246db088c8f509c0a52e574d7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dde/internal_8h.html#a5c5526b246db088c8f509c0a52e574d7">SB</a>&#160;&#160;&#160;0xf4u</td></tr>
 <tr class="separator:a5c5526b246db088c8f509c0a52e574d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bcd882a734cbb3315ae16c66901d765"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dde/internal_8h.html#a1bcd882a734cbb3315ae16c66901d765">CODEUNIT</a>(<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>)&#160;&#160;&#160;(0xdfff &amp; (<a class="el" href="../../d9/de8/stdc_8h.html#ae31516cd0c4adc3d52b93ef2e5c6117b">signed</a> char)(<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>))</td></tr>
+<tr class="memitem:a1bcd882a734cbb3315ae16c66901d765"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dde/internal_8h.html#a1bcd882a734cbb3315ae16c66901d765">CODEUNIT</a>(c)&#160;&#160;&#160;(0xdfff &amp; (signed char)(c))</td></tr>
 <tr class="separator:a1bcd882a734cbb3315ae16c66901d765"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e533b219adb4a5eabadaa2c52ec30ae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dde/internal_8h.html#a5e533b219adb4a5eabadaa2c52ec30ae">IS_CODEUNIT</a>(<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>)&#160;&#160;&#160;((unsigned)(<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>)-0xdf80 &lt; 0x80)</td></tr>
+<tr class="memitem:a5e533b219adb4a5eabadaa2c52ec30ae"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dde/internal_8h.html#a5e533b219adb4a5eabadaa2c52ec30ae">IS_CODEUNIT</a>(c)&#160;&#160;&#160;((unsigned)(c)-0xdf80 &lt; 0x80)</td></tr>
 <tr class="separator:a5e533b219adb4a5eabadaa2c52ec30ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -149,8 +149,8 @@ Variables</h2></td></tr>
           <td class="memname">#define CODEUNIT</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a></td><td>)</td>
-          <td>&#160;&#160;&#160;(0xdfff &amp; (<a class="el" href="../../d9/de8/stdc_8h.html#ae31516cd0c4adc3d52b93ef2e5c6117b">signed</a> char)(<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>))</td>
+          <td class="paramname">c</td><td>)</td>
+          <td>&#160;&#160;&#160;(0xdfff &amp; (signed char)(c))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -185,8 +185,8 @@ Variables</h2></td></tr>
           <td class="memname">#define IS_CODEUNIT</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a></td><td>)</td>
-          <td>&#160;&#160;&#160;((unsigned)(<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>)-0xdf80 &lt; 0x80)</td>
+          <td class="paramname">c</td><td>)</td>
+          <td>&#160;&#160;&#160;((unsigned)(c)-0xdf80 &lt; 0x80)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -205,7 +205,7 @@ Variables</h2></td></tr>
           <td class="memname">#define OOB</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>, </td>
+          <td class="paramname">c, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -216,7 +216,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(((((b)&gt;&gt;3)-0x10)|(((b)&gt;&gt;3)+((<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0c18914b3041c2f583aba76f418399c2">int32_t</a>)(<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>)&gt;&gt;26))) &amp; ~7)</td>
+          <td></td><td>&#160;&#160;&#160;(((((b)&gt;&gt;3)-0x10)|(((b)&gt;&gt;3)+((<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0c18914b3041c2f583aba76f418399c2">int32_t</a>)(c)&gt;&gt;26))) &amp; ~7)</td>
         </tr>
       </table>
 </div><div class="memdoc">

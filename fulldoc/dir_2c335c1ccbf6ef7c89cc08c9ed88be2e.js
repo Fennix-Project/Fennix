@@ -3,10 +3,11 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "boot", "dir_90ce214ac5ba1a80d8a05e56215a902a.html", "dir_90ce214ac5ba1a80d8a05e56215a902a" ],
     [ "cpu", "dir_a1d90b661877d34cc639acf3578e068f.html", "dir_a1d90b661877d34cc639acf3578e068f" ],
     [ "filesystem", "dir_89bacd5653b0e46fa5f67f78c87fadfb.html", "dir_89bacd5653b0e46fa5f67f78c87fadfb" ],
+    [ "interface", "dir_811a06ffcfc34bd0f88967f0406a39f5.html", "dir_811a06ffcfc34bd0f88967f0406a39f5" ],
+    [ "kexcept", "dir_8c8bb92704ea7f5c4869ae4b62d98b7f.html", "dir_8c8bb92704ea7f5c4869ae4b62d98b7f" ],
     [ "memory", "dir_b6ab17d5ba3b9a8a18b47a4bc59982c5.html", "dir_b6ab17d5ba3b9a8a18b47a4bc59982c5" ],
     [ "net", "dir_7d037a37ac426a4d7d1a8da0a2cc4a25.html", "dir_7d037a37ac426a4d7d1a8da0a2cc4a25" ],
     [ "stb", "dir_7b88f14dc0898fb5d4ae87ce590f2a34.html", "dir_7b88f14dc0898fb5d4ae87ce590f2a34" ],
-    [ "syscall", "dir_cb1be2d007f1b33d56b6ba232a305361.html", "dir_cb1be2d007f1b33d56b6ba232a305361" ],
     [ "abi.h", "df/d31/abi_8h.html", "df/d31/abi_8h" ],
     [ "acpi.hpp", "d1/d90/acpi_8hpp.html", [
       [ "ACPI", "d3/d21/classACPI_1_1ACPI.html", "d3/d21/classACPI_1_1ACPI" ],
@@ -227,9 +228,11 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "intrin.hpp", "df/db4/intrin_8hpp.html", "df/db4/intrin_8hpp" ],
     [ "ints.hpp", "d0/d36/ints_8hpp.html", "d0/d36/ints_8hpp" ],
     [ "io.h", "db/d92/Kernel_2include_2io_8h.html", null ],
+    [ "kcon.hpp", "d0/de4/kcon_8hpp.html", "d0/de4/kcon_8hpp" ],
     [ "kconfig.hpp", "d1/dfc/kconfig_8hpp.html", "d1/dfc/kconfig_8hpp" ],
     [ "kshell.hpp", "da/df7/kshell_8hpp.html", "da/df7/kshell_8hpp" ],
     [ "lock.hpp", "d3/d01/Kernel_2include_2lock_8hpp.html", null ],
+    [ "macho.h", "d6/d41/macho_8h.html", "d6/d41/macho_8h" ],
     [ "md5.h", "da/db0/md5_8h.html", "da/db0/md5_8h" ],
     [ "memory.hpp", "d9/df8/Kernel_2include_2memory_8hpp.html", "d9/df8/Kernel_2include_2memory_8hpp" ],
     [ "msexec.h", "de/d63/msexec_8h.html", "de/d63/msexec_8h" ],
@@ -239,8 +242,15 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     ] ],
     [ "printf.h", "dc/df9/Kernel_2include_2printf_8h.html", "dc/df9/Kernel_2include_2printf_8h" ],
     [ "rand.hpp", "d4/d0b/rand_8hpp.html", "d4/d0b/rand_8hpp" ],
+    [ "ring.hpp", "db/d10/ring_8hpp.html", [
+      [ "RingBuffer", "d8/d2d/classRingBuffer.html", "d8/d2d/classRingBuffer" ]
+    ] ],
+    [ "scheduler.hpp", "d6/de8/scheduler_8hpp.html", [
+      [ "Base", "d6/dc6/classTasking_1_1Scheduler_1_1Base.html", "d6/dc6/classTasking_1_1Scheduler_1_1Base" ],
+      [ "Custom", "d7/d1f/classTasking_1_1Scheduler_1_1Custom.html", "d7/d1f/classTasking_1_1Scheduler_1_1Custom" ],
+      [ "RoundRobin", "da/d0a/classTasking_1_1Scheduler_1_1RoundRobin.html", null ]
+    ] ],
     [ "signal.hpp", "dd/d5f/signal_8hpp.html", "dd/d5f/signal_8hpp" ],
-    [ "smart_ptr.hpp", "d4/d8f/include_2smart__ptr_8hpp.html", null ],
     [ "smp.hpp", "d4/d33/smp_8hpp.html", "d4/d33/smp_8hpp" ],
     [ "symbols.hpp", "d7/d94/symbols_8hpp.html", [
       [ "Symbols", "d0/dcc/classSymbolResolver_1_1Symbols.html", "d0/dcc/classSymbolResolver_1_1Symbols" ],
@@ -253,6 +263,14 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "targp.h", "db/d2a/targp_8h.html", "db/d2a/targp_8h" ],
     [ "task.hpp", "d8/da1/task_8hpp.html", "d8/da1/task_8hpp" ],
     [ "time.hpp", "de/d99/time_8hpp.html", "de/d99/time_8hpp" ],
+    [ "tty.hpp", "da/d3b/tty_8hpp.html", [
+      [ "TerminalBuffer", "d8/d89/classTTY_1_1TerminalBuffer.html", "d8/d89/classTTY_1_1TerminalBuffer" ],
+      [ "TeletypeDriver", "d8/d79/classTTY_1_1TeletypeDriver.html", "d8/d79/classTTY_1_1TeletypeDriver" ],
+      [ "PTYDevice", "d5/d89/classTTY_1_1PTYDevice.html", "d5/d89/classTTY_1_1PTYDevice" ],
+      [ "PTYMaster", "d6/dd7/classTTY_1_1PTYDevice_1_1PTYMaster.html", "d6/dd7/classTTY_1_1PTYDevice_1_1PTYMaster" ],
+      [ "PTYSlave", "de/deb/classTTY_1_1PTYDevice_1_1PTYSlave.html", "de/deb/classTTY_1_1PTYDevice_1_1PTYSlave" ],
+      [ "PTMXDevice", "db/d46/classTTY_1_1PTMXDevice.html", "db/d46/classTTY_1_1PTMXDevice" ]
+    ] ],
     [ "types.h", "d0/df4/Kernel_2include_2types_8h.html", "d0/df4/Kernel_2include_2types_8h" ],
     [ "uart.hpp", "de/d3f/uart_8hpp.html", "de/d3f/uart_8hpp" ],
     [ "vm.hpp", "d6/df9/vm_8hpp.html", "d6/df9/vm_8hpp" ]

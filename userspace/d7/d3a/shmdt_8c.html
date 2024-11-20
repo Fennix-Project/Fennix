@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('d7/d3a/shmdt_8c.html','../../'); initR
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2eedbf8fdb84bdcd503fbb43daf2e4fc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d3a/shmdt_8c.html#a2eedbf8fdb84bdcd503fbb43daf2e4fc">shmdt</a> (const void *<a class="el" href="../../d2/de9/nscd__query_8c.html#ad9bf982eb7cffdeee05dfdd18ffc3819">addr</a>)</td></tr>
+<tr class="memitem:a2eedbf8fdb84bdcd503fbb43daf2e4fc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d3a/shmdt_8c.html#a2eedbf8fdb84bdcd503fbb43daf2e4fc">shmdt</a> (const void *<a class="el" href="../../d2/de9/nscd__query_8c.html#a4441524d8eca43065672cae084d0e4c2">addr</a>)</td></tr>
 <tr class="separator:a2eedbf8fdb84bdcd503fbb43daf2e4fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -122,16 +122,16 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d7/d3a/shmdt_8c_source.html#l00005">5</a> of file <a class="el" href="../../d7/d3a/shmdt_8c_source.html">shmdt.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef SYS_ipc</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_shmdt, <a class="code" href="../../d2/de9/nscd__query_8c.html#ad9bf982eb7cffdeee05dfdd18ffc3819">addr</a>);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_shmdt, <a class="code" href="../../d2/de9/nscd__query_8c.html#a4441524d8eca43065672cae084d0e4c2">addr</a>);</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_ipc, <a class="code" href="../../df/d01/src_2ipc_2ipc_8h.html#a3cdab68b376a736e9bb717ae9efa62ff">IPCOP_shmdt</a>, 0, 0, 0, <a class="code" href="../../d2/de9/nscd__query_8c.html#ad9bf982eb7cffdeee05dfdd18ffc3819">addr</a>);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_ipc, <a class="code" href="../../df/d01/src_2ipc_2ipc_8h.html#a3cdab68b376a736e9bb717ae9efa62ff">IPCOP_shmdt</a>, 0, 0, 0, <a class="code" href="../../d2/de9/nscd__query_8c.html#a4441524d8eca43065672cae084d0e4c2">addr</a>);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
-<div class="ttc" id="anscd__query_8c_html_ad9bf982eb7cffdeee05dfdd18ffc3819"><div class="ttname"><a href="../../d2/de9/nscd__query_8c.html#ad9bf982eb7cffdeee05dfdd18ffc3819">addr</a></div><div class="ttdeci">static const struct @427 addr</div></div>
+<div class="ttc" id="anscd__query_8c_html_a4441524d8eca43065672cae084d0e4c2"><div class="ttname"><a href="../../d2/de9/nscd__query_8c.html#a4441524d8eca43065672cae084d0e4c2">addr</a></div><div class="ttdeci">static const struct @85 addr</div></div>
 <div class="ttc" id="asrc_2ipc_2ipc_8h_html_a3cdab68b376a736e9bb717ae9efa62ff"><div class="ttname"><a href="../../df/d01/src_2ipc_2ipc_8h.html#a3cdab68b376a736e9bb717ae9efa62ff">IPCOP_shmdt</a></div><div class="ttdeci">#define IPCOP_shmdt</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d01/src_2ipc_2ipc_8h_source.html#l00012">ipc.h:12</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/de9/nscd__query_8c.html#ad9bf982eb7cffdeee05dfdd18ffc3819">addr</a>, <a class="el" href="../../df/d01/src_2ipc_2ipc_8h_source.html#l00012">IPCOP_shmdt</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/de9/nscd__query_8c.html#a4441524d8eca43065672cae084d0e4c2">addr</a>, <a class="el" href="../../df/d01/src_2ipc_2ipc_8h_source.html#l00012">IPCOP_shmdt</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
 </div>
 </div>

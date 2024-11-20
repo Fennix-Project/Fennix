@@ -1,6 +1,7 @@
 var macro_8hpp =
 [
     [ "FROM_PAGES", "d4/dc3/macro_8hpp.html#ac8af6466c29c08f6443c392f25181fe3", null ],
+    [ "LARGE_STACK_SIZE", "d4/dc3/macro_8hpp.html#a0da4a5f7cc3138463b4a3d832b08d40e", null ],
     [ "PAGE_SIZE", "d4/dc3/macro_8hpp.html#a7d467c1d283fdfa1f2081ba1e0d01b6e", null ],
     [ "PAGE_SIZE_1G", "d4/dc3/macro_8hpp.html#a689ba4829262c30029918a9ff311f7ca", null ],
     [ "PAGE_SIZE_2M", "d4/dc3/macro_8hpp.html#aa741a36fad372fa52b7d026afc5781c6", null ],

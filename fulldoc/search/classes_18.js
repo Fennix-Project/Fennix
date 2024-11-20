@@ -1,19 +1,12 @@
 var searchData=
 [
-  ['x86exceptionname_50808',['x86ExceptionName',['../d4/d38/ui_8cpp.html#db/d6d/structx86ExceptionName',1,'']]],
-  ['xcr0_50809',['XCR0',['../d9/d25/namespaceCPU_1_1x64.html#d5/dc7/unionCPU_1_1x64_1_1XCR0',1,'CPU::x64']]],
-  ['xcr0_2e_5f_5funnamed307_5f_5f_50810',['XCR0.__unnamed307__',['../d9/d25/namespaceCPU_1_1x64.html#de/d16/structCPU_1_1x64_1_1XCR0_8____unnamed307____',1,'CPU::x64']]],
-  ['xenix_5fsuper_50811',['xenix_super',['../dc/d2d/sysv_8c.html#da/db0/structxenix__super',1,'']]],
-  ['xfs_5fsuper_5fblock_50812',['xfs_super_block',['../d7/d4f/xfs_8c.html#d9/db7/structxfs__super__block',1,'']]],
-  ['xhash_5fs_50813',['xhash_s',['../de/dcc/awk_8c.html#df/da9/structxhash__s',1,'']]],
-  ['xid_5fitem_50814',['xid_item',['../d2/d88/dhcprelay_8c.html#de/df0/structxid__item',1,'']]],
-  ['xz_5fbuf_50815',['xz_buf',['../db/d7b/xz_8h.html#de/de2/structxz__buf',1,'']]],
-  ['xz_5fdec_50816',['xz_dec',['../d4/d6e/structxz__dec.html',1,'']]],
-  ['xz_5fdec_2eblock_50817',['xz_dec.block',['../dd/d6a/xz__dec__stream_8c.html#dc/d1a/structxz__dec_8block',1,'']]],
-  ['xz_5fdec_2eblock_5fheader_50818',['xz_dec.block_header',['../dd/d6a/xz__dec__stream_8c.html#d4/d31/structxz__dec_8block__header',1,'']]],
-  ['xz_5fdec_2eindex_50819',['xz_dec.index',['../dd/d6a/xz__dec__stream_8c.html#d7/d87/structxz__dec_8index',1,'']]],
-  ['xz_5fdec_2etemp_50820',['xz_dec.temp',['../dd/d6a/xz__dec__stream_8c.html#d9/d36/structxz__dec_8temp',1,'']]],
-  ['xz_5fdec_5fhash_50821',['xz_dec_hash',['../dd/d6a/xz__dec__stream_8c.html#dc/da3/structxz__dec__hash',1,'']]],
-  ['xz_5fdec_5flzma2_50822',['xz_dec_lzma2',['../d2/de0/xz__dec__lzma2_8c.html#de/d3a/structxz__dec__lzma2',1,'']]],
-  ['xz_5fdec_5flzma2_2etemp_50823',['xz_dec_lzma2.temp',['../d2/de0/xz__dec__lzma2_8c.html#d6/dbe/structxz__dec__lzma2_8temp',1,'']]]
+  ['wad_5ffile_5fclass_5ft_30979',['wad_file_class_t',['../d1/def/structwad__file__class__t.html',1,'']]],
+  ['waetheader_30980',['WAETHeader',['../d3/d21/classACPI_1_1ACPI.html#d1/d66/structACPI_1_1ACPI_1_1WAETHeader',1,'ACPI::ACPI']]],
+  ['waiter_30981',['waiter',['../d2/d02/pthread__cond__timedwait_8c.html#d6/db6/structwaiter',1,'']]],
+  ['wbplayerstruct_5ft_30982',['wbplayerstruct_t',['../d5/d9f/d__player_8h.html#d5/deb/structwbplayerstruct__t',1,'']]],
+  ['wbstartstruct_5ft_30983',['wbstartstruct_t',['../d5/d9f/d__player_8h.html#dc/d44/structwbstartstruct__t',1,'']]],
+  ['weaponinfo_5ft_30984',['weaponinfo_t',['../db/d2c/d__items_8h.html#d9/dc1/structweaponinfo__t',1,'']]],
+  ['winsize_30985',['winsize',['../d9/db8/Kernel_2include__std_2termios_8h.html#da/d40/structwinsize',1,'']]],
+  ['wms_5ffile_30986',['wms_FILE',['../d5/d80/open__wmemstream_8c.html#dc/dd6/structwms__FILE',1,'']]],
+  ['wordexp_5ft_30987',['wordexp_t',['../d3/dbd/wordexp_8h.html#dc/de0/structwordexp__t',1,'']]]
 ];

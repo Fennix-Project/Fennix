@@ -1,6 +1,8 @@
 var namespaceTasking =
 [
+    [ "Scheduler", "de/dc7/namespaceTasking_1_1Scheduler.html", "de/dc7/namespaceTasking_1_1Scheduler" ],
     [ "Signal", "d2/d8b/classTasking_1_1Signal.html", "d2/d8b/classTasking_1_1Signal" ],
+    [ "ThreadSignal", "d4/d32/classTasking_1_1ThreadSignal.html", "d4/d32/classTasking_1_1ThreadSignal" ],
     [ "TaskInfo", "d9/d3e/namespaceTasking.html#d6/dd8/structTasking_1_1TaskInfo", "d9/d3e/namespaceTasking_d6/dd8/structTasking_1_1TaskInfo_dup" ],
     [ "ThreadLocalStorage", "d9/d3e/namespaceTasking.html#d7/dd5/structTasking_1_1ThreadLocalStorage", "d9/d3e/namespaceTasking_d7/dd5/structTasking_1_1ThreadLocalStorage_dup" ],
     [ "gsTCB", "d9/d3e/namespaceTasking.html#d5/d12/structTasking_1_1gsTCB", "d9/d3e/namespaceTasking_d5/d12/structTasking_1_1gsTCB_dup" ],
@@ -12,6 +14,9 @@ var namespaceTasking =
     [ "PCB.Security", "d9/d3e/namespaceTasking.html#de/d3f/structTasking_1_1PCB_8Security", "d9/d3e/namespaceTasking_de/d3f/structTasking_1_1PCB_8Security_dup" ],
     [ "PCB.Security.Real", "d9/d3e/namespaceTasking.html#da/d00/structTasking_1_1PCB_8Security_8Real", "d9/d3e/namespaceTasking_da/d00/structTasking_1_1PCB_8Security_8Real_dup" ],
     [ "PCB.Security.Effective", "d9/d3e/namespaceTasking.html#d8/d99/structTasking_1_1PCB_8Security_8Effective", "d9/d3e/namespaceTasking_d8/d99/structTasking_1_1PCB_8Security_8Effective_dup" ],
+    [ "PCB.SoftLimits", "d9/d3e/namespaceTasking.html#de/d3a/structTasking_1_1PCB_8SoftLimits", "d9/d3e/namespaceTasking_de/d3a/structTasking_1_1PCB_8SoftLimits_dup" ],
+    [ "PCB.HardLimits", "d9/d3e/namespaceTasking.html#d2/d83/structTasking_1_1PCB_8HardLimits", "d9/d3e/namespaceTasking_d2/d83/structTasking_1_1PCB_8HardLimits_dup" ],
+    [ "PCB.Linux", "d9/d3e/namespaceTasking.html#d4/d3c/structTasking_1_1PCB_8Linux", "d9/d3e/namespaceTasking_d4/d3c/structTasking_1_1PCB_8Linux_dup" ],
     [ "IP", "d9/d3e/namespaceTasking.html#acf7f74020dfbe0bd9bbce8a2877abb6d", null ],
     [ "PID", "d9/d3e/namespaceTasking.html#aa76aeff7a55bd771f722c58ffb339acf", null ],
     [ "TID", "d9/d3e/namespaceTasking.html#a2b7195d8a433379237f9463270f97e12", null ],
@@ -71,10 +76,9 @@ var namespaceTasking =
       [ "Zombie", "d9/d3e/namespaceTasking.html#a1caa7bfee242fe8216026227bfd9db2ea18dbf84b8bdb31f7955be3eef42610fc", null ],
       [ "CoreDump", "d9/d3e/namespaceTasking.html#a1caa7bfee242fe8216026227bfd9db2ea3b848731f4575c98b0f13c8ef2693e10", null ],
       [ "Terminated", "d9/d3e/namespaceTasking.html#a1caa7bfee242fe8216026227bfd9db2ea773f96280709f0b4ee36122b01357f51", null ],
+      [ "Frozen", "d9/d3e/namespaceTasking.html#a1caa7bfee242fe8216026227bfd9db2eaca951c7ff4ef86aff592dda5d0a6eec1", null ],
       [ "_StatusMin", "d9/d3e/namespaceTasking.html#a1caa7bfee242fe8216026227bfd9db2ea2547ba923c87a848418e8c90331a5593", null ],
       [ "_StatusMax", "d9/d3e/namespaceTasking.html#a1caa7bfee242fe8216026227bfd9db2ea122d9cb11d78b0a8a082332d7ec18f98", null ]
     ] ],
-    [ "__no_sanitize", "d9/d3e/namespaceTasking.html#a7898c54ea6f6c6d64e70d3bfebdf2956", null ],
-    [ "__no_sanitize", "d9/d3e/namespaceTasking.html#a591d6f9b922ab5cc821cc805f77e8ad0", null ],
-    [ "ToSig", "d9/d3e/namespaceTasking.html#a7dec4f08a178657040f9137298afbaaa", null ]
+    [ "__no_sanitize", "d9/d3e/namespaceTasking.html#a4343a46a4ce4b71547699a6ba3ea4721", null ]
 ];

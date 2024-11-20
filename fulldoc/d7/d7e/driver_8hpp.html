@@ -94,16 +94,21 @@ $(document).ready(function(){initNavTree('d7/d7e/driver_8hpp.html','../../'); in
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html">types.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d6/d91/Kernel_2include_2interface_2driver_8h_source.html">interface/driver.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d8/d20/Kernel_2include_2interface_2input_8h_source.html">interface/input.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>&gt;</code><br />
 <code>#include &lt;unordered_map&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d9/df8/Kernel_2include_2memory_8hpp_source.html">memory.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d0/d36/ints_8hpp_source.html">ints.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d3/d01/Kernel_2include_2lock_8hpp_source.html">lock.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../db/d10/ring_8hpp_source.html">ring.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d9/dd5/pci_8hpp_source.html">pci.hpp</a>&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;bitset&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html">elf.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d92/Kernel_2include_2io_8h_source.html">io.h</a>&gt;</code><br />
 <code>#include &lt;list&gt;</code><br />
 </div>
@@ -111,14 +116,16 @@ $(document).ready(function(){initNavTree('d7/d7e/driver_8hpp.html','../../'); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d86/classDriver_1_1SlaveDeviceFile.html">Driver::SlaveDeviceFile</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/df5/classDriver_1_1MasterDeviceFile.html">Driver::MasterDeviceFile</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:df/d88/structDriver_1_1DriverHandlers"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#df/d88/structDriver_1_1DriverHandlers">Driver::DriverHandlers</a></td></tr>
+<tr class="separator:df/d88/structDriver_1_1DriverHandlers"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d98/structDriver_1_1DriverObject.html">Driver::DriverObject</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d0b/classDriver_1_1Manager.html">Driver::Manager</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d9/dbf/structDriver_1_1Manager_1_1DeviceInode"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d0b/classDriver_1_1Manager.html#d9/dbf/structDriver_1_1Manager_1_1DeviceInode">Driver::Manager::DeviceInode</a></td></tr>
+<tr class="separator:d9/dbf/structDriver_1_1Manager_1_1DeviceInode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dd/d08/structDriver_1_1DriverObject_8Version"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#dd/d08/structDriver_1_1DriverObject_8Version">Driver::DriverObject.Version</a></td></tr>
+<tr class="separator:dd/d08/structDriver_1_1DriverObject_8Version"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -131,9 +138,201 @@ Functions</h2></td></tr>
 <tr class="separator:a9fab207aeeb0a63bebbeb8dbbccef3c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa15c158a46238ef96d949982b0184368"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#aa15c158a46238ef96d949982b0184368">Driver::IsValidChar</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> ScanCode)</td></tr>
 <tr class="separator:aa15c158a46238ef96d949982b0184368"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adebc3720572f88af6cfa49c7dfc7a88e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#adebc3720572f88af6cfa49c7dfc7a88e">Driver::PopulateDriverAPI</a> (void *<a class="el" href="../../d3/d3f/task_8c.html#a7b70fec7d5a2862ff96afa379747fd0b">API</a>)</td></tr>
-<tr class="separator:adebc3720572f88af6cfa49c7dfc7a88e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd51705fba9453dd24ec5e15f71402f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#abd51705fba9453dd24ec5e15f71402f5">Driver::ManagerDaemonWrapper</a> ()</td></tr>
+<tr class="separator:abd51705fba9453dd24ec5e15f71402f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31a653b52958cdda3ae5038f956fbd58"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d7e/driver_8hpp.html#a31a653b52958cdda3ae5038f956fbd58">GetSymbolByName</a> (const char *<a class="el" href="../../d3/da6/Drivers_2include_2fs_8h.html#a760b4e07b204e4852e7fb55e25567623">Name</a>, int Version)</td></tr>
+<tr class="separator:a31a653b52958cdda3ae5038f956fbd58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<hr/><h2 class="groupheader">Data Structure Documentation</h2>
+<a name="df/d88/structDriver_1_1DriverHandlers" id="df/d88/structDriver_1_1DriverHandlers"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#df/d88/structDriver_1_1DriverHandlers">&#9670;&nbsp;</a></span>Driver::DriverHandlers</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct Driver::DriverHandlers</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d7/d7e/driver_8hpp_source.html#l00046">46</a> of file <a class="el" href="../../d7/d7e/driver_8hpp_source.html">driver.hpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="ab0744d96e3aa163d8148d479ccae5428"></a><a class="el" href="../../d8/d2d/classRingBuffer.html">RingBuffer</a>&lt; <a class="el" href="../../df/dbc/Drivers_2include_2input_8h.html#d1/d5b/structInputReport">InputReport</a> &gt; *</td>
+<td class="fieldname">
+InputReports</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a797e02b110d8a72be6537db27c9235b3"></a>struct <a class="el" href="../../d3/da6/Drivers_2include_2fs_8h.html#d6/d59/structInode">Inode</a> *</td>
+<td class="fieldname">
+Node</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a22687d2ea5ad6bee6f2f42112ff259f3"></a>const <a class="el" href="../../db/de6/structInodeOperations.html">InodeOperations</a> *</td>
+<td class="fieldname">
+Ops</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="d9/dbf/structDriver_1_1Manager_1_1DeviceInode" id="d9/dbf/structDriver_1_1Manager_1_1DeviceInode"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d9/dbf/structDriver_1_1Manager_1_1DeviceInode">&#9670;&nbsp;</a></span>Driver::Manager::DeviceInode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct Driver::Manager::DeviceInode</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d7/d7e/driver_8hpp_source.html#l00108">108</a> of file <a class="el" href="../../d7/d7e/driver_8hpp_source.html">driver.hpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="ae4fbb200c562af6fd10cfe8da36fc605"></a>vector&lt; <a class="el" href="../../d9/d0b/classDriver_1_1Manager.html#d9/dbf/structDriver_1_1Manager_1_1DeviceInode">DeviceInode</a> * &gt;</td>
+<td class="fieldname">
+Children</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ac041a0b92d5a73c538f39674aa87ac9c"></a>string</td>
+<td class="fieldname">
+Name</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ac5f98b19060d6b2249b0eabaf8283ad5"></a>struct <a class="el" href="../../d3/da6/Drivers_2include_2fs_8h.html#d6/d59/structInode">Inode</a></td>
+<td class="fieldname">
+Node</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="adcc426ffb6499445bda88e357090b821"></a><a class="el" href="../../d8/dea/classFileNode.html">FileNode</a> *</td>
+<td class="fieldname">
+Parent</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a2f77b10d68a71baa4f2b4ae72a46bacf"></a><a class="el" href="../../d3/da6/Drivers_2include_2fs_8h.html#d6/d59/structInode">Inode</a> *</td>
+<td class="fieldname">
+ParentInode</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="dd/d08/structDriver_1_1DriverObject_8Version" id="dd/d08/structDriver_1_1DriverObject_8Version"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dd/d08/structDriver_1_1DriverObject_8Version">&#9670;&nbsp;</a></span>Driver::DriverObject.Version</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct Driver::DriverObject.Version</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d7/d7e/driver_8hpp_source.html#l00068">68</a> of file <a class="el" href="../../d7/d7e/driver_8hpp_source.html">driver.hpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a3b329734e45b57e60f3df64c2cf412a9"></a>int</td>
+<td class="fieldname">
+Major</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a6fed0c378a4b4e8c1e7dc5c16dabb388"></a>int</td>
+<td class="fieldname">
+Minor</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a156e10596fdc76ee5300bab931d89c0f"></a>int</td>
+<td class="fieldname">
+Patch</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a31a653b52958cdda3ae5038f956fbd58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31a653b52958cdda3ae5038f956fbd58">&#9670;&nbsp;</a></span>GetSymbolByName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* GetSymbolByName </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>Name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>Version</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d48/api_8cpp_source.html#l00901">901</a> of file <a class="el" href="../../d5/d48/api_8cpp_source.html">api.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;{</div>
+<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;    <span class="keywordflow">switch</span> (Version)</div>
+<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;    {</div>
+<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;    <span class="keywordflow">case</span> 0:</div>
+<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;    {</div>
+<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">auto</span> sym : <a class="code" href="../../d5/d48/api_8cpp.html#a654009e42dfb0daf0d3a28e1b2e61214">APISymbols_v0</a>)</div>
+<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;        {</div>
+<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d5/db0/dynlink_8c.html#af3054366f27929432795c5ae420a5294">strcmp</a>(<a class="code" href="../../da/d46/Kernel_2include_2interface_2fs_8h.html#a760b4e07b204e4852e7fb55e25567623">Name</a>, sym.Name) != 0)</div>
+<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160; </div>
+<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Symbol %s found in API version %d&quot;</span>, <a class="code" href="../../da/d46/Kernel_2include_2interface_2fs_8h.html#a760b4e07b204e4852e7fb55e25567623">Name</a>, Version);</div>
+<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;            <span class="keywordflow">return</span> sym.Function;</div>
+<div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;        }</div>
+<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;    }</div>
+<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;    <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160;        <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(!<span class="stringliteral">&quot;Invalid API version&quot;</span>);</div>
+<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;    }</div>
+<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160; </div>
+<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Symbol %s not found in API version %d&quot;</span>, <a class="code" href="../../da/d46/Kernel_2include_2interface_2fs_8h.html#a760b4e07b204e4852e7fb55e25567623">Name</a>, Version);</div>
+<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;    <a class="code" href="../../dd/d24/kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a>(<span class="stringliteral">&quot;Driver API symbol \&quot;%s\&quot; not found!&quot;</span>, <a class="code" href="../../da/d46/Kernel_2include_2interface_2fs_8h.html#a760b4e07b204e4852e7fb55e25567623">Name</a>);</div>
+<div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;    <span class="keywordflow">return</span> (<span class="keywordtype">void</span> *)<a class="code" href="../../d5/d48/api_8cpp.html#ab3e027c05288c01f051cfe405d952f98">__KernelUndefinedFunction</a>;</div>
+<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;}</div>
+<div class="ttc" id="aKernel_2include_2interface_2fs_8h_html_a760b4e07b204e4852e7fb55e25567623"><div class="ttname"><a href="../../da/d46/Kernel_2include_2interface_2fs_8h.html#a760b4e07b204e4852e7fb55e25567623">Name</a></div><div class="ttdeci">const char * Name</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d46/Kernel_2include_2interface_2fs_8h_source.html#l00000">fs.h:0</a></div></div>
+<div class="ttc" id="aKernel_2include__std_2assert_8h_html_af576bf8ffa22a44e53018c67095ffbf0"><div class="ttname"><a href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a></div><div class="ttdeci">#define assert(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html#l00026">assert.h:26</a></div></div>
+<div class="ttc" id="aapi_8cpp_html_a654009e42dfb0daf0d3a28e1b2e61214"><div class="ttname"><a href="../../d5/d48/api_8cpp.html#a654009e42dfb0daf0d3a28e1b2e61214">APISymbols_v0</a></div><div class="ttdeci">static struct APISymbols APISymbols_v0[]</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d48/api_8cpp_source.html#l00001">api.cpp:832</a></div></div>
+<div class="ttc" id="aapi_8cpp_html_ab3e027c05288c01f051cfe405d952f98"><div class="ttname"><a href="../../d5/d48/api_8cpp.html#ab3e027c05288c01f051cfe405d952f98">__KernelUndefinedFunction</a></div><div class="ttdeci">long __KernelUndefinedFunction(long arg0, long arg1, long arg2, long arg3, long arg4, long arg5, long arg6, long arg7)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d48/api_8cpp_source.html#l00892">api.cpp:892</a></div></div>
+<div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00094">debug.h:94</a></div></div>
+<div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00086">debug.h:86</a></div></div>
+<div class="ttc" id="adynlink_8c_html_af3054366f27929432795c5ae420a5294"><div class="ttname"><a href="../../d5/db0/dynlink_8c.html#af3054366f27929432795c5ae420a5294">strcmp</a></div><div class="ttdeci">#define strcmp(l, r)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/db0/dynlink_8c_source.html#l00174">dynlink.c:174</a></div></div>
+<div class="ttc" id="akernel_8cpp_html_a856ca7c6595acc2941208b1241cd8f3e"><div class="ttname"><a href="../../dd/d24/kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a></div><div class="ttdeci">EXTERNC void KPrint(const char *Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d24/kernel_8cpp_source.html#l00101">kernel.cpp:101</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d5/d48/api_8cpp_source.html#l00892">__KernelUndefinedFunction()</a>, <a class="el" href="../../d5/d48/api_8cpp_source.html#l00832">APISymbols_v0</a>, <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html#l00026">assert</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00086">error</a>, <a class="el" href="../../dd/d24/kernel_8cpp_source.html#l00101">KPrint()</a>, <a class="el" href="../../da/d46/Kernel_2include_2interface_2fs_8h_source.html#l00000">Name</a>, and <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00174">strcmp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d5/d15/driver_8cpp_source.html#l00200">Driver::Manager::LoadDriverFile()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

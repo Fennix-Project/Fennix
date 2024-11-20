@@ -2,7 +2,7 @@ var include_2resolv_8h =
 [
     [ "__res_state", "d9/d70/include_2resolv_8h.html#dd/d38/struct____res__state", [
       [ "_flags", "d9/d70/include_2resolv_8h.html#a11f211a754e2200b76dc11e397e45ce7", null ],
-      [ "_u", "d9/d70/include_2resolv_8h.html#ab4673fd610127e7c44c4da83f94af23d", null ],
+      [ "_u", "d9/d70/include_2resolv_8h.html#a65153a6ed7254bf60994b659508b5830", null ],
       [ "_vcsock", "d9/d70/include_2resolv_8h.html#a43b32ad6f4fe95ffb2c0336e4963db72", null ],
       [ "defdname", "d9/d70/include_2resolv_8h.html#a65cc50969bb19911b11a06aa563d0a75", null ],
       [ "dnsrch", "d9/d70/include_2resolv_8h.html#ae1798043a45663acc97587355c6012ed", null ],
@@ -19,7 +19,7 @@ var include_2resolv_8h =
       [ "retrans", "d9/d70/include_2resolv_8h.html#a14bf3b4153fa1aad7310fc49dd7d9b51", null ],
       [ "retry", "d9/d70/include_2resolv_8h.html#a1d3b0ec428b1232680fd5ef5634ade16", null ],
       [ "rhook", "d9/d70/include_2resolv_8h.html#afcbf46270d369d0b6ebd347bd3bf7a07", null ],
-      [ "sort_list", "d9/d70/include_2resolv_8h.html#a7eafa30b37c68b5d2707cfdfc5ac3aa8", null ],
+      [ "sort_list", "d9/d70/include_2resolv_8h.html#a56aeebfe39235fc27f706a8410ec6441", null ],
       [ "unused", "d9/d70/include_2resolv_8h.html#a610d012c92e68215434fe501bbbb928f", null ]
     ] ],
     [ "res_sym", "d9/d70/include_2resolv_8h.html#da/de0/structres__sym", [

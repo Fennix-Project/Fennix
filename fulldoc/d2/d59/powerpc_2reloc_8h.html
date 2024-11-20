@@ -120,7 +120,7 @@ Macros</h2></td></tr>
 <tr class="separator:ab79b03493181ab4bdb1882ec9b7a2983"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56dcbe447183f0372eae030d567f1e24"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d59/powerpc_2reloc_8h.html#a56dcbe447183f0372eae030d567f1e24">REL_TPOFF</a>&#160;&#160;&#160;<a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a6ad72abebde9b360b36e94bb90285efe">R_PPC_TPREL32</a></td></tr>
 <tr class="separator:a56dcbe447183f0372eae030d567f1e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a800958c03c1e7ed2fc20458de77c1e58"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d59/powerpc_2reloc_8h.html#a800958c03c1e7ed2fc20458de77c1e58">CRTJMP</a>(pc,  <a class="el" href="../../d9/df1/bashgetopt_8c.html#a024603cda52d9847e8d8df3c2e884b8c">sp</a>)</td></tr>
+<tr class="memitem:a800958c03c1e7ed2fc20458de77c1e58"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d59/powerpc_2reloc_8h.html#a800958c03c1e7ed2fc20458de77c1e58">CRTJMP</a>(pc,  sp)</td></tr>
 <tr class="separator:a800958c03c1e7ed2fc20458de77c1e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1cf60401c3d64fb845b603d4e26dd48"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d59/powerpc_2reloc_8h.html#ab1cf60401c3d64fb845b603d4e26dd48">GETFUNCSYM</a>(fp,  sym,  got)</td></tr>
 <tr class="separator:ab1cf60401c3d64fb845b603d4e26dd48"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -142,7 +142,7 @@ Macros</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d9/df1/bashgetopt_8c.html#a024603cda52d9847e8d8df3c2e884b8c">sp</a>&#160;</td>
+          <td class="paramname">sp&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -152,9 +152,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    <a class="code" href="../../d3/dfc/aarch64_2crt__arch_8h.html#a5ca5c7b25f3542384caad5c6fecf0ec1">__asm__</a> __volatile__( \</div>
-<div class="line">    <span class="stringliteral">&quot;mr 1,%1 ; mtlr %0 ; blr&quot;</span> : : <span class="stringliteral">&quot;r&quot;</span>(pc), <span class="stringliteral">&quot;r&quot;</span>(<a class="code" href="../../d9/df1/bashgetopt_8c.html#a024603cda52d9847e8d8df3c2e884b8c">sp</a>) : <span class="stringliteral">&quot;memory&quot;</span> )</div>
+<div class="line">    <span class="stringliteral">&quot;mr 1,%1 ; mtlr %0 ; blr&quot;</span> : : <span class="stringliteral">&quot;r&quot;</span>(pc), <span class="stringliteral">&quot;r&quot;</span>(sp) : <span class="stringliteral">&quot;memory&quot;</span> )</div>
 <div class="ttc" id="aaarch64_2crt__arch_8h_html_a5ca5c7b25f3542384caad5c6fecf0ec1"><div class="ttname"><a href="../../d3/dfc/aarch64_2crt__arch_8h.html#a5ca5c7b25f3542384caad5c6fecf0ec1">__asm__</a></div><div class="ttdeci">__asm__(&quot;.text \n&quot; &quot;.global &quot; START &quot;\n&quot; &quot;.type &quot; START &quot;,%function\n&quot; START &quot;:\n&quot; &quot;	mov x29, #0\n&quot; &quot;	mov x30, #0\n&quot; &quot;	mov x0, sp\n&quot; &quot;.weak _DYNAMIC\n&quot; &quot;.hidden _DYNAMIC\n&quot; &quot;	adrp x1, _DYNAMIC\n&quot; &quot;	add x1, x1, #:lo12:_DYNAMIC\n&quot; &quot;	and sp, x0, #-16\n&quot; &quot;	b &quot; START &quot;_c\n&quot;)</div></div>
-<div class="ttc" id="abashgetopt_8c_html_a024603cda52d9847e8d8df3c2e884b8c"><div class="ttname"><a href="../../d9/df1/bashgetopt_8c.html#a024603cda52d9847e8d8df3c2e884b8c">sp</a></div><div class="ttdeci">static int sp</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df1/bashgetopt_8c_source.html#l00039">bashgetopt.c:39</a></div></div>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="../../d2/d59/powerpc_2reloc_8h_source.html#l00021">21</a> of file <a class="el" href="../../d2/d59/powerpc_2reloc_8h_source.html">reloc.h</a>.</p>
 

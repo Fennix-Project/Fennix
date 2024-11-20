@@ -32,7 +32,7 @@ var d__main_8c =
     [ "demosequence", "d2/dc6/d__main_8c.html#aaabc1a22209ab759097257f3e9c71022", null ],
     [ "devparm", "d2/dc6/d__main_8c.html#a5218bd94103f2280115c5c04cabc0d73", null ],
     [ "fastparm", "d2/dc6/d__main_8c.html#aea32ad499ec4c80068177a3318c58d93", null ],
-    [ "gameversions", "d2/dc6/d__main_8c.html#a1724ff4d2975a5d0a5ee9e7e0a4c6aaa", null ],
+    [ "gameversions", "d2/dc6/d__main_8c.html#a43e4d76593b36a38b0c12f1ae61ed805", null ],
     [ "inhelpscreens", "d2/dc6/d__main_8c.html#a27b9aa695964eeeb5c78cc73ef1197d5", null ],
     [ "iwadfile", "d2/dc6/d__main_8c.html#afe43d699b1ba1ff8c2cd5dd8f309b079", null ],
     [ "main_loop_started", "d2/dc6/d__main_8c.html#af7a8e2452833105a36c65ab2dc88a3eb", null ],

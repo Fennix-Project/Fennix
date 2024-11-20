@@ -1,8 +1,8 @@
 var namespaceMemory =
 [
     [ "ProgramBreak", "dc/d90/classMemory_1_1ProgramBreak.html", "dc/d90/classMemory_1_1ProgramBreak" ],
+    [ "KernelStackManager", "d7/d37/classMemory_1_1KernelStackManager.html", "d7/d37/classMemory_1_1KernelStackManager" ],
     [ "Physical", "d6/d05/classMemory_1_1Physical.html", "d6/d05/classMemory_1_1Physical" ],
-    [ "SmartHeap", "d5/ddc/classMemory_1_1SmartHeap.html", "d5/ddc/classMemory_1_1SmartHeap" ],
     [ "StackGuard", "dc/dbe/classMemory_1_1StackGuard.html", "dc/dbe/classMemory_1_1StackGuard" ],
     [ "SwapPT", "d9/dc0/classMemory_1_1SwapPT.html", "d9/dc0/classMemory_1_1SwapPT" ],
     [ "PageTableEntry", "dd/d44/unionMemory_1_1PageTableEntry.html", "dd/d44/unionMemory_1_1PageTableEntry" ],
@@ -15,6 +15,7 @@ var namespaceMemory =
     [ "PageMapLevel4Ptr", "d3/d97/namespaceMemory.html#d9/da3/structMemory_1_1PageMapLevel4Ptr", "d3/d97/namespaceMemory_d9/da3/structMemory_1_1PageMapLevel4Ptr_dup" ],
     [ "PageMapLevel5", "d6/d7e/unionMemory_1_1PageMapLevel5.html", "d6/d7e/unionMemory_1_1PageMapLevel5" ],
     [ "PageTable", "df/d1d/classMemory_1_1PageTable.html", "df/d1d/classMemory_1_1PageTable" ],
+    [ "VirtualAllocation", "d5/db9/classMemory_1_1VirtualAllocation.html", "d5/db9/classMemory_1_1VirtualAllocation" ],
     [ "Virtual", "db/d82/classMemory_1_1Virtual.html", "db/d82/classMemory_1_1Virtual" ],
     [ "VirtualMemoryArea", "d5/d49/classMemory_1_1VirtualMemoryArea.html", "d5/d49/classMemory_1_1VirtualMemoryArea" ],
     [ "PageTableEntry.__aligned", "d3/d97/namespaceMemory.html#de/d96/structMemory_1_1PageTableEntry_8____aligned", null ],
@@ -29,7 +30,7 @@ var namespaceMemory =
       [ "PS", "d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2a4c80755e0c786abc36bf8a6dca8b8eb9", null ],
       [ "G", "d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2af974f8b521f68af69f46dc38e8085fd6", null ],
       [ "CoW", "d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2a4dccec66d03cd196c302383e5a5a8d63", null ],
-      [ "AVL1", "d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2a3345775ca62b8b857753f5686bb144a2", null ],
+      [ "KRsv", "d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2a9501416f31a274fd20d1b0f56ae32816", null ],
       [ "AVL2", "d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2ac4f54345765b2c5f44e110b35d72998a", null ],
       [ "PAT", "d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2a5c8c050693b01f950782843671b40a1f", null ],
       [ "AVL3", "d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2ae01b7e59564e3807b7ef866649c65967", null ],

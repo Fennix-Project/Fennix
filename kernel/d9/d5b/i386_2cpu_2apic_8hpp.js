@@ -4,7 +4,7 @@ var i386_2cpu_2apic_8hpp =
       [ "raw", "d3/d88/namespaceAPIC.html#aace9fc1d515a705a6af03acb4f1f1353", null ],
       [ "raw", "d3/d88/namespaceAPIC.html#aace9fc1d515a705a6af03acb4f1f1353", null ],
       [ "split", "d3/d88/namespaceAPIC.html#ab5829523b29ca11fb1abc15bfc487c40", null ],
-      [ "split", "d3/d88/namespaceAPIC.html#afe24475433e570857d6128b1d142a3bd", null ],
+      [ "split", "d3/d88/namespaceAPIC.html#a9a420178fc94226a2f11daca070aa39f", null ],
       [ "split", "d3/d88/namespaceAPIC.html#a044ba2ceeaeb1c414df6ede30a07f097", null ],
       [ "x2", "d3/d88/namespaceAPIC.html#ac087266f54079647c5eebf2935c92b44", null ]
     ] ],

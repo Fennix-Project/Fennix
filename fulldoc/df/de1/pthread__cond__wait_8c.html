@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('df/de1/pthread__cond__wait_8c.html','.
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a53febb4deeb6747d86c695cef86b5c3a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/de1/pthread__cond__wait_8c.html#a53febb4deeb6747d86c695cef86b5c3a">pthread_cond_wait</a> (pthread_cond_t *restrict <a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>, pthread_mutex_t *restrict m)</td></tr>
+<tr class="memitem:a53febb4deeb6747d86c695cef86b5c3a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/de1/pthread__cond__wait_8c.html#a53febb4deeb6747d86c695cef86b5c3a">pthread_cond_wait</a> (pthread_cond_t *restrict c, pthread_mutex_t *restrict m)</td></tr>
 <tr class="separator:a53febb4deeb6747d86c695cef86b5c3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -129,12 +129,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/de1/pthread__cond__wait_8c_source.html#l00003">3</a> of file <a class="el" href="../../df/de1/pthread__cond__wait_8c_source.html">pthread_cond_wait.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../df/d00/Userspace_2musl_2include_2pthread_8h.html#abd3f42ecf353880d9a8eb8aca1ea9a43">pthread_cond_timedwait</a>(<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>, m, 0);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../df/d00/Userspace_2musl_2include_2pthread_8h.html#abd3f42ecf353880d9a8eb8aca1ea9a43">pthread_cond_timedwait</a>(c, m, 0);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
 <div class="ttc" id="aUserspace_2musl_2include_2pthread_8h_html_abd3f42ecf353880d9a8eb8aca1ea9a43"><div class="ttname"><a href="../../df/d00/Userspace_2musl_2include_2pthread_8h.html#abd3f42ecf353880d9a8eb8aca1ea9a43">pthread_cond_timedwait</a></div><div class="ttdeci">int pthread_cond_timedwait(pthread_cond_t *__restrict, pthread_mutex_t *__restrict, const struct timespec *__restrict)</div></div>
-<div class="ttc" id="aglob__loop_8c_html_a2019d0836036f2693a231fe5c7c65e20"><div class="ttname"><a href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a></div><div class="ttdeci">register GCHAR c</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d64/glob__loop_8c_source.html#l00028">glob_loop.c:26</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>, and <a class="el" href="../../df/d00/Userspace_2musl_2include_2pthread_8h.html#abd3f42ecf353880d9a8eb8aca1ea9a43">pthread_cond_timedwait()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d00/Userspace_2musl_2include_2pthread_8h.html#abd3f42ecf353880d9a8eb8aca1ea9a43">pthread_cond_timedwait()</a>.</p>
 
 </div>
 </div>

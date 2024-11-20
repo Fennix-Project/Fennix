@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('d7/db4/tcdrain_8c.html','../../'); ini
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a19430734023da2c68143ee1b5d77e36c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db4/tcdrain_8c.html#a19430734023da2c68143ee1b5d77e36c">tcdrain</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>)</td></tr>
+<tr class="memitem:a19430734023da2c68143ee1b5d77e36c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db4/tcdrain_8c.html#a19430734023da2c68143ee1b5d77e36c">tcdrain</a> (int <a class="el" href="../../d0/d64/syscall_8cpp.html#a6f8059414f0228f0256115e024eeed4b">fd</a>)</td></tr>
 <tr class="separator:a19430734023da2c68143ee1b5d77e36c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -121,15 +121,15 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/db4/tcdrain_8c_source.html#l00005">5</a> of file <a class="el" href="../../d7/db4/tcdrain_8c_source.html">tcdrain.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d9/db2/Userspace_2musl_2src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a>(SYS_ioctl, <a class="code" href="../../d2/db3/hdparm_8c.html#afbb31b79c86485de0faa9e9348a5247fa1e4d60e5b05464d07a30096747025a42">fd</a>, <a class="code" href="../../d4/d78/Kernel_2include__std_2stropts_8h.html#a026696704a79e05de0b175df47652e71">TCSBRK</a>, 1);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a>(SYS_ioctl, <a class="code" href="../../d0/d64/syscall_8cpp.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, <a class="code" href="../../d4/d78/Kernel_2include__std_2stropts_8h.html#a026696704a79e05de0b175df47652e71">TCSBRK</a>, 1);</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
 <div class="ttc" id="aKernel_2include__std_2stropts_8h_html_a026696704a79e05de0b175df47652e71"><div class="ttname"><a href="../../d4/d78/Kernel_2include__std_2stropts_8h.html#a026696704a79e05de0b175df47652e71">TCSBRK</a></div><div class="ttdeci">#define TCSBRK</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d78/Kernel_2include__std_2stropts_8h_source.html#l00061">stropts.h:61</a></div></div>
-<div class="ttc" id="aUserspace_2musl_2src_2internal_2syscall_8h_html_a0dc7f19edb1df0f10eb8270a15b7b994"><div class="ttname"><a href="../../d9/db2/Userspace_2musl_2src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a></div><div class="ttdeci">#define syscall_cp(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/db2/Userspace_2musl_2src_2internal_2syscall_8h_source.html#l00059">syscall.h:59</a></div></div>
-<div class="ttc" id="ahdparm_8c_html_afbb31b79c86485de0faa9e9348a5247fa1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#afbb31b79c86485de0faa9e9348a5247fa1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
+<div class="ttc" id="asrc_2internal_2syscall_8h_html_a0dc7f19edb1df0f10eb8270a15b7b994"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a></div><div class="ttdeci">#define syscall_cp(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00059">syscall.h:59</a></div></div>
+<div class="ttc" id="asyscall_8cpp_html_a6f8059414f0228f0256115e024eeed4b"><div class="ttname"><a href="../../d0/d64/syscall_8cpp.html#a6f8059414f0228f0256115e024eeed4b">fd</a></div><div class="ttdeci">int fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d64/syscall_8cpp_source.html#l02873">syscall.cpp:2873</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, <a class="el" href="../../d9/db2/Userspace_2musl_2src_2internal_2syscall_8h_source.html#l00059">syscall_cp</a>, and <a class="el" href="../../d4/d78/Kernel_2include__std_2stropts_8h_source.html#l00061">TCSBRK</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d64/syscall_8cpp_source.html#l02873">fd</a>, <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00059">syscall_cp</a>, and <a class="el" href="../../d4/d78/Kernel_2include__std_2stropts_8h_source.html#l00061">TCSBRK</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/df7/getpass_8c_source.html#l00008">getpass()</a>, and <a class="el" href="../../df/db0/getty_8c_source.html#l00256">init_tty_attrs()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/df7/getpass_8c_source.html#l00008">getpass()</a>.</p>
 
 </div>
 </div>

@@ -1,8 +1,8 @@
 var structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__0 =
 [
     [ "__amd_cpuid_init2", "d1/d64/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__0.html#a5ff209114416f4759b301071184848dc", null ],
-    [ "EAX", "d1/d64/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__0.html#a88460f68c591b0b2ef31c08b3ac71e58", null ],
-    [ "EBX", "d1/d64/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__0.html#a50cd45863a3fd58d35e951e8a976753e", null ],
-    [ "ECX", "d1/d64/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__0.html#a7200a45e74631def8434cd206b5851dd", null ],
-    [ "EDX", "d1/d64/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__0.html#a8221c6269cd11d7030ebb71a59cac8ce", null ]
+    [ "EAX", "d1/d64/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__0.html#a3c7416daa0d095d4a768fed6add5d0ab", null ],
+    [ "EBX", "d1/d64/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__0.html#a0ab4d5773fe1fdb25fa7ffb6f3806548", null ],
+    [ "ECX", "d1/d64/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__0.html#a8bd946904907895f98d22a1491bb3206", null ],
+    [ "EDX", "d1/d64/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__0.html#a718579db6b79bf5203700a0ea2ba1596", null ]
 ];

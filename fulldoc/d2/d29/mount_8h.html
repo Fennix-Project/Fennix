@@ -1090,17 +1090,13 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d67/musl_2src_2linux_2mount_8c_source.html#l00004">4</a> of file <a class="el" href="../../d4/d67/musl_2src_2linux_2mount_8c_source.html">mount.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d92/mount_8c_source.html#l00004">4</a> of file <a class="el" href="../../dc/d92/mount_8c_source.html">mount.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_mount, special, <a class="code" href="../../df/dde/runsv_8c.html#ad45ef284071e5bd5627127837e94bc27">dir</a>, fstype, <a class="code" href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a>, data);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_mount, special, dir, fstype, flags, data);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="adumpkmap_8c_html_abb0829cce9dd20a40ae0d86890ae85c6"><div class="ttname"><a href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a></div><div class="ttdeci">#define flags</div></div>
-<div class="ttc" id="arunsv_8c_html_ad45ef284071e5bd5627127837e94bc27"><div class="ttname"><a href="../../df/dde/runsv_8c.html#ad45ef284071e5bd5627127837e94bc27">dir</a></div><div class="ttdeci">#define dir</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dde/runsv_8c_source.html#l00121">runsv.c:121</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/dde/runsv_8c_source.html#l00121">dir</a>, <a class="el" href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d9/de8/bootchartd_8c_source.html#l00187">make_tempdir()</a>, <a class="el" href="../../d5/d70/apps_2base_2busybox_2util-linux_2unshare_8c_source.html#l00074">mount_or_die()</a>, <a class="el" href="../../df/d36/switch__root_8c_source.html#l00176">switch_root_main()</a>, and <a class="el" href="../../d9/db5/umount_8c_source.html#l00094">umount_main()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
 </div>
 </div>
@@ -1120,14 +1116,12 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d67/musl_2src_2linux_2mount_8c_source.html#l00009">9</a> of file <a class="el" href="../../d4/d67/musl_2src_2linux_2mount_8c_source.html">mount.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d92/mount_8c_source.html#l00009">9</a> of file <a class="el" href="../../dc/d92/mount_8c_source.html">mount.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_umount2, special, 0);</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d9/db5/umount_8c_source.html#l00094">umount_main()</a>.</p>
 
 </div>
 </div>
@@ -1157,14 +1151,12 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d67/musl_2src_2linux_2mount_8c_source.html#l00014">14</a> of file <a class="el" href="../../d4/d67/musl_2src_2linux_2mount_8c_source.html">mount.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d92/mount_8c_source.html#l00014">14</a> of file <a class="el" href="../../dc/d92/mount_8c_source.html">mount.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_umount2, special, <a class="code" href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a>);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_umount2, special, flags);</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d9/de8/bootchartd_8c_source.html#l00187">make_tempdir()</a>, and <a class="el" href="../../d9/db5/umount_8c_source.html#l00094">umount_main()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
 </div>
 </div>

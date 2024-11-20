@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d7/d19/wcscpy_8c.html','../../'); init
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abc932a1269c4669b7e083f32f4a424c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/dea/rlmbutil_8h.html#a996b469b2e20f31259fb88cdad2a6309">wchar_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d19/wcscpy_8c.html#abc932a1269c4669b7e083f32f4a424c4">wcscpy</a> (<a class="el" href="../../d6/dea/rlmbutil_8h.html#a996b469b2e20f31259fb88cdad2a6309">wchar_t</a> *restrict d, const <a class="el" href="../../d6/dea/rlmbutil_8h.html#a996b469b2e20f31259fb88cdad2a6309">wchar_t</a> *restrict <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>)</td></tr>
+<tr class="memitem:abc932a1269c4669b7e083f32f4a424c4"><td class="memItemLeft" align="right" valign="top">wchar_t *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d19/wcscpy_8c.html#abc932a1269c4669b7e083f32f4a424c4">wcscpy</a> (wchar_t *restrict d, const wchar_t *restrict s)</td></tr>
 <tr class="separator:abc932a1269c4669b7e083f32f4a424c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -108,15 +108,15 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/dea/rlmbutil_8h.html#a996b469b2e20f31259fb88cdad2a6309">wchar_t</a>* wcscpy </td>
+          <td class="memname">wchar_t* wcscpy </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/dea/rlmbutil_8h.html#a996b469b2e20f31259fb88cdad2a6309">wchar_t</a> *restrict&#160;</td>
+          <td class="paramtype">wchar_t *restrict&#160;</td>
           <td class="paramname"><em>d</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d6/dea/rlmbutil_8h.html#a996b469b2e20f31259fb88cdad2a6309">wchar_t</a> *restrict&#160;</td>
+          <td class="paramtype">const wchar_t *restrict&#160;</td>
           <td class="paramname"><em>s</em>&#160;</td>
         </tr>
         <tr>
@@ -130,13 +130,10 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d7/d19/wcscpy_8c_source.html#l00003">3</a> of file <a class="el" href="../../d7/d19/wcscpy_8c_source.html">wcscpy.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordtype">wchar_t</span> *a = d;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">while</span> ((*d++ = *<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>++));</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">while</span> ((*d++ = *s++));</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> a;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
-<div class="ttc" id="aarpping_8c_html_ac9562ee4ecb3b8aeebeb04656e7e57a9"><div class="ttname"><a href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a></div><div class="ttdeci">#define s</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>.</p>
-
 </div>
 </div>
 </div><!-- contents -->

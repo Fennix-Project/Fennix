@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('de/df2/ffs_8c.html','../../'); initRes
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2385d975eddea296daa497e5d36febc9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df2/ffs_8c.html#a2385d975eddea296daa497e5d36febc9">ffs</a> (int <a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>)</td></tr>
+<tr class="memitem:a2385d975eddea296daa497e5d36febc9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/df2/ffs_8c.html#a2385d975eddea296daa497e5d36febc9">ffs</a> (int <a class="el" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>)</td></tr>
 <tr class="separator:a2385d975eddea296daa497e5d36febc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -120,14 +120,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/df2/ffs_8c_source.html#l00004">4</a> of file <a class="el" href="../../de/df2/ffs_8c_source.html">ffs.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> ? <a class="code" href="../../dd/d02/atomic_8h.html#ab4e21bbfc5cdd33fd4cd671dd8444762">a_ctz_l</a>(<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>)+1 : 0;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> ? <a class="code" href="../../dd/d02/atomic_8h.html#ab4e21bbfc5cdd33fd4cd671dd8444762">a_ctz_l</a>(<a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>)+1 : 0;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
 <div class="ttc" id="aatomic_8h_html_ab4e21bbfc5cdd33fd4cd671dd8444762"><div class="ttname"><a href="../../dd/d02/atomic_8h.html#ab4e21bbfc5cdd33fd4cd671dd8444762">a_ctz_l</a></div><div class="ttdeci">static int a_ctz_l(unsigned long x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d02/atomic_8h_source.html#l00292">atomic.h:292</a></div></div>
-<div class="ttc" id="agettextP_8h_html_a68428151ad44e31b19041cdeb8972a91"><div class="ttname"><a href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a></div><div class="ttdeci">static nls_uint32 nls_uint32 i</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d71/gettextP_8h_source.html#l00074">gettextP.h:74</a></div></div>
+<div class="ttc" id="arandom_8c_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">static int i</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de5/random_8c_source.html#l00023">random.c:23</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d02/atomic_8h_source.html#l00292">a_ctz_l()</a>, and <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d6/dd0/gzip_8c_source.html#l02198">gzip_main()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d02/atomic_8h_source.html#l00292">a_ctz_l()</a>, and <a class="el" href="../../dc/de5/random_8c_source.html#l00023">i</a>.</p>
 
 </div>
 </div>

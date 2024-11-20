@@ -153,7 +153,7 @@ var dir_42b03d0a3d708a270812dd98334a347d =
     [ "llround.c", "dd/de4/llround_8c.html", "dd/de4/llround_8c" ],
     [ "llroundf.c", "db/d2c/llroundf_8c.html", "db/d2c/llroundf_8c" ],
     [ "llroundl.c", "d7/d49/llroundl_8c.html", "d7/d49/llroundl_8c" ],
-    [ "log.c", "dd/dde/musl_2src_2math_2log_8c.html", "dd/dde/musl_2src_2math_2log_8c" ],
+    [ "log.c", "d7/df8/log_8c.html", "d7/df8/log_8c" ],
     [ "log10.c", "d5/d59/log10_8c.html", "d5/d59/log10_8c" ],
     [ "log10f.c", "df/db8/log10f_8c.html", "df/db8/log10f_8c" ],
     [ "log10l.c", "df/d52/log10l_8c.html", null ],

@@ -1,10 +1,6 @@
 var wi__stuff_8c =
 [
     [ "point_t", "d6/d23/wi__stuff_8c.html#d3/d21/structpoint__t", [
-      [ "edge", "d6/d23/wi__stuff_8c.html#a294cd280b3687f43388c2fec6026aeaa", null ],
-      [ "opt_rd", "d6/d23/wi__stuff_8c.html#a1c9a4a4ae4c96ea8f15e7ad6bafab15b", null ],
-      [ "p", "d6/d23/wi__stuff_8c.html#ad4ae166fe997eca9b7542f04e9e8f1e9", null ],
-      [ "type", "d6/d23/wi__stuff_8c.html#a2fd980efaaea1ceb0eb638704c1c1cc5", null ],
       [ "x", "d6/d23/wi__stuff_8c.html#a8c2e3bf26d194ce8ffdf84bb501602d4", null ],
       [ "y", "d6/d23/wi__stuff_8c.html#ad320c37ee9949e4874a505483d2f6907", null ]
     ] ],

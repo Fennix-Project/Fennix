@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">struct </span>StreamDescriptor</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> <a class="code" href="../../df/db0/getty_8c.html#a4cc4bd318d9af04f3eebc855ae17d99f">CTL</a> : 24;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> CTL : 24;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> STS;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
@@ -128,19 +128,19 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> FIFOD;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../dc/d84/top_8c.html#a3dfb8ef0d04e938194da60b4420c7517">FMT</a>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> FMT;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Rsvd1[4];</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> BDPL;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> BDPU;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;} <a class="code" href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;} <a class="code" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keyword">struct </span>ControllerRegisters</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;{</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> GCAP;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> <a class="code" href="../../d0/dd8/termios-bits_8hpp.html#a52eb058f379b5122d28b036a06ce0e76">VMIN</a>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> <a class="code" href="../../d9/db8/Kernel_2include__std_2termios_8h.html#a52eb058f379b5122d28b036a06ce0e76">VMIN</a>;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> VMJ;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> OUTPAY;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> INPAY;</div>
@@ -183,7 +183,7 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> DPIBUBASE;</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Rsvd8[8];</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    StreamDescriptor SD[];</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;} <a class="code" href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;} <a class="code" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="comment">/* Not working as expected */</span></div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="keyword">struct </span>__ControllerRegisters</div>
@@ -201,11 +201,11 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ISS : 4;</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160; </div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> OSS : 4;</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        } <a class="code" href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        } <a class="code" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Raw;</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    } GCAP;</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160; </div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> <a class="code" href="../../d0/dd8/termios-bits_8hpp.html#a52eb058f379b5122d28b036a06ce0e76">VMIN</a>;</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> <a class="code" href="../../d9/db8/Kernel_2include__std_2termios_8h.html#a52eb058f379b5122d28b036a06ce0e76">VMIN</a>;</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160; </div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> VMJ;</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160; </div>
@@ -226,7 +226,7 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> UNSOL : 1;</div>
 <div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160; </div>
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;            <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> RsvdP1 : 23;</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        } <a class="code" href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        } <a class="code" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Raw;</div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    } GCTL;</div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160; </div>
@@ -237,7 +237,7 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SDIWEN : 15;</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160; </div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> RsvdP0 : 1;</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        } <a class="code" href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        } <a class="code" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Raw;</div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    } WAKEEN;</div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160; </div>
@@ -248,7 +248,7 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SDIWAKE : 15;</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160; </div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> RsvdZ0 : 1;</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        } <a class="code" href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        } <a class="code" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Raw;</div>
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    } WAKESTS;</div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160; </div>
@@ -259,7 +259,7 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> RsvdZ0 : 1;</div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> FSTS : 1;</div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> RsvdZ1 : 14;</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        } <a class="code" href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        } <a class="code" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Raw;</div>
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    } GSTS;</div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160; </div>
@@ -280,7 +280,7 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;            <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> CIE : 1;</div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160; </div>
 <div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;            <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> GIE : 1;</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;        } <a class="code" href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;        } <a class="code" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Raw;</div>
 <div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    } INTCTL;</div>
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160; </div>
@@ -293,7 +293,7 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;            <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> CIS : 1;</div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160; </div>
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;            <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> GIS : 1;</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        } <a class="code" href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        } <a class="code" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Raw;</div>
 <div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    } INTSTS;</div>
 <div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160; </div>
@@ -310,7 +310,7 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;            <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> SSYNC : 30;</div>
 <div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160; </div>
 <div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;            <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> RsvdP0 : 2;</div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;        } <a class="code" href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;        } <a class="code" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Raw;</div>
 <div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    } SSYNC;</div>
 <div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160; </div>
@@ -323,7 +323,7 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;            <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Unimplemented : 7;</div>
 <div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160; </div>
 <div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;            <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> CORBLBASE : 25;</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;        } <a class="code" href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;        } <a class="code" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Raw;</div>
 <div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    } CORBLBASE;</div>
 <div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160; </div>
@@ -336,7 +336,7 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> CORBWP : 8;</div>
 <div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160; </div>
 <div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> RsvdP0 : 8;</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;        } <a class="code" href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;        } <a class="code" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Raw;</div>
 <div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    } CORBWP;</div>
 <div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160; </div>
@@ -349,7 +349,7 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> RsvdP0 : 7;</div>
 <div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160; </div>
 <div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> CORBRPRST : 1;</div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;        } <a class="code" href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;        } <a class="code" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Raw;</div>
 <div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;    } CORBRP;</div>
 <div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160; </div>
@@ -362,7 +362,7 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> CORBRUN : 1;</div>
 <div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160; </div>
 <div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> RsvdP0 : 6;</div>
-<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;        } <a class="code" href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;        } <a class="code" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Raw;</div>
 <div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;    } CORBCTL;</div>
 <div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160; </div>
@@ -373,7 +373,7 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> CMEI : 1;</div>
 <div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160; </div>
 <div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> RsvdZ0 : 7;</div>
-<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;        } <a class="code" href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;        } <a class="code" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Raw;</div>
 <div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;    } CORBSTS;</div>
 <div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160; </div>
@@ -386,7 +386,7 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> RsvdP0 : 2;</div>
 <div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160; </div>
 <div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> CORBSZCAP : 4;</div>
-<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;        } <a class="code" href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;        } <a class="code" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Raw;</div>
 <div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;    } CORBSIZE;</div>
 <div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160; </div>
@@ -399,7 +399,7 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;            <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Unimplemented : 7;</div>
 <div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160; </div>
 <div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;            <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> RIRBLBASE : 25;</div>
-<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;        } <a class="code" href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;        } <a class="code" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Raw;</div>
 <div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;    } RIRBLBASE;</div>
 <div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160; </div>
@@ -414,7 +414,7 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> RsvdP0 : 7;</div>
 <div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160; </div>
 <div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> RIRBWPRST : 1;</div>
-<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;        } <a class="code" href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;        } <a class="code" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Raw;</div>
 <div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;    } RIRBWP;</div>
 <div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160; </div>
@@ -425,7 +425,7 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> RINTCNT : 8;</div>
 <div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160; </div>
 <div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> RsvdP0 : 8;</div>
-<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;        } <a class="code" href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;        } <a class="code" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Raw;</div>
 <div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;    } RINTCNT;</div>
 <div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160; </div>
@@ -440,7 +440,7 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> RIRBOIC : 1;</div>
 <div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160; </div>
 <div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> RsvdP0 : 5;</div>
-<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;        } <a class="code" href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;        } <a class="code" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Raw;</div>
 <div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;    } RIRBCTL;</div>
 <div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160; </div>
@@ -455,7 +455,7 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> RIRBOIS : 1;</div>
 <div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160; </div>
 <div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> RsvdZ1 : 5;</div>
-<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;        } <a class="code" href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;        } <a class="code" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Raw;</div>
 <div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;    } RIRBSTS;</div>
 <div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160; </div>
@@ -468,7 +468,7 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> RsvdP0 : 2;</div>
 <div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160; </div>
 <div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> RIRBSZCAP : 4;</div>
-<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;        } <a class="code" href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;        } <a class="code" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Raw;</div>
 <div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;    } RIRBSIZE;</div>
 <div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160; </div>
@@ -491,7 +491,7 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;            <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> RsvdZ0 : 6;</div>
 <div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160; </div>
 <div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;            <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> DPLBASE : 25;</div>
-<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;        } <a class="code" href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;        } <a class="code" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Raw;</div>
 <div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;    } DPIBLBASE;</div>
 <div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160; </div>
@@ -500,25 +500,23 @@ $(document).ready(function(){initNavTree('d3/d6b/hda_8hpp_source.html','../../')
 <div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Rsvd8[8];</div>
 <div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160; </div>
 <div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;    StreamDescriptor SD[];</div>
-<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;} <a class="code" href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a>((packed));</div>
+<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;} <a class="code" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160; </div>
 <div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> <span class="keywordtype">int</span> <a class="code" href="../../d3/d6b/hda_8hpp.html#a725d888123501c2f038199503b78bfb0">cxx_Panic</a>();</div>
 <div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> <span class="keywordtype">int</span> <a class="code" href="../../d3/d6b/hda_8hpp.html#ab1b166734806bf3c7836cc14e766303b">cxx_Probe</a>();</div>
 <div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> <span class="keywordtype">int</span> <a class="code" href="../../d3/d6b/hda_8hpp.html#ad2360a63c67c2171cf11ec075fed32c3">cxx_Initialize</a>();</div>
 <div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> <span class="keywordtype">int</span> <a class="code" href="../../d3/d6b/hda_8hpp.html#a533e53180ecaabc14c3b0230bb7a5171">cxx_Finalize</a>();</div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00160">types.h:160</a></div></div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a5debae8b2a1ec20a6694c0c443ee399e"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></div><div class="ttdeci">__UINT16_TYPE__ uint16_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00161">types.h:161</a></div></div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a95e1d92b2619a326b2e86600f3d23100"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a></div><div class="ttdeci">#define EXTERNC</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00029">types.h:29</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00109">types.h:109</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a5debae8b2a1ec20a6694c0c443ee399e"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></div><div class="ttdeci">__UINT16_TYPE__ uint16_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00110">types.h:110</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a95e1d92b2619a326b2e86600f3d23100"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a></div><div class="ttdeci">#define EXTERNC</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00031">types.h:31</a></div></div>
+<div class="ttc" id="aKernel_2include__std_2termios_8h_html_a52eb058f379b5122d28b036a06ce0e76"><div class="ttname"><a href="../../d9/db8/Kernel_2include__std_2termios_8h.html#a52eb058f379b5122d28b036a06ce0e76">VMIN</a></div><div class="ttdeci">#define VMIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/db8/Kernel_2include__std_2termios_8h_source.html#l00030">termios.h:30</a></div></div>
 <div class="ttc" id="aarithmetic__operations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddd/arithmetic__operations_8c_source.html#l00295">arithmetic_operations.c:295</a></div></div>
-<div class="ttc" id="agetty_8c_html_a4cc4bd318d9af04f3eebc855ae17d99f"><div class="ttname"><a href="../../df/db0/getty_8c.html#a4cc4bd318d9af04f3eebc855ae17d99f">CTL</a></div><div class="ttdeci">#define CTL(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/db0/getty_8c_source.html#l00089">getty.c:89</a></div></div>
-<div class="ttc" id="ahda_8hpp_html_a533e53180ecaabc14c3b0230bb7a5171"><div class="ttname"><a href="../../d3/d6b/hda_8hpp.html#a533e53180ecaabc14c3b0230bb7a5171">cxx_Finalize</a></div><div class="ttdeci">EXTERNC int cxx_Finalize()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daf/ac97_8cpp_source.html#l00830">ac97.cpp:830</a></div></div>
-<div class="ttc" id="ahda_8hpp_html_a725d888123501c2f038199503b78bfb0"><div class="ttname"><a href="../../d3/d6b/hda_8hpp.html#a725d888123501c2f038199503b78bfb0">cxx_Panic</a></div><div class="ttdeci">EXTERNC int cxx_Panic()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daf/ac97_8cpp_source.html#l00718">ac97.cpp:718</a></div></div>
-<div class="ttc" id="ahda_8hpp_html_ab1b166734806bf3c7836cc14e766303b"><div class="ttname"><a href="../../d3/d6b/hda_8hpp.html#ab1b166734806bf3c7836cc14e766303b">cxx_Probe</a></div><div class="ttdeci">EXTERNC int cxx_Probe()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daf/ac97_8cpp_source.html#l00733">ac97.cpp:733</a></div></div>
-<div class="ttc" id="ahda_8hpp_html_ad2360a63c67c2171cf11ec075fed32c3"><div class="ttname"><a href="../../d3/d6b/hda_8hpp.html#ad2360a63c67c2171cf11ec075fed32c3">cxx_Initialize</a></div><div class="ttdeci">EXTERNC int cxx_Initialize()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daf/ac97_8cpp_source.html#l00776">ac97.cpp:776</a></div></div>
-<div class="ttc" id="astdc_8h_html_a9d373a9b65ff25b2db84c07394e1c212"><div class="ttname"><a href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a></div><div class="ttdeci">#define __attribute__(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de8/stdc_8h_source.html#l00071">stdc.h:71</a></div></div>
-<div class="ttc" id="atermios-bits_8hpp_html_a52eb058f379b5122d28b036a06ce0e76"><div class="ttname"><a href="../../d0/dd8/termios-bits_8hpp.html#a52eb058f379b5122d28b036a06ce0e76">VMIN</a></div><div class="ttdeci">#define VMIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd8/termios-bits_8hpp_source.html#l00028">termios-bits.hpp:28</a></div></div>
-<div class="ttc" id="atop_8c_html_a3dfb8ef0d04e938194da60b4420c7517"><div class="ttname"><a href="../../dc/d84/top_8c.html#a3dfb8ef0d04e938194da60b4420c7517">FMT</a></div><div class="ttdeci">#define FMT</div></div>
+<div class="ttc" id="ahda_8hpp_html_a533e53180ecaabc14c3b0230bb7a5171"><div class="ttname"><a href="../../d3/d6b/hda_8hpp.html#a533e53180ecaabc14c3b0230bb7a5171">cxx_Finalize</a></div><div class="ttdeci">EXTERNC int cxx_Finalize()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daf/ac97_8cpp_source.html#l00848">ac97.cpp:848</a></div></div>
+<div class="ttc" id="ahda_8hpp_html_a725d888123501c2f038199503b78bfb0"><div class="ttname"><a href="../../d3/d6b/hda_8hpp.html#a725d888123501c2f038199503b78bfb0">cxx_Panic</a></div><div class="ttdeci">EXTERNC int cxx_Panic()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daf/ac97_8cpp_source.html#l00739">ac97.cpp:739</a></div></div>
+<div class="ttc" id="ahda_8hpp_html_ab1b166734806bf3c7836cc14e766303b"><div class="ttname"><a href="../../d3/d6b/hda_8hpp.html#ab1b166734806bf3c7836cc14e766303b">cxx_Probe</a></div><div class="ttdeci">EXTERNC int cxx_Probe()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daf/ac97_8cpp_source.html#l00754">ac97.cpp:754</a></div></div>
+<div class="ttc" id="ahda_8hpp_html_ad2360a63c67c2171cf11ec075fed32c3"><div class="ttname"><a href="../../d3/d6b/hda_8hpp.html#ad2360a63c67c2171cf11ec075fed32c3">cxx_Initialize</a></div><div class="ttdeci">EXTERNC int cxx_Initialize()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daf/ac97_8cpp_source.html#l00797">ac97.cpp:797</a></div></div>
+<div class="ttc" id="aunwind_8h_html_ae43f9bc187e3b4e790fced9893f65cc8"><div class="ttname"><a href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a></div><div class="ttdeci">unsigned _Unwind_Exception_Class __attribute__((__mode__(__DI__)))</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/db6/unwind_8h_source.html#l00037">unwind.h:37</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

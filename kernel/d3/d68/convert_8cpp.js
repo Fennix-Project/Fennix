@@ -40,6 +40,7 @@ var convert_8cpp =
     [ "strncasecmp", "d3/d68/convert_8cpp.html#abe3cc2ef8acf25aa9a68a264940e0b14", null ],
     [ "strncmp", "d3/d68/convert_8cpp.html#a58420c57c20bf37db7f2c0a6622af40a", null ],
     [ "strncpy", "d3/d68/convert_8cpp.html#acf62e58d0c42ac0cc4ece5cc5e924c46", null ],
+    [ "strrchr", "d3/d68/convert_8cpp.html#a9b5ffb90d9a30625617401e6a5999e85", null ],
     [ "strstr", "d3/d68/convert_8cpp.html#a40344e121ba3db236e1f464857957239", null ],
     [ "strtok", "d3/d68/convert_8cpp.html#a5a6a8404bae2c92b2353dc285f01c34e", null ],
     [ "strtol", "d3/d68/convert_8cpp.html#a0810b1447e6c87dc5507f8bd2802379e", null ],

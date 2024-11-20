@@ -8,9 +8,7 @@ var regex_8h =
       [ "re_nsub", "d1/d21/regex_8h.html#a703c2069a09bac7fa67de8871cb17d35", null ]
     ] ],
     [ "regmatch_t", "d1/d21/regex_8h.html#d3/d3a/structregmatch__t", [
-      [ "rm_eo", "d1/d21/regex_8h.html#a3f10672e125eec75c94e29dda575cc43", null ],
       [ "rm_eo", "d1/d21/regex_8h.html#a728c28b9b23fa28c4e0b90e3a1a29efc", null ],
-      [ "rm_so", "d1/d21/regex_8h.html#a3f642d9dae6573e6095526eb896f74a3", null ],
       [ "rm_so", "d1/d21/regex_8h.html#a90ac8973d256eaffdbb20de676ff45a4", null ]
     ] ],
     [ "__NEED_regoff_t", "d1/d21/regex_8h.html#a161efcdff6acc8eb4493cc67510d66f2", null ],

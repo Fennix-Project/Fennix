@@ -6,21 +6,22 @@ var unwind_8h =
       [ "private_1", "dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a90fbbe59c5adade160b6bb21b5f71d3d", null ],
       [ "private_2", "dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a5baef90b9b72c2b612cf44326674ef24", null ]
     ] ],
+    [ "_Unwind_Context", "d3/db6/unwind_8h.html#d2/d0a/struct__Unwind__Context", [
+      [ "__stub", "d3/db6/unwind_8h.html#a1f81a99668831dae5612e060b508f63d", null ]
+    ] ],
     [ "_Unwind_FrameState", "d3/db6/unwind_8h.html#d1/d17/struct__Unwind__FrameState", [
       [ "personality", "d3/db6/unwind_8h.html#a952f776a57fd9a4076d5e22d1362509b", null ]
     ] ],
-    [ "__attribute__", "d3/db6/unwind_8h.html#ae7f6009f03d735378a802d62de45785f", null ],
+    [ "_UA_CLEANUP_PHASE", "d3/db6/unwind_8h.html#aa243069e54d5a04a956e0eea738b00a2", null ],
+    [ "_UA_END_OF_STACK", "d3/db6/unwind_8h.html#a4ab70d00aad55702fa031e0b0f622c22", null ],
+    [ "_UA_FORCE_UNWIND", "d3/db6/unwind_8h.html#abe17fc08c7e4f6110aacd4dc3c3d4779", null ],
+    [ "_UA_HANDLER_FRAME", "d3/db6/unwind_8h.html#adc1ab685451d84ec89f20825718a8a17", null ],
+    [ "_UA_SEARCH_PHASE", "d3/db6/unwind_8h.html#a1c8c5033d411d165a2aa4cce25800e18", null ],
+    [ "__attribute__", "d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8", null ],
     [ "_Unwind_Action", "d3/db6/unwind_8h.html#a09fdc8f727b214f5168e3690b0ddfa21", null ],
     [ "_Unwind_Context_Reg_Val", "d3/db6/unwind_8h.html#a91f55b5e5d7baa71ed91507334f205a9", null ],
     [ "_Unwind_Exception_Cleanup_Fn", "d3/db6/unwind_8h.html#aa315b38b270688a4d979ec71a9f33586", null ],
     [ "_Unwind_Personality_Fn", "d3/db6/unwind_8h.html#af993119cf60777f0bbf2b0909ca4f1cb", null ],
-    [ "_UA", "d3/db6/unwind_8h.html#aa996b292d6da499402c5768df770dfeb", [
-      [ "_UA_SEARCH_PHASE", "d3/db6/unwind_8h.html#aa996b292d6da499402c5768df770dfebab215256d5e0b0c14cb9f77efcaabfb77", null ],
-      [ "_UA_CLEANUP_PHASE", "d3/db6/unwind_8h.html#aa996b292d6da499402c5768df770dfeba913b68d5f7ad8dab03b0a3e413ff9edd", null ],
-      [ "_UA_HANDLER_FRAME", "d3/db6/unwind_8h.html#aa996b292d6da499402c5768df770dfeba4de8dddd0b481accc0b97b221241d0e7", null ],
-      [ "_UA_FORCE_UNWIND", "d3/db6/unwind_8h.html#aa996b292d6da499402c5768df770dfeba3bd812946ec378ce175951bdc4860ed3", null ],
-      [ "_UA_END_OF_STACK", "d3/db6/unwind_8h.html#aa996b292d6da499402c5768df770dfeba0253ffe73d9ff0a27d0808ca39e8d11b", null ]
-    ] ],
     [ "_Unwind_Reason_Code", "d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2", [
       [ "_URC_NO_REASON", "d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2a41ad850ae0c5b105dca3d223df38af97", null ],
       [ "_URC_FOREIGN_EXCEPTION_CAUGHT", "d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2a9fd826377b4f2f85771d886c1a4ce37b", null ],
@@ -42,7 +43,6 @@ var unwind_8h =
       [ "_URC_CONTINUE_UNWIND", "dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2aceacf011e23d791d187b7b10b599bdb6", null ]
     ] ],
     [ "__attribute__", "d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431", null ],
-    [ "_Unwind_RaiseException", "d3/db6/unwind_8h.html#aa996b088116062dfbdaf699225fb42d3", null ],
     [ "exception_class", "d3/db6/unwind_8h.html#ae268038ce44c98f28ba55a4fd593f4e2", null ],
     [ "exception_cleanup", "d3/db6/unwind_8h.html#a18303b9dbcb0c16693d43e92eab3f267", null ],
     [ "private_1", "d3/db6/unwind_8h.html#aa1785f5c87b51d3ad7225379bdbacbc1", null ],

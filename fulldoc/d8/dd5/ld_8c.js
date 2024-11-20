@@ -26,6 +26,6 @@ var ld_8c =
     [ "ld_load", "d8/dd5/ld_8c.html#a97b74b9d76bb371eb26660888651ef6c", null ],
     [ "ld_main", "d8/dd5/ld_8c.html#af0fd881e24373252b8f3aaf183dd5f11", null ],
     [ "ELF_LAZY_RESOLVE_MAIN", "d8/dd5/ld_8c.html#a8700b153a1da764eb80ec122a559f0e5", null ],
-    [ "Lock", "d8/dd5/ld_8c.html#a95b9ec9b558db4721392ca6a4dfeda1e", null ],
+    [ "Lock", "d8/dd5/ld_8c.html#a603c4584f5f7f8889541caf03538e608", null ],
     [ "ParentPath", "d8/dd5/ld_8c.html#ad198b1bfc716bae0dbb1957a79be8ae6", null ]
 ];

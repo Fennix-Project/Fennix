@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d4/d69/ctime32__r_8c.html','../../'); 
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af0f197cc863fa9ac069955e44728ff22"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d69/ctime32__r_8c.html#af0f197cc863fa9ac069955e44728ff22">__ctime32_r</a> (<a class="el" href="../../da/de1/time32_8h.html#a0c708c1577ba61ce003c1e8e5e377c6d">time32_t</a> *<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>, char *<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>)</td></tr>
+<tr class="memitem:af0f197cc863fa9ac069955e44728ff22"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d69/ctime32__r_8c.html#af0f197cc863fa9ac069955e44728ff22">__ctime32_r</a> (<a class="el" href="../../da/de1/time32_8h.html#a0c708c1577ba61ce003c1e8e5e377c6d">time32_t</a> *t, char *<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>)</td></tr>
 <tr class="separator:af0f197cc863fa9ac069955e44728ff22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -130,13 +130,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d69/ctime32__r_8c_source.html#l00004">4</a> of file <a class="el" href="../../d4/d69/ctime32__r_8c_source.html">ctime32_r.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/dce/ctime__r_8c.html#ae6eed522503f70a5cf05be0be558b125">ctime_r</a>(&amp;(time_t){*<a class="code" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>}, <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/dce/ctime__r_8c.html#ae6eed522503f70a5cf05be0be558b125">ctime_r</a>(&amp;(time_t){*t}, <a class="code" href="../../da/da9/setlocale_8c.html#a9375469e25223d13fe7c2facb5c319f7">buf</a>);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="aapps_2base_2busybox_2coreutils_2stat_8c_html_aa29b866765bdc5bdf87b7eb666d66093"><div class="ttname"><a href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a></div><div class="ttdeci">#define buf</div></div>
 <div class="ttc" id="actime__r_8c_html_ae6eed522503f70a5cf05be0be558b125"><div class="ttname"><a href="../../d0/dce/ctime__r_8c.html#ae6eed522503f70a5cf05be0be558b125">ctime_r</a></div><div class="ttdeci">char * ctime_r(const time_t *t, char *buf)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dce/ctime__r_8c_source.html#l00003">ctime_r.c:3</a></div></div>
-<div class="ttc" id="agm__loop_8c_html_ac310d9181e916ba43604099aee272c71"><div class="ttname"><a href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a></div><div class="ttdeci">int t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dec/gm__loop_8c_source.html#l00079">gm_loop.c:79</a></div></div>
+<div class="ttc" id="asetlocale_8c_html_a9375469e25223d13fe7c2facb5c319f7"><div class="ttname"><a href="../../da/da9/setlocale_8c.html#a9375469e25223d13fe7c2facb5c319f7">buf</a></div><div class="ttdeci">static char buf[LC_ALL *(LOCALE_NAME_MAX+1)]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/da9/setlocale_8c_source.html#l00008">setlocale.c:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, <a class="el" href="../../d0/dce/ctime__r_8c_source.html#l00003">ctime_r()</a>, and <a class="el" href="../../d6/dec/gm__loop_8c_source.html#l00079">t</a>.</p>
+<p class="reference">References <a class="el" href="../../da/da9/setlocale_8c_source.html#l00008">buf</a>, and <a class="el" href="../../d0/dce/ctime__r_8c_source.html#l00003">ctime_r()</a>.</p>
 
 </div>
 </div>

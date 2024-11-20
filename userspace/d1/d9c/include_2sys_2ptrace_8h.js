@@ -23,20 +23,20 @@ var include_2sys_2ptrace_8h =
       [ "rseq_abi_size", "d1/d9c/include_2sys_2ptrace_8h.html#adb4cfd069253a1efdfba93a073375359", null ],
       [ "signature", "d1/d9c/include_2sys_2ptrace_8h.html#a9b1382774226d0ce4d04d774bfa2bb13", null ]
     ] ],
-    [ "__ptrace_syscall_info.__unnamed406__", "d1/d9c/include_2sys_2ptrace_8h.html#de/d23/union____ptrace__syscall__info_8____unnamed406____", [
+    [ "__ptrace_syscall_info.__unnamed63__", "d1/d9c/include_2sys_2ptrace_8h.html#dd/d59/union____ptrace__syscall__info_8____unnamed63____", [
       [ "entry", "d1/d9c/include_2sys_2ptrace_8h.html#a1043bfc77febe75fafec0c4309faccf1", null ],
       [ "exit", "d1/d9c/include_2sys_2ptrace_8h.html#af24f62eeb789199b9b2e467df3b1876b", null ],
       [ "seccomp", "d1/d9c/include_2sys_2ptrace_8h.html#a6a8499b6fd9fbdf0028b882ee1c9187a", null ]
     ] ],
-    [ "__ptrace_syscall_info.__unnamed406__.entry", "d1/d9c/include_2sys_2ptrace_8h.html#d5/db7/struct____ptrace__syscall__info_8____unnamed406_____8entry", [
+    [ "__ptrace_syscall_info.__unnamed63__.entry", "d1/d9c/include_2sys_2ptrace_8h.html#d7/d05/struct____ptrace__syscall__info_8____unnamed63_____8entry", [
       [ "args", "d1/d9c/include_2sys_2ptrace_8h.html#a0fd09e248cd4d4e379ff3bc94158269a", null ],
       [ "nr", "d1/d9c/include_2sys_2ptrace_8h.html#a0ab3e5d0801aea3f3758bcbd812e8f10", null ]
     ] ],
-    [ "__ptrace_syscall_info.__unnamed406__.exit", "d1/d9c/include_2sys_2ptrace_8h.html#df/dc4/struct____ptrace__syscall__info_8____unnamed406_____8exit", [
+    [ "__ptrace_syscall_info.__unnamed63__.exit", "d1/d9c/include_2sys_2ptrace_8h.html#d0/d32/struct____ptrace__syscall__info_8____unnamed63_____8exit", [
       [ "is_error", "d1/d9c/include_2sys_2ptrace_8h.html#af0af3c92cb52b55ab4d6abbd849dea91", null ],
       [ "rval", "d1/d9c/include_2sys_2ptrace_8h.html#a3aa2a96aaa4b6f394e95b854076343b9", null ]
     ] ],
-    [ "__ptrace_syscall_info.__unnamed406__.seccomp", "d1/d9c/include_2sys_2ptrace_8h.html#de/d3a/struct____ptrace__syscall__info_8____unnamed406_____8seccomp", [
+    [ "__ptrace_syscall_info.__unnamed63__.seccomp", "d1/d9c/include_2sys_2ptrace_8h.html#d1/d29/struct____ptrace__syscall__info_8____unnamed63_____8seccomp", [
       [ "args", "d1/d9c/include_2sys_2ptrace_8h.html#a0fd09e248cd4d4e379ff3bc94158269a", null ],
       [ "nr", "d1/d9c/include_2sys_2ptrace_8h.html#a0ab3e5d0801aea3f3758bcbd812e8f10", null ],
       [ "ret_data", "d1/d9c/include_2sys_2ptrace_8h.html#a959ac0d9b37efc1120b4cb89328a2a0f", null ]

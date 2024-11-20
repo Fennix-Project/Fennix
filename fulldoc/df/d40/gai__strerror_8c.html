@@ -126,18 +126,15 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d40/gai__strerror_8c_source.html#l00019">19</a> of file <a class="el" href="../../df/d40/gai__strerror_8c_source.html">gai_strerror.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>=<a class="code" href="../../df/d40/gai__strerror_8c.html#a1ebdede773f1cf2a3a47a5478ae8b702">msgs</a>, ecode++; ecode &amp;&amp; *<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>; ecode++, <a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>++) <span class="keywordflow">for</span> (; *<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>; <a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>++);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">if</span> (!*<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>) <a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>++;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d7/d76/locale__impl_8h.html#a7b083588006cbb9bdb232bb6aa948267">LCTRANS_CUR</a>(<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">char</span> *s;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">for</span> (s=<a class="code" href="../../df/d40/gai__strerror_8c.html#a1ebdede773f1cf2a3a47a5478ae8b702">msgs</a>, ecode++; ecode &amp;&amp; *s; ecode++, s++) <span class="keywordflow">for</span> (; *s; s++);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">if</span> (!*s) s++;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d7/d76/locale__impl_8h.html#a7b083588006cbb9bdb232bb6aa948267">LCTRANS_CUR</a>(s);</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
-<div class="ttc" id="aarpping_8c_html_ac9562ee4ecb3b8aeebeb04656e7e57a9"><div class="ttname"><a href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a></div><div class="ttdeci">#define s</div></div>
 <div class="ttc" id="agai__strerror_8c_html_a1ebdede773f1cf2a3a47a5478ae8b702"><div class="ttname"><a href="../../df/d40/gai__strerror_8c.html#a1ebdede773f1cf2a3a47a5478ae8b702">msgs</a></div><div class="ttdeci">static const char msgs[]</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d40/gai__strerror_8c_source.html#l00004">gai_strerror.c:4</a></div></div>
 <div class="ttc" id="alocale__impl_8h_html_a7b083588006cbb9bdb232bb6aa948267"><div class="ttname"><a href="../../d7/d76/locale__impl_8h.html#a7b083588006cbb9bdb232bb6aa948267">LCTRANS_CUR</a></div><div class="ttdeci">#define LCTRANS_CUR(msg)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d76/locale__impl_8h_source.html#l00035">locale_impl.h:35</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d76/locale__impl_8h_source.html#l00035">LCTRANS_CUR</a>, <a class="el" href="../../df/d40/gai__strerror_8c_source.html#l00004">msgs</a>, and <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d8/d89/nslookup_8c_source.html#l00095">print_host()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d76/locale__impl_8h_source.html#l00035">LCTRANS_CUR</a>, and <a class="el" href="../../df/d40/gai__strerror_8c_source.html#l00004">msgs</a>.</p>
 
 </div>
 </div>

@@ -104,7 +104,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a06fc0767035e8ec0f29816ad7bf3ab41"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d26/lchmod_8c.html#a06fc0767035e8ec0f29816ad7bf3ab41">lchmod</a> (const char *path, <a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a4c39e0c5c2965112d6b55652a6b7f781">mode_t</a> mode)</td></tr>
+<tr class="memitem:a06fc0767035e8ec0f29816ad7bf3ab41"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d26/lchmod_8c.html#a06fc0767035e8ec0f29816ad7bf3ab41">lchmod</a> (const char *path, <a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ad2933406ba93c0e0d1884fc09c18a0bf">mode_t</a> mode)</td></tr>
 <tr class="separator:a06fc0767035e8ec0f29816ad7bf3ab41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -140,7 +140,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a4c39e0c5c2965112d6b55652a6b7f781">mode_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ad2933406ba93c0e0d1884fc09c18a0bf">mode_t</a>&#160;</td>
           <td class="paramname"><em>mode</em>&#160;</td>
         </tr>
         <tr>
@@ -153,13 +153,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/d26/lchmod_8c_source.html#l00005">5</a> of file <a class="el" href="../../db/d26/lchmod_8c_source.html">lchmod.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#a736660ab05f2319dc3c6db620155cdaa">fchmodat</a>(<a class="code" href="../../da/d63/defs_8hpp.html#a301749b9aa4b9416c329bb8b19345216">AT_FDCWD</a>, path, mode, <a class="code" href="../../da/d63/defs_8hpp.html#ad623014f05ffb83df42ba96900fcd62e">AT_SYMLINK_NOFOLLOW</a>);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#a736660ab05f2319dc3c6db620155cdaa">fchmodat</a>(<a class="code" href="../../d2/d44/musl_2include_2fcntl_8h.html#a301749b9aa4b9416c329bb8b19345216">AT_FDCWD</a>, path, mode, <a class="code" href="../../d2/d44/musl_2include_2fcntl_8h.html#ad623014f05ffb83df42ba96900fcd62e">AT_SYMLINK_NOFOLLOW</a>);</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
 <div class="ttc" id="aUserspace_2musl_2include_2sys_2stat_8h_html_a736660ab05f2319dc3c6db620155cdaa"><div class="ttname"><a href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#a736660ab05f2319dc3c6db620155cdaa">fchmodat</a></div><div class="ttdeci">int fchmodat(int, const char *, mode_t, int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd4/fchmodat_8c_source.html#l00006">fchmodat.c:6</a></div></div>
-<div class="ttc" id="adefs_8hpp_html_a301749b9aa4b9416c329bb8b19345216"><div class="ttname"><a href="../../da/d63/defs_8hpp.html#a301749b9aa4b9416c329bb8b19345216">AT_FDCWD</a></div><div class="ttdeci">#define AT_FDCWD</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d63/defs_8hpp_source.html#l00145">defs.hpp:145</a></div></div>
-<div class="ttc" id="adefs_8hpp_html_ad623014f05ffb83df42ba96900fcd62e"><div class="ttname"><a href="../../da/d63/defs_8hpp.html#ad623014f05ffb83df42ba96900fcd62e">AT_SYMLINK_NOFOLLOW</a></div><div class="ttdeci">#define AT_SYMLINK_NOFOLLOW</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d63/defs_8hpp_source.html#l00146">defs.hpp:146</a></div></div>
+<div class="ttc" id="amusl_2include_2fcntl_8h_html_a301749b9aa4b9416c329bb8b19345216"><div class="ttname"><a href="../../d2/d44/musl_2include_2fcntl_8h.html#a301749b9aa4b9416c329bb8b19345216">AT_FDCWD</a></div><div class="ttdeci">#define AT_FDCWD</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d44/musl_2include_2fcntl_8h_source.html#l00060">fcntl.h:60</a></div></div>
+<div class="ttc" id="amusl_2include_2fcntl_8h_html_ad623014f05ffb83df42ba96900fcd62e"><div class="ttname"><a href="../../d2/d44/musl_2include_2fcntl_8h.html#ad623014f05ffb83df42ba96900fcd62e">AT_SYMLINK_NOFOLLOW</a></div><div class="ttdeci">#define AT_SYMLINK_NOFOLLOW</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d44/musl_2include_2fcntl_8h_source.html#l00061">fcntl.h:61</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/d63/defs_8hpp_source.html#l00145">AT_FDCWD</a>, <a class="el" href="../../da/d63/defs_8hpp_source.html#l00146">AT_SYMLINK_NOFOLLOW</a>, and <a class="el" href="../../d6/dd4/fchmodat_8c_source.html#l00006">fchmodat()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d44/musl_2include_2fcntl_8h_source.html#l00060">AT_FDCWD</a>, <a class="el" href="../../d2/d44/musl_2include_2fcntl_8h_source.html#l00061">AT_SYMLINK_NOFOLLOW</a>, and <a class="el" href="../../d6/dd4/fchmodat_8c_source.html#l00006">fchmodat()</a>.</p>
 
 </div>
 </div>

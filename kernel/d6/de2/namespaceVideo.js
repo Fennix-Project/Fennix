@@ -8,7 +8,7 @@ var namespaceVideo =
     [ "Font", "d3/d41/classVideo_1_1Font.html", "d3/d41/classVideo_1_1Font" ],
     [ "Pixel", "d6/de2/namespaceVideo.html#d7/ddb/unionVideo_1_1Pixel", "d6/de2/namespaceVideo_d7/ddb/unionVideo_1_1Pixel_dup" ],
     [ "Display", "db/d81/classVideo_1_1Display.html", "db/d81/classVideo_1_1Display" ],
-    [ "Pixel.__unnamed493__", "d6/de2/namespaceVideo.html#d5/df1/structVideo_1_1Pixel_8____unnamed493____", "d6/de2/namespaceVideo_d5/df1/structVideo_1_1Pixel_8____unnamed493_____dup" ],
+    [ "Pixel.__unnamed824__", "d6/de2/namespaceVideo.html#df/d2f/structVideo_1_1Pixel_8____unnamed824____", "d6/de2/namespaceVideo_df/d2f/structVideo_1_1Pixel_8____unnamed824_____dup" ],
     [ "PSF1_FONT", "d6/de2/namespaceVideo.html#a2137843eb8fe9874ab8b683ac3bcbc30", null ],
     [ "PSF2_FONT", "d6/de2/namespaceVideo.html#a7137318579a094bc14839573852979c4", null ],
     [ "DisplayFont", "d6/de2/namespaceVideo.html#ae778e941956730bb3b382aa59a1d34cc", [

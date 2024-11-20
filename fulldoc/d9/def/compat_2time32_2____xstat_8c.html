@@ -98,9 +98,9 @@ $(document).ready(function(){initNavTree('d9/def/compat_2time32_2____xstat_8c.ht
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6ace0022664f551f7a39f55251ed7a28"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/def/compat_2time32_2____xstat_8c.html#a6ace0022664f551f7a39f55251ed7a28">__fxstat</a> (int ver, int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, struct stat32 *<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>)</td></tr>
+<tr class="memitem:a6ace0022664f551f7a39f55251ed7a28"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/def/compat_2time32_2____xstat_8c.html#a6ace0022664f551f7a39f55251ed7a28">__fxstat</a> (int ver, int <a class="el" href="../../d0/d64/syscall_8cpp.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, struct stat32 *<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>)</td></tr>
 <tr class="separator:a6ace0022664f551f7a39f55251ed7a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12ef0178e48974c77f93c2528bc8f869"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/def/compat_2time32_2____xstat_8c.html#a12ef0178e48974c77f93c2528bc8f869">__fxstatat</a> (int ver, int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, const char *path, struct stat32 *<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>, int flag)</td></tr>
+<tr class="memitem:a12ef0178e48974c77f93c2528bc8f869"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/def/compat_2time32_2____xstat_8c.html#a12ef0178e48974c77f93c2528bc8f869">__fxstatat</a> (int ver, int <a class="el" href="../../d0/d64/syscall_8cpp.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, const char *path, struct stat32 *<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>, int flag)</td></tr>
 <tr class="separator:a12ef0178e48974c77f93c2528bc8f869"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ccc477320412614d84eee8e911dee2b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/def/compat_2time32_2____xstat_8c.html#a0ccc477320412614d84eee8e911dee2b">__lxstat</a> (int ver, const char *path, struct stat32 *<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>)</td></tr>
 <tr class="separator:a0ccc477320412614d84eee8e911dee2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -142,13 +142,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/def/compat_2time32_2____xstat_8c_source.html#l00006">6</a> of file <a class="el" href="../../d9/def/compat_2time32_2____xstat_8c_source.html">__xstat.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d1/df5/fstat__time32_8c.html#a477cda74fe8f3c3977189bb3b462a9ab">__fstat_time32</a>(<a class="code" href="../../d2/db3/hdparm_8c.html#afbb31b79c86485de0faa9e9348a5247fa1e4d60e5b05464d07a30096747025a42">fd</a>, <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d1/df5/fstat__time32_8c.html#a477cda74fe8f3c3977189bb3b462a9ab">__fstat_time32</a>(<a class="code" href="../../d0/d64/syscall_8cpp.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, <a class="code" href="../../da/da9/setlocale_8c.html#a9375469e25223d13fe7c2facb5c319f7">buf</a>);</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
-<div class="ttc" id="aapps_2base_2busybox_2coreutils_2stat_8c_html_aa29b866765bdc5bdf87b7eb666d66093"><div class="ttname"><a href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a></div><div class="ttdeci">#define buf</div></div>
 <div class="ttc" id="afstat__time32_8c_html_a477cda74fe8f3c3977189bb3b462a9ab"><div class="ttname"><a href="../../d1/df5/fstat__time32_8c.html#a477cda74fe8f3c3977189bb3b462a9ab">__fstat_time32</a></div><div class="ttdeci">int __fstat_time32(int fd, struct stat32 *restrict st32)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df5/fstat__time32_8c_source.html#l00009">fstat_time32.c:9</a></div></div>
-<div class="ttc" id="ahdparm_8c_html_afbb31b79c86485de0faa9e9348a5247fa1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#afbb31b79c86485de0faa9e9348a5247fa1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
+<div class="ttc" id="asetlocale_8c_html_a9375469e25223d13fe7c2facb5c319f7"><div class="ttname"><a href="../../da/da9/setlocale_8c.html#a9375469e25223d13fe7c2facb5c319f7">buf</a></div><div class="ttdeci">static char buf[LC_ALL *(LOCALE_NAME_MAX+1)]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/da9/setlocale_8c_source.html#l00008">setlocale.c:8</a></div></div>
+<div class="ttc" id="asyscall_8cpp_html_a6f8059414f0228f0256115e024eeed4b"><div class="ttname"><a href="../../d0/d64/syscall_8cpp.html#a6f8059414f0228f0256115e024eeed4b">fd</a></div><div class="ttdeci">int fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d64/syscall_8cpp_source.html#l02873">syscall.cpp:2873</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/df5/fstat__time32_8c_source.html#l00009">__fstat_time32()</a>, <a class="el" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, and <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/df5/fstat__time32_8c_source.html#l00009">__fstat_time32()</a>, <a class="el" href="../../da/da9/setlocale_8c_source.html#l00008">buf</a>, and <a class="el" href="../../d0/d64/syscall_8cpp_source.html#l02873">fd</a>.</p>
 
 </div>
 </div>
@@ -198,11 +198,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/def/compat_2time32_2____xstat_8c_source.html#l00011">11</a> of file <a class="el" href="../../d9/def/compat_2time32_2____xstat_8c_source.html">__xstat.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/d51/fstatat__time32_8c.html#a5e6b4313b9f66071a6dea4c0d435a280">__fstatat_time32</a>(<a class="code" href="../../d2/db3/hdparm_8c.html#afbb31b79c86485de0faa9e9348a5247fa1e4d60e5b05464d07a30096747025a42">fd</a>, path, <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, flag);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/d51/fstatat__time32_8c.html#a5e6b4313b9f66071a6dea4c0d435a280">__fstatat_time32</a>(<a class="code" href="../../d0/d64/syscall_8cpp.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, path, <a class="code" href="../../da/da9/setlocale_8c.html#a9375469e25223d13fe7c2facb5c319f7">buf</a>, flag);</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
 <div class="ttc" id="afstatat__time32_8c_html_a5e6b4313b9f66071a6dea4c0d435a280"><div class="ttname"><a href="../../d8/d51/fstatat__time32_8c.html#a5e6b4313b9f66071a6dea4c0d435a280">__fstatat_time32</a></div><div class="ttdeci">int __fstatat_time32(int fd, const char *restrict path, struct stat32 *restrict st32, int flag)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d51/fstatat__time32_8c_source.html#l00009">fstatat_time32.c:9</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d51/fstatat__time32_8c_source.html#l00009">__fstatat_time32()</a>, <a class="el" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, and <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d51/fstatat__time32_8c_source.html#l00009">__fstatat_time32()</a>, <a class="el" href="../../da/da9/setlocale_8c_source.html#l00008">buf</a>, and <a class="el" href="../../d0/d64/syscall_8cpp_source.html#l02873">fd</a>.</p>
 
 </div>
 </div>
@@ -240,11 +240,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/def/compat_2time32_2____xstat_8c_source.html#l00016">16</a> of file <a class="el" href="../../d9/def/compat_2time32_2____xstat_8c_source.html">__xstat.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d7/d4f/lstat__time32_8c.html#a5adbfb0714da86ca5992bd0d97abc466">__lstat_time32</a>(path, <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d7/d4f/lstat__time32_8c.html#a5adbfb0714da86ca5992bd0d97abc466">__lstat_time32</a>(path, <a class="code" href="../../da/da9/setlocale_8c.html#a9375469e25223d13fe7c2facb5c319f7">buf</a>);</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}</div>
 <div class="ttc" id="alstat__time32_8c_html_a5adbfb0714da86ca5992bd0d97abc466"><div class="ttname"><a href="../../d7/d4f/lstat__time32_8c.html#a5adbfb0714da86ca5992bd0d97abc466">__lstat_time32</a></div><div class="ttdeci">int __lstat_time32(const char *restrict path, struct stat32 *restrict st32)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d4f/lstat__time32_8c_source.html#l00009">lstat_time32.c:9</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d4f/lstat__time32_8c_source.html#l00009">__lstat_time32()</a>, and <a class="el" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d4f/lstat__time32_8c_source.html#l00009">__lstat_time32()</a>, and <a class="el" href="../../da/da9/setlocale_8c_source.html#l00008">buf</a>.</p>
 
 </div>
 </div>
@@ -282,11 +282,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/def/compat_2time32_2____xstat_8c_source.html#l00021">21</a> of file <a class="el" href="../../d9/def/compat_2time32_2____xstat_8c_source.html">__xstat.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/d6d/stat__time32_8c.html#a0a809bab1c79db655dece91dba4fe963">__stat_time32</a>(path, <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/d6d/stat__time32_8c.html#a0a809bab1c79db655dece91dba4fe963">__stat_time32</a>(path, <a class="code" href="../../da/da9/setlocale_8c.html#a9375469e25223d13fe7c2facb5c319f7">buf</a>);</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
 <div class="ttc" id="astat__time32_8c_html_a0a809bab1c79db655dece91dba4fe963"><div class="ttname"><a href="../../d8/d6d/stat__time32_8c.html#a0a809bab1c79db655dece91dba4fe963">__stat_time32</a></div><div class="ttdeci">int __stat_time32(const char *restrict path, struct stat32 *restrict st32)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d6d/stat__time32_8c_source.html#l00009">stat_time32.c:9</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d6d/stat__time32_8c_source.html#l00009">__stat_time32()</a>, and <a class="el" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d6d/stat__time32_8c_source.html#l00009">__stat_time32()</a>, and <a class="el" href="../../da/da9/setlocale_8c_source.html#l00008">buf</a>.</p>
 
 </div>
 </div>

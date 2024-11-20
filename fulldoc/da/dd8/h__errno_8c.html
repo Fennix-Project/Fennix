@@ -126,14 +126,13 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/dd8/h__errno_8c_source.html#l00007">7</a> of file <a class="el" href="../../da/dd8/h__errno_8c_source.html">h_errno.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d7/dd7/pthread__impl_8h.html#a10e218eb7ae37b8c1542e3d03c324d23">__pthread_self</a>()-&gt;<a class="code" href="../../d6/dae/dc_8c.html#ab151537536988a2190d2cac79f964c52">stack</a>) <span class="keywordflow">return</span> &amp;<a class="code" href="../../da/dd8/h__errno_8c.html#a2a1ce3f2040007303d36c0b682b5ac10">h_errno</a>;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d7/dd7/pthread__impl_8h.html#a10e218eb7ae37b8c1542e3d03c324d23">__pthread_self</a>()-&gt;stack) <span class="keywordflow">return</span> &amp;<a class="code" href="../../da/dd8/h__errno_8c.html#a2a1ce3f2040007303d36c0b682b5ac10">h_errno</a>;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> &amp;<a class="code" href="../../d7/dd7/pthread__impl_8h.html#a10e218eb7ae37b8c1542e3d03c324d23">__pthread_self</a>()-&gt;h_errno_val;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
-<div class="ttc" id="adc_8c_html_ab151537536988a2190d2cac79f964c52"><div class="ttname"><a href="../../d6/dae/dc_8c.html#ab151537536988a2190d2cac79f964c52">stack</a></div><div class="ttdeci">#define stack</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dae/dc_8c_source.html#l00032">dc.c:32</a></div></div>
 <div class="ttc" id="ah__errno_8c_html_a2a1ce3f2040007303d36c0b682b5ac10"><div class="ttname"><a href="../../da/dd8/h__errno_8c.html#a2a1ce3f2040007303d36c0b682b5ac10">h_errno</a></div><div class="ttdeci">int h_errno</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dd8/h__errno_8c_source.html#l00005">h_errno.c:5</a></div></div>
 <div class="ttc" id="apthread__impl_8h_html_a10e218eb7ae37b8c1542e3d03c324d23"><div class="ttname"><a href="../../d7/dd7/pthread__impl_8h.html#a10e218eb7ae37b8c1542e3d03c324d23">__pthread_self</a></div><div class="ttdeci">#define __pthread_self()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd7/pthread__impl_8h_source.html#l00122">pthread_impl.h:122</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/dd7/pthread__impl_8h_source.html#l00122">__pthread_self</a>, <a class="el" href="../../da/dd8/h__errno_8c_source.html#l00005">h_errno</a>, and <a class="el" href="../../d6/dae/dc_8c_source.html#l00032">stack</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/dd7/pthread__impl_8h_source.html#l00122">__pthread_self</a>, and <a class="el" href="../../da/dd8/h__errno_8c_source.html#l00005">h_errno</a>.</p>
 
 </div>
 </div>
@@ -152,7 +151,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/dd8/h__errno_8c_source.html#l00005">5</a> of file <a class="el" href="../../da/dd8/h__errno_8c_source.html">h_errno.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/dd8/h__errno_8c_source.html#l00007">__h_errno_location()</a>, <a class="el" href="../../d7/d73/herror__msg_8c_source.html#l00011">bb_herror_msg()</a>, <a class="el" href="../../d7/d73/herror__msg_8c_source.html#l00020">bb_herror_msg_and_die()</a>, <a class="el" href="../../d1/d27/gethostbyaddr_8c_source.html#l00007">gethostbyaddr()</a>, <a class="el" href="../../d9/d52/gethostbyname2_8c_source.html#l00008">gethostbyname2()</a>, <a class="el" href="../../df/d72/herror_8c_source.html#l00005">herror()</a>, and <a class="el" href="../../d9/d50/res__query_8c_source.html#l00005">res_query()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/dd8/h__errno_8c_source.html#l00007">__h_errno_location()</a>, <a class="el" href="../../d1/d27/gethostbyaddr_8c_source.html#l00007">gethostbyaddr()</a>, <a class="el" href="../../d9/d52/gethostbyname2_8c_source.html#l00008">gethostbyname2()</a>, <a class="el" href="../../df/d72/herror_8c_source.html#l00005">herror()</a>, and <a class="el" href="../../d9/d50/res__query_8c_source.html#l00005">res_query()</a>.</p>
 
 </div>
 </div>

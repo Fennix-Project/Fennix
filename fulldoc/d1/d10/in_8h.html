@@ -675,7 +675,7 @@ sin_zero[8]</td>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="ae03961069af78150bc2d64335b0c963c"></a>union <a class="el" href="../../d1/d10/in_8h.html#dc/db2/unionin6__addr_8____in6__union">in6_addr</a></td>
+<a id="a88308a4f289f42d6784684c4a99e6d7e"></a>union <a class="el" href="../../d1/d10/in_8h.html#dc/db2/unionin6__addr_8____in6__union">in6_addr</a></td>
 <td class="fieldname">
 __in6_union</td>
 <td class="fielddoc">
@@ -1156,7 +1156,7 @@ __s6_addr32[4]</td>
 <div class="line">         ((<a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *) (a))[2] == 0 &amp;&amp; \</div>
 <div class="line">         ((<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *) (a))[12] == 0 &amp;&amp; ((<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *) (a))[13] == 0 &amp;&amp; \</div>
 <div class="line">         ((<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *) (a))[14] == 0 &amp;&amp; ((<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *) (a))[15] == 1 )</div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00160">types.h:160</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00109">types.h:109</a></div></div>
 <div class="ttc" id="aarithmetic__operations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddd/arithmetic__operations_8c_source.html#l00295">arithmetic_operations.c:295</a></div></div>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="../../d1/d10/in_8h_source.html#l00114">114</a> of file <a class="el" href="../../d1/d10/in_8h_source.html">in.h</a>.</p>
@@ -4570,13 +4570,12 @@ __s6_addr32[4]</td>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/df7/htonl_8c_source.html#l00004">4</a> of file <a class="el" href="../../d9/df7/htonl_8c_source.html">htonl.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keyword">union </span>{ <span class="keywordtype">int</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>; <span class="keywordtype">char</span> <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>; } u = { 1 };</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> u.c ? <a class="code" href="../../db/dc9/byteswap_8h.html#a5bcbf8b6ee067af4c2fd60ef3bdb39d2">bswap_32</a>(<a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>) : <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keyword">union </span>{ <span class="keywordtype">int</span> <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>; <span class="keywordtype">char</span> c; } u = { 1 };</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> u.c ? <a class="code" href="../../db/dc9/byteswap_8h.html#a5bcbf8b6ee067af4c2fd60ef3bdb39d2">bswap_32</a>(<a class="code" href="../../dc/de5/random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>) : <a class="code" href="../../dc/de5/random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
 <div class="ttc" id="abyteswap_8h_html_a5bcbf8b6ee067af4c2fd60ef3bdb39d2"><div class="ttname"><a href="../../db/dc9/byteswap_8h.html#a5bcbf8b6ee067af4c2fd60ef3bdb39d2">bswap_32</a></div><div class="ttdeci">#define bswap_32(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dc9/byteswap_8h_source.html#l00023">byteswap.h:23</a></div></div>
-<div class="ttc" id="adcigettext_8c_html_a58257445f1a929304e537613b62ebb35"><div class="ttname"><a href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a></div><div class="ttdeci">unsigned long int n</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d32/dcigettext_8c_source.html#l00441">dcigettext.c:441</a></div></div>
-<div class="ttc" id="agettextP_8h_html_a68428151ad44e31b19041cdeb8972a91"><div class="ttname"><a href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a></div><div class="ttdeci">static nls_uint32 nls_uint32 i</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d71/gettextP_8h_source.html#l00074">gettextP.h:74</a></div></div>
-<div class="ttc" id="aglob__loop_8c_html_a2019d0836036f2693a231fe5c7c65e20"><div class="ttname"><a href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a></div><div class="ttdeci">register GCHAR c</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d64/glob__loop_8c_source.html#l00028">glob_loop.c:26</a></div></div>
+<div class="ttc" id="arandom_8c_html_a76f11d9a0a47b94f72c2d0e77fb32240"><div class="ttname"><a href="../../dc/de5/random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a></div><div class="ttdeci">static int n</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de5/random_8c_source.html#l00022">random.c:22</a></div></div>
+<div class="ttc" id="arandom_8c_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">static int i</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de5/random_8c_source.html#l00023">random.c:23</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -4598,8 +4597,8 @@ __s6_addr32[4]</td>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/de8/htons_8c_source.html#l00004">4</a> of file <a class="el" href="../../d7/de8/htons_8c_source.html">htons.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keyword">union </span>{ <span class="keywordtype">int</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>; <span class="keywordtype">char</span> <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>; } u = { 1 };</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> u.c ? <a class="code" href="../../db/dc9/byteswap_8h.html#ad409605fabe125b1d222acb94a3f480f">bswap_16</a>(<a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>) : <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keyword">union </span>{ <span class="keywordtype">int</span> <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>; <span class="keywordtype">char</span> c; } u = { 1 };</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> u.c ? <a class="code" href="../../db/dc9/byteswap_8h.html#ad409605fabe125b1d222acb94a3f480f">bswap_16</a>(<a class="code" href="../../dc/de5/random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>) : <a class="code" href="../../dc/de5/random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
 <div class="ttc" id="abyteswap_8h_html_ad409605fabe125b1d222acb94a3f480f"><div class="ttname"><a href="../../db/dc9/byteswap_8h.html#ad409605fabe125b1d222acb94a3f480f">bswap_16</a></div><div class="ttdeci">#define bswap_16(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dc9/byteswap_8h_source.html#l00022">byteswap.h:22</a></div></div>
 </div><!-- fragment -->
@@ -4623,8 +4622,8 @@ __s6_addr32[4]</td>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/d2e/ntohl_8c_source.html#l00004">4</a> of file <a class="el" href="../../d2/d2e/ntohl_8c_source.html">ntohl.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keyword">union </span>{ <span class="keywordtype">int</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>; <span class="keywordtype">char</span> <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>; } u = { 1 };</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> u.c ? <a class="code" href="../../db/dc9/byteswap_8h.html#a5bcbf8b6ee067af4c2fd60ef3bdb39d2">bswap_32</a>(<a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>) : <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keyword">union </span>{ <span class="keywordtype">int</span> <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>; <span class="keywordtype">char</span> c; } u = { 1 };</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> u.c ? <a class="code" href="../../db/dc9/byteswap_8h.html#a5bcbf8b6ee067af4c2fd60ef3bdb39d2">bswap_32</a>(<a class="code" href="../../dc/de5/random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>) : <a class="code" href="../../dc/de5/random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
@@ -4647,8 +4646,8 @@ __s6_addr32[4]</td>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d1a/ntohs_8c_source.html#l00004">4</a> of file <a class="el" href="../../da/d1a/ntohs_8c_source.html">ntohs.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keyword">union </span>{ <span class="keywordtype">int</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>; <span class="keywordtype">char</span> <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>; } u = { 1 };</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> u.c ? <a class="code" href="../../db/dc9/byteswap_8h.html#ad409605fabe125b1d222acb94a3f480f">bswap_16</a>(<a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>) : <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keyword">union </span>{ <span class="keywordtype">int</span> <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>; <span class="keywordtype">char</span> c; } u = { 1 };</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> u.c ? <a class="code" href="../../db/dc9/byteswap_8h.html#ad409605fabe125b1d222acb94a3f480f">bswap_16</a>(<a class="code" href="../../dc/de5/random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>) : <a class="code" href="../../dc/de5/random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
 </div><!-- fragment -->
 </div>

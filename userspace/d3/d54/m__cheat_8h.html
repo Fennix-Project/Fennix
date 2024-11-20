@@ -114,7 +114,7 @@ Macros</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a27276b967e6332b159a62ea5abd62e1b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d54/m__cheat_8h.html#a27276b967e6332b159a62ea5abd62e1b">cht_CheckCheat</a> (<a class="el" href="../../d3/d54/m__cheat_8h.html#d1/dcf/structcheatseq__t">cheatseq_t</a> *cht, char key)</td></tr>
 <tr class="separator:a27276b967e6332b159a62ea5abd62e1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94059ea737aee1290da983c4d814e1dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d54/m__cheat_8h.html#a94059ea737aee1290da983c4d814e1dc">cht_GetParam</a> (<a class="el" href="../../d3/d54/m__cheat_8h.html#d1/dcf/structcheatseq__t">cheatseq_t</a> *cht, char *<a class="el" href="../../d6/dc6/termcap_8c.html#dd/da2/structbuffer">buffer</a>)</td></tr>
+<tr class="memitem:a94059ea737aee1290da983c4d814e1dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d54/m__cheat_8h.html#a94059ea737aee1290da983c4d814e1dc">cht_GetParam</a> (<a class="el" href="../../d3/d54/m__cheat_8h.html#d1/dcf/structcheatseq__t">cheatseq_t</a> *cht, char *buffer)</td></tr>
 <tr class="separator:a94059ea737aee1290da983c4d814e1dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
@@ -348,10 +348,9 @@ sequence_len</td>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d3b/m__cheat_8c_source.html#l00082">82</a> of file <a class="el" href="../../df/d3b/m__cheat_8c_source.html">m_cheat.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;{</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <a class="code" href="../../d4/d7b/fcts_8c.html#a14938524dcbeb59d7117ba5e151ad1b1">memcpy</a>(<a class="code" href="../../d6/dc6/termcap_8c.html#dd/da2/structbuffer">buffer</a>, cht-&gt;<a class="code" href="../../d3/d54/m__cheat_8h.html#a25f48224cfc056915341973bc132124e">parameter_buf</a>, cht-&gt;<a class="code" href="../../d3/d54/m__cheat_8h.html#a5a5caf551ec18934f0d980143759b002">parameter_chars</a>);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <a class="code" href="../../d4/d7b/fcts_8c.html#a14938524dcbeb59d7117ba5e151ad1b1">memcpy</a>(buffer, cht-&gt;<a class="code" href="../../d3/d54/m__cheat_8h.html#a25f48224cfc056915341973bc132124e">parameter_buf</a>, cht-&gt;<a class="code" href="../../d3/d54/m__cheat_8h.html#a5a5caf551ec18934f0d980143759b002">parameter_chars</a>);</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;}</div>
 <div class="ttc" id="afcts_8c_html_a14938524dcbeb59d7117ba5e151ad1b1"><div class="ttname"><a href="../../d4/d7b/fcts_8c.html#a14938524dcbeb59d7117ba5e151ad1b1">memcpy</a></div><div class="ttdeci">void * memcpy(void *dest, const void *src, size_t n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7b/fcts_8c_source.html#l00083">fcts.c:83</a></div></div>
-<div class="ttc" id="atermcap_8c_html_dd/da2/structbuffer"><div class="ttname"><a href="../../d6/dc6/termcap_8c.html#dd/da2/structbuffer">buffer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc6/termcap_8c_source.html#l00384">termcap.c:385</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d4/d7b/fcts_8c_source.html#l00083">memcpy()</a>, <a class="el" href="../../d3/d54/m__cheat_8h_source.html#l00047">cheatseq_t::parameter_buf</a>, and <a class="el" href="../../d3/d54/m__cheat_8h_source.html#l00041">cheatseq_t::parameter_chars</a>.</p>
 

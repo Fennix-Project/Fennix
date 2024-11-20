@@ -114,8 +114,8 @@ Functions</h2></td></tr>
 <tr class="separator:a22cd32a7cc1a42bdd40bf38ee6f471bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac0e5b13bca4d40920a2f81d626b319c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c.html#aac0e5b13bca4d40920a2f81d626b319c">DriverProbe</a> ()</td></tr>
 <tr class="separator:aac0e5b13bca4d40920a2f81d626b319c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a380b4a9024fa152d7349195f3815c6b0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c.html#a380b4a9024fa152d7349195f3815c6b0">DriverInfo</a> (&quot;ata&quot;, &quot;Advanced Technology Attachment Driver&quot;, &quot;EnderIce2&quot;, &quot;0.1&quot;, &quot;GPLv3&quot;)</td></tr>
-<tr class="separator:a380b4a9024fa152d7349195f3815c6b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4114f131edede15364cc0098a921139d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c.html#a4114f131edede15364cc0098a921139d">DriverInfo</a> (&quot;ata&quot;, &quot;Advanced Technology Attachment Driver&quot;, &quot;EnderIce2&quot;, 0, 0, 1, &quot;GPLv3&quot;)</td></tr>
+<tr class="separator:a4114f131edede15364cc0098a921139d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ad408448b389caef2f517d7dab4059f88"></a>
@@ -133,23 +133,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>A device may fail, but if the other one works, we can still use it.</p>
-<p>This is the main function of the driver. This function is called when the driver is loaded. This function should be used to initialize the <a class="el" href="../../d0/d8f/namespacePCI.html">PCI</a> device and allocate resources.</p>
+<p>This is the main function of the driver. This function should be used to initialize the <a class="el" href="../../d0/d8f/namespacePCI.html">PCI</a> device and allocate resources.</p>
 <p>If we have another driver using the PS/2 mouse, we need to override its interrupt handler.</p>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c_source.html#l00043">43</a> of file <a class="el" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c_source.html">main.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;{</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="../../d1/d48/namespaceDriver.html#a037a8439b02442dc6aba8627d437fef8">RegisterInterruptHandler</a>(14, <a class="code" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c.html#aa4e9434311a6971c85468e4825c0cd9f">MasterInterruptHandler</a>);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="../../d1/d48/namespaceDriver.html#a037a8439b02442dc6aba8627d437fef8">RegisterInterruptHandler</a>(15, <a class="code" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c.html#ab98d9cb2bc1086cc61150d9d5ec2fa6b">SlaveInterruptHandler</a>);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="../../d3/d5a/base_8h.html#aed35d65304d5b8507a5dc9df229cc900">RegisterInterruptHandler</a>(14, <a class="code" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c.html#aa4e9434311a6971c85468e4825c0cd9f">MasterInterruptHandler</a>);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="../../d3/d5a/base_8h.html#aed35d65304d5b8507a5dc9df229cc900">RegisterInterruptHandler</a>(15, <a class="code" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c.html#ab98d9cb2bc1086cc61150d9d5ec2fa6b">SlaveInterruptHandler</a>);</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
 <div class="ttc" id="aDrivers_2storage_2ata_2main_8c_html_aa4e9434311a6971c85468e4825c0cd9f"><div class="ttname"><a href="../../dd/dd4/Drivers_2storage_2ata_2main_8c.html#aa4e9434311a6971c85468e4825c0cd9f">MasterInterruptHandler</a></div><div class="ttdeci">void MasterInterruptHandler(TrapFrame *)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dd4/Drivers_2storage_2ata_2main_8c_source.html#l00035">main.c:35</a></div></div>
 <div class="ttc" id="aDrivers_2storage_2ata_2main_8c_html_ab98d9cb2bc1086cc61150d9d5ec2fa6b"><div class="ttname"><a href="../../dd/dd4/Drivers_2storage_2ata_2main_8c.html#ab98d9cb2bc1086cc61150d9d5ec2fa6b">SlaveInterruptHandler</a></div><div class="ttdeci">void SlaveInterruptHandler(TrapFrame *)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dd4/Drivers_2storage_2ata_2main_8c_source.html#l00039">main.c:39</a></div></div>
-<div class="ttc" id="anamespaceDriver_html_a037a8439b02442dc6aba8627d437fef8"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a037a8439b02442dc6aba8627d437fef8">Driver::RegisterInterruptHandler</a></div><div class="ttdeci">int RegisterInterruptHandler(dev_t MajorID, uint8_t IRQ, void *Handler)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d48/api_8cpp_source.html#l00099">api.cpp:99</a></div></div>
+<div class="ttc" id="abase_8h_html_aed35d65304d5b8507a5dc9df229cc900"><div class="ttname"><a href="../../d3/d5a/base_8h.html#aed35d65304d5b8507a5dc9df229cc900">RegisterInterruptHandler</a></div><div class="ttdeci">int RegisterInterruptHandler(uint8_t IRQ, void *Handler)</div><div class="ttdoc">Register an interrupt handler.</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c_source.html#l00035">MasterInterruptHandler()</a>, <a class="el" href="../../d5/d48/api_8cpp_source.html#l00099">Driver::RegisterInterruptHandler()</a>, and <a class="el" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c_source.html#l00039">SlaveInterruptHandler()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/da1/Drivers_2library_2crt_2crt0_8c_source.html#l00036">_entry()</a>, and <a class="el" href="../../d1/da1/Drivers_2library_2crt_2crt0_8c_source.html#l00058">_start()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c_source.html#l00035">MasterInterruptHandler()</a>, <a class="el" href="../../d3/d5a/base_8h.html#aed35d65304d5b8507a5dc9df229cc900">RegisterInterruptHandler()</a>, and <a class="el" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c_source.html#l00039">SlaveInterruptHandler()</a>.</p>
 
 </div>
 </div>
@@ -171,21 +169,21 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c_source.html#l00051">51</a> of file <a class="el" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c_source.html">main.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;{</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <a class="code" href="../../d1/d48/namespaceDriver.html#a5d914ea173b6377f69308161e7606ad7">UnregisterInterruptHandler</a>(14, <a class="code" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c.html#aa4e9434311a6971c85468e4825c0cd9f">MasterInterruptHandler</a>);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="../../d1/d48/namespaceDriver.html#a5d914ea173b6377f69308161e7606ad7">UnregisterInterruptHandler</a>(15, <a class="code" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c.html#ab98d9cb2bc1086cc61150d9d5ec2fa6b">SlaveInterruptHandler</a>);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <a class="code" href="../../d3/d5a/base_8h.html#a9e499d5fc28a640bb5885a320eace0ad">UnregisterInterruptHandler</a>(14, <a class="code" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c.html#aa4e9434311a6971c85468e4825c0cd9f">MasterInterruptHandler</a>);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="../../d3/d5a/base_8h.html#a9e499d5fc28a640bb5885a320eace0ad">UnregisterInterruptHandler</a>(15, <a class="code" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c.html#ab98d9cb2bc1086cc61150d9d5ec2fa6b">SlaveInterruptHandler</a>);</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
-<div class="ttc" id="anamespaceDriver_html_a5d914ea173b6377f69308161e7606ad7"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a5d914ea173b6377f69308161e7606ad7">Driver::UnregisterInterruptHandler</a></div><div class="ttdeci">int UnregisterInterruptHandler(dev_t MajorID, uint8_t IRQ, void *Handler)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d48/api_8cpp_source.html#l00148">api.cpp:148</a></div></div>
+<div class="ttc" id="abase_8h_html_a9e499d5fc28a640bb5885a320eace0ad"><div class="ttname"><a href="../../d3/d5a/base_8h.html#a9e499d5fc28a640bb5885a320eace0ad">UnregisterInterruptHandler</a></div><div class="ttdeci">int UnregisterInterruptHandler(uint8_t IRQ, void *Handler)</div><div class="ttdoc">Unregister an interrupt handler.</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c_source.html#l00035">MasterInterruptHandler()</a>, <a class="el" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c_source.html#l00039">SlaveInterruptHandler()</a>, and <a class="el" href="../../d5/d48/api_8cpp_source.html#l00148">Driver::UnregisterInterruptHandler()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c_source.html#l00035">MasterInterruptHandler()</a>, <a class="el" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c_source.html#l00039">SlaveInterruptHandler()</a>, and <a class="el" href="../../d3/d5a/base_8h.html#a9e499d5fc28a640bb5885a320eace0ad">UnregisterInterruptHandler()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/da1/Drivers_2library_2crt_2crt0_8c_source.html#l00044">_final()</a>, and <a class="el" href="../../d1/da1/Drivers_2library_2crt_2crt0_8c_source.html#l00058">_start()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d10/crt0_8cpp_source.html#l00042">_final()</a>.</p>
 
 </div>
 </div>
-<a id="a380b4a9024fa152d7349195f3815c6b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a380b4a9024fa152d7349195f3815c6b0">&#9670;&nbsp;</a></span>DriverInfo()</h2>
+<a id="a4114f131edede15364cc0098a921139d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4114f131edede15364cc0098a921139d">&#9670;&nbsp;</a></span>DriverInfo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -211,7 +209,19 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">&quot;0.1&quot;&#160;</td>
+          <td class="paramtype">0&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">0&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">1&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -244,15 +254,13 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This function is called when the kernel panics. This function should be used to stop the driver from receiving interrupts or anything else that is not safe to do when the kernel panics.</p>
+<p>This function is called when the kernel panics. This function should be used to stop the driver from sending interrupts or anything else that is not safe to do when the kernel panics.</p>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c_source.html#l00059">59</a> of file <a class="el" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c_source.html">main.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;{</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../d1/da1/Drivers_2library_2crt_2crt0_8c_source.html#l00058">_start()</a>.</p>
-
 </div>
 </div>
 <a id="aac0e5b13bca4d40920a2f81d626b319c"></a>
@@ -269,23 +277,22 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This is the first function that is called when the driver is loaded. We can use this function to test if the driver is compatible with the hardware. Like if we have a specific <a class="el" href="../../d0/d8f/namespacePCI.html">PCI</a> device or if we have a specific <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a> feature.</p>
-<p>Return 0 if the driver is compatible with the hardware. Otherwise, we return a value from the errno.h header.</p>
+<p>This is the first function that is called when the driver is loaded.</p>
+<p>This function is to test if the driver is compatible with the hardware. Example: Like if there is a <a class="el" href="../../d0/d8f/namespacePCI.html">PCI</a> device that the driver is for, or a <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a> feature that etc.</p>
+<p>Return 0 if the driver is compatible with the hardware. Otherwise, return a value that is not 0.</p>
 <p>Note: In this function you cannot use variables that have constructors or destructors. Before DriverEntry, the constructors are called and after DriverFinalize, the destructors are called.</p>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c_source.html#l00064">64</a> of file <a class="el" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c_source.html">main.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;{</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c.html#ad6e017ef28a0f581f79336e81345db7d">IsATAPresent</a>())</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab9b8cc17d1947160d13faaba7a18d6d1">ENODEV</a>;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">return</span> -<a class="code" href="../../df/d53/Userspace_2libc_2include_2errno_8h.html#ab9b8cc17d1947160d13faaba7a18d6d1">ENODEV</a>;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;}</div>
 <div class="ttc" id="aDrivers_2storage_2ata_2main_8c_html_ad6e017ef28a0f581f79336e81345db7d"><div class="ttname"><a href="../../dd/dd4/Drivers_2storage_2ata_2main_8c.html#ad6e017ef28a0f581f79336e81345db7d">IsATAPresent</a></div><div class="ttdeci">bool IsATAPresent()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dd4/Drivers_2storage_2ata_2main_8c_source.html#l00023">main.c:23</a></div></div>
-<div class="ttc" id="aKernel_2include__std_2errno_8h_html_ab9b8cc17d1947160d13faaba7a18d6d1"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab9b8cc17d1947160d13faaba7a18d6d1">ENODEV</a></div><div class="ttdeci">#define ENODEV</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00076">errno.h:76</a></div></div>
+<div class="ttc" id="aUserspace_2libc_2include_2errno_8h_html_ab9b8cc17d1947160d13faaba7a18d6d1"><div class="ttname"><a href="../../df/d53/Userspace_2libc_2include_2errno_8h.html#ab9b8cc17d1947160d13faaba7a18d6d1">ENODEV</a></div><div class="ttdeci">#define ENODEV</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d53/Userspace_2libc_2include_2errno_8h_source.html#l00022">errno.h:22</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00076">ENODEV</a>, and <a class="el" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c_source.html#l00023">IsATAPresent()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/da1/Drivers_2library_2crt_2crt0_8c_source.html#l00058">_start()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d53/Userspace_2libc_2include_2errno_8h_source.html#l00022">ENODEV</a>, and <a class="el" href="../../dd/dd4/Drivers_2storage_2ata_2main_8c_source.html#l00023">IsATAPresent()</a>.</p>
 
 </div>
 </div>

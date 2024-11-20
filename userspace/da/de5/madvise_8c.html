@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('da/de5/madvise_8c.html','../../'); ini
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a33d2e343daa249b8371ee216282e086c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/de5/madvise_8c.html#a33d2e343daa249b8371ee216282e086c">__madvise</a> (void *<a class="el" href="../../d2/de9/nscd__query_8c.html#ad9bf982eb7cffdeee05dfdd18ffc3819">addr</a>, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> len, int advice)</td></tr>
+<tr class="memitem:a33d2e343daa249b8371ee216282e086c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/de5/madvise_8c.html#a33d2e343daa249b8371ee216282e086c">__madvise</a> (void *<a class="el" href="../../d2/de9/nscd__query_8c.html#a4441524d8eca43065672cae084d0e4c2">addr</a>, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> len, int advice)</td></tr>
 <tr class="separator:a33d2e343daa249b8371ee216282e086c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d75dc4d0d64a2a13d364932f4e49dbb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/de5/madvise_8c.html#a8d75dc4d0d64a2a13d364932f4e49dbb">weak_alias</a> (<a class="el" href="../../da/de5/madvise_8c.html#a33d2e343daa249b8371ee216282e086c">__madvise</a>, <a class="el" href="../../d6/d6b/glue_8h.html#ac88e812951377f9ca2ab5bcb2633d897">madvise</a>)</td></tr>
 <tr class="separator:a8d75dc4d0d64a2a13d364932f4e49dbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,14 +138,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/de5/madvise_8c_source.html#l00004">4</a> of file <a class="el" href="../../da/de5/madvise_8c_source.html">madvise.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_madvise, <a class="code" href="../../d2/de9/nscd__query_8c.html#ad9bf982eb7cffdeee05dfdd18ffc3819">addr</a>, len, advice);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_madvise, <a class="code" href="../../d2/de9/nscd__query_8c.html#a4441524d8eca43065672cae084d0e4c2">addr</a>, len, advice);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="anscd__query_8c_html_ad9bf982eb7cffdeee05dfdd18ffc3819"><div class="ttname"><a href="../../d2/de9/nscd__query_8c.html#ad9bf982eb7cffdeee05dfdd18ffc3819">addr</a></div><div class="ttdeci">static const struct @427 addr</div></div>
+<div class="ttc" id="anscd__query_8c_html_a4441524d8eca43065672cae084d0e4c2"><div class="ttname"><a href="../../d2/de9/nscd__query_8c.html#a4441524d8eca43065672cae084d0e4c2">addr</a></div><div class="ttdeci">static const struct @85 addr</div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/de9/nscd__query_8c.html#ad9bf982eb7cffdeee05dfdd18ffc3819">addr</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/de9/nscd__query_8c.html#a4441524d8eca43065672cae084d0e4c2">addr</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/db5/musl_2src_2malloc_2oldmalloc_2malloc_8c_source.html#l00434">__bin_chunk()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d78/oldmalloc_2malloc_8c_source.html#l00434">__bin_chunk()</a>.</p>
 
 </div>
 </div>

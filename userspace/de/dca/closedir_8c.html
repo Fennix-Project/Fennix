@@ -100,7 +100,7 @@ $(document).ready(function(){initNavTree('de/dca/closedir_8c.html','../../'); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac0258906f9453b8abf03e945aa9c9676"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dca/closedir_8c.html#ac0258906f9453b8abf03e945aa9c9676">closedir</a> (<a class="el" href="../../d5/d70/ndir_8h.html#dd/dfe/structDIR">DIR</a> *<a class="el" href="../../d4/d7c/svlogd_8c.html#ad45ef284071e5bd5627127837e94bc27">dir</a>)</td></tr>
+<tr class="memitem:ac0258906f9453b8abf03e945aa9c9676"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dca/closedir_8c.html#ac0258906f9453b8abf03e945aa9c9676">closedir</a> (<a class="el" href="../../da/d7a/include_2dirent_8h.html#a0ebe68390948c14bb9d82987adbfc849">DIR</a> *dir)</td></tr>
 <tr class="separator:ac0258906f9453b8abf03e945aa9c9676"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -113,7 +113,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int closedir </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/d70/ndir_8h.html#dd/dfe/structDIR">DIR</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/d7a/include_2dirent_8h.html#a0ebe68390948c14bb9d82987adbfc849">DIR</a> *&#160;</td>
           <td class="paramname"><em>dir</em></td><td>)</td>
           <td></td>
         </tr>
@@ -122,15 +122,17 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dca/closedir_8c_source.html#l00006">6</a> of file <a class="el" href="../../de/dca/closedir_8c_source.html">closedir.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">int</span> ret = <a class="code" href="../../de/d97/musl_2include_2unistd_8h.html#ae152484c890a24e4d9b4980e7b965be0">close</a>(<a class="code" href="../../df/dde/runsv_8c.html#ad45ef284071e5bd5627127837e94bc27">dir</a>-&gt;fd);</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../d5/db0/dynlink_8c.html#a2c6efa7679f8cd9f61af96e105017560">free</a>(<a class="code" href="../../df/dde/runsv_8c.html#ad45ef284071e5bd5627127837e94bc27">dir</a>);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">int</span> ret = <a class="code" href="../../de/d97/musl_2include_2unistd_8h.html#ae152484c890a24e4d9b4980e7b965be0">close</a>(dir-&gt;<a class="code" href="../../d6/d33/____dirent_8h.html#a41da481a535c19dcf2446036f4caf765">fd</a>);</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../d5/db0/dynlink_8c.html#a2c6efa7679f8cd9f61af96e105017560">free</a>(dir);</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> ret;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
+<div class="ttc" id="a____dirent_8h_html_a41da481a535c19dcf2446036f4caf765"><div class="ttname"><a href="../../d6/d33/____dirent_8h.html#a41da481a535c19dcf2446036f4caf765">__dirstream::fd</a></div><div class="ttdeci">int fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d33/____dirent_8h_source.html#l00004">__dirent.h:4</a></div></div>
 <div class="ttc" id="adynlink_8c_html_a2c6efa7679f8cd9f61af96e105017560"><div class="ttname"><a href="../../d5/db0/dynlink_8c.html#a2c6efa7679f8cd9f61af96e105017560">free</a></div><div class="ttdeci">#define free</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/db0/dynlink_8c_source.html#l00036">dynlink.c:36</a></div></div>
 <div class="ttc" id="amusl_2include_2unistd_8h_html_ae152484c890a24e4d9b4980e7b965be0"><div class="ttname"><a href="../../de/d97/musl_2include_2unistd_8h.html#ae152484c890a24e4d9b4980e7b965be0">close</a></div><div class="ttdeci">int close(int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d22/close_8c_source.html#l00013">close.c:13</a></div></div>
-<div class="ttc" id="arunsv_8c_html_ad45ef284071e5bd5627127837e94bc27"><div class="ttname"><a href="../../df/dde/runsv_8c.html#ad45ef284071e5bd5627127837e94bc27">dir</a></div><div class="ttdeci">#define dir</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dde/runsv_8c_source.html#l00121">runsv.c:121</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/d22/close_8c_source.html#l00013">close()</a>, <a class="el" href="../../df/dde/runsv_8c_source.html#l00121">dir</a>, and <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00036">free</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d22/close_8c_source.html#l00013">close()</a>, <a class="el" href="../../d6/d33/____dirent_8h_source.html#l00004">__dirstream::fd</a>, and <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00036">free</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../db/d84/glob_8c_source.html#l00035">do_glob()</a>, <a class="el" href="../../df/d9d/nftw_8c_source.html#l00023">do_nftw()</a>, <a class="el" href="../../db/d4b/scandir_8c_source.html#l00008">scandir()</a>, and <a class="el" href="../../df/d55/userspace__test_8c_source.html#l00575">test_dirent()</a>.</p>
 
 </div>
 </div>

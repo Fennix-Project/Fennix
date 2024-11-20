@@ -100,7 +100,7 @@ $(document).ready(function(){initNavTree('d3/dd3/munmap_8c.html','../../'); init
 Functions</h2></td></tr>
 <tr class="memitem:a546cf1db58fbb6bac12675857bc2d744"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd3/munmap_8c.html#a546cf1db58fbb6bac12675857bc2d744">dummy</a> (void)</td></tr>
 <tr class="separator:a546cf1db58fbb6bac12675857bc2d744"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa43d9dba3b83a3eacc4276460deceaf4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd3/munmap_8c.html#aa43d9dba3b83a3eacc4276460deceaf4">weak_alias</a> (<a class="el" href="../../d9/d62/osdep_8c.html#acc752978a8a9354813076f8d236dee68">dummy</a>, <a class="el" href="../../d3/d8b/vmlock_8c.html#a3c6c912319c690443df417eba16a8da8">__vm_wait</a>)</td></tr>
+<tr class="memitem:aa43d9dba3b83a3eacc4276460deceaf4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd3/munmap_8c.html#aa43d9dba3b83a3eacc4276460deceaf4">weak_alias</a> (<a class="el" href="../../d9/d22/close_8c.html#a533797c18bcffb5d589e2813f760964e">dummy</a>, <a class="el" href="../../d3/d8b/vmlock_8c.html#a3c6c912319c690443df417eba16a8da8">__vm_wait</a>)</td></tr>
 <tr class="separator:aa43d9dba3b83a3eacc4276460deceaf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e92d49d6354701a1ddd5dacc3e6a918"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd3/munmap_8c.html#a4e92d49d6354701a1ddd5dacc3e6a918">__munmap</a> (void *<a class="el" href="../../d6/d55/timer__create_8c.html#a862825732eabf145fca1429ba415f69f">start</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>)</td></tr>
 <tr class="separator:a4e92d49d6354701a1ddd5dacc3e6a918"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,16 +137,16 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d3/dd3/munmap_8c_source.html#l00007">7</a> of file <a class="el" href="../../d3/dd3/munmap_8c_source.html">munmap.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../d2/d92/Userspace_2musl_2src_2include_2sys_2mman_8h.html#a6f63f6ac400ddc0423779934e61f6c9a">__vm_wait</a>();</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_munmap, <a class="code" href="../../df/d84/arping_8c.html#a317b24157e7f590740c6e329bfe668dc">start</a>, <a class="code" href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_munmap, <a class="code" href="../../db/d51/mq__notify_8c.html#ad91438039536049066822e3316cba86a">start</a>, <a class="code" href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
 <div class="ttc" id="aUserspace_2musl_2src_2include_2sys_2mman_8h_html_a6f63f6ac400ddc0423779934e61f6c9a"><div class="ttname"><a href="../../d2/d92/Userspace_2musl_2src_2include_2sys_2mman_8h.html#a6f63f6ac400ddc0423779934e61f6c9a">__vm_wait</a></div><div class="ttdeci">hidden void __vm_wait(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d8b/vmlock_8c_source.html#l00007">vmlock.c:7</a></div></div>
-<div class="ttc" id="aarping_8c_html_a317b24157e7f590740c6e329bfe668dc"><div class="ttname"><a href="../../df/d84/arping_8c.html#a317b24157e7f590740c6e329bfe668dc">start</a></div><div class="ttdeci">#define start</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d84/arping_8c_source.html#l00095">arping.c:95</a></div></div>
+<div class="ttc" id="amq__notify_8c_html_ad91438039536049066822e3316cba86a"><div class="ttname"><a href="../../db/d51/mq__notify_8c.html#ad91438039536049066822e3316cba86a">start</a></div><div class="ttdeci">static void * start(void *p)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d51/mq__notify_8c_source.html#l00018">mq_notify.c:18</a></div></div>
 <div class="ttc" id="amultiboot_8h_html_a6de3a6d27a7e07942958b912d39792e6"><div class="ttname"><a href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a></div><div class="ttdeci">multiboot_uint64_t len</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc0/multiboot_8h_source.html#l00002">multiboot.h:2</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/d8b/vmlock_8c_source.html#l00007">__vm_wait()</a>, <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00002">len</a>, <a class="el" href="../../df/d84/arping_8c_source.html#l00095">start</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d8b/vmlock_8c_source.html#l00007">__vm_wait()</a>, <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00002">len</a>, <a class="el" href="../../db/d51/mq__notify_8c_source.html#l00018">start()</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d87/locale__map_8c_source.html#l00034">__get_locale()</a>, <a class="el" href="../../d7/dc2/pthread__create_8c_source.html#l00237">__pthread_create()</a>, <a class="el" href="../../d9/d40/pthread__join_8c_source.html#l00010">__pthread_timedjoin_np()</a>, <a class="el" href="../../d1/dfa/musl_2src_2locale_2dcngettext_8c_source.html#l00125">dcngettext()</a>, <a class="el" href="../../d2/d48/____tz_8c_source.html#l00126">do_tzset()</a>, and <a class="el" href="../../d4/db5/musl_2src_2malloc_2oldmalloc_2malloc_8c_source.html#l00497">unmap_chunk()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d87/locale__map_8c_source.html#l00034">__get_locale()</a>, <a class="el" href="../../d7/dc2/pthread__create_8c_source.html#l00237">__pthread_create()</a>, <a class="el" href="../../d9/d40/pthread__join_8c_source.html#l00010">__pthread_timedjoin_np()</a>, <a class="el" href="../../d1/de7/dcngettext_8c_source.html#l00125">dcngettext()</a>, <a class="el" href="../../d2/d48/____tz_8c_source.html#l00126">do_tzset()</a>, and <a class="el" href="../../da/d78/oldmalloc_2malloc_8c_source.html#l00497">unmap_chunk()</a>.</p>
 
 </div>
 </div>
@@ -160,7 +160,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void <a class="el" href="../../d9/d62/osdep_8c.html#acc752978a8a9354813076f8d236dee68">dummy</a> </td>
+          <td class="memname">static void dummy </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -216,7 +216,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">weak_alias </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d62/osdep_8c.html#acc752978a8a9354813076f8d236dee68">dummy</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d22/close_8c.html#a533797c18bcffb5d589e2813f760964e">dummy</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>

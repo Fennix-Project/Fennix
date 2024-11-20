@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('d5/dac/musl_2arch_2aarch64_2bits_2sign
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>sigcontext {</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> fault_address;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> regs[31];</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code" href="../../d9/df1/bashgetopt_8c.html#a024603cda52d9847e8d8df3c2e884b8c">sp</a>, pc, pstate;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> sp, pc, pstate;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">long</span> <span class="keywordtype">double</span> __reserved[256];</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;} mcontext_t;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
@@ -122,23 +122,23 @@ $(document).ready(function(){initNavTree('d5/dac/musl_2arch_2aarch64_2bits_2sign
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d7/d06/getpwent_8c.html#a854352f53b148adc24983a58a1866d66">size</a>;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;};</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">struct </span>fpsimd_context {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keyword">struct </span>_aarch64_ctx <a class="code" href="../../d6/dd0/gzip_8c.html#a6d1197264c8235ebd5bda57ba423914e">head</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keyword">struct </span>_aarch64_ctx <a class="code" href="../../d3/dbb/hu__stuff_8c.html#a20358970b1abaf992eb85e071e454653">head</a>;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> fpsr;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> fpcr;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    __uint128_t vregs[32];</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;};</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">struct </span>esr_context {</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">struct </span>_aarch64_ctx <a class="code" href="../../d6/dd0/gzip_8c.html#a6d1197264c8235ebd5bda57ba423914e">head</a>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">struct </span>_aarch64_ctx <a class="code" href="../../d3/dbb/hu__stuff_8c.html#a20358970b1abaf992eb85e071e454653">head</a>;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> esr;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;};</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">struct </span>extra_context {</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">struct </span>_aarch64_ctx <a class="code" href="../../d6/dd0/gzip_8c.html#a6d1197264c8235ebd5bda57ba423914e">head</a>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">struct </span>_aarch64_ctx <a class="code" href="../../d3/dbb/hu__stuff_8c.html#a20358970b1abaf992eb85e071e454653">head</a>;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> datap;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d7/d06/getpwent_8c.html#a854352f53b148adc24983a58a1866d66">size</a>;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> __reserved[3];</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;};</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keyword">struct </span>sve_context {</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keyword">struct </span>_aarch64_ctx <a class="code" href="../../d6/dd0/gzip_8c.html#a6d1197264c8235ebd5bda57ba423914e">head</a>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keyword">struct </span>_aarch64_ctx <a class="code" href="../../d3/dbb/hu__stuff_8c.html#a20358970b1abaf992eb85e071e454653">head</a>;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> vl;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">short</span> __reserved[3];</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;};</div>
@@ -242,9 +242,8 @@ $(document).ready(function(){initNavTree('d5/dac/musl_2arch_2aarch64_2bits_2sign
 <div class="line"><a name="l00151"></a><span class="lineno"><a class="line" href="../../d5/dac/musl_2arch_2aarch64_2bits_2signal_8h.html#a11e925ada5a97c7bbb6b88de8ed543b4">  151</a></span>&#160;<span class="preprocessor">#define SIGUNUSED SIGSYS</span></div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160; </div>
 <div class="line"><a name="l00153"></a><span class="lineno"><a class="line" href="../../d5/dac/musl_2arch_2aarch64_2bits_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">  153</a></span>&#160;<span class="preprocessor">#define _NSIG 65</span></div>
-<div class="ttc" id="abashgetopt_8c_html_a024603cda52d9847e8d8df3c2e884b8c"><div class="ttname"><a href="../../d9/df1/bashgetopt_8c.html#a024603cda52d9847e8d8df3c2e884b8c">sp</a></div><div class="ttdeci">static int sp</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df1/bashgetopt_8c_source.html#l00039">bashgetopt.c:39</a></div></div>
 <div class="ttc" id="agetpwent_8c_html_a854352f53b148adc24983a58a1866d66"><div class="ttname"><a href="../../d7/d06/getpwent_8c.html#a854352f53b148adc24983a58a1866d66">size</a></div><div class="ttdeci">static size_t size</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d06/getpwent_8c_source.html#l00006">getpwent.c:6</a></div></div>
-<div class="ttc" id="agzip_8c_html_a6d1197264c8235ebd5bda57ba423914e"><div class="ttname"><a href="../../d6/dd0/gzip_8c.html#a6d1197264c8235ebd5bda57ba423914e">head</a></div><div class="ttdeci">#define head</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd0/gzip_8c_source.html#l00337">gzip.c:337</a></div></div>
+<div class="ttc" id="ahu__stuff_8c_html_a20358970b1abaf992eb85e071e454653"><div class="ttname"><a href="../../d3/dbb/hu__stuff_8c.html#a20358970b1abaf992eb85e071e454653">head</a></div><div class="ttdeci">static int head</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dbb/hu__stuff_8c_source.html#l00478">hu_stuff.c:478</a></div></div>
 <div class="ttc" id="asigaltstack_8c_html_a08eb84f187cc8f0a2861721838039bbc"><div class="ttname"><a href="../../dc/d3d/sigaltstack_8c.html#a08eb84f187cc8f0a2861721838039bbc">sigaltstack</a></div><div class="ttdeci">int sigaltstack(const stack_t *restrict ss, stack_t *restrict old)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3d/sigaltstack_8c_source.html#l00005">sigaltstack.c:5</a></div></div>
 <div class="ttc" id="asigset__t_8h_html_a9140a5882f847f67b8155c759ac6aa05"><div class="ttname"><a href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a></div><div class="ttdeci">unsigned long sigset_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d90/sigset__t_8h_source.html#l00004">sigset_t.h:4</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

@@ -129,14 +129,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d40/pthread__attr__setdetachstate_8c_source.html#l00003">3</a> of file <a class="el" href="../../d6/d40/pthread__attr__setdetachstate_8c_source.html">pthread_attr_setdetachstate.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/d23/wi__stuff_8c.html#a102a30241e29b7ae7a452418431f728d">state</a> &gt; 1U) <span class="keywordflow">return</span> <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a>;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/d23/wi__stuff_8c.html#a102a30241e29b7ae7a452418431f728d">state</a> &gt; 1U) <span class="keywordflow">return</span> <a class="code" href="../../df/d53/Userspace_2libc_2include_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a>;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    a-&gt;_a_detach = <a class="code" href="../../d6/d23/wi__stuff_8c.html#a102a30241e29b7ae7a452418431f728d">state</a>;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
-<div class="ttc" id="aKernel_2include__std_2errno_8h_html_a2d1678d5a7cc8ce499643f3b8957def4"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a></div><div class="ttdeci">#define EINVAL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00085">errno.h:85</a></div></div>
+<div class="ttc" id="aUserspace_2libc_2include_2errno_8h_html_a2d1678d5a7cc8ce499643f3b8957def4"><div class="ttname"><a href="../../df/d53/Userspace_2libc_2include_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a></div><div class="ttdeci">#define EINVAL</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d53/Userspace_2libc_2include_2errno_8h_source.html#l00025">errno.h:25</a></div></div>
 <div class="ttc" id="awi__stuff_8c_html_a102a30241e29b7ae7a452418431f728d"><div class="ttname"><a href="../../d6/d23/wi__stuff_8c.html#a102a30241e29b7ae7a452418431f728d">state</a></div><div class="ttdeci">static stateenum_t state</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d23/wi__stuff_8c_source.html#l00309">wi_stuff.c:309</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00085">EINVAL</a>, and <a class="el" href="../../d6/d23/wi__stuff_8c_source.html#l00309">state</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d53/Userspace_2libc_2include_2errno_8h_source.html#l00025">EINVAL</a>, and <a class="el" href="../../d6/d23/wi__stuff_8c_source.html#l00309">state</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/dfe/lio__listio_8c_source.html#l00069">lio_listio()</a>, <a class="el" href="../../db/d51/mq__notify_8c_source.html#l00046">mq_notify()</a>, and <a class="el" href="../../d8/d77/aio_8c_source.html#l00282">submit()</a>.</p>
 

@@ -1,9 +1,9 @@
 var kbd_8h =
 [
-    [ "PS2_KBD_TYPEMATIC", "d7/df4/kbd_8h.html#d5/d94/unionPS2__KBD__TYPEMATIC", [
-      [ "Raw", "d7/df4/kbd_8h.html#a1c786a0ac638f742e31267026602ac54", null ]
+    [ "PS2_KBD_TYPEMATIC", "d1/de1/aip_8h.html#d5/d94/unionPS2__KBD__TYPEMATIC", [
+      [ "Raw", "d1/de1/aip_8h.html#a1c786a0ac638f742e31267026602ac54", null ]
     ] ],
-    [ "PS2_KBD_TYPEMATIC.__unnamed3__", "d7/df4/kbd_8h.html#d5/d48/structPS2__KBD__TYPEMATIC_8____unnamed3____", [
+    [ "PS2_KBD_TYPEMATIC.__unnamed1__", "d7/df4/kbd_8h.html#df/d7c/structPS2__KBD__TYPEMATIC_8____unnamed1____", [
       [ "Delay", "d7/df4/kbd_8h.html#a8f497c1a3d15af9e0c215019f26b887d", null ],
       [ "RepeatRate", "d7/df4/kbd_8h.html#ab0a4e5ca864ccf625afe5cbd853b490c", null ],
       [ "Zero", "d7/df4/kbd_8h.html#ad7ed4ee1df437474d005188535f74875", null ]
@@ -34,7 +34,10 @@ var kbd_8h =
     [ "PS2_KBD_LEDS", "d7/df4/kbd_8h.html#a9a7a0249339e911c4a1c3ec0c7c94cbc", [
       [ "PS2_KBD_LED_SCROLL_LOCK", "d7/df4/kbd_8h.html#a9a7a0249339e911c4a1c3ec0c7c94cbca371d0631f3e4cc5e96abe555e47fef7d", null ],
       [ "PS2_KBD_LED_NUM_LOCK", "d7/df4/kbd_8h.html#a9a7a0249339e911c4a1c3ec0c7c94cbcabd6d7f2afaa27f8056a7b34a1d48400b", null ],
-      [ "PS2_KBD_LED_CAPS_LOCK", "d7/df4/kbd_8h.html#a9a7a0249339e911c4a1c3ec0c7c94cbca80fa56c37e35327ab30585f1093695ad", null ]
+      [ "PS2_KBD_LED_CAPS_LOCK", "d7/df4/kbd_8h.html#a9a7a0249339e911c4a1c3ec0c7c94cbca80fa56c37e35327ab30585f1093695ad", null ],
+      [ "PS2_KBD_LED_SCROLL_LOCK", "d1/de1/aip_8h.html#a9a7a0249339e911c4a1c3ec0c7c94cbca371d0631f3e4cc5e96abe555e47fef7d", null ],
+      [ "PS2_KBD_LED_NUM_LOCK", "d1/de1/aip_8h.html#a9a7a0249339e911c4a1c3ec0c7c94cbcabd6d7f2afaa27f8056a7b34a1d48400b", null ],
+      [ "PS2_KBD_LED_CAPS_LOCK", "d1/de1/aip_8h.html#a9a7a0249339e911c4a1c3ec0c7c94cbca80fa56c37e35327ab30585f1093695ad", null ]
     ] ],
     [ "PS2_KBD_SCAN_CODE_SET", "d7/df4/kbd_8h.html#a298a99937859237aa2f19ee87436c3e4", [
       [ "PS2_KBD_SCAN_CODE_GET_CURRENT", "d7/df4/kbd_8h.html#a298a99937859237aa2f19ee87436c3e4a2251b650209d2abf9c98f3e45e3cf5c6", null ],
@@ -43,6 +46,13 @@ var kbd_8h =
       [ "PS2_KBD_SCAN_CODE_SET_3", "d7/df4/kbd_8h.html#a298a99937859237aa2f19ee87436c3e4a2a3158fc36b4fdf627d248303a6ede20", null ],
       [ "PS2_KBD_SC_SET_1", "d7/df4/kbd_8h.html#a298a99937859237aa2f19ee87436c3e4a7e0e395183152f3e37e9475a96f11b2e", null ],
       [ "PS2_KBD_SC_SET_2", "d7/df4/kbd_8h.html#a298a99937859237aa2f19ee87436c3e4a9ef0041dce55959183fa4fa24f618968", null ],
-      [ "PS2_KBD_SC_SET_3", "d7/df4/kbd_8h.html#a298a99937859237aa2f19ee87436c3e4a1abdcf6b613c2fcbff74268db121e34a", null ]
+      [ "PS2_KBD_SC_SET_3", "d7/df4/kbd_8h.html#a298a99937859237aa2f19ee87436c3e4a1abdcf6b613c2fcbff74268db121e34a", null ],
+      [ "PS2_KBD_SCAN_CODE_GET_CURRENT", "d1/de1/aip_8h.html#a298a99937859237aa2f19ee87436c3e4a2251b650209d2abf9c98f3e45e3cf5c6", null ],
+      [ "PS2_KBD_SCAN_CODE_SET_1", "d1/de1/aip_8h.html#a298a99937859237aa2f19ee87436c3e4ab6a12143a58e1487e9d6e3b533cd6c9b", null ],
+      [ "PS2_KBD_SCAN_CODE_SET_2", "d1/de1/aip_8h.html#a298a99937859237aa2f19ee87436c3e4a611a5a1d2655245ba7ed1ec6f6e6055c", null ],
+      [ "PS2_KBD_SCAN_CODE_SET_3", "d1/de1/aip_8h.html#a298a99937859237aa2f19ee87436c3e4a2a3158fc36b4fdf627d248303a6ede20", null ],
+      [ "PS2_KBD_SC_SET_1", "d1/de1/aip_8h.html#a298a99937859237aa2f19ee87436c3e4a7e0e395183152f3e37e9475a96f11b2e", null ],
+      [ "PS2_KBD_SC_SET_2", "d1/de1/aip_8h.html#a298a99937859237aa2f19ee87436c3e4a9ef0041dce55959183fa4fa24f618968", null ],
+      [ "PS2_KBD_SC_SET_3", "d1/de1/aip_8h.html#a298a99937859237aa2f19ee87436c3e4a1abdcf6b613c2fcbff74268db121e34a", null ]
     ] ]
 ];

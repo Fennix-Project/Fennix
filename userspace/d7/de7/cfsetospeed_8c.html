@@ -105,9 +105,9 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab0e8b1a2780bffa3d48acf83d3e0f7e3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de7/cfsetospeed_8c.html#ab0e8b1a2780bffa3d48acf83d3e0f7e3">cfsetospeed</a> (struct <a class="el" href="../../db/d49/arch_2powerpc64_2bits_2termios_8h.html#d6/d47/structtermios">termios</a> *<a class="el" href="../../df/da8/showkey_8c.html#a706d72146370f32163fe2f0feff223c9">tio</a>, <a class="el" href="../../d2/d4e/include_2termios_8h.html#a14a0666abcf3bb67c7ff400b4a450467">speed_t</a> speed)</td></tr>
+<tr class="memitem:ab0e8b1a2780bffa3d48acf83d3e0f7e3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de7/cfsetospeed_8c.html#ab0e8b1a2780bffa3d48acf83d3e0f7e3">cfsetospeed</a> (struct <a class="el" href="../../db/d49/arch_2powerpc64_2bits_2termios_8h.html#d6/d47/structtermios">termios</a> *tio, <a class="el" href="../../d2/d4e/include_2termios_8h.html#a14a0666abcf3bb67c7ff400b4a450467">speed_t</a> speed)</td></tr>
 <tr class="separator:ab0e8b1a2780bffa3d48acf83d3e0f7e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a653f3e010345ae87d563074ac3cb7c58"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de7/cfsetospeed_8c.html#a653f3e010345ae87d563074ac3cb7c58">cfsetispeed</a> (struct <a class="el" href="../../db/d49/arch_2powerpc64_2bits_2termios_8h.html#d6/d47/structtermios">termios</a> *<a class="el" href="../../df/da8/showkey_8c.html#a706d72146370f32163fe2f0feff223c9">tio</a>, <a class="el" href="../../d2/d4e/include_2termios_8h.html#a14a0666abcf3bb67c7ff400b4a450467">speed_t</a> speed)</td></tr>
+<tr class="memitem:a653f3e010345ae87d563074ac3cb7c58"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de7/cfsetospeed_8c.html#a653f3e010345ae87d563074ac3cb7c58">cfsetispeed</a> (struct <a class="el" href="../../db/d49/arch_2powerpc64_2bits_2termios_8h.html#d6/d47/structtermios">termios</a> *tio, <a class="el" href="../../d2/d4e/include_2termios_8h.html#a14a0666abcf3bb67c7ff400b4a450467">speed_t</a> speed)</td></tr>
 <tr class="separator:a653f3e010345ae87d563074ac3cb7c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a100e4e0c75b9099bb68232f36578f531"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de7/cfsetospeed_8c.html#a100e4e0c75b9099bb68232f36578f531">weak_alias</a> (<a class="el" href="../../d7/de7/cfsetospeed_8c.html#ab0e8b1a2780bffa3d48acf83d3e0f7e3">cfsetospeed</a>, cfsetspeed)</td></tr>
 <tr class="separator:a100e4e0c75b9099bb68232f36578f531"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -158,14 +158,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/de7/cfsetospeed_8c_source.html#l00017">17</a> of file <a class="el" href="../../d7/de7/cfsetospeed_8c_source.html">cfsetospeed.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">return</span> speed ? <a class="code" href="../../d7/de7/cfsetospeed_8c.html#ab0e8b1a2780bffa3d48acf83d3e0f7e3">cfsetospeed</a>(<a class="code" href="../../df/da8/showkey_8c.html#a706d72146370f32163fe2f0feff223c9">tio</a>, speed) : 0;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">return</span> speed ? <a class="code" href="../../d7/de7/cfsetospeed_8c.html#ab0e8b1a2780bffa3d48acf83d3e0f7e3">cfsetospeed</a>(tio, speed) : 0;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
 <div class="ttc" id="acfsetospeed_8c_html_ab0e8b1a2780bffa3d48acf83d3e0f7e3"><div class="ttname"><a href="../../d7/de7/cfsetospeed_8c.html#ab0e8b1a2780bffa3d48acf83d3e0f7e3">cfsetospeed</a></div><div class="ttdeci">int cfsetospeed(struct termios *tio, speed_t speed)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de7/cfsetospeed_8c_source.html#l00006">cfsetospeed.c:6</a></div></div>
-<div class="ttc" id="ashowkey_8c_html_a706d72146370f32163fe2f0feff223c9"><div class="ttname"><a href="../../df/da8/showkey_8c.html#a706d72146370f32163fe2f0feff223c9">tio</a></div><div class="ttdeci">#define tio</div><div class="ttdef"><b>Definition:</b> <a href="../../df/da8/showkey_8c_source.html#l00037">showkey.c:37</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/de7/cfsetospeed_8c_source.html#l00006">cfsetospeed()</a>, and <a class="el" href="../../df/da8/showkey_8c_source.html#l00037">tio</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d4/dbc/slattach_8c_source.html#l00065">restore_state_and_exit()</a>, <a class="el" href="../../d7/dd7/stty_8c_source.html#l00806">set_speed_or_die()</a>, and <a class="el" href="../../d4/dbc/slattach_8c_source.html#l00097">slattach_main()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/de7/cfsetospeed_8c_source.html#l00006">cfsetospeed()</a>.</p>
 
 </div>
 </div>
@@ -197,21 +194,21 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/de7/cfsetospeed_8c_source.html#l00006">6</a> of file <a class="el" href="../../d7/de7/cfsetospeed_8c_source.html">cfsetospeed.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (speed &amp; ~<a class="code" href="../../d0/de2/base_2busybox_2init_2init_8c.html#a585af9d7ad225ac342d84f16d69fe427">CBAUD</a>) {</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (speed &amp; ~CBAUD) {</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a>;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    }</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../df/da8/showkey_8c.html#a706d72146370f32163fe2f0feff223c9">tio</a>-&gt;c_cflag &amp;= ~<a class="code" href="../../d0/de2/base_2busybox_2init_2init_8c.html#a585af9d7ad225ac342d84f16d69fe427">CBAUD</a>;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="../../df/da8/showkey_8c.html#a706d72146370f32163fe2f0feff223c9">tio</a>-&gt;c_cflag |= speed;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    tio-&gt;<a class="code" href="../../db/d49/arch_2powerpc64_2bits_2termios_8h.html#a5d42b95faa4745c3bea53652d2812162">c_cflag</a> &amp;= ~CBAUD;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    tio-&gt;<a class="code" href="../../db/d49/arch_2powerpc64_2bits_2termios_8h.html#a5d42b95faa4745c3bea53652d2812162">c_cflag</a> |= speed;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
-<div class="ttc" id="abase_2busybox_2init_2init_8c_html_a585af9d7ad225ac342d84f16d69fe427"><div class="ttname"><a href="../../d0/de2/base_2busybox_2init_2init_8c.html#a585af9d7ad225ac342d84f16d69fe427">CBAUD</a></div><div class="ttdeci">#define CBAUD</div></div>
+<div class="ttc" id="aarch_2powerpc64_2bits_2termios_8h_html_a5d42b95faa4745c3bea53652d2812162"><div class="ttname"><a href="../../db/d49/arch_2powerpc64_2bits_2termios_8h.html#a5d42b95faa4745c3bea53652d2812162">termios::c_cflag</a></div><div class="ttdeci">tcflag_t c_cflag</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/de9/arch_2generic_2bits_2termios_8h_source.html#l00004">termios.h:4</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_a2d1678d5a7cc8ce499643f3b8957def4"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a></div><div class="ttdeci">#define EINVAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00025">errno.h:25</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno.h:135</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/de2/base_2busybox_2init_2init_8c.html#a585af9d7ad225ac342d84f16d69fe427">CBAUD</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00025">EINVAL</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, and <a class="el" href="../../df/da8/showkey_8c_source.html#l00037">tio</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/de9/arch_2generic_2bits_2termios_8h_source.html#l00004">termios::c_cflag</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00025">EINVAL</a>, and <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/de7/cfsetospeed_8c_source.html#l00017">cfsetispeed()</a>, <a class="el" href="../../d4/dbc/slattach_8c_source.html#l00065">restore_state_and_exit()</a>, <a class="el" href="../../d7/dd7/stty_8c_source.html#l00806">set_speed_or_die()</a>, and <a class="el" href="../../d4/dbc/slattach_8c_source.html#l00097">slattach_main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/de7/cfsetospeed_8c_source.html#l00017">cfsetispeed()</a>.</p>
 
 </div>
 </div>

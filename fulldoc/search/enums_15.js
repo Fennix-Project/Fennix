@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['weapontype_5ft_75625',['weapontype_t',['../d3/d47/doomdef_8h.html#a0c185b291c0d4c8937a04795c72e3918',1,'doomdef.h']]]
+  ['x86simdtype_44170',['x86SIMDType',['../d7/dfa/namespaceCPU.html#a9b7152a6891aa829fafb5d7cdc3c31c9',1,'CPU']]]
 ];

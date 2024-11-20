@@ -102,9 +102,9 @@ Functions</h2></td></tr>
 <tr class="separator:a2ace81befe4d2380c163def6a3185171"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7bf5ecea0641ad3803700c26a307f828"><td class="memItemLeft" align="right" valign="top">wint_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dad/wctrans_8c.html#a7bf5ecea0641ad3803700c26a307f828">towctrans</a> (wint_t wc, <a class="el" href="../../da/dcf/wctype_8h.html#a0c2e5598a10ad9a0a53424dd68fa2bb3">wctrans_t</a> <a class="el" href="../../d2/d48/____tz_8c.html#a2fe4ce5ea9e97fdb509a972a006a1ef6">trans</a>)</td></tr>
 <tr class="separator:a7bf5ecea0641ad3803700c26a307f828"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a000ba74d2d3ffee9320054d9196b32f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dcf/wctype_8h.html#a0c2e5598a10ad9a0a53424dd68fa2bb3">wctrans_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dad/wctrans_8c.html#a000ba74d2d3ffee9320054d9196b32f6">__wctrans_l</a> (const char *<a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, locale_t <a class="el" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>)</td></tr>
+<tr class="memitem:a000ba74d2d3ffee9320054d9196b32f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dcf/wctype_8h.html#a0c2e5598a10ad9a0a53424dd68fa2bb3">wctrans_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dad/wctrans_8c.html#a000ba74d2d3ffee9320054d9196b32f6">__wctrans_l</a> (const char *s, locale_t l)</td></tr>
 <tr class="separator:a000ba74d2d3ffee9320054d9196b32f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c106d357428c08f473daebbb27c5be9"><td class="memItemLeft" align="right" valign="top">wint_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dad/wctrans_8c.html#a6c106d357428c08f473daebbb27c5be9">__towctrans_l</a> (wint_t <a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>, <a class="el" href="../../da/dcf/wctype_8h.html#a0c2e5598a10ad9a0a53424dd68fa2bb3">wctrans_t</a> <a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>, locale_t <a class="el" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>)</td></tr>
+<tr class="memitem:a6c106d357428c08f473daebbb27c5be9"><td class="memItemLeft" align="right" valign="top">wint_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dad/wctrans_8c.html#a6c106d357428c08f473daebbb27c5be9">__towctrans_l</a> (wint_t c, <a class="el" href="../../da/dcf/wctype_8h.html#a0c2e5598a10ad9a0a53424dd68fa2bb3">wctrans_t</a> t, locale_t l)</td></tr>
 <tr class="separator:a6c106d357428c08f473daebbb27c5be9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a7a19e8bb448c547f8a824a0beac72b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dad/wctrans_8c.html#a7a7a19e8bb448c547f8a824a0beac72b">weak_alias</a> (<a class="el" href="../../d1/dad/wctrans_8c.html#a000ba74d2d3ffee9320054d9196b32f6">__wctrans_l</a>, wctrans_l)</td></tr>
 <tr class="separator:a7a7a19e8bb448c547f8a824a0beac72b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,13 +146,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/dad/wctrans_8c_source.html#l00023">23</a> of file <a class="el" href="../../d1/dad/wctrans_8c_source.html">wctrans.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d1/dad/wctrans_8c.html#a7bf5ecea0641ad3803700c26a307f828">towctrans</a>(<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>, <a class="code" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d1/dad/wctrans_8c.html#a7bf5ecea0641ad3803700c26a307f828">towctrans</a>(c, t);</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
-<div class="ttc" id="aglob__loop_8c_html_a2019d0836036f2693a231fe5c7c65e20"><div class="ttname"><a href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a></div><div class="ttdeci">register GCHAR c</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d64/glob__loop_8c_source.html#l00028">glob_loop.c:26</a></div></div>
-<div class="ttc" id="agm__loop_8c_html_ac310d9181e916ba43604099aee272c71"><div class="ttname"><a href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a></div><div class="ttdeci">int t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dec/gm__loop_8c_source.html#l00079">gm_loop.c:79</a></div></div>
 <div class="ttc" id="awctrans_8c_html_a7bf5ecea0641ad3803700c26a307f828"><div class="ttname"><a href="../../d1/dad/wctrans_8c.html#a7bf5ecea0641ad3803700c26a307f828">towctrans</a></div><div class="ttdeci">wint_t towctrans(wint_t wc, wctrans_t trans)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dad/wctrans_8c_source.html#l00011">wctrans.c:11</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>, <a class="el" href="../../d6/dec/gm__loop_8c_source.html#l00079">t</a>, and <a class="el" href="../../d1/dad/wctrans_8c_source.html#l00011">towctrans()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/dad/wctrans_8c_source.html#l00011">towctrans()</a>.</p>
 
 </div>
 </div>
@@ -184,12 +182,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/dad/wctrans_8c_source.html#l00018">18</a> of file <a class="el" href="../../d1/dad/wctrans_8c_source.html">wctrans.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d1/dad/wctrans_8c.html#a2ace81befe4d2380c163def6a3185171">wctrans</a>(<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d1/dad/wctrans_8c.html#a2ace81befe4d2380c163def6a3185171">wctrans</a>(s);</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
-<div class="ttc" id="aarpping_8c_html_ac9562ee4ecb3b8aeebeb04656e7e57a9"><div class="ttname"><a href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a></div><div class="ttdeci">#define s</div></div>
 <div class="ttc" id="awctrans_8c_html_a2ace81befe4d2380c163def6a3185171"><div class="ttname"><a href="../../d1/dad/wctrans_8c.html#a2ace81befe4d2380c163def6a3185171">wctrans</a></div><div class="ttdeci">wctrans_t wctrans(const char *class)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dad/wctrans_8c_source.html#l00004">wctrans.c:4</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, and <a class="el" href="../../d1/dad/wctrans_8c_source.html#l00004">wctrans()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/dad/wctrans_8c_source.html#l00004">wctrans()</a>.</p>
 
 </div>
 </div>

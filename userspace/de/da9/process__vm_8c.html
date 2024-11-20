@@ -104,9 +104,9 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa7f5cbfdd336ac99d1f7e6f79b700b6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da9/process__vm_8c.html#aa7f5cbfdd336ac99d1f7e6f79b700b6f">process_vm_writev</a> (<a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a> <a class="el" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>, const struct iovec *lvec, unsigned long liovcnt, const struct iovec *rvec, unsigned long riovcnt, unsigned long <a class="el" href="../../db/dd4/sm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a>)</td></tr>
+<tr class="memitem:aa7f5cbfdd336ac99d1f7e6f79b700b6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da9/process__vm_8c.html#aa7f5cbfdd336ac99d1f7e6f79b700b6f">process_vm_writev</a> (<a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a> pid, const struct iovec *lvec, unsigned long liovcnt, const struct iovec *rvec, unsigned long riovcnt, unsigned long flags)</td></tr>
 <tr class="separator:aa7f5cbfdd336ac99d1f7e6f79b700b6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d4aa4e8da01d693b564f78d79513e41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da9/process__vm_8c.html#a5d4aa4e8da01d693b564f78d79513e41">process_vm_readv</a> (<a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a> <a class="el" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>, const struct iovec *lvec, unsigned long liovcnt, const struct iovec *rvec, unsigned long riovcnt, unsigned long <a class="el" href="../../db/dd4/sm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a>)</td></tr>
+<tr class="memitem:a5d4aa4e8da01d693b564f78d79513e41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da9/process__vm_8c.html#a5d4aa4e8da01d693b564f78d79513e41">process_vm_readv</a> (<a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a> pid, const struct iovec *lvec, unsigned long liovcnt, const struct iovec *rvec, unsigned long riovcnt, unsigned long flags)</td></tr>
 <tr class="separator:a5d4aa4e8da01d693b564f78d79513e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -179,13 +179,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/da9/process__vm_8c_source.html#l00010">10</a> of file <a class="el" href="../../de/da9/process__vm_8c_source.html">process_vm.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_process_vm_readv, <a class="code" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>, lvec, liovcnt, rvec, riovcnt, <a class="code" href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a>);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_process_vm_readv, pid, lvec, liovcnt, rvec, riovcnt, flags);</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
-<div class="ttc" id="adumpkmap_8c_html_abb0829cce9dd20a40ae0d86890ae85c6"><div class="ttname"><a href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a></div><div class="ttdeci">#define flags</div></div>
-<div class="ttc" id="amconf_8c_html_ae0d46a978d5cd6707411f276ad869b9c"><div class="ttname"><a href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a></div><div class="ttdeci">pid_t pid</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d43/mconf_8c_source.html#l00450">mconf.c:450</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a>, <a class="el" href="../../d0/d43/mconf_8c_source.html#l00450">pid</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
 </div>
 </div>
@@ -241,10 +239,10 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/da9/process__vm_8c_source.html#l00005">5</a> of file <a class="el" href="../../de/da9/process__vm_8c_source.html">process_vm.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_process_vm_writev, <a class="code" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>, lvec, liovcnt, rvec, riovcnt, <a class="code" href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a>);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_process_vm_writev, pid, lvec, liovcnt, rvec, riovcnt, flags);</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a>, <a class="el" href="../../d0/d43/mconf_8c_source.html#l00450">pid</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
 </div>
 </div>

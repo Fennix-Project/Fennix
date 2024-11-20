@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('db/d77/sendfile_8h.html','../../'); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4265c05be46ad615d02386fad556ce54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d77/sendfile_8h.html#a4265c05be46ad615d02386fad556ce54">sendfile</a> (int, int, <a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a37aff01e955441499997a359a4153b3d">off_t</a> *, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>)</td></tr>
+<tr class="memitem:a4265c05be46ad615d02386fad556ce54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d77/sendfile_8h.html#a4265c05be46ad615d02386fad556ce54">sendfile</a> (int, int, <a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ae498af04567b740d66e09d36613c2cd8">off_t</a> *, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>)</td></tr>
 <tr class="separator:a4265c05be46ad615d02386fad556ce54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -123,7 +123,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a37aff01e955441499997a359a4153b3d">off_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ae498af04567b740d66e09d36613c2cd8">off_t</a> *&#160;</td>
           <td class="paramname"><em>ofs</em>, </td>
         </tr>
         <tr>
@@ -142,12 +142,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/df4/sendfile_8c_source.html#l00004">4</a> of file <a class="el" href="../../de/df4/sendfile_8c_source.html">sendfile.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_sendfile, out_fd, in_fd, ofs, <a class="code" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a>);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_sendfile, out_fd, in_fd, ofs, <a class="code" href="../../d0/d64/syscall_8cpp.html#a7801f18982e0e5d2853680593ff81c04">count</a>);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="add_8c_html_ac74ae34e9c58234aacabb6867b245c58"><div class="ttname"><a href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a></div><div class="ttdeci">#define count</div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
+<div class="ttc" id="asyscall_8cpp_html_a7801f18982e0e5d2853680593ff81c04"><div class="ttname"><a href="../../d0/d64/syscall_8cpp.html#a7801f18982e0e5d2853680593ff81c04">count</a></div><div class="ttdeci">int struct linux_dirent64 size_t count</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d64/syscall_8cpp_source.html#l02873">syscall.cpp:2874</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d64/syscall_8cpp_source.html#l02874">count</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
 </div>
 </div>

@@ -97,15 +97,15 @@ $(document).ready(function(){initNavTree('d6/d07/stdatomic_8h.html','../../'); i
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ad559c29e007899c11142f0d899625397"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/stdatomic_8h.html#ad559c29e007899c11142f0d899625397">atomic_store_explicit</a>(object,  desired,  <a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>)&#160;&#160;&#160;	__atomic_store_n(object, desired, <a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>)</td></tr>
+<tr class="memitem:ad559c29e007899c11142f0d899625397"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/stdatomic_8h.html#ad559c29e007899c11142f0d899625397">atomic_store_explicit</a>(object,  desired,  order)&#160;&#160;&#160;	__atomic_store_n(object, desired, order)</td></tr>
 <tr class="separator:ad559c29e007899c11142f0d899625397"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0241b1f231c55cdf092b2d509e8d83df"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/stdatomic_8h.html#a0241b1f231c55cdf092b2d509e8d83df">atomic_store</a>(object,  desired)&#160;&#160;&#160;	__atomic_store_n(object, desired, __ATOMIC_SEQ_CST)</td></tr>
 <tr class="separator:a0241b1f231c55cdf092b2d509e8d83df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a714cabdfee3dff182363e10401689371"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/stdatomic_8h.html#a714cabdfee3dff182363e10401689371">atomic_load_explicit</a>(object,  <a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>)&#160;&#160;&#160;	__atomic_load_n(object, <a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>)</td></tr>
+<tr class="memitem:a714cabdfee3dff182363e10401689371"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/stdatomic_8h.html#a714cabdfee3dff182363e10401689371">atomic_load_explicit</a>(object,  order)&#160;&#160;&#160;	__atomic_load_n(object, order)</td></tr>
 <tr class="separator:a714cabdfee3dff182363e10401689371"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acced2a78b2a440317feed51f3e505d1d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/stdatomic_8h.html#acced2a78b2a440317feed51f3e505d1d">atomic_load</a>(object)&#160;&#160;&#160;	__atomic_load_n(object, __ATOMIC_SEQ_CST)</td></tr>
 <tr class="separator:acced2a78b2a440317feed51f3e505d1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc7db808dcdfb37a76f5dc646422fe29"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/stdatomic_8h.html#abc7db808dcdfb37a76f5dc646422fe29">atomic_exchange_explicit</a>(object,  desired,  <a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>)&#160;&#160;&#160;	__atomic_exchange_n(object, desired, <a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>)</td></tr>
+<tr class="memitem:abc7db808dcdfb37a76f5dc646422fe29"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/stdatomic_8h.html#abc7db808dcdfb37a76f5dc646422fe29">atomic_exchange_explicit</a>(object,  desired,  order)&#160;&#160;&#160;	__atomic_exchange_n(object, desired, order)</td></tr>
 <tr class="separator:abc7db808dcdfb37a76f5dc646422fe29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a0241b6f3d907f3fc497cf0c747e4ea"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/stdatomic_8h.html#a3a0241b6f3d907f3fc497cf0c747e4ea">atomic_exchange</a>(object,  desired)&#160;&#160;&#160;	__atomic_exchange_n(object, desired, __ATOMIC_SEQ_CST)</td></tr>
 <tr class="separator:a3a0241b6f3d907f3fc497cf0c747e4ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -119,23 +119,23 @@ Macros</h2></td></tr>
 <tr class="separator:a084c8c95aa5ded790928e7ca78dff7eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedf6fb62e0fc9e8f8cf2e3685f0a1e88"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/stdatomic_8h.html#aedf6fb62e0fc9e8f8cf2e3685f0a1e88">atomic_fetch_add</a>(object,  operand)&#160;&#160;&#160;	__atomic_fetch_add(object, operand, __ATOMIC_SEQ_CST)</td></tr>
 <tr class="separator:aedf6fb62e0fc9e8f8cf2e3685f0a1e88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d2b72b5d6ad1392c4f805054be0bdd1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/stdatomic_8h.html#a1d2b72b5d6ad1392c4f805054be0bdd1">atomic_fetch_add_explicit</a>(object,  operand,  <a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>)&#160;&#160;&#160;	__atomic_fetch_add(object, operand, <a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>)</td></tr>
+<tr class="memitem:a1d2b72b5d6ad1392c4f805054be0bdd1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/stdatomic_8h.html#a1d2b72b5d6ad1392c4f805054be0bdd1">atomic_fetch_add_explicit</a>(object,  operand,  order)&#160;&#160;&#160;	__atomic_fetch_add(object, operand, order)</td></tr>
 <tr class="separator:a1d2b72b5d6ad1392c4f805054be0bdd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66aaef69cdadfe5e0eb87f6beff352df"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/stdatomic_8h.html#a66aaef69cdadfe5e0eb87f6beff352df">atomic_fetch_sub</a>(object,  operand)&#160;&#160;&#160;	__atomic_fetch_sub(object, operand, __ATOMIC_SEQ_CST)</td></tr>
 <tr class="separator:a66aaef69cdadfe5e0eb87f6beff352df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af952088a1a3bea5f3c11d67118eb729b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/stdatomic_8h.html#af952088a1a3bea5f3c11d67118eb729b">atomic_fetch_sub_explicit</a>(object,  operand,  <a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>)&#160;&#160;&#160;	__atomic_fetch_sub(object, operand, <a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>)</td></tr>
+<tr class="memitem:af952088a1a3bea5f3c11d67118eb729b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/stdatomic_8h.html#af952088a1a3bea5f3c11d67118eb729b">atomic_fetch_sub_explicit</a>(object,  operand,  order)&#160;&#160;&#160;	__atomic_fetch_sub(object, operand, order)</td></tr>
 <tr class="separator:af952088a1a3bea5f3c11d67118eb729b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a516561c3d6db1e6adfd4c97894a63cfb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/stdatomic_8h.html#a516561c3d6db1e6adfd4c97894a63cfb">atomic_fetch_or</a>(object,  operand)&#160;&#160;&#160;	__atomic_fetch_or(object, operand, __ATOMIC_SEQ_CST)</td></tr>
 <tr class="separator:a516561c3d6db1e6adfd4c97894a63cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9a7edeec6d650c3e7a43257ffd923bb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/stdatomic_8h.html#aa9a7edeec6d650c3e7a43257ffd923bb">atomic_fetch_or_explicit</a>(object,  operand,  <a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>)&#160;&#160;&#160;	__atomic_fetch_or(object, operand, <a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>)</td></tr>
+<tr class="memitem:aa9a7edeec6d650c3e7a43257ffd923bb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/stdatomic_8h.html#aa9a7edeec6d650c3e7a43257ffd923bb">atomic_fetch_or_explicit</a>(object,  operand,  order)&#160;&#160;&#160;	__atomic_fetch_or(object, operand, order)</td></tr>
 <tr class="separator:aa9a7edeec6d650c3e7a43257ffd923bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00b017a65180805ce9ab091864c0a60e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/stdatomic_8h.html#a00b017a65180805ce9ab091864c0a60e">atomic_fetch_xor</a>(object,  operand)&#160;&#160;&#160;	__atomic_fetch_xor(object, operand, __ATOMIC_SEQ_CST)</td></tr>
 <tr class="separator:a00b017a65180805ce9ab091864c0a60e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae067c20ab4471deddd41ecee572fe35f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/stdatomic_8h.html#ae067c20ab4471deddd41ecee572fe35f">atomic_fetch_xor_explicit</a>(object,  operand,  <a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>)&#160;&#160;&#160;	__atomic_fetch_xor(object, operand, <a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>)</td></tr>
+<tr class="memitem:ae067c20ab4471deddd41ecee572fe35f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/stdatomic_8h.html#ae067c20ab4471deddd41ecee572fe35f">atomic_fetch_xor_explicit</a>(object,  operand,  order)&#160;&#160;&#160;	__atomic_fetch_xor(object, operand, order)</td></tr>
 <tr class="separator:ae067c20ab4471deddd41ecee572fe35f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb8eef1235f98b5b418480b474f0fa16"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/stdatomic_8h.html#adb8eef1235f98b5b418480b474f0fa16">atomic_fetch_and</a>(object,  operand)&#160;&#160;&#160;	__atomic_fetch_and(object, operand, __ATOMIC_SEQ_CST)</td></tr>
 <tr class="separator:adb8eef1235f98b5b418480b474f0fa16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeef65522da3712b76bc1bd0d981d48ac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/stdatomic_8h.html#aeef65522da3712b76bc1bd0d981d48ac">atomic_fetch_and_explicit</a>(object,  operand,  <a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>)&#160;&#160;&#160;	__atomic_fetch_and(object, operand, <a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>)</td></tr>
+<tr class="memitem:aeef65522da3712b76bc1bd0d981d48ac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/stdatomic_8h.html#aeef65522da3712b76bc1bd0d981d48ac">atomic_fetch_and_explicit</a>(object,  operand,  order)&#160;&#160;&#160;	__atomic_fetch_and(object, operand, order)</td></tr>
 <tr class="separator:aeef65522da3712b76bc1bd0d981d48ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -373,12 +373,12 @@ Enumerations</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>&#160;</td>
+          <td class="paramname">order&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;	__atomic_exchange_n(object, desired, <a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>)</td>
+          <td></td><td>&#160;&#160;&#160;	__atomic_exchange_n(object, desired, order)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -439,12 +439,12 @@ Enumerations</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>&#160;</td>
+          <td class="paramname">order&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;	__atomic_fetch_add(object, operand, <a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>)</td>
+          <td></td><td>&#160;&#160;&#160;	__atomic_fetch_add(object, operand, order)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -505,12 +505,12 @@ Enumerations</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>&#160;</td>
+          <td class="paramname">order&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;	__atomic_fetch_and(object, operand, <a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>)</td>
+          <td></td><td>&#160;&#160;&#160;	__atomic_fetch_and(object, operand, order)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -571,12 +571,12 @@ Enumerations</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>&#160;</td>
+          <td class="paramname">order&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;	__atomic_fetch_or(object, operand, <a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>)</td>
+          <td></td><td>&#160;&#160;&#160;	__atomic_fetch_or(object, operand, order)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -637,12 +637,12 @@ Enumerations</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>&#160;</td>
+          <td class="paramname">order&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;	__atomic_fetch_sub(object, operand, <a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>)</td>
+          <td></td><td>&#160;&#160;&#160;	__atomic_fetch_sub(object, operand, order)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -703,12 +703,12 @@ Enumerations</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>&#160;</td>
+          <td class="paramname">order&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;	__atomic_fetch_xor(object, operand, <a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>)</td>
+          <td></td><td>&#160;&#160;&#160;	__atomic_fetch_xor(object, operand, order)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -753,12 +753,12 @@ Enumerations</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>&#160;</td>
+          <td class="paramname">order&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;	__atomic_load_n(object, <a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>)</td>
+          <td></td><td>&#160;&#160;&#160;	__atomic_load_n(object, order)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -819,12 +819,12 @@ Enumerations</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>&#160;</td>
+          <td class="paramname">order&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;	__atomic_store_n(object, desired, <a class="el" href="../../d7/d05/dpkg_8c.html#a56a1bacea0595ff04793ed77a6ee00c0">order</a>)</td>
+          <td></td><td>&#160;&#160;&#160;	__atomic_store_n(object, desired, order)</td>
         </tr>
       </table>
 </div><div class="memdoc">

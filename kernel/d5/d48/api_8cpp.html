@@ -86,151 +86,192 @@ $(document).ready(function(){initNavTree('d5/d48/api_8cpp.html','../../'); initR
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">api.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d7/d7e/driver_8hpp_source.html">driver.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../db/de4/driver_8h_source.html">interface/driver.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../df/d26/fs_8h_source.html">interface/fs.h</a>&gt;</code><br />
+<code>#include &lt;type_traits&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d1/de1/aip_8h_source.html">interface/aip.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../de/ded/input_8h_source.html">interface/input.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d9/d97/pci_8h_source.html">interface/pci.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/daa/kernel_8h_source.html">../../kernel.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../db/de4/driver_8h_source.html">../../driver.h</a>&quot;</code><br />
 </div>
 <p><a href="../../d5/d48/api_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:d7/d60/structAPISymbols"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d48/api_8cpp.html#d7/d60/structAPISymbols">APISymbols</a></td></tr>
+<tr class="separator:d7/d60/structAPISymbols"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:d1/d48/namespaceDriver"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html">Driver</a></td></tr>
+<tr class="memitem:d4/d7f/namespacev0"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html">v0</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a0bbb8f069d49c96159e892702a397e4f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d48/api_8cpp.html#a0bbb8f069d49c96159e892702a397e4f">dbg_api</a>(Format, ...)</td></tr>
+<tr class="memitem:ad1e5aa726fbca3a193c957c5b53d8a18"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d48/api_8cpp.html#ad1e5aa726fbca3a193c957c5b53d8a18">DEBUG_API</a></td></tr>
+<tr class="separator:ad1e5aa726fbca3a193c957c5b53d8a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bbb8f069d49c96159e892702a397e4f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d48/api_8cpp.html#a0bbb8f069d49c96159e892702a397e4f">dbg_api</a>(Format, ...)&#160;&#160;&#160;<a class="el" href="../../d0/d64/syscall_8cpp.html#a5a4f4538b1fe13a821aabdd9236bf6b4">func</a>(Format, ##__VA_ARGS__)</td></tr>
 <tr class="separator:a0bbb8f069d49c96159e892702a397e4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe0d2eecc7cf3ca7fce022e6be487b81"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d48/api_8cpp.html#abe0d2eecc7cf3ca7fce022e6be487b81">VMWARE_MAGIC</a>&#160;&#160;&#160;0x564D5868 /* hXMV */</td></tr>
-<tr class="separator:abe0d2eecc7cf3ca7fce022e6be487b81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00872e853a5ac96ce036c3ba31b2d97c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d48/api_8cpp.html#a00872e853a5ac96ce036c3ba31b2d97c">VMWARE_PORT</a>&#160;&#160;&#160;0x5658</td></tr>
-<tr class="separator:a00872e853a5ac96ce036c3ba31b2d97c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e73707083e5a68828275698eadeab50"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d48/api_8cpp.html#a8e73707083e5a68828275698eadeab50">CMD_GETVERSION</a>&#160;&#160;&#160;0xA</td></tr>
-<tr class="separator:a8e73707083e5a68828275698eadeab50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a2781267ee41c0c687f7e3f0af968931f"><td class="memItemLeft" align="right" valign="top">typedef int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a2781267ee41c0c687f7e3f0af968931f">v0::CriticalState</a></td></tr>
+<tr class="separator:a2781267ee41c0c687f7e3f0af968931f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0cdfd4a7bbc157d8774de8f14382fd41"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a0cdfd4a7bbc157d8774de8f14382fd41">Driver::RegisterFunction</a> (dev_t MajorID, void *Function, <a class="el" href="../../db/de4/driver_8h.html#a7dc023832c94489ca90016bcd2e4d68f">__driverRegFunc</a> Type)</td></tr>
-<tr class="separator:a0cdfd4a7bbc157d8774de8f14382fd41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a426e14a4b6d3eccc25badc3a8e350abd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a426e14a4b6d3eccc25badc3a8e350abd">Driver::GetDriverInfo</a> (dev_t MajorID, const char *Name, const char *Description, const char *Author, const char *Version, const char *License)</td></tr>
-<tr class="separator:a426e14a4b6d3eccc25badc3a8e350abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a037a8439b02442dc6aba8627d437fef8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a037a8439b02442dc6aba8627d437fef8">Driver::RegisterInterruptHandler</a> (dev_t MajorID, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> IRQ, void *Handler)</td></tr>
-<tr class="separator:a037a8439b02442dc6aba8627d437fef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b620233a2f7202aad238817f27b2f28"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a1b620233a2f7202aad238817f27b2f28">Driver::OverrideInterruptHandler</a> (dev_t MajorID, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> IRQ, void *Handler)</td></tr>
-<tr class="separator:a1b620233a2f7202aad238817f27b2f28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d914ea173b6377f69308161e7606ad7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a5d914ea173b6377f69308161e7606ad7">Driver::UnregisterInterruptHandler</a> (dev_t MajorID, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> IRQ, void *Handler)</td></tr>
-<tr class="separator:a5d914ea173b6377f69308161e7606ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4e04043ba231149adda51907f9cd36a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#ae4e04043ba231149adda51907f9cd36a">Driver::UnregisterAllInterruptHandlers</a> (dev_t MajorID, void *Handler)</td></tr>
-<tr class="separator:ae4e04043ba231149adda51907f9cd36a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a5a99e5ddf63184856eec9b5e9b7af3"><td class="memItemLeft" align="right" valign="top">dev_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a7a5a99e5ddf63184856eec9b5e9b7af3">Driver::RegisterInputDevice</a> (dev_t MajorID, <a class="el" href="../../db/de4/driver_8h.html#afcd378c40e1174c74b79e47404cc960f">DeviceDriverType</a> Type)</td></tr>
-<tr class="separator:a7a5a99e5ddf63184856eec9b5e9b7af3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74c9edc5259d62ca4e187a37bb517bf2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a74c9edc5259d62ca4e187a37bb517bf2">Driver::UnregisterInputDevice</a> (dev_t MajorID, dev_t MinorID, <a class="el" href="../../db/de4/driver_8h.html#afcd378c40e1174c74b79e47404cc960f">DeviceDriverType</a> Type)</td></tr>
-<tr class="separator:a74c9edc5259d62ca4e187a37bb517bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92ba90b55cdef1cb4229ab7e1d8d8b28"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a92ba90b55cdef1cb4229ab7e1d8d8b28">Driver::ReportKeyboardEvent</a> (dev_t MajorID, dev_t MinorID, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> ScanCode)</td></tr>
-<tr class="separator:a92ba90b55cdef1cb4229ab7e1d8d8b28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77c48ad3a1a4a45f827a1e90f24f1787"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a77c48ad3a1a4a45f827a1e90f24f1787">Driver::ReportRelativeMouseEvent</a> (dev_t MajorID, dev_t MinorID, <a class="el" href="../../db/de4/driver_8h.html#d3/d9c/union____MouseButtons">__MouseButtons</a> Button, int X, int Y, <a class="el" href="../../d6/de6/include_2types_8h.html#accbd6432732c88ad6adc5365800433b6">int8_t</a> Z)</td></tr>
-<tr class="separator:a77c48ad3a1a4a45f827a1e90f24f1787"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a443a391125ffd4778e1cf100e406cee6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a443a391125ffd4778e1cf100e406cee6">Driver::ReportAbsoluteMouseEvent</a> (dev_t MajorID, dev_t MinorID, <a class="el" href="../../db/de4/driver_8h.html#d3/d9c/union____MouseButtons">__MouseButtons</a> Button, <a class="el" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> X, <a class="el" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> Y, <a class="el" href="../../d6/de6/include_2types_8h.html#accbd6432732c88ad6adc5365800433b6">int8_t</a> Z)</td></tr>
-<tr class="separator:a443a391125ffd4778e1cf100e406cee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af065058e1eb6681f44529640509838ff"><td class="memItemLeft" align="right" valign="top">dev_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#af065058e1eb6681f44529640509838ff">Driver::RegisterBlockDevice</a> (dev_t MajorID, <a class="el" href="../../db/de4/driver_8h.html#afcd378c40e1174c74b79e47404cc960f">DeviceDriverType</a> Type, void *Open, void *Close, void *Read, void *Write, void *Ioctl)</td></tr>
-<tr class="separator:af065058e1eb6681f44529640509838ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74d002f868a9b2772be6cde6aeea27a5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a74d002f868a9b2772be6cde6aeea27a5">Driver::UnregisterBlockDevice</a> (dev_t MajorID, dev_t MinorID, <a class="el" href="../../db/de4/driver_8h.html#afcd378c40e1174c74b79e47404cc960f">DeviceDriverType</a> Type)</td></tr>
-<tr class="separator:a74d002f868a9b2772be6cde6aeea27a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabd58e1b3238e94d096a961602dafec3"><td class="memItemLeft" align="right" valign="top">dev_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#aabd58e1b3238e94d096a961602dafec3">Driver::RegisterAudioDevice</a> (dev_t MajorID, <a class="el" href="../../db/de4/driver_8h.html#afcd378c40e1174c74b79e47404cc960f">DeviceDriverType</a> Type, void *Open, void *Close, void *Read, void *Write, void *Ioctl)</td></tr>
-<tr class="separator:aabd58e1b3238e94d096a961602dafec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ee52fcd4420a33127014a0383eba916"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a5ee52fcd4420a33127014a0383eba916">Driver::UnregisterAudioDevice</a> (dev_t MajorID, dev_t MinorID, <a class="el" href="../../db/de4/driver_8h.html#afcd378c40e1174c74b79e47404cc960f">DeviceDriverType</a> Type)</td></tr>
-<tr class="separator:a5ee52fcd4420a33127014a0383eba916"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfa5ac6eb57122ec5cccd25b988afaed"><td class="memItemLeft" align="right" valign="top">dev_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#abfa5ac6eb57122ec5cccd25b988afaed">Driver::RegisterNetDevice</a> (dev_t MajorID, <a class="el" href="../../db/de4/driver_8h.html#afcd378c40e1174c74b79e47404cc960f">DeviceDriverType</a> Type, void *Open, void *Close, void *Read, void *Write, void *Ioctl)</td></tr>
-<tr class="separator:abfa5ac6eb57122ec5cccd25b988afaed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1164a9837e2e75031cbfe850e77b357d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a1164a9837e2e75031cbfe850e77b357d">Driver::UnregisterNetDevice</a> (dev_t MajorID, dev_t MinorID, <a class="el" href="../../db/de4/driver_8h.html#afcd378c40e1174c74b79e47404cc960f">DeviceDriverType</a> Type)</td></tr>
-<tr class="separator:a1164a9837e2e75031cbfe850e77b357d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd23995f2e74535a1158ca2db6c2d63f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#afd23995f2e74535a1158ca2db6c2d63f">Driver::ReportNetworkPacket</a> (dev_t MajorID, dev_t MinorID, void *Buffer, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</td></tr>
-<tr class="separator:afd23995f2e74535a1158ca2db6c2d63f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf3f011974b4ec3e18add0007b7d55bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#aaf3f011974b4ec3e18add0007b7d55bf">Driver::d_KPrint</a> (dev_t MajorID, const char *Format, <a class="el" href="../../d6/de6/include_2types_8h.html#af53f622e3b6c080daeb167c1955d7ec1">va_list</a> args)</td></tr>
-<tr class="separator:aaf3f011974b4ec3e18add0007b7d55bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a0c563a3cff3f50f47168f0632181f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a0a0c563a3cff3f50f47168f0632181f6">Driver::KernelLog</a> (dev_t MajorID, const char *Format, <a class="el" href="../../d6/de6/include_2types_8h.html#af53f622e3b6c080daeb167c1955d7ec1">va_list</a> args)</td></tr>
-<tr class="separator:a0a0c563a3cff3f50f47168f0632181f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83461a43c047d8cfcafb35e7360614a7"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a83461a43c047d8cfcafb35e7360614a7">Driver::RequestPages</a> (dev_t MajorID, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> Pages)</td></tr>
-<tr class="separator:a83461a43c047d8cfcafb35e7360614a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4561ba4cdaec352e79f917d6c30b290"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#ab4561ba4cdaec352e79f917d6c30b290">Driver::FreePages</a> (dev_t MajorID, void *Pointer, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> Pages)</td></tr>
-<tr class="separator:ab4561ba4cdaec352e79f917d6c30b290"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f2a6ec6b3474b826fc1ed7c0ae9425f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a3f2a6ec6b3474b826fc1ed7c0ae9425f">Driver::AppendMapFlag</a> (dev_t MajorID, void *<a class="el" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>, <a class="el" href="../../db/de4/driver_8h.html#ac0416d24abd7b108d48d16eb4e913e8a">PageMapFlags</a> Flag)</td></tr>
-<tr class="separator:a3f2a6ec6b3474b826fc1ed7c0ae9425f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a829238d31d6bd133fe5835c31f776389"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a829238d31d6bd133fe5835c31f776389">Driver::RemoveMapFlag</a> (dev_t MajorID, void *<a class="el" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>, <a class="el" href="../../db/de4/driver_8h.html#ac0416d24abd7b108d48d16eb4e913e8a">PageMapFlags</a> Flag)</td></tr>
-<tr class="separator:a829238d31d6bd133fe5835c31f776389"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10ef091d87490e1809fb9307f4f19a38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a10ef091d87490e1809fb9307f4f19a38">Driver::MapPages</a> (dev_t MajorID, void *<a class="el" href="../../d9/def/mb__64bit__map_8cpp.html#aed951ef6b9c6cfec18d4673c1c32debc">PhysicalAddress</a>, void *VirtualAddress, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> Pages, <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> <a class="el" href="../../d1/d85/filesystem_8hpp.html#ac3e60a9fc42fb6c0b656191ebb1d658b">Flags</a>)</td></tr>
-<tr class="separator:a10ef091d87490e1809fb9307f4f19a38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a029eef400ad195ea88d1203b441b0189"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a029eef400ad195ea88d1203b441b0189">Driver::UnmapPages</a> (dev_t MajorID, void *VirtualAddress, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> Pages)</td></tr>
-<tr class="separator:a029eef400ad195ea88d1203b441b0189"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3937d777ab63462ee33579334e2bc8a3"><td class="memItemLeft" align="right" valign="top">pid_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a3937d777ab63462ee33579334e2bc8a3">Driver::CreateKernelProcess</a> (dev_t MajorID, const char *Name)</td></tr>
-<tr class="separator:a3937d777ab63462ee33579334e2bc8a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6ba250d562bdbe46565040d0c5ec54a"><td class="memItemLeft" align="right" valign="top">pid_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#ae6ba250d562bdbe46565040d0c5ec54a">Driver::CreateKernelThread</a> (dev_t MajorID, pid_t pId, const char *Name, void *EntryPoint, void *Argument)</td></tr>
-<tr class="separator:ae6ba250d562bdbe46565040d0c5ec54a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57cef76f4c5a680b23b5f74ea8805ff9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a57cef76f4c5a680b23b5f74ea8805ff9">Driver::KillProcess</a> (dev_t MajorID, pid_t pId, int ExitCode)</td></tr>
-<tr class="separator:a57cef76f4c5a680b23b5f74ea8805ff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86ed535356e94cb1946d61e20c9a5bd0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a86ed535356e94cb1946d61e20c9a5bd0">Driver::KillThread</a> (dev_t MajorID, pid_t tId, int ExitCode)</td></tr>
-<tr class="separator:a86ed535356e94cb1946d61e20c9a5bd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1840885e5b04a400f7d37fe9a56af9a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a1840885e5b04a400f7d37fe9a56af9a9">Driver::Yield</a> (dev_t MajorID)</td></tr>
-<tr class="separator:a1840885e5b04a400f7d37fe9a56af9a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbf9211ad89a322797e66c481cdc045d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#abbf9211ad89a322797e66c481cdc045d">Driver::Sleep</a> (dev_t MajorID, <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Milliseconds)</td></tr>
-<tr class="separator:abbf9211ad89a322797e66c481cdc045d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0849a4c5b052e6ad1221e67a5183583e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/de4/driver_8h.html#df/d8a/struct____PCIArray">__PCIArray</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a0849a4c5b052e6ad1221e67a5183583e">Driver::GetPCIDevices</a> (dev_t MajorID, <a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> _Vendors[], <a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> _Devices[])</td></tr>
-<tr class="separator:a0849a4c5b052e6ad1221e67a5183583e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76701f5ecb13655e551b65c3aa8fc269"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a76701f5ecb13655e551b65c3aa8fc269">Driver::InitializePCI</a> (dev_t MajorID, void *_Header)</td></tr>
-<tr class="separator:a76701f5ecb13655e551b65c3aa8fc269"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c8b2a6e42ba3e4d828e04ddb46c4924"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a4c8b2a6e42ba3e4d828e04ddb46c4924">Driver::GetBAR</a> (dev_t MajorID, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> i, void *_Header)</td></tr>
-<tr class="separator:a4c8b2a6e42ba3e4d828e04ddb46c4924"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a660f77ff67a37bd4785eaa6e47066d5e"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a660f77ff67a37bd4785eaa6e47066d5e">Driver::api__memcpy</a> (dev_t MajorID, void *Destination, const void *Source, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a>)</td></tr>
-<tr class="separator:a660f77ff67a37bd4785eaa6e47066d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60f3a74e49567d6d8f24dd2bf4567386"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a60f3a74e49567d6d8f24dd2bf4567386">Driver::api__memset</a> (dev_t MajorID, void *Destination, int Value, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a>)</td></tr>
-<tr class="separator:a60f3a74e49567d6d8f24dd2bf4567386"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6cf5aca03edb720cb5f46a9fff2d549"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#ae6cf5aca03edb720cb5f46a9fff2d549">Driver::api__memmove</a> (dev_t MajorID, void *Destination, const void *Source, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a>)</td></tr>
-<tr class="separator:ae6cf5aca03edb720cb5f46a9fff2d549"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ce9693a7dadd8834cd1154c669b6dbd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a5ce9693a7dadd8834cd1154c669b6dbd">Driver::api__memcmp</a> (dev_t MajorID, const void *Left, const void *Right, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a>)</td></tr>
-<tr class="separator:a5ce9693a7dadd8834cd1154c669b6dbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05c94fff94cc54d57d5f8a946f615a9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a05c94fff94cc54d57d5f8a946f615a9b">Driver::api__strlen</a> (dev_t MajorID, const char *String)</td></tr>
-<tr class="separator:a05c94fff94cc54d57d5f8a946f615a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28c7a716175baeadb20522492467f057"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a28c7a716175baeadb20522492467f057">Driver::api__strcpy</a> (dev_t MajorID, char *Destination, const char *Source)</td></tr>
-<tr class="separator:a28c7a716175baeadb20522492467f057"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fba0e1a11b1657f895484b70516e541"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a4fba0e1a11b1657f895484b70516e541">Driver::api__strcat</a> (dev_t MajorID, char *Destination, const char *Source)</td></tr>
-<tr class="separator:a4fba0e1a11b1657f895484b70516e541"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f0d531e85cc76e20672d206a8c5bde8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a6f0d531e85cc76e20672d206a8c5bde8">Driver::api__strcmp</a> (dev_t MajorID, const char *Left, const char *Right)</td></tr>
-<tr class="separator:a6f0d531e85cc76e20672d206a8c5bde8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae82ae23a721934cadcac4b38bc8d4883"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#ae82ae23a721934cadcac4b38bc8d4883">Driver::api__strncmp</a> (dev_t MajorID, const char *Left, const char *Right, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a>)</td></tr>
-<tr class="separator:ae82ae23a721934cadcac4b38bc8d4883"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa12b6bb328eda812b09c023c4ddec4f9"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#aa12b6bb328eda812b09c023c4ddec4f9">Driver::api__strchr</a> (dev_t MajorID, const char *String, int Character)</td></tr>
-<tr class="separator:aa12b6bb328eda812b09c023c4ddec4f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7393a8911b5da890ea3c08633702df3a"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a7393a8911b5da890ea3c08633702df3a">Driver::api__strrchr</a> (dev_t MajorID, const char *String, int Character)</td></tr>
-<tr class="separator:a7393a8911b5da890ea3c08633702df3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e5db8fe81cee6ca4d9b8b20cbc43cc8"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a9e5db8fe81cee6ca4d9b8b20cbc43cc8">Driver::api__strstr</a> (dev_t MajorID, const char *Haystack, const char *Needle)</td></tr>
-<tr class="separator:a9e5db8fe81cee6ca4d9b8b20cbc43cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adebc3720572f88af6cfa49c7dfc7a88e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#adebc3720572f88af6cfa49c7dfc7a88e">Driver::PopulateDriverAPI</a> (void *API)</td></tr>
-<tr class="separator:adebc3720572f88af6cfa49c7dfc7a88e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2292d87b7cdb6b2860c45111c6dbe7dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a2292d87b7cdb6b2860c45111c6dbe7dd">v0::KernelPrint</a> (dev_t DriverID, const char *Format, <a class="el" href="../../d6/de6/include_2types_8h.html#af53f622e3b6c080daeb167c1955d7ec1">va_list</a> args)</td></tr>
+<tr class="separator:a2292d87b7cdb6b2860c45111c6dbe7dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae985e1fd2070c7cddd7361b2aea1c789"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#ae985e1fd2070c7cddd7361b2aea1c789">v0::KernelLog</a> (dev_t DriverID, const char *Format, <a class="el" href="../../d6/de6/include_2types_8h.html#af53f622e3b6c080daeb167c1955d7ec1">va_list</a> args)</td></tr>
+<tr class="separator:ae985e1fd2070c7cddd7361b2aea1c789"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a643ad9ca3c118d286f810f7e040c7e02"><td class="memItemLeft" align="right" valign="top">CriticalState&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a643ad9ca3c118d286f810f7e040c7e02">v0::EnterCriticalSection</a> (dev_t DriverID)</td></tr>
+<tr class="separator:a643ad9ca3c118d286f810f7e040c7e02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3e7ac29b4a8fd141786b140c8d6aa99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#ab3e7ac29b4a8fd141786b140c8d6aa99">v0::LeaveCriticalSection</a> (dev_t DriverID, CriticalState PreviousState)</td></tr>
+<tr class="separator:ab3e7ac29b4a8fd141786b140c8d6aa99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10c5295d7632da42b3ff8498e4da4662"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a10c5295d7632da42b3ff8498e4da4662">v0::RegisterInterruptHandler</a> (dev_t DriverID, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> IRQ, void *Handler)</td></tr>
+<tr class="separator:a10c5295d7632da42b3ff8498e4da4662"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c8cb6e00e7f07280b9b352e6aaf968a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a5c8cb6e00e7f07280b9b352e6aaf968a">v0::OverrideInterruptHandler</a> (dev_t DriverID, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> IRQ, void *Handler)</td></tr>
+<tr class="separator:a5c8cb6e00e7f07280b9b352e6aaf968a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b0b6b757de20623b4f983451f8ab673"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a8b0b6b757de20623b4f983451f8ab673">v0::UnregisterInterruptHandler</a> (dev_t DriverID, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> IRQ, void *Handler)</td></tr>
+<tr class="separator:a8b0b6b757de20623b4f983451f8ab673"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0c5eb0d35e1251eb80e808739501eaa"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#ad0c5eb0d35e1251eb80e808739501eaa">v0::UnregisterAllInterruptHandlers</a> (dev_t DriverID, void *Handler)</td></tr>
+<tr class="separator:ad0c5eb0d35e1251eb80e808739501eaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31fdef2a333f78730bec42a7416b9cb1"><td class="memItemLeft" align="right" valign="top">dev_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a31fdef2a333f78730bec42a7416b9cb1">v0::RegisterFileSystem</a> (dev_t DriverID, <a class="el" href="../../df/d26/fs_8h.html#de/d99/structFileSystemInfo">FileSystemInfo</a> *Info, struct <a class="el" href="../../df/d26/fs_8h.html#d6/d59/structInode">Inode</a> *Root)</td></tr>
+<tr class="separator:a31fdef2a333f78730bec42a7416b9cb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae435ae314933dae63cfe016034bef7b9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#ae435ae314933dae63cfe016034bef7b9">v0::UnregisterFileSystem</a> (dev_t DriverID, dev_t Device)</td></tr>
+<tr class="separator:ae435ae314933dae63cfe016034bef7b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3dff5d826ca871c1d11b27ebf9b4e25"><td class="memItemLeft" align="right" valign="top">pid_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#ad3dff5d826ca871c1d11b27ebf9b4e25">v0::CreateKernelProcess</a> (dev_t DriverID, const char *<a class="el" href="../../df/d26/fs_8h.html#a760b4e07b204e4852e7fb55e25567623">Name</a>)</td></tr>
+<tr class="separator:ad3dff5d826ca871c1d11b27ebf9b4e25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaf59b4168c3e0241ba28f1539c52215"><td class="memItemLeft" align="right" valign="top">pid_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#aeaf59b4168c3e0241ba28f1539c52215">v0::CreateKernelThread</a> (dev_t DriverID, pid_t pId, const char *<a class="el" href="../../df/d26/fs_8h.html#a760b4e07b204e4852e7fb55e25567623">Name</a>, void *EntryPoint, void *Argument)</td></tr>
+<tr class="separator:aeaf59b4168c3e0241ba28f1539c52215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3fffdc1ab241f2914a88d65f255d38e"><td class="memItemLeft" align="right" valign="top">pid_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#aa3fffdc1ab241f2914a88d65f255d38e">v0::GetCurrentProcess</a> (dev_t DriverID)</td></tr>
+<tr class="separator:aa3fffdc1ab241f2914a88d65f255d38e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a299e86a7808ad4ad4fd3c3f1772bd57e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a299e86a7808ad4ad4fd3c3f1772bd57e">v0::KillProcess</a> (dev_t DriverID, pid_t pId, int ExitCode)</td></tr>
+<tr class="separator:a299e86a7808ad4ad4fd3c3f1772bd57e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3a62d7606b5aaec557afb69fc2a20a9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#ab3a62d7606b5aaec557afb69fc2a20a9">v0::KillThread</a> (dev_t DriverID, pid_t tId, pid_t pId, int ExitCode)</td></tr>
+<tr class="separator:ab3a62d7606b5aaec557afb69fc2a20a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7740b1becbb0902425fb3d1649eb76f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a7740b1becbb0902425fb3d1649eb76f5">v0::Yield</a> (dev_t DriverID)</td></tr>
+<tr class="separator:a7740b1becbb0902425fb3d1649eb76f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af44896b7ec52185a597b0b884cb49a0d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#af44896b7ec52185a597b0b884cb49a0d">v0::Sleep</a> (dev_t DriverID, <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Milliseconds)</td></tr>
+<tr class="separator:af44896b7ec52185a597b0b884cb49a0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6b4a844cfefa08979acdb0f850beb61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#ab6b4a844cfefa08979acdb0f850beb61">v0::PIC_EOI</a> (dev_t DriverID, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> IRQ)</td></tr>
+<tr class="separator:ab6b4a844cfefa08979acdb0f850beb61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43a58faa360cb30e6591bb2547aaf0a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a43a58faa360cb30e6591bb2547aaf0a4">v0::IRQ_MASK</a> (dev_t DriverID, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> IRQ)</td></tr>
+<tr class="separator:a43a58faa360cb30e6591bb2547aaf0a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5caef4f683286a9215b85e256cf62d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#ae5caef4f683286a9215b85e256cf62d4">v0::IRQ_UNMASK</a> (dev_t DriverID, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> IRQ)</td></tr>
+<tr class="separator:ae5caef4f683286a9215b85e256cf62d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a080555ca14890217a012cce962a7b167"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a080555ca14890217a012cce962a7b167">v0::PS2Wait</a> (dev_t DriverID, const <a class="el" href="../../d9/d5e/stdbool_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> Output)</td></tr>
+<tr class="separator:a080555ca14890217a012cce962a7b167"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8a8a90df5ffc2e6582fe5a66f2e3147"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#ac8a8a90df5ffc2e6582fe5a66f2e3147">v0::PS2WriteCommand</a> (dev_t DriverID, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> <a class="el" href="../../df/d2d/structCommand.html">Command</a>)</td></tr>
+<tr class="separator:ac8a8a90df5ffc2e6582fe5a66f2e3147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8825935a0881dcca809290bad86c00c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a8825935a0881dcca809290bad86c00c5">v0::PS2WriteData</a> (dev_t DriverID, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> <a class="el" href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a>)</td></tr>
+<tr class="separator:a8825935a0881dcca809290bad86c00c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1699f6a31d4af67e08f1d0eeda5dc12c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a1699f6a31d4af67e08f1d0eeda5dc12c">v0::PS2ReadData</a> (dev_t DriverID)</td></tr>
+<tr class="separator:a1699f6a31d4af67e08f1d0eeda5dc12c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4da2f063f2863e836794fa8643936891"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a4da2f063f2863e836794fa8643936891">v0::PS2ReadStatus</a> (dev_t DriverID)</td></tr>
+<tr class="separator:a4da2f063f2863e836794fa8643936891"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92b9a834fbc0155e045cb5f0d5e7107e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a92b9a834fbc0155e045cb5f0d5e7107e">v0::PS2ReadAfterACK</a> (dev_t DriverID)</td></tr>
+<tr class="separator:a92b9a834fbc0155e045cb5f0d5e7107e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5baa078b8e93410b14be1f49cd0f7281"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a5baa078b8e93410b14be1f49cd0f7281">v0::PS2ClearOutputBuffer</a> (dev_t DriverID)</td></tr>
+<tr class="separator:a5baa078b8e93410b14be1f49cd0f7281"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b47f3921d7bbefaf7edeba6ca71bfc6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a8b47f3921d7bbefaf7edeba6ca71bfc6">v0::PS2ACKTimeout</a> (dev_t DriverID)</td></tr>
+<tr class="separator:a8b47f3921d7bbefaf7edeba6ca71bfc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b82258064e44f4432b7e56766616aa0"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a0b82258064e44f4432b7e56766616aa0">v0::AllocateMemory</a> (dev_t DriverID, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> Pages)</td></tr>
+<tr class="separator:a0b82258064e44f4432b7e56766616aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40cbf3031e555a7f1356e18b4a5c481e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a40cbf3031e555a7f1356e18b4a5c481e">v0::FreeMemory</a> (dev_t DriverID, void *Pointer, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> Pages)</td></tr>
+<tr class="separator:a40cbf3031e555a7f1356e18b4a5c481e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58c5cfcc296859e66950bae270090343"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a58c5cfcc296859e66950bae270090343">v0::MemoryCopy</a> (dev_t DriverID, void *Destination, const void *Source, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a>)</td></tr>
+<tr class="separator:a58c5cfcc296859e66950bae270090343"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50cd3d3ea97fe3c0f9f5075488b801eb"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a50cd3d3ea97fe3c0f9f5075488b801eb">v0::MemorySet</a> (dev_t DriverID, void *Destination, int Value, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a>)</td></tr>
+<tr class="separator:a50cd3d3ea97fe3c0f9f5075488b801eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac56401f0c8bc338d1aa483eaf5472d42"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#ac56401f0c8bc338d1aa483eaf5472d42">v0::MemoryMove</a> (dev_t DriverID, void *Destination, const void *Source, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a>)</td></tr>
+<tr class="separator:ac56401f0c8bc338d1aa483eaf5472d42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6820c9b6ff45d6dd35786d1a149573d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a6820c9b6ff45d6dd35786d1a149573d5">v0::StringLength</a> (dev_t DriverID, const char String[])</td></tr>
+<tr class="separator:a6820c9b6ff45d6dd35786d1a149573d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48e73e96f4ebfb56e7f7ac27d7ecc50f"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a48e73e96f4ebfb56e7f7ac27d7ecc50f">v0::_strstr</a> (dev_t DriverID, const char *Haystack, const char *Needle)</td></tr>
+<tr class="separator:a48e73e96f4ebfb56e7f7ac27d7ecc50f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e1e86005b1ad8dc11e533ec8de5876e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a6e1e86005b1ad8dc11e533ec8de5876e">v0::MapPages</a> (dev_t MajorID, void *<a class="el" href="../../d9/def/mb__64bit__map_8cpp.html#aed951ef6b9c6cfec18d4673c1c32debc">PhysicalAddress</a>, void *VirtualAddress, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> Pages, <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> <a class="el" href="../../df/d26/fs_8h.html#ac3e60a9fc42fb6c0b656191ebb1d658b">Flags</a>)</td></tr>
+<tr class="separator:a6e1e86005b1ad8dc11e533ec8de5876e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad653545c4f368eea85d91239e9df4c21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#ad653545c4f368eea85d91239e9df4c21">v0::UnmapPages</a> (dev_t MajorID, void *VirtualAddress, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> Pages)</td></tr>
+<tr class="separator:ad653545c4f368eea85d91239e9df4c21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeec8c670a364eef76f525bf773d947d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#aeec8c670a364eef76f525bf773d947d3">v0::AppendMapFlag</a> (dev_t MajorID, void *<a class="el" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>, <a class="el" href="../../db/de4/driver_8h.html#ac0416d24abd7b108d48d16eb4e913e8a">PageMapFlags</a> Flag)</td></tr>
+<tr class="separator:aeec8c670a364eef76f525bf773d947d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16d7cb8942c80768afea4f4c7a78e13d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a16d7cb8942c80768afea4f4c7a78e13d">v0::RemoveMapFlag</a> (dev_t MajorID, void *<a class="el" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>, <a class="el" href="../../db/de4/driver_8h.html#ac0416d24abd7b108d48d16eb4e913e8a">PageMapFlags</a> Flag)</td></tr>
+<tr class="separator:a16d7cb8942c80768afea4f4c7a78e13d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1ec6f76b3e230c7b205dc39d5dcee3f"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#af1ec6f76b3e230c7b205dc39d5dcee3f">v0::Znwm</a> (<a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</td></tr>
+<tr class="separator:af1ec6f76b3e230c7b205dc39d5dcee3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1de5793a90b8a567a8d81415e623ce1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#af1de5793a90b8a567a8d81415e623ce1">v0::ZdlPvm</a> (void *Pointer, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</td></tr>
+<tr class="separator:af1de5793a90b8a567a8d81415e623ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bf9161011750f910752aa83566ec6c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/de4/driver_8h.html#df/d8a/struct____PCIArray">__PCIArray</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a5bf9161011750f910752aa83566ec6c3">v0::GetPCIDevices</a> (dev_t DriverID, <a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> _Vendors[], <a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> _Devices[])</td></tr>
+<tr class="separator:a5bf9161011750f910752aa83566ec6c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae56abf3c49cf0293df23456daef26c2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#ae56abf3c49cf0293df23456daef26c2a">v0::InitializePCI</a> (dev_t DriverID, void *_Header)</td></tr>
+<tr class="separator:ae56abf3c49cf0293df23456daef26c2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4de3c1c23c0e1e660b243ac18e0bff00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a4de3c1c23c0e1e660b243ac18e0bff00">v0::GetBAR</a> (dev_t DriverID, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> i, void *_Header)</td></tr>
+<tr class="separator:a4de3c1c23c0e1e660b243ac18e0bff00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc75553895817bf2b57ee71bf37f62d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#afc75553895817bf2b57ee71bf37f62d9">v0::iLine</a> (dev_t DriverID, PCIDevice *Device)</td></tr>
+<tr class="separator:afc75553895817bf2b57ee71bf37f62d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf462ff3982d5c9ca3e11d1e2bc8204b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#adf462ff3982d5c9ca3e11d1e2bc8204b">v0::iPin</a> (dev_t DriverID, PCIDevice *Device)</td></tr>
+<tr class="separator:adf462ff3982d5c9ca3e11d1e2bc8204b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9d436de155c9cdd94cc97230ef59854"><td class="memItemLeft" align="right" valign="top">dev_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#af9d436de155c9cdd94cc97230ef59854">v0::RegisterDevice</a> (dev_t DriverID, <a class="el" href="../../db/de9/device_8h.html#ad258d4c51629346fceac4679b3209ad9">DeviceType</a> Type, const <a class="el" href="../../db/de6/structInodeOperations.html">InodeOperations</a> *Operations)</td></tr>
+<tr class="separator:af9d436de155c9cdd94cc97230ef59854"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4111793a1ef527c8c2f00623a1cc9785"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a4111793a1ef527c8c2f00623a1cc9785">v0::UnregisterDevice</a> (dev_t DriverID, dev_t Device)</td></tr>
+<tr class="separator:a4111793a1ef527c8c2f00623a1cc9785"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83ba99aa204538531e103cfd6eb2fd7b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d7f/namespacev0.html#a83ba99aa204538531e103cfd6eb2fd7b">v0::ReportInputEvent</a> (dev_t DriverID, <a class="el" href="../../de/ded/input_8h.html#d1/d5b/structInputReport">InputReport</a> *Report)</td></tr>
+<tr class="separator:a83ba99aa204538531e103cfd6eb2fd7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3e027c05288c01f051cfe405d952f98"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d48/api_8cpp.html#ab3e027c05288c01f051cfe405d952f98">__KernelUndefinedFunction</a> (long arg0, long arg1, long arg2, long arg3, long arg4, long arg5, long arg6, long arg7)</td></tr>
+<tr class="separator:ab3e027c05288c01f051cfe405d952f98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31a653b52958cdda3ae5038f956fbd58"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d48/api_8cpp.html#a31a653b52958cdda3ae5038f956fbd58">GetSymbolByName</a> (const char *<a class="el" href="../../df/d26/fs_8h.html#a760b4e07b204e4852e7fb55e25567623">Name</a>, int Version)</td></tr>
+<tr class="separator:a31a653b52958cdda3ae5038f956fbd58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a654009e42dfb0daf0d3a28e1b2e61214"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="../../d5/d48/api_8cpp.html#d7/d60/structAPISymbols">APISymbols</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d48/api_8cpp.html#a654009e42dfb0daf0d3a28e1b2e61214">APISymbols_v0</a> []</td></tr>
+<tr class="separator:a654009e42dfb0daf0d3a28e1b2e61214"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a8e73707083e5a68828275698eadeab50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e73707083e5a68828275698eadeab50">&#9670;&nbsp;</a></span>CMD_GETVERSION</h2>
+<hr/><h2 class="groupheader">Data Structure Documentation</h2>
+<a name="d7/d60/structAPISymbols" id="d7/d60/structAPISymbols"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d7/d60/structAPISymbols">&#9670;&nbsp;</a></span>APISymbols</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define CMD_GETVERSION&#160;&#160;&#160;0xA</td>
+          <td class="memname">struct APISymbols</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d5/d48/api_8cpp_source.html#l00035">35</a> of file <a class="el" href="../../d5/d48/api_8cpp_source.html">api.cpp</a>.</p>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d5/d48/api_8cpp_source.html#l00826">826</a> of file <a class="el" href="../../d5/d48/api_8cpp_source.html">api.cpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a5a34e3cfb89a09b8a5c93a4e60c64a65"></a>void *</td>
+<td class="fieldname">
+Function</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="adbb4f080e80492bc7edd0fadcbf8ee14"></a>const char *</td>
+<td class="fieldname">
+Name</td>
+<td class="fielddoc">
+</td></tr>
+</table>
 
 </div>
 </div>
+<h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a0bbb8f069d49c96159e892702a397e4f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0bbb8f069d49c96159e892702a397e4f">&#9670;&nbsp;</a></span>dbg_api</h2>
 
@@ -252,7 +293,23 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d0/d64/syscall_8cpp.html#a5a4f4538b1fe13a821aabdd9236bf6b4">func</a>(Format, ##__VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d48/api_8cpp_source.html#l00031">31</a> of file <a class="el" href="../../d5/d48/api_8cpp_source.html">api.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ad1e5aa726fbca3a193c957c5b53d8a18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1e5aa726fbca3a193c957c5b53d8a18">&#9670;&nbsp;</a></span>DEBUG_API</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEBUG_API</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -261,35 +318,173 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="abe0d2eecc7cf3ca7fce022e6be487b81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe0d2eecc7cf3ca7fce022e6be487b81">&#9670;&nbsp;</a></span>VMWARE_MAGIC</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ab3e027c05288c01f051cfe405d952f98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3e027c05288c01f051cfe405d952f98">&#9670;&nbsp;</a></span>__KernelUndefinedFunction()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define VMWARE_MAGIC&#160;&#160;&#160;0x564D5868 /* hXMV */</td>
+          <td class="memname">long __KernelUndefinedFunction </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg4</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg5</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg6</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg7</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d48/api_8cpp_source.html#l00033">33</a> of file <a class="el" href="../../d5/d48/api_8cpp_source.html">api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d48/api_8cpp_source.html#l00892">892</a> of file <a class="el" href="../../d5/d48/api_8cpp_source.html">api.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;{</div>
+<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;%#lx, %#lx, %#lx, %#lx, %#lx, %#lx, %#lx, %#lx&quot;</span>,</div>
+<div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;          arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7);</div>
+<div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;    <a class="code" href="../../dc/da7/assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(!<span class="stringliteral">&quot;Undefined kernel driver API function called!&quot;</span>);</div>
+<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;    <a class="code" href="../../d7/dfa/namespaceCPU.html#a43d66aba1e2db1bbe0b9233304298f9e">CPU::Stop</a>();</div>
+<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;}</div>
+<div class="ttc" id="aassert_8h_html_af576bf8ffa22a44e53018c67095ffbf0"><div class="ttname"><a href="../../dc/da7/assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a></div><div class="ttdeci">#define assert(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da7/assert_8h_source.html#l00026">assert.h:26</a></div></div>
+<div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00094">debug.h:94</a></div></div>
+<div class="ttc" id="anamespaceCPU_html_a43d66aba1e2db1bbe0b9233304298f9e"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#a43d66aba1e2db1bbe0b9233304298f9e">CPU::Stop</a></div><div class="ttdeci">nsa __noreturn __used void Stop()</div><div class="ttdoc">Stop the CPU (infinite loop)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00157">cpu.hpp:157</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../dc/da7/assert_8h_source.html#l00026">assert</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, and <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00157">CPU::Stop()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d5/d48/api_8cpp_source.html#l00901">GetSymbolByName()</a>.</p>
 
 </div>
 </div>
-<a id="a00872e853a5ac96ce036c3ba31b2d97c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00872e853a5ac96ce036c3ba31b2d97c">&#9670;&nbsp;</a></span>VMWARE_PORT</h2>
+<a id="a31a653b52958cdda3ae5038f956fbd58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31a653b52958cdda3ae5038f956fbd58">&#9670;&nbsp;</a></span>GetSymbolByName()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define VMWARE_PORT&#160;&#160;&#160;0x5658</td>
+          <td class="memname">void* GetSymbolByName </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>Name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>Version</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d48/api_8cpp_source.html#l00034">34</a> of file <a class="el" href="../../d5/d48/api_8cpp_source.html">api.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d48/api_8cpp_source.html#l00901">901</a> of file <a class="el" href="../../d5/d48/api_8cpp_source.html">api.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;{</div>
+<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;    <span class="keywordflow">switch</span> (Version)</div>
+<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;    {</div>
+<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;    <span class="keywordflow">case</span> 0:</div>
+<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;    {</div>
+<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">auto</span> sym : <a class="code" href="../../d5/d48/api_8cpp.html#a654009e42dfb0daf0d3a28e1b2e61214">APISymbols_v0</a>)</div>
+<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;        {</div>
+<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d3/d82/convert_8h.html#a5206cb6f52495066146ae3a41d166eb7">strcmp</a>(<a class="code" href="../../df/d26/fs_8h.html#a760b4e07b204e4852e7fb55e25567623">Name</a>, sym.Name) != 0)</div>
+<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160; </div>
+<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Symbol %s found in API version %d&quot;</span>, <a class="code" href="../../df/d26/fs_8h.html#a760b4e07b204e4852e7fb55e25567623">Name</a>, Version);</div>
+<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;            <span class="keywordflow">return</span> sym.Function;</div>
+<div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;        }</div>
+<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;    }</div>
+<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;    <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160;        <a class="code" href="../../dc/da7/assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(!<span class="stringliteral">&quot;Invalid API version&quot;</span>);</div>
+<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;    }</div>
+<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160; </div>
+<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Symbol %s not found in API version %d&quot;</span>, <a class="code" href="../../df/d26/fs_8h.html#a760b4e07b204e4852e7fb55e25567623">Name</a>, Version);</div>
+<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;    <a class="code" href="../../dd/d24/kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a>(<span class="stringliteral">&quot;Driver API symbol \&quot;%s\&quot; not found!&quot;</span>, <a class="code" href="../../df/d26/fs_8h.html#a760b4e07b204e4852e7fb55e25567623">Name</a>);</div>
+<div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;    <span class="keywordflow">return</span> (<span class="keywordtype">void</span> *)<a class="code" href="../../d5/d48/api_8cpp.html#ab3e027c05288c01f051cfe405d952f98">__KernelUndefinedFunction</a>;</div>
+<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;}</div>
+<div class="ttc" id="aapi_8cpp_html_a654009e42dfb0daf0d3a28e1b2e61214"><div class="ttname"><a href="../../d5/d48/api_8cpp.html#a654009e42dfb0daf0d3a28e1b2e61214">APISymbols_v0</a></div><div class="ttdeci">static struct APISymbols APISymbols_v0[]</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d48/api_8cpp_source.html#l00001">api.cpp:832</a></div></div>
+<div class="ttc" id="aapi_8cpp_html_ab3e027c05288c01f051cfe405d952f98"><div class="ttname"><a href="../../d5/d48/api_8cpp.html#ab3e027c05288c01f051cfe405d952f98">__KernelUndefinedFunction</a></div><div class="ttdeci">long __KernelUndefinedFunction(long arg0, long arg1, long arg2, long arg3, long arg4, long arg5, long arg6, long arg7)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d48/api_8cpp_source.html#l00892">api.cpp:892</a></div></div>
+<div class="ttc" id="aconvert_8h_html_a5206cb6f52495066146ae3a41d166eb7"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a5206cb6f52495066146ae3a41d166eb7">strcmp</a></div><div class="ttdeci">int strcmp(const char *l, const char *r)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d68/convert_8cpp_source.html#l00136">convert.cpp:136</a></div></div>
+<div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00086">debug.h:86</a></div></div>
+<div class="ttc" id="afs_8h_html_a760b4e07b204e4852e7fb55e25567623"><div class="ttname"><a href="../../df/d26/fs_8h.html#a760b4e07b204e4852e7fb55e25567623">Name</a></div><div class="ttdeci">const char * Name</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d26/fs_8h_source.html#l00000">fs.h:0</a></div></div>
+<div class="ttc" id="akernel_8cpp_html_a856ca7c6595acc2941208b1241cd8f3e"><div class="ttname"><a href="../../dd/d24/kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a></div><div class="ttdeci">EXTERNC void KPrint(const char *Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d24/kernel_8cpp_source.html#l00101">kernel.cpp:101</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d5/d48/api_8cpp_source.html#l00892">__KernelUndefinedFunction()</a>, <a class="el" href="../../d5/d48/api_8cpp_source.html#l00832">APISymbols_v0</a>, <a class="el" href="../../dc/da7/assert_8h_source.html#l00026">assert</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00086">error</a>, <a class="el" href="../../dd/d24/kernel_8cpp_source.html#l00101">KPrint()</a>, <a class="el" href="../../df/d26/fs_8h_source.html#l00000">Name</a>, and <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00136">strcmp()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d5/d15/driver_8cpp_source.html#l00200">Driver::Manager::LoadDriverFile()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a654009e42dfb0daf0d3a28e1b2e61214"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a654009e42dfb0daf0d3a28e1b2e61214">&#9670;&nbsp;</a></span>APISymbols_v0</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="../../d5/d48/api_8cpp.html#d7/d60/structAPISymbols">APISymbols</a> APISymbols_v0[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d48/api_8cpp_source.html#l00001">1</a> of file <a class="el" href="../../d5/d48/api_8cpp_source.html">api.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d5/d48/api_8cpp_source.html#l00901">GetSymbolByName()</a>.</p>
 
 </div>
 </div>

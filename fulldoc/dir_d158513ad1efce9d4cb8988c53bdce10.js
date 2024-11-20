@@ -1,13 +1,12 @@
 var dir_d158513ad1efce9d4cb8988c53bdce10 =
 [
+    [ "stl", "dir_0b0856e8fcbcd1a2e925298e19d086e4.html", "dir_0b0856e8fcbcd1a2e925298e19d086e4" ],
     [ "cpuid.cpp", "dd/da7/cpuid_8cpp.html", null ],
-    [ "lsof.cpp", "d0/d4a/tests_2lsof_8cpp.html", null ],
     [ "macros.cpp", "de/d2c/macros_8cpp.html", null ],
     [ "mem_allocs.cpp", "d6/dc0/mem__allocs_8cpp.html", null ],
     [ "mem_ops.cpp", "d9/d23/mem__ops_8cpp.html", null ],
+    [ "ptr_t.cpp", "dc/d09/ptr__t_8cpp.html", null ],
     [ "rng.cpp", "d4/d2c/rng_8cpp.html", null ],
-    [ "std.cpp", "d5/d8c/std_8cpp.html", null ],
-    [ "std_string.cpp", "dc/d56/std__string_8cpp.html", null ],
     [ "stress.cpp", "d4/d58/stress_8cpp.html", null ],
     [ "t.h", "d0/dbb/t_8h.html", null ],
     [ "task_heartbeat.cpp", "d0/dd5/task__heartbeat_8cpp.html", null ],

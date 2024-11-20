@@ -109,7 +109,7 @@ Macros</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a8a14be3d29fad7939369948f81b32366"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d48/at__quick__exit_8c.html#a8a14be3d29fad7939369948f81b32366">__funcs_on_quick_exit</a> ()</td></tr>
 <tr class="separator:a8a14be3d29fad7939369948f81b32366"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb1bb1aba8db8ce38b4a2d796b50d260"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d48/at__quick__exit_8c.html#adb1bb1aba8db8ce38b4a2d796b50d260">at_quick_exit</a> (void(*<a class="el" href="../../de/dcc/awk_8c.html#a553299c54ca0f9dd61768a1f8a0e481a">func</a>)(void))</td></tr>
+<tr class="memitem:adb1bb1aba8db8ce38b4a2d796b50d260"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d48/at__quick__exit_8c.html#adb1bb1aba8db8ce38b4a2d796b50d260">at_quick_exit</a> (void(*func)(void))</td></tr>
 <tr class="separator:adb1bb1aba8db8ce38b4a2d796b50d260"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -118,9 +118,9 @@ Variables</h2></td></tr>
 <tr class="separator:aa0a9d197034f2f12337e6fdebc5e1944"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad43c3812e6d13e0518d9f8b8f463ffcf"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d48/at__quick__exit_8c.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a></td></tr>
 <tr class="separator:ad43c3812e6d13e0518d9f8b8f463ffcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a733c9ba5924e19957e8516b132ccd9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d1/dd5/localcharset_8c.html#af55a5e48555be7d32ad73e76cf5d4db0">volatile</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d48/at__quick__exit_8c.html#a6a733c9ba5924e19957e8516b132ccd9">lock</a> [1]</td></tr>
+<tr class="memitem:a6a733c9ba5924e19957e8516b132ccd9"><td class="memItemLeft" align="right" valign="top">static volatile int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d48/at__quick__exit_8c.html#a6a733c9ba5924e19957e8516b132ccd9">lock</a> [1]</td></tr>
 <tr class="separator:a6a733c9ba5924e19957e8516b132ccd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf8c11e835db1687c0771824f10ac239"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dd5/localcharset_8c.html#af55a5e48555be7d32ad73e76cf5d4db0">volatile</a> int *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d48/at__quick__exit_8c.html#acf8c11e835db1687c0771824f10ac239">__at_quick_exit_lockptr</a> = <a class="el" href="../../d2/d02/pthread__cond__timedwait_8c.html#af64d491e3109cc348f6b0fb2ace79779">lock</a></td></tr>
+<tr class="memitem:acf8c11e835db1687c0771824f10ac239"><td class="memItemLeft" align="right" valign="top">volatile int *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d48/at__quick__exit_8c.html#acf8c11e835db1687c0771824f10ac239">__at_quick_exit_lockptr</a> = <a class="el" href="../../d2/d02/pthread__cond__timedwait_8c.html#af64d491e3109cc348f6b0fb2ace79779">lock</a></td></tr>
 <tr class="separator:acf8c11e835db1687c0771824f10ac239"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -159,20 +159,18 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/d48/at__quick__exit_8c_source.html#l00013">13</a> of file <a class="el" href="../../d8/d48/at__quick__exit_8c_source.html">at_quick_exit.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    void (*<a class="code" href="../../de/dcc/awk_8c.html#dd/d55/structfunc__s">func</a>)(void);</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    void (*func)(void);</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="../../dd/d42/lock_8h.html#a2f41aca864bb48d137ed64b2dca9f50a">LOCK</a>(<a class="code" href="../../d8/d48/at__quick__exit_8c.html#a6a733c9ba5924e19957e8516b132ccd9">lock</a>);</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d8/d48/at__quick__exit_8c.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a> &gt; 0) {</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="../../de/dcc/awk_8c.html#dd/d55/structfunc__s">func</a> = <a class="code" href="../../d8/d48/at__quick__exit_8c.html#aa0a9d197034f2f12337e6fdebc5e1944">funcs</a>[--<a class="code" href="../../d8/d48/at__quick__exit_8c.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>];</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        func = <a class="code" href="../../d8/d48/at__quick__exit_8c.html#aa0a9d197034f2f12337e6fdebc5e1944">funcs</a>[--<a class="code" href="../../d8/d48/at__quick__exit_8c.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>];</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <a class="code" href="../../dd/d42/lock_8h.html#aec45270f410dc5d02a7fedeee1545cbc">UNLOCK</a>(<a class="code" href="../../d8/d48/at__quick__exit_8c.html#a6a733c9ba5924e19957e8516b132ccd9">lock</a>);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="../../de/dcc/awk_8c.html#a553299c54ca0f9dd61768a1f8a0e481a">func</a>();</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        func();</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <a class="code" href="../../dd/d42/lock_8h.html#a2f41aca864bb48d137ed64b2dca9f50a">LOCK</a>(<a class="code" href="../../d8/d48/at__quick__exit_8c.html#a6a733c9ba5924e19957e8516b132ccd9">lock</a>);</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
 <div class="ttc" id="aat__quick__exit_8c_html_a6a733c9ba5924e19957e8516b132ccd9"><div class="ttname"><a href="../../d8/d48/at__quick__exit_8c.html#a6a733c9ba5924e19957e8516b132ccd9">lock</a></div><div class="ttdeci">static volatile int lock[1]</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d48/at__quick__exit_8c_source.html#l00010">at_quick_exit.c:10</a></div></div>
 <div class="ttc" id="aat__quick__exit_8c_html_aa0a9d197034f2f12337e6fdebc5e1944"><div class="ttname"><a href="../../d8/d48/at__quick__exit_8c.html#aa0a9d197034f2f12337e6fdebc5e1944">funcs</a></div><div class="ttdeci">static void(* funcs[COUNT])(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d48/at__quick__exit_8c_source.html#l00008">at_quick_exit.c:8</a></div></div>
 <div class="ttc" id="aat__quick__exit_8c_html_ad43c3812e6d13e0518d9f8b8f463ffcf"><div class="ttname"><a href="../../d8/d48/at__quick__exit_8c.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a></div><div class="ttdeci">static int count</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d48/at__quick__exit_8c_source.html#l00009">at_quick_exit.c:9</a></div></div>
-<div class="ttc" id="aawk_8c_html_a553299c54ca0f9dd61768a1f8a0e481a"><div class="ttname"><a href="../../de/dcc/awk_8c.html#a553299c54ca0f9dd61768a1f8a0e481a">func</a></div><div class="ttdeci">struct func_s func</div></div>
-<div class="ttc" id="aawk_8c_html_dd/d55/structfunc__s"><div class="ttname"><a href="../../de/dcc/awk_8c.html#dd/d55/structfunc__s">func_s</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcc/awk_8c_source.html#l00140">awk.c:140</a></div></div>
 <div class="ttc" id="alock_8h_html_a2f41aca864bb48d137ed64b2dca9f50a"><div class="ttname"><a href="../../dd/d42/lock_8h.html#a2f41aca864bb48d137ed64b2dca9f50a">LOCK</a></div><div class="ttdeci">#define LOCK(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d42/lock_8h_source.html#l00006">lock.h:6</a></div></div>
 <div class="ttc" id="alock_8h_html_aec45270f410dc5d02a7fedeee1545cbc"><div class="ttname"><a href="../../dd/d42/lock_8h.html#aec45270f410dc5d02a7fedeee1545cbc">UNLOCK</a></div><div class="ttdeci">#define UNLOCK(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d42/lock_8h_source.html#l00007">lock.h:7</a></div></div>
 </div><!-- fragment -->
@@ -203,7 +201,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">int</span> r = 0;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="../../dd/d42/lock_8h.html#a2f41aca864bb48d137ed64b2dca9f50a">LOCK</a>(<a class="code" href="../../d8/d48/at__quick__exit_8c.html#a6a733c9ba5924e19957e8516b132ccd9">lock</a>);</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d8/d48/at__quick__exit_8c.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a> == 32) r = -1;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">else</span> <a class="code" href="../../d8/d48/at__quick__exit_8c.html#aa0a9d197034f2f12337e6fdebc5e1944">funcs</a>[<a class="code" href="../../d8/d48/at__quick__exit_8c.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>++] = <a class="code" href="../../de/dcc/awk_8c.html#a553299c54ca0f9dd61768a1f8a0e481a">func</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">else</span> <a class="code" href="../../d8/d48/at__quick__exit_8c.html#aa0a9d197034f2f12337e6fdebc5e1944">funcs</a>[<a class="code" href="../../d8/d48/at__quick__exit_8c.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>++] = func;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="../../dd/d42/lock_8h.html#aec45270f410dc5d02a7fedeee1545cbc">UNLOCK</a>(<a class="code" href="../../d8/d48/at__quick__exit_8c.html#a6a733c9ba5924e19957e8516b132ccd9">lock</a>);</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">return</span> r;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
@@ -220,7 +218,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/dd5/localcharset_8c.html#af55a5e48555be7d32ad73e76cf5d4db0">volatile</a> int* const __at_quick_exit_lockptr = <a class="el" href="../../d2/d02/pthread__cond__timedwait_8c.html#af64d491e3109cc348f6b0fb2ace79779">lock</a></td>
+          <td class="memname">volatile int* const __at_quick_exit_lockptr = <a class="el" href="../../d2/d02/pthread__cond__timedwait_8c.html#af64d491e3109cc348f6b0fb2ace79779">lock</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -251,7 +249,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/d48/at__quick__exit_8c_source.html#l00009">9</a> of file <a class="el" href="../../d8/d48/at__quick__exit_8c_source.html">at_quick_exit.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d48/at__quick__exit_8c_source.html#l00013">__funcs_on_quick_exit()</a>, and <a class="el" href="../../d8/d48/at__quick__exit_8c_source.html#l00025">at_quick_exit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d6f/crypt__des_8c_source.html#l00754">__do_des()</a>, <a class="el" href="../../d8/d48/at__quick__exit_8c_source.html#l00013">__funcs_on_quick_exit()</a>, <a class="el" href="../../d5/d9c/synccall_8c_source.html#l00044">__synccall()</a>, <a class="el" href="../../db/d6f/crypt__des_8c_source.html#l00875">_crypt_extended_r_uut()</a>, <a class="el" href="../../d6/dae/p__enemy_8c_source.html#l01447">A_PainShootSkull()</a>, <a class="el" href="../../d8/d48/at__quick__exit_8c_source.html#l00025">at_quick_exit()</a>, <a class="el" href="../../d2/d21/crypt__blowfish_8c_source.html#l00605">BF_crypt()</a>, <a class="el" href="../../d2/d21/crypt__blowfish_8c_source.html#l00430">BF_swap()</a>, <a class="el" href="../../db/d6f/crypt__des_8c_source.html#l00847">des_cipher()</a>, <a class="el" href="../../d7/d32/eventfd_8c_source.html#l00006">eventfd()</a>, <a class="el" href="../../d5/dd0/f__finale_8c_source.html#l00573">F_DrawPatchCol()</a>, <a class="el" href="../../d5/dd0/f__finale_8c_source.html#l00227">F_TextWrite()</a>, <a class="el" href="../../d1/d66/getgroups_8c_source.html#l00004">getgroups()</a>, <a class="el" href="../../dd/d00/initgroups_8c_source.html#l00005">initgroups()</a>, <a class="el" href="../../d0/daa/m__misc_8c_source.html#l00136">M_ReadFile()</a>, <a class="el" href="../../d0/daa/m__misc_8c_source.html#l00112">M_WriteFile()</a>, <a class="el" href="../../df/dd2/ns__parse_8c_source.html#l00080">ns_skiprr()</a>, <a class="el" href="../../d0/d0b/p__pspr_8c_source.html#l00152">P_CheckAmmo()</a>, <a class="el" href="../../d9/d61/p__sight_8c_source.html#l00128">P_CrossSubsector()</a>, <a class="el" href="../../d6/d60/p__setup_8c_source.html#l00504">P_LoadBlockMap()</a>, <a class="el" href="../../d4/d64/p__maputl_8c_source.html#l00862">P_PathTraverse()</a>, <a class="el" href="../../d4/d64/p__maputl_8c_source.html#l00683">P_TraverseIntercepts()</a>, <a class="el" href="../../dd/df8/preadv_8c_source.html#l00006">preadv()</a>, <a class="el" href="../../d1/dae/libc_2src_2print_2printf_8c_source.html#l00744">print_broken_up_decimal()</a>, <a class="el" href="../../de/d86/pthread__barrier__init_8c_source.html#l00003">pthread_barrier_init()</a>, <a class="el" href="../../d2/df7/pwritev_8c_source.html#l00006">pwritev()</a>, <a class="el" href="../../de/d19/r__draw_8c_source.html#l00102">R_DrawColumn()</a>, <a class="el" href="../../d1/dd2/r__data_8c_source.html#l00187">R_DrawColumnInCache()</a>, <a class="el" href="../../de/d19/r__draw_8c_source.html#l00208">R_DrawColumnLow()</a>, <a class="el" href="../../de/d19/r__draw_8c_source.html#l00283">R_DrawFuzzColumn()</a>, <a class="el" href="../../de/d19/r__draw_8c_source.html#l00342">R_DrawFuzzColumnLow()</a>, <a class="el" href="../../de/d19/r__draw_8c_source.html#l00590">R_DrawSpan()</a>, <a class="el" href="../../de/d19/r__draw_8c_source.html#l00719">R_DrawSpanLow()</a>, <a class="el" href="../../de/d19/r__draw_8c_source.html#l00424">R_DrawTranslatedColumn()</a>, <a class="el" href="../../de/d19/r__draw_8c_source.html#l00468">R_DrawTranslatedColumnLow()</a>, <a class="el" href="../../db/d4e/r__things_8c_source.html#l00779">R_SortVisSprites()</a>, <a class="el" href="../../d3/d14/r__bsp_8c_source.html#l00490">R_Subsector()</a>, <a class="el" href="../../de/d19/r__draw_8c_source.html#l00920">R_VideoErase()</a>, <a class="el" href="../../d2/d16/read_8c_source.html#l00004">read()</a>, <a class="el" href="../../d7/d00/readv_8c_source.html#l00004">readv()</a>, <a class="el" href="../../de/df4/sendfile_8c_source.html#l00004">sendfile()</a>, <a class="el" href="../../dc/ddf/setgroups_8c_source.html#l00029">setgroups()</a>, <a class="el" href="../../d1/db0/string_8c_source.html#l00047">strncasecmp()</a>, <a class="el" href="../../de/d0c/v__video_8c_source.html#l00378">V_DrawAltTLPatch()</a>, <a class="el" href="../../de/d0c/v__video_8c_source.html#l00139">V_DrawPatch()</a>, <a class="el" href="../../de/d0c/v__video_8c_source.html#l00203">V_DrawPatchFlipped()</a>, <a class="el" href="../../de/d0c/v__video_8c_source.html#l00428">V_DrawShadowedPatch()</a>, <a class="el" href="../../de/d0c/v__video_8c_source.html#l00279">V_DrawTLPatch()</a>, <a class="el" href="../../de/d0c/v__video_8c_source.html#l00329">V_DrawXlaPatch()</a>, <a class="el" href="../../d1/d9b/write_8c_source.html#l00004">write()</a>, and <a class="el" href="../../d7/dac/writev_8c_source.html#l00004">writev()</a>.</p>
 
 </div>
 </div>
@@ -281,7 +279,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/d48/at__quick__exit_8c_source.html#l00008">8</a> of file <a class="el" href="../../d8/d48/at__quick__exit_8c_source.html">at_quick_exit.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d48/at__quick__exit_8c_source.html#l00013">__funcs_on_quick_exit()</a>, <a class="el" href="../../d8/d48/at__quick__exit_8c_source.html#l00025">at_quick_exit()</a>, and <a class="el" href="../../d2/d02/i2c__tools_8c_source.html#l00336">get_funcs_matrix()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d48/at__quick__exit_8c_source.html#l00013">__funcs_on_quick_exit()</a>, and <a class="el" href="../../d8/d48/at__quick__exit_8c_source.html#l00025">at_quick_exit()</a>.</p>
 
 </div>
 </div>
@@ -295,7 +293,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/dd5/localcharset_8c.html#af55a5e48555be7d32ad73e76cf5d4db0">volatile</a> int lock[1]</td>
+          <td class="memname">volatile int lock[1]</td>
         </tr>
       </table>
   </td>

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['zerodevice_11294',['ZeroDevice',['../df/d89/classvfs_1_1ZeroDevice.html#a730cbae9b1c39a08772f301ed3b19b88',1,'vfs::ZeroDevice']]]
+  ['zdlpvm_12247',['ZdlPvm',['../d4/d7f/namespacev0.html#af1de5793a90b8a567a8d81415e623ce1',1,'v0']]],
+  ['znwm_12248',['Znwm',['../d4/d7f/namespacev0.html#af1ec6f76b3e230c7b205dc39d5dcee3f',1,'v0']]]
 ];

@@ -1,18 +1,17 @@
 var searchData=
 [
-  ['gcov_5fctr_5finfo_9355',['gcov_ctr_info',['../d9/d44/structgcov__ctr__info.html',1,'']]],
-  ['gcov_5ffn_5finfo_9356',['gcov_fn_info',['../dd/d2a/gcov_8cpp.html#dd/d8a/structgcov__fn__info',1,'']]],
-  ['gcov_5finfo_9357',['gcov_info',['../dd/d2a/gcov_8cpp.html#df/d04/structgcov__info',1,'']]],
-  ['genericaddressstructure_9358',['GenericAddressStructure',['../d3/d21/classACPI_1_1ACPI.html#db/df1/structACPI_1_1ACPI_1_1GenericAddressStructure',1,'ACPI::ACPI']]],
-  ['global_5fcache_5ft_9359',['global_cache_t',['../df/dc0/rpmalloc_8c.html#db/d6b/structglobal__cache__t',1,'']]],
-  ['globaldescriptortableaccess_9360',['GlobalDescriptorTableAccess',['../d1/d69/namespaceGlobalDescriptorTable.html#d8/d80/unionGlobalDescriptorTable_1_1GlobalDescriptorTableEntry_1_1GlobalDescriptorTableAccess',1,'GlobalDescriptorTable::GlobalDescriptorTableEntry::GlobalDescriptorTableAccess'],['../d1/d69/namespaceGlobalDescriptorTable.html#d3/d67/unionGlobalDescriptorTable_1_1TaskStateSegmentEntry_1_1GlobalDescriptorTableAccess',1,'GlobalDescriptorTable::TaskStateSegmentEntry::GlobalDescriptorTableAccess']]],
-  ['globaldescriptortableaccess_2e_5f_5fpacked_9361',['GlobalDescriptorTableAccess.__packed',['../d1/d69/namespaceGlobalDescriptorTable.html#d0/dbe/structGlobalDescriptorTable_1_1GlobalDescriptorTableEntry_1_1GlobalDescriptorTableAccess_8____packed',1,'GlobalDescriptorTable::GlobalDescriptorTableEntry::GlobalDescriptorTableAccess.__packed'],['../d1/d69/namespaceGlobalDescriptorTable.html#dc/d45/structGlobalDescriptorTable_1_1TaskStateSegmentEntry_1_1GlobalDescriptorTableAccess_8____packed',1,'GlobalDescriptorTable::TaskStateSegmentEntry::GlobalDescriptorTableAccess.__packed']]],
-  ['globaldescriptortabledescriptor_9362',['GlobalDescriptorTableDescriptor',['../d1/d69/namespaceGlobalDescriptorTable.html#db/d81/structGlobalDescriptorTable_1_1GlobalDescriptorTableDescriptor',1,'GlobalDescriptorTable']]],
-  ['globaldescriptortableentries_9363',['GlobalDescriptorTableEntries',['../d1/d69/namespaceGlobalDescriptorTable.html#db/db2/structGlobalDescriptorTable_1_1GlobalDescriptorTableEntries',1,'GlobalDescriptorTable']]],
-  ['globaldescriptortableentry_9364',['GlobalDescriptorTableEntry',['../d1/d69/namespaceGlobalDescriptorTable.html#d9/d63/structGlobalDescriptorTable_1_1GlobalDescriptorTableEntry',1,'GlobalDescriptorTable']]],
-  ['globaldescriptortableflags_9365',['GlobalDescriptorTableFlags',['../d1/d69/namespaceGlobalDescriptorTable.html#db/db2/unionGlobalDescriptorTable_1_1GlobalDescriptorTableEntry_1_1GlobalDescriptorTableFlags',1,'GlobalDescriptorTable::GlobalDescriptorTableEntry']]],
-  ['globaldescriptortableflags_2e_5f_5fpacked_9366',['GlobalDescriptorTableFlags.__packed',['../d1/d69/namespaceGlobalDescriptorTable.html#d6/d8d/structGlobalDescriptorTable_1_1GlobalDescriptorTableEntry_1_1GlobalDescriptorTableFlags_8____packed',1,'GlobalDescriptorTable::GlobalDescriptorTableEntry']]],
-  ['gstcb_9367',['gsTCB',['../d9/d3e/namespaceTasking.html#d5/d12/structTasking_1_1gsTCB',1,'Tasking']]],
-  ['guidpartitiontable_9368',['GUIDPartitionTable',['../d1/d29/namespaceDisk.html#df/dcb/structDisk_1_1GUIDPartitionTable',1,'Disk']]],
-  ['guidpartitiontableentry_9369',['GUIDPartitionTableEntry',['../d1/d29/namespaceDisk.html#d6/d5a/structDisk_1_1GUIDPartitionTableEntry',1,'Disk']]]
+  ['f_5fowner_5fex_10093',['f_owner_ex',['../da/d63/defs_8hpp.html#d2/dd7/structf__owner__ex',1,'']]],
+  ['fadtheader_10094',['FADTHeader',['../d3/d21/classACPI_1_1ACPI.html#df/d0c/structACPI_1_1ACPI_1_1FADTHeader',1,'ACPI::ACPI']]],
+  ['fildes_10095',['Fildes',['../dc/da8/structvfs_1_1FileDescriptorTable_1_1Fildes.html',1,'vfs::FileDescriptorTable']]],
+  ['file_10096',['FILE',['../d6/dd1/stdio_8h.html#de/dc3/structFILE',1,'']]],
+  ['filedescriptortable_10097',['FileDescriptorTable',['../da/d88/classvfs_1_1FileDescriptorTable.html',1,'vfs']]],
+  ['fileheader_10098',['FileHeader',['../d7/d0a/classvfs_1_1USTAR.html#d4/db5/structvfs_1_1USTAR_1_1FileHeader',1,'vfs::USTAR']]],
+  ['filenode_10099',['FileNode',['../d8/dea/classFileNode.html',1,'']]],
+  ['filesysteminfo_10100',['FileSystemInfo',['../df/d26/fs_8h.html#de/d99/structFileSystemInfo',1,'']]],
+  ['font_10101',['Font',['../d3/d41/classVideo_1_1Font.html',1,'Video']]],
+  ['fontinfo_10102',['FontInfo',['../d6/de2/namespaceVideo.html#d5/d8f/structVideo_1_1FontInfo',1,'Video']]],
+  ['fontrenderer_10103',['FontRenderer',['../df/d3d/classKernelConsole_1_1FontRenderer.html',1,'KernelConsole']]],
+  ['framebufferinfo_10104',['FramebufferInfo',['../db/d96/structBootInfo.html#dc/d85/structBootInfo_1_1FramebufferInfo',1,'BootInfo']]],
+  ['fsmountinfo_10105',['FSMountInfo',['../d8/d64/classvfs_1_1Virtual.html#d7/d9a/structvfs_1_1Virtual_1_1FSMountInfo',1,'vfs::Virtual']]],
+  ['fxstate_10106',['FXState',['../de/d78/namespaceCPU_1_1x32.html#d4/d34/structCPU_1_1x32_1_1FXState',1,'CPU::x32::FXState'],['../d9/d25/namespaceCPU_1_1x64.html#df/d25/structCPU_1_1x64_1_1FXState',1,'CPU::x64::FXState']]]
 ];

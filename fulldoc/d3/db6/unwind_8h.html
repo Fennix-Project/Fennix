@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix: Kernel/include_std/unwind.h File Reference</title>
+<title>Fennix: Kernel/include/kexcept/unwind.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -87,6 +87,7 @@ $(document).ready(function(){initNavTree('d3/db6/unwind_8h.html','../../'); init
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
@@ -103,20 +104,35 @@ $(document).ready(function(){initNavTree('d3/db6/unwind_8h.html','../../'); init
 Data Structures</h2></td></tr>
 <tr class="memitem:de/dc3/struct__Unwind__Exception"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a></td></tr>
 <tr class="separator:de/dc3/struct__Unwind__Exception"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d2/d0a/struct__Unwind__Context"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db6/unwind_8h.html#d2/d0a/struct__Unwind__Context">_Unwind_Context</a></td></tr>
+<tr class="separator:d2/d0a/struct__Unwind__Context"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d1/d17/struct__Unwind__FrameState"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db6/unwind_8h.html#d1/d17/struct__Unwind__FrameState">_Unwind_FrameState</a></td></tr>
 <tr class="separator:d1/d17/struct__Unwind__FrameState"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a1c8c5033d411d165a2aa4cce25800e18"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db6/unwind_8h.html#a1c8c5033d411d165a2aa4cce25800e18">_UA_SEARCH_PHASE</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:a1c8c5033d411d165a2aa4cce25800e18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa243069e54d5a04a956e0eea738b00a2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db6/unwind_8h.html#aa243069e54d5a04a956e0eea738b00a2">_UA_CLEANUP_PHASE</a>&#160;&#160;&#160;2</td></tr>
+<tr class="separator:aa243069e54d5a04a956e0eea738b00a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc1ab685451d84ec89f20825718a8a17"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db6/unwind_8h.html#adc1ab685451d84ec89f20825718a8a17">_UA_HANDLER_FRAME</a>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:adc1ab685451d84ec89f20825718a8a17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe17fc08c7e4f6110aacd4dc3c3d4779"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db6/unwind_8h.html#abe17fc08c7e4f6110aacd4dc3c3d4779">_UA_FORCE_UNWIND</a>&#160;&#160;&#160;8</td></tr>
+<tr class="separator:abe17fc08c7e4f6110aacd4dc3c3d4779"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ab70d00aad55702fa031e0b0f622c22"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db6/unwind_8h.html#a4ab70d00aad55702fa031e0b0f622c22">_UA_END_OF_STACK</a>&#160;&#160;&#160;16</td></tr>
+<tr class="separator:a4ab70d00aad55702fa031e0b0f622c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:a91f55b5e5d7baa71ed91507334f205a9"><td class="memItemLeft" align="right" valign="top">typedef void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db6/unwind_8h.html#a91f55b5e5d7baa71ed91507334f205a9">_Unwind_Context_Reg_Val</a></td></tr>
 <tr class="separator:a91f55b5e5d7baa71ed91507334f205a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7f6009f03d735378a802d62de45785f"><td class="memItemLeft" align="right" valign="top">typedef unsigned _Unwind_Exception_Class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db6/unwind_8h.html#ae7f6009f03d735378a802d62de45785f">__attribute__</a>((__mode__(__DI__)))</td></tr>
-<tr class="separator:ae7f6009f03d735378a802d62de45785f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae43f9bc187e3b4e790fced9893f65cc8"><td class="memItemLeft" align="right" valign="top">typedef unsigned _Unwind_Exception_Class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db6/unwind_8h.html#ae43f9bc187e3b4e790fced9893f65cc8">__attribute__</a>((__mode__(__DI__)))</td></tr>
+<tr class="separator:ae43f9bc187e3b4e790fced9893f65cc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09fdc8f727b214f5168e3690b0ddfa21"><td class="memItemLeft" align="right" valign="top">typedef int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db6/unwind_8h.html#a09fdc8f727b214f5168e3690b0ddfa21">_Unwind_Action</a></td></tr>
 <tr class="separator:a09fdc8f727b214f5168e3690b0ddfa21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa315b38b270688a4d979ec71a9f33586"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db6/unwind_8h.html#aa315b38b270688a4d979ec71a9f33586">_Unwind_Exception_Cleanup_Fn</a>) (<a class="el" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2">_Unwind_Reason_Code</a>, struct <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *)</td></tr>
 <tr class="separator:aa315b38b270688a4d979ec71a9f33586"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af993119cf60777f0bbf2b0909ca4f1cb"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2">_Unwind_Reason_Code</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db6/unwind_8h.html#af993119cf60777f0bbf2b0909ca4f1cb">_Unwind_Personality_Fn</a>) (int, <a class="el" href="../../d3/db6/unwind_8h.html#a09fdc8f727b214f5168e3690b0ddfa21">_Unwind_Action</a>, _Unwind_Exception_Class, struct <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *, struct _Unwind_Context *)</td></tr>
+<tr class="memitem:af993119cf60777f0bbf2b0909ca4f1cb"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2">_Unwind_Reason_Code</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db6/unwind_8h.html#af993119cf60777f0bbf2b0909ca4f1cb">_Unwind_Personality_Fn</a>) (int, <a class="el" href="../../d3/db6/unwind_8h.html#a09fdc8f727b214f5168e3690b0ddfa21">_Unwind_Action</a>, _Unwind_Exception_Class, struct <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *, struct <a class="el" href="../../d3/db6/unwind_8h.html#d2/d0a/struct__Unwind__Context">_Unwind_Context</a> *)</td></tr>
 <tr class="separator:af993119cf60777f0bbf2b0909ca4f1cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -147,23 +163,11 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a26f33dc6f6d23dc64517389b6b786ac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa996b292d6da499402c5768df770dfeb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db6/unwind_8h.html#aa996b292d6da499402c5768df770dfeb">_UA</a> : _Unwind_Action { <br />
-&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#aa996b292d6da499402c5768df770dfebab215256d5e0b0c14cb9f77efcaabfb77">_UA_SEARCH_PHASE</a> = 1
-, <a class="el" href="../../d3/db6/unwind_8h.html#aa996b292d6da499402c5768df770dfeba913b68d5f7ad8dab03b0a3e413ff9edd">_UA_CLEANUP_PHASE</a> = 2
-, <a class="el" href="../../d3/db6/unwind_8h.html#aa996b292d6da499402c5768df770dfeba4de8dddd0b481accc0b97b221241d0e7">_UA_HANDLER_FRAME</a> = 4
-, <a class="el" href="../../d3/db6/unwind_8h.html#aa996b292d6da499402c5768df770dfeba3bd812946ec378ce175951bdc4860ed3">_UA_FORCE_UNWIND</a> = 8
-, <br />
-&#160;&#160;<a class="el" href="../../d3/db6/unwind_8h.html#aa996b292d6da499402c5768df770dfeba0253ffe73d9ff0a27d0808ca39e8d11b">_UA_END_OF_STACK</a> = 16
-<br />
- }</td></tr>
-<tr class="separator:aa996b292d6da499402c5768df770dfeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ac8c21f335bc7c2f0bc6a9ddaee6b9431"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db6/unwind_8h.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431">__attribute__</a> ((__aligned__))</td></tr>
 <tr class="separator:ac8c21f335bc7c2f0bc6a9ddaee6b9431"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa996b088116062dfbdaf699225fb42d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> <a class="el" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2">_Unwind_Reason_Code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/db6/unwind_8h.html#aa996b088116062dfbdaf699225fb42d3">_Unwind_RaiseException</a> (<a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *Exception)</td></tr>
-<tr class="separator:aa996b088116062dfbdaf699225fb42d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -189,7 +193,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d3/db6/unwind_8h_source.html#l00061">61</a> of file <a class="el" href="../../d3/db6/unwind_8h_source.html">unwind.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/db6/unwind_8h_source.html#l00056">56</a> of file <a class="el" href="../../d3/db6/unwind_8h_source.html">unwind.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -220,6 +224,31 @@ private_2</td>
 
 </div>
 </div>
+<a name="d2/d0a/struct__Unwind__Context" id="d2/d0a/struct__Unwind__Context"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d2/d0a/struct__Unwind__Context">&#9670;&nbsp;</a></span>_Unwind_Context</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct _Unwind_Context</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d3/db6/unwind_8h_source.html#l00064">64</a> of file <a class="el" href="../../d3/db6/unwind_8h_source.html">unwind.h</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a1f81a99668831dae5612e060b508f63d"></a>int</td>
+<td class="fieldname">
+__stub</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
 <a name="d1/d17/struct__Unwind__FrameState" id="d1/d17/struct__Unwind__FrameState"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#d1/d17/struct__Unwind__FrameState">&#9670;&nbsp;</a></span>_Unwind_FrameState</h2>
 
@@ -232,7 +261,7 @@ private_2</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d3/db6/unwind_8h_source.html#l00071">71</a> of file <a class="el" href="../../d3/db6/unwind_8h_source.html">unwind.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/db6/unwind_8h_source.html#l00069">69</a> of file <a class="el" href="../../d3/db6/unwind_8h_source.html">unwind.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -245,15 +274,96 @@ personality</td>
 
 </div>
 </div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="ae7f6009f03d735378a802d62de45785f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7f6009f03d735378a802d62de45785f">&#9670;&nbsp;</a></span>__attribute__</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="aa243069e54d5a04a956e0eea738b00a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa243069e54d5a04a956e0eea738b00a2">&#9670;&nbsp;</a></span>_UA_CLEANUP_PHASE</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a></td>
+          <td class="memname">#define _UA_CLEANUP_PHASE&#160;&#160;&#160;2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/db6/unwind_8h_source.html#l00044">44</a> of file <a class="el" href="../../d3/db6/unwind_8h_source.html">unwind.h</a>.</p>
+
+</div>
+</div>
+<a id="a4ab70d00aad55702fa031e0b0f622c22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ab70d00aad55702fa031e0b0f622c22">&#9670;&nbsp;</a></span>_UA_END_OF_STACK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define _UA_END_OF_STACK&#160;&#160;&#160;16</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/db6/unwind_8h_source.html#l00047">47</a> of file <a class="el" href="../../d3/db6/unwind_8h_source.html">unwind.h</a>.</p>
+
+</div>
+</div>
+<a id="abe17fc08c7e4f6110aacd4dc3c3d4779"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe17fc08c7e4f6110aacd4dc3c3d4779">&#9670;&nbsp;</a></span>_UA_FORCE_UNWIND</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define _UA_FORCE_UNWIND&#160;&#160;&#160;8</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/db6/unwind_8h_source.html#l00046">46</a> of file <a class="el" href="../../d3/db6/unwind_8h_source.html">unwind.h</a>.</p>
+
+</div>
+</div>
+<a id="adc1ab685451d84ec89f20825718a8a17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc1ab685451d84ec89f20825718a8a17">&#9670;&nbsp;</a></span>_UA_HANDLER_FRAME</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define _UA_HANDLER_FRAME&#160;&#160;&#160;4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/db6/unwind_8h_source.html#l00045">45</a> of file <a class="el" href="../../d3/db6/unwind_8h_source.html">unwind.h</a>.</p>
+
+</div>
+</div>
+<a id="a1c8c5033d411d165a2aa4cce25800e18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c8c5033d411d165a2aa4cce25800e18">&#9670;&nbsp;</a></span>_UA_SEARCH_PHASE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define _UA_SEARCH_PHASE&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/db6/unwind_8h_source.html#l00043">43</a> of file <a class="el" href="../../d3/db6/unwind_8h_source.html">unwind.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="ae43f9bc187e3b4e790fced9893f65cc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae43f9bc187e3b4e790fced9893f65cc8">&#9670;&nbsp;</a></span>__attribute__</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="../../d3/da6/Drivers_2include_2fs_8h.html#de/d99/structFileSystemInfo">FileSystemInfo</a> <a class="el" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -306,7 +416,7 @@ personality</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/db6/unwind_8h_source.html#l00052">52</a> of file <a class="el" href="../../d3/db6/unwind_8h_source.html">unwind.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/db6/unwind_8h_source.html#l00049">49</a> of file <a class="el" href="../../d3/db6/unwind_8h_source.html">unwind.h</a>.</p>
 
 </div>
 </div>
@@ -317,51 +427,16 @@ personality</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2">_Unwind_Reason_Code</a>(* _Unwind_Personality_Fn) (int, <a class="el" href="../../d3/db6/unwind_8h.html#a09fdc8f727b214f5168e3690b0ddfa21">_Unwind_Action</a>, _Unwind_Exception_Class, struct <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *, struct _Unwind_Context *)</td>
+          <td class="memname">typedef <a class="el" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2">_Unwind_Reason_Code</a>(* _Unwind_Personality_Fn) (int, <a class="el" href="../../d3/db6/unwind_8h.html#a09fdc8f727b214f5168e3690b0ddfa21">_Unwind_Action</a>, _Unwind_Exception_Class, struct <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *, struct <a class="el" href="../../d3/db6/unwind_8h.html#d2/d0a/struct__Unwind__Context">_Unwind_Context</a> *)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/db6/unwind_8h_source.html#l00055">55</a> of file <a class="el" href="../../d3/db6/unwind_8h_source.html">unwind.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/db6/unwind_8h_source.html#l00051">51</a> of file <a class="el" href="../../d3/db6/unwind_8h_source.html">unwind.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="aa996b292d6da499402c5768df770dfeb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa996b292d6da499402c5768df770dfeb">&#9670;&nbsp;</a></span>_UA</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d3/db6/unwind_8h.html#aa996b292d6da499402c5768df770dfeb">_UA</a> : <a class="el" href="../../d3/db6/unwind_8h.html#a09fdc8f727b214f5168e3690b0ddfa21">_Unwind_Action</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa996b292d6da499402c5768df770dfebab215256d5e0b0c14cb9f77efcaabfb77"></a>_UA_SEARCH_PHASE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa996b292d6da499402c5768df770dfeba913b68d5f7ad8dab03b0a3e413ff9edd"></a>_UA_CLEANUP_PHASE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa996b292d6da499402c5768df770dfeba4de8dddd0b481accc0b97b221241d0e7"></a>_UA_HANDLER_FRAME&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa996b292d6da499402c5768df770dfeba3bd812946ec378ce175951bdc4860ed3"></a>_UA_FORCE_UNWIND&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aa996b292d6da499402c5768df770dfeba0253ffe73d9ff0a27d0808ca39e8d11b"></a>_UA_END_OF_STACK&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-<p class="definition">Definition at line <a class="el" href="../../d3/db6/unwind_8h_source.html#l00043">43</a> of file <a class="el" href="../../d3/db6/unwind_8h_source.html">unwind.h</a>.</p>
-<div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;{</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="../../d3/db6/unwind_8h.html#aa996b292d6da499402c5768df770dfebab215256d5e0b0c14cb9f77efcaabfb77">_UA_SEARCH_PHASE</a> = 1,</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="../../d3/db6/unwind_8h.html#aa996b292d6da499402c5768df770dfeba913b68d5f7ad8dab03b0a3e413ff9edd">_UA_CLEANUP_PHASE</a> = 2,</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="code" href="../../d3/db6/unwind_8h.html#aa996b292d6da499402c5768df770dfeba4de8dddd0b481accc0b97b221241d0e7">_UA_HANDLER_FRAME</a> = 4,</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="../../d3/db6/unwind_8h.html#aa996b292d6da499402c5768df770dfeba3bd812946ec378ce175951bdc4860ed3">_UA_FORCE_UNWIND</a> = 8,</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="../../d3/db6/unwind_8h.html#aa996b292d6da499402c5768df770dfeba0253ffe73d9ff0a27d0808ca39e8d11b">_UA_END_OF_STACK</a> = 16</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;};</div>
-<div class="ttc" id="aunwind_8h_html_aa996b292d6da499402c5768df770dfeba0253ffe73d9ff0a27d0808ca39e8d11b"><div class="ttname"><a href="../../d3/db6/unwind_8h.html#aa996b292d6da499402c5768df770dfeba0253ffe73d9ff0a27d0808ca39e8d11b">_UA_END_OF_STACK</a></div><div class="ttdeci">@ _UA_END_OF_STACK</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/db6/unwind_8h_source.html#l00050">unwind.h:49</a></div></div>
-<div class="ttc" id="aunwind_8h_html_aa996b292d6da499402c5768df770dfeba3bd812946ec378ce175951bdc4860ed3"><div class="ttname"><a href="../../d3/db6/unwind_8h.html#aa996b292d6da499402c5768df770dfeba3bd812946ec378ce175951bdc4860ed3">_UA_FORCE_UNWIND</a></div><div class="ttdeci">@ _UA_FORCE_UNWIND</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/db6/unwind_8h_source.html#l00048">unwind.h:48</a></div></div>
-<div class="ttc" id="aunwind_8h_html_aa996b292d6da499402c5768df770dfeba4de8dddd0b481accc0b97b221241d0e7"><div class="ttname"><a href="../../d3/db6/unwind_8h.html#aa996b292d6da499402c5768df770dfeba4de8dddd0b481accc0b97b221241d0e7">_UA_HANDLER_FRAME</a></div><div class="ttdeci">@ _UA_HANDLER_FRAME</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/db6/unwind_8h_source.html#l00047">unwind.h:47</a></div></div>
-<div class="ttc" id="aunwind_8h_html_aa996b292d6da499402c5768df770dfeba913b68d5f7ad8dab03b0a3e413ff9edd"><div class="ttname"><a href="../../d3/db6/unwind_8h.html#aa996b292d6da499402c5768df770dfeba913b68d5f7ad8dab03b0a3e413ff9edd">_UA_CLEANUP_PHASE</a></div><div class="ttdeci">@ _UA_CLEANUP_PHASE</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/db6/unwind_8h_source.html#l00046">unwind.h:46</a></div></div>
-<div class="ttc" id="aunwind_8h_html_aa996b292d6da499402c5768df770dfebab215256d5e0b0c14cb9f77efcaabfb77"><div class="ttname"><a href="../../d3/db6/unwind_8h.html#aa996b292d6da499402c5768df770dfebab215256d5e0b0c14cb9f77efcaabfb77">_UA_SEARCH_PHASE</a></div><div class="ttdeci">@ _UA_SEARCH_PHASE</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/db6/unwind_8h_source.html#l00045">unwind.h:45</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <a id="a26f33dc6f6d23dc64517389b6b786ac2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a26f33dc6f6d23dc64517389b6b786ac2">&#9670;&nbsp;</a></span>_Unwind_Reason_Code</h2>
 
@@ -405,7 +480,8 @@ personality</td>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2a608f0da2ee309a1c1395063b8b6d028d">_URC_HANDLER_FOUND</a> = 6,</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2a1f57f348816bdd0564bdfd9180e50fc0">_URC_INSTALL_CONTEXT</a> = 7,</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2aceacf011e23d791d187b7b10b599bdb6">_URC_CONTINUE_UNWIND</a> = 8</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;};</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;} <a class="code" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2">_Unwind_Reason_Code</a>;</div>
+<div class="ttc" id="aunwind_8h_html_a26f33dc6f6d23dc64517389b6b786ac2"><div class="ttname"><a href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2">_Unwind_Reason_Code</a></div><div class="ttdeci">_Unwind_Reason_Code</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/db6/unwind_8h_source.html#l00023">unwind.h:24</a></div></div>
 <div class="ttc" id="aunwind_8h_html_a26f33dc6f6d23dc64517389b6b786ac2a1f57f348816bdd0564bdfd9180e50fc0"><div class="ttname"><a href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2a1f57f348816bdd0564bdfd9180e50fc0">_URC_INSTALL_CONTEXT</a></div><div class="ttdeci">@ _URC_INSTALL_CONTEXT</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/db6/unwind_8h_source.html#l00032">unwind.h:32</a></div></div>
 <div class="ttc" id="aunwind_8h_html_a26f33dc6f6d23dc64517389b6b786ac2a30528e6b6930b75402dca7f9af05cf9c"><div class="ttname"><a href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2a30528e6b6930b75402dca7f9af05cf9c">_URC_FATAL_PHASE2_ERROR</a></div><div class="ttdeci">@ _URC_FATAL_PHASE2_ERROR</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/db6/unwind_8h_source.html#l00027">unwind.h:27</a></div></div>
 <div class="ttc" id="aunwind_8h_html_a26f33dc6f6d23dc64517389b6b786ac2a41ad850ae0c5b105dca3d223df38af97"><div class="ttname"><a href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2a41ad850ae0c5b105dca3d223df38af97">_URC_NO_REASON</a></div><div class="ttdeci">@ _URC_NO_REASON</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/db6/unwind_8h_source.html#l00025">unwind.h:25</a></div></div>
@@ -426,7 +502,7 @@ personality</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> <a class="el" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a> </td>
+          <td class="memname">struct <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> <a class="el" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a> </td>
           <td>(</td>
           <td class="paramtype">(__aligned__)&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -434,38 +510,6 @@ personality</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa996b088116062dfbdaf699225fb42d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa996b088116062dfbdaf699225fb42d3">&#9670;&nbsp;</a></span>_Unwind_RaiseException()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> <a class="el" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2">_Unwind_Reason_Code</a> _Unwind_RaiseException </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *&#160;</td>
-          <td class="paramname"><em>Exception</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../db/dd6/unwind_8cpp_source.html#l00029">29</a> of file <a class="el" href="../../db/dd6/unwind_8cpp_source.html">unwind.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;_Unwind_RaiseException( %p ) called.&quot;</span>, Exception);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Unhandled exception.&quot;</span>);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2a53bf3ead23368c90ad6a0464eb47097a">_URC_FATAL_PHASE1_ERROR</a>;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="comment">// return _URC_NO_REASON;</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div>
-<div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00086">debug.h:86</a></div></div>
-<div class="ttc" id="adebug_8h_html_abd4acaf7c67bd126aefd672fbbd5747f"><div class="ttname"><a href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a></div><div class="ttdeci">#define fixme(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00099">debug.h:99</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/db6/unwind_8h_source.html#l00028">_URC_FATAL_PHASE1_ERROR</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00086">error</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d0/d3e/Kernel_2library_2libstdc_09_09_2cxxabi_8cpp_source.html#l00180">__cxxabiv1::__cxa_throw()</a>.</p>
 
 </div>
 </div>
@@ -539,7 +583,7 @@ personality</td>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_f6afea1f11e371a5eb8eaf7be6cd53d5.html">include_std</a></li><li class="navelem"><a class="el" href="../../d3/db6/unwind_8h.html">unwind.h</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_2c335c1ccbf6ef7c89cc08c9ed88be2e.html">include</a></li><li class="navelem"><a class="el" href="../../dir_8c8bb92704ea7f5c4869ae4b62d98b7f.html">kexcept</a></li><li class="navelem"><a class="el" href="../../d3/db6/unwind_8h.html">unwind.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

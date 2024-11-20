@@ -6,7 +6,7 @@ var signal_8hpp =
     ] ],
     [ "sched_param", "d0/d36/Userspace_2musl_2include_2sched_8h.html#d4/d82/structsched__param", [
       [ "__reserved1", "d0/d36/Userspace_2musl_2include_2sched_8h.html#acb37f14728d7e330728ec2cd3f7ae6df", null ],
-      [ "__reserved2", "d0/d36/Userspace_2musl_2include_2sched_8h.html#a5f595c11fd9e51f8a67ba49f7394d1b9", null ],
+      [ "__reserved2", "d0/d36/Userspace_2musl_2include_2sched_8h.html#a6d6ea97bbb5bf9a9f0695e44fcbbb263", null ],
       [ "__reserved3", "d0/d36/Userspace_2musl_2include_2sched_8h.html#a16b53b4184905f2cc587f14812853e52", null ],
       [ "sched_priority", "d0/d36/Userspace_2musl_2include_2sched_8h.html#aa0f2640949273f2c30549ed8d1bb197e", null ]
     ] ],
@@ -18,26 +18,30 @@ var signal_8hpp =
     ] ],
     [ "sigevent", "d7/df9/structsigevent.html", "d7/df9/structsigevent" ],
     [ "siginfo_t", "d1/d7b/libc_2include_2sys_2wait_8h.html#dc/dbc/structsiginfo__t", [
-      [ "__si_fields", "d1/d7b/libc_2include_2sys_2wait_8h.html#a668b294db726df3c795041314c8a1a26", null ],
+      [ "__si_fields", "d1/d7b/libc_2include_2sys_2wait_8h.html#a58295e2992e7c2c58c16f7e6f9a4e1f0", null ],
       [ "si_code", "d1/d7b/libc_2include_2sys_2wait_8h.html#a0dd36ae3e9df589f5755f88c93671c2d", null ],
       [ "si_errno", "d1/d7b/libc_2include_2sys_2wait_8h.html#ae840a8f2824bab1693577f19f4d0432d", null ],
       [ "si_signo", "d1/d7b/libc_2include_2sys_2wait_8h.html#a238821f6eb15317d3d7b10efef80b9c7", null ],
       [ "stub", "d1/d7b/libc_2include_2sys_2wait_8h.html#aa91552fa3db0a0570cefe972d3ef31a0", null ]
     ] ],
-    [ "sigaction", "d7/def/structsigaction.html", "d7/def/structsigaction" ],
+    [ "SignalAction", "db/d2c/structSignalAction.html", "db/d2c/structSignalAction" ],
     [ "Signal", "d2/d8b/classTasking_1_1Signal.html", "d2/d8b/classTasking_1_1Signal" ],
     [ "SignalInfo", "d2/d8b/classTasking_1_1Signal.html#da/df1/structTasking_1_1Signal_1_1SignalInfo", [
+      [ "val", "d2/d8b/classTasking_1_1Signal.html#d0/d18/unionTasking_1_1Signal_1_1SignalInfo_1_1val", null ],
+      [ "__aligned", "d2/d8b/classTasking_1_1Signal.html#a31e0ee9634fcd5e31e71359a45fe52d6", null ],
       [ "sig", "d2/d8b/classTasking_1_1Signal.html#a10894e6723639e9f5c80c8444c4046d4", null ],
-      [ "val", "d2/d8b/classTasking_1_1Signal.html#afef298039ac13709e65b5154180f7908", null ]
+      [ "tid", "d2/d8b/classTasking_1_1Signal.html#afcf47ea3417e29aed16514f284f67300", null ]
     ] ],
+    [ "val", "d2/d8b/classTasking_1_1Signal.html#d0/d18/unionTasking_1_1Signal_1_1SignalInfo_1_1val", null ],
     [ "StackInfo", "d2/d8b/classTasking_1_1Signal.html#d1/dc4/structTasking_1_1Signal_1_1StackInfo", [
       [ "Compatibility", "d2/d8b/classTasking_1_1Signal.html#a2b6fc82232994ce705696ff17f6362d9", null ],
       [ "FSBase", "d2/d8b/classTasking_1_1Signal.html#a2d6571cd2953bc0066e245eb1d1ffdbc", null ],
       [ "fx", "d2/d8b/classTasking_1_1Signal.html#ad3d59d8ccdb7e5ee1459befd8673d48f", null ],
       [ "GSBase", "d2/d8b/classTasking_1_1Signal.html#af2a02fe8cb53d72b5d4558f7871485a5", null ],
       [ "SignalMask", "d2/d8b/classTasking_1_1Signal.html#aaeaeba29be731a3b317e5a0d3fe510e1", null ],
-      [ "tf", "d2/d8b/classTasking_1_1Signal.html#ac75c84697e75c39ca61b47850878964d", null ]
+      [ "tf", "d2/d8b/classTasking_1_1Signal.html#a1582a118859cac8e7f6877e63469b522", null ]
     ] ],
+    [ "ThreadSignal", "d4/d32/classTasking_1_1ThreadSignal.html", "d4/d32/classTasking_1_1ThreadSignal" ],
     [ "siginfo_t.__si_fields", "dd/d5f/signal_8hpp.html#d9/d0b/unionsiginfo__t_8____si__fields", [
       [ "__pad", "dd/d5f/signal_8hpp.html#a72133248b64f9acd9fed3c6943945e53", null ],
       [ "__si_common", "dd/d5f/signal_8hpp.html#a498c0f815564a9957da04ee809eb533a", null ],
@@ -92,7 +96,7 @@ var signal_8hpp =
       [ "si_call_addr", "dd/d5f/signal_8hpp.html#ac6b207eb91dc3357198e5b541db58711", null ],
       [ "si_syscall", "dd/d5f/signal_8hpp.html#a91ba153b3a685e2d55e3c8d0ceecc1bb", null ]
     ] ],
-    [ "sigaction.__sa_handler", "d0/d03/unionsigaction_8____sa__handler.html", "d0/d03/unionsigaction_8____sa__handler" ],
+    [ "SignalAction.sa_handler", "d2/d74/unionSignalAction_8sa__handler.html", "d2/d74/unionSignalAction_8sa__handler" ],
     [ "__SI_PAD_SIZE", "dd/d5f/signal_8hpp.html#a4e543ffa1809199f1a9b4b36abb48c4d", null ],
     [ "SA_NOCLDSTOP", "dd/d5f/signal_8hpp.html#af6a71c97263725437f59ceb16241fd32", null ],
     [ "SA_NOCLDWAIT", "dd/d5f/signal_8hpp.html#ae4c1aad864ef72e4a2cce74b1b8a5a0b", null ],
@@ -103,17 +107,22 @@ var signal_8hpp =
     [ "SA_RESTORER", "dd/d5f/signal_8hpp.html#a4af58063b5774f0422ddf346ff64846e", null ],
     [ "SA_SIGINFO", "dd/d5f/signal_8hpp.html#a59b4c0774aace526b10b6d737075a790", null ],
     [ "sigset_t", "dd/d5f/signal_8hpp.html#a9140a5882f847f67b8155c759ac6aa05", null ],
-    [ "SignalAction", "dd/d5f/signal_8hpp.html#a6fddd097628384547b7ab38f6b8e2c7f", [
-      [ "SIG_BLOCK", "dd/d5f/signal_8hpp.html#a6fddd097628384547b7ab38f6b8e2c7fac26795cb0a462d371f9ff27304076051", null ],
-      [ "SIG_UNBLOCK", "dd/d5f/signal_8hpp.html#a6fddd097628384547b7ab38f6b8e2c7fac521740ff2201d6f606caaedd9bd1380", null ],
-      [ "SIG_SETMASK", "dd/d5f/signal_8hpp.html#a6fddd097628384547b7ab38f6b8e2c7faf356455c670da44c4f6f61d63aac9f88", null ]
+    [ "SignalActionDisposition", "dd/d5f/signal_8hpp.html#a937016fc9749abf7af357883ed4fcd58", [
+      [ "SAD_ERR", "dd/d5f/signal_8hpp.html#a937016fc9749abf7af357883ed4fcd58aad53000bbbc8bbc0ed1873992ba11b05", null ],
+      [ "SAD_DFL", "dd/d5f/signal_8hpp.html#a937016fc9749abf7af357883ed4fcd58a39775e3c54e1742530ed0ecfd346d6e4", null ],
+      [ "SAD_IGN", "dd/d5f/signal_8hpp.html#a937016fc9749abf7af357883ed4fcd58ae8ccc849ea9a95ee9f8d5251f2f9ddda", null ]
     ] ],
-    [ "SignalDisposition", "dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316ae", [
-      [ "SIG_TERM", "dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316aea3217eded8e90d7fa8e7cb4ae1ff7e1e0", null ],
-      [ "SIG_IGN", "dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316aeab7cc041202b29ce800a4015f8fd8b189", null ],
-      [ "SIG_CORE", "dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316aea59277c77fc14cae2538bed4d2ce386ec", null ],
-      [ "SIG_STOP", "dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316aea5fb8c6a63805565f9e699c631ac15dfe", null ],
-      [ "SIG_CONT", "dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316aea29026413e1d3f85a38f640074e5a0db7", null ]
+    [ "SignalActions", "dd/d5f/signal_8hpp.html#a192cf28ccaceebb5b52f8862bd7edf58", [
+      [ "SIG_BLOCK", "dd/d5f/signal_8hpp.html#a192cf28ccaceebb5b52f8862bd7edf58ac26795cb0a462d371f9ff27304076051", null ],
+      [ "SIG_UNBLOCK", "dd/d5f/signal_8hpp.html#a192cf28ccaceebb5b52f8862bd7edf58ac521740ff2201d6f606caaedd9bd1380", null ],
+      [ "SIG_SETMASK", "dd/d5f/signal_8hpp.html#a192cf28ccaceebb5b52f8862bd7edf58af356455c670da44c4f6f61d63aac9f88", null ]
+    ] ],
+    [ "SignalDispositions", "dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190", [
+      [ "SIG_TERM", "dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190a3217eded8e90d7fa8e7cb4ae1ff7e1e0", null ],
+      [ "SIG_IGN", "dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190ab7cc041202b29ce800a4015f8fd8b189", null ],
+      [ "SIG_CORE", "dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190a59277c77fc14cae2538bed4d2ce386ec", null ],
+      [ "SIG_STOP", "dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190a5fb8c6a63805565f9e699c631ac15dfe", null ],
+      [ "SIG_CONT", "dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190a29026413e1d3f85a38f640074e5a0db7", null ]
     ] ],
     [ "Signals", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91", [
       [ "SIG_NULL", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a29003564fcf95d9fadd169a6c95c0760", null ],
@@ -145,16 +154,48 @@ var signal_8hpp =
       [ "SIGVTALRM", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af63dab0f12670d7130eb94f24dce4cad", null ],
       [ "SIGXCPU", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a1a1f6960bc0f51eb122edbed8760c533", null ],
       [ "SIGXFSZ", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a3c535db8699cbcd82bc668dfc2a89c3c", null ],
-      [ "SIGRSV1", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91adf6420e7153f108f88fafbd2d0899b36", null ],
-      [ "SIGRSV2", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a0eecb5f42c534b6fa46e0cafcf106f81", null ],
+      [ "SIGCOMP1", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6a5cd48f9e87f08c1d0d5635db21e03e", null ],
+      [ "SIGCOMP2", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a985e6b2562816e34883174e7352639c5", null ],
+      [ "SIGCOMP3", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a01d0a129aa039c647bc4a885fc19f815", null ],
+      [ "SIGRTMIN", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a94182efebd7123e80d632cda2e02d80d", null ],
+      [ "SIGRT_1", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aa3879c69f3ede3d463a20f6838da2fd6", null ],
+      [ "SIGRT_2", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a2d554cea104e2801c328da80231d1af1", null ],
+      [ "SIGRT_3", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91addb465164f470dba8fe063e583f9384b", null ],
+      [ "SIGRT_4", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aaf8591b9b76579875332e86957082238", null ],
+      [ "SIGRT_5", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a22834cfb9e685b3b1f173dabf5c39bcb", null ],
+      [ "SIGRT_6", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a67faf3857681f7999c4b5465133c5c7d", null ],
+      [ "SIGRT_7", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a8dad0bae7abf1a88ac85dea40387399f", null ],
+      [ "SIGRT_8", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af5b9a394592ed679c014700e5044e665", null ],
+      [ "SIGRT_9", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af2e2998f5f62f4acf609cd894500f458", null ],
+      [ "SIGRT_10", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a2d127d2d23652652aff9ed5d238433b2", null ],
+      [ "SIGRT_11", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a1d936976109f2b7f22ff02aa26680136", null ],
+      [ "SIGRT_12", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aa56e80677cb44c510d25755b8ff69c44", null ],
+      [ "SIGRT_13", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af5a987f8f746d96352d2ca8d855ccfda", null ],
+      [ "SIGRT_14", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a66253c41848315523e6c4dd0c78b17e3", null ],
+      [ "SIGRT_15", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ac7abe2ac39f82584965b5a5335989493", null ],
+      [ "SIGRT_16", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a484992323c3cba902707f4a033305544", null ],
+      [ "SIGRT_17", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6375d53908eb84ee816f1c7b2e78069a", null ],
+      [ "SIGRT_18", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af95fab67fa86ac3daffde1a6988eaa01", null ],
+      [ "SIGRT_19", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a46d55a21547c9e1d247f27306fe3d054", null ],
+      [ "SIGRT_20", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ad010e9a21ef77fdabf79aadfc36fee6e", null ],
+      [ "SIGRT_21", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a64a42f7889ec460e2b79e2feee4ea8fd", null ],
+      [ "SIGRT_22", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a3c3765541df9bda24453c2b19e1b5058", null ],
+      [ "SIGRT_23", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af64a196e63e5373e64ca0332e9a82485", null ],
+      [ "SIGRT_24", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91acf437daee2029eed9b8c52f2a254444f", null ],
+      [ "SIGRT_25", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a10a56d322c9ce00570520dcf6034412e", null ],
+      [ "SIGRT_26", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a000f6474325ed7dec6817a2047f3dbeb", null ],
+      [ "SIGRT_27", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a7d83484c52b984a56135eea6f5e9db74", null ],
+      [ "SIGRT_28", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aa261092071f20720d6a65b86531c216a", null ],
+      [ "SIGRT_29", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a822072887d756774b7f1b9c18c402830", null ],
+      [ "SIGRT_30", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aeea20148591b072498e143748bd5b03c", null ],
+      [ "SIGRT_31", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a553396ae817ce17c32cfdc1416d207f0", null ],
+      [ "SIGRTMAX", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a3b955d179fd8c37b59f3b1ec83bb8514", null ],
       [ "SIGNAL_MAX", "dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6ea5ddfaff74e92d291445c1ec58f1e0", null ]
     ] ],
-    [ "__no_sanitize", "dd/d5f/signal_8hpp.html#a7898c54ea6f6c6d64e70d3bfebdf2956", null ],
-    [ "ToSig", "dd/d5f/signal_8hpp.html#a7dec4f08a178657040f9137298afbaaa", null ],
     [ "Compatibility", "dd/d5f/signal_8hpp.html#a09b862dc967aee9e9c4d5a0c594c5fc3", null ],
     [ "FSBase", "dd/d5f/signal_8hpp.html#af0ec17379b0d731c2e0d01f951e95204", null ],
     [ "fx", "dd/d5f/signal_8hpp.html#abcc7629d73dc53b40a5e97ad8a80049d", null ],
     [ "GSBase", "dd/d5f/signal_8hpp.html#aee0e59868f47305ca2b38acfdcdb4b0c", null ],
     [ "SignalMask", "dd/d5f/signal_8hpp.html#aa257641ddaa69a21eb41d23a0c37a810", null ],
-    [ "tf", "dd/d5f/signal_8hpp.html#a0c6fd4cc16395d4f1f8cbcb870996bd5", null ]
+    [ "tf", "dd/d5f/signal_8hpp.html#acf620e7cf31a966c5c7a3d5877a14f96", null ]
 ];

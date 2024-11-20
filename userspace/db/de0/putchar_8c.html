@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('db/de0/putchar_8c.html','../../'); ini
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af4de2514b7778805db3815e8dd6cf09a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de0/putchar_8c.html#af4de2514b7778805db3815e8dd6cf09a">putchar</a> (int <a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>)</td></tr>
+<tr class="memitem:af4de2514b7778805db3815e8dd6cf09a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de0/putchar_8c.html#af4de2514b7778805db3815e8dd6cf09a">putchar</a> (int c)</td></tr>
 <tr class="separator:af4de2514b7778805db3815e8dd6cf09a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -120,13 +120,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/de0/putchar_8c_source.html#l00004">4</a> of file <a class="el" href="../../db/de0/putchar_8c_source.html">putchar.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/df0/putc_8h.html#a08033bb4f93d035f285eafc8b88c9742">do_putc</a>(<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>, <a class="code" href="../../dc/d4d/libc_2include_2stdio_8h.html#a0c0ef221f95f64e8632451312fd18cc8">stdout</a>);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/df0/putc_8h.html#a08033bb4f93d035f285eafc8b88c9742">do_putc</a>(c, <a class="code" href="../../dc/d4d/libc_2include_2stdio_8h.html#a0c0ef221f95f64e8632451312fd18cc8">stdout</a>);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="aglob__loop_8c_html_a2019d0836036f2693a231fe5c7c65e20"><div class="ttname"><a href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a></div><div class="ttdeci">register GCHAR c</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d64/glob__loop_8c_source.html#l00028">glob_loop.c:26</a></div></div>
 <div class="ttc" id="alibc_2include_2stdio_8h_html_a0c0ef221f95f64e8632451312fd18cc8"><div class="ttname"><a href="../../dc/d4d/libc_2include_2stdio_8h.html#a0c0ef221f95f64e8632451312fd18cc8">stdout</a></div><div class="ttdeci">#define stdout</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d4d/libc_2include_2stdio_8h_source.html#l00057">stdio.h:57</a></div></div>
 <div class="ttc" id="aputc_8h_html_a08033bb4f93d035f285eafc8b88c9742"><div class="ttname"><a href="../../d5/df0/putc_8h.html#a08033bb4f93d035f285eafc8b88c9742">do_putc</a></div><div class="ttdeci">static int do_putc(int c, FILE *f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df0/putc_8h_source.html#l00016">putc.h:16</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>, <a class="el" href="../../d5/df0/putc_8h_source.html#l00016">do_putc()</a>, <a class="el" href="../../df/d79/put_8c_source.html#l00007">fputc()</a>, and <a class="el" href="../../dc/d4d/libc_2include_2stdio_8h_source.html#l00057">stdout</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/df0/putc_8h_source.html#l00016">do_putc()</a>, <a class="el" href="../../df/d79/put_8c_source.html#l00007">fputc()</a>, and <a class="el" href="../../dc/d4d/libc_2include_2stdio_8h_source.html#l00057">stdout</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../da/de7/fsh_8c_source.html#l00100">HandleSignal()</a>, <a class="el" href="../../d9/d93/i__system_8c_source.html#l00166">I_PrintBanner()</a>, <a class="el" href="../../d9/d93/i__system_8c_source.html#l00177">I_PrintDivider()</a>, <a class="el" href="../../da/de7/fsh_8c_source.html#l00132">main()</a>, <a class="el" href="../../d1/dae/libc_2src_2print_2printf_8c_source.html#l00359">putchar_wrapper()</a>, <a class="el" href="../../da/de7/fsh_8c_source.html#l00032">ReadLine()</a>, and <a class="el" href="../../df/d55/userspace__test_8c_source.html#l00322">test_file()</a>.</p>
 
 </div>
 </div>

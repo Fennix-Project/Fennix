@@ -14,9 +14,9 @@ var namespaceAPIC =
     [ "__packed.__unnamed18__", "d3/d88/namespaceAPIC.html#d3/dec/structAPIC_1_1____packed_8____unnamed18____", "d3/d88/namespaceAPIC_d3/dec/structAPIC_1_1____packed_8____unnamed18_____dup" ],
     [ "__packed.__unnamed20__", "d3/d88/namespaceAPIC.html#d9/ddd/structAPIC_1_1____packed_8____unnamed20____", "d3/d88/namespaceAPIC_d9/ddd/structAPIC_1_1____packed_8____unnamed20_____dup" ],
     [ "__packed.__unnamed22__", "d3/d88/namespaceAPIC.html#d3/d9a/structAPIC_1_1____packed_8____unnamed22____", "d3/d88/namespaceAPIC_d3/d9a/structAPIC_1_1____packed_8____unnamed22_____dup" ],
-    [ "__packed.__unnamed24__", "d3/d88/namespaceAPIC.html#d1/df1/structAPIC_1_1____packed_8____unnamed24____", "d3/d88/namespaceAPIC_d1/df1/structAPIC_1_1____packed_8____unnamed24_____dup" ],
-    [ "__packed.__unnamed26__", "d3/d88/namespaceAPIC.html#d4/d17/structAPIC_1_1____packed_8____unnamed26____", "d3/d88/namespaceAPIC_d4/d17/structAPIC_1_1____packed_8____unnamed26_____dup" ],
-    [ "__packed.__unnamed29__", "d3/d88/namespaceAPIC.html#dd/db2/structAPIC_1_1____packed_8____unnamed29____", "d3/d88/namespaceAPIC_dd/db2/structAPIC_1_1____packed_8____unnamed29_____dup" ],
+    [ "__packed.__unnamed25__", "d3/d88/namespaceAPIC.html#d7/dff/structAPIC_1_1____packed_8____unnamed25____", "d3/d88/namespaceAPIC_d7/dff/structAPIC_1_1____packed_8____unnamed25_____dup" ],
+    [ "__packed.__unnamed27__", "d3/d88/namespaceAPIC.html#d8/dc0/structAPIC_1_1____packed_8____unnamed27____", "d3/d88/namespaceAPIC_d8/dc0/structAPIC_1_1____packed_8____unnamed27_____dup" ],
+    [ "__packed.__unnamed30__", "d3/d88/namespaceAPIC.html#df/d46/structAPIC_1_1____packed_8____unnamed30____", "d3/d88/namespaceAPIC_df/d46/structAPIC_1_1____packed_8____unnamed30_____dup" ],
     [ "ErrorStatusRegister.__unnamed9__", "d3/d88/namespaceAPIC.html#d6/dd8/structAPIC_1_1ErrorStatusRegister_8____unnamed9____", "d3/d88/namespaceAPIC_d6/dd8/structAPIC_1_1ErrorStatusRegister_8____unnamed9_____dup" ],
     [ "APICDeliveryMode", "d3/d88/namespaceAPIC.html#a5e4cfe3016d6899c18a3ab7f900e2942", [
       [ "Fixed", "d3/d88/namespaceAPIC.html#a5e4cfe3016d6899c18a3ab7f900e2942ab509218dba8ca379de8ca98a8e93b1f8", null ],

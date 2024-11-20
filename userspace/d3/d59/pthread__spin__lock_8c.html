@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d3/d59/pthread__spin__lock_8c.html','.
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a62cfd14d1f937a6e8f966e3a331bcf94"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d59/pthread__spin__lock_8c.html#a62cfd14d1f937a6e8f966e3a331bcf94">pthread_spin_lock</a> (pthread_spinlock_t *<a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>)</td></tr>
+<tr class="memitem:a62cfd14d1f937a6e8f966e3a331bcf94"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d59/pthread__spin__lock_8c.html#a62cfd14d1f937a6e8f966e3a331bcf94">pthread_spin_lock</a> (pthread_spinlock_t *s)</td></tr>
 <tr class="separator:a62cfd14d1f937a6e8f966e3a331bcf94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -120,15 +120,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d59/pthread__spin__lock_8c_source.html#l00004">4</a> of file <a class="el" href="../../d3/d59/pthread__spin__lock_8c_source.html">pthread_spin_lock.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">while</span> (*(<span class="keyword">volatile</span> <span class="keywordtype">int</span> *)<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a> || <a class="code" href="../../d1/d0e/aarch64_2atomic__arch_8h.html#acf94b42b060ee536fc750a448ccd2928">a_cas</a>(<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, 0, <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#a8368025077a0385849d6817b2007c095">EBUSY</a>)) <a class="code" href="../../d6/dad/i386_2atomic__arch_8h.html#abe4d63fcdf4aea8f5bdcd77ad110a593">a_spin</a>();</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">while</span> (*(<span class="keyword">volatile</span> <span class="keywordtype">int</span> *)s || <a class="code" href="../../d1/d0e/aarch64_2atomic__arch_8h.html#acf94b42b060ee536fc750a448ccd2928">a_cas</a>(s, 0, <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#a8368025077a0385849d6817b2007c095">EBUSY</a>)) <a class="code" href="../../d6/dad/i386_2atomic__arch_8h.html#abe4d63fcdf4aea8f5bdcd77ad110a593">a_spin</a>();</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
 <div class="ttc" id="aaarch64_2atomic__arch_8h_html_acf94b42b060ee536fc750a448ccd2928"><div class="ttname"><a href="../../d1/d0e/aarch64_2atomic__arch_8h.html#acf94b42b060ee536fc750a448ccd2928">a_cas</a></div><div class="ttdeci">#define a_cas</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d0e/aarch64_2atomic__arch_8h_source.html#l00023">atomic_arch.h:23</a></div></div>
-<div class="ttc" id="aarpping_8c_html_ac9562ee4ecb3b8aeebeb04656e7e57a9"><div class="ttname"><a href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a></div><div class="ttdeci">#define s</div></div>
 <div class="ttc" id="ai386_2atomic__arch_8h_html_abe4d63fcdf4aea8f5bdcd77ad110a593"><div class="ttname"><a href="../../d6/dad/i386_2atomic__arch_8h.html#abe4d63fcdf4aea8f5bdcd77ad110a593">a_spin</a></div><div class="ttdeci">#define a_spin</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dad/i386_2atomic__arch_8h_source.html#l00074">atomic_arch.h:74</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_a8368025077a0385849d6817b2007c095"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#a8368025077a0385849d6817b2007c095">EBUSY</a></div><div class="ttdeci">#define EBUSY</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00019">errno.h:19</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d0e/aarch64_2atomic__arch_8h_source.html#l00023">a_cas</a>, <a class="el" href="../../d6/dad/i386_2atomic__arch_8h_source.html#l00074">a_spin</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00019">EBUSY</a>, and <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d0e/aarch64_2atomic__arch_8h_source.html#l00023">a_cas</a>, <a class="el" href="../../d6/dad/i386_2atomic__arch_8h_source.html#l00074">a_spin</a>, and <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00019">EBUSY</a>.</p>
 
 </div>
 </div>

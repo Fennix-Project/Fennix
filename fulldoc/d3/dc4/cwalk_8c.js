@@ -13,6 +13,7 @@ var cwalk_8c =
     [ "cwk_path_change_segment", "d3/dc4/cwalk_8c.html#acdc8c69218f67780f4b8e167a41e1995", null ],
     [ "cwk_path_find_next_stop", "d3/dc4/cwalk_8c.html#a67a63e3978a34a02d116cff7d06c4c73", null ],
     [ "cwk_path_find_previous_stop", "d3/dc4/cwalk_8c.html#afaa21620b71c743a0e59b9f1138bcb7e", null ],
+    [ "cwk_path_fix_root", "d3/dc4/cwalk_8c.html#a20dabefe00c58aba5b5dfcc64f16b258", null ],
     [ "cwk_path_get_absolute", "d3/dc4/cwalk_8c.html#a7f26ae82c88d2561438ce511d4114244", null ],
     [ "cwk_path_get_basename", "d3/dc4/cwalk_8c.html#aebab254407554e6b19d1e5ecdd4b619e", null ],
     [ "cwk_path_get_dirname", "d3/dc4/cwalk_8c.html#a0c697dadb5c17db6253c42d713364565", null ],

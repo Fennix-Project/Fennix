@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d8/de2/mbstowcs_8c.html','../../'); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad8ae1c4518d6b22e91df1e366ac16169"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de2/mbstowcs_8c.html#ad8ae1c4518d6b22e91df1e366ac16169">mbstowcs</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5f245e933e58ed4d268146a5b1f116ca">wchar_t</a> *restrict ws, const char *restrict <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> wn)</td></tr>
+<tr class="memitem:ad8ae1c4518d6b22e91df1e366ac16169"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de2/mbstowcs_8c.html#ad8ae1c4518d6b22e91df1e366ac16169">mbstowcs</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5f245e933e58ed4d268146a5b1f116ca">wchar_t</a> *restrict ws, const char *restrict s, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> wn)</td></tr>
 <tr class="separator:ad8ae1c4518d6b22e91df1e366ac16169"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -136,12 +136,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/de2/mbstowcs_8c_source.html#l00004">4</a> of file <a class="el" href="../../d8/de2/mbstowcs_8c_source.html">mbstowcs.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#acfa0f1436951581c4cee1c7674b340c8">mbsrtowcs</a>(ws, (<span class="keywordtype">void</span>*)&amp;<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, wn, 0);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#acfa0f1436951581c4cee1c7674b340c8">mbsrtowcs</a>(ws, (<span class="keywordtype">void</span>*)&amp;s, wn, 0);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
 <div class="ttc" id="aUserspace_2musl_2include_2wchar_8h_html_acfa0f1436951581c4cee1c7674b340c8"><div class="ttname"><a href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#acfa0f1436951581c4cee1c7674b340c8">mbsrtowcs</a></div><div class="ttdeci">size_t mbsrtowcs(wchar_t *__restrict, const char **__restrict, size_t, mbstate_t *__restrict)</div></div>
-<div class="ttc" id="aarpping_8c_html_ac9562ee4ecb3b8aeebeb04656e7e57a9"><div class="ttname"><a href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a></div><div class="ttdeci">#define s</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#acfa0f1436951581c4cee1c7674b340c8">mbsrtowcs()</a>, and <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#acfa0f1436951581c4cee1c7674b340c8">mbsrtowcs()</a>.</p>
 
 </div>
 </div>

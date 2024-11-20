@@ -123,21 +123,21 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#if ULONG_MAX == 0xffffffff</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    set-&gt;__bits[0] = 0x7ffffffful;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    set-&gt;__bits[1] = 0xfffffffcul;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/dac/musl_2arch_2aarch64_2bits_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">_NSIG</a> &gt; 65) {</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../dc/d00/Userspace_2musl_2arch_2aarch64_2bits_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">_NSIG</a> &gt; 65) {</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        set-&gt;__bits[2] = 0xfffffffful;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        set-&gt;__bits[3] = 0xfffffffful;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    }</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    set-&gt;__bits[0] = 0xfffffffc7ffffffful;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/dac/musl_2arch_2aarch64_2bits_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">_NSIG</a> &gt; 65) set-&gt;__bits[1] = 0xfffffffffffffffful;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../dc/d00/Userspace_2musl_2arch_2aarch64_2bits_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">_NSIG</a> &gt; 65) set-&gt;__bits[1] = 0xfffffffffffffffful;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
-<div class="ttc" id="amusl_2arch_2aarch64_2bits_2signal_8h_html_a275020780cb70a8b0cba8db5accc5d19"><div class="ttname"><a href="../../d5/dac/musl_2arch_2aarch64_2bits_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">_NSIG</a></div><div class="ttdeci">#define _NSIG</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dac/musl_2arch_2aarch64_2bits_2signal_8h_source.html#l00153">signal.h:153</a></div></div>
+<div class="ttc" id="aUserspace_2musl_2arch_2aarch64_2bits_2signal_8h_html_a275020780cb70a8b0cba8db5accc5d19"><div class="ttname"><a href="../../dc/d00/Userspace_2musl_2arch_2aarch64_2bits_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">_NSIG</a></div><div class="ttdeci">#define _NSIG</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d00/Userspace_2musl_2arch_2aarch64_2bits_2signal_8h_source.html#l00153">signal.h:153</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/dac/musl_2arch_2aarch64_2bits_2signal_8h_source.html#l00153">_NSIG</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d00/Userspace_2musl_2arch_2aarch64_2bits_2signal_8h_source.html#l00153">_NSIG</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d77/aio_8c_source.html#l00083">__aio_get_queue()</a>, <a class="el" href="../../d8/d77/aio_8c_source.html#l00360">aio_cancel()</a>, <a class="el" href="../../d8/deb/forkpty_8c_source.html#l00009">forkpty()</a>, <a class="el" href="../../d0/de2/base_2busybox_2init_2init_8c_source.html#l01039">init_main()</a>, <a class="el" href="../../d8/dfe/lio__listio_8c_source.html#l00069">lio_listio()</a>, <a class="el" href="../../db/d51/mq__notify_8c_source.html#l00046">mq_notify()</a>, <a class="el" href="../../d1/dbe/ash_8c_source.html#l03707">setsignal()</a>, <a class="el" href="../../d3/db2/busybox_2libbb_2signals_8c_source.html#l00027">sigprocmask_allsigs()</a>, <a class="el" href="../../d8/d77/aio_8c_source.html#l00282">submit()</a>, and <a class="el" href="../../d1/dbe/ash_8c_source.html#l04311">waitproc()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d77/aio_8c_source.html#l00083">__aio_get_queue()</a>, <a class="el" href="../../df/d55/userspace__test_8c_source.html#l00475">__sig_mask_all()</a>, <a class="el" href="../../d8/d77/aio_8c_source.html#l00360">aio_cancel()</a>, <a class="el" href="../../d8/deb/forkpty_8c_source.html#l00009">forkpty()</a>, <a class="el" href="../../d8/dfe/lio__listio_8c_source.html#l00069">lio_listio()</a>, <a class="el" href="../../db/d51/mq__notify_8c_source.html#l00046">mq_notify()</a>, and <a class="el" href="../../d8/d77/aio_8c_source.html#l00282">submit()</a>.</p>
 
 </div>
 </div>

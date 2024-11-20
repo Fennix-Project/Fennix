@@ -9,7 +9,7 @@ var dir_6d4e796bc87c97505d696c7bc4c025d7 =
     [ "catgets.c", "d7/d70/catgets_8c.html", "d7/d70/catgets_8c" ],
     [ "catopen.c", "d0/d67/catopen_8c.html", "d0/d67/catopen_8c" ],
     [ "codepages.h", "d4/d2b/codepages_8h.html", null ],
-    [ "dcngettext.c", "d1/dfa/musl_2src_2locale_2dcngettext_8c.html", "d1/dfa/musl_2src_2locale_2dcngettext_8c" ],
+    [ "dcngettext.c", "d1/de7/dcngettext_8c.html", "d1/de7/dcngettext_8c" ],
     [ "duplocale.c", "d6/dd1/duplocale_8c.html", "d6/dd1/duplocale_8c" ],
     [ "freelocale.c", "dc/d86/freelocale_8c.html", "dc/d86/freelocale_8c" ],
     [ "gb18030.h", "d3/d61/gb18030_8h.html", null ],
@@ -31,7 +31,7 @@ var dir_6d4e796bc87c97505d696c7bc4c025d7 =
     [ "strfmon.c", "d3/d07/strfmon_8c.html", "d3/d07/strfmon_8c" ],
     [ "strtod_l.c", "de/d72/strtod__l_8c.html", "de/d72/strtod__l_8c" ],
     [ "strxfrm.c", "de/d17/strxfrm_8c.html", "de/d17/strxfrm_8c" ],
-    [ "textdomain.c", "dc/d42/musl_2src_2locale_2textdomain_8c.html", "dc/d42/musl_2src_2locale_2textdomain_8c" ],
+    [ "textdomain.c", "d6/df6/textdomain_8c.html", "d6/df6/textdomain_8c" ],
     [ "uselocale.c", "d7/d37/uselocale_8c.html", "d7/d37/uselocale_8c" ],
     [ "wcscoll.c", "db/d8a/wcscoll_8c.html", "db/d8a/wcscoll_8c" ],
     [ "wcsxfrm.c", "d0/d48/wcsxfrm_8c.html", "d0/d48/wcsxfrm_8c" ]

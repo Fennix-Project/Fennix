@@ -129,7 +129,7 @@ $(document).ready(function(){initNavTree('d9/dab/i__endoom_8c_source.html','../.
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#ifdef ORIGCODE</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *screendata;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d6/d90/hush_8c.html#a63573b8e4d6bd1efc2657355a72c032e">indent</a>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">int</span> indent;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="comment">// Set up text mode screen</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
@@ -141,12 +141,12 @@ $(document).ready(function(){initNavTree('d9/dab/i__endoom_8c_source.html','../.
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    screendata = TXT_GetScreenData();</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <a class="code" href="../../d6/d90/hush_8c.html#a63573b8e4d6bd1efc2657355a72c032e">indent</a> = (<a class="code" href="../../d9/dab/i__endoom_8c.html#add1107f947f16e9506490c3cf1dd11a2">ENDOOM_W</a> - TXT_SCREEN_W) / 2;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    indent = (<a class="code" href="../../d9/dab/i__endoom_8c.html#add1107f947f16e9506490c3cf1dd11a2">ENDOOM_W</a> - TXT_SCREEN_W) / 2;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>=0; <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>&lt;TXT_SCREEN_H; ++<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>)</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    {</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <a class="code" href="../../d3/d82/convert_8h.html#a309e07aa23e76adc2ad0830978663c45">memcpy</a>(screendata + (<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a> * TXT_SCREEN_W * 2),</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;               endoom_data + (<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a> * <a class="code" href="../../d9/dab/i__endoom_8c.html#add1107f947f16e9506490c3cf1dd11a2">ENDOOM_W</a> + <a class="code" href="../../d6/d90/hush_8c.html#a63573b8e4d6bd1efc2657355a72c032e">indent</a>) * 2,</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;               endoom_data + (<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a> * <a class="code" href="../../d9/dab/i__endoom_8c.html#add1107f947f16e9506490c3cf1dd11a2">ENDOOM_W</a> + indent) * 2,</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;               TXT_SCREEN_W * 2);</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
@@ -171,10 +171,9 @@ $(document).ready(function(){initNavTree('d9/dab/i__endoom_8c_source.html','../.
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;}</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
 <div class="ttc" id="aconfig_8h_html"><div class="ttname"><a href="../../db/d16/config_8h.html">config.h</a></div></div>
-<div class="ttc" id="aconvert_8h_html_a309e07aa23e76adc2ad0830978663c45"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a309e07aa23e76adc2ad0830978663c45">memcpy</a></div><div class="ttdeci">#define memcpy(dest, src, n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d82/convert_8h_source.html#l00125">convert.h:125</a></div></div>
+<div class="ttc" id="aconvert_8h_html_a309e07aa23e76adc2ad0830978663c45"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a309e07aa23e76adc2ad0830978663c45">memcpy</a></div><div class="ttdeci">#define memcpy(dest, src, n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d82/convert_8h_source.html#l00122">convert.h:122</a></div></div>
 <div class="ttc" id="adoomtype_8h_html"><div class="ttname"><a href="../../d8/d3a/doomtype_8h.html">doomtype.h</a></div></div>
 <div class="ttc" id="af__wipe_8c_html_a60ca3f7e128ed4283d00a73c65558617"><div class="ttname"><a href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a></div><div class="ttdeci">static int * y</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db0/f__wipe_8c_source.html#l00130">f_wipe.c:130</a></div></div>
-<div class="ttc" id="ahush_8c_html_a63573b8e4d6bd1efc2657355a72c032e"><div class="ttname"><a href="../../d6/d90/hush_8c.html#a63573b8e4d6bd1efc2657355a72c032e">indent</a></div><div class="ttdeci">#define indent()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d90/hush_8c_source.html#l01258">hush.c:1258</a></div></div>
 <div class="ttc" id="ai__endoom_8c_html_ab7bb0db7f4a13b2f8755a89d0ad6a758"><div class="ttname"><a href="../../d9/dab/i__endoom_8c.html#ab7bb0db7f4a13b2f8755a89d0ad6a758">I_Endoom</a></div><div class="ttdeci">void I_Endoom(byte *endoom_data)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dab/i__endoom_8c_source.html#l00036">i_endoom.c:36</a></div></div>
 <div class="ttc" id="ai__endoom_8c_html_add1107f947f16e9506490c3cf1dd11a2"><div class="ttname"><a href="../../d9/dab/i__endoom_8c.html#add1107f947f16e9506490c3cf1dd11a2">ENDOOM_W</a></div><div class="ttdeci">#define ENDOOM_W</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dab/i__endoom_8c_source.html#l00029">i_endoom.c:29</a></div></div>
 <div class="ttc" id="ai__video_8h_html"><div class="ttname"><a href="../../de/da9/i__video_8h.html">i_video.h</a></div></div>

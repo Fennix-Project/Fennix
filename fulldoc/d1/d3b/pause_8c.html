@@ -121,17 +121,15 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d1/d3b/pause_8c_source.html#l00004">4</a> of file <a class="el" href="../../d1/d3b/pause_8c_source.html">pause.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#ifdef SYS_pause</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d9/db2/Userspace_2musl_2src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a>(SYS_pause);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a>(SYS_pause);</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d9/db2/Userspace_2musl_2src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a>(<a class="code" href="../../d9/db2/Userspace_2musl_2src_2internal_2syscall_8h.html#abe031dfe699622b5f44152accd1bbbaf">SYS_ppoll</a>, 0, 0, 0, 0);</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a>(<a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#abe031dfe699622b5f44152accd1bbbaf">SYS_ppoll</a>, 0, 0, 0, 0);</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
-<div class="ttc" id="aUserspace_2musl_2src_2internal_2syscall_8h_html_a0dc7f19edb1df0f10eb8270a15b7b994"><div class="ttname"><a href="../../d9/db2/Userspace_2musl_2src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a></div><div class="ttdeci">#define syscall_cp(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/db2/Userspace_2musl_2src_2internal_2syscall_8h_source.html#l00059">syscall.h:59</a></div></div>
-<div class="ttc" id="aUserspace_2musl_2src_2internal_2syscall_8h_html_abe031dfe699622b5f44152accd1bbbaf"><div class="ttname"><a href="../../d9/db2/Userspace_2musl_2src_2internal_2syscall_8h.html#abe031dfe699622b5f44152accd1bbbaf">SYS_ppoll</a></div><div class="ttdeci">#define SYS_ppoll</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/db2/Userspace_2musl_2src_2internal_2syscall_8h_source.html#l00294">syscall.h:294</a></div></div>
+<div class="ttc" id="asrc_2internal_2syscall_8h_html_a0dc7f19edb1df0f10eb8270a15b7b994"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a></div><div class="ttdeci">#define syscall_cp(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00059">syscall.h:59</a></div></div>
+<div class="ttc" id="asrc_2internal_2syscall_8h_html_abe031dfe699622b5f44152accd1bbbaf"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#abe031dfe699622b5f44152accd1bbbaf">SYS_ppoll</a></div><div class="ttdeci">#define SYS_ppoll</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00294">syscall.h:294</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/db2/Userspace_2musl_2src_2internal_2syscall_8h_source.html#l00294">SYS_ppoll</a>, and <a class="el" href="../../d9/db2/Userspace_2musl_2src_2internal_2syscall_8h_source.html#l00059">syscall_cp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d5/d3d/msgbox_8c_source.html#l00028">dialog_msgbox()</a>, and <a class="el" href="../../db/d91/mpstat_8c_source.html#l00668">main_loop()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00294">SYS_ppoll</a>, and <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00059">syscall_cp</a>.</p>
 
 </div>
 </div>

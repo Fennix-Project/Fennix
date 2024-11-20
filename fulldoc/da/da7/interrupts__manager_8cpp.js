@@ -14,6 +14,8 @@ var interrupts__manager_8cpp =
     [ "RemoveHandler", "da/da7/interrupts__manager_8cpp.html#aa17859fc27dd7c7d61a07aa6bb8c6046", null ],
     [ "RemoveHandler", "da/da7/interrupts__manager_8cpp.html#a60ce955e69f33f2388dcc63a09c277e6", null ],
     [ "RemoveHandler", "da/da7/interrupts__manager_8cpp.html#a79a4bf53f777596006e7b13ff8d55717", null ],
+    [ "ReturnFromInterrupt", "da/da7/interrupts__manager_8cpp.html#a8919ed95681c2868215c4b378ea01897", null ],
+    [ "SchedulerInterruptHandler", "da/da7/interrupts__manager_8cpp.html#a89410856549ec20100ee11e8abf820be", null ],
     [ "RegisteredEvents", "da/da7/interrupts__manager_8cpp.html#ae790f507e4d7e3e4aaf00aa0613431b0", null ],
     [ "SORT_ITR", "da/da7/interrupts__manager_8cpp.html#a82df07424b6c6705a5dcc04f580316b8", null ],
     [ "SortEvents", "da/da7/interrupts__manager_8cpp.html#a2124862a0734e9dac41c008d17d6d5c2", null ]

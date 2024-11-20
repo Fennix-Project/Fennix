@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix Kernel: Kernel/core/panic/keyboard.hpp File Reference</title>
+<title>Fennix Kernel: Kernel/core/panic/kbd/keyboard.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,8 +86,8 @@ $(document).ready(function(){initNavTree('dd/d39/keyboard_8hpp.html','../../'); 
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Data Structures</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">keyboard.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -96,11 +96,6 @@ $(document).ready(function(){initNavTree('dd/d39/keyboard_8hpp.html','../../'); 
 </div>
 <p><a href="../../dd/d39/keyboard_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Data Structures</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d9a/classCrashKeyboardDriver.html">CrashKeyboardDriver</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:a0ada92b8263d776ca3c779d2a0e031bc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d39/keyboard_8hpp.html#a0ada92b8263d776ca3c779d2a0e031bc">Keys</a> { <br />
@@ -326,6 +321,11 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a0ada92b8263d776ca3c779d2a0e031bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a27159ab04d62f8b16065209ccfc8e1ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d39/keyboard_8hpp.html#a27159ab04d62f8b16065209ccfc8e1ba">InitializeKeyboards</a> ()</td></tr>
+<tr class="separator:a27159ab04d62f8b16065209ccfc8e1ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a0ada92b8263d776ca3c779d2a0e031bc"></a>
@@ -880,12 +880,42 @@ Enumerations</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a27159ab04d62f8b16065209ccfc8e1ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27159ab04d62f8b16065209ccfc8e1ba">&#9670;&nbsp;</a></span>InitializeKeyboards()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InitializeKeyboards </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/df5/keyboard_8cpp_source.html#l00097">97</a> of file <a class="el" href="../../d7/df5/keyboard_8cpp_source.html">keyboard.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;{</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d7/df5/keyboard_8cpp.html#a2654455b2d2dd17eea9f598fc733464a">DetectUSBKeyboard</a>() == <span class="keyword">false</span>)</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keyword">new</span> <a class="code" href="../../d3/df8/classCrashPS2KeyboardDriver.html">CrashPS2KeyboardDriver</a>;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}</div>
+<div class="ttc" id="aclassCrashPS2KeyboardDriver_html"><div class="ttname"><a href="../../d3/df8/classCrashPS2KeyboardDriver.html">CrashPS2KeyboardDriver</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/d14/ps2_8hpp_source.html#l00022">ps2.hpp:23</a></div></div>
+<div class="ttc" id="akeyboard_8cpp_html_a2654455b2d2dd17eea9f598fc733464a"><div class="ttname"><a href="../../d7/df5/keyboard_8cpp.html#a2654455b2d2dd17eea9f598fc733464a">DetectUSBKeyboard</a></div><div class="ttdeci">nsa bool DetectUSBKeyboard()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/df5/keyboard_8cpp_source.html#l00045">keyboard.cpp:45</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d7/df5/keyboard_8cpp_source.html#l00045">DetectUSBKeyboard()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/d38/ui_8cpp_source.html#l00625">DisplayCrashScreen()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_4b43f92f3b36afcf854dcf934e6beeae.html">core</a></li><li class="navelem"><a class="el" href="../../dir_166b9d5f57a7c18d09b2e7d550fe7548.html">panic</a></li><li class="navelem"><a class="el" href="../../dd/d39/keyboard_8hpp.html">keyboard.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_4b43f92f3b36afcf854dcf934e6beeae.html">core</a></li><li class="navelem"><a class="el" href="../../dir_166b9d5f57a7c18d09b2e7d550fe7548.html">panic</a></li><li class="navelem"><a class="el" href="../../dir_17fb9bd42a4972a58ec984a7ee5ef0ed.html">kbd</a></li><li class="navelem"><a class="el" href="../../dd/d39/keyboard_8hpp.html">keyboard.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('dd/ded/clock__getres_8c.html','../../'
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1dcb2e3ecc869c4c9ad03c700a030025"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/clock__getres_8c.html#a1dcb2e3ecc869c4c9ad03c700a030025">clock_getres</a> (clockid_t clk, struct <a class="el" href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a> *ts)</td></tr>
+<tr class="memitem:a1dcb2e3ecc869c4c9ad03c700a030025"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/ded/clock__getres_8c.html#a1dcb2e3ecc869c4c9ad03c700a030025">clock_getres</a> (clockid_t clk, struct timespec *ts)</td></tr>
 <tr class="separator:a1dcb2e3ecc869c4c9ad03c700a030025"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -117,7 +117,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct <a class="el" href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a> *&#160;</td>
+          <td class="paramtype">struct timespec *&#160;</td>
           <td class="paramname"><em>ts</em>&#160;</td>
         </tr>
         <tr>
@@ -136,8 +136,8 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <span class="keywordtype">long</span> ts32[2];</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keywordtype">int</span> r = <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(<a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#afaf5e47b25bcc83ddd65826a289fd415">SYS_clock_getres</a>, clk, ts32);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keywordflow">if</span> (!r &amp;&amp; ts) {</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;            ts-&gt;<a class="code" href="../../de/d79/stat-time_8h.html#afc3302668d7cb5952f590da69fdd4955">tv_sec</a> = ts32[0];</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;            ts-&gt;<a class="code" href="../../de/d79/stat-time_8h.html#aa9689622a344d847333e534ac23d3093">tv_nsec</a> = ts32[1];</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;            ts-&gt;tv_sec = ts32[0];</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;            ts-&gt;tv_nsec = ts32[1];</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        }</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a>(r);</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    }</div>
@@ -149,11 +149,9 @@ Functions</h2></td></tr>
 <div class="ttc" id="asrc_2internal_2syscall_8h_html_a2c82a4fb7243bb9b67ca2a9ed8efa8d1"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a></div><div class="ttdeci">#define __syscall(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00044">syscall.h:44</a></div></div>
 <div class="ttc" id="asrc_2internal_2syscall_8h_html_ae35b4389e042ebbd967999e95f514b84"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a></div><div class="ttdeci">hidden long __syscall_ret(unsigned long)</div></div>
 <div class="ttc" id="asrc_2internal_2syscall_8h_html_afaf5e47b25bcc83ddd65826a289fd415"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#afaf5e47b25bcc83ddd65826a289fd415">SYS_clock_getres</a></div><div class="ttdeci">#define SYS_clock_getres</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00262">syscall.h:262</a></div></div>
-<div class="ttc" id="astat-time_8h_html_aa9689622a344d847333e534ac23d3093"><div class="ttname"><a href="../../de/d79/stat-time_8h.html#aa9689622a344d847333e534ac23d3093">timespec::tv_nsec</a></div><div class="ttdeci">long int tv_nsec</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d79/stat-time_8h_source.html#l00037">stat-time.h:37</a></div></div>
-<div class="ttc" id="astat-time_8h_html_afc3302668d7cb5952f590da69fdd4955"><div class="ttname"><a href="../../de/d79/stat-time_8h.html#afc3302668d7cb5952f590da69fdd4955">timespec::tv_sec</a></div><div class="ttdeci">time_t tv_sec</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d79/stat-time_8h_source.html#l00036">stat-time.h:36</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00044">__syscall</a>, <a class="el" href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret()</a>, <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00262">SYS_clock_getres</a>, <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>, <a class="el" href="../../de/d79/stat-time_8h_source.html#l00037">timespec::tv_nsec</a>, and <a class="el" href="../../de/d79/stat-time_8h_source.html#l00036">timespec::tv_sec</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00044">__syscall</a>, <a class="el" href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret()</a>, <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00262">SYS_clock_getres</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/dc1/clock__getres__time32_8c_source.html#l00004">__clock_getres_time32()</a>.</p>
 

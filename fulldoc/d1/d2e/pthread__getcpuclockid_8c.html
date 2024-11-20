@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d1/d2e/pthread__getcpuclockid_8c.html'
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:acc5ca95ff2595805bf0de541bb76f093"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2e/pthread__getcpuclockid_8c.html#acc5ca95ff2595805bf0de541bb76f093">pthread_getcpuclockid</a> (pthread_t <a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>, <a class="el" href="../../da/d63/defs_8hpp.html#a6dcac6a5cea7d9c842145e1444d91e22">clockid_t</a> *clockid)</td></tr>
+<tr class="memitem:acc5ca95ff2595805bf0de541bb76f093"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d2e/pthread__getcpuclockid_8c.html#acc5ca95ff2595805bf0de541bb76f093">pthread_getcpuclockid</a> (pthread_t t, <a class="el" href="../../da/d63/defs_8hpp.html#a6dcac6a5cea7d9c842145e1444d91e22">clockid_t</a> *clockid)</td></tr>
 <tr class="separator:acc5ca95ff2595805bf0de541bb76f093"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -129,13 +129,10 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d2e/pthread__getcpuclockid_8c_source.html#l00003">3</a> of file <a class="el" href="../../d1/d2e/pthread__getcpuclockid_8c_source.html">pthread_getcpuclockid.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    *clockid = (-<a class="code" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>-&gt;tid-1)*8U + 6;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    *clockid = (-t-&gt;tid-1)*8U + 6;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="agm__loop_8c_html_ac310d9181e916ba43604099aee272c71"><div class="ttname"><a href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a></div><div class="ttdeci">int t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dec/gm__loop_8c_source.html#l00079">gm_loop.c:79</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/dec/gm__loop_8c_source.html#l00079">t</a>.</p>
-
 </div>
 </div>
 </div><!-- contents -->

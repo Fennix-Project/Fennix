@@ -107,8 +107,8 @@ Macros</h2></td></tr>
 <tr class="memitem:ad77b98f7bd91929f334b5dcee7d70b70"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#ad77b98f7bd91929f334b5dcee7d70b70">LCS</a>&#160;&#160;&#160;<a class="el" href="../../d3/d5a/base_8h.html#afc1426fdf2c3d2219d94b4c1f63e2b6d">LeaveCriticalSection</a>(__ECS)</td></tr>
 <tr class="memdesc:ad77b98f7bd91929f334b5dcee7d70b70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Leave a critical section.  <a href="../../d3/d5a/base_8h.html#ad77b98f7bd91929f334b5dcee7d70b70">More...</a><br /></td></tr>
 <tr class="separator:ad77b98f7bd91929f334b5dcee7d70b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf7409fcedfd7c9da9535a7998fd5b88"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#acf7409fcedfd7c9da9535a7998fd5b88">DriverInfo</a>(Name,  Description,  Author,  Version,  License)</td></tr>
-<tr class="separator:acf7409fcedfd7c9da9535a7998fd5b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64570467e9a2b5c9dffcedc5ad1a5cc2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#a64570467e9a2b5c9dffcedc5ad1a5cc2">DriverInfo</a>(_Name,  _Description,  _Author,  _MajorVersion,  _MinorVersion,  _PathVersion,  _License)</td></tr>
+<tr class="separator:a64570467e9a2b5c9dffcedc5ad1a5cc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a967a363e442e6f2e6755b582197a37ca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#a967a363e442e6f2e6755b582197a37ca">DebugLog</a>(m, ...)</td></tr>
 <tr class="separator:a967a363e442e6f2e6755b582197a37ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9bc2e6a6a21f039acd70beef404e784"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#ac9bc2e6a6a21f039acd70beef404e784">memcpy</a>(dest,  src,  len)&#160;&#160;&#160;<a class="el" href="../../d3/d5a/base_8h.html#a64d849d68328d859090bfe3a93c2226d">MemoryCopy</a>(dest, src, len)</td></tr>
@@ -139,18 +139,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a1e8a8b3ff1b02183d5cd3ccbce724ac4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#a1e8a8b3ff1b02183d5cd3ccbce724ac4">RemoveMapFlag</a> (void *Address, <a class="el" href="../../db/de4/driver_8h.html#ac0416d24abd7b108d48d16eb4e913e8a">PageMapFlags</a> Flag)</td></tr>
 <tr class="memdesc:a1e8a8b3ff1b02183d5cd3ccbce724ac4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a flag from a page.  <a href="../../d3/d5a/base_8h.html#a1e8a8b3ff1b02183d5cd3ccbce724ac4">More...</a><br /></td></tr>
 <tr class="separator:a1e8a8b3ff1b02183d5cd3ccbce724ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeee62f71bb08039e50d9c5fdbe57ba10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#aeee62f71bb08039e50d9c5fdbe57ba10">MapPages</a> (void *PhysicalAddress, void *VirtualAddress, <a class="el" href="../../d9/d49/types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> Pages, <a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> Flags)</td></tr>
+<tr class="memitem:aeee62f71bb08039e50d9c5fdbe57ba10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#aeee62f71bb08039e50d9c5fdbe57ba10">MapPages</a> (void *PhysicalAddress, void *VirtualAddress, <a class="el" href="../../d9/d49/types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> Pages, <a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> <a class="el" href="../../df/d26/fs_8h.html#ac3e60a9fc42fb6c0b656191ebb1d658b">Flags</a>)</td></tr>
 <tr class="memdesc:aeee62f71bb08039e50d9c5fdbe57ba10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map pages.  <a href="../../d3/d5a/base_8h.html#aeee62f71bb08039e50d9c5fdbe57ba10">More...</a><br /></td></tr>
 <tr class="separator:aeee62f71bb08039e50d9c5fdbe57ba10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7f09bf7ea973ee522dd4e3c07ae9ab4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#ae7f09bf7ea973ee522dd4e3c07ae9ab4">UnmapPages</a> (void *VirtualAddress, <a class="el" href="../../d9/d49/types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> Pages)</td></tr>
 <tr class="memdesc:ae7f09bf7ea973ee522dd4e3c07ae9ab4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unmap pages.  <a href="../../d3/d5a/base_8h.html#ae7f09bf7ea973ee522dd4e3c07ae9ab4">More...</a><br /></td></tr>
 <tr class="separator:ae7f09bf7ea973ee522dd4e3c07ae9ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84b235db1de6587332de63b15e2ae1d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#a84b235db1de6587332de63b15e2ae1d3">KPrint</a> (const char *Format,...)</td></tr>
-<tr class="memdesc:a84b235db1de6587332de63b15e2ae1d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print to the screen.  <a href="../../d3/d5a/base_8h.html#a84b235db1de6587332de63b15e2ae1d3">More...</a><br /></td></tr>
-<tr class="separator:a84b235db1de6587332de63b15e2ae1d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d2945c5952955d702f894ff0e4fc618"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#a2d2945c5952955d702f894ff0e4fc618">Log</a> (const char *Format,...)</td></tr>
-<tr class="memdesc:a2d2945c5952955d702f894ff0e4fc618"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print to the kernel logger.  <a href="../../d3/d5a/base_8h.html#a2d2945c5952955d702f894ff0e4fc618">More...</a><br /></td></tr>
-<tr class="separator:a2d2945c5952955d702f894ff0e4fc618"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b7585badf9fb134ba458959132e6af8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#a8b7585badf9fb134ba458959132e6af8">KernelPrint</a> (const char *Format,...)</td></tr>
+<tr class="memdesc:a8b7585badf9fb134ba458959132e6af8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print to the kernel terminal.  <a href="../../d3/d5a/base_8h.html#a8b7585badf9fb134ba458959132e6af8">More...</a><br /></td></tr>
+<tr class="separator:a8b7585badf9fb134ba458959132e6af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbec1d50fc4fef89a572ceec6c5c4e9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#acbec1d50fc4fef89a572ceec6c5c4e9f">KernelLog</a> (const char *Format,...)</td></tr>
+<tr class="memdesc:acbec1d50fc4fef89a572ceec6c5c4e9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Print to the kernel logger.  <a href="../../d3/d5a/base_8h.html#acbec1d50fc4fef89a572ceec6c5c4e9f">More...</a><br /></td></tr>
+<tr class="separator:acbec1d50fc4fef89a572ceec6c5c4e9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed35d65304d5b8507a5dc9df229cc900"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#aed35d65304d5b8507a5dc9df229cc900">RegisterInterruptHandler</a> (<a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> IRQ, void *Handler)</td></tr>
 <tr class="memdesc:aed35d65304d5b8507a5dc9df229cc900"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register an interrupt handler.  <a href="../../d3/d5a/base_8h.html#aed35d65304d5b8507a5dc9df229cc900">More...</a><br /></td></tr>
 <tr class="separator:aed35d65304d5b8507a5dc9df229cc900"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,18 +177,21 @@ Functions</h2></td></tr>
 <tr class="separator:a6c0d1d66a33b805dba236962c5ac2ed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6adfc9cc9e338a8491d75f50bb4fcc6"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#af6adfc9cc9e338a8491d75f50bb4fcc6">strstr</a> (const char *Haystack, const char *Needle)</td></tr>
 <tr class="separator:af6adfc9cc9e338a8491d75f50bb4fcc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a737c6ea529f1dcfec482fda5ec758eb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a288e13e815d43b06e75819f8939524df">pid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#a737c6ea529f1dcfec482fda5ec758eb1">CreateKernelProcess</a> (const char *Name)</td></tr>
+<tr class="memitem:a737c6ea529f1dcfec482fda5ec758eb1"><td class="memItemLeft" align="right" valign="top">pid_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#a737c6ea529f1dcfec482fda5ec758eb1">CreateKernelProcess</a> (const char *<a class="el" href="../../df/d26/fs_8h.html#a760b4e07b204e4852e7fb55e25567623">Name</a>)</td></tr>
 <tr class="memdesc:a737c6ea529f1dcfec482fda5ec758eb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a kernel process.  <a href="../../d3/d5a/base_8h.html#a737c6ea529f1dcfec482fda5ec758eb1">More...</a><br /></td></tr>
 <tr class="separator:a737c6ea529f1dcfec482fda5ec758eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4de1ed77e3d77cbd6305c40a3ace0911"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a288e13e815d43b06e75819f8939524df">pid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#a4de1ed77e3d77cbd6305c40a3ace0911">CreateKernelThread</a> (<a class="el" href="../../d9/d49/types_8h.html#a288e13e815d43b06e75819f8939524df">pid_t</a> pId, const char *Name, void *EntryPoint, void *Argument)</td></tr>
+<tr class="memitem:a4de1ed77e3d77cbd6305c40a3ace0911"><td class="memItemLeft" align="right" valign="top">pid_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#a4de1ed77e3d77cbd6305c40a3ace0911">CreateKernelThread</a> (pid_t pId, const char *<a class="el" href="../../df/d26/fs_8h.html#a760b4e07b204e4852e7fb55e25567623">Name</a>, void *EntryPoint, void *Argument)</td></tr>
 <tr class="memdesc:a4de1ed77e3d77cbd6305c40a3ace0911"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a kernel thread.  <a href="../../d3/d5a/base_8h.html#a4de1ed77e3d77cbd6305c40a3ace0911">More...</a><br /></td></tr>
 <tr class="separator:a4de1ed77e3d77cbd6305c40a3ace0911"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29884044d0d0e46bcb9e7042eb111096"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#a29884044d0d0e46bcb9e7042eb111096">KillProcess</a> (<a class="el" href="../../d9/d49/types_8h.html#a288e13e815d43b06e75819f8939524df">pid_t</a> pId, int ExitCode)</td></tr>
+<tr class="memitem:afcecd822204677ec22819f32b7d9f38e"><td class="memItemLeft" align="right" valign="top">pid_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#afcecd822204677ec22819f32b7d9f38e">GetCurrentProcess</a> ()</td></tr>
+<tr class="memdesc:afcecd822204677ec22819f32b7d9f38e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the PID of the current process.  <a href="../../d3/d5a/base_8h.html#afcecd822204677ec22819f32b7d9f38e">More...</a><br /></td></tr>
+<tr class="separator:afcecd822204677ec22819f32b7d9f38e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29884044d0d0e46bcb9e7042eb111096"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#a29884044d0d0e46bcb9e7042eb111096">KillProcess</a> (pid_t pId, int ExitCode)</td></tr>
 <tr class="memdesc:a29884044d0d0e46bcb9e7042eb111096"><td class="mdescLeft">&#160;</td><td class="mdescRight">Kill a process.  <a href="../../d3/d5a/base_8h.html#a29884044d0d0e46bcb9e7042eb111096">More...</a><br /></td></tr>
 <tr class="separator:a29884044d0d0e46bcb9e7042eb111096"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a991039494716eebd4551aa92ee1503b5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#a991039494716eebd4551aa92ee1503b5">KillThread</a> (<a class="el" href="../../d9/d49/types_8h.html#a288e13e815d43b06e75819f8939524df">pid_t</a> tId, int ExitCode)</td></tr>
-<tr class="memdesc:a991039494716eebd4551aa92ee1503b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Kill a thread.  <a href="../../d3/d5a/base_8h.html#a991039494716eebd4551aa92ee1503b5">More...</a><br /></td></tr>
-<tr class="separator:a991039494716eebd4551aa92ee1503b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d9c415863085993ec77dbd7c3273666"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#a4d9c415863085993ec77dbd7c3273666">KillThread</a> (pid_t tId, pid_t pId, int ExitCode)</td></tr>
+<tr class="memdesc:a4d9c415863085993ec77dbd7c3273666"><td class="mdescLeft">&#160;</td><td class="mdescRight">Kill a thread.  <a href="../../d3/d5a/base_8h.html#a4d9c415863085993ec77dbd7c3273666">More...</a><br /></td></tr>
+<tr class="separator:a4d9c415863085993ec77dbd7c3273666"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1c0e21e0767ef32cb1a785ed610e839"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5a/base_8h.html#af1c0e21e0767ef32cb1a785ed610e839">Yield</a> ()</td></tr>
 <tr class="memdesc:af1c0e21e0767ef32cb1a785ed610e839"><td class="mdescLeft">&#160;</td><td class="mdescRight">Yield the current thread.  <a href="../../d3/d5a/base_8h.html#af1c0e21e0767ef32cb1a785ed610e839">More...</a><br /></td></tr>
 <tr class="separator:af1c0e21e0767ef32cb1a785ed610e839"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -229,12 +232,12 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d5a/base_8h_source.html#l00249">249</a> of file <a class="el" href="../../d3/d5a/base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d5a/base_8h_source.html#l00259">259</a> of file <a class="el" href="../../d3/d5a/base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
-<a id="acf7409fcedfd7c9da9535a7998fd5b88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf7409fcedfd7c9da9535a7998fd5b88">&#9670;&nbsp;</a></span>DriverInfo</h2>
+<a id="a64570467e9a2b5c9dffcedc5ad1a5cc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64570467e9a2b5c9dffcedc5ad1a5cc2">&#9670;&nbsp;</a></span>DriverInfo</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -243,31 +246,43 @@ Functions</h2></td></tr>
           <td class="memname">#define DriverInfo</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">Name, </td>
+          <td class="paramname">_Name, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">Description, </td>
+          <td class="paramname">_Description, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">Author, </td>
+          <td class="paramname">_Author, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">Version, </td>
+          <td class="paramname">_MajorVersion, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">License&#160;</td>
+          <td class="paramname">_MinorVersion, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">_PathVersion, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">_License&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -276,16 +291,20 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordtype">void</span> __IdentifyDriver(                                              \</div>
-<div class="line">        <a class="code" href="../../d9/d49/types_8h.html#ab46c2d8e15a0ce794a8935841e5d6b92">dev_t</a> ID,                                                       \</div>
-<div class="line">        <span class="keywordtype">int</span> (*GetDriverInfo)(<a class="code" href="../../d9/d49/types_8h.html#ab46c2d8e15a0ce794a8935841e5d6b92">dev_t</a>, <span class="keyword">const</span> <span class="keywordtype">char</span> *, <span class="keyword">const</span> <span class="keywordtype">char</span> *,         \</div>
-<div class="line">                             <span class="keyword">const</span> <span class="keywordtype">char</span> *, <span class="keyword">const</span> <span class="keywordtype">char</span> *, <span class="keyword">const</span> <span class="keywordtype">char</span> *)) \</div>
-<div class="line">    {                                                                   \</div>
-<div class="line">        GetDriverInfo(ID, Name, Description, Author, Version, License); \</div>
-<div class="line">    }</div>
-<div class="ttc" id="atypes_8h_html_ab46c2d8e15a0ce794a8935841e5d6b92"><div class="ttname"><a href="../../d9/d49/types_8h.html#ab46c2d8e15a0ce794a8935841e5d6b92">dev_t</a></div><div class="ttdeci">__SIZE_TYPE__ dev_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00057">types.h:57</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code" href="../../df/d26/fs_8h.html#ae9d1c84bd8c5ad87f19dc53750668f1b">__attribute__</a>((section(<span class="stringliteral">&quot;.driver.info&quot;</span>))) struct <a class="code" href="../../db/de4/driver_8h.html#d8/d02/struct____DriverInfo">__DriverInfo</a> \</div>
+<div class="line">        __di = {.<a class="code" href="../../db/de4/driver_8h.html#aa4fad96d724cc497931ce8587436bdbe">Name</a> = _Name,                                   \</div>
+<div class="line">                .Description = _Description,                     \</div>
+<div class="line">                .Author = _Author,                               \</div>
+<div class="line">                .Version = {.APIVersion = 0,                     \</div>
+<div class="line">                            .Major = _MajorVersion,              \</div>
+<div class="line">                            .Minor = _MinorVersion,              \</div>
+<div class="line">                            .Patch = _PathVersion},              \</div>
+<div class="line">                .License = _License}</div>
+<div class="ttc" id="adriver_8h_html_aa4fad96d724cc497931ce8587436bdbe"><div class="ttname"><a href="../../db/de4/driver_8h.html#aa4fad96d724cc497931ce8587436bdbe">__DriverInfo::Name</a></div><div class="ttdeci">const char * Name</div><div class="ttdef"><b>Definition:</b> <a href="../../db/de4/driver_8h_source.html#l00065">driver.h:65</a></div></div>
+<div class="ttc" id="adriver_8h_html_d8/d02/struct____DriverInfo"><div class="ttname"><a href="../../db/de4/driver_8h.html#d8/d02/struct____DriverInfo">__DriverInfo</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/de4/driver_8h_source.html#l00063">driver.h:64</a></div></div>
+<div class="ttc" id="afs_8h_html_ae9d1c84bd8c5ad87f19dc53750668f1b"><div class="ttname"><a href="../../df/d26/fs_8h.html#ae9d1c84bd8c5ad87f19dc53750668f1b">__attribute__</a></div><div class="ttdeci">struct InodeOperations __attribute__((packed))</div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d3/d5a/base_8h_source.html#l00237">237</a> of file <a class="el" href="../../d3/d5a/base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d5a/base_8h_source.html#l00244">244</a> of file <a class="el" href="../../d3/d5a/base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -305,7 +324,7 @@ Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The previous interrupt state</dd></dl>
 <p>This function will disable interrupts and return the previous interrupt state. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d5a/base_8h_source.html#l00232">232</a> of file <a class="el" href="../../d3/d5a/base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d5a/base_8h_source.html#l00239">239</a> of file <a class="el" href="../../d3/d5a/base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -330,7 +349,7 @@ Functions</h2></td></tr>
 </dl>
 <p>This function will restore the previous interrupt state. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d5a/base_8h_source.html#l00235">235</a> of file <a class="el" href="../../d3/d5a/base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d5a/base_8h_source.html#l00242">242</a> of file <a class="el" href="../../d3/d5a/base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -366,7 +385,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d5a/base_8h_source.html#l00271">271</a> of file <a class="el" href="../../d3/d5a/base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d5a/base_8h_source.html#l00281">281</a> of file <a class="el" href="../../d3/d5a/base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -402,7 +421,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d5a/base_8h_source.html#l00273">273</a> of file <a class="el" href="../../d3/d5a/base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d5a/base_8h_source.html#l00283">283</a> of file <a class="el" href="../../d3/d5a/base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -438,7 +457,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d5a/base_8h_source.html#l00272">272</a> of file <a class="el" href="../../d3/d5a/base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d5a/base_8h_source.html#l00282">282</a> of file <a class="el" href="../../d3/d5a/base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -474,7 +493,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d5a/base_8h_source.html#l00275">275</a> of file <a class="el" href="../../d3/d5a/base_8h_source.html">base.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d5a/base_8h_source.html#l00285">285</a> of file <a class="el" href="../../d3/d5a/base_8h_source.html">base.h</a>.</p>
 
 </div>
 </div>
@@ -567,7 +586,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a288e13e815d43b06e75819f8939524df">pid_t</a> CreateKernelProcess </td>
+          <td class="memname">pid_t CreateKernelProcess </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>Name</em></td><td>)</td>
@@ -594,9 +613,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a288e13e815d43b06e75819f8939524df">pid_t</a> CreateKernelThread </td>
+          <td class="memname">pid_t CreateKernelThread </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a288e13e815d43b06e75819f8939524df">pid_t</a>&#160;</td>
+          <td class="paramtype">pid_t&#160;</td>
           <td class="paramname"><em>pId</em>, </td>
         </tr>
         <tr>
@@ -698,6 +717,101 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="afcecd822204677ec22819f32b7d9f38e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcecd822204677ec22819f32b7d9f38e">&#9670;&nbsp;</a></span>GetCurrentProcess()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">pid_t GetCurrentProcess </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the PID of the current process. </p>
+<dl class="section return"><dt>Returns</dt><dd>The PID of the current process </dd></dl>
+
+</div>
+</div>
+<a id="acbec1d50fc4fef89a572ceec6c5c4e9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbec1d50fc4fef89a572ceec6c5c4e9f">&#9670;&nbsp;</a></span>KernelLog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void KernelLog </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>Format</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print to the kernel logger. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Format</td><td>The format string </td></tr>
+    <tr><td class="paramname">...</td><td>The arguments to the format string </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8b7585badf9fb134ba458959132e6af8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b7585badf9fb134ba458959132e6af8">&#9670;&nbsp;</a></span>KernelPrint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void KernelPrint </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>Format</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Print to the kernel terminal. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Format</td><td>The format string </td></tr>
+    <tr><td class="paramname">...</td><td>The arguments to the format string</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>The newline character is automatically appended </dd></dl>
+
+</div>
+</div>
 <a id="a29884044d0d0e46bcb9e7042eb111096"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a29884044d0d0e46bcb9e7042eb111096">&#9670;&nbsp;</a></span>KillProcess()</h2>
 
@@ -707,7 +821,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int KillProcess </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a288e13e815d43b06e75819f8939524df">pid_t</a>&#160;</td>
+          <td class="paramtype">pid_t&#160;</td>
           <td class="paramname"><em>pId</em>, </td>
         </tr>
         <tr>
@@ -736,8 +850,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a991039494716eebd4551aa92ee1503b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a991039494716eebd4551aa92ee1503b5">&#9670;&nbsp;</a></span>KillThread()</h2>
+<a id="a4d9c415863085993ec77dbd7c3273666"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d9c415863085993ec77dbd7c3273666">&#9670;&nbsp;</a></span>KillThread()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -745,8 +859,14 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int KillThread </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a288e13e815d43b06e75819f8939524df">pid_t</a>&#160;</td>
+          <td class="paramtype">pid_t&#160;</td>
           <td class="paramname"><em>tId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">pid_t&#160;</td>
+          <td class="paramname"><em>pId</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -766,49 +886,12 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">tId</td><td>The TID of the thread to kill </td></tr>
+    <tr><td class="paramname">pId</td><td>The PID of the process the thread is in </td></tr>
     <tr><td class="paramname">ExitCode</td><td>The exit code of the thread </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>0 on success, errno on failure </dd></dl>
-
-</div>
-</div>
-<a id="a84b235db1de6587332de63b15e2ae1d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84b235db1de6587332de63b15e2ae1d3">&#9670;&nbsp;</a></span>KPrint()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void KPrint </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>Format</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Print to the screen. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">Format</td><td>The format string </td></tr>
-    <tr><td class="paramname">...</td><td>The arguments to the format string</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section note"><dt>Note</dt><dd>The newline character is automatically appended </dd></dl>
 
 </div>
 </div>
@@ -836,43 +919,6 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <p>This function will restore the previous interrupt state. </p>
-
-</div>
-</div>
-<a id="a2d2945c5952955d702f894ff0e4fc618"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d2945c5952955d702f894ff0e4fc618">&#9670;&nbsp;</a></span>Log()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Log </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>Format</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>...</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Print to the kernel logger. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">Format</td><td>The format string </td></tr>
-    <tr><td class="paramname">...</td><td>The arguments to the format string </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>

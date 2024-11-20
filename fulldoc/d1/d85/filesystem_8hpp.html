@@ -88,38 +88,34 @@ $(document).ready(function(){initNavTree('d1/d85/filesystem_8hpp.html','../../')
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">filesystem.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html">types.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d4/d8f/include_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../da/d46/Kernel_2include_2interface_2fs_8h_source.html">interface/fs.h</a>&gt;</code><br />
+<code>#include &lt;unordered_map&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d3/d01/Kernel_2include_2lock_8hpp_source.html">lock.hpp</a>&gt;</code><br />
 <code>#include &lt;errno.h&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;atomic&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
+<code>#include &lt;list&gt;</code><br />
 </div>
 <p><a href="../../d1/d85/filesystem_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
-<tr class="memitem:da/de7/structstat"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df2/Userspace_2musl_2arch_2x86__64_2bits_2stat_8h.html#da/de7/structstat">stat</a></td></tr>
-<tr class="memdesc:da/de7/structstat"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure holding information about a file, as returned by the stat function.  <a href="../../db/df2/Userspace_2musl_2arch_2x86__64_2bits_2stat_8h.html#da/de7/structstat">More...</a><br /></td></tr>
-<tr class="separator:da/de7/structstat"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d1/db2/structstat64"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#d1/db2/structstat64">stat64</a></td></tr>
-<tr class="memdesc:d1/db2/structstat64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extended structure for large file support, holding information about a file.  <a href="../../d1/d85/filesystem_8hpp.html#d1/db2/structstat64">More...</a><br /></td></tr>
-<tr class="separator:d1/db2/structstat64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d69/classvfs_1_1Node.html">vfs::Node</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dea/classFileNode.html">FileNode</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d28/classvfs_1_1RefNode.html">vfs::RefNode</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dc/d95/structvfs_1_1vfsInode"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dcb/namespacevfs.html#dc/d95/structvfs_1_1vfsInode">vfs::vfsInode</a></td></tr>
+<tr class="separator:dc/d95/structvfs_1_1vfsInode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d64/classvfs_1_1Virtual.html">vfs::Virtual</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d7/d9a/structvfs_1_1Virtual_1_1FSMountInfo"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d64/classvfs_1_1Virtual.html#d7/d9a/structvfs_1_1Virtual_1_1FSMountInfo">vfs::Virtual::FSMountInfo</a></td></tr>
+<tr class="separator:d7/d9a/structvfs_1_1Virtual_1_1FSMountInfo"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d5/d2f/structvfs_1_1Virtual_1_1CacheNode"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d64/classvfs_1_1Virtual.html#d5/d2f/structvfs_1_1Virtual_1_1CacheNode">vfs::Virtual::CacheNode</a></td></tr>
+<tr class="separator:d5/d2f/structvfs_1_1Virtual_1_1CacheNode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d88/classvfs_1_1FileDescriptorTable.html">vfs::FileDescriptorTable</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da8/structvfs_1_1FileDescriptorTable_1_1Fildes.html">vfs::FileDescriptorTable::Fildes</a></td></tr>
@@ -132,1962 +128,177 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a0d112bae8fd35be772185b6ec6bcbe64"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a0d112bae8fd35be772185b6ec6bcbe64">SEEK_SET</a>&#160;&#160;&#160;0</td></tr>
-<tr class="separator:a0d112bae8fd35be772185b6ec6bcbe64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c8d0b76b470ba65a43ca46a88320f39"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a4c8d0b76b470ba65a43ca46a88320f39">SEEK_CUR</a>&#160;&#160;&#160;1</td></tr>
-<tr class="separator:a4c8d0b76b470ba65a43ca46a88320f39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2a2e6c114780c3071efd24f16c7f7d8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#ad2a2e6c114780c3071efd24f16c7f7d8">SEEK_END</a>&#160;&#160;&#160;2</td></tr>
-<tr class="separator:ad2a2e6c114780c3071efd24f16c7f7d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40223db1b95a04f5b28cceb3c34cfebd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a40223db1b95a04f5b28cceb3c34cfebd">S_IXOTH</a>&#160;&#160;&#160;0001</td></tr>
-<tr class="separator:a40223db1b95a04f5b28cceb3c34cfebd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5303f49f26293acdb9533756c78322fb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a5303f49f26293acdb9533756c78322fb">S_IWOTH</a>&#160;&#160;&#160;0002</td></tr>
-<tr class="separator:a5303f49f26293acdb9533756c78322fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a071147a0cb995036967c80f64b1f74b9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a071147a0cb995036967c80f64b1f74b9">S_IROTH</a>&#160;&#160;&#160;0004</td></tr>
-<tr class="separator:a071147a0cb995036967c80f64b1f74b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b93e0da7fe32bbd4926626bffad96b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a5b93e0da7fe32bbd4926626bffad96b1">S_IRWXO</a>&#160;&#160;&#160;0007</td></tr>
-<tr class="separator:a5b93e0da7fe32bbd4926626bffad96b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a042e69ac0e7dd56e5cfcd9e97d010323"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a042e69ac0e7dd56e5cfcd9e97d010323">S_IXGRP</a>&#160;&#160;&#160;0010</td></tr>
-<tr class="separator:a042e69ac0e7dd56e5cfcd9e97d010323"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6774871a90d9442f00abe18b87fee6e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#ae6774871a90d9442f00abe18b87fee6e">S_IWGRP</a>&#160;&#160;&#160;0020</td></tr>
-<tr class="separator:ae6774871a90d9442f00abe18b87fee6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f5f280b929768113739fb34d6f7be8a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a4f5f280b929768113739fb34d6f7be8a">S_IRGRP</a>&#160;&#160;&#160;0040</td></tr>
-<tr class="separator:a4f5f280b929768113739fb34d6f7be8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a230c642d2bb81f15f85c122b1883de5c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a230c642d2bb81f15f85c122b1883de5c">S_IRWXG</a>&#160;&#160;&#160;0070</td></tr>
-<tr class="separator:a230c642d2bb81f15f85c122b1883de5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af10a35e3950795d6ee4e07157d000131"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#af10a35e3950795d6ee4e07157d000131">S_IXUSR</a>&#160;&#160;&#160;0100</td></tr>
-<tr class="separator:af10a35e3950795d6ee4e07157d000131"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad70001754261c15a1bdc8e876c6d09d7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#ad70001754261c15a1bdc8e876c6d09d7">S_IWUSR</a>&#160;&#160;&#160;0200</td></tr>
-<tr class="separator:ad70001754261c15a1bdc8e876c6d09d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84c7dbf5cf2fdfb690f76348b60a8cb7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a84c7dbf5cf2fdfb690f76348b60a8cb7">S_IRUSR</a>&#160;&#160;&#160;0400</td></tr>
-<tr class="separator:a84c7dbf5cf2fdfb690f76348b60a8cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe3da42e762f6362c93454682fad5eb5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#afe3da42e762f6362c93454682fad5eb5">S_IRWXU</a>&#160;&#160;&#160;0700</td></tr>
-<tr class="separator:afe3da42e762f6362c93454682fad5eb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a68c9ffaac7dbcd652225dd7c06a54b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a7a68c9ffaac7dbcd652225dd7c06a54b">O_RDONLY</a>&#160;&#160;&#160;00</td></tr>
-<tr class="separator:a7a68c9ffaac7dbcd652225dd7c06a54b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11b644a8526139c4cc1850dac1271ced"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a11b644a8526139c4cc1850dac1271ced">O_WRONLY</a>&#160;&#160;&#160;01</td></tr>
-<tr class="separator:a11b644a8526139c4cc1850dac1271ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb0586253488ee61072b73557eeb873b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#abb0586253488ee61072b73557eeb873b">O_RDWR</a>&#160;&#160;&#160;02</td></tr>
-<tr class="separator:abb0586253488ee61072b73557eeb873b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cf6b1de1fffedaa1d26b189e9a8d2cc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a1cf6b1de1fffedaa1d26b189e9a8d2cc">O_CREAT</a>&#160;&#160;&#160;0100</td></tr>
-<tr class="separator:a1cf6b1de1fffedaa1d26b189e9a8d2cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f5acfe79fafe14b6694447bd0e9f10b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a9f5acfe79fafe14b6694447bd0e9f10b">O_EXCL</a>&#160;&#160;&#160;0200</td></tr>
-<tr class="separator:a9f5acfe79fafe14b6694447bd0e9f10b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1d67e453fb3031f40f8cd3403773813"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#ad1d67e453fb3031f40f8cd3403773813">O_TRUNC</a>&#160;&#160;&#160;01000</td></tr>
-<tr class="separator:ad1d67e453fb3031f40f8cd3403773813"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae036f789407d21f07b211552d67b3214"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#ae036f789407d21f07b211552d67b3214">O_APPEND</a>&#160;&#160;&#160;02000</td></tr>
-<tr class="separator:ae036f789407d21f07b211552d67b3214"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6d8fbe4e494b4dbe051612572d3f757"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#ad6d8fbe4e494b4dbe051612572d3f757">O_CLOEXEC</a>&#160;&#160;&#160;02000000</td></tr>
-<tr class="separator:ad6d8fbe4e494b4dbe051612572d3f757"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4966f25d9f03a7a06bc47ac729fd86cf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a4966f25d9f03a7a06bc47ac729fd86cf">S_IFIFO</a>&#160;&#160;&#160;0010000</td></tr>
-<tr class="separator:a4966f25d9f03a7a06bc47ac729fd86cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef3a1d1ba22c83e30b5c834dd343b2a8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#aef3a1d1ba22c83e30b5c834dd343b2a8">S_IFCHR</a>&#160;&#160;&#160;0020000</td></tr>
-<tr class="separator:aef3a1d1ba22c83e30b5c834dd343b2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11fb0652b963a735f3377eb1c9239f2d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a11fb0652b963a735f3377eb1c9239f2d">S_IFDIR</a>&#160;&#160;&#160;0040000</td></tr>
-<tr class="separator:a11fb0652b963a735f3377eb1c9239f2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c5b74a1cb1a1ae83572500b94e1938f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a5c5b74a1cb1a1ae83572500b94e1938f">S_IFBLK</a>&#160;&#160;&#160;0060000</td></tr>
-<tr class="separator:a5c5b74a1cb1a1ae83572500b94e1938f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1aaa48b192a5dd3b6d7ee91fc98cd17d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a1aaa48b192a5dd3b6d7ee91fc98cd17d">S_IFREG</a>&#160;&#160;&#160;0100000</td></tr>
-<tr class="separator:a1aaa48b192a5dd3b6d7ee91fc98cd17d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afef163ce62372757e84bd9fc88c07aad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#afef163ce62372757e84bd9fc88c07aad">S_IFLNK</a>&#160;&#160;&#160;0120000</td></tr>
-<tr class="separator:afef163ce62372757e84bd9fc88c07aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28e80cd43106882904be148b2a397d42"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a28e80cd43106882904be148b2a397d42">S_IFSOCK</a>&#160;&#160;&#160;0140000</td></tr>
-<tr class="separator:a28e80cd43106882904be148b2a397d42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5bee51e9ee68b83ab11d4b340f7200b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#ab5bee51e9ee68b83ab11d4b340f7200b">S_IFMT</a>&#160;&#160;&#160;0170000</td></tr>
-<tr class="separator:ab5bee51e9ee68b83ab11d4b340f7200b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3746cdc5aac871e6f6504fbcbd29ef1d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a3746cdc5aac871e6f6504fbcbd29ef1d">S_ISDIR</a>(mode)&#160;&#160;&#160;(((mode) &amp; <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#ab5bee51e9ee68b83ab11d4b340f7200b">S_IFMT</a>) == <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#a11fb0652b963a735f3377eb1c9239f2d">S_IFDIR</a>)</td></tr>
-<tr class="separator:a3746cdc5aac871e6f6504fbcbd29ef1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae33be85d242a1317f972cf2b189f03d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#aae33be85d242a1317f972cf2b189f03d">S_ISCHR</a>(mode)&#160;&#160;&#160;(((mode) &amp; <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#ab5bee51e9ee68b83ab11d4b340f7200b">S_IFMT</a>) == <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#aef3a1d1ba22c83e30b5c834dd343b2a8">S_IFCHR</a>)</td></tr>
-<tr class="separator:aae33be85d242a1317f972cf2b189f03d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b86a24d84c3cfce39cc832a017656ba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a8b86a24d84c3cfce39cc832a017656ba">S_ISBLK</a>(mode)&#160;&#160;&#160;(((mode) &amp; <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#ab5bee51e9ee68b83ab11d4b340f7200b">S_IFMT</a>) == <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#a5c5b74a1cb1a1ae83572500b94e1938f">S_IFBLK</a>)</td></tr>
-<tr class="separator:a8b86a24d84c3cfce39cc832a017656ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad0f32c2c182238f2ff71c83e6ab65a0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#aad0f32c2c182238f2ff71c83e6ab65a0">S_ISREG</a>(mode)&#160;&#160;&#160;(((mode) &amp; <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#ab5bee51e9ee68b83ab11d4b340f7200b">S_IFMT</a>) == <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#a1aaa48b192a5dd3b6d7ee91fc98cd17d">S_IFREG</a>)</td></tr>
-<tr class="separator:aad0f32c2c182238f2ff71c83e6ab65a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ae224a2b1fa6eba69bb2bc34b864a24"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a8ae224a2b1fa6eba69bb2bc34b864a24">S_ISFIFO</a>(mode)&#160;&#160;&#160;(((mode) &amp; <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#ab5bee51e9ee68b83ab11d4b340f7200b">S_IFMT</a>) == <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#a4966f25d9f03a7a06bc47ac729fd86cf">S_IFIFO</a>)</td></tr>
-<tr class="separator:a8ae224a2b1fa6eba69bb2bc34b864a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a765eef536bcb3bd7bacdd675dc2fba13"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a765eef536bcb3bd7bacdd675dc2fba13">S_ISLNK</a>(mode)&#160;&#160;&#160;(((mode) &amp; <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#ab5bee51e9ee68b83ab11d4b340f7200b">S_IFMT</a>) == <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#afef163ce62372757e84bd9fc88c07aad">S_IFLNK</a>)</td></tr>
-<tr class="separator:a765eef536bcb3bd7bacdd675dc2fba13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a397ddd128980f1ee034653da2e9d8f6e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a397ddd128980f1ee034653da2e9d8f6e">S_ISSOCK</a>(mode)&#160;&#160;&#160;(((mode) &amp; <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#ab5bee51e9ee68b83ab11d4b340f7200b">S_IFMT</a>) == <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#a28e80cd43106882904be148b2a397d42">S_IFSOCK</a>)</td></tr>
-<tr class="separator:a397ddd128980f1ee034653da2e9d8f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a9862defe2d0358e9299acf55bdb6eb73"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73">vfs::NodeType</a> : mode_t { <br />
-&#160;&#160;<a class="el" href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73aa6ac1323746d26338a8b5aa02571cdd3">vfs::NODE_TYPE_NONE</a> = 0x0
-, <a class="el" href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73aa2187ed86bdf3c8c4fbbe6d3b3e5cd85">vfs::FILE</a> = S_IFREG
-, <a class="el" href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73a6b48890836be7438cea33a39b9b64c54">vfs::DIRECTORY</a> = S_IFDIR
-, <a class="el" href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73a284d2b75ab17f3f79558acdeb9747a53">vfs::CHARDEVICE</a> = S_IFCHR
-, <br />
-&#160;&#160;<a class="el" href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73a03dc1f5aa8f945b4398c53735adf18d0">vfs::BLOCKDEVICE</a> = S_IFBLK
-, <a class="el" href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73a8bc393f4be3a35079d45e3860c894cec">vfs::PIPE</a> = S_IFIFO
-, <a class="el" href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73a5e213d43a0e0066faf1b548b41c7caff">vfs::SYMLINK</a> = S_IFLNK
-, <a class="el" href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73af8f9369591b600ddb1996a21840eeac5">vfs::MOUNTPOINT</a> = S_IFDIR
-<br />
- }</td></tr>
-<tr class="separator:a9862defe2d0358e9299acf55bdb6eb73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a0f18d94259bc0125193fdcb5ef3f6f76"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a0f18d94259bc0125193fdcb5ef3f6f76">ConvertFileFlags</a> (const char *<a class="el" href="../../d5/d01/lxdialog_8c.html#d5/d41/structMode">Mode</a>)</td></tr>
-<tr class="separator:a0f18d94259bc0125193fdcb5ef3f6f76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed3ee677165931aceee57d0c6d9e4432"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#aed3ee677165931aceee57d0c6d9e4432">operator==</a> (const Fildes &amp;other)</td></tr>
-<tr class="separator:aed3ee677165931aceee57d0c6d9e4432"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac61b84d7346413e147c8970ec0ac735"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#aac61b84d7346413e147c8970ec0ac735">operator!=</a> (const Fildes &amp;other)</td></tr>
-<tr class="separator:aac61b84d7346413e147c8970ec0ac735"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2ec3b9037ed12c33f4f7327099f615c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#ae2ec3b9037ed12c33f4f7327099f615c">fopen</a> (const char *pathname, const char *mode)</td></tr>
-<tr class="separator:ae2ec3b9037ed12c33f4f7327099f615c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c7518235c1384debeb9e38b04623417"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a0c7518235c1384debeb9e38b04623417">creat</a> (const char *pathname, <a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a4c39e0c5c2965112d6b55652a6b7f781">mode_t</a> mode)</td></tr>
-<tr class="separator:a0c7518235c1384debeb9e38b04623417"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59e6d0024b412f266839f22638916254"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a59e6d0024b412f266839f22638916254">fread</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, void *<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d8/d48/at__quick__exit_8c.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
-<tr class="separator:a59e6d0024b412f266839f22638916254"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08608c0aa56801926439704f198622e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a08608c0aa56801926439704f198622e7">fwrite</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, const void *<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d8/d48/at__quick__exit_8c.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
-<tr class="separator:a08608c0aa56801926439704f198622e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a575cfdaca3a77c3f910df16d56d7240c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a575cfdaca3a77c3f910df16d56d7240c">fclose</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>)</td></tr>
-<tr class="separator:a575cfdaca3a77c3f910df16d56d7240c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bd74caed008a66808d92d57fa74d9f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a37aff01e955441499997a359a4153b3d">off_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a8bd74caed008a66808d92d57fa74d9f6">lseek</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, <a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a37aff01e955441499997a359a4153b3d">off_t</a> <a class="el" href="../../d4/d49/vi_8c.html#aae6364a195a181790fe7379c6b44a343">offset</a>, int whence)</td></tr>
-<tr class="separator:a8bd74caed008a66808d92d57fa74d9f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a495553b93f6e4b88e7d82195f189cb22"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a495553b93f6e4b88e7d82195f189cb22">stat</a> (const char *pathname, struct <a class="el" href="../../db/df2/Userspace_2musl_2arch_2x86__64_2bits_2stat_8h.html#da/de7/structstat">stat</a> *statbuf)</td></tr>
-<tr class="separator:a495553b93f6e4b88e7d82195f189cb22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27628bfab8ccdd0fdeed6778b25cd734"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a27628bfab8ccdd0fdeed6778b25cd734">fstat</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, struct <a class="el" href="../../db/df2/Userspace_2musl_2arch_2x86__64_2bits_2stat_8h.html#da/de7/structstat">stat</a> *statbuf)</td></tr>
-<tr class="separator:a27628bfab8ccdd0fdeed6778b25cd734"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af52d2b78c938af5e279e57ffa2644ff8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#af52d2b78c938af5e279e57ffa2644ff8">lstat</a> (const char *pathname, struct <a class="el" href="../../db/df2/Userspace_2musl_2arch_2x86__64_2bits_2stat_8h.html#da/de7/structstat">stat</a> *statbuf)</td></tr>
-<tr class="separator:af52d2b78c938af5e279e57ffa2644ff8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a607bc7717301cb76f68f42a278c9b7b6"><td class="memItemLeft" align="right" valign="top">RefNode *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a607bc7717301cb76f68f42a278c9b7b6">Handle</a> = nullptr</td></tr>
-<tr class="separator:a607bc7717301cb76f68f42a278c9b7b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a103f92bee2848a4abd9c26dae80a1b0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a4c39e0c5c2965112d6b55652a6b7f781">mode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a103f92bee2848a4abd9c26dae80a1b0a">Mode</a> = 0</td></tr>
-<tr class="separator:a103f92bee2848a4abd9c26dae80a1b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3e60a9fc42fb6c0b656191ebb1d658b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#ac3e60a9fc42fb6c0b656191ebb1d658b">Flags</a> = 0</td></tr>
-<tr class="separator:ac3e60a9fc42fb6c0b656191ebb1d658b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58be20fe2c4bcd0fbc91413078659fc8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a58be20fe2c4bcd0fbc91413078659fc8">Descriptor</a> = -1</td></tr>
-<tr class="separator:a58be20fe2c4bcd0fbc91413078659fc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c64d76a23fee636a415232a6dd254c7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a4c64d76a23fee636a415232a6dd254c7">__check_op</a>(op,  <a class="el" href="../../da/d80/err_8c.html#a0f0e06a589f9b5b6dc88160bd570a5cc">err</a>, ...)</td></tr>
+<tr class="separator:a4c64d76a23fee636a415232a6dd254c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a569622380f5a7a3516b943c9adb7b827"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d85/filesystem_8hpp.html#a569622380f5a7a3516b943c9adb7b827">FSROOT</a>(<a class="el" href="../../d7/da1/fma_8c.html#d6/df8/structnum">num</a>)&#160;&#160;&#160;&quot;\x06root-&quot; #num &quot;\x06&quot;</td></tr>
+<tr class="separator:a569622380f5a7a3516b943c9adb7b827"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
-<a name="da/de7/structstat" id="da/de7/structstat"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#da/de7/structstat">&#9670;&nbsp;</a></span>stat</h2>
+<a name="dc/d95/structvfs_1_1vfsInode" id="dc/d95/structvfs_1_1vfsInode"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dc/d95/structvfs_1_1vfsInode">&#9670;&nbsp;</a></span>vfs::vfsInode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct stat</td>
+          <td class="memname">struct vfs::vfsInode</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="textblock"><p>Structure holding information about a file, as returned by the stat function. </p>
-<p>The 'stat' structure provides information about a file, including its size, ownership, permissions, and other attributes. It is used with the stat function to query file status. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00094">94</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00087">87</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a61e94ae227364afc64e186a960fd317e"></a>unsigned long</td>
+<a id="a7757b05b833d80d3d79bc7273caad8fb"></a>vector&lt; <a class="el" href="../../d3/da6/Drivers_2include_2fs_8h.html#d6/d59/structInode">Inode</a> * &gt;</td>
 <td class="fieldname">
-__pad</td>
+Children</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="af294d40ec98d898455e49e74ea96c6e5"></a>unsigned int</td>
+<a id="a8011be20f7dea261385a1bb9f82c3274"></a>string</td>
 <td class="fieldname">
-__pad0</td>
+FriendlyName</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aa7c7e3b1be1f412cb1ac674548861236"></a>long</td>
+<a id="a8b46b23e0a48128642e85b1b4c1354bb"></a>string</td>
 <td class="fieldname">
-__pad1[2]</td>
+Name</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a9c9b30f286fd098edcda2bc2f2c93cb1"></a>int</td>
+<a id="a7467da5121ac7bc2391893733bbd420f"></a><a class="el" href="../../d3/da6/Drivers_2include_2fs_8h.html#d6/d59/structInode">Inode</a></td>
 <td class="fieldname">
-__pad1[3]</td>
+Node</td>
 <td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="afdf6dfbd82367e31c505dbe61e51226a"></a>int</td>
-<td class="fieldname">
-__pad2</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a7aaad766b815fc894cabb1be4679f909"></a>unsigned int</td>
-<td class="fieldname">
-__pad2[2]</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a840154cdad458e586bfc3afe85c30fe1"></a>long</td>
-<td class="fieldname">
-__pad2[2]</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="aea77a5c107207f6a54fe7b3f3f8ac6f4"></a>int</td>
-<td class="fieldname">
-__pad3</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a42ffc5b5d5b9cdd814a6d6c9606d9062"></a>long</td>
-<td class="fieldname">
-__pad3</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="aeeefd103567db47076658d1d817863f5"></a>unsigned int</td>
-<td class="fieldname">
-__pad4</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a176a2e4e417efcbfe15c77b63890457b"></a>long</td>
-<td class="fieldname">
-__pad4[2]</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a98dcae3ebe5fc19040ecb232b47a3842"></a>int</td>
-<td class="fieldname">
-__pad5[14]</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a2f0e498591fb92c4e62c241d2c687494"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#dd/d66/structstat_8____st__atim32">stat</a></td>
-<td class="fieldname">
-__st_atim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a4f86b45b3b5f08a648e70b90aceecbdc"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#dd/d66/structstat_8____st__atim32">stat</a></td>
-<td class="fieldname">
-__st_atim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a8b13e7a6b629088cc7d0562903a67f8c"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#dd/d66/structstat_8____st__atim32">stat</a></td>
-<td class="fieldname">
-__st_atim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a2740475305cb216842f1fabba819b783"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#dd/d66/structstat_8____st__atim32">stat</a></td>
-<td class="fieldname">
-__st_atim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ae1a1f7f2b37d394f3beb2b9e8cfe89f9"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#dd/d66/structstat_8____st__atim32">stat</a></td>
-<td class="fieldname">
-__st_atim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a85875b7a73a087fe2c6a39fc90e970ab"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#dd/d66/structstat_8____st__atim32">stat</a></td>
-<td class="fieldname">
-__st_atim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a8906860f67b542d3745678e97d18fb73"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#dd/d66/structstat_8____st__atim32">stat</a></td>
-<td class="fieldname">
-__st_atim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a3dacff3adaa7c60e2360bb7965ab8319"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#dd/d66/structstat_8____st__atim32">stat</a></td>
-<td class="fieldname">
-__st_atim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="aa946388ff66799ba894926c4c5d3306a"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#dd/d66/structstat_8____st__atim32">stat</a></td>
-<td class="fieldname">
-__st_atim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a27c1f5414732223ddb499b3463c17bbd"></a>int</td>
-<td class="fieldname">
-__st_blksize_padding</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="adbbaf822cca423c11755cd8d2eae614d"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#df/df1/structstat_8____st__ctim32">stat</a></td>
-<td class="fieldname">
-__st_ctim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a9d32aca971c18e8596916e49f99739ae"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#df/df1/structstat_8____st__ctim32">stat</a></td>
-<td class="fieldname">
-__st_ctim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a5c655ebda49c416321eaf7065debe669"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#df/df1/structstat_8____st__ctim32">stat</a></td>
-<td class="fieldname">
-__st_ctim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="af7041b8baa360510623f626882f75e30"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#df/df1/structstat_8____st__ctim32">stat</a></td>
-<td class="fieldname">
-__st_ctim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="afb802076be111ab06637b65b75661d08"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#df/df1/structstat_8____st__ctim32">stat</a></td>
-<td class="fieldname">
-__st_ctim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a9a3b3f624b82a2b7f10762e9676fbe78"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#df/df1/structstat_8____st__ctim32">stat</a></td>
-<td class="fieldname">
-__st_ctim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a340411e75592d2df0e351e63c2207a0a"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#df/df1/structstat_8____st__ctim32">stat</a></td>
-<td class="fieldname">
-__st_ctim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a155071e77897594a9889ec9e4bab6e79"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#df/df1/structstat_8____st__ctim32">stat</a></td>
-<td class="fieldname">
-__st_ctim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ad8665f86df562820157a867a05064f38"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#df/df1/structstat_8____st__ctim32">stat</a></td>
-<td class="fieldname">
-__st_ctim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="adce69decca67add623306d1fa75a6542"></a>int</td>
-<td class="fieldname">
-__st_dev_padding</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a1bf4a534fbc870895393eda028725b5b"></a>short</td>
-<td class="fieldname">
-__st_dev_padding</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ad22fc38a47d7f1570f5da1b18b8bf70b"></a>long</td>
-<td class="fieldname">
-__st_ino_truncated</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a80d6423637c4820abb7be80494e623a6"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#df/d2f/structstat_8____st__mtim32">stat</a></td>
-<td class="fieldname">
-__st_mtim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a944388e37dd648fef9ca50c62ad9b668"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#df/d2f/structstat_8____st__mtim32">stat</a></td>
-<td class="fieldname">
-__st_mtim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a29b1212530458a95ab49685e84277023"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#df/d2f/structstat_8____st__mtim32">stat</a></td>
-<td class="fieldname">
-__st_mtim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ad2977092099dd0513b71eac0522f7223"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#df/d2f/structstat_8____st__mtim32">stat</a></td>
-<td class="fieldname">
-__st_mtim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a4b9c5ed3eeb762c353995c84fa587a66"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#df/d2f/structstat_8____st__mtim32">stat</a></td>
-<td class="fieldname">
-__st_mtim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a4eaddc7614ea44038037a9b8568f6c2d"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#df/d2f/structstat_8____st__mtim32">stat</a></td>
-<td class="fieldname">
-__st_mtim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a4df37f6d60582ccaa45bffa5c0ff763a"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#df/d2f/structstat_8____st__mtim32">stat</a></td>
-<td class="fieldname">
-__st_mtim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ae044bb8f61e2de0342a5c5ac46ded6a7"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#df/d2f/structstat_8____st__mtim32">stat</a></td>
-<td class="fieldname">
-__st_mtim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ad2ca34d850e8911223ebddc4d59ed64b"></a>struct <a class="el" href="../../dd/daa/Userspace_2musl_2arch_2sh_2bits_2stat_8h.html#df/d2f/structstat_8____st__mtim32">stat</a></td>
-<td class="fieldname">
-__st_mtim32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a373ec5d2ba734743490c12f99e9b2e9c"></a>long</td>
-<td class="fieldname">
-__st_padding1[2]</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a4414904c5a25c077eb4e39e497bb48ce"></a>long</td>
-<td class="fieldname">
-__st_padding2[2]</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a0f7be64a9abe39c064cd1a2a3fb0ad71"></a>long</td>
-<td class="fieldname">
-__st_padding3</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="aab96f15c48bd8c1ad6e2200488402166"></a>long</td>
-<td class="fieldname">
-__st_padding4[2]</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a7313f0952ed491fdcab8b931d1f52c66"></a>int</td>
-<td class="fieldname">
-__st_rdev_padding</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a3cf4daa75f1695b5f5901a3bcf0d2ee3"></a>short</td>
-<td class="fieldname">
-__st_rdev_padding</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a7c0f69cd61f902ce3fee404b06b152b9"></a>long long</td>
-<td class="fieldname">
-__st_rdev_padding</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a0216f91bfa3ab75f0b3fa86d6b36c731"></a>unsigned</td>
-<td class="fieldname">
-__unused[2]</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a0ff476ab9b00a61d67bd58888d178dac"></a>unsigned long</td>
-<td class="fieldname">
-__unused[3]</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="abffb49b940e81d28e4a7f968c31d31c9"></a>long long</td>
-<td class="fieldname">
-__unused[3]</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a08b291cf072d5e2f418924a47e72e842"></a>long</td>
-<td class="fieldname">
-__unused[3]</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a8447c545451bec2b95f9d67787404934"></a>struct <a class="el" href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a></td>
-<td class="fieldname">
-st_atim</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ab74d1e7e345e88b9d0fb2688a97cba64"></a>time_t</td>
-<td class="fieldname">
-st_atime</td>
-<td class="fielddoc">
-<p><a class="el" href="../../d3/d56/namespaceTime.html">Time</a> of last access. </p>
-</td></tr>
-<tr><td class="fieldtype">
-<a id="aa6dbd522d35de1c2801f8f989b23b086"></a><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a4c39e0c5c2965112d6b55652a6b7f781">mode_t</a></td>
-<td class="fieldname">
-st_attr</td>
-<td class="fielddoc">
-<p>Additional file attributes. </p>
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a38d474e1ae3cf6fbdde89ac3c3e308f1"></a>blksize_t</td>
-<td class="fieldname">
-st_blksize</td>
-<td class="fielddoc">
-<p>Optimal I/O block size. </p>
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a42dd716b2f9234f961d949fc9500eefb"></a>blkcnt_t</td>
-<td class="fieldname">
-st_blocks</td>
-<td class="fielddoc">
-<p>Number of blocks allocated. </p>
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a8fcf65727b775d92b773776ed1210c8b"></a>struct <a class="el" href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a></td>
-<td class="fieldname">
-st_ctim</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a1b4b858db1ebe79c3d6e0fc1ef721024"></a>time_t</td>
-<td class="fieldname">
-st_ctime</td>
-<td class="fielddoc">
-<p><a class="el" href="../../d3/d56/namespaceTime.html">Time</a> of last status change. </p>
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ac5b90090ae323741ae4c9e4f3683a29f"></a><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#ab46c2d8e15a0ce794a8935841e5d6b92">dev_t</a></td>
-<td class="fieldname">
-st_dev</td>
-<td class="fielddoc">
-<p>Device ID of the file. </p>
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ab864f16f436cec370f0ced585d897698"></a>gid_t</td>
-<td class="fieldname">
-st_gid</td>
-<td class="fielddoc">
-<p>Group ID of the file's owner. </p>
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a9769ed8f0d4c5a9f329c32bc92479d56"></a><a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#a6f0484fba95acbaed079c0b41f24e3f3">ino_t</a></td>
-<td class="fieldname">
-st_ino</td>
-<td class="fielddoc">
-<p>Inode number. </p>
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a5cbdd829011af82ba61e83773bbcbc7d"></a><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a4c39e0c5c2965112d6b55652a6b7f781">mode_t</a></td>
-<td class="fieldname">
-st_mode</td>
-<td class="fielddoc">
-<p>File type and mode. </p>
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a78eca07da5a8a88b1c3dd8be5a32821e"></a>struct <a class="el" href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a></td>
-<td class="fieldname">
-st_mtim</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a77e235090f8cb6897f1c0ce65689006b"></a>time_t</td>
-<td class="fieldname">
-st_mtime</td>
-<td class="fielddoc">
-<p><a class="el" href="../../d3/d56/namespaceTime.html">Time</a> of last modification. </p>
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a0ed9092fa6c77a3251b9b9a4738ef84f"></a>nlink_t</td>
-<td class="fieldname">
-st_nlink</td>
-<td class="fielddoc">
-<p>Number of hard links. </p>
-</td></tr>
-<tr><td class="fieldtype">
-<a id="aa61e6c1a8a91c69f1d26f6700a0546cb"></a><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#ab46c2d8e15a0ce794a8935841e5d6b92">dev_t</a></td>
-<td class="fieldname">
-st_rdev</td>
-<td class="fielddoc">
-<p>Device ID for special files. </p>
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a040e19c8b9766f841fde8786ce9297bf"></a><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a37aff01e955441499997a359a4153b3d">off_t</a></td>
-<td class="fieldname">
-st_size</td>
-<td class="fielddoc">
-<p>Size of the file in bytes. </p>
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a4a8708a3d18be60ee7b2f06c4cab0c70"></a>uid_t</td>
-<td class="fieldname">
-st_uid</td>
-<td class="fielddoc">
-<p>User ID of the file's owner. </p>
 </td></tr>
 </table>
 
 </div>
 </div>
-<a name="d1/db2/structstat64" id="d1/db2/structstat64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d1/db2/structstat64">&#9670;&nbsp;</a></span>stat64</h2>
+<a name="d7/d9a/structvfs_1_1Virtual_1_1FSMountInfo" id="d7/d9a/structvfs_1_1Virtual_1_1FSMountInfo"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d7/d9a/structvfs_1_1Virtual_1_1FSMountInfo">&#9670;&nbsp;</a></span>vfs::Virtual::FSMountInfo</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct stat64</td>
+          <td class="memname">struct vfs::Virtual::FSMountInfo</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="textblock"><p>Extended structure for large file support, holding information about a file. </p>
-<p>The '<a class="el" href="../../d1/d85/filesystem_8hpp.html#d1/db2/structstat64" title="Extended structure for large file support, holding information about a file.">stat64</a>' structure is similar to 'struct stat' but is extended to support large files on 32-bit systems. It is used with the <a class="el" href="../../d1/d85/filesystem_8hpp.html#d1/db2/structstat64" title="Extended structure for large file support, holding information about a file.">stat64</a> function for large file support. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00133">133</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00100">100</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a16b02e0d785049b161754fca0a1a5af0"></a>time_t</td>
+<a id="a88e412f2939a5fd5a3ebbf43a0e3be50"></a><a class="el" href="../../d3/da6/Drivers_2include_2fs_8h.html#de/d99/structFileSystemInfo">FileSystemInfo</a> *</td>
 <td class="fieldname">
-st_atime</td>
+fsi</td>
 <td class="fielddoc">
-<p><a class="el" href="../../d3/d56/namespaceTime.html">Time</a> of last access. </p>
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aabd1cb215df9b6b65b2fd58961a22fd5"></a><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a4c39e0c5c2965112d6b55652a6b7f781">mode_t</a></td>
+<a id="a9f7d0942fade5e2007d6adad64b4ce3e"></a><a class="el" href="../../d3/da6/Drivers_2include_2fs_8h.html#d6/d59/structInode">Inode</a> *</td>
 <td class="fieldname">
-st_attr</td>
+Root</td>
 <td class="fielddoc">
-<p>Additional file attributes. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="d5/d2f/structvfs_1_1Virtual_1_1CacheNode" id="d5/d2f/structvfs_1_1Virtual_1_1CacheNode"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d5/d2f/structvfs_1_1Virtual_1_1CacheNode">&#9670;&nbsp;</a></span>vfs::Virtual::CacheNode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct vfs::Virtual::CacheNode</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00106">106</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a1c154931b7ece20aec1d69580147fd90"></a><a class="el" href="../../d8/dea/classFileNode.html">FileNode</a> *</td>
+<td class="fieldname">
+fn</td>
+<td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ae61ed1c6f503687b492de89749c7dd80"></a>blksize_t</td>
+<a id="ad77d521af5fd41ca2585e5f51cc79e82"></a>atomic_int</td>
 <td class="fieldname">
-st_blksize</td>
+References</td>
 <td class="fielddoc">
-<p>Optimal I/O block size. </p>
-</td></tr>
-<tr><td class="fieldtype">
-<a id="adf1e7f21136f6a3c8c88704f26fe62a0"></a>blkcnt64_t</td>
-<td class="fieldname">
-st_blocks</td>
-<td class="fielddoc">
-<p>Number of blocks allocated. </p>
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ae65aeef4facc33cd33fdf86daa8bdf87"></a>time_t</td>
-<td class="fieldname">
-st_ctime</td>
-<td class="fielddoc">
-<p><a class="el" href="../../d3/d56/namespaceTime.html">Time</a> of last status change. </p>
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a43e923c0b313a1b39732a7e2dbdff734"></a><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#ab46c2d8e15a0ce794a8935841e5d6b92">dev_t</a></td>
-<td class="fieldname">
-st_dev</td>
-<td class="fielddoc">
-<p>Device ID of the file. </p>
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a35c7838d3884ceba48e9f96af715d396"></a>gid_t</td>
-<td class="fieldname">
-st_gid</td>
-<td class="fielddoc">
-<p>Group ID of the file's owner. </p>
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a24b8cf2456cee9da318a6004d57df910"></a>ino64_t</td>
-<td class="fieldname">
-st_ino</td>
-<td class="fielddoc">
-<p>Inode number. </p>
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a0336d89bf3fb437b236e3c8f79a5f680"></a><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a4c39e0c5c2965112d6b55652a6b7f781">mode_t</a></td>
-<td class="fieldname">
-st_mode</td>
-<td class="fielddoc">
-<p>File type and mode. </p>
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a8f8a99cd7072b8f90fb661e6a6ac32b7"></a>time_t</td>
-<td class="fieldname">
-st_mtime</td>
-<td class="fielddoc">
-<p><a class="el" href="../../d3/d56/namespaceTime.html">Time</a> of last modification. </p>
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a42cb8e6d13eb64069c6ee7011a893f4b"></a>nlink_t</td>
-<td class="fieldname">
-st_nlink</td>
-<td class="fielddoc">
-<p>Number of hard links. </p>
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a8ae966ce19f8c996cae9d0ffd8990e69"></a><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#ab46c2d8e15a0ce794a8935841e5d6b92">dev_t</a></td>
-<td class="fieldname">
-st_rdev</td>
-<td class="fielddoc">
-<p>Device ID for special files. </p>
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a49b4b773b6cf03ceb1593a549d409d20"></a>off64_t</td>
-<td class="fieldname">
-st_size</td>
-<td class="fielddoc">
-<p>Size of the file in bytes. </p>
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ad1fedccefe3981d3eae26d5004adcedb"></a>uid_t</td>
-<td class="fieldname">
-st_uid</td>
-<td class="fielddoc">
-<p>User ID of the file's owner. </p>
 </td></tr>
 </table>
 
 </div>
 </div>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ae036f789407d21f07b211552d67b3214"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae036f789407d21f07b211552d67b3214">&#9670;&nbsp;</a></span>O_APPEND</h2>
+<a id="a4c64d76a23fee636a415232a6dd254c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c64d76a23fee636a415232a6dd254c7">&#9670;&nbsp;</a></span>__check_op</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define O_APPEND&#160;&#160;&#160;02000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00066">66</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ad6d8fbe4e494b4dbe051612572d3f757"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6d8fbe4e494b4dbe051612572d3f757">&#9670;&nbsp;</a></span>O_CLOEXEC</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define O_CLOEXEC&#160;&#160;&#160;02000000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00067">67</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a1cf6b1de1fffedaa1d26b189e9a8d2cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1cf6b1de1fffedaa1d26b189e9a8d2cc">&#9670;&nbsp;</a></span>O_CREAT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define O_CREAT&#160;&#160;&#160;0100</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00063">63</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a9f5acfe79fafe14b6694447bd0e9f10b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f5acfe79fafe14b6694447bd0e9f10b">&#9670;&nbsp;</a></span>O_EXCL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define O_EXCL&#160;&#160;&#160;0200</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00064">64</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a7a68c9ffaac7dbcd652225dd7c06a54b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a68c9ffaac7dbcd652225dd7c06a54b">&#9670;&nbsp;</a></span>O_RDONLY</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define O_RDONLY&#160;&#160;&#160;00</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00060">60</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="abb0586253488ee61072b73557eeb873b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb0586253488ee61072b73557eeb873b">&#9670;&nbsp;</a></span>O_RDWR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define O_RDWR&#160;&#160;&#160;02</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00062">62</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ad1d67e453fb3031f40f8cd3403773813"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1d67e453fb3031f40f8cd3403773813">&#9670;&nbsp;</a></span>O_TRUNC</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define O_TRUNC&#160;&#160;&#160;01000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00065">65</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a11b644a8526139c4cc1850dac1271ced"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11b644a8526139c4cc1850dac1271ced">&#9670;&nbsp;</a></span>O_WRONLY</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define O_WRONLY&#160;&#160;&#160;01</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00061">61</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a5c5b74a1cb1a1ae83572500b94e1938f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c5b74a1cb1a1ae83572500b94e1938f">&#9670;&nbsp;</a></span>S_IFBLK</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_IFBLK&#160;&#160;&#160;0060000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00072">72</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="aef3a1d1ba22c83e30b5c834dd343b2a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef3a1d1ba22c83e30b5c834dd343b2a8">&#9670;&nbsp;</a></span>S_IFCHR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_IFCHR&#160;&#160;&#160;0020000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00070">70</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a11fb0652b963a735f3377eb1c9239f2d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11fb0652b963a735f3377eb1c9239f2d">&#9670;&nbsp;</a></span>S_IFDIR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_IFDIR&#160;&#160;&#160;0040000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00071">71</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a4966f25d9f03a7a06bc47ac729fd86cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4966f25d9f03a7a06bc47ac729fd86cf">&#9670;&nbsp;</a></span>S_IFIFO</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_IFIFO&#160;&#160;&#160;0010000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00069">69</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="afef163ce62372757e84bd9fc88c07aad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afef163ce62372757e84bd9fc88c07aad">&#9670;&nbsp;</a></span>S_IFLNK</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_IFLNK&#160;&#160;&#160;0120000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00074">74</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ab5bee51e9ee68b83ab11d4b340f7200b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5bee51e9ee68b83ab11d4b340f7200b">&#9670;&nbsp;</a></span>S_IFMT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_IFMT&#160;&#160;&#160;0170000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00077">77</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a1aaa48b192a5dd3b6d7ee91fc98cd17d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1aaa48b192a5dd3b6d7ee91fc98cd17d">&#9670;&nbsp;</a></span>S_IFREG</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_IFREG&#160;&#160;&#160;0100000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00073">73</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a28e80cd43106882904be148b2a397d42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28e80cd43106882904be148b2a397d42">&#9670;&nbsp;</a></span>S_IFSOCK</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_IFSOCK&#160;&#160;&#160;0140000</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00075">75</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a4f5f280b929768113739fb34d6f7be8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f5f280b929768113739fb34d6f7be8a">&#9670;&nbsp;</a></span>S_IRGRP</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_IRGRP&#160;&#160;&#160;0040</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Group members have read permission. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00047">47</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a071147a0cb995036967c80f64b1f74b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a071147a0cb995036967c80f64b1f74b9">&#9670;&nbsp;</a></span>S_IROTH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_IROTH&#160;&#160;&#160;0004</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Other users have read permission. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00039">39</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a84c7dbf5cf2fdfb690f76348b60a8cb7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84c7dbf5cf2fdfb690f76348b60a8cb7">&#9670;&nbsp;</a></span>S_IRUSR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_IRUSR&#160;&#160;&#160;0400</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>The file owner has read permission. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00055">55</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a230c642d2bb81f15f85c122b1883de5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a230c642d2bb81f15f85c122b1883de5c">&#9670;&nbsp;</a></span>S_IRWXG</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_IRWXG&#160;&#160;&#160;0070</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Group members have read, write, and execute permissions. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00049">49</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a5b93e0da7fe32bbd4926626bffad96b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b93e0da7fe32bbd4926626bffad96b1">&#9670;&nbsp;</a></span>S_IRWXO</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_IRWXO&#160;&#160;&#160;0007</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Other users have read, write, and execute permissions. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00041">41</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="afe3da42e762f6362c93454682fad5eb5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe3da42e762f6362c93454682fad5eb5">&#9670;&nbsp;</a></span>S_IRWXU</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_IRWXU&#160;&#160;&#160;0700</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>The file owner has read, write, and execute permissions. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00058">58</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a8b86a24d84c3cfce39cc832a017656ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b86a24d84c3cfce39cc832a017656ba">&#9670;&nbsp;</a></span>S_ISBLK</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_ISBLK</td>
+          <td class="memname">#define __check_op</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">mode</td><td>)</td>
-          <td>&#160;&#160;&#160;(((mode) &amp; <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#ab5bee51e9ee68b83ab11d4b340f7200b">S_IFMT</a>) == <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#a5c5b74a1cb1a1ae83572500b94e1938f">S_IFBLK</a>)</td>
+          <td class="paramname">op, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="../../da/d80/err_8c.html#a0f0e06a589f9b5b6dc88160bd570a5cc">err</a>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00081">81</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">if</span> (fsi-&gt;Ops.op == <span class="keyword">nullptr</span>)  \</div>
+<div class="line">        return -<a class="code" href="../../d6/d40/err_8h.html#aa31bca214cc8f135a43aa7fbea017326">err</a>;             \</div>
+<div class="line">    else                         \</div>
+<div class="line">        return fsi-&gt;Ops.op(this-&gt;<a class="code" href="../../d1/d48/namespaceDriver.html#af7847fe6734be04e21d9221644de1c6e">Node</a>, ##__VA_ARGS__)</div>
+<div class="ttc" id="aerr_8h_html_aa31bca214cc8f135a43aa7fbea017326"><div class="ttname"><a href="../../d6/d40/err_8h.html#aa31bca214cc8f135a43aa7fbea017326">err</a></div><div class="ttdeci">_Noreturn void err(int, const char *,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d80/err_8c_source.html#l00053">err.c:53</a></div></div>
+<div class="ttc" id="anamespaceDriver_html_af7847fe6734be04e21d9221644de1c6e"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#af7847fe6734be04e21d9221644de1c6e">Driver::Node</a></div><div class="ttdeci">auto Node</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/daemon_8cpp_source.html#l00495">daemon.cpp:495</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00034">34</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
 </div>
 </div>
-<a id="aae33be85d242a1317f972cf2b189f03d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae33be85d242a1317f972cf2b189f03d">&#9670;&nbsp;</a></span>S_ISCHR</h2>
+<a id="a569622380f5a7a3516b943c9adb7b827"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a569622380f5a7a3516b943c9adb7b827">&#9670;&nbsp;</a></span>FSROOT</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define S_ISCHR</td>
+          <td class="memname">#define FSROOT</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">mode</td><td>)</td>
-          <td>&#160;&#160;&#160;(((mode) &amp; <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#ab5bee51e9ee68b83ab11d4b340f7200b">S_IFMT</a>) == <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#aef3a1d1ba22c83e30b5c834dd343b2a8">S_IFCHR</a>)</td>
+          <td class="paramname"><a class="el" href="../../d7/da1/fma_8c.html#d6/df8/structnum">num</a></td><td>)</td>
+          <td>&#160;&#160;&#160;&quot;\x06root-&quot; #num &quot;\x06&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00080">80</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a3746cdc5aac871e6f6504fbcbd29ef1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3746cdc5aac871e6f6504fbcbd29ef1d">&#9670;&nbsp;</a></span>S_ISDIR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_ISDIR</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">mode</td><td>)</td>
-          <td>&#160;&#160;&#160;(((mode) &amp; <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#ab5bee51e9ee68b83ab11d4b340f7200b">S_IFMT</a>) == <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#a11fb0652b963a735f3377eb1c9239f2d">S_IFDIR</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00079">79</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a8ae224a2b1fa6eba69bb2bc34b864a24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ae224a2b1fa6eba69bb2bc34b864a24">&#9670;&nbsp;</a></span>S_ISFIFO</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_ISFIFO</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">mode</td><td>)</td>
-          <td>&#160;&#160;&#160;(((mode) &amp; <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#ab5bee51e9ee68b83ab11d4b340f7200b">S_IFMT</a>) == <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#a4966f25d9f03a7a06bc47ac729fd86cf">S_IFIFO</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00083">83</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a765eef536bcb3bd7bacdd675dc2fba13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a765eef536bcb3bd7bacdd675dc2fba13">&#9670;&nbsp;</a></span>S_ISLNK</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_ISLNK</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">mode</td><td>)</td>
-          <td>&#160;&#160;&#160;(((mode) &amp; <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#ab5bee51e9ee68b83ab11d4b340f7200b">S_IFMT</a>) == <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#afef163ce62372757e84bd9fc88c07aad">S_IFLNK</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00084">84</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="aad0f32c2c182238f2ff71c83e6ab65a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad0f32c2c182238f2ff71c83e6ab65a0">&#9670;&nbsp;</a></span>S_ISREG</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_ISREG</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">mode</td><td>)</td>
-          <td>&#160;&#160;&#160;(((mode) &amp; <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#ab5bee51e9ee68b83ab11d4b340f7200b">S_IFMT</a>) == <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#a1aaa48b192a5dd3b6d7ee91fc98cd17d">S_IFREG</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00082">82</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a397ddd128980f1ee034653da2e9d8f6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a397ddd128980f1ee034653da2e9d8f6e">&#9670;&nbsp;</a></span>S_ISSOCK</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_ISSOCK</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">mode</td><td>)</td>
-          <td>&#160;&#160;&#160;(((mode) &amp; <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#ab5bee51e9ee68b83ab11d4b340f7200b">S_IFMT</a>) == <a class="el" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#a28e80cd43106882904be148b2a397d42">S_IFSOCK</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00085">85</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ae6774871a90d9442f00abe18b87fee6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae6774871a90d9442f00abe18b87fee6e">&#9670;&nbsp;</a></span>S_IWGRP</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_IWGRP&#160;&#160;&#160;0020</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Group members have write permission. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00045">45</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a5303f49f26293acdb9533756c78322fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5303f49f26293acdb9533756c78322fb">&#9670;&nbsp;</a></span>S_IWOTH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_IWOTH&#160;&#160;&#160;0002</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Other users have write permission. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00037">37</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ad70001754261c15a1bdc8e876c6d09d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad70001754261c15a1bdc8e876c6d09d7">&#9670;&nbsp;</a></span>S_IWUSR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_IWUSR&#160;&#160;&#160;0200</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>The file owner has write permission. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00053">53</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a042e69ac0e7dd56e5cfcd9e97d010323"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a042e69ac0e7dd56e5cfcd9e97d010323">&#9670;&nbsp;</a></span>S_IXGRP</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_IXGRP&#160;&#160;&#160;0010</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Group members have execute permission. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00043">43</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a40223db1b95a04f5b28cceb3c34cfebd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40223db1b95a04f5b28cceb3c34cfebd">&#9670;&nbsp;</a></span>S_IXOTH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_IXOTH&#160;&#160;&#160;0001</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>Other users have execute permission. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00035">35</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="af10a35e3950795d6ee4e07157d000131"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af10a35e3950795d6ee4e07157d000131">&#9670;&nbsp;</a></span>S_IXUSR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define S_IXUSR&#160;&#160;&#160;0100</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>The file owner has execute permission. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00051">51</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a4c8d0b76b470ba65a43ca46a88320f39"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c8d0b76b470ba65a43ca46a88320f39">&#9670;&nbsp;</a></span>SEEK_CUR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SEEK_CUR&#160;&#160;&#160;1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00031">31</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ad2a2e6c114780c3071efd24f16c7f7d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2a2e6c114780c3071efd24f16c7f7d8">&#9670;&nbsp;</a></span>SEEK_END</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SEEK_END&#160;&#160;&#160;2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00032">32</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a0d112bae8fd35be772185b6ec6bcbe64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d112bae8fd35be772185b6ec6bcbe64">&#9670;&nbsp;</a></span>SEEK_SET</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SEEK_SET&#160;&#160;&#160;0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00030">30</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a0f18d94259bc0125193fdcb5ef3f6f76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f18d94259bc0125193fdcb5ef3f6f76">&#9670;&nbsp;</a></span>ConvertFileFlags()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static int ConvertFileFlags </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>Mode</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00165">165</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;{</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d1/d85/filesystem_8hpp.html#ac3e60a9fc42fb6c0b656191ebb1d658b">Flags</a> = 0;</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160; </div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d3/d82/convert_8h.html#a88b07011b83b06b8856027f02d55a880">strchr</a>(<a class="code" href="../../d5/d01/lxdialog_8c.html#d5/d41/structMode">Mode</a>, <span class="charliteral">&#39;+&#39;</span>))</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        <a class="code" href="../../d1/d85/filesystem_8hpp.html#ac3e60a9fc42fb6c0b656191ebb1d658b">Flags</a> |= <a class="code" href="../../d1/d85/filesystem_8hpp.html#abb0586253488ee61072b73557eeb873b">O_RDWR</a>;</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (*<a class="code" href="../../d5/d01/lxdialog_8c.html#d5/d41/structMode">Mode</a> == <span class="charliteral">&#39;r&#39;</span>)</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <a class="code" href="../../d1/d85/filesystem_8hpp.html#ac3e60a9fc42fb6c0b656191ebb1d658b">Flags</a> |= <a class="code" href="../../d1/d85/filesystem_8hpp.html#a7a68c9ffaac7dbcd652225dd7c06a54b">O_RDONLY</a>;</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        <a class="code" href="../../d1/d85/filesystem_8hpp.html#ac3e60a9fc42fb6c0b656191ebb1d658b">Flags</a> |= <a class="code" href="../../d1/d85/filesystem_8hpp.html#a11b644a8526139c4cc1850dac1271ced">O_WRONLY</a>;</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160; </div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d3/d82/convert_8h.html#a88b07011b83b06b8856027f02d55a880">strchr</a>(<a class="code" href="../../d5/d01/lxdialog_8c.html#d5/d41/structMode">Mode</a>, <span class="charliteral">&#39;x&#39;</span>))</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        <a class="code" href="../../d1/d85/filesystem_8hpp.html#ac3e60a9fc42fb6c0b656191ebb1d658b">Flags</a> |= <a class="code" href="../../d1/d85/filesystem_8hpp.html#a9f5acfe79fafe14b6694447bd0e9f10b">O_EXCL</a>;</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160; </div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d3/d82/convert_8h.html#a88b07011b83b06b8856027f02d55a880">strchr</a>(<a class="code" href="../../d5/d01/lxdialog_8c.html#d5/d41/structMode">Mode</a>, <span class="charliteral">&#39;e&#39;</span>))</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        <a class="code" href="../../d1/d85/filesystem_8hpp.html#ac3e60a9fc42fb6c0b656191ebb1d658b">Flags</a> |= <a class="code" href="../../d1/d85/filesystem_8hpp.html#ad6d8fbe4e494b4dbe051612572d3f757">O_CLOEXEC</a>;</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160; </div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <span class="keywordflow">if</span> (*<a class="code" href="../../d5/d01/lxdialog_8c.html#d5/d41/structMode">Mode</a> != <span class="charliteral">&#39;r&#39;</span>)</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        <a class="code" href="../../d1/d85/filesystem_8hpp.html#ac3e60a9fc42fb6c0b656191ebb1d658b">Flags</a> |= <a class="code" href="../../d1/d85/filesystem_8hpp.html#a1cf6b1de1fffedaa1d26b189e9a8d2cc">O_CREAT</a>;</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160; </div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="keywordflow">if</span> (*<a class="code" href="../../d5/d01/lxdialog_8c.html#d5/d41/structMode">Mode</a> == <span class="charliteral">&#39;w&#39;</span>)</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <a class="code" href="../../d1/d85/filesystem_8hpp.html#ac3e60a9fc42fb6c0b656191ebb1d658b">Flags</a> |= <a class="code" href="../../d1/d85/filesystem_8hpp.html#ad1d67e453fb3031f40f8cd3403773813">O_TRUNC</a>;</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160; </div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <span class="keywordflow">if</span> (*<a class="code" href="../../d5/d01/lxdialog_8c.html#d5/d41/structMode">Mode</a> == <span class="charliteral">&#39;a&#39;</span>)</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <a class="code" href="../../d1/d85/filesystem_8hpp.html#ac3e60a9fc42fb6c0b656191ebb1d658b">Flags</a> |= <a class="code" href="../../d1/d85/filesystem_8hpp.html#ae036f789407d21f07b211552d67b3214">O_APPEND</a>;</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160; </div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d1/d85/filesystem_8hpp.html#ac3e60a9fc42fb6c0b656191ebb1d658b">Flags</a>;</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;}</div>
-<div class="ttc" id="aconvert_8h_html_a88b07011b83b06b8856027f02d55a880"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a88b07011b83b06b8856027f02d55a880">strchr</a></div><div class="ttdeci">char * strchr(const char *String, int Char)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d68/convert_8cpp_source.html#l00173">convert.cpp:173</a></div></div>
-<div class="ttc" id="afilesystem_8hpp_html_a11b644a8526139c4cc1850dac1271ced"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#a11b644a8526139c4cc1850dac1271ced">O_WRONLY</a></div><div class="ttdeci">#define O_WRONLY</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00061">filesystem.hpp:61</a></div></div>
-<div class="ttc" id="afilesystem_8hpp_html_a1cf6b1de1fffedaa1d26b189e9a8d2cc"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#a1cf6b1de1fffedaa1d26b189e9a8d2cc">O_CREAT</a></div><div class="ttdeci">#define O_CREAT</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00063">filesystem.hpp:63</a></div></div>
-<div class="ttc" id="afilesystem_8hpp_html_a7a68c9ffaac7dbcd652225dd7c06a54b"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#a7a68c9ffaac7dbcd652225dd7c06a54b">O_RDONLY</a></div><div class="ttdeci">#define O_RDONLY</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00060">filesystem.hpp:60</a></div></div>
-<div class="ttc" id="afilesystem_8hpp_html_a9f5acfe79fafe14b6694447bd0e9f10b"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#a9f5acfe79fafe14b6694447bd0e9f10b">O_EXCL</a></div><div class="ttdeci">#define O_EXCL</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00064">filesystem.hpp:64</a></div></div>
-<div class="ttc" id="afilesystem_8hpp_html_abb0586253488ee61072b73557eeb873b"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#abb0586253488ee61072b73557eeb873b">O_RDWR</a></div><div class="ttdeci">#define O_RDWR</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00062">filesystem.hpp:62</a></div></div>
-<div class="ttc" id="afilesystem_8hpp_html_ac3e60a9fc42fb6c0b656191ebb1d658b"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#ac3e60a9fc42fb6c0b656191ebb1d658b">Flags</a></div><div class="ttdeci">int Flags</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00002">filesystem.hpp:2</a></div></div>
-<div class="ttc" id="afilesystem_8hpp_html_ad1d67e453fb3031f40f8cd3403773813"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#ad1d67e453fb3031f40f8cd3403773813">O_TRUNC</a></div><div class="ttdeci">#define O_TRUNC</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00065">filesystem.hpp:65</a></div></div>
-<div class="ttc" id="afilesystem_8hpp_html_ad6d8fbe4e494b4dbe051612572d3f757"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#ad6d8fbe4e494b4dbe051612572d3f757">O_CLOEXEC</a></div><div class="ttdeci">#define O_CLOEXEC</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00067">filesystem.hpp:67</a></div></div>
-<div class="ttc" id="afilesystem_8hpp_html_ae036f789407d21f07b211552d67b3214"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#ae036f789407d21f07b211552d67b3214">O_APPEND</a></div><div class="ttdeci">#define O_APPEND</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00066">filesystem.hpp:66</a></div></div>
-<div class="ttc" id="alxdialog_8c_html_d5/d41/structMode"><div class="ttname"><a href="../../d5/d01/lxdialog_8c.html#d5/d41/structMode">Mode</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d01/lxdialog_8c_source.html#l00028">lxdialog.c:28</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00002">Flags</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00066">O_APPEND</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00067">O_CLOEXEC</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00063">O_CREAT</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00064">O_EXCL</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00060">O_RDONLY</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00062">O_RDWR</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00065">O_TRUNC</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00061">O_WRONLY</a>, and <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00173">strchr()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html#l00033">fopen()</a>.</p>
-
-</div>
-</div>
-<a id="a0c7518235c1384debeb9e38b04623417"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c7518235c1384debeb9e38b04623417">&#9670;&nbsp;</a></span>creat()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int creat </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>pathname</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a4c39e0c5c2965112d6b55652a6b7f781">mode_t</a>&#160;</td>
-          <td class="paramname"><em>mode</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html#l00044">44</a> of file <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html">kernel_io.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;{</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d8/d5c/kernel__io_8cpp.html#a134fc0278992a7af17a676a896fd9a35">CheckForScheduler</a>())</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="../../d6/d17/classTasking_1_1PCB.html">PCB</a> *pcb = <a class="code" href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a>;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="../../da/d88/classvfs_1_1FileDescriptorTable.html">FileDescriptorTable</a> *fdt = pcb-&gt;<a class="code" href="../../d6/d17/classTasking_1_1PCB.html#aaf2f4c22bc6ba11ae549a3331d493d80">FileDescriptors</a>;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d2/db3/hdparm_8c.html#afbb31b79c86485de0faa9e9348a5247fa1e4d60e5b05464d07a30096747025a42">fd</a> = fdt-&gt;<a class="code" href="../../da/d88/classvfs_1_1FileDescriptorTable.html#a82ec5ca495735c50ab3a890d1f7ddbd2">_creat</a>(pathname, mode);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/db3/hdparm_8c.html#afbb31b79c86485de0faa9e9348a5247fa1e4d60e5b05464d07a30096747025a42">fd</a>;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
-<div class="ttc" id="aKernel_2include__std_2errno_8h_html_a43785b9969e0bd1af532dbde06c5540b"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a></div><div class="ttdeci">#define ENOSYS</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00133">errno.h:133</a></div></div>
-<div class="ttc" id="aclassTasking_1_1PCB_html"><div class="ttname"><a href="../../d6/d17/classTasking_1_1PCB.html">Tasking::PCB</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00383">task.hpp:384</a></div></div>
-<div class="ttc" id="aclassTasking_1_1PCB_html_aaf2f4c22bc6ba11ae549a3331d493d80"><div class="ttname"><a href="../../d6/d17/classTasking_1_1PCB.html#aaf2f4c22bc6ba11ae549a3331d493d80">Tasking::PCB::FileDescriptors</a></div><div class="ttdeci">FileDescriptorTable * FileDescriptors</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00430">task.hpp:430</a></div></div>
-<div class="ttc" id="aclassvfs_1_1FileDescriptorTable_html"><div class="ttname"><a href="../../da/d88/classvfs_1_1FileDescriptorTable.html">vfs::FileDescriptorTable</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00374">filesystem.hpp:375</a></div></div>
-<div class="ttc" id="aclassvfs_1_1FileDescriptorTable_html_a82ec5ca495735c50ab3a890d1f7ddbd2"><div class="ttname"><a href="../../da/d88/classvfs_1_1FileDescriptorTable.html#a82ec5ca495735c50ab3a890d1f7ddbd2">vfs::FileDescriptorTable::_creat</a></div><div class="ttdeci">int _creat(const char *pathname, mode_t mode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d3a/file__descriptor_8cpp_source.html#l00397">file_descriptor.cpp:397</a></div></div>
-<div class="ttc" id="ahdparm_8c_html_afbb31b79c86485de0faa9e9348a5247fa1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#afbb31b79c86485de0faa9e9348a5247fa1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
-<div class="ttc" id="akernel__io_8cpp_html_a134fc0278992a7af17a676a896fd9a35"><div class="ttname"><a href="../../d8/d5c/kernel__io_8cpp.html#a134fc0278992a7af17a676a896fd9a35">CheckForScheduler</a></div><div class="ttdeci">static bool CheckForScheduler()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d5c/kernel__io_8cpp_source.html#l00026">kernel_io.cpp:26</a></div></div>
-<div class="ttc" id="atask_8hpp_html_abcc2c2d29a284c2304deb5d0778c59c8"><div class="ttname"><a href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a></div><div class="ttdeci">#define thisProcess</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00670">task.hpp:670</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00397">vfs::FileDescriptorTable::_creat()</a>, <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html#l00026">CheckForScheduler()</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00133">ENOSYS</a>, <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00430">Tasking::PCB::FileDescriptors</a>, and <a class="el" href="../../d8/da1/task_8hpp_source.html#l00670">thisProcess</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d0/d43/mconf_8c_source.html#l00847">show_textbox()</a>, and <a class="el" href="../../d6/d98/ed_8c_source.html#l00475">writeLines()</a>.</p>
-
-</div>
-</div>
-<a id="a575cfdaca3a77c3f910df16d56d7240c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a575cfdaca3a77c3f910df16d56d7240c">&#9670;&nbsp;</a></span>fclose()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int fclose </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>fd</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html#l00077">77</a> of file <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html">kernel_io.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;{</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d8/d5c/kernel__io_8cpp.html#a134fc0278992a7af17a676a896fd9a35">CheckForScheduler</a>())</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <a class="code" href="../../d6/d17/classTasking_1_1PCB.html">PCB</a> *pcb = <a class="code" href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a>;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <a class="code" href="../../da/d88/classvfs_1_1FileDescriptorTable.html">FileDescriptorTable</a> *fdt = pcb-&gt;<a class="code" href="../../d6/d17/classTasking_1_1PCB.html#aaf2f4c22bc6ba11ae549a3331d493d80">FileDescriptors</a>;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">int</span> ret = fdt-&gt;<a class="code" href="../../da/d88/classvfs_1_1FileDescriptorTable.html#a388d1525d6ab8f7681f69ae39e4483bc">_close</a>(<a class="code" href="../../d2/db3/hdparm_8c.html#afbb31b79c86485de0faa9e9348a5247fa1e4d60e5b05464d07a30096747025a42">fd</a>);</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">return</span> ret;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;}</div>
-<div class="ttc" id="aclassvfs_1_1FileDescriptorTable_html_a388d1525d6ab8f7681f69ae39e4483bc"><div class="ttname"><a href="../../da/d88/classvfs_1_1FileDescriptorTable.html#a388d1525d6ab8f7681f69ae39e4483bc">vfs::FileDescriptorTable::_close</a></div><div class="ttdeci">int _close(int fd)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d3a/file__descriptor_8cpp_source.html#l00427">file_descriptor.cpp:427</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00427">vfs::FileDescriptorTable::_close()</a>, <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html#l00026">CheckForScheduler()</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00133">ENOSYS</a>, <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00430">Tasking::PCB::FileDescriptors</a>, and <a class="el" href="../../d8/da1/task_8hpp_source.html#l00670">thisProcess</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d62/getgr__a_8c_source.html#l00020">__getgr_a()</a>, <a class="el" href="../../d8/dc0/getpw__a_8c_source.html#l00020">__getpw_a()</a>, <a class="el" href="../../d2/de9/nscd__query_8c_source.html#l00018">__nscd_query()</a>, <a class="el" href="../../d3/de8/apps_2base_2bash_2lib_2intl_2log_8c_source.html#l00057">_nl_log_untranslated()</a>, <a class="el" href="../../d2/da6/add-remove-shell_8c_source.html#l00049">add_remove_shell_main()</a>, <a class="el" href="../../d7/d05/dpkg_8c_source.html#l01560">append_control_file_to_llist()</a>, <a class="el" href="../../d6/d94/arp_8c_source.html#l00405">arp_show()</a>, <a class="el" href="../../df/dbf/route_8c_source.html#l00491">bb_displayroutes()</a>, <a class="el" href="../../db/da9/hexdump_8c_source.html#l00057">bb_dump_addfile()</a>, <a class="el" href="../../dd/d7a/getspnam__r_8c_source.html#l00056">cleanup()</a>, <a class="el" href="../../d9/d63/cat_8cpp_source.html#l00026">cmd_cat()</a>, <a class="el" href="../../d9/df4/comm_8c_source.html#l00058">comm_main()</a>, <a class="el" href="../../d9/dc6/confdata_8c_source.html#l00087">conf_read_simple()</a>, <a class="el" href="../../d9/dc6/confdata_8c_source.html#l00331">conf_write()</a>, <a class="el" href="../../df/d6a/parse__config_8c_source.html#l00087">config_close()</a>, <a class="el" href="../../da/d4d/dos2unix_8c_source.html#l00060">convert()</a>, <a class="el" href="../../df/d55/userspace__test_8c_source.html#l00489">create_file()</a>, <a class="el" href="../../d7/d05/dpkg_8c_source.html#l01182">create_list()</a>, <a class="el" href="../../d2/d27/menubox_8c_source.html#l00181">dialog_menu()</a>, <a class="el" href="../../d8/d4c/swaponoff_8c_source.html#l00272">do_all_in_proc_swaps()</a>, <a class="el" href="../../d6/d6d/iostat_8c_source.html#l00320">do_disk_statistics()</a>, <a class="el" href="../../dd/d3f/netstat_8c_source.html#l00660">do_info()</a>, <a class="el" href="../../dd/d8d/start__stop__daemon_8c_source.html#l00276">do_pidfile()</a>, <a class="el" href="../../d8/dbe/wordexp_8c_source.html#l00026">do_wordexp()</a>, <a class="el" href="../../dc/d2d/wget_8c_source.html#l01097">download_one_url()</a>, <a class="el" href="../../da/d4f/apps_2base_2bash_2lib_2sh_2dprintf_8c_source.html#l00043">dprintf()</a>, <a class="el" href="../../d7/d8e/elf__loader_8cpp_source.html#l00814">Execute::ELFObject::ELFObject()</a>, <a class="el" href="../../d7/d5b/mail_8c_source.html#l00128">encode_n_base64()</a>, <a class="el" href="../../d0/d34/pwd__grp_8c_source.html#l00500">endgrent()</a>, <a class="el" href="../../de/dbb/mntent_8c_source.html#l00017">endmntent()</a>, <a class="el" href="../../d0/d34/pwd__grp_8c_source.html#l00487">endpwent()</a>, <a class="el" href="../../d0/dd9/getusershell_8c_source.html#l00011">endusershell()</a>, <a class="el" href="../../de/dcc/awk_8c_source.html#l02862">evaluate()</a>, <a class="el" href="../../d7/deb/expand_8c_source.html#l00188">expand_main()</a>, <a class="el" href="../../da/df1/mkbuiltins_8c_source.html#l00527">extract_info()</a>, <a class="el" href="../../de/d53/fbsplash_8c_source.html#l00375">fb_drawimage()</a>, <a class="el" href="../../d9/d00/fclose__nonstdin_8c_source.html#l00015">fclose_if_not_stdin()</a>, <a class="el" href="../../d5/dcb/grep_8c_source.html#l00657">file_action_grep()</a>, <a class="el" href="../../de/d95/busybox_2scripts_2kconfig_2util_8c_source.html#l00030">file_write_dep()</a>, <a class="el" href="../../d9/de8/bootchartd_8c_source.html#l00265">finalize()</a>, <a class="el" href="../../da/d22/docproc_8c_source.html#l00167">find_export_symbols()</a>, <a class="el" href="../../d2/dc9/freopen_8c_source.html#l00013">freopen()</a>, <a class="el" href="../../d3/de0/g__game_8c_source.html#l01548">G_DoLoadGame()</a>, <a class="el" href="../../d3/de0/g__game_8c_source.html#l01610">G_DoSaveGame()</a>, <a class="el" href="../../d9/dab/apps_2base_2busybox_2util-linux_2mount_8c_source.html#l00659">get_block_backed_filesystems()</a>, <a class="el" href="../../d1/dd5/localcharset_8c_source.html#l00111">get_charset_aliases()</a>, <a class="el" href="../../d3/dc4/get__cpu__count_8c_source.html#l00022">get_cpu_count()</a>, <a class="el" href="../../d6/d6d/iostat_8c_source.html#l00163">get_cpu_statistics()</a>, <a class="el" href="../../d3/d91/utils_8c_source.html#l00015">get_hz()</a>, <a class="el" href="../../db/d91/mpstat_8c_source.html#l00804">get_irqcpu_nr()</a>, <a class="el" href="../../db/d91/mpstat_8c_source.html#l00541">get_irqs_from_interrupts()</a>, <a class="el" href="../../db/d91/mpstat_8c_source.html#l00520">get_irqs_from_stat()</a>, <a class="el" href="../../d6/d6d/iostat_8c_source.html#l00147">get_smp_uptime()</a>, <a class="el" href="../../db/d91/mpstat_8c_source.html#l00639">get_uptime()</a>, <a class="el" href="../../d6/da6/binary__parse_8cpp_source.html#l00024">Execute::GetBinaryType()</a>, <a class="el" href="../../db/d95/getdate_8c_source.html#l00009">getdate()</a>, <a class="el" href="../../d7/d44/getgrouplist_8c_source.html#l00012">getgrouplist()</a>, <a class="el" href="../../d0/d34/pwd__grp_8c_source.html#l00510">getgrouplist_internal()</a>, <a class="el" href="../../d3/df5/ftpd_8c_source.html#l00752">handle_dir_common()</a>, <a class="el" href="../../d1/d5b/bash_2examples_2loadables_2head_8c_source.html#l00097">head_builtin()</a>, <a class="el" href="../../dd/dda/interface_8c_source.html#l00542">if_readlist_proc()</a>, <a class="el" href="../../d7/d17/ifupdown_8c_source.html#l01375">ifupdown_main()</a>, <a class="el" href="../../d7/d05/dpkg_8c_source.html#l00766">index_status_file()</a>, <a class="el" href="../../dd/d7b/powertop_8c_source.html#l00239">is_hpet_irq()</a>, <a class="el" href="../../d6/d86/fdisk_8c_source.html#l02889">is_ide_cdrom_or_tape()</a>, <a class="el" href="../../df/d3f/klogd_8c_source.html#l00119">klogd_setloglevel()</a>, <a class="el" href="../../d6/d86/fdisk_8c_source.html#l02995">list_devs_in_proc_partititons()</a>, <a class="el" href="../../db/d66/m__config_8c_source.html#l01771">LoadDefaultCollection()</a>, <a class="el" href="../../d5/d15/driver_8cpp_source.html#l00165">Driver::Manager::LoadDriverFile()</a>, <a class="el" href="../../d7/d8e/elf__loader_8cpp_source.html#l00337">Execute::ELFObject::LoadDyn_x86_64()</a>, <a class="el" href="../../d7/d8e/elf__loader_8cpp_source.html#l00105">Execute::ELFObject::LoadExec_x86_64()</a>, <a class="el" href="../../db/d2c/m__argv_8c_source.html#l00075">LoadResponseFile()</a>, <a class="el" href="../../d4/d7c/svlogd_8c_source.html#l00680">logdir_close()</a>, <a class="el" href="../../d0/daa/m__misc_8c_source.html#l00066">M_FileExists()</a>, <a class="el" href="../../d0/daa/m__misc_8c_source.html#l00136">M_ReadFile()</a>, <a class="el" href="../../d4/d81/m__menu_8c_source.html#l00503">M_ReadSaveStrings()</a>, <a class="el" href="../../d0/daa/m__misc_8c_source.html#l00112">M_WriteFile()</a>, <a class="el" href="../../da/df1/mkbuiltins_8c_source.html#l00232">main()</a>, <a class="el" href="../../d8/d28/more_8c_source.html#l00074">more_main()</a>, <a class="el" href="../../de/dcc/awk_8c_source.html#l02819">next_input_file()</a>, <a class="el" href="../../d6/d4f/shell_8c_source.html#l01564">open_shell_script()</a>, <a class="el" href="../../d1/d1a/reformime_8c_source.html#l00074">parse()</a>, <a class="el" href="../../d1/de7/httpd_8c_source.html#l00697">parse_conf()</a>, <a class="el" href="../../d0/d34/pwd__grp_8c_source.html#l00248">parse_file()</a>, <a class="el" href="../../d0/df5/apps_2base_2busybox_2procps_2free_8c_source.html#l00081">parse_meminfo()</a>, <a class="el" href="../../d8/d3e/patch__bbox_8c_source.html#l00069">patch_main()</a>, <a class="el" href="../../dd/d02/pclose_8c_source.html#l00005">pclose()</a>, <a class="el" href="../../d3/d81/popen_8c_source.html#l00011">popen()</a>, <a class="el" href="../../dd/d04/popmaildir_8c_source.html#l00094">popmaildir_main()</a>, <a class="el" href="../../d6/db1/print_8c_source.html#l00075">print_builtin()</a>, <a class="el" href="../../d7/d64/libbb_2login_8c_source.html#l00019">print_login_issue()</a>, <a class="el" href="../../d1/d29/print__numbered__lines_8c_source.html#l00011">print_numbered_lines()</a>, <a class="el" href="../../d9/da1/crond_8c_source.html#l00595">process_cron_update_file()</a>, <a class="el" href="../../d8/dde/sed_8c_source.html#l01108">process_files()</a>, <a class="el" href="../../d0/de2/httpd__ssi_8c_source.html#l00062">process_includes()</a>, <a class="el" href="../../dd/d7b/powertop_8c_source.html#l00309">process_irq_counts()</a>, <a class="el" href="../../dd/d7b/powertop_8c_source.html#l00400">process_timer_stats()</a>, <a class="el" href="../../da/dc5/procps_8c_source.html#l00282">procps_scan()</a>, <a class="el" href="../../d8/dfa/whois_8c_source.html#l00035">query()</a>, <a class="el" href="../../d2/d2a/localealias_8c_source.html#l00220">read_alias_file()</a>, <a class="el" href="../../d6/d3a/devfsd_8c_source.html#l00509">read_config_file()</a>, <a class="el" href="../../dd/d7b/powertop_8c_source.html#l00162">read_cstate_counts()</a>, <a class="el" href="../../d7/d17/ifupdown_8c_source.html#l01324">read_iface_state()</a>, <a class="el" href="../../d7/d17/ifupdown_8c_source.html#l00865">read_interfaces()</a>, <a class="el" href="../../d9/d84/man2html_8c_source.html#l00505">read_man_page()</a>, <a class="el" href="../../da/d18/readprofile_8c_source.html#l00064">readprofile_main()</a>, <a class="el" href="../../d7/d86/rev_8c_source.html#l00052">rev_main()</a>, <a class="el" href="../../d4/d7c/svlogd_8c_source.html#l00544">rotate()</a>, <a class="el" href="../../df/dc0/rpmalloc_8c_source.html#l02824">rpmalloc_initialize_config()</a>, <a class="el" href="../../d4/dcc/rtc_8c_source.html#l00010">rtc_adjtime_is_utc()</a>, <a class="el" href="../../d1/d18/less_8c_source.html#l01554">save_input_to_file()</a>, <a class="el" href="../../db/d66/m__config_8c_source.html#l01609">SaveDefaultCollection()</a>, <a class="el" href="../../d1/dcf/fuser_8c_source.html#l00106">scan_proc_net_or_maps()</a>, <a class="el" href="../../d5/d70/scriptreplay_8c_source.html#l00028">scriptreplay_main()</a>, <a class="el" href="../../d8/dde/sed_8c_source.html#l01530">sed_main()</a>, <a class="el" href="../../dd/d57/sendmail_8c_source.html#l00218">sendmail_main()</a>, <a class="el" href="../../d3/d31/setfiles_8c_source.html#l00564">setfiles_main()</a>, <a class="el" href="../../db/d92/getgrent_8c_source.html#l00007">setgrent()</a>, <a class="el" href="../../d7/d06/getpwent_8c_source.html#l00008">setpwent()</a>, <a class="el" href="../../d5/d9b/spawn_8cpp_source.html#l00033">Execute::Spawn()</a>, <a class="el" href="../../d1/dda/statdump_8c_source.html#l00343">StatDump()</a>, <a class="el" href="../../d8/d76/rlcat_8c_source.html#l00158">stdcat()</a>, <a class="el" href="../../df/d55/userspace__test_8c_source.html#l00321">test_file()</a>, <a class="el" href="../../d7/d05/dpkg_8c_source.html#l01654">unpack_package()</a>, <a class="el" href="../../d6/d4f/shell_8c_source.html#l01767">unset_bash_input()</a>, <a class="el" href="../../d0/d75/update__passwd_8c_source.html#l00086">update_passwd()</a>, <a class="el" href="../../d8/d02/w__file__stdc_8c_source.html#l00056">W_StdC_CloseFile()</a>, <a class="el" href="../../d6/ddf/gen-helpfiles_8c_source.html#l00154">write_helpfiles()</a>, <a class="el" href="../../d7/d05/dpkg_8c_source.html#l00814">write_status_file()</a>, <a class="el" href="../../dd/d7b/powertop_8c_source.html#l00116">write_str_to_file()</a>, <a class="el" href="../../d0/d25/gusconf_8c_source.html#l00197">WriteTimidityConfig()</a>, <a class="el" href="../../d9/dd6/xfuncs__printf_8c_source.html#l00325">xprint_and_close_file()</a>, and <a class="el" href="../../d6/dd8/print__cmd_8c_source.html#l00427">xtrace_reset()</a>.</p>
-
-</div>
-</div>
-<a id="ae2ec3b9037ed12c33f4f7327099f615c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2ec3b9037ed12c33f4f7327099f615c">&#9670;&nbsp;</a></span>fopen()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int fopen </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>pathname</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>mode</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html#l00033">33</a> of file <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html">kernel_io.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d8/d5c/kernel__io_8cpp.html#a134fc0278992a7af17a676a896fd9a35">CheckForScheduler</a>())</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="../../d6/d17/classTasking_1_1PCB.html">PCB</a> *pcb = <a class="code" href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a>;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="../../da/d88/classvfs_1_1FileDescriptorTable.html">FileDescriptorTable</a> *fdt = pcb-&gt;<a class="code" href="../../d6/d17/classTasking_1_1PCB.html#aaf2f4c22bc6ba11ae549a3331d493d80">FileDescriptors</a>;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d2/db3/hdparm_8c.html#afbb31b79c86485de0faa9e9348a5247fa1e4d60e5b05464d07a30096747025a42">fd</a> = fdt-&gt;<a class="code" href="../../da/d88/classvfs_1_1FileDescriptorTable.html#aad35936ac452cc80e3b56675e686f5a4">_open</a>(pathname, <a class="code" href="../../d1/d85/filesystem_8hpp.html#a0f18d94259bc0125193fdcb5ef3f6f76">ConvertFileFlags</a>(mode), 0666);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/db3/hdparm_8c.html#afbb31b79c86485de0faa9e9348a5247fa1e4d60e5b05464d07a30096747025a42">fd</a>;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
-<div class="ttc" id="aclassvfs_1_1FileDescriptorTable_html_aad35936ac452cc80e3b56675e686f5a4"><div class="ttname"><a href="../../da/d88/classvfs_1_1FileDescriptorTable.html#aad35936ac452cc80e3b56675e686f5a4">vfs::FileDescriptorTable::_open</a></div><div class="ttdeci">int _open(const char *pathname, int flags, mode_t mode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d3a/file__descriptor_8cpp_source.html#l00388">file_descriptor.cpp:388</a></div></div>
-<div class="ttc" id="afilesystem_8hpp_html_a0f18d94259bc0125193fdcb5ef3f6f76"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#a0f18d94259bc0125193fdcb5ef3f6f76">ConvertFileFlags</a></div><div class="ttdeci">static int ConvertFileFlags(const char *Mode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00165">filesystem.hpp:165</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00388">vfs::FileDescriptorTable::_open()</a>, <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html#l00026">CheckForScheduler()</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00165">ConvertFileFlags()</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00133">ENOSYS</a>, <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00430">Tasking::PCB::FileDescriptors</a>, and <a class="el" href="../../d8/da1/task_8hpp_source.html#l00670">thisProcess</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d62/getgr__a_8c_source.html#l00020">__getgr_a()</a>, <a class="el" href="../../d8/dc0/getpw__a_8c_source.html#l00020">__getpw_a()</a>, <a class="el" href="../../d2/de9/nscd__query_8c_source.html#l00018">__nscd_query()</a>, <a class="el" href="../../d3/de8/apps_2base_2bash_2lib_2intl_2log_8c_source.html#l00057">_nl_log_untranslated()</a>, <a class="el" href="../../d9/d63/cat_8cpp_source.html#l00026">cmd_cat()</a>, <a class="el" href="../../d9/dc6/confdata_8c_source.html#l00331">conf_write()</a>, <a class="el" href="../../df/d55/userspace__test_8c_source.html#l00489">create_file()</a>, <a class="el" href="../../d2/d27/menubox_8c_source.html#l00181">dialog_menu()</a>, <a class="el" href="../../d7/d8e/elf__loader_8cpp_source.html#l00814">Execute::ELFObject::ELFObject()</a>, <a class="el" href="../../de/d95/busybox_2scripts_2kconfig_2util_8c_source.html#l00030">file_write_dep()</a>, <a class="el" href="../../da/d22/docproc_8c_source.html#l00167">find_export_symbols()</a>, <a class="el" href="../../d7/d34/wfopen_8c_source.html#l00021">fopen_for_read()</a>, <a class="el" href="../../d7/d34/wfopen_8c_source.html#l00031">fopen_for_write()</a>, <a class="el" href="../../d7/d34/wfopen_8c_source.html#l00011">fopen_or_warn()</a>, <a class="el" href="../../d2/dc9/freopen_8c_source.html#l00013">freopen()</a>, <a class="el" href="../../d3/de0/g__game_8c_source.html#l01548">G_DoLoadGame()</a>, <a class="el" href="../../d3/de0/g__game_8c_source.html#l01610">G_DoSaveGame()</a>, <a class="el" href="../../d1/dd5/localcharset_8c_source.html#l00111">get_charset_aliases()</a>, <a class="el" href="../../d6/da6/binary__parse_8cpp_source.html#l00024">Execute::GetBinaryType()</a>, <a class="el" href="../../db/d95/getdate_8c_source.html#l00009">getdate()</a>, <a class="el" href="../../db/d92/getgrent_8c_source.html#l00015">getgrent()</a>, <a class="el" href="../../d7/d44/getgrouplist_8c_source.html#l00012">getgrouplist()</a>, <a class="el" href="../../d7/d06/getpwent_8c_source.html#l00016">getpwent()</a>, <a class="el" href="../../dd/d7a/getspnam__r_8c_source.html#l00061">getspnam_r()</a>, <a class="el" href="../../d1/d5b/bash_2examples_2loadables_2head_8c_source.html#l00097">head_builtin()</a>, <a class="el" href="../../db/d66/m__config_8c_source.html#l01771">LoadDefaultCollection()</a>, <a class="el" href="../../d5/d15/driver_8cpp_source.html#l00165">Driver::Manager::LoadDriverFile()</a>, <a class="el" href="../../d7/d8e/elf__loader_8cpp_source.html#l00337">Execute::ELFObject::LoadDyn_x86_64()</a>, <a class="el" href="../../d7/d8e/elf__loader_8cpp_source.html#l00105">Execute::ELFObject::LoadExec_x86_64()</a>, <a class="el" href="../../db/d2c/m__argv_8c_source.html#l00075">LoadResponseFile()</a>, <a class="el" href="../../d0/daa/m__misc_8c_source.html#l00066">M_FileExists()</a>, <a class="el" href="../../d0/daa/m__misc_8c_source.html#l00136">M_ReadFile()</a>, <a class="el" href="../../d4/d81/m__menu_8c_source.html#l00503">M_ReadSaveStrings()</a>, <a class="el" href="../../d0/daa/m__misc_8c_source.html#l00112">M_WriteFile()</a>, <a class="el" href="../../da/df1/mkbuiltins_8c_source.html#l00232">main()</a>, <a class="el" href="../../d0/de2/httpd__ssi_8c_source.html#l00062">process_includes()</a>, <a class="el" href="../../da/df1/mkbuiltins_8c_source.html#l00964">produces_handler()</a>, <a class="el" href="../../d2/d2a/localealias_8c_source.html#l00220">read_alias_file()</a>, <a class="el" href="../../d9/d84/man2html_8c_source.html#l00505">read_man_page()</a>, <a class="el" href="../../df/dc0/rpmalloc_8c_source.html#l02824">rpmalloc_initialize_config()</a>, <a class="el" href="../../db/d66/m__config_8c_source.html#l01609">SaveDefaultCollection()</a>, <a class="el" href="../../de/dbb/mntent_8c_source.html#l00012">setmntent()</a>, <a class="el" href="../../d0/dd9/getusershell_8c_source.html#l00017">setusershell()</a>, <a class="el" href="../../d5/d9b/spawn_8cpp_source.html#l00033">Execute::Spawn()</a>, <a class="el" href="../../da/d8a/shell_8cpp_source.html#l00083">StartKernelShell()</a>, <a class="el" href="../../d1/dda/statdump_8c_source.html#l00343">StatDump()</a>, <a class="el" href="../../d8/d76/rlcat_8c_source.html#l00158">stdcat()</a>, <a class="el" href="../../df/d55/userspace__test_8c_source.html#l00321">test_file()</a>, <a class="el" href="../../d0/d75/update__passwd_8c_source.html#l00086">update_passwd()</a>, <a class="el" href="../../d8/d02/w__file__stdc_8c_source.html#l00033">W_StdC_OpenFile()</a>, <a class="el" href="../../d6/ddf/gen-helpfiles_8c_source.html#l00154">write_helpfiles()</a>, <a class="el" href="../../d0/d25/gusconf_8c_source.html#l00197">WriteTimidityConfig()</a>, and <a class="el" href="../../d9/dd6/xfuncs__printf_8c_source.html#l00134">xfopen()</a>.</p>
-
-</div>
-</div>
-<a id="a59e6d0024b412f266839f22638916254"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59e6d0024b412f266839f22638916254">&#9670;&nbsp;</a></span>fread()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a> fread </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>fd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>buf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
-          <td class="paramname"><em>count</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html#l00055">55</a> of file <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html">kernel_io.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;{</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d8/d5c/kernel__io_8cpp.html#a134fc0278992a7af17a676a896fd9a35">CheckForScheduler</a>())</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="code" href="../../d6/d17/classTasking_1_1PCB.html">PCB</a> *pcb = <a class="code" href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a>;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="../../da/d88/classvfs_1_1FileDescriptorTable.html">FileDescriptorTable</a> *fdt = pcb-&gt;<a class="code" href="../../d6/d17/classTasking_1_1PCB.html#aaf2f4c22bc6ba11ae549a3331d493d80">FileDescriptors</a>;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a> ret = fdt-&gt;<a class="code" href="../../da/d88/classvfs_1_1FileDescriptorTable.html#aa5e9c30c4a3d57cccd5068578322231b">_read</a>(<a class="code" href="../../d2/db3/hdparm_8c.html#afbb31b79c86485de0faa9e9348a5247fa1e4d60e5b05464d07a30096747025a42">fd</a>, <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, <a class="code" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a>);</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordflow">return</span> ret;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;}</div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_af10f4c58d91a6fa30ccc8a19d0ecbf48"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a></div><div class="ttdeci">intptr_t ssize_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00199">types.h:199</a></div></div>
-<div class="ttc" id="aapps_2base_2busybox_2coreutils_2stat_8c_html_aa29b866765bdc5bdf87b7eb666d66093"><div class="ttname"><a href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a></div><div class="ttdeci">#define buf</div></div>
-<div class="ttc" id="aclassvfs_1_1FileDescriptorTable_html_aa5e9c30c4a3d57cccd5068578322231b"><div class="ttname"><a href="../../da/d88/classvfs_1_1FileDescriptorTable.html#aa5e9c30c4a3d57cccd5068578322231b">vfs::FileDescriptorTable::_read</a></div><div class="ttdeci">ssize_t _read(int fd, void *buf, size_t count)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d3a/file__descriptor_8cpp_source.html#l00402">file_descriptor.cpp:402</a></div></div>
-<div class="ttc" id="add_8c_html_ac74ae34e9c58234aacabb6867b245c58"><div class="ttname"><a href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a></div><div class="ttdeci">#define count</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00402">vfs::FileDescriptorTable::_read()</a>, <a class="el" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html#l00026">CheckForScheduler()</a>, <a class="el" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00133">ENOSYS</a>, <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00430">Tasking::PCB::FileDescriptors</a>, and <a class="el" href="../../d8/da1/task_8hpp_source.html#l00670">thisProcess</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d62/getgr__a_8c_source.html#l00020">__getgr_a()</a>, <a class="el" href="../../d8/dc0/getpw__a_8c_source.html#l00020">__getpw_a()</a>, <a class="el" href="../../d2/de9/nscd__query_8c_source.html#l00018">__nscd_query()</a>, <a class="el" href="../../d9/d63/cat_8cpp_source.html#l00026">cmd_cat()</a>, <a class="el" href="../../d6/dff/diff_8c_source.html#l00707">diffreg()</a>, <a class="el" href="../../dc/d8c/elf__get__dynamic__tag_8cpp_source.html#l00024">Execute::ELFGetDynamicTag_x86_64()</a>, <a class="el" href="../../de/d11/elf__get__sections_8cpp_source.html#l00024">Execute::ELFGetSections_x86_64()</a>, <a class="el" href="../../d1/dde/elf__get__symbol__type_8cpp_source.html#l00024">Execute::ELFGetSymbolType_x86_64()</a>, <a class="el" href="../../d6/db6/elf__parse_8cpp_source.html#l00095">Execute::ELFLookupSymbol()</a>, <a class="el" href="../../d7/d8e/elf__loader_8cpp_source.html#l00814">Execute::ELFObject::ELFObject()</a>, <a class="el" href="../../d7/d5b/mail_8c_source.html#l00128">encode_n_base64()</a>, <a class="el" href="../../de/d53/fbsplash_8c_source.html#l00375">fb_drawimage()</a>, <a class="el" href="../../df/d75/dump_8c_source.html#l00376">get()</a>, <a class="el" href="../../d6/da6/binary__parse_8cpp_source.html#l00024">Execute::GetBinaryType()</a>, <a class="el" href="../../d7/d44/getgrouplist_8c_source.html#l00012">getgrouplist()</a>, <a class="el" href="../../d1/d56/getw_8c_source.html#l00004">getw()</a>, <a class="el" href="../../d7/d8e/elf__loader_8cpp_source.html#l00337">Execute::ELFObject::LoadDyn_x86_64()</a>, <a class="el" href="../../d7/d8e/elf__loader_8cpp_source.html#l00105">Execute::ELFObject::LoadExec_x86_64()</a>, <a class="el" href="../../d7/d8e/elf__loader_8cpp_source.html#l00743">Execute::ELFObject::LoadInterpreter()</a>, <a class="el" href="../../db/d2c/m__argv_8c_source.html#l00075">LoadResponseFile()</a>, <a class="el" href="../../d0/daa/m__misc_8c_source.html#l00136">M_ReadFile()</a>, <a class="el" href="../../d4/d81/m__menu_8c_source.html#l00503">M_ReadSaveStrings()</a>, <a class="el" href="../../d1/dac/od__bloaty_8c_source.html#l00945">read_block()</a>, <a class="el" href="../../d9/d84/man2html_8c_source.html#l00505">read_man_page()</a>, <a class="el" href="../../dc/d2d/wget_8c_source.html#l00917">retrieve_file_data()</a>, <a class="el" href="../../dd/dc9/p__saveg_8c_source.html#l00081">saveg_read8()</a>, <a class="el" href="../../d1/dac/od__bloaty_8c_source.html#l00786">skip()</a>, <a class="el" href="../../d5/d9b/spawn_8cpp_source.html#l00033">Execute::Spawn()</a>, <a class="el" href="../../da/d8a/shell_8cpp_source.html#l00083">StartKernelShell()</a>, and <a class="el" href="../../d8/d02/w__file__stdc_8c_source.html#l00069">W_StdC_Read()</a>.</p>
-
-</div>
-</div>
-<a id="a27628bfab8ccdd0fdeed6778b25cd734"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27628bfab8ccdd0fdeed6778b25cd734">&#9670;&nbsp;</a></span>fstat()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int fstat </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>fd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">struct <a class="el" href="../../db/df2/Userspace_2musl_2arch_2x86__64_2bits_2stat_8h.html#da/de7/structstat">stat</a> *&#160;</td>
-          <td class="paramname"><em>statbuf</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html#l00110">110</a> of file <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html">kernel_io.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;{</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d8/d5c/kernel__io_8cpp.html#a134fc0278992a7af17a676a896fd9a35">CheckForScheduler</a>())</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>;</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <a class="code" href="../../d6/d17/classTasking_1_1PCB.html">PCB</a> *pcb = <a class="code" href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a>;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <a class="code" href="../../da/d88/classvfs_1_1FileDescriptorTable.html">FileDescriptorTable</a> *fdt = pcb-&gt;<a class="code" href="../../d6/d17/classTasking_1_1PCB.html#aaf2f4c22bc6ba11ae549a3331d493d80">FileDescriptors</a>;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordtype">int</span> ret = fdt-&gt;<a class="code" href="../../da/d88/classvfs_1_1FileDescriptorTable.html#a595fbef99a920434efd2488fbe8fcc9c">_fstat</a>(<a class="code" href="../../d2/db3/hdparm_8c.html#afbb31b79c86485de0faa9e9348a5247fa1e4d60e5b05464d07a30096747025a42">fd</a>, statbuf);</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordflow">return</span> ret;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;}</div>
-<div class="ttc" id="aclassvfs_1_1FileDescriptorTable_html_a595fbef99a920434efd2488fbe8fcc9c"><div class="ttname"><a href="../../da/d88/classvfs_1_1FileDescriptorTable.html#a595fbef99a920434efd2488fbe8fcc9c">vfs::FileDescriptorTable::_fstat</a></div><div class="ttdeci">int _fstat(int fd, struct stat *statbuf)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d3a/file__descriptor_8cpp_source.html#l00514">file_descriptor.cpp:514</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00514">vfs::FileDescriptorTable::_fstat()</a>, <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html#l00026">CheckForScheduler()</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00133">ENOSYS</a>, <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00430">Tasking::PCB::FileDescriptors</a>, and <a class="el" href="../../d8/da1/task_8hpp_source.html#l00670">thisProcess</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/df5/fstat__time32_8c_source.html#l00009">__fstat_time32()</a>, <a class="el" href="../../da/d58/src_2stat_2____xstat_8c_source.html#l00005">__fxstat()</a>, <a class="el" href="../../d3/d85/evalfile_8c_source.html#l00076">_evalfile()</a>, <a class="el" href="../../de/d57/loadmsgcat_8c_source.html#l00907">_nl_load_domain()</a>, <a class="el" href="../../da/df6/apps_2base_2bash_2lib_2readline_2bind_8c_source.html#l00974">_rl_read_file()</a>, <a class="el" href="../../d5/d39/smemcap_8c_source.html#l00045">archivefile()</a>, <a class="el" href="../../d9/d63/cat_8cpp_source.html#l00026">cmd_cat()</a>, <a class="el" href="../../d9/d0e/patch__toybox_8c_source.html#l00196">copy_tempfile()</a>, <a class="el" href="../../d9/d5b/crontab_8c_source.html#l00072">crontab_main()</a>, <a class="el" href="../../d2/dd6/dd_8c_source.html#l00317">dd_main()</a>, <a class="el" href="../../d6/dff/diff_8c_source.html#l00976">diff_main()</a>, <a class="el" href="../../de/db1/fixdep_8c_source.html#l00283">do_config_file()</a>, <a class="el" href="../../d2/d52/fdopendir_8c_source.html#l00008">fdopendir()</a>, <a class="el" href="../../d4/d49/vi_8c_source.html#l01982">file_insert()</a>, <a class="el" href="../../df/d31/flash__eraseall_8c_source.html#l00076">flash_eraseall_main()</a>, <a class="el" href="../../d4/daf/flashcp_8c_source.html#l00060">flashcp_main()</a>, <a class="el" href="../../dd/d7a/getspnam__r_8c_source.html#l00061">getspnam_r()</a>, <a class="el" href="../../d2/d2a/finfo_8c_source.html#l00160">getstat()</a>, <a class="el" href="../../d3/df5/ftpd_8c_source.html#l00617">handle_retr()</a>, <a class="el" href="../../d1/dfa/redir_8c_source.html#l00437">here_document_to_fd()</a>, <a class="el" href="../../db/de3/histfile_8c_source.html#l00518">history_truncate_file()</a>, <a class="el" href="../../d6/dd0/gzip_8c_source.html#l02107">IF_DESKTOP()</a>, <a class="el" href="../../da/d6f/netconn_8c_source.html#l00044">isnetconn()</a>, <a class="el" href="../../d4/da9/last__fancy_8c_source.html#l00159">last_main()</a>, <a class="el" href="../../d9/da1/crond_8c_source.html#l00415">load_crontab()</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l01053">load_library()</a>, <a class="el" href="../../d9/db8/syslogd_8c_source.html#l00691">log_locally()</a>, <a class="el" href="../../df/d99/lpr_8c_source.html#l00082">lpqr_main()</a>, <a class="el" href="../../d8/d50/rl_8c_source.html#l00085">main()</a>, <a class="el" href="../../d8/d28/more_8c_source.html#l00074">more_main()</a>, <a class="el" href="../../d1/dfa/redir_8c_source.html#l00668">noclobber_open()</a>, <a class="el" href="../../d6/d4f/shell_8c_source.html#l01564">open_shell_script()</a>, <a class="el" href="../../d1/dbe/ash_8c_source.html#l05522">openredirect()</a>, <a class="el" href="../../d5/d17/patch_8c_source.html#l00360">patch_main()</a>, <a class="el" href="../../de/db1/fixdep_8c_source.html#l00354">print_deps()</a>, <a class="el" href="../../db/de3/histfile_8c_source.html#l00268">read_history_range()</a>, <a class="el" href="../../d1/dcf/fuser_8c_source.html#l00106">scan_proc_net_or_maps()</a>, <a class="el" href="../../d6/d12/sem__open_8c_source.html#l00032">sem_open()</a>, <a class="el" href="../../d1/de7/httpd_8c_source.html#l01738">send_file_and_exit()</a>, <a class="el" href="../../d9/d00/eaccess_8c_source.html#l00081">sh_stat()</a>, <a class="el" href="../../d4/d1b/shred_8c_source.html#l00043">shred_main()</a>, <a class="el" href="../../d1/dac/od__bloaty_8c_source.html#l00786">skip()</a>, <a class="el" href="../../d5/d9b/spawn_8cpp_source.html#l00033">Execute::Spawn()</a>, <a class="el" href="../../d7/d56/tail_8c_source.html#l00114">tail_main()</a>, <a class="el" href="../../d8/db0/ttyname__r_8c_source.html#l00006">ttyname_r()</a>, <a class="el" href="../../d0/d75/update__passwd_8c_source.html#l00086">update_passwd()</a>, <a class="el" href="../../d5/df7/coreutils_2uuencode_8c_source.html#l00041">uuencode_main()</a>, <a class="el" href="../../d9/dbc/pidfile_8c_source.html#l00016">write_pidfile()</a>, <a class="el" href="../../d9/dd6/xfuncs__printf_8c_source.html#l00525">xfstat()</a>, and <a class="el" href="../../d5/de6/read__printf_8c_source.html#l00105">xmalloc_read_with_initial_buf()</a>.</p>
-
-</div>
-</div>
-<a id="a08608c0aa56801926439704f198622e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08608c0aa56801926439704f198622e7">&#9670;&nbsp;</a></span>fwrite()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a> fwrite </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>fd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const void *&#160;</td>
-          <td class="paramname"><em>buf</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
-          <td class="paramname"><em>count</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html#l00066">66</a> of file <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html">kernel_io.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;{</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d8/d5c/kernel__io_8cpp.html#a134fc0278992a7af17a676a896fd9a35">CheckForScheduler</a>())</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <a class="code" href="../../d6/d17/classTasking_1_1PCB.html">PCB</a> *pcb = <a class="code" href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a>;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <a class="code" href="../../da/d88/classvfs_1_1FileDescriptorTable.html">FileDescriptorTable</a> *fdt = pcb-&gt;<a class="code" href="../../d6/d17/classTasking_1_1PCB.html#aaf2f4c22bc6ba11ae549a3331d493d80">FileDescriptors</a>;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a> ret = fdt-&gt;<a class="code" href="../../da/d88/classvfs_1_1FileDescriptorTable.html#a983a17cbba0eaab35393a2f0655b1522">_write</a>(<a class="code" href="../../d2/db3/hdparm_8c.html#afbb31b79c86485de0faa9e9348a5247fa1e4d60e5b05464d07a30096747025a42">fd</a>, <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, <a class="code" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a>);</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordflow">return</span> ret;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;}</div>
-<div class="ttc" id="aclassvfs_1_1FileDescriptorTable_html_a983a17cbba0eaab35393a2f0655b1522"><div class="ttname"><a href="../../da/d88/classvfs_1_1FileDescriptorTable.html#a983a17cbba0eaab35393a2f0655b1522">vfs::FileDescriptorTable::_write</a></div><div class="ttdeci">ssize_t _write(int fd, const void *buf, size_t count)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d3a/file__descriptor_8cpp_source.html#l00414">file_descriptor.cpp:414</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00414">vfs::FileDescriptorTable::_write()</a>, <a class="el" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html#l00026">CheckForScheduler()</a>, <a class="el" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00133">ENOSYS</a>, <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00430">Tasking::PCB::FileDescriptors</a>, and <a class="el" href="../../d8/da1/task_8hpp_source.html#l00670">thisProcess</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/dee/musl_2src_2misc_2getopt_8c_source.html#l00016">__getopt_msg()</a>, <a class="el" href="../../d2/d44/terminal_8c_source.html#l00710">_rl_output_some_chars()</a>, <a class="el" href="../../d3/d13/colors_8c_source.html#l00082">_rl_put_indicator()</a>, <a class="el" href="../../d4/d7c/svlogd_8c_source.html#l00612">buffer_pwrite()</a>, <a class="el" href="../../d9/dc6/confdata_8c_source.html#l00331">conf_write()</a>, <a class="el" href="../../d7/d5b/mail_8c_source.html#l00128">encode_n_base64()</a>, <a class="el" href="../../de/dcc/awk_8c_source.html#l02862">evaluate()</a>, <a class="el" href="../../db/d15/busybox_2scripts_2kconfig_2expr_8c_source.html#l01081">expr_print_file_helper()</a>, <a class="el" href="../../da/d5f/complete_8c_source.html#l00805">fnprint()</a>, <a class="el" href="../../d1/db5/fputs_8c_source.html#l00004">fputs()</a>, <a class="el" href="../../d0/daa/m__misc_8c_source.html#l00112">M_WriteFile()</a>, <a class="el" href="../../d4/dec/perror_8c_source.html#l00006">perror()</a>, <a class="el" href="../../d5/dcb/grep_8c_source.html#l00249">print_line()</a>, <a class="el" href="../../d2/d02/putw_8c_source.html#l00004">putw()</a>, <a class="el" href="../../de/d42/libbb_2uuencode_8c_source.html#l00207">read_base64()</a>, <a class="el" href="../../d4/d49/vi_8c_source.html#l00993">refresh()</a>, <a class="el" href="../../dd/dc9/p__saveg_8c_source.html#l00099">saveg_write8()</a>, <a class="el" href="../../d4/d7c/svlogd_8c_source.html#l01051">svlogd_main()</a>, <a class="el" href="../../df/d93/apps_2base_2busybox_2coreutils_2tee_8c_source.html#l00059">tee_main()</a>, <a class="el" href="../../db/d71/fold_8c_source.html#l00069">write2stdout()</a>, and <a class="el" href="../../d4/dae/hexdump__xxd_8c_source.html#l00075">write_zeros()</a>.</p>
-
-</div>
-</div>
-<a id="a8bd74caed008a66808d92d57fa74d9f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bd74caed008a66808d92d57fa74d9f6">&#9670;&nbsp;</a></span>lseek()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a37aff01e955441499997a359a4153b3d">off_t</a> lseek </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>fd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a37aff01e955441499997a359a4153b3d">off_t</a>&#160;</td>
-          <td class="paramname"><em>offset</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>whence</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html#l00088">88</a> of file <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html">kernel_io.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;{</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d8/d5c/kernel__io_8cpp.html#a134fc0278992a7af17a676a896fd9a35">CheckForScheduler</a>())</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <a class="code" href="../../d6/d17/classTasking_1_1PCB.html">PCB</a> *pcb = <a class="code" href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a>;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <a class="code" href="../../da/d88/classvfs_1_1FileDescriptorTable.html">FileDescriptorTable</a> *fdt = pcb-&gt;<a class="code" href="../../d6/d17/classTasking_1_1PCB.html#aaf2f4c22bc6ba11ae549a3331d493d80">FileDescriptors</a>;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <a class="code" href="../../d4/dba/Drivers_2include_2types_8h.html#a37aff01e955441499997a359a4153b3d">off_t</a> ret = fdt-&gt;<a class="code" href="../../da/d88/classvfs_1_1FileDescriptorTable.html#a0e1f14ff1d575a665b613ff613ac05d3">_lseek</a>(<a class="code" href="../../d2/db3/hdparm_8c.html#afbb31b79c86485de0faa9e9348a5247fa1e4d60e5b05464d07a30096747025a42">fd</a>, <a class="code" href="../../d4/d49/vi_8c.html#aae6364a195a181790fe7379c6b44a343">offset</a>, whence);</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordflow">return</span> ret;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;}</div>
-<div class="ttc" id="aDrivers_2include_2types_8h_html_a37aff01e955441499997a359a4153b3d"><div class="ttname"><a href="../../d4/dba/Drivers_2include_2types_8h.html#a37aff01e955441499997a359a4153b3d">off_t</a></div><div class="ttdeci">__SIZE_TYPE__ off_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dba/Drivers_2include_2types_8h_source.html#l00058">types.h:58</a></div></div>
-<div class="ttc" id="aclassvfs_1_1FileDescriptorTable_html_a0e1f14ff1d575a665b613ff613ac05d3"><div class="ttname"><a href="../../da/d88/classvfs_1_1FileDescriptorTable.html#a0e1f14ff1d575a665b613ff613ac05d3">vfs::FileDescriptorTable::_lseek</a></div><div class="ttdeci">off_t _lseek(int fd, off_t offset, int whence)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d3a/file__descriptor_8cpp_source.html#l00471">file_descriptor.cpp:471</a></div></div>
-<div class="ttc" id="avi_8c_html_aae6364a195a181790fe7379c6b44a343"><div class="ttname"><a href="../../d4/d49/vi_8c.html#aae6364a195a181790fe7379c6b44a343">offset</a></div><div class="ttdeci">#define offset</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d49/vi_8c_source.html#l00486">vi.c:486</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00471">vfs::FileDescriptorTable::_lseek()</a>, <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html#l00026">CheckForScheduler()</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00133">ENOSYS</a>, <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00430">Tasking::PCB::FileDescriptors</a>, <a class="el" href="../../d4/d49/vi_8c_source.html#l00486">offset</a>, and <a class="el" href="../../d8/da1/task_8hpp_source.html#l00670">thisProcess</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d46/textbox_8c_source.html#l00306">back_lines()</a>, <a class="el" href="../../d6/d86/fdisk_8c_source.html#l00498">bb_BLKGETSIZE_sectors()</a>, <a class="el" href="../../d0/df2/bash_2examples_2loadables_2cut_8c_source.html#l00383">cutfile()</a>, <a class="el" href="../../d2/dd6/dd_8c_source.html#l00317">dd_main()</a>, <a class="el" href="../../d3/d46/textbox_8c_source.html#l00037">dialog_textbox()</a>, <a class="el" href="../../d6/dff/diff_8c_source.html#l00707">diffreg()</a>, <a class="el" href="../../dc/d8c/elf__get__dynamic__tag_8cpp_source.html#l00024">Execute::ELFGetDynamicTag_x86_64()</a>, <a class="el" href="../../de/d11/elf__get__sections_8cpp_source.html#l00024">Execute::ELFGetSections_x86_64()</a>, <a class="el" href="../../d1/dde/elf__get__symbol__type_8cpp_source.html#l00024">Execute::ELFGetSymbolType_x86_64()</a>, <a class="el" href="../../d6/db6/elf__parse_8cpp_source.html#l00095">Execute::ELFLookupSymbol()</a>, <a class="el" href="../../d7/d8e/elf__loader_8cpp_source.html#l00814">Execute::ELFObject::ELFObject()</a>, <a class="el" href="../../d1/dca/general_8c_source.html#l00572">fd_ispipe()</a>, <a class="el" href="../../db/d16/get__header__ar_8c_source.html#l00029">get_header_ar()</a>, <a class="el" href="../../d8/d83/get__header__tar_8c_source.html#l00158">get_header_tar()</a>, <a class="el" href="../../d3/d46/textbox_8c_source.html#l00465">get_line()</a>, <a class="el" href="../../d5/d18/get__volsize_8c_source.html#l00011">get_volume_size_in_bytes()</a>, <a class="el" href="../../d6/da6/binary__parse_8cpp_source.html#l00024">Execute::GetBinaryType()</a>, <a class="el" href="../../db/de3/histfile_8c_source.html#l00678">history_do_write()</a>, <a class="el" href="../../d8/d77/aio_8c_source.html#l00211">io_thread_func()</a>, <a class="el" href="../../d4/d9d/last_8c_source.html#l00070">last_main()</a>, <a class="el" href="../../d7/d8e/elf__loader_8cpp_source.html#l00337">Execute::ELFObject::LoadDyn_x86_64()</a>, <a class="el" href="../../d7/d8e/elf__loader_8cpp_source.html#l00105">Execute::ELFObject::LoadExec_x86_64()</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00640">mmap_fixed()</a>, <a class="el" href="../../d6/d4f/shell_8c_source.html#l01564">open_shell_script()</a>, <a class="el" href="../../d3/d46/textbox_8c_source.html#l00516">print_position()</a>, <a class="el" href="../../dc/d2d/wget_8c_source.html#l00917">retrieve_file_data()</a>, <a class="el" href="../../d3/de7/rewinddir_8c_source.html#l00006">rewinddir()</a>, <a class="el" href="../../d6/dc6/termcap_8c_source.html#l00621">scan_file()</a>, <a class="el" href="../../d6/d7b/seek__by__jump_8c_source.html#l00008">seek_by_jump()</a>, <a class="el" href="../../d6/d86/fdisk_8c_source.html#l00622">seek_sector()</a>, <a class="el" href="../../d3/d53/seekdir_8c_source.html#l00006">seekdir()</a>, <a class="el" href="../../d1/de7/httpd_8c_source.html#l01738">send_file_and_exit()</a>, <a class="el" href="../../d7/d56/tail_8c_source.html#l00114">tail_main()</a>, <a class="el" href="../../d6/da7/unzip_8c_source.html#l00348">unzip_skip()</a>, <a class="el" href="../../d4/d27/busybox_2util-linux_2volume__id_2util_8c_source.html#l00179">volume_id_get_buffer()</a>, <a class="el" href="../../d9/dd6/xfuncs__printf_8c_source.html#l00275">xlseek()</a>, and <a class="el" href="../../d5/da5/zread_8c_source.html#l00216">zsyncfd()</a>.</p>
-
-</div>
-</div>
-<a id="af52d2b78c938af5e279e57ffa2644ff8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af52d2b78c938af5e279e57ffa2644ff8">&#9670;&nbsp;</a></span>lstat()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int lstat </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>pathname</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">struct <a class="el" href="../../db/df2/Userspace_2musl_2arch_2x86__64_2bits_2stat_8h.html#da/de7/structstat">stat</a> *&#160;</td>
-          <td class="paramname"><em>statbuf</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html#l00121">121</a> of file <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html">kernel_io.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;{</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d8/d5c/kernel__io_8cpp.html#a134fc0278992a7af17a676a896fd9a35">CheckForScheduler</a>())</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>;</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; </div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <a class="code" href="../../d6/d17/classTasking_1_1PCB.html">PCB</a> *pcb = <a class="code" href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a>;</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <a class="code" href="../../da/d88/classvfs_1_1FileDescriptorTable.html">FileDescriptorTable</a> *fdt = pcb-&gt;<a class="code" href="../../d6/d17/classTasking_1_1PCB.html#aaf2f4c22bc6ba11ae549a3331d493d80">FileDescriptors</a>;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <span class="keywordtype">int</span> ret = fdt-&gt;<a class="code" href="../../da/d88/classvfs_1_1FileDescriptorTable.html#a320086770a098dfae7c3dae2e1c5221e">_lstat</a>(pathname, statbuf);</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordflow">return</span> ret;</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;}</div>
-<div class="ttc" id="aclassvfs_1_1FileDescriptorTable_html_a320086770a098dfae7c3dae2e1c5221e"><div class="ttname"><a href="../../da/d88/classvfs_1_1FileDescriptorTable.html#a320086770a098dfae7c3dae2e1c5221e">vfs::FileDescriptorTable::_lstat</a></div><div class="ttdeci">int _lstat(const char *pathname, struct stat *statbuf)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d3a/file__descriptor_8cpp_source.html#l00538">file_descriptor.cpp:538</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00538">vfs::FileDescriptorTable::_lstat()</a>, <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html#l00026">CheckForScheduler()</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00133">ENOSYS</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00430">Tasking::PCB::FileDescriptors</a>, and <a class="el" href="../../d8/da1/task_8hpp_source.html#l00670">thisProcess</a>.</p>
-
-</div>
-</div>
-<a id="aac61b84d7346413e147c8970ec0ac735"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac61b84d7346413e147c8970ec0ac735">&#9670;&nbsp;</a></span>operator!=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int __attribute__::operator!= </td>
-          <td>(</td>
-          <td class="paramtype">const Fildes &amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00013">13</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                                                :<span class="comment">//www.gnu.org/licenses/&gt;.</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;*/</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aed3ee677165931aceee57d0c6d9e4432"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed3ee677165931aceee57d0c6d9e4432">&#9670;&nbsp;</a></span>operator==()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int <a class="el" href="../../d6/da3/math_8c.html#a43af69371473032f31babb9b4182d47b">__attribute__::operator</a>== </td>
-          <td>(</td>
-          <td class="paramtype">const Fildes &amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00005">5</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                                                :<span class="comment">//www.gnu.org/licenses/&gt;.</span></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a495553b93f6e4b88e7d82195f189cb22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a495553b93f6e4b88e7d82195f189cb22">&#9670;&nbsp;</a></span>stat()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int <a class="el" href="../../db/df2/Userspace_2musl_2arch_2x86__64_2bits_2stat_8h.html#da/de7/structstat">stat</a> </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>pathname</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">struct <a class="el" href="../../db/df2/Userspace_2musl_2arch_2x86__64_2bits_2stat_8h.html#da/de7/structstat">stat</a> *&#160;</td>
-          <td class="paramname"><em>statbuf</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html#l00099">99</a> of file <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html">kernel_io.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;{</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d8/d5c/kernel__io_8cpp.html#a134fc0278992a7af17a676a896fd9a35">CheckForScheduler</a>())</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <a class="code" href="../../d6/d17/classTasking_1_1PCB.html">PCB</a> *pcb = <a class="code" href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a>;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <a class="code" href="../../da/d88/classvfs_1_1FileDescriptorTable.html">FileDescriptorTable</a> *fdt = pcb-&gt;<a class="code" href="../../d6/d17/classTasking_1_1PCB.html#aaf2f4c22bc6ba11ae549a3331d493d80">FileDescriptors</a>;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keywordtype">int</span> ret = fdt-&gt;<a class="code" href="../../da/d88/classvfs_1_1FileDescriptorTable.html#ac9dd41fcfadc4d4e841d599e14edcfbc">_stat</a>(pathname, statbuf);</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordflow">return</span> ret;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;}</div>
-<div class="ttc" id="aclassvfs_1_1FileDescriptorTable_html_ac9dd41fcfadc4d4e841d599e14edcfbc"><div class="ttname"><a href="../../da/d88/classvfs_1_1FileDescriptorTable.html#ac9dd41fcfadc4d4e841d599e14edcfbc">vfs::FileDescriptorTable::_stat</a></div><div class="ttdeci">int _stat(const char *pathname, struct stat *statbuf)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d3a/file__descriptor_8cpp_source.html#l00483">file_descriptor.cpp:483</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00483">vfs::FileDescriptorTable::_stat()</a>, <a class="el" href="../../d8/d5c/kernel__io_8cpp_source.html#l00026">CheckForScheduler()</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00133">ENOSYS</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00430">Tasking::PCB::FileDescriptors</a>, and <a class="el" href="../../d8/da1/task_8hpp_source.html#l00670">thisProcess</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d8/d6d/stat__time32_8c_source.html#l00009">__stat_time32()</a>, <a class="el" href="../../da/d58/src_2stat_2____xstat_8c_source.html#l00020">__xstat()</a>, <a class="el" href="../../d2/dc2/pathcanon_8c_source.html#l00075">_path_isdir()</a>, <a class="el" href="../../d3/d13/colors_8c_source.html#l00152">_rl_print_color_indicator()</a>, <a class="el" href="../../d6/d3a/devfsd_8c_source.html#l00798">action_permissions()</a>, <a class="el" href="../../da/d5f/complete_8c_source.html#l01855">append_to_match()</a>, <a class="el" href="../../d0/d37/make__directory_8c_source.html#l00027">bb_make_directory()</a>, <a class="el" href="../../dc/d13/bbunzip_8c_source.html#l00040">bbunpack()</a>, <a class="el" href="../../d6/d9e/busybox_2coreutils_2test_8c_source.html#l00557">binop()</a>, <a class="el" href="../../d1/dbe/ash_8c_source.html#l02924">cdcmd()</a>, <a class="el" href="../../d4/d49/vi_8c_source.html#l02790">colon()</a>, <a class="el" href="../../d0/d43/mconf_8c_source.html#l00731">conf()</a>, <a class="el" href="../../d0/d43/mconf_8c_source.html#l00900">conf_choice()</a>, <a class="el" href="../../d9/dc6/confdata_8c_source.html#l00070">conf_get_default_confname()</a>, <a class="el" href="../../d0/d43/mconf_8c_source.html#l00994">conf_load()</a>, <a class="el" href="../../d0/d43/mconf_8c_source.html#l01023">conf_save()</a>, <a class="el" href="../../d0/d43/mconf_8c_source.html#l00952">conf_string()</a>, <a class="el" href="../../d9/dc6/confdata_8c_source.html#l00331">conf_write()</a>, <a class="el" href="../../d9/da1/crond_8c_source.html#l01021">crond_main()</a>, <a class="el" href="../../df/dde/runsv_8c_source.html#l00277">custom()</a>, <a class="el" href="../../d9/d72/deluser_8c_source.html#l00053">deluser_main()</a>, <a class="el" href="../../d6/dff/diff_8c_source.html#l00976">diff_main()</a>, <a class="el" href="../../de/d77/ls_8c_source.html#l00478">display_single()</a>, <a class="el" href="../../dc/d00/musl_2src_2regex_2glob_8c_source.html#l00035">do_glob()</a>, <a class="el" href="../../df/d9d/nftw_8c_source.html#l00023">do_nftw()</a>, <a class="el" href="../../d1/d23/runsvdir_8c_source.html#l00153">do_rescan()</a>, <a class="el" href="../../d9/d76/du_8c_source.html#l00145">du()</a>, <a class="el" href="../../d0/d43/mconf_8c_source.html#l00462">exec_conf()</a>, <a class="el" href="../../d6/dd4/fchmodat_8c_source.html#l00006">fchmodat()</a>, <a class="el" href="../../d5/dcb/grep_8c_source.html#l00657">file_action_grep()</a>, <a class="el" href="../../de/d95/executable_8c_source.html#l00015">file_is_executable()</a>, <a class="el" href="../../d7/d65/apps_2base_2busybox_2coreutils_2chmod_8c_source.html#l00069">fileAction()</a>, <a class="el" href="../../d6/d9e/busybox_2coreutils_2test_8c_source.html#l00699">filstat()</a>, <a class="el" href="../../d1/dbe/ash_8c_source.html#l13745">find_command()</a>, <a class="el" href="../../d1/dbe/ash_8c_source.html#l13621">find_dot_file()</a>, <a class="el" href="../../d3/d0a/find_8c_source.html#l01632">find_main()</a>, <a class="el" href="../../d7/d39/find__mount__point_8c_source.html#l00019">find_mount_point()</a>, <a class="el" href="../../d8/d55/ftok_8c_source.html#l00004">ftok()</a>, <a class="el" href="../../df/d30/get__current__dir__name_8c_source.html#l00008">get_current_dir_name()</a>, <a class="el" href="../../d2/d2a/finfo_8c_source.html#l00160">getstat()</a>, <a class="el" href="../../d0/dbe/apps_2base_2bash_2lib_2glob_2glob_8c_source.html#l00565">glob_testdir()</a>, <a class="el" href="../../d5/dcb/grep_8c_source.html#l00708">grep_main()</a>, <a class="el" href="../../d1/de7/httpd_8c_source.html#l02180">handle_incoming_and_exit()</a>, <a class="el" href="../../db/de3/histfile_8c_source.html#l00678">history_do_write()</a>, <a class="el" href="../../d1/dbe/ash_8c_source.html#l14462">init()</a>, <a class="el" href="../../d0/dbd/install_8c_source.html#l00106">install_main()</a>, <a class="el" href="../../d4/dff/isdirectory_8c_source.html#l00016">is_directory()</a>, <a class="el" href="../../d6/d86/fdisk_8c_source.html#l02889">is_ide_cdrom_or_tape()</a>, <a class="el" href="../../dd/df9/bash_2examples_2loadables_2ln_8c_source.html#l00055">ln_builtin()</a>, <a class="el" href="../../d1/d76/busybox_2coreutils_2ln_8c_source.html#l00053">ln_main()</a>, <a class="el" href="../../d4/d7c/svlogd_8c_source.html#l00705">logdir_open()</a>, <a class="el" href="../../d6/d54/pwd_8c_source.html#l00030">logical_getcwd()</a>, <a class="el" href="../../d7/d9a/mailstat_8c_source.html#l00055">mailstat()</a>, <a class="el" href="../../d5/d4a/httpd__indexcgi_8c_source.html#l00214">main()</a>, <a class="el" href="../../db/d59/musl_2src_2temp_2mktemp_8c_source.html#l00007">mktemp()</a>, <a class="el" href="../../d1/d08/mountpoint_8c_source.html#l00040">mountpoint_main()</a>, <a class="el" href="../../d4/d48/mv_8c_source.html#l00043">mv_main()</a>, <a class="el" href="../../de/d77/ls_8c_source.html#l00704">my_stat()</a>, <a class="el" href="../../d0/d0e/resume_8c_source.html#l00034">name_to_dev_t()</a>, <a class="el" href="../../d1/dfa/redir_8c_source.html#l00668">noclobber_open()</a>, <a class="el" href="../../df/dde/runsv_8c_source.html#l00484">open_control()</a>, <a class="el" href="../../d1/dbe/ash_8c_source.html#l05522">openredirect()</a>, <a class="el" href="../../d8/d3e/patch__bbox_8c_source.html#l00069">patch_main()</a>, <a class="el" href="../../dd/d8d/start__stop__daemon_8c_source.html#l00246">pid_is_user()</a>, <a class="el" href="../../dd/dc9/acpid_8c_source.html#l00145">process_event()</a>, <a class="el" href="../../da/dc5/procps_8c_source.html#l00282">procps_scan()</a>, <a class="el" href="../../d6/d3a/devfsd_8c_source.html#l00509">read_config_file()</a>, <a class="el" href="../../d9/d84/man2html_8c_source.html#l00505">read_man_page()</a>, <a class="el" href="../../d4/de3/apps_2base_2bash_2examples_2loadables_2realpath_8c_source.html#l00067">realpath_builtin()</a>, <a class="el" href="../../d5/dad/recursive__action_8c_source.html#l00067">recursive_action1()</a>, <a class="el" href="../../d4/d7c/svlogd_8c_source.html#l00544">rotate()</a>, <a class="el" href="../../df/dde/runsv_8c_source.html#l00500">runsv_main()</a>, <a class="el" href="../../d1/d23/runsvdir_8c_source.html#l00236">runsvdir_main()</a>, <a class="el" href="../../d1/dcf/fuser_8c_source.html#l00172">scan_recursive()</a>, <a class="el" href="../../d9/d84/man2html_8c_source.html#l02193">scan_request()</a>, <a class="el" href="../../d0/d43/mconf_8c_source.html#l00540">search_conf()</a>, <a class="el" href="../../d8/dde/sed_8c_source.html#l01530">sed_main()</a>, <a class="el" href="../../d6/db2/loop_8c_source.html#l00194">set_loop()</a>, <a class="el" href="../../dd/d00/apps_2base_2bash_2lib_2sh_2tmpfile_8c_source.html#l00135">sh_mktmpname()</a>, <a class="el" href="../../d9/dab/apps_2base_2busybox_2util-linux_2mount_8c_source.html#l01970">singlemount()</a>, <a class="el" href="../../da/d5f/complete_8c_source.html#l00599">stat_char()</a>, <a class="el" href="../../d8/d4c/swaponoff_8c_source.html#l00149">swap_enable_disable()</a>, <a class="el" href="../../df/d36/switch__root_8c_source.html#l00176">switch_root_main()</a>, <a class="el" href="../../de/d6e/sysctl_8c_source.html#l00235">sysctl_act_recursive()</a>, <a class="el" href="../../d7/d56/tail_8c_source.html#l00114">tail_main()</a>, <a class="el" href="../../d8/db0/ttyname__r_8c_source.html#l00006">ttyname_r()</a>, <a class="el" href="../../d4/d49/vi_8c_source.html#l04955">vi_main()</a>, <a class="el" href="../../d6/da6/who_8c_source.html#l00108">who_main()</a>, <a class="el" href="../../d8/daa/getpty_8c_source.html#l00012">xgetpty()</a>, <a class="el" href="../../d9/d0e/patch__toybox_8c_source.html#l00107">xmkpath()</a>, and <a class="el" href="../../d9/dd6/xfuncs__printf_8c_source.html#l00519">xstat()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a58be20fe2c4bcd0fbc91413078659fc8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58be20fe2c4bcd0fbc91413078659fc8">&#9670;&nbsp;</a></span>Descriptor</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Descriptor = -1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00003">3</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ac3e60a9fc42fb6c0b656191ebb1d658b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3e60a9fc42fb6c0b656191ebb1d658b">&#9670;&nbsp;</a></span>Flags</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Flags = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00002">2</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00165">ConvertFileFlags()</a>.</p>
-
-</div>
-</div>
-<a id="a607bc7717301cb76f68f42a278c9b7b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a607bc7717301cb76f68f42a278c9b7b6">&#9670;&nbsp;</a></span>Handle</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">RefNode* Handle = nullptr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00000">0</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a103f92bee2848a4abd9c26dae80a1b0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a103f92bee2848a4abd9c26dae80a1b0a">&#9670;&nbsp;</a></span>Mode</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a4c39e0c5c2965112d6b55652a6b7f781">mode_t</a> <a class="el" href="../../d5/d01/lxdialog_8c.html#d5/d41/structMode">Mode</a> = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00001">1</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d8/d3a/file__descriptor_8cpp_source.html#l00176">vfs::FileDescriptorTable::AddFileDescriptor()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00040">40</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
 </div>
 </div>

@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['kcschedtype_75504',['KCSchedType',['../d1/dfc/kconfig_8hpp.html#a41289c1be1d3ca1e54bce8b46058c2c1',1,'kconfig.hpp']]],
-  ['keys_75505',['Keys',['../dd/d39/keyboard_8hpp.html#a0ada92b8263d776ca3c779d2a0e031bc',1,'keyboard.hpp']]],
-  ['keyscancodes_75506',['KeyScanCodes',['../d4/d55/Kernel_2driver_8h.html#a505d8572bf9cf882f643df6a7f695d35',1,'KeyScanCodes():&#160;driver.h'],['../df/d99/Drivers_2include_2driver_8h.html#a505d8572bf9cf882f643df6a7f695d35',1,'KeyScanCodes():&#160;driver.h']]],
-  ['killcode_75507',['KillCode',['../d9/d3e/namespaceTasking.html#a3623a6b9ea1e6b126eed6c14901cb94e',1,'Tasking']]]
+  ['lvttimerdivide_44072',['LVTTimerDivide',['../d3/d88/namespaceAPIC.html#aa540889ec4157bb604e83087996a9980',1,'APIC::LVTTimerDivide()'],['../d3/d88/namespaceAPIC.html#aa540889ec4157bb604e83087996a9980',1,'APIC::LVTTimerDivide()']]],
+  ['lvttimermask_44073',['LVTTimerMask',['../d3/d88/namespaceAPIC.html#af7da6d1cf288d51a50c782a2aa75c162',1,'APIC::LVTTimerMask()'],['../d3/d88/namespaceAPIC.html#af7da6d1cf288d51a50c782a2aa75c162',1,'APIC::LVTTimerMask()']]],
+  ['lvttimermode_44074',['LVTTimerMode',['../d3/d88/namespaceAPIC.html#a94b9c4b826c87fd2c2adb212030432b1',1,'APIC::LVTTimerMode()'],['../d3/d88/namespaceAPIC.html#a94b9c4b826c87fd2c2adb212030432b1',1,'APIC::LVTTimerMode()']]]
 ];

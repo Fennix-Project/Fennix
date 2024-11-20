@@ -129,14 +129,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d0f/pthread__barrierattr__setpshared_8c_source.html#l00003">3</a> of file <a class="el" href="../../dd/d0f/pthread__barrierattr__setpshared_8c_source.html">pthread_barrierattr_setpshared.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">if</span> (pshared &gt; 1U) <span class="keywordflow">return</span> <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a>;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">if</span> (pshared &gt; 1U) <span class="keywordflow">return</span> <a class="code" href="../../df/d53/Userspace_2libc_2include_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a>;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    a-&gt;__attr = pshared ? <a class="code" href="../../d4/df4/Kernel_2include__std_2limits_8h.html#a21658776274b3d146c674318b635a334">INT_MIN</a> : 0;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
-<div class="ttc" id="aKernel_2include__std_2errno_8h_html_a2d1678d5a7cc8ce499643f3b8957def4"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a></div><div class="ttdeci">#define EINVAL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00085">errno.h:85</a></div></div>
 <div class="ttc" id="aKernel_2include__std_2limits_8h_html_a21658776274b3d146c674318b635a334"><div class="ttname"><a href="../../d4/df4/Kernel_2include__std_2limits_8h.html#a21658776274b3d146c674318b635a334">INT_MIN</a></div><div class="ttdeci">#define INT_MIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df4/Kernel_2include__std_2limits_8h_source.html#l00069">limits.h:69</a></div></div>
+<div class="ttc" id="aUserspace_2libc_2include_2errno_8h_html_a2d1678d5a7cc8ce499643f3b8957def4"><div class="ttname"><a href="../../df/d53/Userspace_2libc_2include_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a></div><div class="ttdeci">#define EINVAL</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d53/Userspace_2libc_2include_2errno_8h_source.html#l00025">errno.h:25</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00085">EINVAL</a>, and <a class="el" href="../../d4/df4/Kernel_2include__std_2limits_8h_source.html#l00069">INT_MIN</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d53/Userspace_2libc_2include_2errno_8h_source.html#l00025">EINVAL</a>, and <a class="el" href="../../d4/df4/Kernel_2include__std_2limits_8h_source.html#l00069">INT_MIN</a>.</p>
 
 </div>
 </div>

@@ -169,7 +169,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d7a/s390x_2fenv_8c_source.html#l00004">get_fpc()</a>, and <a class="el" href="../../d1/d71/powerpc64_2fenv_8c_source.html#l00005">get_fpscr_f()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d64/syscall_8cpp_source.html#l01598">envp</a>, <a class="el" href="../../d0/d7a/s390x_2fenv_8c_source.html#l00004">get_fpc()</a>, and <a class="el" href="../../d1/d71/powerpc64_2fenv_8c_source.html#l00005">get_fpscr_f()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d71/feholdexcept_8c_source.html#l00003">feholdexcept()</a>.</p>
 
@@ -258,15 +258,16 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d71/feholdexcept_8c_source.html#l00003">3</a> of file <a class="el" href="../../d0/d71/feholdexcept_8c_source.html">feholdexcept.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <a class="code" href="../../df/d9a/include_2fenv_8h.html#a1bc561f7818c6e36fbde2c5465aa545f">fegetenv</a>(envp);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <a class="code" href="../../df/d9a/include_2fenv_8h.html#a1bc561f7818c6e36fbde2c5465aa545f">fegetenv</a>(<a class="code" href="../../d0/d64/syscall_8cpp.html#a4324e18b8a5c589e5d8ac9f67482e03f">envp</a>);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="../../df/d9a/include_2fenv_8h.html#a65a8a4fba5499f878a10d6be03ada336">feclearexcept</a>(<a class="code" href="../../d2/d81/arch_2aarch64_2bits_2fenv_8h.html#a09e405b3782b934813075e48366dda9a">FE_ALL_EXCEPT</a>);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
 <div class="ttc" id="aarch_2aarch64_2bits_2fenv_8h_html_a09e405b3782b934813075e48366dda9a"><div class="ttname"><a href="../../d2/d81/arch_2aarch64_2bits_2fenv_8h.html#a09e405b3782b934813075e48366dda9a">FE_ALL_EXCEPT</a></div><div class="ttdeci">#define FE_ALL_EXCEPT</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d81/arch_2aarch64_2bits_2fenv_8h_source.html#l00006">fenv.h:6</a></div></div>
 <div class="ttc" id="ainclude_2fenv_8h_html_a1bc561f7818c6e36fbde2c5465aa545f"><div class="ttname"><a href="../../df/d9a/include_2fenv_8h.html#a1bc561f7818c6e36fbde2c5465aa545f">fegetenv</a></div><div class="ttdeci">int fegetenv(fenv_t *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/fenv_8c_source.html#l00030">fenv.c:30</a></div></div>
 <div class="ttc" id="ainclude_2fenv_8h_html_a65a8a4fba5499f878a10d6be03ada336"><div class="ttname"><a href="../../df/d9a/include_2fenv_8h.html#a65a8a4fba5499f878a10d6be03ada336">feclearexcept</a></div><div class="ttdeci">int feclearexcept(int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/fenv_8c_source.html#l00005">fenv.c:5</a></div></div>
+<div class="ttc" id="asyscall_8cpp_html_a4324e18b8a5c589e5d8ac9f67482e03f"><div class="ttname"><a href="../../d0/d64/syscall_8cpp.html#a4324e18b8a5c589e5d8ac9f67482e03f">envp</a></div><div class="ttdeci">const char char *const char *const envp[]</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d64/syscall_8cpp_source.html#l01597">syscall.cpp:1598</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/d81/arch_2aarch64_2bits_2fenv_8h_source.html#l00006">FE_ALL_EXCEPT</a>, <a class="el" href="../../d2/d5e/fenv_8c_source.html#l00005">feclearexcept()</a>, and <a class="el" href="../../d2/d5e/fenv_8c_source.html#l00030">fegetenv()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d64/syscall_8cpp_source.html#l01598">envp</a>, <a class="el" href="../../d2/d81/arch_2aarch64_2bits_2fenv_8h_source.html#l00006">FE_ALL_EXCEPT</a>, <a class="el" href="../../d2/d5e/fenv_8c_source.html#l00005">feclearexcept()</a>, and <a class="el" href="../../d2/d5e/fenv_8c_source.html#l00030">fegetenv()</a>.</p>
 
 </div>
 </div>
@@ -318,7 +319,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/d81/arch_2aarch64_2bits_2fenv_8h_source.html#l00019">FE_DFL_ENV</a>, <a class="el" href="../../d0/d7a/s390x_2fenv_8c_source.html#l00011">set_fpc()</a>, and <a class="el" href="../../d1/d71/powerpc64_2fenv_8c_source.html#l00017">set_fpscr_f()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d64/syscall_8cpp_source.html#l01598">envp</a>, <a class="el" href="../../d2/d81/arch_2aarch64_2bits_2fenv_8h_source.html#l00019">FE_DFL_ENV</a>, <a class="el" href="../../d0/d7a/s390x_2fenv_8c_source.html#l00011">set_fpc()</a>, and <a class="el" href="../../d1/d71/powerpc64_2fenv_8c_source.html#l00017">set_fpscr_f()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../de/d6c/feupdateenv_8c_source.html#l00003">feupdateenv()</a>.</p>
 
@@ -449,13 +450,13 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../de/d6c/feupdateenv_8c_source.html#l00003">3</a> of file <a class="el" href="../../de/d6c/feupdateenv_8c_source.html">feupdateenv.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordtype">int</span> ex = <a class="code" href="../../df/d9a/include_2fenv_8h.html#aa6b4da774e480be4ff6bdfe1690e5256">fetestexcept</a>(<a class="code" href="../../d2/d81/arch_2aarch64_2bits_2fenv_8h.html#a09e405b3782b934813075e48366dda9a">FE_ALL_EXCEPT</a>);</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="../../df/d9a/include_2fenv_8h.html#a87713818f51e2d34ff4ca2b9e3beb608">fesetenv</a>(envp);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="../../df/d9a/include_2fenv_8h.html#a87713818f51e2d34ff4ca2b9e3beb608">fesetenv</a>(<a class="code" href="../../d0/d64/syscall_8cpp.html#a4324e18b8a5c589e5d8ac9f67482e03f">envp</a>);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../df/d9a/include_2fenv_8h.html#a0f90a58056a2eb6f10130c3ff53ad6ed">feraiseexcept</a>(ex);</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
 <div class="ttc" id="ainclude_2fenv_8h_html_a87713818f51e2d34ff4ca2b9e3beb608"><div class="ttname"><a href="../../df/d9a/include_2fenv_8h.html#a87713818f51e2d34ff4ca2b9e3beb608">fesetenv</a></div><div class="ttdeci">int fesetenv(const fenv_t *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/fenv_8c_source.html#l00035">fenv.c:35</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/d81/arch_2aarch64_2bits_2fenv_8h_source.html#l00006">FE_ALL_EXCEPT</a>, <a class="el" href="../../d2/d5e/fenv_8c_source.html#l00010">feraiseexcept()</a>, <a class="el" href="../../d2/d5e/fenv_8c_source.html#l00035">fesetenv()</a>, and <a class="el" href="../../d2/d5e/fenv_8c_source.html#l00015">fetestexcept()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d64/syscall_8cpp_source.html#l01598">envp</a>, <a class="el" href="../../d2/d81/arch_2aarch64_2bits_2fenv_8h_source.html#l00006">FE_ALL_EXCEPT</a>, <a class="el" href="../../d2/d5e/fenv_8c_source.html#l00010">feraiseexcept()</a>, <a class="el" href="../../d2/d5e/fenv_8c_source.html#l00035">fesetenv()</a>, and <a class="el" href="../../d2/d5e/fenv_8c_source.html#l00015">fetestexcept()</a>.</p>
 
 </div>
 </div>

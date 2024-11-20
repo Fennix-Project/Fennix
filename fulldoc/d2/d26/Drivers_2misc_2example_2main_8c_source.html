@@ -110,48 +110,48 @@ $(document).ready(function(){initNavTree('d2/d26/Drivers_2misc_2example_2main_8c
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
 <div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="../../d2/d26/Drivers_2misc_2example_2main_8c.html#ad408448b389caef2f517d7dab4059f88">   20</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d8/d5e/Drivers_2audio_2ac97_2main_8c.html#ad408448b389caef2f517d7dab4059f88">DriverEntry</a>()</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="comment">/* Print a message to the screen */</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../dd/d24/kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a>(<span class="stringliteral">&quot;Hello World from Example Driver!&quot;</span>);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="comment">/* Print a message to the kernel log */</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../d3/d5a/base_8h.html#a2d2945c5952955d702f894ff0e4fc618">Log</a>(<span class="stringliteral">&quot;Hello World from Example Driver!&quot;</span>);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="comment">/* Print a message only if DEBUG is set */</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="../../d3/d5a/base_8h.html#a967a363e442e6f2e6755b582197a37ca">DebugLog</a>(<span class="stringliteral">&quot;Hello World from Example Driver!&quot;</span>);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="comment">/* Return 0 to indicate success */</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="../../d2/d26/Drivers_2misc_2example_2main_8c.html#a3070aac49c99d3e1914674e27fef970c">   41</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d8/d5e/Drivers_2audio_2ac97_2main_8c.html#a3070aac49c99d3e1914674e27fef970c">DriverFinal</a>()</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;{</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="../../d2/d26/Drivers_2misc_2example_2main_8c.html#a22cd32a7cc1a42bdd40bf38ee6f471bb">   51</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d8/d5e/Drivers_2audio_2ac97_2main_8c.html#a22cd32a7cc1a42bdd40bf38ee6f471bb">DriverPanic</a>()</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;{</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
-<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="../../d2/d26/Drivers_2misc_2example_2main_8c.html#aac0e5b13bca4d40920a2f81d626b319c">   62</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d8/d5e/Drivers_2audio_2ac97_2main_8c.html#aac0e5b13bca4d40920a2f81d626b319c">DriverProbe</a>()</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;{</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="comment">/* Print a message to the kernel terminal */</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="../../d3/d5a/base_8h.html#a8b7585badf9fb134ba458959132e6af8">KernelPrint</a>(<span class="stringliteral">&quot;Hello World from Example Driver!&quot;</span>);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="comment">/* Print a message to the kernel log */</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="../../d3/d5a/base_8h.html#acbec1d50fc4fef89a572ceec6c5c4e9f">KernelLog</a>(<span class="stringliteral">&quot;Hello World from Example Driver!&quot;</span>);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="comment">/* Print a message only if DEBUG is set */</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="../../d3/d5a/base_8h.html#a967a363e442e6f2e6755b582197a37ca">DebugLog</a>(<span class="stringliteral">&quot;Hello World from Example Driver!&quot;</span>);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="comment">/* Return 0 to indicate success */</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="../../d2/d26/Drivers_2misc_2example_2main_8c.html#a3070aac49c99d3e1914674e27fef970c">   40</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d8/d5e/Drivers_2audio_2ac97_2main_8c.html#a3070aac49c99d3e1914674e27fef970c">DriverFinal</a>()</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="../../d2/d26/Drivers_2misc_2example_2main_8c.html#a22cd32a7cc1a42bdd40bf38ee6f471bb">   50</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d8/d5e/Drivers_2audio_2ac97_2main_8c.html#a22cd32a7cc1a42bdd40bf38ee6f471bb">DriverPanic</a>()</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;{</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;}</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="../../d2/d26/Drivers_2misc_2example_2main_8c.html#aac0e5b13bca4d40920a2f81d626b319c">   61</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d8/d5e/Drivers_2audio_2ac97_2main_8c.html#aac0e5b13bca4d40920a2f81d626b319c">DriverProbe</a>()</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;{</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
-<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="../../d2/d26/Drivers_2misc_2example_2main_8c.html#a0686fa7ce80522f77c549ede3ce0a319">   83</a></span>&#160;<a class="code" href="../../d8/d5e/Drivers_2audio_2ac97_2main_8c.html#af14db4df4108c2a287f1bdebd6f64bfe">DriverInfo</a>(<span class="stringliteral">&quot;example&quot;</span>,</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;           <span class="stringliteral">&quot;Example Driver&quot;</span>,</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;           <span class="stringliteral">&quot;EnderIce2&quot;</span>,</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;           <span class="stringliteral">&quot;0.1&quot;</span>,</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;           <span class="stringliteral">&quot;GPLv3&quot;</span>);</div>
+<div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="../../d2/d26/Drivers_2misc_2example_2main_8c.html#a34e7c3974238eb4ab8fac9231902ba4f">   93</a></span>&#160;<a class="code" href="../../d8/d5e/Drivers_2audio_2ac97_2main_8c.html#a0a6efdcaa4176d33e8ae15d5be185bb4">DriverInfo</a>(<span class="stringliteral">&quot;example&quot;</span>,</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;           <span class="stringliteral">&quot;Example Driver&quot;</span>,</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;           <span class="stringliteral">&quot;EnderIce2&quot;</span>,</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;           0, 0, 1,</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;           <span class="stringliteral">&quot;GPLv3&quot;</span>);</div>
+<div class="ttc" id="aDrivers_2audio_2ac97_2main_8c_html_a0a6efdcaa4176d33e8ae15d5be185bb4"><div class="ttname"><a href="../../d8/d5e/Drivers_2audio_2ac97_2main_8c.html#a0a6efdcaa4176d33e8ae15d5be185bb4">DriverInfo</a></div><div class="ttdeci">DriverInfo(&quot;ac97&quot;, &quot;Audio Codec '97 Driver&quot;, &quot;EnderIce2&quot;, 0, 0, 1, &quot;GPLv3&quot;)</div></div>
 <div class="ttc" id="aDrivers_2audio_2ac97_2main_8c_html_a22cd32a7cc1a42bdd40bf38ee6f471bb"><div class="ttname"><a href="../../d8/d5e/Drivers_2audio_2ac97_2main_8c.html#a22cd32a7cc1a42bdd40bf38ee6f471bb">DriverPanic</a></div><div class="ttdeci">int DriverPanic()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d5e/Drivers_2audio_2ac97_2main_8c_source.html#l00024">main.c:24</a></div></div>
 <div class="ttc" id="aDrivers_2audio_2ac97_2main_8c_html_a3070aac49c99d3e1914674e27fef970c"><div class="ttname"><a href="../../d8/d5e/Drivers_2audio_2ac97_2main_8c.html#a3070aac49c99d3e1914674e27fef970c">DriverFinal</a></div><div class="ttdeci">int DriverFinal()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d5e/Drivers_2audio_2ac97_2main_8c_source.html#l00023">main.c:23</a></div></div>
 <div class="ttc" id="aDrivers_2audio_2ac97_2main_8c_html_aac0e5b13bca4d40920a2f81d626b319c"><div class="ttname"><a href="../../d8/d5e/Drivers_2audio_2ac97_2main_8c.html#aac0e5b13bca4d40920a2f81d626b319c">DriverProbe</a></div><div class="ttdeci">int DriverProbe()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d5e/Drivers_2audio_2ac97_2main_8c_source.html#l00025">main.c:25</a></div></div>
 <div class="ttc" id="aDrivers_2audio_2ac97_2main_8c_html_ad408448b389caef2f517d7dab4059f88"><div class="ttname"><a href="../../d8/d5e/Drivers_2audio_2ac97_2main_8c.html#ad408448b389caef2f517d7dab4059f88">DriverEntry</a></div><div class="ttdeci">int DriverEntry()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d5e/Drivers_2audio_2ac97_2main_8c_source.html#l00022">main.c:22</a></div></div>
-<div class="ttc" id="aDrivers_2audio_2ac97_2main_8c_html_af14db4df4108c2a287f1bdebd6f64bfe"><div class="ttname"><a href="../../d8/d5e/Drivers_2audio_2ac97_2main_8c.html#af14db4df4108c2a287f1bdebd6f64bfe">DriverInfo</a></div><div class="ttdeci">DriverInfo(&quot;ac97&quot;, &quot;Audio Codec '97 Driver&quot;, &quot;EnderIce2&quot;, &quot;0.1&quot;, &quot;GPLv3&quot;)</div></div>
 <div class="ttc" id="abase_8h_html"><div class="ttname"><a href="../../d3/d5a/base_8h.html">base.h</a></div></div>
-<div class="ttc" id="abase_8h_html_a2d2945c5952955d702f894ff0e4fc618"><div class="ttname"><a href="../../d3/d5a/base_8h.html#a2d2945c5952955d702f894ff0e4fc618">Log</a></div><div class="ttdeci">void Log(const char *Format,...)</div><div class="ttdoc">Print to the kernel logger.</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de2/base_8c_source.html#l00125">base.c:125</a></div></div>
-<div class="ttc" id="abase_8h_html_a967a363e442e6f2e6755b582197a37ca"><div class="ttname"><a href="../../d3/d5a/base_8h.html#a967a363e442e6f2e6755b582197a37ca">DebugLog</a></div><div class="ttdeci">#define DebugLog(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d5a/base_8h_source.html#l00249">base.h:249</a></div></div>
-<div class="ttc" id="akernel_8cpp_html_a856ca7c6595acc2941208b1241cd8f3e"><div class="ttname"><a href="../../dd/d24/kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a></div><div class="ttdeci">EXTERNC void KPrint(const char *Format,...)</div><div class="ttdoc">Print to the screen.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d24/kernel_8cpp_source.html#l00102">kernel.cpp:102</a></div></div>
+<div class="ttc" id="abase_8h_html_a8b7585badf9fb134ba458959132e6af8"><div class="ttname"><a href="../../d3/d5a/base_8h.html#a8b7585badf9fb134ba458959132e6af8">KernelPrint</a></div><div class="ttdeci">void KernelPrint(const char *Format,...)</div><div class="ttdoc">Print to the kernel terminal.</div></div>
+<div class="ttc" id="abase_8h_html_a967a363e442e6f2e6755b582197a37ca"><div class="ttname"><a href="../../d3/d5a/base_8h.html#a967a363e442e6f2e6755b582197a37ca">DebugLog</a></div><div class="ttdeci">#define DebugLog(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d5a/base_8h_source.html#l00259">base.h:259</a></div></div>
+<div class="ttc" id="abase_8h_html_acbec1d50fc4fef89a572ceec6c5c4e9f"><div class="ttname"><a href="../../d3/d5a/base_8h.html#acbec1d50fc4fef89a572ceec6c5c4e9f">KernelLog</a></div><div class="ttdeci">void KernelLog(const char *Format,...)</div><div class="ttdoc">Print to the kernel logger.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

@@ -1,13 +1,12 @@
 var searchData=
 [
-  ['registeraudiodevice_775',['RegisterAudioDevice',['../da/d09/audio_8h.html#a9df01d44e56734f266d448dda0678503',1,'audio.h']]],
-  ['registerblockdevice_776',['RegisterBlockDevice',['../de/d40/block_8h.html#aa5eaa8278329d55ca98c83bf1f221b5f',1,'block.h']]],
-  ['registerinputdevice_777',['RegisterInputDevice',['../de/ded/input_8h.html#ab04964b3375f1a1fc47b26317107762d',1,'input.h']]],
-  ['registerinterrupthandler_778',['RegisterInterruptHandler',['../d3/d5a/base_8h.html#aed35d65304d5b8507a5dc9df229cc900',1,'base.h']]],
-  ['registernetdevice_779',['RegisterNetDevice',['../d7/d97/net_8h.html#a1be349c591b1a211db17871190d10d84',1,'net.h']]],
-  ['removemapflag_780',['RemoveMapFlag',['../d3/d5a/base_8h.html#a1e8a8b3ff1b02183d5cd3ccbce724ac4',1,'base.h']]],
-  ['reportabsolutemouseevent_781',['ReportAbsoluteMouseEvent',['../de/ded/input_8h.html#a4f561071815d34035532b6efbec48a7b',1,'input.h']]],
-  ['reportkeyboardevent_782',['ReportKeyboardEvent',['../de/ded/input_8h.html#a0b4b2e99b1e08315b99ef5ef6af325c0',1,'input.h']]],
-  ['reportnetworkpacket_783',['ReportNetworkPacket',['../d7/d97/net_8h.html#a8ccd449cea7f8645c1ad300065e798b8',1,'net.h']]],
-  ['reportrelativemouseevent_784',['ReportRelativeMouseEvent',['../de/ded/input_8h.html#ac180bb0c10637959d88ca583a0ac2c0c',1,'input.h']]]
+  ['pic_5feoi_883',['PIC_EOI',['../d1/de1/aip_8h.html#a08e984e6a1417b7b6e89c6232ce00905',1,'aip.h']]],
+  ['ps2acktimeout_884',['PS2ACKTimeout',['../d1/de1/aip_8h.html#a38ac8086f1219290834fa333d5f61d61',1,'aip.h']]],
+  ['ps2clearoutputbuffer_885',['PS2ClearOutputBuffer',['../d1/de1/aip_8h.html#ab89ed60f3ef02b78ef5080b0941ed134',1,'aip.h']]],
+  ['ps2readafterack_886',['PS2ReadAfterACK',['../d1/de1/aip_8h.html#a1c1df3cb3ab237cb29864c8d185537f0',1,'aip.h']]],
+  ['ps2readdata_887',['PS2ReadData',['../d1/de1/aip_8h.html#ac52f28bcc38cdcb9e2548528de67dc44',1,'aip.h']]],
+  ['ps2readstatus_888',['PS2ReadStatus',['../d1/de1/aip_8h.html#ab4e5cc3a96dc9f7d922e65241ff53f48',1,'aip.h']]],
+  ['ps2wait_889',['PS2Wait',['../d1/de1/aip_8h.html#af2ae44f829abc7018863d9bf8fb9b859',1,'aip.h']]],
+  ['ps2writecommand_890',['PS2WriteCommand',['../d1/de1/aip_8h.html#a12501e11544172f81587ea9a2cedd7be',1,'aip.h']]],
+  ['ps2writedata_891',['PS2WriteData',['../d1/de1/aip_8h.html#ac722c6485f425b33b023549fa448c112',1,'aip.h']]]
 ];

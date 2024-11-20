@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['o_5fstring_63064',['o_string',['../d6/d90/hush_8c.html#a55bbff8960b844dfe6d5a3daa2289121',1,'hush.c']]],
-  ['once_5fflag_63065',['once_flag',['../db/d96/threads_8h.html#a3152ad36879535ad3cf78867deeae5cb',1,'threads.h']]],
-  ['operator_63066',['operator',['../d6/da3/math_8c.html#a43af69371473032f31babb9b4182d47b',1,'math.c']]]
+  ['reg_5ferrcode_5ft_30706',['reg_errcode_t',['../db/d0a/tre_8h.html#abf849189d5c29698b3ae011c5c33f6a2',1,'tre.h']]],
+  ['regex_5ft_30707',['regex_t',['../d1/d21/regex_8h.html#a159f97bcead74ee31a0817571f7625a9',1,'regex.h']]],
+  ['res_5fstate_30708',['res_state',['../d9/d70/include_2resolv_8h.html#a24847dab9ec381774c3b4d103f24d003',1,'resolv.h']]],
+  ['rlim_5ft_30709',['rlim_t',['../d3/d6f/include_2sys_2resource_8h.html#a82db8fd2f142528e8d00bd38c1c1c663',1,'resource.h']]]
 ];

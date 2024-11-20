@@ -130,6 +130,6 @@ var g__game_8c =
     [ "vanilla_savegame_limit", "d3/de0/g__game_8c.html#aec9b2b63e0a4b92cd787d399886dccbe", null ],
     [ "viewactive", "d3/de0/g__game_8c.html#a8db6af5277018787ec0d6cb639bffb9f", null ],
     [ "weapon_keys", "d3/de0/g__game_8c.html#a5c33c5aa3cd4efa3458c287ea34de30f", null ],
-    [ "weapon_order_table", "d3/de0/g__game_8c.html#a9bc2ab3ae3946abc0ae663da65200fb4", null ],
+    [ "weapon_order_table", "d3/de0/g__game_8c.html#a04173421860a122a15a31bd0b5770c5d", null ],
     [ "wminfo", "d3/de0/g__game_8c.html#a9eeb904380d9c0d6e9ae9eca4b42357e", null ]
 ];

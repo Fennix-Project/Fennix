@@ -112,9 +112,9 @@ Functions</h2></td></tr>
 <tr class="separator:af43d2de25e6d5e3b65b1d1f32c01b3c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac725ed35f531ad2c98c7965f262bccd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d36/musl_2src_2include_2features_8h.html#a37bb9680a0044c686c95a4b3ec72bdc1">hidden</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d7a/s390x_2fenv_8c.html#ac725ed35f531ad2c98c7965f262bccd2">__fesetround</a> (int r)</td></tr>
 <tr class="separator:ac725ed35f531ad2c98c7965f262bccd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a971efefb28e62b22de4e5f2567da81"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d7a/s390x_2fenv_8c.html#a9a971efefb28e62b22de4e5f2567da81">fegetenv</a> (<a class="el" href="../../d6/dff/arch_2x86__64_2bits_2fenv_8h.html#d7/d0a/structfenv__t">fenv_t</a> *envp)</td></tr>
+<tr class="memitem:a9a971efefb28e62b22de4e5f2567da81"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d7a/s390x_2fenv_8c.html#a9a971efefb28e62b22de4e5f2567da81">fegetenv</a> (<a class="el" href="../../d6/dff/arch_2x86__64_2bits_2fenv_8h.html#d7/d0a/structfenv__t">fenv_t</a> *<a class="el" href="../../d0/d64/syscall_8cpp.html#a4324e18b8a5c589e5d8ac9f67482e03f">envp</a>)</td></tr>
 <tr class="separator:a9a971efefb28e62b22de4e5f2567da81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65184dc5ad4e001083a6fd59d0cd7a2d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d7a/s390x_2fenv_8c.html#a65184dc5ad4e001083a6fd59d0cd7a2d">fesetenv</a> (const <a class="el" href="../../d6/dff/arch_2x86__64_2bits_2fenv_8h.html#d7/d0a/structfenv__t">fenv_t</a> *envp)</td></tr>
+<tr class="memitem:a65184dc5ad4e001083a6fd59d0cd7a2d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d7a/s390x_2fenv_8c.html#a65184dc5ad4e001083a6fd59d0cd7a2d">fesetenv</a> (const <a class="el" href="../../d6/dff/arch_2x86__64_2bits_2fenv_8h.html#d7/d0a/structfenv__t">fenv_t</a> *<a class="el" href="../../d0/d64/syscall_8cpp.html#a4324e18b8a5c589e5d8ac9f67482e03f">envp</a>)</td></tr>
 <tr class="separator:a65184dc5ad4e001083a6fd59d0cd7a2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -196,11 +196,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d7a/s390x_2fenv_8c_source.html#l00046">46</a> of file <a class="el" href="../../d0/d7a/s390x_2fenv_8c_source.html">fenv.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;{</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    *envp = <a class="code" href="../../d0/d7a/s390x_2fenv_8c.html#afbb924d5d1a05fc1a9c0d851825deb92">get_fpc</a>();</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    *<a class="code" href="../../d0/d64/syscall_8cpp.html#a4324e18b8a5c589e5d8ac9f67482e03f">envp</a> = <a class="code" href="../../d0/d7a/s390x_2fenv_8c.html#afbb924d5d1a05fc1a9c0d851825deb92">get_fpc</a>();</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
+<div class="ttc" id="asyscall_8cpp_html_a4324e18b8a5c589e5d8ac9f67482e03f"><div class="ttname"><a href="../../d0/d64/syscall_8cpp.html#a4324e18b8a5c589e5d8ac9f67482e03f">envp</a></div><div class="ttdeci">const char char *const char *const envp[]</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d64/syscall_8cpp_source.html#l01597">syscall.cpp:1598</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d7a/s390x_2fenv_8c_source.html#l00004">get_fpc()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d64/syscall_8cpp_source.html#l01598">envp</a>, and <a class="el" href="../../d0/d7a/s390x_2fenv_8c_source.html#l00004">get_fpc()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d71/feholdexcept_8c_source.html#l00003">feholdexcept()</a>.</p>
 
@@ -280,12 +281,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d7a/s390x_2fenv_8c_source.html#l00052">52</a> of file <a class="el" href="../../d0/d7a/s390x_2fenv_8c_source.html">fenv.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;{</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="../../d0/d7a/s390x_2fenv_8c.html#a95fd7c4eece926f7266ab17d8a4f69d8">set_fpc</a>(envp != <a class="code" href="../../d2/d81/arch_2aarch64_2bits_2fenv_8h.html#a5777a3689f7f4c555df1c643d28b5bc0">FE_DFL_ENV</a> ? *envp : 0);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="../../d0/d7a/s390x_2fenv_8c.html#a95fd7c4eece926f7266ab17d8a4f69d8">set_fpc</a>(<a class="code" href="../../d0/d64/syscall_8cpp.html#a4324e18b8a5c589e5d8ac9f67482e03f">envp</a> != <a class="code" href="../../d2/d81/arch_2aarch64_2bits_2fenv_8h.html#a5777a3689f7f4c555df1c643d28b5bc0">FE_DFL_ENV</a> ? *<a class="code" href="../../d0/d64/syscall_8cpp.html#a4324e18b8a5c589e5d8ac9f67482e03f">envp</a> : 0);</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
 <div class="ttc" id="aarch_2aarch64_2bits_2fenv_8h_html_a5777a3689f7f4c555df1c643d28b5bc0"><div class="ttname"><a href="../../d2/d81/arch_2aarch64_2bits_2fenv_8h.html#a5777a3689f7f4c555df1c643d28b5bc0">FE_DFL_ENV</a></div><div class="ttdeci">#define FE_DFL_ENV</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d81/arch_2aarch64_2bits_2fenv_8h_source.html#l00019">fenv.h:19</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/d81/arch_2aarch64_2bits_2fenv_8h_source.html#l00019">FE_DFL_ENV</a>, and <a class="el" href="../../d0/d7a/s390x_2fenv_8c_source.html#l00011">set_fpc()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d64/syscall_8cpp_source.html#l01598">envp</a>, <a class="el" href="../../d2/d81/arch_2aarch64_2bits_2fenv_8h_source.html#l00019">FE_DFL_ENV</a>, and <a class="el" href="../../d0/d7a/s390x_2fenv_8c_source.html#l00011">set_fpc()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../de/d6c/feupdateenv_8c_source.html#l00003">feupdateenv()</a>.</p>
 

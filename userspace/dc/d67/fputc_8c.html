@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('dc/d67/fputc_8c.html','../../'); initR
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0a260faecc8c64f08f4f3d3801c3f71a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d67/fputc_8c.html#a0a260faecc8c64f08f4f3d3801c3f71a">fputc</a> (int <a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>, <a class="el" href="../../dc/d4d/libc_2include_2stdio_8h.html#a912af5ab9f8a52ddd387b7defc0b49f1">FILE</a> *<a class="el" href="../../d7/d06/getpwent_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>)</td></tr>
+<tr class="memitem:a0a260faecc8c64f08f4f3d3801c3f71a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d67/fputc_8c.html#a0a260faecc8c64f08f4f3d3801c3f71a">fputc</a> (int c, <a class="el" href="../../dc/d4d/libc_2include_2stdio_8h.html#a912af5ab9f8a52ddd387b7defc0b49f1">FILE</a> *<a class="el" href="../../d7/d06/getpwent_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>)</td></tr>
 <tr class="separator:a0a260faecc8c64f08f4f3d3801c3f71a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -130,13 +130,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d67/fputc_8c_source.html#l00004">4</a> of file <a class="el" href="../../dc/d67/fputc_8c_source.html">fputc.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/df0/putc_8h.html#a08033bb4f93d035f285eafc8b88c9742">do_putc</a>(<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>, <a class="code" href="../../d0/dd9/getusershell_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/df0/putc_8h.html#a08033bb4f93d035f285eafc8b88c9742">do_putc</a>(c, <a class="code" href="../../d0/dd9/getusershell_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
 <div class="ttc" id="agetusershell_8c_html_a3efb0e1a16208deecbd84c15401f7cf8"><div class="ttname"><a href="../../d0/dd9/getusershell_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a></div><div class="ttdeci">static FILE * f</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd9/getusershell_8c_source.html#l00009">getusershell.c:9</a></div></div>
-<div class="ttc" id="aglob__loop_8c_html_a2019d0836036f2693a231fe5c7c65e20"><div class="ttname"><a href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a></div><div class="ttdeci">register GCHAR c</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d64/glob__loop_8c_source.html#l00028">glob_loop.c:26</a></div></div>
 <div class="ttc" id="aputc_8h_html_a08033bb4f93d035f285eafc8b88c9742"><div class="ttname"><a href="../../d5/df0/putc_8h.html#a08033bb4f93d035f285eafc8b88c9742">do_putc</a></div><div class="ttdeci">static int do_putc(int c, FILE *f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df0/putc_8h_source.html#l00016">putc.h:16</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>, <a class="el" href="../../d5/df0/putc_8h_source.html#l00016">do_putc()</a>, <a class="el" href="../../d0/dd9/getusershell_8c_source.html#l00009">f</a>, and <a class="el" href="../../de/d72/hash-string_8h_source.html#l00045">str</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/df0/putc_8h_source.html#l00016">do_putc()</a>, and <a class="el" href="../../d0/dd9/getusershell_8c_source.html#l00009">f</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/dec/perror_8c_source.html#l00006">perror()</a>, and <a class="el" href="../../d5/d29/putgrent_8c_source.html#l00005">putgrent()</a>.</p>
 
 </div>
 </div>

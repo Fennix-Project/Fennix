@@ -154,15 +154,15 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/dff/network__controller_8cpp_source.html#l00217">217</a> of file <a class="el" href="../../dd/dff/network__controller_8cpp_source.html">network_controller.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    {</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        <a class="code" href="../../d6/de6/include_2types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(Interface);</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        <a class="code" href="../../d9/d4c/namespaceNetworkInterfaceManager.html#aa161a4feff3f4563334017345527f483">RegisteredEvents</a>.push_back(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    }</div>
-<div class="ttc" id="ainclude_2types_8h_html_a86d500a34c624c2cae56bc25a31b12f3"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a></div><div class="ttdeci">#define UNUSED(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00064">types.h:64</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../dd/dff/network__controller_8cpp_source.html#l00223">223</a> of file <a class="el" href="../../dd/dff/network__controller_8cpp_source.html">network_controller.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    {</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        <a class="code" href="../../d6/de6/include_2types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(Interface);</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <a class="code" href="../../d9/d4c/namespaceNetworkInterfaceManager.html#aa161a4feff3f4563334017345527f483">RegisteredEvents</a>.push_back(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    }</div>
+<div class="ttc" id="ainclude_2types_8h_html_a86d500a34c624c2cae56bc25a31b12f3"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a></div><div class="ttdeci">#define UNUSED(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00062">types.h:62</a></div></div>
 <div class="ttc" id="anamespaceNetworkInterfaceManager_html_aa161a4feff3f4563334017345527f483"><div class="ttname"><a href="../../d9/d4c/namespaceNetworkInterfaceManager.html#aa161a4feff3f4563334017345527f483">NetworkInterfaceManager::RegisteredEvents</a></div><div class="ttdeci">std::vector&lt; Events * &gt; RegisteredEvents</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dff/network__controller_8cpp_source.html#l00035">network_controller.cpp:35</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/dff/network__controller_8cpp_source.html#l00035">NetworkInterfaceManager::RegisteredEvents</a>, and <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00064">UNUSED</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/dff/network__controller_8cpp_source.html#l00035">NetworkInterfaceManager::RegisteredEvents</a>, and <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00062">UNUSED</a>.</p>
 
 </div>
 </div>
@@ -189,17 +189,17 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/dff/network__controller_8cpp_source.html#l00223">223</a> of file <a class="el" href="../../dd/dff/network__controller_8cpp_source.html">network_controller.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    {</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        forItr(itr, <a class="code" href="../../d9/d4c/namespaceNetworkInterfaceManager.html#aa161a4feff3f4563334017345527f483">RegisteredEvents</a>)</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        {</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;            <span class="keywordflow">if</span> (*itr == <span class="keyword">this</span>)</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;            {</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                <a class="code" href="../../d9/d4c/namespaceNetworkInterfaceManager.html#aa161a4feff3f4563334017345527f483">RegisteredEvents</a>.erase(itr);</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            }</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        }</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../dd/dff/network__controller_8cpp_source.html#l00229">229</a> of file <a class="el" href="../../dd/dff/network__controller_8cpp_source.html">network_controller.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    {</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        forItr(itr, <a class="code" href="../../d9/d4c/namespaceNetworkInterfaceManager.html#aa161a4feff3f4563334017345527f483">RegisteredEvents</a>)</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        {</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;            <span class="keywordflow">if</span> (*itr == <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;            {</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                <a class="code" href="../../d9/d4c/namespaceNetworkInterfaceManager.html#aa161a4feff3f4563334017345527f483">RegisteredEvents</a>.erase(itr);</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;            }</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        }</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dd/dff/network__controller_8cpp_source.html#l00035">NetworkInterfaceManager::RegisteredEvents</a>.</p>
 
@@ -237,7 +237,7 @@ Protected Member Functions</h2></td></tr>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        }</div>
 <div class="ttc" id="anet_8hpp_html_a004134c58b97d5500bb67ad511fcbb96"><div class="ttname"><a href="../../d4/d2d/net_8hpp.html#a004134c58b97d5500bb67ad511fcbb96">netdbg</a></div><div class="ttdeci">#define netdbg(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2d/net_8hpp_source.html#l00031">net.hpp:31</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00033">NetworkInterfaceManager::DeviceInterface::Name</a>, <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00031">netdbg</a>, and <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00064">UNUSED</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00033">NetworkInterfaceManager::DeviceInterface::Name</a>, <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00031">netdbg</a>, and <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00062">UNUSED</a>.</p>
 
 </div>
 </div>
@@ -271,7 +271,7 @@ Protected Member Functions</h2></td></tr>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            <a class="code" href="../../d4/d2d/net_8hpp.html#a004134c58b97d5500bb67ad511fcbb96">netdbg</a>(<span class="stringliteral">&quot;Event for %s not handled.&quot;</span>, Interface-&gt;Name);</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00033">NetworkInterfaceManager::DeviceInterface::Name</a>, <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00031">netdbg</a>, and <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00064">UNUSED</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00033">NetworkInterfaceManager::DeviceInterface::Name</a>, <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00031">netdbg</a>, and <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00062">UNUSED</a>.</p>
 
 </div>
 </div>
@@ -327,7 +327,7 @@ Protected Member Functions</h2></td></tr>
 <div class="ttc" id="aXalloc_8hpp_html_a7aacb0e1bf77e9bd405d9409047baad7"><div class="ttname"><a href="../../d8/d12/Xalloc_8hpp.html#a7aacb0e1bf77e9bd405d9409047baad7">Data</a></div><div class="ttdeci">Xuint8_t * Data</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d12/Xalloc_8hpp_source.html#l00006">Xalloc.hpp:6</a></div></div>
 <div class="ttc" id="abinfo_8h_html_a01ae9666c16c57cec1c6e4e28a0eb0e3"><div class="ttname"><a href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a></div><div class="ttdeci">__UINT32_TYPE__ Length</div><div class="ttdoc">Length.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d36/binfo_8h_source.html#l00025">binfo.h:25</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d12/Xalloc_8hpp_source.html#l00006">Data</a>, <a class="el" href="../../d9/d36/binfo_8h_source.html#l00025">Length</a>, <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00033">NetworkInterfaceManager::DeviceInterface::Name</a>, <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00031">netdbg</a>, and <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00064">UNUSED</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d12/Xalloc_8hpp_source.html#l00006">Data</a>, <a class="el" href="../../d9/d36/binfo_8h_source.html#l00025">Length</a>, <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00033">NetworkInterfaceManager::DeviceInterface::Name</a>, <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00031">netdbg</a>, and <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00062">UNUSED</a>.</p>
 
 </div>
 </div>
@@ -361,7 +361,7 @@ Protected Member Functions</h2></td></tr>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            <a class="code" href="../../d4/d2d/net_8hpp.html#a004134c58b97d5500bb67ad511fcbb96">netdbg</a>(<span class="stringliteral">&quot;Event for %s not handled.&quot;</span>, Interface-&gt;Name);</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00033">NetworkInterfaceManager::DeviceInterface::Name</a>, <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00031">netdbg</a>, and <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00064">UNUSED</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00033">NetworkInterfaceManager::DeviceInterface::Name</a>, <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00031">netdbg</a>, and <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00062">UNUSED</a>.</p>
 
 </div>
 </div>
@@ -413,7 +413,7 @@ Protected Member Functions</h2></td></tr>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <a class="code" href="../../d4/d2d/net_8hpp.html#a004134c58b97d5500bb67ad511fcbb96">netdbg</a>(<span class="stringliteral">&quot;Event for %s not handled.&quot;</span>, Interface-&gt;Name);</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d12/Xalloc_8hpp_source.html#l00006">Data</a>, <a class="el" href="../../d9/d36/binfo_8h_source.html#l00025">Length</a>, <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00033">NetworkInterfaceManager::DeviceInterface::Name</a>, <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00031">netdbg</a>, and <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00064">UNUSED</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d12/Xalloc_8hpp_source.html#l00006">Data</a>, <a class="el" href="../../d9/d36/binfo_8h_source.html#l00025">Length</a>, <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00033">NetworkInterfaceManager::DeviceInterface::Name</a>, <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00031">netdbg</a>, and <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00062">UNUSED</a>.</p>
 
 </div>
 </div>

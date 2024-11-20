@@ -3,7 +3,7 @@ var debug_8h =
     [ "debug", "db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43", null ],
     [ "error", "db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574", null ],
     [ "fixme", "db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f", null ],
-    [ "function", "db/d16/debug_8h.html#ac56ee31762db2d7b05b7080812aaf7f1", null ],
+    [ "func", "db/d16/debug_8h.html#a327cc3876ed2c79b1e504cf88dd6be79", null ],
     [ "info", "db/d16/debug_8h.html#aaef030dcfb502de87e0f47669c58c755", null ],
     [ "l_debug", "db/d16/debug_8h.html#a41ece657ea7a8f61de8c7c1c7e9bbc20", null ],
     [ "l_error", "db/d16/debug_8h.html#a7476003fb543515c0dd996fc27d6a594", null ],

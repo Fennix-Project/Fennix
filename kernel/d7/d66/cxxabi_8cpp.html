@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix Kernel: Kernel/library/libstdc++/cxxabi.cpp File Reference</title>
+<title>Fennix Kernel: Kernel/library/kexcept/cxxabi.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,14 +86,13 @@ $(document).ready(function(){initNavTree('d7/d66/cxxabi_8cpp.html','../../'); in
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">cxxabi.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="../../d0/dc4/cxxabi_8h_source.html">cxxabi.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d0/dc4/cxxabi_8h_source.html">kexcept/cxxabi.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../da/d3e/memory_8hpp_source.html">memory.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>&gt;</code><br />
@@ -101,78 +100,210 @@ $(document).ready(function(){initNavTree('d7/d66/cxxabi_8cpp.html','../../'); in
 </div>
 <p><a href="../../d7/d66/cxxabi_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:da/d75/namespace____cxxabiv1"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html">__cxxabiv1</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a26ff584c0f03a34d6e26b69ec8ca2d9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#a26ff584c0f03a34d6e26b69ec8ca2d9d">__dso_handle_stub</a> ()</td></tr>
-<tr class="separator:a26ff584c0f03a34d6e26b69ec8ca2d9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a754a0b6618599269f66a2e1abffebaba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dc4/cxxabi_8h.html#da/d07/struct____cxa__eh__globals">__cxa_eh_globals</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#a754a0b6618599269f66a2e1abffebaba">__cxxabiv1::__cxa_get_globals</a> () noexcept</td></tr>
-<tr class="separator:a754a0b6618599269f66a2e1abffebaba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad56f30bb1fb9a714a9b181d1abee0a34"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#ad56f30bb1fb9a714a9b181d1abee0a34">__cxxabiv1::__cxa_atexit</a> (void(*f)(void *), void *objptr, void *dso)</td></tr>
-<tr class="separator:ad56f30bb1fb9a714a9b181d1abee0a34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafa2aebd02c80b133287e3737557b5d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#aafa2aebd02c80b133287e3737557b5d7">__cxxabiv1::__cxa_finalize</a> (void *f)</td></tr>
-<tr class="separator:aafa2aebd02c80b133287e3737557b5d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a3afd306452bcbf182f166bc94711f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2">_Unwind_Reason_Code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#a1a3afd306452bcbf182f166bc94711f0">__cxxabiv1::__gxx_personality_v0</a> (int version, <a class="el" href="../../d3/db6/unwind_8h.html#a09fdc8f727b214f5168e3690b0ddfa21">_Unwind_Action</a> actions, _Unwind_Exception_Class <a class="el" href="../../d3/db6/unwind_8h.html#ae268038ce44c98f28ba55a4fd593f4e2">exception_class</a>, <a class="el" href="../../d3/db6/unwind_8h.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *ue_header, _Unwind_Context *context)</td></tr>
-<tr class="separator:a1a3afd306452bcbf182f166bc94711f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a876b69006fca6486aa33cd7c2a6e30c8"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#a876b69006fca6486aa33cd7c2a6e30c8">__cxxabiv1::__cxa_begin_catch</a> (void *thrown_object) noexcept</td></tr>
-<tr class="separator:a876b69006fca6486aa33cd7c2a6e30c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a770a73f25be21598aa6aa1aa8f2ba5e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#a770a73f25be21598aa6aa1aa8f2ba5e5">__cxxabiv1::__cxa_end_catch</a> ()</td></tr>
-<tr class="separator:a770a73f25be21598aa6aa1aa8f2ba5e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4c920a20b437ce354f77ed7bf058b2c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d6/de6/include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#ae4c920a20b437ce354f77ed7bf058b2c">__cxxabiv1::align_exception_allocation_size</a> (<a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> a, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> b)</td></tr>
-<tr class="separator:ae4c920a20b437ce354f77ed7bf058b2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73f6733e5681fcfe5fe2b177c143125b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d6/de6/include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#a73f6733e5681fcfe5fe2b177c143125b">__cxxabiv1::INIT_EXCEPTION_CLASS</a> (_Unwind_Exception_Class *c)</td></tr>
-<tr class="separator:a73f6733e5681fcfe5fe2b177c143125b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c6fcbaacd5e532845bcbe340ede787d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#a0c6fcbaacd5e532845bcbe340ede787d">__cxxabiv1::unexpected_header_stub</a> ()</td></tr>
-<tr class="separator:a0c6fcbaacd5e532845bcbe340ede787d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69a7f5d7afa17b0130fe5305175287b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#a69a7f5d7afa17b0130fe5305175287b6">__cxxabiv1::terminate_header_stub</a> ()</td></tr>
-<tr class="separator:a69a7f5d7afa17b0130fe5305175287b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6d1d08eabdd2c482d6f52d5605ac60e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#af6d1d08eabdd2c482d6f52d5605ac60e">__cxxabiv1::exception_cleanup_stub</a> (<a class="el" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2">_Unwind_Reason_Code</a> Code, <a class="el" href="../../d3/db6/unwind_8h.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *Exception)</td></tr>
-<tr class="separator:af6d1d08eabdd2c482d6f52d5605ac60e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ea5406a4d9883148d4404c8eb6957f4"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#a5ea5406a4d9883148d4404c8eb6957f4">__cxxabiv1::__cxa_allocate_exception</a> (<a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> thrown_size)  throw ()</td></tr>
-<tr class="separator:a5ea5406a4d9883148d4404c8eb6957f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74d338a90067d7b50f6ad1ec9c010d6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a5b6df4fe38493e14648842364a76075f">__noreturn</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#a74d338a90067d7b50f6ad1ec9c010d6e">__cxxabiv1::__cxa_throw</a> (void *thrown_object, std::type_info *tinfo, void(*dest)(void *))</td></tr>
-<tr class="separator:a74d338a90067d7b50f6ad1ec9c010d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2a89f7b8dc3e5007014597b5c75beb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#ad2a89f7b8dc3e5007014597b5c75beb5">__cxxabiv1::__cxa_rethrow</a> ()</td></tr>
-<tr class="separator:ad2a89f7b8dc3e5007014597b5c75beb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cdc6068b992dcffe173af6fd3edc002"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#a0cdc6068b992dcffe173af6fd3edc002">__cxxabiv1::__cxa_pure_virtual</a> ()</td></tr>
-<tr class="separator:a0cdc6068b992dcffe173af6fd3edc002"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ef00e7cc48fcaf5a29aa49ab64f6172"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#a4ef00e7cc48fcaf5a29aa49ab64f6172">__cxxabiv1::__cxa_throw_bad_array_new_length</a> ()</td></tr>
-<tr class="separator:a4ef00e7cc48fcaf5a29aa49ab64f6172"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab6f23ce40ceb9761afb0599c26b3d5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#aab6f23ce40ceb9761afb0599c26b3d5a">__cxxabiv1::__cxa_free_exception</a> (void *thrown_exception)</td></tr>
-<tr class="separator:aab6f23ce40ceb9761afb0599c26b3d5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a330609cf82e14bd33f28568b0fb68d57"><td class="memItemLeft" align="right" valign="top">__extension__ typedef int __guard&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#a330609cf82e14bd33f28568b0fb68d57">__cxxabiv1::__attribute__</a> ((mode(__DI__)))</td></tr>
-<tr class="separator:a330609cf82e14bd33f28568b0fb68d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62941e1cf895269d58b4371daf7ad1f6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#a62941e1cf895269d58b4371daf7ad1f6">__cxxabiv1::__cxa_guard_acquire</a> (__guard *g)</td></tr>
-<tr class="separator:a62941e1cf895269d58b4371daf7ad1f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05e2f8e67df11ef76aa97daabcec71d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#a05e2f8e67df11ef76aa97daabcec71d9">__cxxabiv1::__cxa_guard_release</a> (__guard *g)</td></tr>
-<tr class="separator:a05e2f8e67df11ef76aa97daabcec71d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a105b72800529d499d2203e15f3b07b91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#a105b72800529d499d2203e15f3b07b91">__cxxabiv1::__cxa_guard_abort</a> (__guard *g)</td></tr>
-<tr class="separator:a105b72800529d499d2203e15f3b07b91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08803fd6b8bdd1cc57d455bf70ef8996"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a5b6df4fe38493e14648842364a76075f">__noreturn</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#a08803fd6b8bdd1cc57d455bf70ef8996">__cxxabiv1::__cxa_bad_typeid</a> ()</td></tr>
-<tr class="separator:a08803fd6b8bdd1cc57d455bf70ef8996"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac29d397f561f9a783275a62cfd09a938"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2">_Unwind_Reason_Code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#ac29d397f561f9a783275a62cfd09a938">_Unwind_RaiseException</a> (<a class="el" href="../../d3/db6/unwind_8h.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *<a class="el" href="../../d4/d33/smp_8hpp.html#a0f66a76399ac5291c5c21da3d3b42a9c">Exception</a>)</td></tr>
+<tr class="separator:ac29d397f561f9a783275a62cfd09a938"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e74b01de7af1c6fbfb0a2ce455c6c79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#d7/d76/struct____cxxabiv1_1_1____cxa__eh__globals">__cxa_eh_globals</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#a1e74b01de7af1c6fbfb0a2ce455c6c79">__cxa_get_globals</a> () noexcept</td></tr>
+<tr class="separator:a1e74b01de7af1c6fbfb0a2ce455c6c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6870fb46accc462562647e3d99c0b7c7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#a6870fb46accc462562647e3d99c0b7c7">__cxa_atexit</a> (void(*f)(void *), void *objptr, void *dso)</td></tr>
+<tr class="separator:a6870fb46accc462562647e3d99c0b7c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8622fa1c28f360ea05bc97063d192b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa8622fa1c28f360ea05bc97063d192b3">__cxa_finalize</a> (void *f)</td></tr>
+<tr class="separator:aa8622fa1c28f360ea05bc97063d192b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebcc976a7993632e8679b287e8f2ff11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2">_Unwind_Reason_Code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#aebcc976a7993632e8679b287e8f2ff11">__gxx_personality_v0</a> (int version, <a class="el" href="../../d3/db6/unwind_8h.html#a09fdc8f727b214f5168e3690b0ddfa21">_Unwind_Action</a> actions, _Unwind_Exception_Class <a class="el" href="../../d3/db6/unwind_8h.html#ae268038ce44c98f28ba55a4fd593f4e2">exception_class</a>, <a class="el" href="../../d3/db6/unwind_8h.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *ue_header, <a class="el" href="../../d3/db6/unwind_8h.html#d2/d0a/struct__Unwind__Context">_Unwind_Context</a> *context)</td></tr>
+<tr class="separator:aebcc976a7993632e8679b287e8f2ff11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34a12c9d71d5c006cb514c6e68c830d6"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#a34a12c9d71d5c006cb514c6e68c830d6">__cxa_begin_catch</a> (void *thrown_object) noexcept</td></tr>
+<tr class="separator:a34a12c9d71d5c006cb514c6e68c830d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7cbcb8bdc97db647056a747fc329255"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#af7cbcb8bdc97db647056a747fc329255">__cxa_end_catch</a> ()</td></tr>
+<tr class="separator:af7cbcb8bdc97db647056a747fc329255"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2337c67f6b52b6bfcbe62e0844abc6bf"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d6/de6/include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#a2337c67f6b52b6bfcbe62e0844abc6bf">align_exception_allocation_size</a> (<a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> a, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> b)</td></tr>
+<tr class="separator:a2337c67f6b52b6bfcbe62e0844abc6bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42544cac98c23ec5762bc1e080db2625"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d6/de6/include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#a42544cac98c23ec5762bc1e080db2625">INIT_EXCEPTION_CLASS</a> (_Unwind_Exception_Class *c)</td></tr>
+<tr class="separator:a42544cac98c23ec5762bc1e080db2625"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e2bcf5436b90b88f97e101c1478d9b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#a6e2bcf5436b90b88f97e101c1478d9b6">unexpected_header_stub</a> ()</td></tr>
+<tr class="separator:a6e2bcf5436b90b88f97e101c1478d9b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cd13d1ccfad526ce21e220fd7391bfe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#a1cd13d1ccfad526ce21e220fd7391bfe">terminate_header_stub</a> ()</td></tr>
+<tr class="separator:a1cd13d1ccfad526ce21e220fd7391bfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43bcedb0d82c13bf18531592920704f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#a43bcedb0d82c13bf18531592920704f8">exception_cleanup_stub</a> (<a class="el" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2">_Unwind_Reason_Code</a> Code, <a class="el" href="../../d3/db6/unwind_8h.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *<a class="el" href="../../d4/d33/smp_8hpp.html#a0f66a76399ac5291c5c21da3d3b42a9c">Exception</a>)</td></tr>
+<tr class="separator:a43bcedb0d82c13bf18531592920704f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd32266808300a89a8002907c51f8c30"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#abd32266808300a89a8002907c51f8c30">__cxa_allocate_exception</a> (<a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> thrown_size)  throw ()</td></tr>
+<tr class="separator:abd32266808300a89a8002907c51f8c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a1186a9f3839081a75de9372da0e875"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a5b6df4fe38493e14648842364a76075f">__noreturn</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#a5a1186a9f3839081a75de9372da0e875">__cxa_throw</a> (void *thrown_object, std::type_info *tinfo, void(*dest)(void *))</td></tr>
+<tr class="separator:a5a1186a9f3839081a75de9372da0e875"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08288524be18838cf7b3ebb1dcd1dde7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#a08288524be18838cf7b3ebb1dcd1dde7">__cxa_rethrow</a> ()</td></tr>
+<tr class="separator:a08288524be18838cf7b3ebb1dcd1dde7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6be7d9ce80c86f5178635fa86c2dd5e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#a6be7d9ce80c86f5178635fa86c2dd5e7">__cxa_pure_virtual</a> ()</td></tr>
+<tr class="separator:a6be7d9ce80c86f5178635fa86c2dd5e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15ba264e61d0f9c1fe8565ac6fc3a573"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#a15ba264e61d0f9c1fe8565ac6fc3a573">__cxa_throw_bad_array_new_length</a> ()</td></tr>
+<tr class="separator:a15ba264e61d0f9c1fe8565ac6fc3a573"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21f5884309cd1bb0936c4574b3580df7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#a21f5884309cd1bb0936c4574b3580df7">__cxa_free_exception</a> (void *thrown_exception)</td></tr>
+<tr class="separator:a21f5884309cd1bb0936c4574b3580df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5aa60072f4063655d5283b6d7b7ab44"><td class="memItemLeft" align="right" valign="top">__extension__ typedef int __guard&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a> ((mode(__DI__)))</td></tr>
+<tr class="separator:aa5aa60072f4063655d5283b6d7b7ab44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9a42607fb7932f44ba914ac49972e62"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#ad9a42607fb7932f44ba914ac49972e62">__cxa_guard_acquire</a> (__guard *g)</td></tr>
+<tr class="separator:ad9a42607fb7932f44ba914ac49972e62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adef76ddddaddf969efa3bfad968fd430"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#adef76ddddaddf969efa3bfad968fd430">__cxa_guard_release</a> (__guard *g)</td></tr>
+<tr class="separator:adef76ddddaddf969efa3bfad968fd430"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9201a43070ac25a19a0c0194c09b993d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#a9201a43070ac25a19a0c0194c09b993d">__cxa_guard_abort</a> (__guard *g)</td></tr>
+<tr class="separator:a9201a43070ac25a19a0c0194c09b993d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83904765ba46f6343afd57e1ede3b4e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a5b6df4fe38493e14648842364a76075f">__noreturn</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#a83904765ba46f6343afd57e1ede3b4e2">__cxa_bad_typeid</a> ()</td></tr>
+<tr class="separator:a83904765ba46f6343afd57e1ede3b4e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad102cc62005a308c34ad509aedac7e2c"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#ad102cc62005a308c34ad509aedac7e2c">__cxa_get_exception_ptr</a> (void *exceptionObject)</td></tr>
+<tr class="separator:ad102cc62005a308c34ad509aedac7e2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a19df960d2907e9c08a720ae7683e632c"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#a19df960d2907e9c08a720ae7683e632c">__dso_handle</a> = (void *)&amp;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#a26ff584c0f03a34d6e26b69ec8ca2d9d">__dso_handle_stub</a></td></tr>
-<tr class="separator:a19df960d2907e9c08a720ae7683e632c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac07491fb61c1bbd8cb17bd92dc35814f"><td class="memItemLeft" align="right" valign="top">atexit_func_entry_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#ac07491fb61c1bbd8cb17bd92dc35814f">__cxxabiv1::__atexit_funcs</a> [<a class="el" href="../../d0/dc4/cxxabi_8h.html#ae07a9ad040d2fbefafcff363b77697ce">ATEXIT_MAX_FUNCS</a>]</td></tr>
-<tr class="separator:ac07491fb61c1bbd8cb17bd92dc35814f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a160efcaefdfa33db1ef1bbaed722f818"><td class="memItemLeft" align="right" valign="top">uarch_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#a160efcaefdfa33db1ef1bbaed722f818">__cxxabiv1::__atexit_func_count</a> = 0</td></tr>
-<tr class="separator:a160efcaefdfa33db1ef1bbaed722f818"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8068edf906451857b4f6c7be313bec94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dee/struct____cxxabiv1_1_1atexit__func__entry__t.html">atexit_func_entry_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#a8068edf906451857b4f6c7be313bec94">__atexit_funcs</a> [<a class="el" href="../../d0/dc4/cxxabi_8h.html#ae07a9ad040d2fbefafcff363b77697ce">ATEXIT_MAX_FUNCS</a>]</td></tr>
+<tr class="separator:a8068edf906451857b4f6c7be313bec94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f75f529cf75cf0a9cd266f8d67675dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#a40b59e7581f6063603886ef240497a07">uarch_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d66/cxxabi_8cpp.html#a0f75f529cf75cf0a9cd266f8d67675dc">__atexit_func_count</a> = 0</td></tr>
+<tr class="separator:a0f75f529cf75cf0a9cd266f8d67675dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a26ff584c0f03a34d6e26b69ec8ca2d9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26ff584c0f03a34d6e26b69ec8ca2d9d">&#9670;&nbsp;</a></span>__dso_handle_stub()</h2>
+<a id="aa5aa60072f4063655d5283b6d7b7ab44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5aa60072f4063655d5283b6d7b7ab44">&#9670;&nbsp;</a></span>__attribute__()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void __dso_handle_stub </td>
+          <td class="memname">__extension__ typedef int __guard <a class="el" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a> </td>
+          <td>(</td>
+          <td class="paramtype">(mode(__DI__))&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abd32266808300a89a8002907c51f8c30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd32266808300a89a8002907c51f8c30">&#9670;&nbsp;</a></span>__cxa_allocate_exception()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* __cxa_allocate_exception </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
+          <td class="paramname"><em>thrown_size</em></td><td>)</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td align="right">throw </td><td>(</td><td colspan="2"></td>
+        </tr>
+        <tr>
+          <td align="right"></td><td>)</td><td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00168">168</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;{</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Allocating exception of size %d.&quot;</span>, thrown_size);</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160; </div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <span class="keywordtype">size_t</span> alloc_size = <a class="code" href="../../d7/d66/cxxabi_8cpp.html#a2337c67f6b52b6bfcbe62e0844abc6bf">align_exception_allocation_size</a>(thrown_size + <span class="keyword">sizeof</span>(<a class="code" href="../../dd/d57/struct____cxxabiv1_1_1____cxa__exception.html">__cxa_exception</a>), <span class="keyword">alignof</span>(<a class="code" href="../../dd/d57/struct____cxxabiv1_1_1____cxa__exception.html">__cxa_exception</a>));</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <a class="code" href="../../dd/d57/struct____cxxabiv1_1_1____cxa__exception.html">__cxa_exception</a> *<a class="code" href="../../d4/d33/smp_8hpp.html#a0f66a76399ac5291c5c21da3d3b42a9c">Exception</a> = (<a class="code" href="../../dd/d57/struct____cxxabiv1_1_1____cxa__exception.html">__cxa_exception</a> *)<a class="code" href="../../da/d3e/memory_8hpp.html#aa700d7a085f4fa2439650b7675228b88">kmalloc</a>(alloc_size);</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    <a class="code" href="../../d3/d68/convert_8cpp.html#ae577b1098c1f745563eb0789fa58ae14">memset</a>(<a class="code" href="../../d4/d33/smp_8hpp.html#a0f66a76399ac5291c5c21da3d3b42a9c">Exception</a>, 0, alloc_size);</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/d33/smp_8hpp.html#a0f66a76399ac5291c5c21da3d3b42a9c">Exception</a> + 1;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;}</div>
+<div class="ttc" id="aconvert_8cpp_html_ae577b1098c1f745563eb0789fa58ae14"><div class="ttname"><a href="../../d3/d68/convert_8cpp.html#ae577b1098c1f745563eb0789fa58ae14">memset</a></div><div class="ttdeci">EXTERNC __no_stack_protector void * memset(void *dest, int val, size_t len)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d68/convert_8cpp_source.html#l01116">convert.cpp:1116</a></div></div>
+<div class="ttc" id="acxxabi_8cpp_html_a2337c67f6b52b6bfcbe62e0844abc6bf"><div class="ttname"><a href="../../d7/d66/cxxabi_8cpp.html#a2337c67f6b52b6bfcbe62e0844abc6bf">align_exception_allocation_size</a></div><div class="ttdeci">static __always_inline size_t align_exception_allocation_size(size_t a, size_t b)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d66/cxxabi_8cpp_source.html#l00129">cxxabi.cpp:129</a></div></div>
+<div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00094">debug.h:94</a></div></div>
+<div class="ttc" id="amemory_8hpp_html_aa700d7a085f4fa2439650b7675228b88"><div class="ttname"><a href="../../da/d3e/memory_8hpp.html#aa700d7a085f4fa2439650b7675228b88">kmalloc</a></div><div class="ttdeci">#define kmalloc(Size)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d3e/memory_8hpp_source.html#l00091">memory.hpp:91</a></div></div>
+<div class="ttc" id="asmp_8hpp_html_a0f66a76399ac5291c5c21da3d3b42a9c"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a0f66a76399ac5291c5c21da3d3b42a9c">Exception</a></div><div class="ttdeci">ExceptionInfo Exception</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00016">smp.hpp:16</a></div></div>
+<div class="ttc" id="astruct____cxxabiv1_1_1____cxa__exception_html"><div class="ttname"><a href="../../dd/d57/struct____cxxabiv1_1_1____cxa__exception.html">__cxxabiv1::__cxa_exception</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc4/cxxabi_8h_source.html#l00038">cxxabi.h:39</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00129">align_exception_allocation_size()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00016">Exception</a>, <a class="el" href="../../da/d3e/memory_8hpp_source.html#l00091">kmalloc</a>, and <a class="el" href="../../d3/d68/convert_8cpp_source.html#l01116">memset()</a>.</p>
+
+</div>
+</div>
+<a id="a6870fb46accc462562647e3d99c0b7c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6870fb46accc462562647e3d99c0b7c7">&#9670;&nbsp;</a></span>__cxa_atexit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int __cxa_atexit </td>
+          <td>(</td>
+          <td class="paramtype">void(*)(void *)&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>objptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>dso</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">f</td><td>The destructor </td></tr>
+    <tr><td class="paramname">objptr</td><td>The object to be destructed </td></tr>
+    <tr><td class="paramname">dso</td><td>The DSO from which the object was obtained (unused in our case) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Zero on success, non-zero on failure </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00044">44</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;{</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../dd/d24/kernel_8cpp.html#a7495caffa5b73a2490dcd48a91869694">KernelSymbolTable</a>)</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    {</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Registering atexit function for \&quot;%s\&quot; with destructor \&quot;%s\&quot;&quot;</span>,</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;              <a class="code" href="../../dd/d24/kernel_8cpp.html#a7495caffa5b73a2490dcd48a91869694">KernelSymbolTable</a>-&gt;<a class="code" href="../../d0/dcc/classSymbolResolver_1_1Symbols.html#a5899ad132c86d2faa8aa8f131c1274b1">GetSymbol</a>((<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)objptr),</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;              <a class="code" href="../../dd/d24/kernel_8cpp.html#a7495caffa5b73a2490dcd48a91869694">KernelSymbolTable</a>-&gt;<a class="code" href="../../d0/dcc/classSymbolResolver_1_1Symbols.html#a5899ad132c86d2faa8aa8f131c1274b1">GetSymbol</a>((<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)f));</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    {</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Registering atexit function for %p with destructor %p&quot;</span>,</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;              objptr, f);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d7/d66/cxxabi_8cpp.html#a0f75f529cf75cf0a9cd266f8d67675dc">__atexit_func_count</a> &gt;= <a class="code" href="../../d0/dc4/cxxabi_8h.html#ae07a9ad040d2fbefafcff363b77697ce">ATEXIT_MAX_FUNCS</a>)</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="code" href="../../d7/d66/cxxabi_8cpp.html#a8068edf906451857b4f6c7be313bec94">__atexit_funcs</a>[<a class="code" href="../../d7/d66/cxxabi_8cpp.html#a0f75f529cf75cf0a9cd266f8d67675dc">__atexit_func_count</a>].<a class="code" href="../../d3/dee/struct____cxxabiv1_1_1atexit__func__entry__t.html#ad47e0d4db0e79bb13e0c9b3d3074a2e5">destructor_func</a> = f;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="../../d7/d66/cxxabi_8cpp.html#a8068edf906451857b4f6c7be313bec94">__atexit_funcs</a>[<a class="code" href="../../d7/d66/cxxabi_8cpp.html#a0f75f529cf75cf0a9cd266f8d67675dc">__atexit_func_count</a>].<a class="code" href="../../d3/dee/struct____cxxabiv1_1_1atexit__func__entry__t.html#a65221db6976ac291740e6c6466164ab9">obj_ptr</a> = objptr;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="../../d7/d66/cxxabi_8cpp.html#a8068edf906451857b4f6c7be313bec94">__atexit_funcs</a>[<a class="code" href="../../d7/d66/cxxabi_8cpp.html#a0f75f529cf75cf0a9cd266f8d67675dc">__atexit_func_count</a>].<a class="code" href="../../d3/dee/struct____cxxabiv1_1_1atexit__func__entry__t.html#ae947a957a525a94b6667f70698cdf6ac">dso_handle</a> = dso;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="../../d7/d66/cxxabi_8cpp.html#a0f75f529cf75cf0a9cd266f8d67675dc">__atexit_func_count</a>++;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;}</div>
+<div class="ttc" id="aclassSymbolResolver_1_1Symbols_html_a5899ad132c86d2faa8aa8f131c1274b1"><div class="ttname"><a href="../../d0/dcc/classSymbolResolver_1_1Symbols.html#a5899ad132c86d2faa8aa8f131c1274b1">SymbolResolver::Symbols::GetSymbol</a></div><div class="ttdeci">const char * GetSymbol(uintptr_t Address)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d13/symbols_8cpp_source.html#l00028">symbols.cpp:28</a></div></div>
+<div class="ttc" id="acxxabi_8cpp_html_a0f75f529cf75cf0a9cd266f8d67675dc"><div class="ttname"><a href="../../d7/d66/cxxabi_8cpp.html#a0f75f529cf75cf0a9cd266f8d67675dc">__atexit_func_count</a></div><div class="ttdeci">uarch_t __atexit_func_count</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d66/cxxabi_8cpp_source.html#l00031">cxxabi.cpp:31</a></div></div>
+<div class="ttc" id="acxxabi_8cpp_html_a8068edf906451857b4f6c7be313bec94"><div class="ttname"><a href="../../d7/d66/cxxabi_8cpp.html#a8068edf906451857b4f6c7be313bec94">__atexit_funcs</a></div><div class="ttdeci">atexit_func_entry_t __atexit_funcs[ATEXIT_MAX_FUNCS]</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d66/cxxabi_8cpp_source.html#l00030">cxxabi.cpp:30</a></div></div>
+<div class="ttc" id="acxxabi_8h_html_ae07a9ad040d2fbefafcff363b77697ce"><div class="ttname"><a href="../../d0/dc4/cxxabi_8h.html#ae07a9ad040d2fbefafcff363b77697ce">ATEXIT_MAX_FUNCS</a></div><div class="ttdeci">#define ATEXIT_MAX_FUNCS</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc4/cxxabi_8h_source.html#l00027">cxxabi.h:27</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00135">types.h:135</a></div></div>
+<div class="ttc" id="akernel_8cpp_html_a7495caffa5b73a2490dcd48a91869694"><div class="ttname"><a href="../../dd/d24/kernel_8cpp.html#a7495caffa5b73a2490dcd48a91869694">KernelSymbolTable</a></div><div class="ttdeci">SymbolResolver::Symbols * KernelSymbolTable</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d24/kernel_8cpp_source.html#l00057">kernel.cpp:57</a></div></div>
+<div class="ttc" id="astruct____cxxabiv1_1_1atexit__func__entry__t_html_a65221db6976ac291740e6c6466164ab9"><div class="ttname"><a href="../../d3/dee/struct____cxxabiv1_1_1atexit__func__entry__t.html#a65221db6976ac291740e6c6466164ab9">__cxxabiv1::atexit_func_entry_t::obj_ptr</a></div><div class="ttdeci">void * obj_ptr</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc4/cxxabi_8h_source.html#l00034">cxxabi.h:34</a></div></div>
+<div class="ttc" id="astruct____cxxabiv1_1_1atexit__func__entry__t_html_ad47e0d4db0e79bb13e0c9b3d3074a2e5"><div class="ttname"><a href="../../d3/dee/struct____cxxabiv1_1_1atexit__func__entry__t.html#ad47e0d4db0e79bb13e0c9b3d3074a2e5">__cxxabiv1::atexit_func_entry_t::destructor_func</a></div><div class="ttdeci">void(* destructor_func)(void *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc4/cxxabi_8h_source.html#l00033">cxxabi.h:33</a></div></div>
+<div class="ttc" id="astruct____cxxabiv1_1_1atexit__func__entry__t_html_ae947a957a525a94b6667f70698cdf6ac"><div class="ttname"><a href="../../d3/dee/struct____cxxabiv1_1_1atexit__func__entry__t.html#ae947a957a525a94b6667f70698cdf6ac">__cxxabiv1::atexit_func_entry_t::dso_handle</a></div><div class="ttdeci">void * dso_handle</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc4/cxxabi_8h_source.html#l00035">cxxabi.h:35</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00031">__atexit_func_count</a>, <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00030">__atexit_funcs</a>, <a class="el" href="../../d0/dc4/cxxabi_8h_source.html#l00027">ATEXIT_MAX_FUNCS</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, <a class="el" href="../../d0/dc4/cxxabi_8h_source.html#l00033">__cxxabiv1::atexit_func_entry_t::destructor_func</a>, <a class="el" href="../../d0/dc4/cxxabi_8h_source.html#l00035">__cxxabiv1::atexit_func_entry_t::dso_handle</a>, <a class="el" href="../../d9/d13/symbols_8cpp_source.html#l00028">SymbolResolver::Symbols::GetSymbol()</a>, <a class="el" href="../../dd/d24/kernel_8cpp_source.html#l00057">KernelSymbolTable</a>, and <a class="el" href="../../d0/dc4/cxxabi_8h_source.html#l00034">__cxxabiv1::atexit_func_entry_t::obj_ptr</a>.</p>
+
+</div>
+</div>
+<a id="a83904765ba46f6343afd57e1ede3b4e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83904765ba46f6343afd57e1ede3b4e2">&#9670;&nbsp;</a></span>__cxa_bad_typeid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/de6/include_2types_8h.html#a5b6df4fe38493e14648842364a76075f">__noreturn</a> void __cxa_bad_typeid </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -180,28 +311,763 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00026">26</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{ <a class="code" href="../../db/d16/debug_8h.html#a5daca020dc132cf1c649ba9beb4ca63d">stub</a>; }</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00244">244</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;{</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;__cxa_bad_typeid() called.&quot;</span>);</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <a class="code" href="../../d7/dfa/namespaceCPU.html#a43d66aba1e2db1bbe0b9233304298f9e">CPU::Stop</a>(); <span class="comment">/* FIXME: Crash the system */</span></div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;}</div>
+<div class="ttc" id="adebug_8h_html_abd4acaf7c67bd126aefd672fbbd5747f"><div class="ttname"><a href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a></div><div class="ttdeci">#define fixme(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00099">debug.h:99</a></div></div>
+<div class="ttc" id="anamespaceCPU_html_a43d66aba1e2db1bbe0b9233304298f9e"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#a43d66aba1e2db1bbe0b9233304298f9e">CPU::Stop</a></div><div class="ttdeci">nsa __noreturn __used void Stop()</div><div class="ttdoc">Stop the CPU (infinite loop)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00157">cpu.hpp:157</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>, and <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00157">CPU::Stop()</a>.</p>
+
+</div>
+</div>
+<a id="a34a12c9d71d5c006cb514c6e68c830d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34a12c9d71d5c006cb514c6e68c830d6">&#9670;&nbsp;</a></span>__cxa_begin_catch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* __cxa_begin_catch </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>thrown_object</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00109">109</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;{</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <a class="code" href="../../d0/d64/syscall_8cpp.html#a5a4f4538b1fe13a821aabdd9236bf6b4">func</a>(<span class="stringliteral">&quot;%p&quot;</span>, thrown_object);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <a class="code" href="../../dd/d57/struct____cxxabiv1_1_1____cxa__exception.html">__cxa_exception</a> *<a class="code" href="../../d4/d33/smp_8hpp.html#a0f66a76399ac5291c5c21da3d3b42a9c">Exception</a> = (<a class="code" href="../../dd/d57/struct____cxxabiv1_1_1____cxa__exception.html">__cxa_exception</a> *)thrown_object - 1;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <a class="code" href="../../da/d75/namespace____cxxabiv1.html#d7/d76/struct____cxxabiv1_1_1____cxa__eh__globals">__cxa_eh_globals</a> *Globals = <a class="code" href="../../d7/d66/cxxabi_8cpp.html#a1e74b01de7af1c6fbfb0a2ce455c6c79">__cxa_get_globals</a>();</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <a class="code" href="../../d4/d33/smp_8hpp.html#a0f66a76399ac5291c5c21da3d3b42a9c">Exception</a>-&gt;handlerCount++;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    Globals-&gt;<a class="code" href="../../da/d75/namespace____cxxabiv1.html#a59d046223bdff74671ce9fc40d28bfa4">uncaughtExceptions</a>--;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <a class="code" href="../../d4/d33/smp_8hpp.html#a0f66a76399ac5291c5c21da3d3b42a9c">Exception</a>-&gt;nextException = Globals-&gt;<a class="code" href="../../da/d75/namespace____cxxabiv1.html#a77348d2bb5877643cae07015a2453eb5">caughtExceptions</a>;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    Globals-&gt;<a class="code" href="../../da/d75/namespace____cxxabiv1.html#a77348d2bb5877643cae07015a2453eb5">caughtExceptions</a> = <a class="code" href="../../d4/d33/smp_8hpp.html#a0f66a76399ac5291c5c21da3d3b42a9c">Exception</a>;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/d33/smp_8hpp.html#a0f66a76399ac5291c5c21da3d3b42a9c">Exception</a> + 1;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;}</div>
+<div class="ttc" id="acxxabi_8cpp_html_a1e74b01de7af1c6fbfb0a2ce455c6c79"><div class="ttname"><a href="../../d7/d66/cxxabi_8cpp.html#a1e74b01de7af1c6fbfb0a2ce455c6c79">__cxa_get_globals</a></div><div class="ttdeci">__cxa_eh_globals * __cxa_get_globals() noexcept</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d66/cxxabi_8cpp_source.html#l00033">cxxabi.cpp:33</a></div></div>
+<div class="ttc" id="anamespace____cxxabiv1_html_a59d046223bdff74671ce9fc40d28bfa4"><div class="ttname"><a href="../../da/d75/namespace____cxxabiv1.html#a59d046223bdff74671ce9fc40d28bfa4">__cxxabiv1::__cxa_eh_globals::uncaughtExceptions</a></div><div class="ttdeci">unsigned int uncaughtExceptions</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc4/cxxabi_8h_source.html#l00096">cxxabi.h:96</a></div></div>
+<div class="ttc" id="anamespace____cxxabiv1_html_a77348d2bb5877643cae07015a2453eb5"><div class="ttname"><a href="../../da/d75/namespace____cxxabiv1.html#a77348d2bb5877643cae07015a2453eb5">__cxxabiv1::__cxa_eh_globals::caughtExceptions</a></div><div class="ttdeci">__cxa_exception * caughtExceptions</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc4/cxxabi_8h_source.html#l00095">cxxabi.h:95</a></div></div>
+<div class="ttc" id="anamespace____cxxabiv1_html_d7/d76/struct____cxxabiv1_1_1____cxa__eh__globals"><div class="ttname"><a href="../../da/d75/namespace____cxxabiv1.html#d7/d76/struct____cxxabiv1_1_1____cxa__eh__globals">__cxxabiv1::__cxa_eh_globals</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc4/cxxabi_8h_source.html#l00093">cxxabi.h:94</a></div></div>
+<div class="ttc" id="asyscall_8cpp_html_a5a4f4538b1fe13a821aabdd9236bf6b4"><div class="ttname"><a href="../../d0/d64/syscall_8cpp.html#a5a4f4538b1fe13a821aabdd9236bf6b4">func</a></div><div class="ttdeci">func(&quot;%s %#lx %#lx&quot;, pPathname, pArgv, pEnvp)</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00033">__cxa_get_globals()</a>, <a class="el" href="../../d0/dc4/cxxabi_8h_source.html#l00095">__cxxabiv1::__cxa_eh_globals::caughtExceptions</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00016">Exception</a>, <a class="el" href="../../d0/d64/syscall_8cpp.html#a5a4f4538b1fe13a821aabdd9236bf6b4">func()</a>, and <a class="el" href="../../d0/dc4/cxxabi_8h_source.html#l00096">__cxxabiv1::__cxa_eh_globals::uncaughtExceptions</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00178">__cxa_throw()</a>.</p>
+
+</div>
+</div>
+<a id="af7cbcb8bdc97db647056a747fc329255"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7cbcb8bdc97db647056a747fc329255">&#9670;&nbsp;</a></span>__cxa_end_catch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void __cxa_end_catch </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00124">124</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;{</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;__cxa_end_catch() called.&quot;</span>);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>.</p>
+
+</div>
+</div>
+<a id="aa8622fa1c28f360ea05bc97063d192b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8622fa1c28f360ea05bc97063d192b3">&#9670;&nbsp;</a></span>__cxa_finalize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void __cxa_finalize </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00067">67</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;{</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <a class="code" href="../../d0/d64/syscall_8cpp.html#a5a4f4538b1fe13a821aabdd9236bf6b4">func</a>(<span class="stringliteral">&quot;%p&quot;</span>, f);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <a class="code" href="../../da/d75/namespace____cxxabiv1.html#a40b59e7581f6063603886ef240497a07">uarch_t</a> i = <a class="code" href="../../d7/d66/cxxabi_8cpp.html#a0f75f529cf75cf0a9cd266f8d67675dc">__atexit_func_count</a>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordflow">if</span> (f == <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">while</span> (i--)</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        {</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d7/d66/cxxabi_8cpp.html#a8068edf906451857b4f6c7be313bec94">__atexit_funcs</a>[i].destructor_func)</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../dd/d24/kernel_8cpp.html#a7495caffa5b73a2490dcd48a91869694">KernelSymbolTable</a>)</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Calling atexit function \&quot;%s\&quot;&quot;</span>,</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                          <a class="code" href="../../dd/d24/kernel_8cpp.html#a7495caffa5b73a2490dcd48a91869694">KernelSymbolTable</a>-&gt;<a class="code" href="../../d0/dcc/classSymbolResolver_1_1Symbols.html#a5899ad132c86d2faa8aa8f131c1274b1">GetSymbol</a>((<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)<a class="code" href="../../d7/d66/cxxabi_8cpp.html#a8068edf906451857b4f6c7be313bec94">__atexit_funcs</a>[i].<a class="code" href="../../d3/dee/struct____cxxabiv1_1_1atexit__func__entry__t.html#ad47e0d4db0e79bb13e0c9b3d3074a2e5">destructor_func</a>));</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                }</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Calling atexit function %p&quot;</span>,</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                          <a class="code" href="../../d7/d66/cxxabi_8cpp.html#a8068edf906451857b4f6c7be313bec94">__atexit_funcs</a>[i].destructor_func);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                }</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                (*<a class="code" href="../../d7/d66/cxxabi_8cpp.html#a8068edf906451857b4f6c7be313bec94">__atexit_funcs</a>[i].<a class="code" href="../../d3/dee/struct____cxxabiv1_1_1atexit__func__entry__t.html#ad47e0d4db0e79bb13e0c9b3d3074a2e5">destructor_func</a>)(<a class="code" href="../../d7/d66/cxxabi_8cpp.html#a8068edf906451857b4f6c7be313bec94">__atexit_funcs</a>[i].obj_ptr);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            }</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        }</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordflow">while</span> (i--)</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d7/d66/cxxabi_8cpp.html#a8068edf906451857b4f6c7be313bec94">__atexit_funcs</a>[i].destructor_func == f)</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        {</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            (*<a class="code" href="../../d7/d66/cxxabi_8cpp.html#a8068edf906451857b4f6c7be313bec94">__atexit_funcs</a>[i].<a class="code" href="../../d3/dee/struct____cxxabiv1_1_1atexit__func__entry__t.html#ad47e0d4db0e79bb13e0c9b3d3074a2e5">destructor_func</a>)(<a class="code" href="../../d7/d66/cxxabi_8cpp.html#a8068edf906451857b4f6c7be313bec94">__atexit_funcs</a>[i].obj_ptr);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            <a class="code" href="../../d7/d66/cxxabi_8cpp.html#a8068edf906451857b4f6c7be313bec94">__atexit_funcs</a>[i].<a class="code" href="../../d3/dee/struct____cxxabiv1_1_1atexit__func__entry__t.html#ad47e0d4db0e79bb13e0c9b3d3074a2e5">destructor_func</a> = 0;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    }</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}</div>
+<div class="ttc" id="anamespace____cxxabiv1_html_a40b59e7581f6063603886ef240497a07"><div class="ttname"><a href="../../da/d75/namespace____cxxabiv1.html#a40b59e7581f6063603886ef240497a07">__cxxabiv1::uarch_t</a></div><div class="ttdeci">unsigned uarch_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc4/cxxabi_8h_source.html#l00029">cxxabi.h:29</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00031">__atexit_func_count</a>, <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00030">__atexit_funcs</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, <a class="el" href="../../d0/dc4/cxxabi_8h_source.html#l00033">__cxxabiv1::atexit_func_entry_t::destructor_func</a>, <a class="el" href="../../d0/d64/syscall_8cpp.html#a5a4f4538b1fe13a821aabdd9236bf6b4">func()</a>, <a class="el" href="../../d9/d13/symbols_8cpp_source.html#l00028">SymbolResolver::Symbols::GetSymbol()</a>, and <a class="el" href="../../dd/d24/kernel_8cpp_source.html#l00057">KernelSymbolTable</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dd/d24/kernel_8cpp_source.html#l00361">BeforeShutdown()</a>.</p>
+
+</div>
+</div>
+<a id="a21f5884309cd1bb0936c4574b3580df7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21f5884309cd1bb0936c4574b3580df7">&#9670;&nbsp;</a></span>__cxa_free_exception()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void __cxa_free_exception </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>thrown_exception</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00219">219</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;{</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;__cxa_free_exception( %p ) called.&quot;</span>,</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;          thrown_exception);</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>.</p>
+
+</div>
+</div>
+<a id="ad102cc62005a308c34ad509aedac7e2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad102cc62005a308c34ad509aedac7e2c">&#9670;&nbsp;</a></span>__cxa_get_exception_ptr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* __cxa_get_exception_ptr </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>exceptionObject</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00250">250</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;{</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a5daca020dc132cf1c649ba9beb4ca63d">stub</a>;</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;}</div>
 <div class="ttc" id="adebug_8h_html_a5daca020dc132cf1c649ba9beb4ca63d"><div class="ttname"><a href="../../db/d16/debug_8h.html#a5daca020dc132cf1c649ba9beb4ca63d">stub</a></div><div class="ttdeci">#define stub</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00100">debug.h:100</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00100">stub</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a19df960d2907e9c08a720ae7683e632c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19df960d2907e9c08a720ae7683e632c">&#9670;&nbsp;</a></span>__dso_handle</h2>
+<a id="a1e74b01de7af1c6fbfb0a2ce455c6c79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e74b01de7af1c6fbfb0a2ce455c6c79">&#9670;&nbsp;</a></span>__cxa_get_globals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#d7/d76/struct____cxxabiv1_1_1____cxa__eh__globals">__cxa_eh_globals</a>* __cxa_get_globals </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00033">33</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordflow">return</span> &amp;<a class="code" href="../../d8/d21/aarch64_2cpu_2smp_8cpp.html#aa53a3783575d262dc378af3a30ca775d">GetCurrentCPU</a>()-&gt;<a class="code" href="../../d4/d33/smp_8hpp.html#a87fe6abe538d9a64bbe0d9cf668833ad">Exception</a>.<a class="code" href="../../d0/dc4/cxxabi_8h.html#a2ba83bdf58f8a337a1f9e3e723bb0542">globals</a>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
+<div class="ttc" id="aaarch64_2cpu_2smp_8cpp_html_aa53a3783575d262dc378af3a30ca775d"><div class="ttname"><a href="../../d8/d21/aarch64_2cpu_2smp_8cpp.html#aa53a3783575d262dc378af3a30ca775d">GetCurrentCPU</a></div><div class="ttdeci">CPUData * GetCurrentCPU()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d21/aarch64_2cpu_2smp_8cpp_source.html#l00033">smp.cpp:33</a></div></div>
+<div class="ttc" id="acxxabi_8h_html_a2ba83bdf58f8a337a1f9e3e723bb0542"><div class="ttname"><a href="../../d0/dc4/cxxabi_8h.html#a2ba83bdf58f8a337a1f9e3e723bb0542">ExceptionInfo::globals</a></div><div class="ttdeci">__cxxabiv1::__cxa_eh_globals globals</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc4/cxxabi_8h_source.html#l00113">cxxabi.h:113</a></div></div>
+<div class="ttc" id="asmp_8hpp_html_a87fe6abe538d9a64bbe0d9cf668833ad"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a87fe6abe538d9a64bbe0d9cf668833ad">CPUData::Exception</a></div><div class="ttdeci">ExceptionInfo Exception</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00058">smp.hpp:58</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00058">CPUData::Exception</a>, <a class="el" href="../../d8/d21/aarch64_2cpu_2smp_8cpp_source.html#l00033">GetCurrentCPU()</a>, and <a class="el" href="../../d0/dc4/cxxabi_8h_source.html#l00113">ExceptionInfo::globals</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00109">__cxa_begin_catch()</a>, and <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00178">__cxa_throw()</a>.</p>
+
+</div>
+</div>
+<a id="a9201a43070ac25a19a0c0194c09b993d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9201a43070ac25a19a0c0194c09b993d">&#9670;&nbsp;</a></span>__cxa_guard_abort()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void* __dso_handle = (void *)&amp;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#a26ff584c0f03a34d6e26b69ec8ca2d9d">__dso_handle_stub</a></td>
+          <td class="memname">void __cxa_guard_abort </td>
+          <td>(</td>
+          <td class="paramtype">__guard *&#160;</td>
+          <td class="paramname"><em>g</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00028">28</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00239">239</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;{</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;__cxa_guard_abort( %p ) called.&quot;</span>, g);</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>.</p>
+
+</div>
+</div>
+<a id="ad9a42607fb7932f44ba914ac49972e62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9a42607fb7932f44ba914ac49972e62">&#9670;&nbsp;</a></span>__cxa_guard_acquire()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int __cxa_guard_acquire </td>
+          <td>(</td>
+          <td class="paramtype">__guard *&#160;</td>
+          <td class="paramname"><em>g</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00227">227</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;{</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;__cxa_guard_acquire( %p ) called.&quot;</span>, g);</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <span class="keywordflow">return</span> !*(<span class="keywordtype">char</span> *)(g);</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>.</p>
+
+</div>
+</div>
+<a id="adef76ddddaddf969efa3bfad968fd430"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adef76ddddaddf969efa3bfad968fd430">&#9670;&nbsp;</a></span>__cxa_guard_release()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void __cxa_guard_release </td>
+          <td>(</td>
+          <td class="paramtype">__guard *&#160;</td>
+          <td class="paramname"><em>g</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00233">233</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;{</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;__cxa_guard_release( %p ) called.&quot;</span>, g);</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    *(<span class="keywordtype">char</span> *)g = 1;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>.</p>
+
+</div>
+</div>
+<a id="a6be7d9ce80c86f5178635fa86c2dd5e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6be7d9ce80c86f5178635fa86c2dd5e7">&#9670;&nbsp;</a></span>__cxa_pure_virtual()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void __cxa_pure_virtual </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00209">209</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;{</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;__cxa_pure_virtual() called.&quot;</span>);</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>.</p>
+
+</div>
+</div>
+<a id="a08288524be18838cf7b3ebb1dcd1dde7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08288524be18838cf7b3ebb1dcd1dde7">&#9670;&nbsp;</a></span>__cxa_rethrow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void __cxa_rethrow </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00204">204</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;{</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;__cxa_rethrow() called.&quot;</span>);</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>.</p>
+
+</div>
+</div>
+<a id="a5a1186a9f3839081a75de9372da0e875"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a1186a9f3839081a75de9372da0e875">&#9670;&nbsp;</a></span>__cxa_throw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/de6/include_2types_8h.html#a5b6df4fe38493e14648842364a76075f">__noreturn</a> void __cxa_throw </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>thrown_object</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::type_info *&#160;</td>
+          <td class="paramname"><em>tinfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void(*)(void *)&#160;</td>
+          <td class="paramname"><em>dest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00178">178</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;{</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;Throwing exception of type \&quot;%s\&quot;. ( object: %p, destructor: %p )&quot;</span>,</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;          tinfo-&gt;name(), thrown_object, dest);</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160; </div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <a class="code" href="../../da/d75/namespace____cxxabiv1.html#d7/d76/struct____cxxabiv1_1_1____cxa__eh__globals">__cxa_eh_globals</a> *Globals = <a class="code" href="../../d7/d66/cxxabi_8cpp.html#a1e74b01de7af1c6fbfb0a2ce455c6c79">__cxa_get_globals</a>();</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    Globals-&gt;<a class="code" href="../../da/d75/namespace____cxxabiv1.html#a59d046223bdff74671ce9fc40d28bfa4">uncaughtExceptions</a>++;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160; </div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <a class="code" href="../../dd/d57/struct____cxxabiv1_1_1____cxa__exception.html">__cxa_exception</a> *<a class="code" href="../../d4/d33/smp_8hpp.html#a0f66a76399ac5291c5c21da3d3b42a9c">Exception</a> = (<a class="code" href="../../dd/d57/struct____cxxabiv1_1_1____cxa__exception.html">__cxa_exception</a> *)thrown_object - 1;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <a class="code" href="../../d4/d33/smp_8hpp.html#a0f66a76399ac5291c5c21da3d3b42a9c">Exception</a>-&gt;exceptionType = (std::type_info *)tinfo;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <a class="code" href="../../d4/d33/smp_8hpp.html#a0f66a76399ac5291c5c21da3d3b42a9c">Exception</a>-&gt;exceptionDestructor = dest;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <a class="code" href="../../d4/d33/smp_8hpp.html#a0f66a76399ac5291c5c21da3d3b42a9c">Exception</a>-&gt;<a class="code" href="../../d0/dc4/cxxabi_8h.html#adcdde993999f6d27a68024451cde1835">unexpectedHandler</a> = &amp;<a class="code" href="../../d7/d66/cxxabi_8cpp.html#a6e2bcf5436b90b88f97e101c1478d9b6">unexpected_header_stub</a>;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    <a class="code" href="../../d4/d33/smp_8hpp.html#a0f66a76399ac5291c5c21da3d3b42a9c">Exception</a>-&gt;<a class="code" href="../../d0/dc4/cxxabi_8h.html#a3d347fd97d4210e0be95df465309ea1d">terminateHandler</a> = &amp;<a class="code" href="../../d7/d66/cxxabi_8cpp.html#a1cd13d1ccfad526ce21e220fd7391bfe">terminate_header_stub</a>;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    <a class="code" href="../../d4/d33/smp_8hpp.html#a0f66a76399ac5291c5c21da3d3b42a9c">Exception</a>-&gt;unwindHeader.exception_cleanup = &amp;<a class="code" href="../../d7/d66/cxxabi_8cpp.html#a43bcedb0d82c13bf18531592920704f8">exception_cleanup_stub</a>;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <a class="code" href="../../d7/d66/cxxabi_8cpp.html#a42544cac98c23ec5762bc1e080db2625">INIT_EXCEPTION_CLASS</a>(&amp;<a class="code" href="../../d4/d33/smp_8hpp.html#a0f66a76399ac5291c5c21da3d3b42a9c">Exception</a>-&gt;unwindHeader.exception_class);</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <a class="code" href="../../d4/d33/smp_8hpp.html#a0f66a76399ac5291c5c21da3d3b42a9c">Exception</a>-&gt;adjustedPtr = thrown_object;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160; </div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    <a class="code" href="../../d7/d66/cxxabi_8cpp.html#ac29d397f561f9a783275a62cfd09a938">_Unwind_RaiseException</a>(&amp;<a class="code" href="../../d4/d33/smp_8hpp.html#a0f66a76399ac5291c5c21da3d3b42a9c">Exception</a>-&gt;unwindHeader);</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    <a class="code" href="../../d7/d66/cxxabi_8cpp.html#a34a12c9d71d5c006cb514c6e68c830d6">__cxa_begin_catch</a>(&amp;<a class="code" href="../../d4/d33/smp_8hpp.html#a0f66a76399ac5291c5c21da3d3b42a9c">Exception</a>-&gt;unwindHeader);</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160; </div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Uncaught exception!&quot;</span>);</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <a class="code" href="../../d7/dfa/namespaceCPU.html#a43d66aba1e2db1bbe0b9233304298f9e">CPU::Stop</a>(); <span class="comment">/* FIXME: Panic */</span></div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;}</div>
+<div class="ttc" id="acxxabi_8cpp_html_a1cd13d1ccfad526ce21e220fd7391bfe"><div class="ttname"><a href="../../d7/d66/cxxabi_8cpp.html#a1cd13d1ccfad526ce21e220fd7391bfe">terminate_header_stub</a></div><div class="ttdeci">void terminate_header_stub()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d66/cxxabi_8cpp_source.html#l00149">cxxabi.cpp:149</a></div></div>
+<div class="ttc" id="acxxabi_8cpp_html_a34a12c9d71d5c006cb514c6e68c830d6"><div class="ttname"><a href="../../d7/d66/cxxabi_8cpp.html#a34a12c9d71d5c006cb514c6e68c830d6">__cxa_begin_catch</a></div><div class="ttdeci">void * __cxa_begin_catch(void *thrown_object) noexcept</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d66/cxxabi_8cpp_source.html#l00109">cxxabi.cpp:109</a></div></div>
+<div class="ttc" id="acxxabi_8cpp_html_a42544cac98c23ec5762bc1e080db2625"><div class="ttname"><a href="../../d7/d66/cxxabi_8cpp.html#a42544cac98c23ec5762bc1e080db2625">INIT_EXCEPTION_CLASS</a></div><div class="ttdeci">static __always_inline void INIT_EXCEPTION_CLASS(_Unwind_Exception_Class *c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d66/cxxabi_8cpp_source.html#l00134">cxxabi.cpp:134</a></div></div>
+<div class="ttc" id="acxxabi_8cpp_html_a43bcedb0d82c13bf18531592920704f8"><div class="ttname"><a href="../../d7/d66/cxxabi_8cpp.html#a43bcedb0d82c13bf18531592920704f8">exception_cleanup_stub</a></div><div class="ttdeci">void exception_cleanup_stub(_Unwind_Reason_Code Code, _Unwind_Exception *Exception)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d66/cxxabi_8cpp_source.html#l00161">cxxabi.cpp:161</a></div></div>
+<div class="ttc" id="acxxabi_8cpp_html_a6e2bcf5436b90b88f97e101c1478d9b6"><div class="ttname"><a href="../../d7/d66/cxxabi_8cpp.html#a6e2bcf5436b90b88f97e101c1478d9b6">unexpected_header_stub</a></div><div class="ttdeci">void unexpected_header_stub()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d66/cxxabi_8cpp_source.html#l00147">cxxabi.cpp:147</a></div></div>
+<div class="ttc" id="acxxabi_8cpp_html_ac29d397f561f9a783275a62cfd09a938"><div class="ttname"><a href="../../d7/d66/cxxabi_8cpp.html#ac29d397f561f9a783275a62cfd09a938">_Unwind_RaiseException</a></div><div class="ttdeci">_Unwind_Reason_Code _Unwind_RaiseException(_Unwind_Exception *Exception)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd6/unwind_8cpp_source.html#l00030">unwind.cpp:30</a></div></div>
+<div class="ttc" id="acxxabi_8h_html_a3d347fd97d4210e0be95df465309ea1d"><div class="ttname"><a href="../../d0/dc4/cxxabi_8h.html#a3d347fd97d4210e0be95df465309ea1d">ExceptionInfo::terminateHandler</a></div><div class="ttdeci">std::terminate_handler terminateHandler</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc4/cxxabi_8h_source.html#l00109">cxxabi.h:109</a></div></div>
+<div class="ttc" id="acxxabi_8h_html_adcdde993999f6d27a68024451cde1835"><div class="ttname"><a href="../../d0/dc4/cxxabi_8h.html#adcdde993999f6d27a68024451cde1835">ExceptionInfo::unexpectedHandler</a></div><div class="ttdeci">std::unexpected_handler unexpectedHandler</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc4/cxxabi_8h_source.html#l00110">cxxabi.h:110</a></div></div>
+<div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00086">debug.h:86</a></div></div>
+<div class="ttc" id="adebug_8h_html_a8666d232022b928a87f7fdf6de29d616"><div class="ttname"><a href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a></div><div class="ttdeci">#define trace(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00098">debug.h:98</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00109">__cxa_begin_catch()</a>, <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00033">__cxa_get_globals()</a>, <a class="el" href="../../db/dd6/unwind_8cpp_source.html#l00030">_Unwind_RaiseException()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00086">error</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00016">Exception</a>, <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00161">exception_cleanup_stub()</a>, <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00134">INIT_EXCEPTION_CLASS()</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00157">CPU::Stop()</a>, <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00149">terminate_header_stub()</a>, <a class="el" href="../../d0/dc4/cxxabi_8h_source.html#l00109">ExceptionInfo::terminateHandler</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00098">trace</a>, <a class="el" href="../../d0/dc4/cxxabi_8h_source.html#l00096">__cxxabiv1::__cxa_eh_globals::uncaughtExceptions</a>, <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00147">unexpected_header_stub()</a>, and <a class="el" href="../../d0/dc4/cxxabi_8h_source.html#l00110">ExceptionInfo::unexpectedHandler</a>.</p>
+
+</div>
+</div>
+<a id="a15ba264e61d0f9c1fe8565ac6fc3a573"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15ba264e61d0f9c1fe8565ac6fc3a573">&#9670;&nbsp;</a></span>__cxa_throw_bad_array_new_length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void __cxa_throw_bad_array_new_length </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00214">214</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;{</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;__cxa_throw_bad_array_new_length() called.&quot;</span>);</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>.</p>
+
+</div>
+</div>
+<a id="aebcc976a7993632e8679b287e8f2ff11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebcc976a7993632e8679b287e8f2ff11">&#9670;&nbsp;</a></span>__gxx_personality_v0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2">_Unwind_Reason_Code</a> __gxx_personality_v0 </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>version</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/db6/unwind_8h.html#a09fdc8f727b214f5168e3690b0ddfa21">_Unwind_Action</a>&#160;</td>
+          <td class="paramname"><em>actions</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">_Unwind_Exception_Class&#160;</td>
+          <td class="paramname"><em>exception_class</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/db6/unwind_8h.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *&#160;</td>
+          <td class="paramname"><em>ue_header</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/db6/unwind_8h.html#d2/d0a/struct__Unwind__Context">_Unwind_Context</a> *&#160;</td>
+          <td class="paramname"><em>context</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00103">103</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;{</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;__gxx_personality_v0( %d %p %p %p %p ) called.&quot;</span>, version, actions, <a class="code" href="../../d3/db6/unwind_8h.html#ae268038ce44c98f28ba55a4fd593f4e2">exception_class</a>, ue_header, context);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2a41ad850ae0c5b105dca3d223df38af97">_URC_NO_REASON</a>;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;}</div>
+<div class="ttc" id="aunwind_8h_html_a26f33dc6f6d23dc64517389b6b786ac2a41ad850ae0c5b105dca3d223df38af97"><div class="ttname"><a href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2a41ad850ae0c5b105dca3d223df38af97">_URC_NO_REASON</a></div><div class="ttdeci">@ _URC_NO_REASON</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/db6/unwind_8h_source.html#l00025">unwind.h:25</a></div></div>
+<div class="ttc" id="aunwind_8h_html_ae268038ce44c98f28ba55a4fd593f4e2"><div class="ttname"><a href="../../d3/db6/unwind_8h.html#ae268038ce44c98f28ba55a4fd593f4e2">exception_class</a></div><div class="ttdeci">_Unwind_Exception_Class exception_class</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/db6/unwind_8h_source.html#l00000">unwind.h:0</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d3/db6/unwind_8h_source.html#l00025">_URC_NO_REASON</a>, <a class="el" href="../../d3/db6/unwind_8h_source.html#l00000">exception_class</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>.</p>
+
+</div>
+</div>
+<a id="ac29d397f561f9a783275a62cfd09a938"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac29d397f561f9a783275a62cfd09a938">&#9670;&nbsp;</a></span>_Unwind_RaiseException()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2">_Unwind_Reason_Code</a> _Unwind_RaiseException </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/db6/unwind_8h.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *&#160;</td>
+          <td class="paramname"><em>Exception</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../db/dd6/unwind_8cpp_source.html#l00030">30</a> of file <a class="el" href="../../db/dd6/unwind_8cpp_source.html">unwind.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a5daca020dc132cf1c649ba9beb4ca63d">stub</a>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2a41ad850ae0c5b105dca3d223df38af97">_URC_NO_REASON</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d3/db6/unwind_8h_source.html#l00025">_URC_NO_REASON</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00100">stub</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00178">__cxa_throw()</a>.</p>
+
+</div>
+</div>
+<a id="a2337c67f6b52b6bfcbe62e0844abc6bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2337c67f6b52b6bfcbe62e0844abc6bf">&#9670;&nbsp;</a></span>align_exception_allocation_size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../d6/de6/include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> align_exception_allocation_size </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00129">129</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;{</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <span class="keywordflow">return</span> (a + b - 1) &amp; ~(b - 1);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00168">__cxa_allocate_exception()</a>.</p>
+
+</div>
+</div>
+<a id="a43bcedb0d82c13bf18531592920704f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43bcedb0d82c13bf18531592920704f8">&#9670;&nbsp;</a></span>exception_cleanup_stub()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void exception_cleanup_stub </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2">_Unwind_Reason_Code</a>&#160;</td>
+          <td class="paramname"><em>Code</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/db6/unwind_8h.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *&#160;</td>
+          <td class="paramname"><em>Exception</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00161">161</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;{</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;exception_cleanup( %d %p ) called.&quot;</span>,</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;          Code, <a class="code" href="../../d4/d33/smp_8hpp.html#a0f66a76399ac5291c5c21da3d3b42a9c">Exception</a>);</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00016">Exception</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00178">__cxa_throw()</a>.</p>
+
+</div>
+</div>
+<a id="a42544cac98c23ec5762bc1e080db2625"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42544cac98c23ec5762bc1e080db2625">&#9670;&nbsp;</a></span>INIT_EXCEPTION_CLASS()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../d6/de6/include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> void INIT_EXCEPTION_CLASS </td>
+          <td>(</td>
+          <td class="paramtype">_Unwind_Exception_Class *&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00134">134</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;{</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="keywordtype">char</span> *ptr = (<span class="keywordtype">char</span> *)c;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    ptr[0] = <span class="charliteral">&#39;G&#39;</span>;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    ptr[1] = <span class="charliteral">&#39;N&#39;</span>;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    ptr[2] = <span class="charliteral">&#39;U&#39;</span>;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    ptr[3] = <span class="charliteral">&#39;C&#39;</span>;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    ptr[4] = <span class="charliteral">&#39;C&#39;</span>;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    ptr[5] = <span class="charliteral">&#39;+&#39;</span>;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    ptr[6] = <span class="charliteral">&#39;+&#39;</span>;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    ptr[7] = <span class="charliteral">&#39;\0&#39;</span>;</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00178">__cxa_throw()</a>.</p>
+
+</div>
+</div>
+<a id="a1cd13d1ccfad526ce21e220fd7391bfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cd13d1ccfad526ce21e220fd7391bfe">&#9670;&nbsp;</a></span>terminate_header_stub()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void terminate_header_stub </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00149">149</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;{</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../dd/d24/kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a> &amp;&amp; !<a class="code" href="../../dd/d24/kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a>-&gt;<a class="code" href="../../dc/dc5/classTasking_1_1Task.html#a49c6ce137ef8bc9cde72254a10c11f0b">IsPanic</a>())</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    {</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        <a class="code" href="../../dd/d24/kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a>-&gt;<a class="code" href="../../dc/dc5/classTasking_1_1Task.html#a0837c486146c0cc6a4cf73c581405454">KillThread</a>(<a class="code" href="../../d8/da1/task_8hpp.html#a1cf492bc489f4879fe6f67325e8f8dc7">thisThread</a>, <a class="code" href="../../d9/d3e/namespaceTasking.html#a3623a6b9ea1e6b126eed6c14901cb94ea49f974482c14ec22545bbe618d851891">Tasking::KILL_CXXABI_EXCEPTION</a>);</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <a class="code" href="../../dd/d24/kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a>-&gt;<a class="code" href="../../dc/dc5/classTasking_1_1Task.html#a5d5638a0f8507b5a01760ba4dbcb8b24">Yield</a>();</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    }</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160; </div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;No task manager to kill thread!&quot;</span>);</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <a class="code" href="../../d7/dfa/namespaceCPU.html#a43d66aba1e2db1bbe0b9233304298f9e">CPU::Stop</a>(); <span class="comment">/* FIXME: Panic */</span></div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;}</div>
+<div class="ttc" id="aclassTasking_1_1Task_html_a0837c486146c0cc6a4cf73c581405454"><div class="ttname"><a href="../../dc/dc5/classTasking_1_1Task.html#a0837c486146c0cc6a4cf73c581405454">Tasking::Task::KillThread</a></div><div class="ttdeci">void KillThread(TCB *tcb, enum KillCode Code)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00585">task.hpp:585</a></div></div>
+<div class="ttc" id="aclassTasking_1_1Task_html_a49c6ce137ef8bc9cde72254a10c11f0b"><div class="ttname"><a href="../../dc/dc5/classTasking_1_1Task.html#a49c6ce137ef8bc9cde72254a10c11f0b">Tasking::Task::IsPanic</a></div><div class="ttdeci">bool IsPanic()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d9c/task_8cpp_source.html#l00080">task.cpp:80</a></div></div>
+<div class="ttc" id="aclassTasking_1_1Task_html_a5d5638a0f8507b5a01760ba4dbcb8b24"><div class="ttname"><a href="../../dc/dc5/classTasking_1_1Task.html#a5d5638a0f8507b5a01760ba4dbcb8b24">Tasking::Task::Yield</a></div><div class="ttdeci">void Yield()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d9c/task_8cpp_source.html#l00085">task.cpp:85</a></div></div>
+<div class="ttc" id="akernel_8cpp_html_a5a8d7736911609823f0ff8f3c8f51df2"><div class="ttname"><a href="../../dd/d24/kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a></div><div class="ttdeci">Tasking::Task * TaskManager</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d24/kernel_8cpp_source.html#l00060">kernel.cpp:60</a></div></div>
+<div class="ttc" id="anamespaceTasking_html_a3623a6b9ea1e6b126eed6c14901cb94ea49f974482c14ec22545bbe618d851891"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html#a3623a6b9ea1e6b126eed6c14901cb94ea49f974482c14ec22545bbe618d851891">Tasking::KILL_CXXABI_EXCEPTION</a></div><div class="ttdeci">@ KILL_CXXABI_EXCEPTION</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00200">task.hpp:200</a></div></div>
+<div class="ttc" id="atask_8hpp_html_a1cf492bc489f4879fe6f67325e8f8dc7"><div class="ttname"><a href="../../d8/da1/task_8hpp.html#a1cf492bc489f4879fe6f67325e8f8dc7">thisThread</a></div><div class="ttdeci">#define thisThread</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00666">task.hpp:666</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00086">error</a>, <a class="el" href="../../d9/d9c/task_8cpp_source.html#l00080">Tasking::Task::IsPanic()</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00200">Tasking::KILL_CXXABI_EXCEPTION</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00585">Tasking::Task::KillThread()</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00157">CPU::Stop()</a>, <a class="el" href="../../dd/d24/kernel_8cpp_source.html#l00060">TaskManager</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00666">thisThread</a>, and <a class="el" href="../../d9/d9c/task_8cpp_source.html#l00085">Tasking::Task::Yield()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00178">__cxa_throw()</a>.</p>
+
+</div>
+</div>
+<a id="a6e2bcf5436b90b88f97e101c1478d9b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e2bcf5436b90b88f97e101c1478d9b6">&#9670;&nbsp;</a></span>unexpected_header_stub()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void unexpected_header_stub </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00147">147</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;{ <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;unexpected() called.&quot;</span>); }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00178">__cxa_throw()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a0f75f529cf75cf0a9cd266f8d67675dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f75f529cf75cf0a9cd266f8d67675dc">&#9670;&nbsp;</a></span>__atexit_func_count</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#a40b59e7581f6063603886ef240497a07">uarch_t</a> __atexit_func_count = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00031">31</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00044">__cxa_atexit()</a>, and <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00067">__cxa_finalize()</a>.</p>
+
+</div>
+</div>
+<a id="a8068edf906451857b4f6c7be313bec94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8068edf906451857b4f6c7be313bec94">&#9670;&nbsp;</a></span>__atexit_funcs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/dee/struct____cxxabiv1_1_1atexit__func__entry__t.html">atexit_func_entry_t</a> __atexit_funcs[<a class="el" href="../../d0/dc4/cxxabi_8h.html#ae07a9ad040d2fbefafcff363b77697ce">ATEXIT_MAX_FUNCS</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00030">30</a> of file <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html">cxxabi.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00044">__cxa_atexit()</a>, and <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00067">__cxa_finalize()</a>.</p>
 
 </div>
 </div>
@@ -210,7 +1076,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_c6664ce460682d76427a930e401fa3ea.html">library</a></li><li class="navelem"><a class="el" href="../../dir_a8468f9c96c1fe22f60a13c0fcebe0c2.html">libstdc++</a></li><li class="navelem"><a class="el" href="../../d7/d66/cxxabi_8cpp.html">cxxabi.cpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_c6664ce460682d76427a930e401fa3ea.html">library</a></li><li class="navelem"><a class="el" href="../../dir_bf895e981c632ce163e105ab76df7f8f.html">kexcept</a></li><li class="navelem"><a class="el" href="../../d7/d66/cxxabi_8cpp.html">cxxabi.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d0/df0/posix__spawnattr__getflags_8c.h
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6db311a4ec9650b2f4a340beab100e90"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df0/posix__spawnattr__getflags_8c.html#a6db311a4ec9650b2f4a340beab100e90">posix_spawnattr_getflags</a> (const <a class="el" href="../../de/d9e/musl_2include_2spawn_8h.html#db/d3f/structposix__spawnattr__t">posix_spawnattr_t</a> *restrict attr, short *restrict <a class="el" href="../../db/dd4/sm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a>)</td></tr>
+<tr class="memitem:a6db311a4ec9650b2f4a340beab100e90"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df0/posix__spawnattr__getflags_8c.html#a6db311a4ec9650b2f4a340beab100e90">posix_spawnattr_getflags</a> (const <a class="el" href="../../de/d9e/musl_2include_2spawn_8h.html#db/d3f/structposix__spawnattr__t">posix_spawnattr_t</a> *restrict attr, short *restrict flags)</td></tr>
 <tr class="separator:a6db311a4ec9650b2f4a340beab100e90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -129,14 +129,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/df0/posix__spawnattr__getflags_8c_source.html#l00003">3</a> of file <a class="el" href="../../d0/df0/posix__spawnattr__getflags_8c_source.html">posix_spawnattr_getflags.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    *<a class="code" href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a> = attr-&gt;<a class="code" href="../../de/d9e/musl_2include_2spawn_8h.html#a64581de983fef2aa36082317fa8dd281">__flags</a>;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    *flags = attr-&gt;<a class="code" href="../../de/d9e/musl_2include_2spawn_8h.html#a64581de983fef2aa36082317fa8dd281">__flags</a>;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="adumpkmap_8c_html_abb0829cce9dd20a40ae0d86890ae85c6"><div class="ttname"><a href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a></div><div class="ttdeci">#define flags</div></div>
 <div class="ttc" id="amusl_2include_2spawn_8h_html_a64581de983fef2aa36082317fa8dd281"><div class="ttname"><a href="../../de/d9e/musl_2include_2spawn_8h.html#a64581de983fef2aa36082317fa8dd281">posix_spawnattr_t::__flags</a></div><div class="ttdeci">short int __flags</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db9/libc_2include_2spawn_8h_source.html#l00016">spawn.h:16</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a>.</p>
-
 </div>
 </div>
 </div><!-- contents -->

@@ -43,6 +43,7 @@ var stropts_8h =
     [ "TCXONC", "d3/de9/stropts_8h.html#a0358090f054da10fe8de791230397ee4", null ],
     [ "TIOCEXCL", "d3/de9/stropts_8h.html#a567894a568861994414b041f246cc9ac", null ],
     [ "TIOCGPGRP", "d3/de9/stropts_8h.html#a6f51a92d18937be41ace117366b5fc1e", null ],
+    [ "TIOCGSID", "d3/de9/stropts_8h.html#a5bd07dba57209cc8b106c734e7fad635", null ],
     [ "TIOCGWINSZ", "d3/de9/stropts_8h.html#a36ef545c47ae4202e81e14efafdd64db", null ],
     [ "TIOCMBIC", "d3/de9/stropts_8h.html#aa88b35f779b2fbce1f43ab41d2d4b581", null ],
     [ "TIOCMBIS", "d3/de9/stropts_8h.html#a28854c382dfc7c608cbf045aa73bcf26", null ],

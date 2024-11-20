@@ -105,7 +105,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa87e6b0bf8e10243dae4df9795430762"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d4e/wait3_8c.html#aa87e6b0bf8e10243dae4df9795430762">wait3</a> (int *<a class="el" href="../../d7/d5b/mail_8c.html#a6943d6e2e83995c648644bc0a4d36f53">status</a>, int <a class="el" href="../../d3/df2/ifconfig_8c.html#d1/d38/structoptions">options</a>, struct <a class="el" href="../../d3/d6f/include_2sys_2resource_8h.html#d6/ddd/structrusage">rusage</a> *<a class="el" href="../../df/df0/qconf_8cc.html#ad96d407a911fbb914fa8e4cfbf2faf0f">usage</a>)</td></tr>
+<tr class="memitem:aa87e6b0bf8e10243dae4df9795430762"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d4e/wait3_8c.html#aa87e6b0bf8e10243dae4df9795430762">wait3</a> (int *status, int <a class="el" href="../../d4/d81/m__menu_8c.html#ab04a0655cd1e3bcac5e8f48c18df1a57a5eb3f84958aa2200df58a6af276027eb">options</a>, struct <a class="el" href="../../d3/d6f/include_2sys_2resource_8h.html#d6/ddd/structrusage">rusage</a> *usage)</td></tr>
 <tr class="separator:aa87e6b0bf8e10243dae4df9795430762"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -160,14 +160,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d4e/wait3_8c_source.html#l00006">6</a> of file <a class="el" href="../../d5/d4e/wait3_8c_source.html">wait3.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/dfb/wait4_8c.html#acd914aec3f83cea8e613eea06f2c8135">wait4</a>(-1, <a class="code" href="../../d7/d5b/mail_8c.html#a6943d6e2e83995c648644bc0a4d36f53">status</a>, <a class="code" href="../../d3/df2/ifconfig_8c.html#d1/d38/structoptions">options</a>, <a class="code" href="../../d8/d50/rl_8c.html#a64a6014565bb3e03294ec4a952d5add0">usage</a>);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/dfb/wait4_8c.html#acd914aec3f83cea8e613eea06f2c8135">wait4</a>(-1, status, <a class="code" href="../../d4/d81/m__menu_8c.html#ab04a0655cd1e3bcac5e8f48c18df1a57a5eb3f84958aa2200df58a6af276027eb">options</a>, usage);</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
-<div class="ttc" id="aifconfig_8c_html_d1/d38/structoptions"><div class="ttname"><a href="../../d3/df2/ifconfig_8c.html#d1/d38/structoptions">options</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/df2/ifconfig_8c_source.html#l00232">ifconfig.c:232</a></div></div>
-<div class="ttc" id="amail_8c_html_a6943d6e2e83995c648644bc0a4d36f53"><div class="ttname"><a href="../../d7/d5b/mail_8c.html#a6943d6e2e83995c648644bc0a4d36f53">status</a></div><div class="ttdeci">#define status</div></div>
-<div class="ttc" id="arl_8c_html_a64a6014565bb3e03294ec4a952d5add0"><div class="ttname"><a href="../../d8/d50/rl_8c.html#a64a6014565bb3e03294ec4a952d5add0">usage</a></div><div class="ttdeci">static void usage()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d50/rl_8c_source.html#l00078">rl.c:78</a></div></div>
+<div class="ttc" id="am__menu_8c_html_ab04a0655cd1e3bcac5e8f48c18df1a57a5eb3f84958aa2200df58a6af276027eb"><div class="ttname"><a href="../../d4/d81/m__menu_8c.html#ab04a0655cd1e3bcac5e8f48c18df1a57a5eb3f84958aa2200df58a6af276027eb">options</a></div><div class="ttdeci">@ options</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d81/m__menu_8c_source.html#l00234">m_menu.c:234</a></div></div>
 <div class="ttc" id="await4_8c_html_acd914aec3f83cea8e613eea06f2c8135"><div class="ttname"><a href="../../dd/dfb/wait4_8c.html#acd914aec3f83cea8e613eea06f2c8135">wait4</a></div><div class="ttdeci">pid_t wait4(pid_t pid, int *status, int options, struct rusage *ru)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dfb/wait4_8c_source.html#l00008">wait4.c:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d5b/mail_8c.html#a6943d6e2e83995c648644bc0a4d36f53">status</a>, <a class="el" href="../../d8/d50/rl_8c_source.html#l00078">usage()</a>, and <a class="el" href="../../dd/dfb/wait4_8c_source.html#l00008">wait4()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d81/m__menu_8c_source.html#l00234">options</a>, and <a class="el" href="../../dd/dfb/wait4_8c_source.html#l00008">wait4()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d5/dbb/wait3__time32_8c_source.html#l00026">__wait3_time32()</a>.</p>
 

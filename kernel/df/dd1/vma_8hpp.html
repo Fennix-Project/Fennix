@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('df/dd1/vma_8hpp.html','../../'); initR
 <code>#include &lt;<a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d3/d88/bitmap_8hpp_source.html">bitmap.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d0/d44/lock_8hpp_source.html">lock.hpp</a>&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<code>#include &lt;list&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../de/d2d/table_8hpp_source.html">memory/table.hpp</a>&gt;</code><br />
 </div>
 <p><a href="../../df/dd1/vma_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -128,7 +128,7 @@ Namespaces</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/dd1/vma_8hpp_source.html#l00034">34</a> of file <a class="el" href="../../df/dd1/vma_8hpp_source.html">vma.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dd1/vma_8hpp_source.html#l00035">35</a> of file <a class="el" href="../../df/dd1/vma_8hpp_source.html">vma.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -141,6 +141,12 @@ Address</td>
 <a id="a313193b17bfb4577add237ad9dfe9d22"></a><a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a></td>
 <td class="fieldname">
 PageCount</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a80341ee4bc8361292e708df77ea9c455"></a><a class="el" href="../../d9/d5e/stdbool_8h.html#abb452686968e48b67397da5f97445f5b">bool</a></td>
+<td class="fieldname">
+Protected</td>
 <td class="fielddoc">
 </td></tr>
 </table>
@@ -159,7 +165,7 @@ PageCount</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/dd1/vma_8hpp_source.html#l00040">40</a> of file <a class="el" href="../../df/dd1/vma_8hpp_source.html">vma.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dd1/vma_8hpp_source.html#l00042">42</a> of file <a class="el" href="../../df/dd1/vma_8hpp_source.html">vma.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -169,13 +175,13 @@ Address</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a492d2dd7a5cd331abafe77b49a87c0da"></a><a class="el" href="../../d6/de6/include_2types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a></td>
+<a id="a492d2dd7a5cd331abafe77b49a87c0da"></a><a class="el" href="../../d9/d5e/stdbool_8h.html#abb452686968e48b67397da5f97445f5b">bool</a></td>
 <td class="fieldname">
 Exec</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a5284972b579f4681fbd1d8ecd3c8f178"></a><a class="el" href="../../d6/de6/include_2types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a></td>
+<a id="a5284972b579f4681fbd1d8ecd3c8f178"></a><a class="el" href="../../d9/d5e/stdbool_8h.html#abb452686968e48b67397da5f97445f5b">bool</a></td>
 <td class="fieldname">
 Fixed</td>
 <td class="fielddoc">
@@ -187,7 +193,7 @@ Length</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a7309191ab8739efdba8f44d090c75237"></a><a class="el" href="../../d6/de6/include_2types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a></td>
+<a id="a7309191ab8739efdba8f44d090c75237"></a><a class="el" href="../../d9/d5e/stdbool_8h.html#abb452686968e48b67397da5f97445f5b">bool</a></td>
 <td class="fieldname">
 Read</td>
 <td class="fielddoc">
@@ -199,13 +205,13 @@ ReferenceCount</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a1d6908ef7bfca994d906f073a046e823"></a><a class="el" href="../../d6/de6/include_2types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a></td>
+<a id="a1d6908ef7bfca994d906f073a046e823"></a><a class="el" href="../../d9/d5e/stdbool_8h.html#abb452686968e48b67397da5f97445f5b">bool</a></td>
 <td class="fieldname">
 Shared</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a028d7b95b45d8cb1f3b53f597f2e3b06"></a><a class="el" href="../../d6/de6/include_2types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a></td>
+<a id="a028d7b95b45d8cb1f3b53f597f2e3b06"></a><a class="el" href="../../d9/d5e/stdbool_8h.html#abb452686968e48b67397da5f97445f5b">bool</a></td>
 <td class="fieldname">
 Write</td>
 <td class="fielddoc">

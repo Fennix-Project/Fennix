@@ -20,6 +20,6 @@ var crypt__des_8c =
     [ "ip_maskr", "db/d6f/crypt__des_8c.html#a4da600e4bfbf54c4411fd9f66a4e4fde", null ],
     [ "key_perm_maskl", "db/d6f/crypt__des_8c.html#ab77309868b08c353b30dcb050e12b8ef", null ],
     [ "key_perm_maskr", "db/d6f/crypt__des_8c.html#aeef68af136c0189fb0100e4aa6d132cf", null ],
-    [ "key_shifts", "db/d6f/crypt__des_8c.html#a52c3ce57666b79735f84a5293f5c9178", null ],
+    [ "key_shifts", "db/d6f/crypt__des_8c.html#aa8ea765874223affe01017b346ae9aea", null ],
     [ "psbox", "db/d6f/crypt__des_8c.html#a8222218746cbc2290e3146b2a7c4f2a2", null ]
 ];

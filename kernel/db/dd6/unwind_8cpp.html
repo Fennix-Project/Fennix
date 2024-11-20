@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix Kernel: Kernel/library/libstdc++/unwind.cpp File Reference</title>
+<title>Fennix Kernel: Kernel/library/kexcept/unwind.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -91,8 +91,8 @@ $(document).ready(function(){initNavTree('db/dd6/unwind_8cpp.html','../../'); in
 <div class="title">unwind.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="../../d3/db6/unwind_8h_source.html">unwind.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d0/dc4/cxxabi_8h_source.html">cxxabi.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d3/db6/unwind_8h_source.html">kexcept/unwind.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d0/dc4/cxxabi_8h_source.html">kexcept/cxxabi.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>&gt;</code><br />
@@ -102,14 +102,16 @@ $(document).ready(function(){initNavTree('db/dd6/unwind_8cpp.html','../../'); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac29d397f561f9a783275a62cfd09a938"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2">_Unwind_Reason_Code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dd6/unwind_8cpp.html#ac29d397f561f9a783275a62cfd09a938">_Unwind_RaiseException</a> (<a class="el" href="../../d3/db6/unwind_8h.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *Exception)</td></tr>
-<tr class="separator:ac29d397f561f9a783275a62cfd09a938"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d980c5f9d61c4d6e5ac386c2f247115"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dd6/unwind_8cpp.html#a7d980c5f9d61c4d6e5ac386c2f247115">_Unwind_Resume</a> (struct <a class="el" href="../../d3/db6/unwind_8h.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *Exception)</td></tr>
-<tr class="separator:a7d980c5f9d61c4d6e5ac386c2f247115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a021de03c4584cfd3d9abf14f26d09465"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2">_Unwind_Reason_Code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dd6/unwind_8cpp.html#a021de03c4584cfd3d9abf14f26d09465">_Unwind_RaiseException</a> (struct <a class="el" href="../../d3/db6/unwind_8h.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *object)</td></tr>
+<tr class="separator:a021de03c4584cfd3d9abf14f26d09465"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50802fc01a54fe42f6dd5b38b2b9e8c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dd6/unwind_8cpp.html#a50802fc01a54fe42f6dd5b38b2b9e8c2">_Unwind_Resume</a> (struct <a class="el" href="../../d3/db6/unwind_8h.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *object)</td></tr>
+<tr class="separator:a50802fc01a54fe42f6dd5b38b2b9e8c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac03f7baa62a6106728984591d4a3bf31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2">_Unwind_Reason_Code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dd6/unwind_8cpp.html#ac03f7baa62a6106728984591d4a3bf31">_Unwind_Resume_or_Rethrow</a> (struct <a class="el" href="../../d3/db6/unwind_8h.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *exception_object)</td></tr>
+<tr class="separator:ac03f7baa62a6106728984591d4a3bf31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ac29d397f561f9a783275a62cfd09a938"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac29d397f561f9a783275a62cfd09a938">&#9670;&nbsp;</a></span>_Unwind_RaiseException()</h2>
+<a id="a021de03c4584cfd3d9abf14f26d09465"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a021de03c4584cfd3d9abf14f26d09465">&#9670;&nbsp;</a></span>_Unwind_RaiseException()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -117,32 +119,29 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2">_Unwind_Reason_Code</a> _Unwind_RaiseException </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/db6/unwind_8h.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *&#160;</td>
-          <td class="paramname"><em>Exception</em></td><td>)</td>
+          <td class="paramtype">struct <a class="el" href="../../d3/db6/unwind_8h.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *&#160;</td>
+          <td class="paramname"><em>object</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/dd6/unwind_8cpp_source.html#l00029">29</a> of file <a class="el" href="../../db/dd6/unwind_8cpp_source.html">unwind.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;_Unwind_RaiseException( %p ) called.&quot;</span>, Exception);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Unhandled exception.&quot;</span>);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2a53bf3ead23368c90ad6a0464eb47097a">_URC_FATAL_PHASE1_ERROR</a>;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="comment">// return _URC_NO_REASON;</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div>
-<div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00086">debug.h:86</a></div></div>
-<div class="ttc" id="adebug_8h_html_abd4acaf7c67bd126aefd672fbbd5747f"><div class="ttname"><a href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a></div><div class="ttdeci">#define fixme(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00099">debug.h:99</a></div></div>
-<div class="ttc" id="aunwind_8h_html_a26f33dc6f6d23dc64517389b6b786ac2a53bf3ead23368c90ad6a0464eb47097a"><div class="ttname"><a href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2a53bf3ead23368c90ad6a0464eb47097a">_URC_FATAL_PHASE1_ERROR</a></div><div class="ttdeci">@ _URC_FATAL_PHASE1_ERROR</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/db6/unwind_8h_source.html#l00028">unwind.h:28</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../db/dd6/unwind_8cpp_source.html#l00030">30</a> of file <a class="el" href="../../db/dd6/unwind_8cpp_source.html">unwind.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a5daca020dc132cf1c649ba9beb4ca63d">stub</a>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2a41ad850ae0c5b105dca3d223df38af97">_URC_NO_REASON</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+<div class="ttc" id="adebug_8h_html_a5daca020dc132cf1c649ba9beb4ca63d"><div class="ttname"><a href="../../db/d16/debug_8h.html#a5daca020dc132cf1c649ba9beb4ca63d">stub</a></div><div class="ttdeci">#define stub</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00100">debug.h:100</a></div></div>
+<div class="ttc" id="aunwind_8h_html_a26f33dc6f6d23dc64517389b6b786ac2a41ad850ae0c5b105dca3d223df38af97"><div class="ttname"><a href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2a41ad850ae0c5b105dca3d223df38af97">_URC_NO_REASON</a></div><div class="ttdeci">@ _URC_NO_REASON</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/db6/unwind_8h_source.html#l00025">unwind.h:25</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/db6/unwind_8h_source.html#l00028">_URC_FATAL_PHASE1_ERROR</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00086">error</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/db6/unwind_8h_source.html#l00025">_URC_NO_REASON</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00100">stub</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00180">__cxxabiv1::__cxa_throw()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00178">__cxa_throw()</a>.</p>
 
 </div>
 </div>
-<a id="a7d980c5f9d61c4d6e5ac386c2f247115"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d980c5f9d61c4d6e5ac386c2f247115">&#9670;&nbsp;</a></span>_Unwind_Resume()</h2>
+<a id="a50802fc01a54fe42f6dd5b38b2b9e8c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50802fc01a54fe42f6dd5b38b2b9e8c2">&#9670;&nbsp;</a></span>_Unwind_Resume()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -151,18 +150,44 @@ Functions</h2></td></tr>
           <td class="memname">void _Unwind_Resume </td>
           <td>(</td>
           <td class="paramtype">struct <a class="el" href="../../d3/db6/unwind_8h.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *&#160;</td>
-          <td class="paramname"><em>Exception</em></td><td>)</td>
+          <td class="paramname"><em>object</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/dd6/unwind_8cpp_source.html#l00037">37</a> of file <a class="el" href="../../db/dd6/unwind_8cpp_source.html">unwind.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;_Unwind_Resume( %p ) called.&quot;</span>, Exception);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/dd6/unwind_8cpp_source.html#l00036">36</a> of file <a class="el" href="../../db/dd6/unwind_8cpp_source.html">unwind.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a5daca020dc132cf1c649ba9beb4ca63d">stub</a>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00100">stub</a>.</p>
+
+</div>
+</div>
+<a id="ac03f7baa62a6106728984591d4a3bf31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac03f7baa62a6106728984591d4a3bf31">&#9670;&nbsp;</a></span>_Unwind_Resume_or_Rethrow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2">_Unwind_Reason_Code</a> _Unwind_Resume_or_Rethrow </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="../../d3/db6/unwind_8h.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *&#160;</td>
+          <td class="paramname"><em>exception_object</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../db/dd6/unwind_8cpp_source.html#l00041">41</a> of file <a class="el" href="../../db/dd6/unwind_8cpp_source.html">unwind.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;{</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a5daca020dc132cf1c649ba9beb4ca63d">stub</a>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2a41ad850ae0c5b105dca3d223df38af97">_URC_NO_REASON</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d3/db6/unwind_8h_source.html#l00025">_URC_NO_REASON</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00100">stub</a>.</p>
 
 </div>
 </div>
@@ -171,7 +196,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_c6664ce460682d76427a930e401fa3ea.html">library</a></li><li class="navelem"><a class="el" href="../../dir_a8468f9c96c1fe22f60a13c0fcebe0c2.html">libstdc++</a></li><li class="navelem"><a class="el" href="../../db/dd6/unwind_8cpp.html">unwind.cpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_c6664ce460682d76427a930e401fa3ea.html">library</a></li><li class="navelem"><a class="el" href="../../dir_bf895e981c632ce163e105ab76df7f8f.html">kexcept</a></li><li class="navelem"><a class="el" href="../../db/dd6/unwind_8cpp.html">unwind.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

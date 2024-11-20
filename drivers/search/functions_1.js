@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['createkernelprocess_741',['CreateKernelProcess',['../d3/d5a/base_8h.html#a737c6ea529f1dcfec482fda5ec758eb1',1,'base.h']]],
-  ['createkernelthread_742',['CreateKernelThread',['../d3/d5a/base_8h.html#a4de1ed77e3d77cbd6305c40a3ace0911',1,'base.h']]]
+  ['allocatememory_856',['AllocateMemory',['../d3/d5a/base_8h.html#a14e3a653f7bb4d9711c1d8c388223dbd',1,'base.h']]],
+  ['appendmapflag_857',['AppendMapFlag',['../d3/d5a/base_8h.html#a1299baaee8de6cd0b2625e24e535f8be',1,'base.h']]]
 ];

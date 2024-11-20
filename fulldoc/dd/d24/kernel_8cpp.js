@@ -18,6 +18,7 @@ var kernel_8cpp =
     [ "Config", "dd/d24/kernel_8cpp.html#af11d2c55903d5518696db3a642bfada4", null ],
     [ "DebuggerIsAttached", "dd/d24/kernel_8cpp.html#a736191a1f8c302532a3f21c75292a53f", null ],
     [ "Display", "dd/d24/kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d", null ],
+    [ "DriverManager", "dd/d24/kernel_8cpp.html#aa010c01072a7c5d536ea587bf63077b1", null ],
     [ "EnableProfiler", "dd/d24/kernel_8cpp.html#a7b3a39e739df0d7a7245ca25284a0f2b", null ],
     [ "KernelSymbolTable", "dd/d24/kernel_8cpp.html#a7495caffa5b73a2490dcd48a91869694", null ],
     [ "PCIManager", "dd/d24/kernel_8cpp.html#a2f59dbd6d0e8536d7e174ed6e10d76d7", null ],

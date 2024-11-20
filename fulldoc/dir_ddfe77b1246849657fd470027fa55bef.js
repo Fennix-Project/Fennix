@@ -18,8 +18,8 @@ var dir_ddfe77b1246849657fd470027fa55bef =
     [ "lldiv.c", "df/de5/lldiv_8c.html", "df/de5/lldiv_8c" ],
     [ "qsort.c", "d7/da4/qsort_8c.html", "d7/da4/qsort_8c" ],
     [ "qsort_nr.c", "da/d15/qsort__nr_8c.html", "da/d15/qsort__nr_8c" ],
-    [ "strtod.c", "d9/d2b/musl_2src_2stdlib_2strtod_8c.html", "d9/d2b/musl_2src_2stdlib_2strtod_8c" ],
-    [ "strtol.c", "d0/db6/musl_2src_2stdlib_2strtol_8c.html", "d0/db6/musl_2src_2stdlib_2strtol_8c" ],
+    [ "strtod.c", "db/d02/strtod_8c.html", "db/d02/strtod_8c" ],
+    [ "strtol.c", "d5/d65/strtol_8c.html", "d5/d65/strtol_8c" ],
     [ "wcstod.c", "d6/d16/wcstod_8c.html", "d6/d16/wcstod_8c" ],
     [ "wcstol.c", "d7/d55/wcstol_8c.html", "d7/d55/wcstol_8c" ]
 ];

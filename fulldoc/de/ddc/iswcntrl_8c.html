@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('de/ddc/iswcntrl_8c.html','../../'); in
 Functions</h2></td></tr>
 <tr class="memitem:a35f4bb15841d36c759ab271aa8033ba8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddc/iswcntrl_8c.html#a35f4bb15841d36c759ab271aa8033ba8">iswcntrl</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#abd99e7f4ef6b86204820c995f988403b">wint_t</a> wc)</td></tr>
 <tr class="separator:a35f4bb15841d36c759ab271aa8033ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a042b05d379c40e2bf642f9c76de39292"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddc/iswcntrl_8c.html#a042b05d379c40e2bf642f9c76de39292">__iswcntrl_l</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#abd99e7f4ef6b86204820c995f988403b">wint_t</a> <a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>, locale_t <a class="el" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>)</td></tr>
+<tr class="memitem:a042b05d379c40e2bf642f9c76de39292"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddc/iswcntrl_8c.html#a042b05d379c40e2bf642f9c76de39292">__iswcntrl_l</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#abd99e7f4ef6b86204820c995f988403b">wint_t</a> c, locale_t l)</td></tr>
 <tr class="separator:a042b05d379c40e2bf642f9c76de39292"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5372a7f1ee999c3c85da2806de2a76e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ddc/iswcntrl_8c.html#ad5372a7f1ee999c3c85da2806de2a76e">weak_alias</a> (<a class="el" href="../../de/ddc/iswcntrl_8c.html#a042b05d379c40e2bf642f9c76de39292">__iswcntrl_l</a>, iswcntrl_l)</td></tr>
 <tr class="separator:ad5372a7f1ee999c3c85da2806de2a76e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -133,12 +133,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/ddc/iswcntrl_8c_source.html#l00011">11</a> of file <a class="el" href="../../de/ddc/iswcntrl_8c_source.html">iswcntrl.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/ddc/iswcntrl_8c.html#a35f4bb15841d36c759ab271aa8033ba8">iswcntrl</a>(<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/ddc/iswcntrl_8c.html#a35f4bb15841d36c759ab271aa8033ba8">iswcntrl</a>(c);</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
-<div class="ttc" id="aglob__loop_8c_html_a2019d0836036f2693a231fe5c7c65e20"><div class="ttname"><a href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a></div><div class="ttdeci">register GCHAR c</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d64/glob__loop_8c_source.html#l00028">glob_loop.c:26</a></div></div>
 <div class="ttc" id="aiswcntrl_8c_html_a35f4bb15841d36c759ab271aa8033ba8"><div class="ttname"><a href="../../de/ddc/iswcntrl_8c.html#a35f4bb15841d36c759ab271aa8033ba8">iswcntrl</a></div><div class="ttdeci">int iswcntrl(wint_t wc)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/ddc/iswcntrl_8c_source.html#l00003">iswcntrl.c:3</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>, and <a class="el" href="../../de/ddc/iswcntrl_8c_source.html#l00003">iswcntrl()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/ddc/iswcntrl_8c_source.html#l00003">iswcntrl()</a>.</p>
 
 </div>
 </div>

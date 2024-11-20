@@ -111,7 +111,7 @@ $(document).ready(function(){initNavTree('d1/dd4/classNetworkIPv4_1_1IPv4Events.
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad5fa7aa0ec7aca0f3c3dd677dc7c3f4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd4/classNetworkIPv4_1_1IPv4Events.html#ad5fa7aa0ec7aca0f3c3dd677dc7c3f4b">GetProtocol</a> ()</td></tr>
 <tr class="separator:ad5fa7aa0ec7aca0f3c3dd677dc7c3f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c3352f5e5d7df0c29425e8189fb21ad"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d6/de6/include_2types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd4/classNetworkIPv4_1_1IPv4Events.html#a1c3352f5e5d7df0c29425e8189fb21ad">OnIPv4PacketReceived</a> (<a class="el" href="../../d4/d2d/net_8hpp.html#d8/d38/structInternetProtocol">InternetProtocol</a> SourceIP, <a class="el" href="../../d4/d2d/net_8hpp.html#d8/d38/structInternetProtocol">InternetProtocol</a> DestinationIP, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *<a class="el" href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a>, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a>)</td></tr>
+<tr class="memitem:a1c3352f5e5d7df0c29425e8189fb21ad"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d9/d5e/stdbool_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd4/classNetworkIPv4_1_1IPv4Events.html#a1c3352f5e5d7df0c29425e8189fb21ad">OnIPv4PacketReceived</a> (<a class="el" href="../../d4/d2d/net_8hpp.html#d8/d38/structInternetProtocol">InternetProtocol</a> SourceIP, <a class="el" href="../../d4/d2d/net_8hpp.html#d8/d38/structInternetProtocol">InternetProtocol</a> DestinationIP, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *<a class="el" href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a>, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a>)</td></tr>
 <tr class="separator:a1c3352f5e5d7df0c29425e8189fb21ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
@@ -154,13 +154,13 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d80/ip_8cpp_source.html#l00122">122</a> of file <a class="el" href="../../d1/d80/ip_8cpp_source.html">ip.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    {</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        this-&gt;<a class="code" href="../../d1/dd4/classNetworkIPv4_1_1IPv4Events.html#a9d8f5f204e6381735b32cca9e4c33427">Protocol</a> = (<a class="code" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>)<a class="code" href="../../d1/dd4/classNetworkIPv4_1_1IPv4Events.html#a9d8f5f204e6381735b32cca9e4c33427">Protocol</a>;</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <a class="code" href="../../df/d2a/namespaceNetworkIPv4.html#a8b08389dabc1ca3e4733fb9b1720805f">RegisteredEvents</a>.push_back(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d80/ip_8cpp_source.html#l00123">123</a> of file <a class="el" href="../../d1/d80/ip_8cpp_source.html">ip.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    {</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        this-&gt;<a class="code" href="../../d1/dd4/classNetworkIPv4_1_1IPv4Events.html#a9d8f5f204e6381735b32cca9e4c33427">Protocol</a> = (<a class="code" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>)<a class="code" href="../../d1/dd4/classNetworkIPv4_1_1IPv4Events.html#a9d8f5f204e6381735b32cca9e4c33427">Protocol</a>;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <a class="code" href="../../df/d2a/namespaceNetworkIPv4.html#a8b08389dabc1ca3e4733fb9b1720805f">RegisteredEvents</a>.push_back(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    }</div>
 <div class="ttc" id="aclassNetworkIPv4_1_1IPv4Events_html_a9d8f5f204e6381735b32cca9e4c33427"><div class="ttname"><a href="../../d1/dd4/classNetworkIPv4_1_1IPv4Events.html#a9d8f5f204e6381735b32cca9e4c33427">NetworkIPv4::IPv4Events::Protocol</a></div><div class="ttdeci">uint8_t Protocol</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db9/ipv4_8hpp_source.html#l00116">ipv4.hpp:116</a></div></div>
-<div class="ttc" id="ainclude_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00160">types.h:160</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00109">types.h:109</a></div></div>
 <div class="ttc" id="anamespaceNetworkIPv4_html_a8b08389dabc1ca3e4733fb9b1720805f"><div class="ttname"><a href="../../df/d2a/namespaceNetworkIPv4.html#a8b08389dabc1ca3e4733fb9b1720805f">NetworkIPv4::RegisteredEvents</a></div><div class="ttdeci">std::vector&lt; IPv4Events * &gt; RegisteredEvents</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d80/ip_8cpp_source.html#l00069">ip.cpp:69</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../da/db9/ipv4_8hpp_source.html#l00116">Protocol</a>, and <a class="el" href="../../d1/d80/ip_8cpp_source.html#l00069">NetworkIPv4::RegisteredEvents</a>.</p>
@@ -190,17 +190,17 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d80/ip_8cpp_source.html#l00128">128</a> of file <a class="el" href="../../d1/d80/ip_8cpp_source.html">ip.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    {</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        forItr(itr, <a class="code" href="../../df/d2a/namespaceNetworkIPv4.html#a8b08389dabc1ca3e4733fb9b1720805f">RegisteredEvents</a>)</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        {</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            <span class="keywordflow">if</span> (*itr == <span class="keyword">this</span>)</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;            {</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                <a class="code" href="../../df/d2a/namespaceNetworkIPv4.html#a8b08389dabc1ca3e4733fb9b1720805f">RegisteredEvents</a>.erase(itr);</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;            }</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        }</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d80/ip_8cpp_source.html#l00129">129</a> of file <a class="el" href="../../d1/d80/ip_8cpp_source.html">ip.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    {</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        forItr(itr, <a class="code" href="../../df/d2a/namespaceNetworkIPv4.html#a8b08389dabc1ca3e4733fb9b1720805f">RegisteredEvents</a>)</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;            <span class="keywordflow">if</span> (*itr == <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;            {</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                <a class="code" href="../../df/d2a/namespaceNetworkIPv4.html#a8b08389dabc1ca3e4733fb9b1720805f">RegisteredEvents</a>.erase(itr);</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;            }</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        }</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d1/d80/ip_8cpp_source.html#l00069">NetworkIPv4::RegisteredEvents</a>.</p>
 
@@ -247,7 +247,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="../../d6/de6/include_2types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> NetworkIPv4::IPv4Events::OnIPv4PacketReceived </td>
+          <td class="memname">virtual <a class="el" href="../../d9/d5e/stdbool_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> NetworkIPv4::IPv4Events::OnIPv4PacketReceived </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d4/d2d/net_8hpp.html#d8/d38/structInternetProtocol">InternetProtocol</a>&#160;</td>
           <td class="paramname"><em>SourceIP</em>, </td>
@@ -291,15 +291,15 @@ Private Attributes</h2></td></tr>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;            <a class="code" href="../../d6/de6/include_2types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(DestinationIP);</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;            <a class="code" href="../../d6/de6/include_2types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(<a class="code" href="../../d8/d12/Xalloc_8hpp.html#a7aacb0e1bf77e9bd405d9409047baad7">Data</a>);</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            <a class="code" href="../../d6/de6/include_2types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(<a class="code" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a>);</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a>(<span class="stringliteral">&quot;Not implemented.&quot;</span>);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a>(<span class="stringliteral">&quot;Not implemented&quot;</span>);</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        }</div>
 <div class="ttc" id="aXalloc_8hpp_html_a7aacb0e1bf77e9bd405d9409047baad7"><div class="ttname"><a href="../../d8/d12/Xalloc_8hpp.html#a7aacb0e1bf77e9bd405d9409047baad7">Data</a></div><div class="ttdeci">Xuint8_t * Data</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d12/Xalloc_8hpp_source.html#l00006">Xalloc.hpp:6</a></div></div>
 <div class="ttc" id="abinfo_8h_html_a01ae9666c16c57cec1c6e4e28a0eb0e3"><div class="ttname"><a href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a></div><div class="ttdeci">__UINT32_TYPE__ Length</div><div class="ttdoc">Length.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d36/binfo_8h_source.html#l00025">binfo.h:25</a></div></div>
 <div class="ttc" id="adebug_8h_html_a1d297376472cc7f4ad7c70327efa7b55"><div class="ttname"><a href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a></div><div class="ttdeci">#define warn(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00087">debug.h:87</a></div></div>
-<div class="ttc" id="ainclude_2types_8h_html_a86d500a34c624c2cae56bc25a31b12f3"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a></div><div class="ttdeci">#define UNUSED(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00064">types.h:64</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_a86d500a34c624c2cae56bc25a31b12f3"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a></div><div class="ttdeci">#define UNUSED(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00062">types.h:62</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d12/Xalloc_8hpp_source.html#l00006">Data</a>, <a class="el" href="../../d9/d36/binfo_8h_source.html#l00025">Length</a>, <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00064">UNUSED</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00087">warn</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d12/Xalloc_8hpp_source.html#l00006">Data</a>, <a class="el" href="../../d9/d36/binfo_8h_source.html#l00025">Length</a>, <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00062">UNUSED</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00087">warn</a>.</p>
 
 </div>
 </div>
@@ -326,7 +326,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/db9/ipv4_8hpp_source.html#l00116">116</a> of file <a class="el" href="../../da/db9/ipv4_8hpp_source.html">ipv4.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/db9/ipv4_8hpp_source.html#l00123">GetProtocol()</a>, and <a class="el" href="../../d1/d80/ip_8cpp_source.html#l00122">IPv4Events()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/db9/ipv4_8hpp_source.html#l00123">GetProtocol()</a>, and <a class="el" href="../../d1/d80/ip_8cpp_source.html#l00123">IPv4Events()</a>.</p>
 
 </div>
 </div>

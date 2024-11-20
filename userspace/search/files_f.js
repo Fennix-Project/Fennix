@@ -1,24 +1,12 @@
 var searchData=
 [
-  ['obscure_2ec_44008',['obscure.c',['../db/de8/obscure_8c.html',1,'']]],
-  ['ocache_2eh_44009',['ocache.h',['../de/d36/ocache_8h.html',1,'']]],
-  ['ocfs2_2ec_44010',['ocfs2.c',['../db/d06/ocfs2_8c.html',1,'']]],
-  ['od_2ec_44011',['od.c',['../dc/dbd/od_8c.html',1,'']]],
-  ['od_5fbloaty_2ec_44012',['od_bloaty.c',['../d1/dac/od__bloaty_8c.html',1,'']]],
-  ['ofl_2ec_44013',['ofl.c',['../d4/da3/ofl_8c.html',1,'']]],
-  ['ofl_5fadd_2ec_44014',['ofl_add.c',['../db/df0/ofl__add_8c.html',1,'']]],
-  ['open_2dfiles_2ec_44015',['open-files.c',['../dd/d9c/open-files_8c.html',1,'']]],
-  ['open_2ec_44016',['open.c',['../da/deb/open_8c.html',1,'']]],
-  ['open_5fby_5fhandle_5fat_2ec_44017',['open_by_handle_at.c',['../d6/d57/open__by__handle__at_8c.html',1,'']]],
-  ['open_5fmemstream_2ec_44018',['open_memstream.c',['../dd/df6/open__memstream_8c.html',1,'']]],
-  ['open_5ftransformer_2ec_44019',['open_transformer.c',['../d5/daf/open__transformer_8c.html',1,'']]],
-  ['open_5fwmemstream_2ec_44020',['open_wmemstream.c',['../d5/d80/open__wmemstream_8c.html',1,'']]],
-  ['openat_2ec_44021',['openat.c',['../d1/dcd/openat_8c.html',1,'']]],
-  ['opendir_2ec_44022',['opendir.c',['../dc/d49/opendir_8c.html',1,'']]],
-  ['openpty_2ec_44023',['openpty.c',['../d3/d8e/openpty_8c.html',1,'']]],
-  ['openvt_2ec_44024',['openvt.c',['../dc/d1c/openvt_8c.html',1,'']]],
-  ['os2compat_2ec_44025',['os2compat.c',['../d2/d73/os2compat_8c.html',1,'']]],
-  ['os2compat_2eh_44026',['os2compat.h',['../d2/d02/os2compat_8h.html',1,'']]],
-  ['osdep_2ec_44027',['osdep.c',['../d9/d62/osdep_8c.html',1,'']]],
-  ['oslib_2ec_44028',['oslib.c',['../d9/d9c/oslib_8c.html',1,'']]]
+  ['ofl_2ec_22710',['ofl.c',['../d4/da3/ofl_8c.html',1,'']]],
+  ['ofl_5fadd_2ec_22711',['ofl_add.c',['../db/df0/ofl__add_8c.html',1,'']]],
+  ['open_2ec_22712',['open.c',['../da/deb/open_8c.html',1,'']]],
+  ['open_5fby_5fhandle_5fat_2ec_22713',['open_by_handle_at.c',['../d6/d57/open__by__handle__at_8c.html',1,'']]],
+  ['open_5fmemstream_2ec_22714',['open_memstream.c',['../dd/df6/open__memstream_8c.html',1,'']]],
+  ['open_5fwmemstream_2ec_22715',['open_wmemstream.c',['../d5/d80/open__wmemstream_8c.html',1,'']]],
+  ['openat_2ec_22716',['openat.c',['../d1/dcd/openat_8c.html',1,'']]],
+  ['opendir_2ec_22717',['opendir.c',['../dc/d49/opendir_8c.html',1,'']]],
+  ['openpty_2ec_22718',['openpty.c',['../d3/d8e/openpty_8c.html',1,'']]]
 ];

@@ -100,7 +100,7 @@ $(document).ready(function(){initNavTree('d0/d6b/sigorset_8c.html','../../'); in
 Macros</h2></td></tr>
 <tr class="memitem:a369266c24eacffb87046522897a570d5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6b/sigorset_8c.html#a369266c24eacffb87046522897a570d5">_GNU_SOURCE</a></td></tr>
 <tr class="separator:a369266c24eacffb87046522897a570d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bf08c2c4265d69c89c7df58b584cd9a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6b/sigorset_8c.html#a4bf08c2c4265d69c89c7df58b584cd9a">SST_SIZE</a>&#160;&#160;&#160;(<a class="el" href="../../d8/dfe/musl_2arch_2x86__64_2bits_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">_NSIG</a>/8/sizeof(long))</td></tr>
+<tr class="memitem:a4bf08c2c4265d69c89c7df58b584cd9a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6b/sigorset_8c.html#a4bf08c2c4265d69c89c7df58b584cd9a">SST_SIZE</a>&#160;&#160;&#160;(<a class="el" href="../../df/d9b/Userspace_2musl_2arch_2x86__64_2bits_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">_NSIG</a>/8/sizeof(long))</td></tr>
 <tr class="separator:a4bf08c2c4265d69c89c7df58b584cd9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -132,7 +132,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SST_SIZE&#160;&#160;&#160;(<a class="el" href="../../d8/dfe/musl_2arch_2x86__64_2bits_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">_NSIG</a>/8/sizeof(long))</td>
+          <td class="memname">#define SST_SIZE&#160;&#160;&#160;(<a class="el" href="../../df/d9b/Userspace_2musl_2arch_2x86__64_2bits_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">_NSIG</a>/8/sizeof(long))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -176,15 +176,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d6b/sigorset_8c_source.html#l00006">6</a> of file <a class="el" href="../../d0/d6b/sigorset_8c_source.html">sigorset.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = 0, *d = (<span class="keywordtype">void</span>*) dest, *<a class="code" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a> = (<span class="keywordtype">void</span>*) left, *r = (<span class="keywordtype">void</span>*) right;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">for</span>(; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; <a class="code" href="../../d0/d6b/sigorset_8c.html#a4bf08c2c4265d69c89c7df58b584cd9a">SST_SIZE</a>; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>++) d[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>] = <a class="code" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>] | r[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>];</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0, *d = (<span class="keywordtype">void</span>*) dest, *l = (<span class="keywordtype">void</span>*) left, *r = (<span class="keywordtype">void</span>*) right;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">for</span>(; <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; <a class="code" href="../../d0/d6b/sigorset_8c.html#a4bf08c2c4265d69c89c7df58b584cd9a">SST_SIZE</a>; <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>++) d[<a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>] = l[<a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>] | r[<a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>];</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
-<div class="ttc" id="agettextP_8h_html_a68428151ad44e31b19041cdeb8972a91"><div class="ttname"><a href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a></div><div class="ttdeci">static nls_uint32 nls_uint32 i</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d71/gettextP_8h_source.html#l00074">gettextP.h:74</a></div></div>
+<div class="ttc" id="arandom_8c_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">static int i</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de5/random_8c_source.html#l00023">random.c:23</a></div></div>
 <div class="ttc" id="asigorset_8c_html_a4bf08c2c4265d69c89c7df58b584cd9a"><div class="ttname"><a href="../../d0/d6b/sigorset_8c.html#a4bf08c2c4265d69c89c7df58b584cd9a">SST_SIZE</a></div><div class="ttdeci">#define SST_SIZE</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d6b/sigorset_8c_source.html#l00004">sigorset.c:4</a></div></div>
-<div class="ttc" id="atls__aesgcm_8c_html_a1cb503ddd20ff3cf9588d2b5abd202d8"><div class="ttname"><a href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a></div><div class="ttdeci">#define l</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>, and <a class="el" href="../../d0/d6b/sigorset_8c_source.html#l00004">SST_SIZE</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/de5/random_8c_source.html#l00023">i</a>, and <a class="el" href="../../d0/d6b/sigorset_8c_source.html#l00004">SST_SIZE</a>.</p>
 
 </div>
 </div>

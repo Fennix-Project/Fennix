@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('de/dce/dlsym_8c.html','../../'); initR
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abfa7f996bc6e4e8f14ffecb493851859"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/dlsym_8c.html#abfa7f996bc6e4e8f14ffecb493851859">dlsym</a> (void *restrict <a class="el" href="../../d6/d23/wi__stuff_8c.html#a5f53dec9fe800012c2be6ab5167d2cfd">p</a>, const char *restrict <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>)</td></tr>
+<tr class="memitem:abfa7f996bc6e4e8f14ffecb493851859"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dce/dlsym_8c.html#abfa7f996bc6e4e8f14ffecb493851859">dlsym</a> (void *restrict <a class="el" href="../../d6/d23/wi__stuff_8c.html#a5f53dec9fe800012c2be6ab5167d2cfd">p</a>, const char *restrict s)</td></tr>
 <tr class="separator:abfa7f996bc6e4e8f14ffecb493851859"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -130,13 +130,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dce/dlsym_8c_source.html#l00004">4</a> of file <a class="el" href="../../de/dce/dlsym_8c_source.html">dlsym.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/db0/dynlink_8c.html#a787835739312bd0b46aa4bd4707e516c">__dlsym</a>(<a class="code" href="../../d8/d64/glob__loop_8c.html#ac483f6ce851c9ecd9fb835ff7551737c">p</a>, <a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, 0);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/db0/dynlink_8c.html#a787835739312bd0b46aa4bd4707e516c">__dlsym</a>(<a class="code" href="../../df/d55/userspace__test_8c.html#a83de08c56df151f990dc392523079284">p</a>, s, 0);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="aarpping_8c_html_ac9562ee4ecb3b8aeebeb04656e7e57a9"><div class="ttname"><a href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a></div><div class="ttdeci">#define s</div></div>
 <div class="ttc" id="adynlink_8c_html_a787835739312bd0b46aa4bd4707e516c"><div class="ttname"><a href="../../d5/db0/dynlink_8c.html#a787835739312bd0b46aa4bd4707e516c">__dlsym</a></div><div class="ttdeci">hidden void * __dlsym(void *restrict p, const char *restrict s, void *restrict ra)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/db0/dynlink_8c_source.html#l02359">dynlink.c:2359</a></div></div>
-<div class="ttc" id="aglob__loop_8c_html_ac483f6ce851c9ecd9fb835ff7551737c"><div class="ttname"><a href="../../d8/d64/glob__loop_8c.html#ac483f6ce851c9ecd9fb835ff7551737c">p</a></div><div class="ttdeci">p</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d64/glob__loop_8c_source.html#l00031">glob_loop.c:31</a></div></div>
+<div class="ttc" id="auserspace__test_8c_html_a83de08c56df151f990dc392523079284"><div class="ttname"><a href="../../df/d55/userspace__test_8c.html#a83de08c56df151f990dc392523079284">p</a></div><div class="ttdeci">struct passwd * p</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d55/userspace__test_8c_source.html#l00129">userspace_test.c:129</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/db0/dynlink_8c_source.html#l02359">__dlsym()</a>, <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00031">p</a>, and <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/db0/dynlink_8c_source.html#l02359">__dlsym()</a>, and <a class="el" href="../../df/d55/userspace__test_8c_source.html#l00129">p</a>.</p>
 
 </div>
 </div>

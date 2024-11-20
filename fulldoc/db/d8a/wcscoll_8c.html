@@ -99,9 +99,9 @@ $(document).ready(function(){initNavTree('db/d8a/wcscoll_8c.html','../../'); ini
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a76058b19cc2ae9e061cf55de5a971020"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8a/wcscoll_8c.html#a76058b19cc2ae9e061cf55de5a971020">__wcscoll_l</a> (const <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5f245e933e58ed4d268146a5b1f116ca">wchar_t</a> *<a class="el" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>, const <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5f245e933e58ed4d268146a5b1f116ca">wchar_t</a> *r, locale_t locale)</td></tr>
+<tr class="memitem:a76058b19cc2ae9e061cf55de5a971020"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8a/wcscoll_8c.html#a76058b19cc2ae9e061cf55de5a971020">__wcscoll_l</a> (const <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5f245e933e58ed4d268146a5b1f116ca">wchar_t</a> *l, const <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5f245e933e58ed4d268146a5b1f116ca">wchar_t</a> *r, locale_t locale)</td></tr>
 <tr class="separator:a76058b19cc2ae9e061cf55de5a971020"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29c932f7d0cab8b860fa42d701232fea"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8a/wcscoll_8c.html#a29c932f7d0cab8b860fa42d701232fea">wcscoll</a> (const <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5f245e933e58ed4d268146a5b1f116ca">wchar_t</a> *<a class="el" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>, const <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5f245e933e58ed4d268146a5b1f116ca">wchar_t</a> *r)</td></tr>
+<tr class="memitem:a29c932f7d0cab8b860fa42d701232fea"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8a/wcscoll_8c.html#a29c932f7d0cab8b860fa42d701232fea">wcscoll</a> (const <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5f245e933e58ed4d268146a5b1f116ca">wchar_t</a> *l, const <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5f245e933e58ed4d268146a5b1f116ca">wchar_t</a> *r)</td></tr>
 <tr class="separator:a29c932f7d0cab8b860fa42d701232fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bfde9ea61dc20404dc2ccd23b1440c9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d8a/wcscoll_8c.html#a2bfde9ea61dc20404dc2ccd23b1440c9">weak_alias</a> (<a class="el" href="../../db/d8a/wcscoll_8c.html#a76058b19cc2ae9e061cf55de5a971020">__wcscoll_l</a>, wcscoll_l)</td></tr>
 <tr class="separator:a2bfde9ea61dc20404dc2ccd23b1440c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,12 +141,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/d8a/wcscoll_8c_source.html#l00006">6</a> of file <a class="el" href="../../db/d8a/wcscoll_8c_source.html">wcscoll.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#a95fcf5fcd1f361165f2eb9fa0404a2a9">wcscmp</a>(<a class="code" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>, r);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#a95fcf5fcd1f361165f2eb9fa0404a2a9">wcscmp</a>(l, r);</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
 <div class="ttc" id="aUserspace_2musl_2include_2wchar_8h_html_a95fcf5fcd1f361165f2eb9fa0404a2a9"><div class="ttname"><a href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#a95fcf5fcd1f361165f2eb9fa0404a2a9">wcscmp</a></div><div class="ttdeci">int wcscmp(const wchar_t *, const wchar_t *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d77/wcscmp_8c_source.html#l00003">wcscmp.c:3</a></div></div>
-<div class="ttc" id="atls__aesgcm_8c_html_a1cb503ddd20ff3cf9588d2b5abd202d8"><div class="ttname"><a href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a></div><div class="ttdeci">#define l</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>, and <a class="el" href="../../d9/d77/wcscmp_8c_source.html#l00003">wcscmp()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d77/wcscmp_8c_source.html#l00003">wcscmp()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../db/d8a/wcscoll_8c_source.html#l00011">wcscoll()</a>.</p>
 
@@ -180,12 +179,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/d8a/wcscoll_8c_source.html#l00011">11</a> of file <a class="el" href="../../db/d8a/wcscoll_8c_source.html">wcscoll.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/d8a/wcscoll_8c.html#a76058b19cc2ae9e061cf55de5a971020">__wcscoll_l</a>(<a class="code" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>, r, <a class="code" href="../../d7/d76/locale__impl_8h.html#a600d6dc41be20f1873922495d3ab7248">CURRENT_LOCALE</a>);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/d8a/wcscoll_8c.html#a76058b19cc2ae9e061cf55de5a971020">__wcscoll_l</a>(l, r, <a class="code" href="../../d7/d76/locale__impl_8h.html#a600d6dc41be20f1873922495d3ab7248">CURRENT_LOCALE</a>);</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
 <div class="ttc" id="alocale__impl_8h_html_a600d6dc41be20f1873922495d3ab7248"><div class="ttname"><a href="../../d7/d76/locale__impl_8h.html#a600d6dc41be20f1873922495d3ab7248">CURRENT_LOCALE</a></div><div class="ttdeci">#define CURRENT_LOCALE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d76/locale__impl_8h_source.html#l00040">locale_impl.h:40</a></div></div>
 <div class="ttc" id="awcscoll_8c_html_a76058b19cc2ae9e061cf55de5a971020"><div class="ttname"><a href="../../db/d8a/wcscoll_8c.html#a76058b19cc2ae9e061cf55de5a971020">__wcscoll_l</a></div><div class="ttdeci">int __wcscoll_l(const wchar_t *l, const wchar_t *r, locale_t locale)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d8a/wcscoll_8c_source.html#l00006">wcscoll.c:6</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d8a/wcscoll_8c_source.html#l00006">__wcscoll_l()</a>, <a class="el" href="../../d7/d76/locale__impl_8h_source.html#l00040">CURRENT_LOCALE</a>, and <a class="el" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d8a/wcscoll_8c_source.html#l00006">__wcscoll_l()</a>, and <a class="el" href="../../d7/d76/locale__impl_8h_source.html#l00040">CURRENT_LOCALE</a>.</p>
 
 </div>
 </div>

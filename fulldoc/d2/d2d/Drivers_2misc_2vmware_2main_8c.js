@@ -10,19 +10,19 @@ var Drivers_2misc_2vmware_2main_8c =
       [ "CookieLow", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#aed708e965d428124283d73ef39bb962a", null ],
       [ "TCLOChannel", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#af951263a5ef79fada86d095ebd46e38c", null ]
     ] ],
-    [ "VMwareCommand.__unnamed1262__", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#d5/d09/unionVMwareCommand_8____unnamed1262____", [
+    [ "VMwareCommand.__unnamed1020__", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#d6/d71/unionVMwareCommand_8____unnamed1020____", [
       [ "ax", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a9cea1e2473aaf49955fa34faac95b3e7", null ],
       [ "magic", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a2f3a4fccca6406e35bcf33e92dd93135", null ]
     ] ],
-    [ "VMwareCommand.__unnamed1264__", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#db/daf/unionVMwareCommand_8____unnamed1264____", [
+    [ "VMwareCommand.__unnamed1022__", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#d4/d0d/unionVMwareCommand_8____unnamed1022____", [
       [ "bx", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a6f5770d50b01a0abbce803768d3592b0", null ],
       [ "size", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#af7bd60b75b29d79b660a2859395c1a24", null ]
     ] ],
-    [ "VMwareCommand.__unnamed1266__", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#da/dd9/unionVMwareCommand_8____unnamed1266____", [
+    [ "VMwareCommand.__unnamed1024__", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#d6/de7/unionVMwareCommand_8____unnamed1024____", [
       [ "command", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a1dccadfed7bcbb036c56a4afb97e906f", null ],
       [ "cx", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a0bdff8095c8bf1b38775bf35547a1317", null ]
     ] ],
-    [ "VMwareCommand.__unnamed1268__", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#d3/db5/unionVMwareCommand_8____unnamed1268____", [
+    [ "VMwareCommand.__unnamed1026__", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#d2/daa/unionVMwareCommand_8____unnamed1026____", [
       [ "dx", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#aacd2b09d39705a84bff035c18c9faea9", null ],
       [ "port", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a901555fb06e346cb065ceb9808dcfc25", null ]
     ] ],
@@ -70,16 +70,22 @@ var Drivers_2misc_2vmware_2main_8c =
       [ "STATUS_CPT", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#aa23d7ef445094e433106199e6c5d144fa644b983371893dfef637931ba43d4c0d", null ],
       [ "STATUS_HB", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#aa23d7ef445094e433106199e6c5d144fa4a050cadc787a7f72920ba7ee0801c33", null ]
     ] ],
+    [ "__CheckHypervisorBit", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a57218ddb653d0c187e7c816fe0e86509", null ],
+    [ "__cpuid", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a61d0a531647c2e1f03444d454354ac72", null ],
+    [ "__fs_Ioctl", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a4bd4830094522ae693fa3509faa55575", null ],
+    [ "__strcmp", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#ac2ed27053e4cbde30a7a2a13b447531b", null ],
+    [ "__VMwareBackdoorHypervisors", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a697ee46e5a4f6dc95732286b97b9d698", null ],
     [ "Absolute", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a06765b926da99bf50c6c3485b7afb77e", null ],
     [ "CommandSend", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#aac4f0ef80571a93befe42fa4415d792c", null ],
     [ "DisplayGetSize", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#ac62258f0fcc9f42d1d81df6d2fe1c0c0", null ],
     [ "DisplayScaleThread", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a066c4e7ecf10eb4f2631c2af4496a9f4", null ],
     [ "DriverEntry", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#ad408448b389caef2f517d7dab4059f88", null ],
     [ "DriverFinal", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a3070aac49c99d3e1914674e27fef970c", null ],
-    [ "DriverInfo", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a23a2e6e92590a4d8b6e3e802d28f11c4", null ],
+    [ "DriverInfo", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#aad4c072bdc0627003cebb2d06ddbcdb0", null ],
     [ "DriverPanic", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a22cd32a7cc1a42bdd40bf38ee6f471bb", null ],
     [ "DriverProbe", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#aac0e5b13bca4d40920a2f81d626b319c", null ],
     [ "InterruptHandler", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a54cf79a70d78cc71954a116ba2272c1a", null ],
+    [ "IsVMwareBackdoorAvailable", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#aac62b5e7ccfda0c9f404034a5bfcdafe", null ],
     [ "MessageClose", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a8f8205182513129d8f1ca251f29084f1", null ],
     [ "MessageReceive", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a8fa948af8999bdee01ba8797f1257af3", null ],
     [ "MessageReceiveHB", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#ab0b14d7daf70683f117ab70dd1aef1f8", null ],
@@ -92,7 +98,10 @@ var Drivers_2misc_2vmware_2main_8c =
     [ "Relative", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a48cd4c86aa2ffcad79c8889da0076ff9", null ],
     [ "SendRPCI", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a4946d87ed062fe740958aec9d5094053", null ],
     [ "dst_id", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a0fbdc03c41b956ad1a30b0da9a4b4f46", null ],
+    [ "dst_pid", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#aebf85077dab962d2c199b24dd12fd329", null ],
+    [ "ir", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#acf10a93f2fdc5293acf56ea07d02ebfc", null ],
     [ "MouseDevID", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a4f9fd693e01e8f3c5b0a852678ced825", null ],
+    [ "MouseOps", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#aa5c4ea14b81d478ecb5aea82f53be7cc", null ],
     [ "tb_ctx", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a1bb2cba033ed6808f9e1b7caf74863f4", null ],
     [ "ToolboxSupported", "d2/d2d/Drivers_2misc_2vmware_2main_8c.html#a2a85b63974d947720c2b8f4464b34c2f", null ]
 ];

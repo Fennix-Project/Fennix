@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d4/d6d/atof_8c.html','../../'); initRe
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aedca42ebd2562ffb0fbd66ef77f01fa1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6d/atof_8c.html#aedca42ebd2562ffb0fbd66ef77f01fa1">atof</a> (const char *<a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>)</td></tr>
+<tr class="memitem:aedca42ebd2562ffb0fbd66ef77f01fa1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6d/atof_8c.html#aedca42ebd2562ffb0fbd66ef77f01fa1">atof</a> (const char *s)</td></tr>
 <tr class="separator:aedca42ebd2562ffb0fbd66ef77f01fa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -119,12 +119,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d6d/atof_8c_source.html#l00003">3</a> of file <a class="el" href="../../d4/d6d/atof_8c_source.html">atof.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d9/df8/include_2ansi__stdlib_8h.html#ab4da1b075184be5a8d101c53c70540a9">strtod</a>(<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, 0);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/daf/musl_2include_2stdlib_8h.html#a5d29656cddfa8ab8191d428296725c31">strtod</a>(s, 0);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
-<div class="ttc" id="aarpping_8c_html_ac9562ee4ecb3b8aeebeb04656e7e57a9"><div class="ttname"><a href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a></div><div class="ttdeci">#define s</div></div>
-<div class="ttc" id="ainclude_2ansi__stdlib_8h_html_ab4da1b075184be5a8d101c53c70540a9"><div class="ttname"><a href="../../d9/df8/include_2ansi__stdlib_8h.html#ab4da1b075184be5a8d101c53c70540a9">strtod</a></div><div class="ttdeci">double strtod()</div></div>
+<div class="ttc" id="amusl_2include_2stdlib_8h_html_a5d29656cddfa8ab8191d428296725c31"><div class="ttname"><a href="../../d4/daf/musl_2include_2stdlib_8h.html#a5d29656cddfa8ab8191d428296725c31">strtod</a></div><div class="ttdeci">double strtod(const char *__restrict, char **__restrict)</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, <a class="el" href="../../d1/db0/string_8c_source.html#l00005">strlen()</a>, and <a class="el" href="../../d9/df8/include_2ansi__stdlib_8h.html#ab4da1b075184be5a8d101c53c70540a9">strtod()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/de5/random_8c_source.html#l00023">i</a>, <a class="el" href="../../d1/db0/string_8c_source.html#l00005">strlen()</a>, and <a class="el" href="../../d4/daf/musl_2include_2stdlib_8h.html#a5d29656cddfa8ab8191d428296725c31">strtod()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../db/d66/m__config_8c_source.html#l01728">SetVariable()</a>.</p>
 
 </div>
 </div>

@@ -23,20 +23,20 @@ var include_2sys_2ptrace_8h =
       [ "rseq_abi_size", "d1/d9c/include_2sys_2ptrace_8h.html#adb4cfd069253a1efdfba93a073375359", null ],
       [ "signature", "d1/d9c/include_2sys_2ptrace_8h.html#a9b1382774226d0ce4d04d774bfa2bb13", null ]
     ] ],
-    [ "__ptrace_syscall_info.__unnamed1213__", "d1/d9c/include_2sys_2ptrace_8h.html#d6/dbf/union____ptrace__syscall__info_8____unnamed1213____", [
+    [ "__ptrace_syscall_info.__unnamed950__", "d1/d9c/include_2sys_2ptrace_8h.html#d5/d00/union____ptrace__syscall__info_8____unnamed950____", [
       [ "entry", "d1/d9c/include_2sys_2ptrace_8h.html#a1043bfc77febe75fafec0c4309faccf1", null ],
       [ "exit", "d1/d9c/include_2sys_2ptrace_8h.html#af24f62eeb789199b9b2e467df3b1876b", null ],
       [ "seccomp", "d1/d9c/include_2sys_2ptrace_8h.html#a6a8499b6fd9fbdf0028b882ee1c9187a", null ]
     ] ],
-    [ "__ptrace_syscall_info.__unnamed1213__.entry", "d1/d9c/include_2sys_2ptrace_8h.html#d1/d28/struct____ptrace__syscall__info_8____unnamed1213_____8entry", [
+    [ "__ptrace_syscall_info.__unnamed950__.entry", "d1/d9c/include_2sys_2ptrace_8h.html#dd/d46/struct____ptrace__syscall__info_8____unnamed950_____8entry", [
       [ "args", "d1/d9c/include_2sys_2ptrace_8h.html#a0fd09e248cd4d4e379ff3bc94158269a", null ],
       [ "nr", "d1/d9c/include_2sys_2ptrace_8h.html#a0ab3e5d0801aea3f3758bcbd812e8f10", null ]
     ] ],
-    [ "__ptrace_syscall_info.__unnamed1213__.exit", "d1/d9c/include_2sys_2ptrace_8h.html#de/d90/struct____ptrace__syscall__info_8____unnamed1213_____8exit", [
+    [ "__ptrace_syscall_info.__unnamed950__.exit", "d1/d9c/include_2sys_2ptrace_8h.html#d8/dd4/struct____ptrace__syscall__info_8____unnamed950_____8exit", [
       [ "is_error", "d1/d9c/include_2sys_2ptrace_8h.html#af0af3c92cb52b55ab4d6abbd849dea91", null ],
       [ "rval", "d1/d9c/include_2sys_2ptrace_8h.html#a3aa2a96aaa4b6f394e95b854076343b9", null ]
     ] ],
-    [ "__ptrace_syscall_info.__unnamed1213__.seccomp", "d1/d9c/include_2sys_2ptrace_8h.html#dd/db9/struct____ptrace__syscall__info_8____unnamed1213_____8seccomp", [
+    [ "__ptrace_syscall_info.__unnamed950__.seccomp", "d1/d9c/include_2sys_2ptrace_8h.html#d5/de9/struct____ptrace__syscall__info_8____unnamed950_____8seccomp", [
       [ "args", "d1/d9c/include_2sys_2ptrace_8h.html#a0fd09e248cd4d4e379ff3bc94158269a", null ],
       [ "nr", "d1/d9c/include_2sys_2ptrace_8h.html#a0ab3e5d0801aea3f3758bcbd812e8f10", null ],
       [ "ret_data", "d1/d9c/include_2sys_2ptrace_8h.html#a959ac0d9b37efc1120b4cb89328a2a0f", null ]

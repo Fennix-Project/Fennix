@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d6/df6/x86__64_2lrint_8c.html','../../
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1351e1d70c415b6c6ea6bf064e671608"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/df6/x86__64_2lrint_8c.html#a1351e1d70c415b6c6ea6bf064e671608">lrint</a> (double <a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)</td></tr>
+<tr class="memitem:a1351e1d70c415b6c6ea6bf064e671608"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/df6/x86__64_2lrint_8c.html#a1351e1d70c415b6c6ea6bf064e671608">lrint</a> (double <a class="el" href="../../dc/de5/random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)</td></tr>
 <tr class="separator:a1351e1d70c415b6c6ea6bf064e671608"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -120,13 +120,13 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d6/df6/x86__64_2lrint_8c_source.html#l00003">3</a> of file <a class="el" href="../../d6/df6/x86__64_2lrint_8c_source.html">lrint.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordtype">long</span> r;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="../../d3/dfc/aarch64_2crt__arch_8h.html#a5ca5c7b25f3542384caad5c6fecf0ec1">__asm__</a> (<span class="stringliteral">&quot;cvtsd2si %1, %0&quot;</span> : <span class="stringliteral">&quot;=r&quot;</span>(r) : <span class="stringliteral">&quot;x&quot;</span>(<a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>));</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="../../d3/dfc/aarch64_2crt__arch_8h.html#a5ca5c7b25f3542384caad5c6fecf0ec1">__asm__</a> (<span class="stringliteral">&quot;cvtsd2si %1, %0&quot;</span> : <span class="stringliteral">&quot;=r&quot;</span>(r) : <span class="stringliteral">&quot;x&quot;</span>(<a class="code" href="../../dc/de5/random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>));</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> r;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
 <div class="ttc" id="aaarch64_2crt__arch_8h_html_a5ca5c7b25f3542384caad5c6fecf0ec1"><div class="ttname"><a href="../../d3/dfc/aarch64_2crt__arch_8h.html#a5ca5c7b25f3542384caad5c6fecf0ec1">__asm__</a></div><div class="ttdeci">__asm__(&quot;.text \n&quot; &quot;.global &quot; START &quot;\n&quot; &quot;.type &quot; START &quot;,%function\n&quot; START &quot;:\n&quot; &quot;	mov x29, #0\n&quot; &quot;	mov x30, #0\n&quot; &quot;	mov x0, sp\n&quot; &quot;.weak _DYNAMIC\n&quot; &quot;.hidden _DYNAMIC\n&quot; &quot;	adrp x1, _DYNAMIC\n&quot; &quot;	add x1, x1, #:lo12:_DYNAMIC\n&quot; &quot;	and sp, x0, #-16\n&quot; &quot;	b &quot; START &quot;_c\n&quot;)</div></div>
-<div class="ttc" id="amusl_2src_2prng_2random_8c_html_aeb26462df30f47f6fd73ee802457812b"><div class="ttname"><a href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a></div><div class="ttdeci">static uint32_t * x</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da2/musl_2src_2prng_2random_8c_source.html#l00025">random.c:25</a></div></div>
+<div class="ttc" id="arandom_8c_html_aeb26462df30f47f6fd73ee802457812b"><div class="ttname"><a href="../../dc/de5/random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a></div><div class="ttdeci">static uint32_t * x</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de5/random_8c_source.html#l00025">random.c:25</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/dfc/aarch64_2crt__arch_8h.html#a5ca5c7b25f3542384caad5c6fecf0ec1">__asm__()</a>, <a class="el" href="../../d0/d32/dcigettext_8c_source.html#l00441">n</a>, and <a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c_source.html#l00025">x</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/dfc/aarch64_2crt__arch_8h.html#a5ca5c7b25f3542384caad5c6fecf0ec1">__asm__()</a>, <a class="el" href="../../dc/de5/random_8c_source.html#l00022">n</a>, and <a class="el" href="../../dc/de5/random_8c_source.html#l00025">x</a>.</p>
 
 </div>
 </div>

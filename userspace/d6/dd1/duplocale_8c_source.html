@@ -99,12 +99,12 @@ $(document).ready(function(){initNavTree('d6/dd1/duplocale_8c_source.html','../.
 <div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="../../d6/dd1/duplocale_8c.html#a1b739878adcdb46fb5d209af7ce79628">    8</a></span>&#160;<span class="preprocessor">#define realloc undef</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="../../d6/dd1/duplocale_8c.html#a2c6efa7679f8cd9f61af96e105017560">    9</a></span>&#160;<span class="preprocessor">#define free undef</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="../../d6/dd1/duplocale_8c.html#a9414ffe0a2569fca34d7f1ad44487fb4">   11</a></span>&#160;locale_t <a class="code" href="../../d6/dd1/duplocale_8c.html#a9414ffe0a2569fca34d7f1ad44487fb4">__duplocale</a>(locale_t <a class="code" href="../../d4/dcd/nmeter_8c.html#a3a539e6d7382aa2150a8ce8f33b91deb">old</a>)</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="../../d6/dd1/duplocale_8c.html#a9414ffe0a2569fca34d7f1ad44487fb4">   11</a></span>&#160;locale_t <a class="code" href="../../d6/dd1/duplocale_8c.html#a9414ffe0a2569fca34d7f1ad44487fb4">__duplocale</a>(locale_t old)</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    locale_t <span class="keyword">new</span> = <a class="code" href="../../d6/dd1/duplocale_8c.html#acf143577800376dd931c059ecc61ba06">malloc</a>(<span class="keyword">sizeof</span> *<span class="keyword">new</span>);</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">if</span> (!<span class="keyword">new</span>) <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/dcd/nmeter_8c.html#a3a539e6d7382aa2150a8ce8f33b91deb">old</a> == LC_GLOBAL_LOCALE) <a class="code" href="../../d4/dcd/nmeter_8c.html#a3a539e6d7382aa2150a8ce8f33b91deb">old</a> = &amp;<a class="code" href="../../db/dc8/libc_8h.html#a562c50deef56f1ef956e231f804c5d0b">libc</a>.global_locale;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    *<span class="keyword">new</span> = *<a class="code" href="../../d4/dcd/nmeter_8c.html#a3a539e6d7382aa2150a8ce8f33b91deb">old</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">if</span> (old == LC_GLOBAL_LOCALE) old = &amp;<a class="code" href="../../db/dc8/libc_8h.html#a562c50deef56f1ef956e231f804c5d0b">libc</a>.global_locale;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    *<span class="keyword">new</span> = *old;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">new</span>;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
@@ -115,7 +115,6 @@ $(document).ready(function(){initNavTree('d6/dd1/duplocale_8c_source.html','../.
 <div class="ttc" id="alibc_8h_html"><div class="ttname"><a href="../../db/dc8/libc_8h.html">libc.h</a></div></div>
 <div class="ttc" id="alibc_8h_html_a562c50deef56f1ef956e231f804c5d0b"><div class="ttname"><a href="../../db/dc8/libc_8h.html#a562c50deef56f1ef956e231f804c5d0b">libc</a></div><div class="ttdeci">#define libc</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dc8/libc_8h_source.html#l00038">libc.h:38</a></div></div>
 <div class="ttc" id="alocale__impl_8h_html"><div class="ttname"><a href="../../d7/d76/locale__impl_8h.html">locale_impl.h</a></div></div>
-<div class="ttc" id="anmeter_8c_html_a3a539e6d7382aa2150a8ce8f33b91deb"><div class="ttname"><a href="../../d4/dcd/nmeter_8c.html#a3a539e6d7382aa2150a8ce8f33b91deb">old</a></div><div class="ttdeci">ullong old[CPU_FIELDCNT]</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dcd/nmeter_8c_source.html#l00351">nmeter.c:351</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

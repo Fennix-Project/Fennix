@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['keyscancodes_991',['KeyScanCodes',['../db/de4/driver_8h.html#a505d8572bf9cf882f643df6a7f695d35',1,'driver.h']]]
+  ['netioctl_1108',['NetIoctl',['../db/de4/driver_8h.html#a883d45f645482196fd8e144d87ef0ce6',1,'driver.h']]]
 ];

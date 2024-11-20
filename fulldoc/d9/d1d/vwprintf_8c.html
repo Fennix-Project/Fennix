@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d9/d1d/vwprintf_8c.html','../../'); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab8cd6e026711067ebf766e08e277f0d8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d1d/vwprintf_8c.html#ab8cd6e026711067ebf766e08e277f0d8">vwprintf</a> (const <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5f245e933e58ed4d268146a5b1f116ca">wchar_t</a> *restrict fmt, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af53f622e3b6c080daeb167c1955d7ec1">va_list</a> <a class="el" href="../../d6/d94/arp_8c.html#a76d86451b3fb6fb6dc6a4b92b4bf3d49">ap</a>)</td></tr>
+<tr class="memitem:ab8cd6e026711067ebf766e08e277f0d8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d1d/vwprintf_8c.html#ab8cd6e026711067ebf766e08e277f0d8">vwprintf</a> (const <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5f245e933e58ed4d268146a5b1f116ca">wchar_t</a> *restrict fmt, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af53f622e3b6c080daeb167c1955d7ec1">va_list</a> ap)</td></tr>
 <tr class="separator:ab8cd6e026711067ebf766e08e277f0d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -130,13 +130,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d1d/vwprintf_8c_source.html#l00004">4</a> of file <a class="el" href="../../d9/d1d/vwprintf_8c_source.html">vwprintf.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#ab97cae6a0c8e5bbee0869989d67100ba">vfwprintf</a>(<a class="code" href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#a0c0ef221f95f64e8632451312fd18cc8">stdout</a>, fmt, <a class="code" href="../../d6/d94/arp_8c.html#a76d86451b3fb6fb6dc6a4b92b4bf3d49">ap</a>);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#ab97cae6a0c8e5bbee0869989d67100ba">vfwprintf</a>(<a class="code" href="../../d8/d67/Kernel_2include__std_2stdio_8h.html#a0c0ef221f95f64e8632451312fd18cc8">stdout</a>, fmt, ap);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="aUserspace_2libc_2include_2stdio_8h_html_a0c0ef221f95f64e8632451312fd18cc8"><div class="ttname"><a href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#a0c0ef221f95f64e8632451312fd18cc8">stdout</a></div><div class="ttdeci">#define stdout</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/Userspace_2libc_2include_2stdio_8h_source.html#l00057">stdio.h:57</a></div></div>
+<div class="ttc" id="aKernel_2include__std_2stdio_8h_html_a0c0ef221f95f64e8632451312fd18cc8"><div class="ttname"><a href="../../d8/d67/Kernel_2include__std_2stdio_8h.html#a0c0ef221f95f64e8632451312fd18cc8">stdout</a></div><div class="ttdeci">#define stdout</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d67/Kernel_2include__std_2stdio_8h_source.html#l00037">stdio.h:37</a></div></div>
 <div class="ttc" id="aUserspace_2musl_2include_2wchar_8h_html_ab97cae6a0c8e5bbee0869989d67100ba"><div class="ttname"><a href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#ab97cae6a0c8e5bbee0869989d67100ba">vfwprintf</a></div><div class="ttdeci">int vfwprintf(FILE *__restrict, const wchar_t *__restrict, __isoc_va_list)</div></div>
-<div class="ttc" id="aarp_8c_html_a76d86451b3fb6fb6dc6a4b92b4bf3d49"><div class="ttname"><a href="../../d6/d94/arp_8c.html#a76d86451b3fb6fb6dc6a4b92b4bf3d49">ap</a></div><div class="ttdeci">#define ap</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d94/arp_8c_source.html#l00083">arp.c:83</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/d94/arp_8c_source.html#l00083">ap</a>, <a class="el" href="../../dd/d69/Userspace_2libc_2include_2stdio_8h_source.html#l00057">stdout</a>, and <a class="el" href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#ab97cae6a0c8e5bbee0869989d67100ba">vfwprintf()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d67/Kernel_2include__std_2stdio_8h_source.html#l00037">stdout</a>, and <a class="el" href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#ab97cae6a0c8e5bbee0869989d67100ba">vfwprintf()</a>.</p>
 
 </div>
 </div>

@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d4/d5d/strncpy_8c.html','../../'); ini
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aade55d8d34d74a589e4500859f16d77e"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5d/strncpy_8c.html#aade55d8d34d74a589e4500859f16d77e">strncpy</a> (char *restrict d, const char *restrict <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>)</td></tr>
+<tr class="memitem:aade55d8d34d74a589e4500859f16d77e"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5d/strncpy_8c.html#aade55d8d34d74a589e4500859f16d77e">strncpy</a> (char *restrict d, const char *restrict s, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../dc/de5/random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>)</td></tr>
 <tr class="separator:aade55d8d34d74a589e4500859f16d77e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -135,14 +135,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d5d/strncpy_8c_source.html#l00003">3</a> of file <a class="el" href="../../d4/d5d/strncpy_8c_source.html">strncpy.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <a class="code" href="../../d0/d3e/musl_2src_2include_2string_8h.html#a69490b277da37100156f2ba652fbc74b">__stpncpy</a>(d, <a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <a class="code" href="../../d0/d3e/musl_2src_2include_2string_8h.html#a69490b277da37100156f2ba652fbc74b">__stpncpy</a>(d, s, <a class="code" href="../../dc/de5/random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> d;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="aarpping_8c_html_ac9562ee4ecb3b8aeebeb04656e7e57a9"><div class="ttname"><a href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a></div><div class="ttdeci">#define s</div></div>
-<div class="ttc" id="adcigettext_8c_html_a58257445f1a929304e537613b62ebb35"><div class="ttname"><a href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a></div><div class="ttdeci">unsigned long int n</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d32/dcigettext_8c_source.html#l00441">dcigettext.c:441</a></div></div>
 <div class="ttc" id="amusl_2src_2include_2string_8h_html_a69490b277da37100156f2ba652fbc74b"><div class="ttname"><a href="../../d0/d3e/musl_2src_2include_2string_8h.html#a69490b277da37100156f2ba652fbc74b">__stpncpy</a></div><div class="ttdeci">hidden char * __stpncpy(char *, const char *, size_t)</div></div>
+<div class="ttc" id="arandom_8c_html_a76f11d9a0a47b94f72c2d0e77fb32240"><div class="ttname"><a href="../../dc/de5/random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a></div><div class="ttdeci">static int n</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de5/random_8c_source.html#l00022">random.c:22</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d3e/musl_2src_2include_2string_8h.html#a69490b277da37100156f2ba652fbc74b">__stpncpy()</a>, <a class="el" href="../../d0/d32/dcigettext_8c_source.html#l00441">n</a>, and <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d3e/musl_2src_2include_2string_8h.html#a69490b277da37100156f2ba652fbc74b">__stpncpy()</a>, and <a class="el" href="../../dc/de5/random_8c_source.html#l00022">n</a>.</p>
 
 </div>
 </div>

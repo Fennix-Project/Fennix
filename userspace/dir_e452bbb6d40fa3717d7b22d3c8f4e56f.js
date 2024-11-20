@@ -9,7 +9,7 @@ var dir_e452bbb6d40fa3717d7b22d3c8f4e56f =
     [ "rand.c", "d6/df4/rand_8c.html", "d6/df4/rand_8c" ],
     [ "rand48.h", "da/db3/rand48_8h.html", "da/db3/rand48_8h" ],
     [ "rand_r.c", "d9/d76/rand__r_8c.html", "d9/d76/rand__r_8c" ],
-    [ "random.c", "dc/da2/musl_2src_2prng_2random_8c.html", "dc/da2/musl_2src_2prng_2random_8c" ],
+    [ "random.c", "dc/de5/random_8c.html", "dc/de5/random_8c" ],
     [ "seed48.c", "d1/d58/seed48_8c.html", "d1/d58/seed48_8c" ],
     [ "srand48.c", "df/d47/srand48_8c.html", "df/d47/srand48_8c" ]
 ];

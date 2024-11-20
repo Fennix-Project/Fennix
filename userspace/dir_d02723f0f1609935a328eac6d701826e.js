@@ -1,8 +1,8 @@
 var dir_d02723f0f1609935a328eac6d701826e =
 [
-    [ "accept.c", "d7/d53/musl_2src_2network_2accept_8c.html", "d7/d53/musl_2src_2network_2accept_8c" ],
+    [ "accept.c", "d6/da2/accept_8c.html", "d6/da2/accept_8c" ],
     [ "accept4.c", "d9/d89/accept4_8c.html", "d9/d89/accept4_8c" ],
-    [ "bind.c", "db/d6e/musl_2src_2network_2bind_8c.html", "db/d6e/musl_2src_2network_2bind_8c" ],
+    [ "bind.c", "d6/d6d/bind_8c.html", "d6/d6d/bind_8c" ],
     [ "connect.c", "d0/dc3/connect_8c.html", "d0/dc3/connect_8c" ],
     [ "dn_comp.c", "d6/dd1/dn__comp_8c.html", "d6/dd1/dn__comp_8c" ],
     [ "dn_expand.c", "da/d6d/dn__expand_8c.html", "da/d6d/dn__expand_8c" ],
@@ -40,7 +40,7 @@ var dir_d02723f0f1609935a328eac6d701826e =
     [ "in6addr_any.c", "db/dea/in6addr__any_8c.html", "db/dea/in6addr__any_8c" ],
     [ "in6addr_loopback.c", "d8/dff/in6addr__loopback_8c.html", "d8/dff/in6addr__loopback_8c" ],
     [ "inet_addr.c", "db/df1/inet__addr_8c.html", "db/df1/inet__addr_8c" ],
-    [ "inet_aton.c", "da/d9a/musl_2src_2network_2inet__aton_8c.html", "da/d9a/musl_2src_2network_2inet__aton_8c" ],
+    [ "inet_aton.c", "dd/dbe/inet__aton_8c.html", "dd/dbe/inet__aton_8c" ],
     [ "inet_legacy.c", "d9/df9/inet__legacy_8c.html", "d9/df9/inet__legacy_8c" ],
     [ "inet_ntoa.c", "d9/d40/inet__ntoa_8c.html", "d9/d40/inet__ntoa_8c" ],
     [ "inet_ntop.c", "d5/d2e/inet__ntop_8c.html", "d5/d2e/inet__ntop_8c" ],
@@ -77,6 +77,6 @@ var dir_d02723f0f1609935a328eac6d701826e =
     [ "setsockopt.c", "d9/d11/setsockopt_8c.html", "d9/d11/setsockopt_8c" ],
     [ "shutdown.c", "d3/db2/shutdown_8c.html", "d3/db2/shutdown_8c" ],
     [ "sockatmark.c", "d0/d0f/sockatmark_8c.html", "d0/d0f/sockatmark_8c" ],
-    [ "socket.c", "dd/df0/musl_2src_2network_2socket_8c.html", "dd/df0/musl_2src_2network_2socket_8c" ],
+    [ "socket.c", "d5/df8/socket_8c.html", "d5/df8/socket_8c" ],
     [ "socketpair.c", "d9/d5b/socketpair_8c.html", "d9/d5b/socketpair_8c" ]
 ];

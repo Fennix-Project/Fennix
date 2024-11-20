@@ -124,31 +124,46 @@ $(document).ready(function(){initNavTree('d4/dc3/macro_8hpp_source.html','../../
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">// exobyte</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../d4/dc3/macro_8hpp.html#a61d2658b8abebf9ef3f348162d93051e">   34</a></span>&#160;<span class="preprocessor">#define TO_EiB(d) ((d) / 1024 / 1024 / 1024 / 1024 / 1024 / 1024)</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="../../d4/dc3/macro_8hpp.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">   36</a></span>&#160;<span class="preprocessor">#define PAGE_SIZE 0x1000        </span><span class="comment">// 4KB</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="../../d4/dc3/macro_8hpp.html#ae8f4eec8c194962159f36f934954d2a3">   37</a></span>&#160;<span class="preprocessor">#define PAGE_SIZE_4K PAGE_SIZE  </span><span class="comment">// 4KB</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="../../d4/dc3/macro_8hpp.html#aa741a36fad372fa52b7d026afc5781c6">   38</a></span>&#160;<span class="preprocessor">#define PAGE_SIZE_2M 0x200000   </span><span class="comment">// 2MB</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="../../d4/dc3/macro_8hpp.html#afe90f3eca494c654e216568e869e9654">   39</a></span>&#160;<span class="preprocessor">#define PAGE_SIZE_4M 0x400000   </span><span class="comment">// 4MB</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="../../d4/dc3/macro_8hpp.html#a689ba4829262c30029918a9ff311f7ca">   40</a></span>&#160;<span class="preprocessor">#define PAGE_SIZE_1G 0x40000000 </span><span class="comment">// 1GB</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="../../d4/dc3/macro_8hpp.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">   36</a></span>&#160;<span class="preprocessor">#define PAGE_SIZE 0x1000        </span><span class="comment">/* 4 KiB */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="../../d4/dc3/macro_8hpp.html#ae8f4eec8c194962159f36f934954d2a3">   37</a></span>&#160;<span class="preprocessor">#define PAGE_SIZE_4K PAGE_SIZE  </span><span class="comment">/* 4 KiB */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="../../d4/dc3/macro_8hpp.html#aa741a36fad372fa52b7d026afc5781c6">   38</a></span>&#160;<span class="preprocessor">#define PAGE_SIZE_2M 0x200000   </span><span class="comment">/* 2 MiB */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="../../d4/dc3/macro_8hpp.html#afe90f3eca494c654e216568e869e9654">   39</a></span>&#160;<span class="preprocessor">#define PAGE_SIZE_4M 0x400000   </span><span class="comment">/* 4 MiB */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="../../d4/dc3/macro_8hpp.html#a689ba4829262c30029918a9ff311f7ca">   40</a></span>&#160;<span class="preprocessor">#define PAGE_SIZE_1G 0x40000000 </span><span class="comment">/* 1 GiB */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="../../d4/dc3/macro_8hpp.html#a6423a880df59733d2d9b509c7718d3a9">   42</a></span>&#160;<span class="preprocessor">#define STACK_SIZE 0x4000      </span><span class="comment">// 16kb</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="../../d4/dc3/macro_8hpp.html#a5f4636d1d2b3b9d7aca2f889e61744be">   43</a></span>&#160;<span class="preprocessor">#define USER_STACK_SIZE 0x2000 </span><span class="comment">// 8kb</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">// To pages</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="../../d4/dc3/macro_8hpp.html#a10029add9db6f0340d9bd2be9b2d1048">   46</a></span>&#160;<span class="preprocessor">#define TO_PAGES(d) (((d) + PAGE_SIZE - 1) / PAGE_SIZE)</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">// From pages</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="../../d4/dc3/macro_8hpp.html#ac8af6466c29c08f6443c392f25181fe3">   48</a></span>&#160;<span class="preprocessor">#define FROM_PAGES(d) ((d) * PAGE_SIZE)</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#if defined(a64) || defined(aa64)</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#define KERNEL_VMA_OFFSET 0xFFFFFFFF80000000</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#define KERNEL_HEAP_BASE 0xFFFFFF0000000000</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#define USER_STACK_BASE 0xFFFFEFFFFFFF0000</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#elif defined(a32)</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#define KERNEL_VMA_OFFSET 0xC0000000</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#define KERNEL_HEAP_BASE 0xA0000000</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#define USER_STACK_BASE 0xEFFFFFFF</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="../../d4/dc3/macro_8hpp.html#a6423a880df59733d2d9b509c7718d3a9">   42</a></span>&#160;<span class="preprocessor">#define STACK_SIZE 0x4000        </span><span class="comment">/* 16 KiB */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="../../d4/dc3/macro_8hpp.html#a0da4a5f7cc3138463b4a3d832b08d40e">   43</a></span>&#160;<span class="preprocessor">#define LARGE_STACK_SIZE 0x20000 </span><span class="comment">/* 128 KiB */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="../../d4/dc3/macro_8hpp.html#a5f4636d1d2b3b9d7aca2f889e61744be">   44</a></span>&#160;<span class="preprocessor">#define USER_STACK_SIZE 0x2000   </span><span class="comment">/* 8 KiB */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">/* To pages */</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="../../d4/dc3/macro_8hpp.html#a10029add9db6f0340d9bd2be9b2d1048">   47</a></span>&#160;<span class="preprocessor">#define TO_PAGES(d) (((d) + PAGE_SIZE - 1) / PAGE_SIZE)</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">/* From pages */</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="../../d4/dc3/macro_8hpp.html#ac8af6466c29c08f6443c392f25181fe3">   49</a></span>&#160;<span class="preprocessor">#define FROM_PAGES(d) ((d) * PAGE_SIZE)</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#if defined(a64) || defined(aa64)</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#define KERNEL_VMA_OFFSET 0xFFFFFFFF80000000</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#define USER_ALLOC_BASE 0xFFFFA00000000000 </span><span class="comment">/* 256 GiB */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#define USER_ALLOC_END 0xFFFFB00000000000</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#define KERNEL_STACK_BASE 0xFFFFB00000000000 </span><span class="comment">/* 256 GiB */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#define KERNEL_STACK_END 0xFFFFC00000000000</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !__FENNIX_KERNEL_MEMORY_MACROS_H__</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#define USER_STACK_END 0xFFFFEFFF00000000 </span><span class="comment">/* 256 MiB */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#define USER_STACK_BASE 0xFFFFEFFFFFFF0000</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#elif defined(a32)</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#define KERNEL_VMA_OFFSET 0xC0000000</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">#define USER_ALLOC_BASE 0x80000000</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">#define USER_ALLOC_END 0xA0000000</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#define KERNEL_STACK_BASE 0xA0000000</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#define KERNEL_STACK_END 0xB0000000</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">#define USER_STACK_BASE 0xEFFFFFFF</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">#define USER_STACK_END 0xE0000000</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !__FENNIX_KERNEL_MEMORY_MACROS_H__</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

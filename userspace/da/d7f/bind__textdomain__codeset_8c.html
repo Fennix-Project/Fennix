@@ -100,7 +100,7 @@ $(document).ready(function(){initNavTree('da/d7f/bind__textdomain__codeset_8c.ht
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8d02d24ade4c4b8a3134591880a195fa"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d7f/bind__textdomain__codeset_8c.html#a8d02d24ade4c4b8a3134591880a195fa">bind_textdomain_codeset</a> (const char *<a class="el" href="../../db/dd9/dngettext_8c.html#acf0021ee66e0c8c8dd846fd917f23ca9">domainname</a>, const char *codeset)</td></tr>
+<tr class="memitem:a8d02d24ade4c4b8a3134591880a195fa"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d7f/bind__textdomain__codeset_8c.html#a8d02d24ade4c4b8a3134591880a195fa">bind_textdomain_codeset</a> (const char *domainname, const char *codeset)</td></tr>
 <tr class="separator:a8d02d24ade4c4b8a3134591880a195fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -132,16 +132,16 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d7f/bind__textdomain__codeset_8c_source.html#l00006">6</a> of file <a class="el" href="../../da/d7f/bind__textdomain__codeset_8c_source.html">bind_textdomain_codeset.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (codeset &amp;&amp; <a class="code" href="../../d2/d02/os2compat_8h.html#ac99ec3f1036620727a68aa8c25a8963c">strcasecmp</a>(codeset, <span class="stringliteral">&quot;UTF-8&quot;</span>))</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (codeset &amp;&amp; <a class="code" href="../../dc/da4/libc_2include_2string_8h.html#a706b36f3a672f84685576723c3928baa">strcasecmp</a>(codeset, <span class="stringliteral">&quot;UTF-8&quot;</span>))</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a>;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d9/d14/general_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/ddd/libc_2include_2stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
-<div class="ttc" id="ageneral_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d9/d14/general_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d14/general_8h_source.html#l00053">general.h:53</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_a2d1678d5a7cc8ce499643f3b8957def4"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a></div><div class="ttdeci">#define EINVAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00025">errno.h:25</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno.h:135</a></div></div>
-<div class="ttc" id="aos2compat_8h_html_ac99ec3f1036620727a68aa8c25a8963c"><div class="ttname"><a href="../../d2/d02/os2compat_8h.html#ac99ec3f1036620727a68aa8c25a8963c">strcasecmp</a></div><div class="ttdeci">#define strcasecmp</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d02/os2compat_8h_source.html#l00041">os2compat.h:41</a></div></div>
+<div class="ttc" id="alibc_2include_2stddef_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d0/ddd/libc_2include_2stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/ddd/libc_2include_2stddef_8h_source.html#l00007">stddef.h:7</a></div></div>
+<div class="ttc" id="alibc_2include_2string_8h_html_a706b36f3a672f84685576723c3928baa"><div class="ttname"><a href="../../dc/da4/libc_2include_2string_8h.html#a706b36f3a672f84685576723c3928baa">strcasecmp</a></div><div class="ttdeci">int strcasecmp(const char *s1, const char *s2)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db0/string_8c_source.html#l00034">string.c:34</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00025">EINVAL</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../d9/d14/general_8h_source.html#l00053">NULL</a>, and <a class="el" href="../../d2/d02/os2compat_8h_source.html#l00041">strcasecmp</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00025">EINVAL</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../d0/ddd/libc_2include_2stddef_8h_source.html#l00007">NULL</a>, and <a class="el" href="../../d1/db0/string_8c_source.html#l00034">strcasecmp()</a>.</p>
 
 </div>
 </div>

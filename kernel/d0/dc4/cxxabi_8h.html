@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix Kernel: Kernel/include_std/cxxabi.h File Reference</title>
+<title>Fennix Kernel: Kernel/include/kexcept/cxxabi.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -89,13 +89,15 @@ $(document).ready(function(){initNavTree('d0/dc4/cxxabi_8h.html','../../'); init
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">cxxabi.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;types.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d3/db6/unwind_8h_source.html">unwind.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d3/db6/unwind_8h_source.html">kexcept/unwind.h</a>&gt;</code><br />
 <code>#include &lt;typeinfo&gt;</code><br />
 </div>
 <p><a href="../../d0/dc4/cxxabi_8h_source.html">Go to the source code of this file.</a></p>
@@ -106,8 +108,12 @@ Data Structures</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d57/struct____cxxabiv1_1_1____cxa__exception.html">__cxxabiv1::__cxa_exception</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:da/d07/struct____cxa__eh__globals"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/cxxabi_8h.html#da/d07/struct____cxa__eh__globals">__cxa_eh_globals</a></td></tr>
-<tr class="separator:da/d07/struct____cxa__eh__globals"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d04/struct____cxxabiv1_1_1____cxa__dependent__exception.html">__cxxabiv1::__cxa_dependent_exception</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d7/d76/struct____cxxabiv1_1_1____cxa__eh__globals"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#d7/d76/struct____cxxabiv1_1_1____cxa__eh__globals">__cxxabiv1::__cxa_eh_globals</a></td></tr>
+<tr class="separator:d7/d76/struct____cxxabiv1_1_1____cxa__eh__globals"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d9/dcf/structExceptionInfo"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/cxxabi_8h.html#d9/dcf/structExceptionInfo">ExceptionInfo</a></td></tr>
+<tr class="separator:d9/dcf/structExceptionInfo"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -123,33 +129,95 @@ Macros</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:a40b59e7581f6063603886ef240497a07"><td class="memItemLeft" align="right" valign="top">typedef unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#a40b59e7581f6063603886ef240497a07">__cxxabiv1::uarch_t</a></td></tr>
 <tr class="separator:a40b59e7581f6063603886ef240497a07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ae83997e82ff7474457cbe37afd4504de"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d75/namespace____cxxabiv1.html#ae83997e82ff7474457cbe37afd4504de">__cxxabiv1::ExceptionState</a> { <a class="el" href="../../da/d75/namespace____cxxabiv1.html#ae83997e82ff7474457cbe37afd4504dea5fd5cc941151c6a84c68415ece82dff5">__cxxabiv1::ES_None</a>
+, <a class="el" href="../../da/d75/namespace____cxxabiv1.html#ae83997e82ff7474457cbe37afd4504deab1a0605d1bf1029de5b3a65a577b0740">__cxxabiv1::ES_Caught</a>
+, <a class="el" href="../../da/d75/namespace____cxxabiv1.html#ae83997e82ff7474457cbe37afd4504deae37cadb99baa6addd282b7cf93fc68b2">__cxxabiv1::ES_Rethrown</a>
+ }</td></tr>
+<tr class="separator:ae83997e82ff7474457cbe37afd4504de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aedfae6a55e33609d84b12cbae6a5bb37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dc4/cxxabi_8h.html#d9/dcf/structExceptionInfo">ExceptionInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/cxxabi_8h.html#aedfae6a55e33609d84b12cbae6a5bb37">GetExceptionInfo</a> ()</td></tr>
+<tr class="separator:aedfae6a55e33609d84b12cbae6a5bb37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
-<a name="da/d07/struct____cxa__eh__globals" id="da/d07/struct____cxa__eh__globals"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#da/d07/struct____cxa__eh__globals">&#9670;&nbsp;</a></span>__cxa_eh_globals</h2>
+<a name="d7/d76/struct____cxxabiv1_1_1____cxa__eh__globals" id="d7/d76/struct____cxxabiv1_1_1____cxa__eh__globals"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d7/d76/struct____cxxabiv1_1_1____cxa__eh__globals">&#9670;&nbsp;</a></span>__cxxabiv1::__cxa_eh_globals</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct __cxa_eh_globals</td>
+          <td class="memname">struct __cxxabiv1::__cxa_eh_globals</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d0/dc4/cxxabi_8h_source.html#l00060">60</a> of file <a class="el" href="../../d0/dc4/cxxabi_8h_source.html">cxxabi.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/dc4/cxxabi_8h_source.html#l00093">93</a> of file <a class="el" href="../../d0/dc4/cxxabi_8h_source.html">cxxabi.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="ac7db6ca97959a6b1619be4da35cde4bf"></a>__cxa_exception *</td>
+<a id="a77348d2bb5877643cae07015a2453eb5"></a><a class="el" href="../../dd/d57/struct____cxxabiv1_1_1____cxa__exception.html">__cxa_exception</a> *</td>
 <td class="fieldname">
 caughtExceptions</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aabc2afe732faddd7429fc9551877acc8"></a>unsigned int</td>
+<a id="a59d046223bdff74671ce9fc40d28bfa4"></a>unsigned int</td>
 <td class="fieldname">
 uncaughtExceptions</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="d9/dcf/structExceptionInfo" id="d9/dcf/structExceptionInfo"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d9/dcf/structExceptionInfo">&#9670;&nbsp;</a></span>ExceptionInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct ExceptionInfo</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d0/dc4/cxxabi_8h_source.html#l00107">107</a> of file <a class="el" href="../../d0/dc4/cxxabi_8h_source.html">cxxabi.h</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a42c30360f4c91805252fd14efd8253fd"></a><a class="el" href="../../d3/db6/unwind_8h.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *</td>
+<td class="fieldname">
+exceptionObject</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a2ba83bdf58f8a337a1f9e3e723bb0542"></a>__cxa_eh_globals</td>
+<td class="fieldname">
+globals</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a6b325d3a48a0185ad150a06ad20f46b6"></a>ExceptionState</td>
+<td class="fieldname">
+state</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a3d347fd97d4210e0be95df465309ea1d"></a>terminate_handler</td>
+<td class="fieldname">
+terminateHandler</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="adcdde993999f6d27a68024451cde1835"></a>unexpected_handler</td>
+<td class="fieldname">
+unexpectedHandler</td>
 <td class="fielddoc">
 </td></tr>
 </table>
@@ -173,12 +241,30 @@ uncaughtExceptions</td>
 
 </div>
 </div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="aedfae6a55e33609d84b12cbae6a5bb37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedfae6a55e33609d84b12cbae6a5bb37">&#9670;&nbsp;</a></span>GetExceptionInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/dc4/cxxabi_8h.html#d9/dcf/structExceptionInfo">ExceptionInfo</a>* GetExceptionInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_f6afea1f11e371a5eb8eaf7be6cd53d5.html">include_std</a></li><li class="navelem"><a class="el" href="../../d0/dc4/cxxabi_8h.html">cxxabi.h</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_2c335c1ccbf6ef7c89cc08c9ed88be2e.html">include</a></li><li class="navelem"><a class="el" href="../../dir_8c8bb92704ea7f5c4869ae4b62d98b7f.html">kexcept</a></li><li class="navelem"><a class="el" href="../../d0/dc4/cxxabi_8h.html">cxxabi.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

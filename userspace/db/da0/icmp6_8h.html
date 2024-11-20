@@ -208,17 +208,17 @@ Macros</h2></td></tr>
 <tr class="separator:ad82c600ff1d118554029c9258e014966"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefd8dedadd9588644c52d2fbe53c012e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da0/icmp6_8h.html#aefd8dedadd9588644c52d2fbe53c012e">ICMP6_PARAMPROB_OPTION</a>&#160;&#160;&#160;2</td></tr>
 <tr class="separator:aefd8dedadd9588644c52d2fbe53c012e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa589f234d2bf4dfb6e7ae1cd1040b800"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da0/icmp6_8h.html#aa589f234d2bf4dfb6e7ae1cd1040b800">ICMP6_FILTER_WILLPASS</a>(<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>,  filterp)&#160;&#160;&#160;	((((filterp)-&gt;icmp6_filt[(<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>) &gt;&gt; 5]) &amp; (1 &lt;&lt; ((<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>) &amp; 31))) == 0)</td></tr>
+<tr class="memitem:aa589f234d2bf4dfb6e7ae1cd1040b800"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da0/icmp6_8h.html#aa589f234d2bf4dfb6e7ae1cd1040b800">ICMP6_FILTER_WILLPASS</a>(type,  filterp)&#160;&#160;&#160;	((((filterp)-&gt;icmp6_filt[(type) &gt;&gt; 5]) &amp; (1 &lt;&lt; ((type) &amp; 31))) == 0)</td></tr>
 <tr class="separator:aa589f234d2bf4dfb6e7ae1cd1040b800"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad2adc166c103595e7e7c58879718817"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da0/icmp6_8h.html#aad2adc166c103595e7e7c58879718817">ICMP6_FILTER_WILLBLOCK</a>(<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>,  filterp)&#160;&#160;&#160;	((((filterp)-&gt;icmp6_filt[(<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>) &gt;&gt; 5]) &amp; (1 &lt;&lt; ((<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>) &amp; 31))) != 0)</td></tr>
+<tr class="memitem:aad2adc166c103595e7e7c58879718817"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da0/icmp6_8h.html#aad2adc166c103595e7e7c58879718817">ICMP6_FILTER_WILLBLOCK</a>(type,  filterp)&#160;&#160;&#160;	((((filterp)-&gt;icmp6_filt[(type) &gt;&gt; 5]) &amp; (1 &lt;&lt; ((type) &amp; 31))) != 0)</td></tr>
 <tr class="separator:aad2adc166c103595e7e7c58879718817"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c2038c47b1bfefc2ae993cb03c4a84b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da0/icmp6_8h.html#a0c2038c47b1bfefc2ae993cb03c4a84b">ICMP6_FILTER_SETPASS</a>(<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>,  filterp)&#160;&#160;&#160;	((((filterp)-&gt;icmp6_filt[(<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>) &gt;&gt; 5]) &amp;= ~(1 &lt;&lt; ((<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>) &amp; 31))))</td></tr>
+<tr class="memitem:a0c2038c47b1bfefc2ae993cb03c4a84b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da0/icmp6_8h.html#a0c2038c47b1bfefc2ae993cb03c4a84b">ICMP6_FILTER_SETPASS</a>(type,  filterp)&#160;&#160;&#160;	((((filterp)-&gt;icmp6_filt[(type) &gt;&gt; 5]) &amp;= ~(1 &lt;&lt; ((type) &amp; 31))))</td></tr>
 <tr class="separator:a0c2038c47b1bfefc2ae993cb03c4a84b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a699c1ad26451d535cc407a1e0da14ed6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da0/icmp6_8h.html#a699c1ad26451d535cc407a1e0da14ed6">ICMP6_FILTER_SETBLOCK</a>(<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>,  filterp)&#160;&#160;&#160;	((((filterp)-&gt;icmp6_filt[(<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>) &gt;&gt; 5]) |=  (1 &lt;&lt; ((<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>) &amp; 31))))</td></tr>
+<tr class="memitem:a699c1ad26451d535cc407a1e0da14ed6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da0/icmp6_8h.html#a699c1ad26451d535cc407a1e0da14ed6">ICMP6_FILTER_SETBLOCK</a>(type,  filterp)&#160;&#160;&#160;	((((filterp)-&gt;icmp6_filt[(type) &gt;&gt; 5]) |=  (1 &lt;&lt; ((type) &amp; 31))))</td></tr>
 <tr class="separator:a699c1ad26451d535cc407a1e0da14ed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a589f41c644e13b73de957b8e0c76c66d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da0/icmp6_8h.html#a589f41c644e13b73de957b8e0c76c66d">ICMP6_FILTER_SETPASSALL</a>(filterp)&#160;&#160;&#160;	<a class="el" href="../../d3/ddf/musl_2src_2string_2memset_8c.html#a362b656d9de3289b55b1035d14cb4b5d">memset</a> (filterp, 0, sizeof (struct <a class="el" href="../../db/da0/icmp6_8h.html#d8/d55/structicmp6__filter">icmp6_filter</a>));</td></tr>
+<tr class="memitem:a589f41c644e13b73de957b8e0c76c66d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da0/icmp6_8h.html#a589f41c644e13b73de957b8e0c76c66d">ICMP6_FILTER_SETPASSALL</a>(filterp)&#160;&#160;&#160;	<a class="el" href="../../d3/db7/memset_8c.html#a362b656d9de3289b55b1035d14cb4b5d">memset</a> (filterp, 0, sizeof (struct <a class="el" href="../../db/da0/icmp6_8h.html#d8/d55/structicmp6__filter">icmp6_filter</a>));</td></tr>
 <tr class="separator:a589f41c644e13b73de957b8e0c76c66d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bb1f04c4c3ffad34c4045eda017ea1a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da0/icmp6_8h.html#a4bb1f04c4c3ffad34c4045eda017ea1a">ICMP6_FILTER_SETBLOCKALL</a>(filterp)&#160;&#160;&#160;	<a class="el" href="../../d3/ddf/musl_2src_2string_2memset_8c.html#a362b656d9de3289b55b1035d14cb4b5d">memset</a> (filterp, 0xFF, sizeof (struct <a class="el" href="../../db/da0/icmp6_8h.html#d8/d55/structicmp6__filter">icmp6_filter</a>));</td></tr>
+<tr class="memitem:a4bb1f04c4c3ffad34c4045eda017ea1a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da0/icmp6_8h.html#a4bb1f04c4c3ffad34c4045eda017ea1a">ICMP6_FILTER_SETBLOCKALL</a>(filterp)&#160;&#160;&#160;	<a class="el" href="../../d3/db7/memset_8c.html#a362b656d9de3289b55b1035d14cb4b5d">memset</a> (filterp, 0xFF, sizeof (struct <a class="el" href="../../db/da0/icmp6_8h.html#d8/d55/structicmp6__filter">icmp6_filter</a>));</td></tr>
 <tr class="separator:a4bb1f04c4c3ffad34c4045eda017ea1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2b89a20a031d9a24641166abd099a3e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da0/icmp6_8h.html#ab2b89a20a031d9a24641166abd099a3e">ND_ROUTER_SOLICIT</a>&#160;&#160;&#160;133</td></tr>
 <tr class="separator:ab2b89a20a031d9a24641166abd099a3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -409,7 +409,7 @@ icmp6_code</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a88db5b3ed5578bd636d991276010b82c"></a>union <a class="el" href="../../db/da0/icmp6_8h.html#de/db3/unionicmp6__hdr_8icmp6__dataun">icmp6_hdr</a></td>
+<a id="ae99dc2d6804e150a29afef2da045ae95"></a>union <a class="el" href="../../db/da0/icmp6_8h.html#de/db3/unionicmp6__hdr_8icmp6__dataun">icmp6_hdr</a></td>
 <td class="fieldname">
 icmp6_dataun</td>
 <td class="fielddoc">
@@ -1428,7 +1428,7 @@ icmp6_un_data8[4]</td>
           <td class="memname">#define ICMP6_FILTER_SETBLOCK</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>, </td>
+          <td class="paramname">type, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1439,7 +1439,7 @@ icmp6_un_data8[4]</td>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;	((((filterp)-&gt;icmp6_filt[(<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>) &gt;&gt; 5]) |=  (1 &lt;&lt; ((<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>) &amp; 31))))</td>
+          <td></td><td>&#160;&#160;&#160;	((((filterp)-&gt;icmp6_filt[(type) &gt;&gt; 5]) |=  (1 &lt;&lt; ((type) &amp; 31))))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1459,7 +1459,7 @@ icmp6_un_data8[4]</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">filterp</td><td>)</td>
-          <td>&#160;&#160;&#160;	<a class="el" href="../../d3/ddf/musl_2src_2string_2memset_8c.html#a362b656d9de3289b55b1035d14cb4b5d">memset</a> (filterp, 0xFF, sizeof (struct <a class="el" href="../../db/da0/icmp6_8h.html#d8/d55/structicmp6__filter">icmp6_filter</a>));</td>
+          <td>&#160;&#160;&#160;	<a class="el" href="../../d3/db7/memset_8c.html#a362b656d9de3289b55b1035d14cb4b5d">memset</a> (filterp, 0xFF, sizeof (struct <a class="el" href="../../db/da0/icmp6_8h.html#d8/d55/structicmp6__filter">icmp6_filter</a>));</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1478,7 +1478,7 @@ icmp6_un_data8[4]</td>
           <td class="memname">#define ICMP6_FILTER_SETPASS</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>, </td>
+          <td class="paramname">type, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1489,7 +1489,7 @@ icmp6_un_data8[4]</td>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;	((((filterp)-&gt;icmp6_filt[(<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>) &gt;&gt; 5]) &amp;= ~(1 &lt;&lt; ((<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>) &amp; 31))))</td>
+          <td></td><td>&#160;&#160;&#160;	((((filterp)-&gt;icmp6_filt[(type) &gt;&gt; 5]) &amp;= ~(1 &lt;&lt; ((type) &amp; 31))))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1509,7 +1509,7 @@ icmp6_un_data8[4]</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">filterp</td><td>)</td>
-          <td>&#160;&#160;&#160;	<a class="el" href="../../d3/ddf/musl_2src_2string_2memset_8c.html#a362b656d9de3289b55b1035d14cb4b5d">memset</a> (filterp, 0, sizeof (struct <a class="el" href="../../db/da0/icmp6_8h.html#d8/d55/structicmp6__filter">icmp6_filter</a>));</td>
+          <td>&#160;&#160;&#160;	<a class="el" href="../../d3/db7/memset_8c.html#a362b656d9de3289b55b1035d14cb4b5d">memset</a> (filterp, 0, sizeof (struct <a class="el" href="../../db/da0/icmp6_8h.html#d8/d55/structicmp6__filter">icmp6_filter</a>));</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1528,7 +1528,7 @@ icmp6_un_data8[4]</td>
           <td class="memname">#define ICMP6_FILTER_WILLBLOCK</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>, </td>
+          <td class="paramname">type, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1539,7 +1539,7 @@ icmp6_un_data8[4]</td>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;	((((filterp)-&gt;icmp6_filt[(<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>) &gt;&gt; 5]) &amp; (1 &lt;&lt; ((<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>) &amp; 31))) != 0)</td>
+          <td></td><td>&#160;&#160;&#160;	((((filterp)-&gt;icmp6_filt[(type) &gt;&gt; 5]) &amp; (1 &lt;&lt; ((type) &amp; 31))) != 0)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1558,7 +1558,7 @@ icmp6_un_data8[4]</td>
           <td class="memname">#define ICMP6_FILTER_WILLPASS</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>, </td>
+          <td class="paramname">type, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1569,7 +1569,7 @@ icmp6_un_data8[4]</td>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;	((((filterp)-&gt;icmp6_filt[(<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>) &gt;&gt; 5]) &amp; (1 &lt;&lt; ((<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>) &amp; 31))) == 0)</td>
+          <td></td><td>&#160;&#160;&#160;	((((filterp)-&gt;icmp6_filt[(type) &gt;&gt; 5]) &amp; (1 &lt;&lt; ((type) &amp; 31))) == 0)</td>
         </tr>
       </table>
 </div><div class="memdoc">

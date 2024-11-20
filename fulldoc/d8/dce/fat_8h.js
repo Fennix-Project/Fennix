@@ -1,0 +1,77 @@
+var fat_8h =
+[
+    [ "BIOSParameterBlock", "d8/dce/fat_8h.html#d5/d5e/structBIOSParameterBlock", [
+      [ "BytesPerSector", "d8/dce/fat_8h.html#a11e78882a3f710a2f5f97ccf264e91af", null ],
+      [ "HiddenSectors", "d8/dce/fat_8h.html#a6513e56b62eef296941790cc2330f296", null ],
+      [ "JumpBoot", "d8/dce/fat_8h.html#a8ac6fb8d76a1340157f89812b6374b17", null ],
+      [ "Media", "d8/dce/fat_8h.html#afd65de4d1adf835f70ba4c49941aec0f", null ],
+      [ "NumberOfFATs", "d8/dce/fat_8h.html#a9322f0501c25122b5bc275b71fc4da72", null ],
+      [ "NumberOfHeads", "d8/dce/fat_8h.html#a8004e6bce91683daef7c130ba441fc8e", null ],
+      [ "OEM", "d8/dce/fat_8h.html#ac3aa1020aaf63abe517c43f83654606e", null ],
+      [ "ReservedSectors", "d8/dce/fat_8h.html#a010ef467ae1729b40fc7dcc1b11e8d35", null ],
+      [ "RootDirectoryEntries", "d8/dce/fat_8h.html#a9a291c29c7fbb45f49437d50be09d84a", null ],
+      [ "Sectors16", "d8/dce/fat_8h.html#ad4711752079019ec0bf890a174013017", null ],
+      [ "Sectors32", "d8/dce/fat_8h.html#acc783b53d01a84b5cb71bc64597a5069", null ],
+      [ "SectorsPerCluster", "d8/dce/fat_8h.html#aa7c12171d01b93c0ff3704e3245f3785", null ],
+      [ "SectorsPerFAT", "d8/dce/fat_8h.html#a1dcc34151e5824a2addbfbdefde5cefc", null ],
+      [ "SectorsPerTrack", "d8/dce/fat_8h.html#a68f7dd1de48dbb627e83d4df7960f856", null ]
+    ] ],
+    [ "ExtendedBootRecord_FAT12_16", "d8/dce/fat_8h.html#d1/d66/structExtendedBootRecord__FAT12__16", [
+      [ "BootCode", "d8/dce/fat_8h.html#af334e9968a9edf157c31c743c3bc65f5", null ],
+      [ "BootSignature", "d8/dce/fat_8h.html#a979fed681316a9fbebf047f473c1d71d", null ],
+      [ "DriveNumber", "d8/dce/fat_8h.html#ad678541f54576a8bd98f675f5849fa46", null ],
+      [ "Flags", "d8/dce/fat_8h.html#afc4a411b509b23a1b97c8d495fa6cb6d", null ],
+      [ "Signature", "d8/dce/fat_8h.html#a56b0faeb1297a1ece35ef27a5639ed71", null ],
+      [ "SystemIdentifier", "d8/dce/fat_8h.html#ac06ef020c31725a266061034b56b51a1", null ],
+      [ "VolumeID", "d8/dce/fat_8h.html#a6f8fd0ece16977c0c0248dc88469f148", null ],
+      [ "VolumeLabel", "d8/dce/fat_8h.html#a60b894d861c5e86f87c2b29c552b2641", null ]
+    ] ],
+    [ "ExtendedBootRecord_FAT32", "d8/dce/fat_8h.html#d3/d6a/structExtendedBootRecord__FAT32", [
+      [ "BackupBootSector", "d8/dce/fat_8h.html#a4e7c6306a66ba56b08e8093a75e8af41", null ],
+      [ "BootCode", "d8/dce/fat_8h.html#a527d4d61d53c572a61ff2ff55879bb0f", null ],
+      [ "BootSignature", "d8/dce/fat_8h.html#adbd7ade8d38961303029836dd565dbd4", null ],
+      [ "DriveNumber", "d8/dce/fat_8h.html#acfc857772e406d5f8c37136d38003ce5", null ],
+      [ "FATVersion", "d8/dce/fat_8h.html#ab9a5f35959116465ef9e885a428bcb9f", null ],
+      [ "Flags", "d8/dce/fat_8h.html#a70f0bd52b79bb119e881f9769fb68000", null ],
+      [ "Flags2", "d8/dce/fat_8h.html#a6a079b6b142979a2776eff64d174d14b", null ],
+      [ "FSInfoSector", "d8/dce/fat_8h.html#a3f422f694ac2b14c02232cb48c7525ff", null ],
+      [ "Reserved", "d8/dce/fat_8h.html#afa7b91bab8026c36ed2a2ad3146ebda4", null ],
+      [ "RootDirectoryCluster", "d8/dce/fat_8h.html#a711550bc233fc57fdf16ebe52e021bd2", null ],
+      [ "SectorsPerFAT", "d8/dce/fat_8h.html#ab092c68f2f2479a8b92fd5686d4ad404", null ],
+      [ "Signature", "d8/dce/fat_8h.html#adb69d5ac8d835ca604a04c295a53fa4e", null ],
+      [ "SystemIdentifier", "d8/dce/fat_8h.html#ade015e1ed99e646597757e262ab244db", null ],
+      [ "VolumeID", "d8/dce/fat_8h.html#a6632782e31e73fc808339a66c941727b", null ],
+      [ "VolumeLabel", "d8/dce/fat_8h.html#a8f5fa1538cb86d6573ceca119c80a311", null ]
+    ] ],
+    [ "FSInfo", "d8/dce/fat_8h.html#d3/d7a/structFSInfo", [
+      [ "AnotherSignature", "d8/dce/fat_8h.html#a04df110cace92cf5b1664879564531a6", null ],
+      [ "FreeClusterCount", "d8/dce/fat_8h.html#a7d1b86d0235f9f084937213d55b7abe9", null ],
+      [ "LeadSignature", "d8/dce/fat_8h.html#a3bf3785eb8d3adaededc2d55b29e7216", null ],
+      [ "NextFreeCluster", "d8/dce/fat_8h.html#ab53d432c1222b31d7dca81927dd79468", null ],
+      [ "Reserved1", "d8/dce/fat_8h.html#afaf1028e691a19e870076a99ed8174c0", null ],
+      [ "Reserved2", "d8/dce/fat_8h.html#afb4a978e714a5e5e52de723c87724be1", null ],
+      [ "TrailSignature", "d8/dce/fat_8h.html#afa2ca121aefc2d9adcbc6514f19020cd", null ]
+    ] ],
+    [ "exFATBootRecord", "d8/dce/fat_8h.html#de/d5f/structexFATBootRecord", [
+      [ "ClusterCount", "d8/dce/fat_8h.html#acdf67e29d63a779e5cf96e4ca5f45d0b", null ],
+      [ "ClusterHeapOffset", "d8/dce/fat_8h.html#a2aff2c19826348f0b954df6e92504e29", null ],
+      [ "ClusterShift", "d8/dce/fat_8h.html#acb24186d163896bbab9ffd4a79bf0ecf", null ],
+      [ "DriveSelect", "d8/dce/fat_8h.html#a5fafa9dbe404e8132d73b4d44c0ea40e", null ],
+      [ "FATLength", "d8/dce/fat_8h.html#a256728d90f78dc45fe74aaab72393bf2", null ],
+      [ "FATOffset", "d8/dce/fat_8h.html#a7bd8a62d72990fb0197c1872212db578", null ],
+      [ "FilesystemRevision", "d8/dce/fat_8h.html#abc6e826d0c31ffdbd87dde06c34d6234", null ],
+      [ "Flags", "d8/dce/fat_8h.html#aabd65a3e33e6a4bdde3737042d10b4d6", null ],
+      [ "JumpBoot", "d8/dce/fat_8h.html#a10e7fbf9d08e125f3e5a91dfc32f4bb0", null ],
+      [ "NumberOfFATs", "d8/dce/fat_8h.html#a402513b6e5c724a658dd126ef7f8ae03", null ],
+      [ "OEM", "d8/dce/fat_8h.html#ae9458be964cbc121b855403fee2b46c2", null ],
+      [ "PartitionOffset", "d8/dce/fat_8h.html#a79b5aa83d17dec5047a32a46a929de83", null ],
+      [ "PercentageInUse", "d8/dce/fat_8h.html#aa7192461d2d68727a97d3badc23fec8d", null ],
+      [ "Reserved1", "d8/dce/fat_8h.html#acf207f03d9db8c3465addcc2800967fa", null ],
+      [ "Reserved2", "d8/dce/fat_8h.html#a225110a9aee120209c132b2dc5449a41", null ],
+      [ "RootDirectoryCluster", "d8/dce/fat_8h.html#a2fb06003bf1d492f6270739a03ef5cb8", null ],
+      [ "SectorShift", "d8/dce/fat_8h.html#ad78dcf5ae7b0138097fc278b794cde52", null ],
+      [ "SerialNumber", "d8/dce/fat_8h.html#aab5f72ea61bd907d722025a76d29e5b0", null ],
+      [ "VolumeLength", "d8/dce/fat_8h.html#a1dabdc236881cafb0890a8ed611ae105", null ]
+    ] ],
+    [ "__packed", "d8/dce/fat_8h.html#a0ed06512c060ef6168c48275419ae5d8", null ]
+];

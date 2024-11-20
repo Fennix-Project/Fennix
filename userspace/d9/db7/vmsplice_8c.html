@@ -104,7 +104,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a812a4dde64332e7fce515d50e43bd0c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db7/vmsplice_8c.html#a812a4dde64332e7fce515d50e43bd0c9">vmsplice</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, const struct iovec *iov, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d6/d23/wi__stuff_8c.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a>, unsigned <a class="el" href="../../db/dd4/sm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a>)</td></tr>
+<tr class="memitem:a812a4dde64332e7fce515d50e43bd0c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db7/vmsplice_8c.html#a812a4dde64332e7fce515d50e43bd0c9">vmsplice</a> (int fd, const struct iovec *iov, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d6/d23/wi__stuff_8c.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a>, unsigned flags)</td></tr>
 <tr class="separator:a812a4dde64332e7fce515d50e43bd0c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -165,14 +165,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/db7/vmsplice_8c_source.html#l00005">5</a> of file <a class="el" href="../../d9/db7/vmsplice_8c_source.html">vmsplice.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_vmsplice, <a class="code" href="../../d2/db3/hdparm_8c.html#abe821d0fac05333be298917dcb50ee1da1e4d60e5b05464d07a30096747025a42">fd</a>, iov, <a class="code" href="../../d6/d23/wi__stuff_8c.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a>, <a class="code" href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a>);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_vmsplice, fd, iov, <a class="code" href="../../d6/d23/wi__stuff_8c.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a>, flags);</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
-<div class="ttc" id="adumpkmap_8c_html_abb0829cce9dd20a40ae0d86890ae85c6"><div class="ttname"><a href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a></div><div class="ttdeci">#define flags</div></div>
-<div class="ttc" id="ahdparm_8c_html_abe821d0fac05333be298917dcb50ee1da1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#abe821d0fac05333be298917dcb50ee1da1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 <div class="ttc" id="awi__stuff_8c_html_a9cfbb269728dc4185236d28be58d9eab"><div class="ttname"><a href="../../d6/d23/wi__stuff_8c.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a></div><div class="ttdeci">static int cnt</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d23/wi__stuff_8c_source.html#l00317">wi_stuff.c:317</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/d23/wi__stuff_8c_source.html#l00317">cnt</a>, <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, <a class="el" href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d23/wi__stuff_8c_source.html#l00317">cnt</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
 </div>
 </div>

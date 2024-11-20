@@ -1,9 +1,22 @@
 var searchData=
 [
-  ['bgrtheader_8789',['BGRTHeader',['../d3/d21/classACPI_1_1ACPI.html#d4/d38/structACPI_1_1ACPI_1_1BGRTHeader',1,'ACPI::ACPI']]],
-  ['biosparameterblock_8790',['BIOSParameterBlock',['../d8/dbb/classvfs_1_1FAT.html#d3/d49/structvfs_1_1FAT_1_1BIOSParameterBlock',1,'vfs::FAT']]],
-  ['bitmap_8791',['Bitmap',['../d3/d19/classBitmap.html',1,'']]],
-  ['block_8792',['Block',['../d6/da3/classXalloc_1_1Block.html',1,'Xalloc::Block'],['../d9/dd9/classXalloc_1_1V2_1_1Block.html',1,'Xalloc::V2::Block']]],
-  ['bootinfo_8793',['BootInfo',['../db/d96/structBootInfo.html',1,'']]],
-  ['bootloaderinfo_8794',['BootloaderInfo',['../db/d96/structBootInfo.html#d4/d24/structBootInfo_1_1BootloaderInfo',1,'BootInfo']]]
+  ['accelerometerreport_9508',['AccelerometerReport',['../de/ded/input_8h.html#d8/d16/structAccelerometerReport',1,'']]],
+  ['acpi_9509',['ACPI',['../d3/d21/classACPI_1_1ACPI.html',1,'ACPI']]],
+  ['acpiheader_9510',['ACPIHeader',['../d3/d21/classACPI_1_1ACPI.html#d1/de6/structACPI_1_1ACPI_1_1ACPIHeader',1,'ACPI::ACPI']]],
+  ['allocatedpages_9511',['AllocatedPages',['../dc/dbe/classMemory_1_1StackGuard.html#df/d03/structMemory_1_1StackGuard_1_1AllocatedPages',1,'Memory::StackGuard::AllocatedPages'],['../d5/db9/classMemory_1_1VirtualAllocation.html#d0/d3d/structMemory_1_1VirtualAllocation_1_1AllocatedPages',1,'Memory::VirtualAllocation::AllocatedPages'],['../d5/d49/classMemory_1_1VirtualMemoryArea.html#dd/d95/structMemory_1_1VirtualMemoryArea_1_1AllocatedPages',1,'Memory::VirtualMemoryArea::AllocatedPages']]],
+  ['ansiargument_9512',['ANSIArgument',['../db/d1a/namespaceKernelConsole.html#d8/d9b/structKernelConsole_1_1ANSIArgument',1,'KernelConsole']]],
+  ['ansiparser_9513',['ANSIParser',['../d4/db1/structKernelConsole_1_1ANSIParser.html',1,'KernelConsole']]],
+  ['apic_9514',['APIC',['../d4/da9/classAPIC_1_1APIC.html',1,'APIC']]],
+  ['apicheader_9515',['APICHeader',['../da/db9/classACPI_1_1MADT.html#d9/d48/structACPI_1_1MADT_1_1APICHeader',1,'ACPI::MADT']]],
+  ['apisymbols_9516',['APISymbols',['../d5/d48/api_8cpp.html#d7/d60/structAPISymbols',1,'']]],
+  ['arith64_5fword_9517',['arith64_word',['../dd/ddd/arithmetic__operations_8c.html#d3/d6a/unionarith64__word',1,'']]],
+  ['arith64_5fword_2es32_9518',['arith64_word.s32',['../dd/ddd/arithmetic__operations_8c.html#d6/d18/structarith64__word_8s32',1,'']]],
+  ['arith64_5fword_2eu32_9519',['arith64_word.u32',['../dd/ddd/arithmetic__operations_8c.html#d3/da7/structarith64__word_8u32',1,'']]],
+  ['arp_9520',['ARP',['../d9/d9b/classNetworkARP_1_1ARP.html',1,'NetworkARP']]],
+  ['arpheader_9521',['ARPHeader',['../d2/df9/namespaceNetworkARP.html#d7/dcf/structNetworkARP_1_1ARPHeader',1,'NetworkARP']]],
+  ['array_5fout_5fof_5fbounds_5fdata_9522',['array_out_of_bounds_data',['../d0/d1f/ubsan_8h.html#d7/d7f/structarray__out__of__bounds__data',1,'']]],
+  ['atexit_5ffunc_5fentry_5ft_9523',['atexit_func_entry_t',['../d3/dee/struct____cxxabiv1_1_1atexit__func__entry__t.html',1,'__cxxabiv1']]],
+  ['atomic_5fuint64_5ft_9524',['atomic_uint64_t',['../dd/ddd/arithmetic__operations_8c.html#d0/d1b/structatomic__uint64__t',1,'']]],
+  ['autoswitchpagetable_9525',['AutoSwitchPageTable',['../da/de3/classAutoSwitchPageTable.html',1,'']]],
+  ['auxiliaryvector_9526',['AuxiliaryVector',['../df/d31/abi_8h.html#db/d1d/structAuxiliaryVector',1,'']]]
 ];

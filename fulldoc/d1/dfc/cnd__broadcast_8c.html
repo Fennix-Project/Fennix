@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d1/dfc/cnd__broadcast_8c.html','../../
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae2d8b0c343c485c0ff472a32fb5c703b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfc/cnd__broadcast_8c.html#ae2d8b0c343c485c0ff472a32fb5c703b">cnd_broadcast</a> (cnd_t *<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>)</td></tr>
+<tr class="memitem:ae2d8b0c343c485c0ff472a32fb5c703b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfc/cnd__broadcast_8c.html#ae2d8b0c343c485c0ff472a32fb5c703b">cnd_broadcast</a> (cnd_t *c)</td></tr>
 <tr class="separator:ae2d8b0c343c485c0ff472a32fb5c703b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -122,12 +122,11 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="comment">/* This internal function never fails, and always returns zero,</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">     * which matches the value thrd_success is defined with. */</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d20/Userspace_2musl_2src_2include_2pthread_8h.html#a842dcb2413b875503b171072ab3bfbd6">__private_cond_signal</a>((pthread_cond_t *)<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>, -1);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d20/Userspace_2musl_2src_2include_2pthread_8h.html#a842dcb2413b875503b171072ab3bfbd6">__private_cond_signal</a>((pthread_cond_t *)c, -1);</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
 <div class="ttc" id="aUserspace_2musl_2src_2include_2pthread_8h_html_a842dcb2413b875503b171072ab3bfbd6"><div class="ttname"><a href="../../d2/d20/Userspace_2musl_2src_2include_2pthread_8h.html#a842dcb2413b875503b171072ab3bfbd6">__private_cond_signal</a></div><div class="ttdeci">hidden int __private_cond_signal(pthread_cond_t *, int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d02/pthread__cond__timedwait_8c_source.html#l00176">pthread_cond_timedwait.c:176</a></div></div>
-<div class="ttc" id="aglob__loop_8c_html_a2019d0836036f2693a231fe5c7c65e20"><div class="ttname"><a href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a></div><div class="ttdeci">register GCHAR c</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d64/glob__loop_8c_source.html#l00028">glob_loop.c:26</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/d02/pthread__cond__timedwait_8c_source.html#l00176">__private_cond_signal()</a>, and <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d02/pthread__cond__timedwait_8c_source.html#l00176">__private_cond_signal()</a>.</p>
 
 </div>
 </div>

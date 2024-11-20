@@ -104,7 +104,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:afabf46107539bb1ec32994c214b5eeba"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d1d/gcvt_8c.html#afabf46107539bb1ec32994c214b5eeba">gcvt</a> (double <a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>, int <a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>, char *b)</td></tr>
+<tr class="memitem:afabf46107539bb1ec32994c214b5eeba"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d1d/gcvt_8c.html#afabf46107539bb1ec32994c214b5eeba">gcvt</a> (double <a class="el" href="../../dc/de5/random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>, int <a class="el" href="../../dc/de5/random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>, char *b)</td></tr>
 <tr class="separator:afabf46107539bb1ec32994c214b5eeba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -159,14 +159,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d1d/gcvt_8c_source.html#l00005">5</a> of file <a class="el" href="../../d9/d1d/gcvt_8c_source.html">gcvt.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../dc/df9/Kernel_2include_2printf_8h.html#a77dac04ed12a16543832b623c7778729">sprintf</a>(b, <span class="stringliteral">&quot;%.*g&quot;</span>, <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>, <a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../dc/df9/Kernel_2include_2printf_8h.html#a77dac04ed12a16543832b623c7778729">sprintf</a>(b, <span class="stringliteral">&quot;%.*g&quot;</span>, <a class="code" href="../../dc/de5/random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>, <a class="code" href="../../dc/de5/random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>);</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> b;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
 <div class="ttc" id="aKernel_2include_2printf_8h_html_a77dac04ed12a16543832b623c7778729"><div class="ttname"><a href="../../dc/df9/Kernel_2include_2printf_8h.html#a77dac04ed12a16543832b623c7778729">sprintf</a></div><div class="ttdeci">PRINTF_VISIBILITY int sprintf(char *s, const char *format,...) ATTR_PRINTF(2</div></div>
-<div class="ttc" id="adcigettext_8c_html_a58257445f1a929304e537613b62ebb35"><div class="ttname"><a href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a></div><div class="ttdeci">unsigned long int n</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d32/dcigettext_8c_source.html#l00441">dcigettext.c:441</a></div></div>
-<div class="ttc" id="amusl_2src_2prng_2random_8c_html_aeb26462df30f47f6fd73ee802457812b"><div class="ttname"><a href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a></div><div class="ttdeci">static uint32_t * x</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da2/musl_2src_2prng_2random_8c_source.html#l00025">random.c:25</a></div></div>
+<div class="ttc" id="arandom_8c_html_a76f11d9a0a47b94f72c2d0e77fb32240"><div class="ttname"><a href="../../dc/de5/random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a></div><div class="ttdeci">static int n</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de5/random_8c_source.html#l00022">random.c:22</a></div></div>
+<div class="ttc" id="arandom_8c_html_aeb26462df30f47f6fd73ee802457812b"><div class="ttname"><a href="../../dc/de5/random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a></div><div class="ttdeci">static uint32_t * x</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de5/random_8c_source.html#l00025">random.c:25</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d32/dcigettext_8c_source.html#l00441">n</a>, <a class="el" href="../../dc/df9/Kernel_2include_2printf_8h.html#a77dac04ed12a16543832b623c7778729">sprintf()</a>, and <a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c_source.html#l00025">x</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/de5/random_8c_source.html#l00022">n</a>, <a class="el" href="../../dc/df9/Kernel_2include_2printf_8h.html#a77dac04ed12a16543832b623c7778729">sprintf()</a>, and <a class="el" href="../../dc/de5/random_8c_source.html#l00025">x</a>.</p>
 
 </div>
 </div>

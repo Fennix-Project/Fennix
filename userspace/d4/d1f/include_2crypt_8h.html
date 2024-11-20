@@ -174,16 +174,14 @@ initialized</td>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">     * purely to meet the public API requirements of the crypt_r</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">     * function; the implementation of crypt_r uses the object</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">     * purely as a char buffer. */</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">char</span> <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>[128];</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d7/d92/crypt__r_8c.html#a2d034fcac85c1b987c60ce122e77d757">__crypt_r</a>(key, salt, (<span class="keyword">struct</span> <a class="code" href="../../d4/d1f/include_2crypt_8h.html#dd/d3e/structcrypt__data">crypt_data</a> *)<a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">char</span> <a class="code" href="../../da/da9/setlocale_8c.html#a9375469e25223d13fe7c2facb5c319f7">buf</a>[128];</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d7/d92/crypt__r_8c.html#a2d034fcac85c1b987c60ce122e77d757">__crypt_r</a>(key, salt, (<span class="keyword">struct</span> <a class="code" href="../../d4/d1f/include_2crypt_8h.html#dd/d3e/structcrypt__data">crypt_data</a> *)<a class="code" href="../../da/da9/setlocale_8c.html#a9375469e25223d13fe7c2facb5c319f7">buf</a>);</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
-<div class="ttc" id="aapps_2base_2busybox_2coreutils_2stat_8c_html_aa29b866765bdc5bdf87b7eb666d66093"><div class="ttname"><a href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a></div><div class="ttdeci">#define buf</div></div>
 <div class="ttc" id="acrypt__r_8c_html_a2d034fcac85c1b987c60ce122e77d757"><div class="ttname"><a href="../../d7/d92/crypt__r_8c.html#a2d034fcac85c1b987c60ce122e77d757">__crypt_r</a></div><div class="ttdeci">char * __crypt_r(const char *key, const char *salt, struct crypt_data *data)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d92/crypt__r_8c_source.html#l00003">crypt_r.c:3</a></div></div>
 <div class="ttc" id="ainclude_2crypt_8h_html_dd/d3e/structcrypt__data"><div class="ttname"><a href="../../d4/d1f/include_2crypt_8h.html#dd/d3e/structcrypt__data">crypt_data</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1f/include_2crypt_8h_source.html#l00008">crypt.h:8</a></div></div>
+<div class="ttc" id="asetlocale_8c_html_a9375469e25223d13fe7c2facb5c319f7"><div class="ttname"><a href="../../da/da9/setlocale_8c.html#a9375469e25223d13fe7c2facb5c319f7">buf</a></div><div class="ttdeci">static char buf[LC_ALL *(LOCALE_NAME_MAX+1)]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/da9/setlocale_8c_source.html#l00008">setlocale.c:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d92/crypt__r_8c_source.html#l00003">__crypt_r()</a>, and <a class="el" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d47/pw__encrypt_8c_source.html#l00154">pw_encrypt()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d92/crypt__r_8c_source.html#l00003">__crypt_r()</a>, and <a class="el" href="../../da/da9/setlocale_8c_source.html#l00008">buf</a>.</p>
 
 </div>
 </div>

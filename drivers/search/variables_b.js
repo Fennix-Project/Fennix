@@ -1,18 +1,17 @@
 var searchData=
 [
-  ['majorid_864',['MajorID',['../dc/dec/struct____driverAPI.html#a8bd4335fbc498d8f9a3f86e7f4e33cc5',1,'__driverAPI']]],
-  ['mappages_865',['MapPages',['../dc/dec/struct____driverAPI.html#a9bb1b7ebb0dfa416bdf4752dc069d46b',1,'__driverAPI']]],
-  ['maxlatency_866',['MaxLatency',['../d9/d97/pci_8h.html#a753c2d858d0da969c33264c1b58807d3',1,'__attribute__']]],
-  ['memcmp_867',['memcmp',['../dc/dec/struct____driverAPI.html#af11234efd6d97f409cbe965b2c4a9a99',1,'__driverAPI']]],
-  ['memcpy_868',['memcpy',['../dc/dec/struct____driverAPI.html#a959d7138f966d44866a5302b88065190',1,'__driverAPI']]],
-  ['memmove_869',['memmove',['../dc/dec/struct____driverAPI.html#aefd60063ec8abe7c94ab6f207e35aaf0',1,'__driverAPI']]],
-  ['memorybase_870',['MemoryBase',['../d9/d97/pci_8h.html#a12988ca39a1411705fc1ec07e911ea9e',1,'__attribute__']]],
-  ['memorybase0_871',['MemoryBase0',['../d9/d97/pci_8h.html#aa0e9d3dfe23309d12ac53048d78612e9',1,'__attribute__']]],
-  ['memorybase1_872',['MemoryBase1',['../d9/d97/pci_8h.html#a584e418589203e608af0af71bb48b9a1',1,'__attribute__']]],
-  ['memorylimit_873',['MemoryLimit',['../d9/d97/pci_8h.html#a841b9fdcd76addc908b450866a648847',1,'__attribute__']]],
-  ['memorylimit0_874',['MemoryLimit0',['../d9/d97/pci_8h.html#a2aeb8ff897f63e59cee035a4ddf70e5f',1,'__attribute__']]],
-  ['memorylimit1_875',['MemoryLimit1',['../d9/d97/pci_8h.html#a70ef8fb79e3d95888ff16d99d7bb5d8d',1,'__attribute__']]],
-  ['memset_876',['memset',['../dc/dec/struct____driverAPI.html#a6987a7cd741582f931babb0a05f8fc34',1,'__driverAPI']]],
-  ['middlebutton_877',['MiddleButton',['../dc/ded/mouse_8h.html#a7f194284481c61912ad0d0fb8f525439',1,'mouse.h']]],
-  ['mingrant_878',['MinGrant',['../d9/d97/pci_8h.html#a4a8682f61f08539e609d9ca0bda44ea6',1,'__attribute__']]]
+  ['major_994',['Major',['../db/de4/driver_8h.html#a662fb62393b6fd7d7ec85f502db44247',1,'__DriverInfo::__DriverVersion']]],
+  ['maxlatency_995',['MaxLatency',['../d9/d97/pci_8h.html#a753c2d858d0da969c33264c1b58807d3',1,'__attribute__']]],
+  ['memorybase_996',['MemoryBase',['../d9/d97/pci_8h.html#a12988ca39a1411705fc1ec07e911ea9e',1,'__attribute__']]],
+  ['memorybase0_997',['MemoryBase0',['../d9/d97/pci_8h.html#aa0e9d3dfe23309d12ac53048d78612e9',1,'__attribute__']]],
+  ['memorybase1_998',['MemoryBase1',['../d9/d97/pci_8h.html#a584e418589203e608af0af71bb48b9a1',1,'__attribute__']]],
+  ['memorylimit_999',['MemoryLimit',['../d9/d97/pci_8h.html#a841b9fdcd76addc908b450866a648847',1,'__attribute__']]],
+  ['memorylimit0_1000',['MemoryLimit0',['../d9/d97/pci_8h.html#a2aeb8ff897f63e59cee035a4ddf70e5f',1,'__attribute__']]],
+  ['memorylimit1_1001',['MemoryLimit1',['../d9/d97/pci_8h.html#a70ef8fb79e3d95888ff16d99d7bb5d8d',1,'__attribute__']]],
+  ['middlebutton_1002',['MiddleButton',['../de/ded/input_8h.html#a66947db99db5c8ea44a2b070140f1ef3',1,'MouseReport::MiddleButton()'],['../d1/de1/aip_8h.html#a7f194284481c61912ad0d0fb8f525439',1,'MiddleButton():&#160;aip.h'],['../dc/ded/mouse_8h.html#a7f194284481c61912ad0d0fb8f525439',1,'MiddleButton():&#160;mouse.h']]],
+  ['mingrant_1003',['MinGrant',['../d9/d97/pci_8h.html#a4a8682f61f08539e609d9ca0bda44ea6',1,'__attribute__']]],
+  ['minor_1004',['Minor',['../db/de4/driver_8h.html#a3f96d16fb3c6015ab7e0049f6e18834b',1,'__DriverInfo::__DriverVersion']]],
+  ['mkdir_1005',['MkDir',['../db/de6/structInodeOperations.html#a490a002f55d3f99697641d2de8e62ae9',1,'InodeOperations::MkDir()'],['../df/d26/fs_8h.html#a3fbe554d6691bfb88f5b700eb5e2205f',1,'MkDir():&#160;fs.h']]],
+  ['mode_1006',['Mode',['../df/d26/fs_8h.html#af45191ed8ad28ab7a58ee02287609808',1,'kstat::Mode()'],['../df/d26/fs_8h.html#a667a06765053832b0e364d352d331481',1,'Inode::Mode()']]],
+  ['modifytime_1007',['ModifyTime',['../df/d26/fs_8h.html#a9f1f01620d0175f71eff75e384cd9042',1,'kstat']]]
 ];

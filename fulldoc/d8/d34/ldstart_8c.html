@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d8/d34/ldstart_8c.html','../../'); ini
 Functions</h2></td></tr>
 <tr class="memitem:a5b0904b77d30464b9f5b6a976e6f0354"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d34/ldstart_8c.html#a5b0904b77d30464b9f5b6a976e6f0354">__attribute__</a> ((naked, used, no_stack_protector))</td></tr>
 <tr class="separator:a5b0904b77d30464b9f5b6a976e6f0354"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad847d936639f9d68db8792d4be7a79a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d34/ldstart_8c.html#ad847d936639f9d68db8792d4be7a79a1">_exit</a> (int <a class="el" href="../../d6/dd0/gzip_8c.html#a068e76e6034d06450385bc98b69ea53e">Code</a>)</td></tr>
+<tr class="memitem:ad847d936639f9d68db8792d4be7a79a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d34/ldstart_8c.html#ad847d936639f9d68db8792d4be7a79a1">_exit</a> (int Code)</td></tr>
 <tr class="separator:ad847d936639f9d68db8792d4be7a79a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,7 +109,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a> </td>
+          <td class="memname">void <a class="el" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a> </td>
           <td>(</td>
           <td class="paramtype">(naked, used, no_stack_protector)&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -170,16 +170,15 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="../../d3/dfc/aarch64_2crt__arch_8h.html#a5ca5c7b25f3542384caad5c6fecf0ec1">__asm__</a> __volatile__(<span class="stringliteral">&quot;syscall&quot;</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                         :</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                         : <span class="stringliteral">&quot;a&quot;</span>(0), <span class="stringliteral">&quot;D&quot;</span>(<a class="code" href="../../d6/dd0/gzip_8c.html#a068e76e6034d06450385bc98b69ea53e">Code</a>)</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                         : <span class="stringliteral">&quot;a&quot;</span>(0), <span class="stringliteral">&quot;D&quot;</span>(Code)</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                         : <span class="stringliteral">&quot;rcx&quot;</span>, <span class="stringliteral">&quot;r11&quot;</span>, <span class="stringliteral">&quot;memory&quot;</span>);</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">while</span> (1)</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        ;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
-<div class="ttc" id="agzip_8c_html_a068e76e6034d06450385bc98b69ea53e"><div class="ttname"><a href="../../d6/dd0/gzip_8c.html#a068e76e6034d06450385bc98b69ea53e">Code</a></div><div class="ttdeci">#define Code</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd0/gzip_8c_source.html#l00963">gzip.c:963</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/dfc/aarch64_2crt__arch_8h.html#a5ca5c7b25f3542384caad5c6fecf0ec1">__asm__()</a>, and <a class="el" href="../../d6/dd0/gzip_8c_source.html#l00963">Code</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/dfc/aarch64_2crt__arch_8h.html#a5ca5c7b25f3542384caad5c6fecf0ec1">__asm__()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/db0/libc_2src_2setjmp_8c_source.html#l00008">__attribute__()</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l01797">__dls3()</a>, <a class="el" href="../../df/d6d/xfuncs_8c_source.html#l00432">_exit_SUCCESS()</a>, <a class="el" href="../../d1/d0c/posix__spawn_8c_source.html#l00031">child()</a>, <a class="el" href="../../dc/d21/daemon_8c_source.html#l00005">daemon()</a>, <a class="el" href="../../d8/dbe/wordexp_8c_source.html#l00026">do_wordexp()</a>, <a class="el" href="../../d7/d17/ifupdown_8c_source.html#l01153">doit()</a>, <a class="el" href="../../d6/d90/hush_8c_source.html#l08455">exec_builtin()</a>, <a class="el" href="../../d0/d43/mconf_8c_source.html#l00462">exec_conf()</a>, <a class="el" href="../../d6/d90/hush_8c_source.html#l08480">execvp_or_die()</a>, <a class="el" href="../../de/dd7/lib_8c_source.html#l00021">exit()</a>, <a class="el" href="../../d5/daf/open__transformer_8c_source.html#l00105">fork_transformer()</a>, <a class="el" href="../../d8/deb/forkpty_8c_source.html#l00009">forkpty()</a>, <a class="el" href="../../d3/df5/ftpd_8c_source.html#l01173">ftpd_main()</a>, <a class="el" href="../../d8/d28/more_8c_source.html#l00062">gotsig()</a>, <a class="el" href="../../d1/de7/httpd_8c_source.html#l02180">handle_incoming_and_exit()</a>, <a class="el" href="../../d6/d90/hush_8c_source.html#l02075">hush_exit()</a>, <a class="el" href="../../d6/d90/hush_8c_source.html#l10227">hush_main()</a>, <a class="el" href="../../dc/d37/inetd_8c_source.html#l01215">inetd_main()</a>, <a class="el" href="../../d3/db2/busybox_2libbb_2signals_8c_source.html#l00104">kill_myself_with_sig()</a>, <a class="el" href="../../d1/de7/httpd_8c_source.html#l01054">log_and_exit()</a>, <a class="el" href="../../d7/def/telnetd_8c_source.html#l00428">make_new_session()</a>, <a class="el" href="../../d7/df1/resize_8c_source.html#l00045">onintr()</a>, <a class="el" href="../../d3/df5/ftpd_8c_source.html#l00677">popen_ls()</a>, <a class="el" href="../../d4/d7c/svlogd_8c_source.html#l00392">processorstart()</a>, <a class="el" href="../../d6/d90/hush_8c_source.html#l08759">pseudo_exec()</a>, <a class="el" href="../../d0/de2/base_2busybox_2init_2init_8c_source.html#l00479">run()</a>, <a class="el" href="../../d6/d90/hush_8c_source.html#l09232">run_pipe()</a>, <a class="el" href="../../d6/d90/hush_8c_source.html#l07749">setup_heredoc()</a>, <a class="el" href="../../d5/dc2/vfork__daemon__rexec_8c_source.html#l00176">spawn()</a>, and <a class="el" href="../../d9/dd6/xfuncs__printf_8c_source.html#l00699">xvfork_parent_waits_and_exits()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/db0/libc_2src_2setjmp_8c_source.html#l00008">__attribute__()</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l01797">__dls3()</a>, <a class="el" href="../../d1/d0c/posix__spawn_8c_source.html#l00031">child()</a>, <a class="el" href="../../dc/d21/daemon_8c_source.html#l00005">daemon()</a>, <a class="el" href="../../d8/dbe/wordexp_8c_source.html#l00026">do_wordexp()</a>, <a class="el" href="../../de/dd7/lib_8c_source.html#l00021">exit()</a>, and <a class="el" href="../../d8/deb/forkpty_8c_source.html#l00009">forkpty()</a>.</p>
 
 </div>
 </div>

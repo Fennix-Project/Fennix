@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('db/d4f/ftime_8c.html','../../'); initR
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad225ab16a149ff9aab8fb5c36f29ca0c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4f/ftime_8c.html#ad225ab16a149ff9aab8fb5c36f29ca0c">ftime</a> (struct <a class="el" href="../../d6/dc5/timeb_8h.html#d5/d69/structtimeb">timeb</a> *<a class="el" href="../../d4/dc4/bash_2expr_8c.html#a48eb585a5cc3f2f35661183d9e54a87b">tp</a>)</td></tr>
+<tr class="memitem:ad225ab16a149ff9aab8fb5c36f29ca0c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d4f/ftime_8c.html#ad225ab16a149ff9aab8fb5c36f29ca0c">ftime</a> (struct <a class="el" href="../../d6/dc5/timeb_8h.html#d5/d69/structtimeb">timeb</a> *tp)</td></tr>
 <tr class="separator:ad225ab16a149ff9aab8fb5c36f29ca0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -120,17 +120,19 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/d4f/ftime_8c_source.html#l00004">4</a> of file <a class="el" href="../../db/d4f/ftime_8c_source.html">ftime.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a> ts;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keyword">struct </span>timespec ts;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    clock_gettime(CLOCK_REALTIME, &amp;ts);</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../d4/dc4/bash_2expr_8c.html#a48eb585a5cc3f2f35661183d9e54a87b">tp</a>-&gt;time = ts.tv_sec;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../d4/dc4/bash_2expr_8c.html#a48eb585a5cc3f2f35661183d9e54a87b">tp</a>-&gt;millitm = ts.tv_nsec / 1000000;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="../../d4/dc4/bash_2expr_8c.html#a48eb585a5cc3f2f35661183d9e54a87b">tp</a>-&gt;timezone = <a class="code" href="../../d4/dc4/bash_2expr_8c.html#a48eb585a5cc3f2f35661183d9e54a87b">tp</a>-&gt;dstflag = 0;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    tp-&gt;<a class="code" href="../../d6/dc5/timeb_8h.html#a6f298f9fb1327aba639d457f2989b859">time</a> = ts.tv_sec;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    tp-&gt;<a class="code" href="../../d6/dc5/timeb_8h.html#aa459454ab48c84566d6b1fa72bafebe7">millitm</a> = ts.tv_nsec / 1000000;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    tp-&gt;<a class="code" href="../../d6/dc5/timeb_8h.html#aa1c6a12ca2a9150c5002bdfb0331bf0b">timezone</a> = tp-&gt;<a class="code" href="../../d6/dc5/timeb_8h.html#a951ede614d33eed486224c381df15f4e">dstflag</a> = 0;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
-<div class="ttc" id="abash_2expr_8c_html_a48eb585a5cc3f2f35661183d9e54a87b"><div class="ttname"><a href="../../d4/dc4/bash_2expr_8c.html#a48eb585a5cc3f2f35661183d9e54a87b">tp</a></div><div class="ttdeci">static char * tp</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dc4/bash_2expr_8c_source.html#l00168">expr.c:168</a></div></div>
-<div class="ttc" id="astat-time_8h_html_da/d1c/structtimespec"><div class="ttname"><a href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d79/stat-time_8h_source.html#l00034">stat-time.h:35</a></div></div>
+<div class="ttc" id="atimeb_8h_html_a6f298f9fb1327aba639d457f2989b859"><div class="ttname"><a href="../../d6/dc5/timeb_8h.html#a6f298f9fb1327aba639d457f2989b859">timeb::time</a></div><div class="ttdeci">time_t time</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc5/timeb_8h_source.html#l00014">timeb.h:14</a></div></div>
+<div class="ttc" id="atimeb_8h_html_a951ede614d33eed486224c381df15f4e"><div class="ttname"><a href="../../d6/dc5/timeb_8h.html#a951ede614d33eed486224c381df15f4e">timeb::dstflag</a></div><div class="ttdeci">short dstflag</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc5/timeb_8h_source.html#l00016">timeb.h:16</a></div></div>
+<div class="ttc" id="atimeb_8h_html_aa1c6a12ca2a9150c5002bdfb0331bf0b"><div class="ttname"><a href="../../d6/dc5/timeb_8h.html#aa1c6a12ca2a9150c5002bdfb0331bf0b">timeb::timezone</a></div><div class="ttdeci">short timezone</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc5/timeb_8h_source.html#l00016">timeb.h:16</a></div></div>
+<div class="ttc" id="atimeb_8h_html_aa459454ab48c84566d6b1fa72bafebe7"><div class="ttname"><a href="../../d6/dc5/timeb_8h.html#aa459454ab48c84566d6b1fa72bafebe7">timeb::millitm</a></div><div class="ttdeci">unsigned short millitm</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc5/timeb_8h_source.html#l00015">timeb.h:15</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/dc4/bash_2expr_8c_source.html#l00168">tp</a>, <a class="el" href="../../de/d79/stat-time_8h_source.html#l00037">timespec::tv_nsec</a>, and <a class="el" href="../../de/d79/stat-time_8h_source.html#l00036">timespec::tv_sec</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/dc5/timeb_8h_source.html#l00016">timeb::dstflag</a>, <a class="el" href="../../d6/dc5/timeb_8h_source.html#l00015">timeb::millitm</a>, <a class="el" href="../../d6/dc5/timeb_8h_source.html#l00014">timeb::time</a>, and <a class="el" href="../../d6/dc5/timeb_8h_source.html#l00016">timeb::timezone</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d1b/ftime32_8c_source.html#l00012">__ftime32()</a>.</p>
 

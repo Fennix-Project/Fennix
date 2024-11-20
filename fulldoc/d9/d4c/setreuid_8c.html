@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('d9/d4c/setreuid_8c.html','../../'); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0c1be1c8a11bac9cdf41613e996c841b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4c/setreuid_8c.html#a0c1be1c8a11bac9cdf41613e996c841b">setreuid</a> (uid_t <a class="el" href="../../db/d04/bash_2examples_2loadables_2id_8c.html#a20e62eae2ae58f89b421a0db8cfce04d">ruid</a>, uid_t <a class="el" href="../../db/d04/bash_2examples_2loadables_2id_8c.html#ad6f2829bdccd287271b1cfbb41dd364b">euid</a>)</td></tr>
+<tr class="memitem:a0c1be1c8a11bac9cdf41613e996c841b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4c/setreuid_8c.html#a0c1be1c8a11bac9cdf41613e996c841b">setreuid</a> (uid_t ruid, uid_t euid)</td></tr>
 <tr class="separator:a0c1be1c8a11bac9cdf41613e996c841b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -131,13 +131,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d4c/setreuid_8c_source.html#l00005">5</a> of file <a class="el" href="../../d9/d4c/setreuid_8c_source.html">setreuid.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dc8/libc_8h.html#a57d106d4d5e5d53aa35aa75bf3efa8b8">__setxid</a>(SYS_setreuid, <a class="code" href="../../db/d04/bash_2examples_2loadables_2id_8c.html#a20e62eae2ae58f89b421a0db8cfce04d">ruid</a>, <a class="code" href="../../db/d04/bash_2examples_2loadables_2id_8c.html#ad6f2829bdccd287271b1cfbb41dd364b">euid</a>, 0);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dc8/libc_8h.html#a57d106d4d5e5d53aa35aa75bf3efa8b8">__setxid</a>(SYS_setreuid, ruid, euid, 0);</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
-<div class="ttc" id="abash_2examples_2loadables_2id_8c_html_a20e62eae2ae58f89b421a0db8cfce04d"><div class="ttname"><a href="../../db/d04/bash_2examples_2loadables_2id_8c.html#a20e62eae2ae58f89b421a0db8cfce04d">ruid</a></div><div class="ttdeci">static uid_t ruid</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d04/bash_2examples_2loadables_2id_8c_source.html#l00064">id.c:64</a></div></div>
-<div class="ttc" id="abash_2examples_2loadables_2id_8c_html_ad6f2829bdccd287271b1cfbb41dd364b"><div class="ttname"><a href="../../db/d04/bash_2examples_2loadables_2id_8c.html#ad6f2829bdccd287271b1cfbb41dd364b">euid</a></div><div class="ttdeci">static uid_t euid</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d04/bash_2examples_2loadables_2id_8c_source.html#l00064">id.c:64</a></div></div>
 <div class="ttc" id="alibc_8h_html_a57d106d4d5e5d53aa35aa75bf3efa8b8"><div class="ttname"><a href="../../db/dc8/libc_8h.html#a57d106d4d5e5d53aa35aa75bf3efa8b8">__setxid</a></div><div class="ttdeci">hidden int __setxid(int, int, int, int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd6/setxid_8c_source.html#l00027">setxid.c:27</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/dd6/setxid_8c_source.html#l00027">__setxid()</a>, <a class="el" href="../../db/d04/bash_2examples_2loadables_2id_8c_source.html#l00064">euid</a>, and <a class="el" href="../../db/d04/bash_2examples_2loadables_2id_8c_source.html#l00064">ruid</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/dd6/setxid_8c_source.html#l00027">__setxid()</a>.</p>
 
 </div>
 </div>

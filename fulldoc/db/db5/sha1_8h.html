@@ -106,20 +106,20 @@ Data Structures</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:a6d5749c448bbbef6366c244c10de94e3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="../../db/db5/sha1_8h.html#dc/db7/structsha1__context__s">sha1_context_s</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db5/sha1_8h.html#a6d5749c448bbbef6366c244c10de94e3">sha1_context_t</a></td></tr>
 <tr class="separator:a6d5749c448bbbef6366c244c10de94e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa02f074ed4318921d4afb353a7e27a4d"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d6/d8c/telnet_8c.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db5/sha1_8h.html#aa02f074ed4318921d4afb353a7e27a4d">sha1_digest_t</a>[20]</td></tr>
+<tr class="memitem:aa02f074ed4318921d4afb353a7e27a4d"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d8/d3a/doomtype_8h.html#ab8ef12fab634c171394422d0ee8baf94">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db5/sha1_8h.html#aa02f074ed4318921d4afb353a7e27a4d">sha1_digest_t</a>[20]</td></tr>
 <tr class="separator:aa02f074ed4318921d4afb353a7e27a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a7effbb825ef93a5a1fab31cc0688f231"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db5/sha1_8h.html#a7effbb825ef93a5a1fab31cc0688f231">SHA1_Init</a> (<a class="el" href="../../db/db5/sha1_8h.html#a6d5749c448bbbef6366c244c10de94e3">sha1_context_t</a> *<a class="el" href="../../d5/d9c/synccall_8c.html#a80b5baa21c4be05f9e4f1ad0b7ff16d5">context</a>)</td></tr>
 <tr class="separator:a7effbb825ef93a5a1fab31cc0688f231"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb2a4819530daaab3289de52ee853022"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db5/sha1_8h.html#acb2a4819530daaab3289de52ee853022">SHA1_Update</a> (<a class="el" href="../../db/db5/sha1_8h.html#a6d5749c448bbbef6366c244c10de94e3">sha1_context_t</a> *<a class="el" href="../../d5/d9c/synccall_8c.html#a80b5baa21c4be05f9e4f1ad0b7ff16d5">context</a>, <a class="el" href="../../d6/d8c/telnet_8c.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a> *<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>)</td></tr>
+<tr class="memitem:acb2a4819530daaab3289de52ee853022"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db5/sha1_8h.html#acb2a4819530daaab3289de52ee853022">SHA1_Update</a> (<a class="el" href="../../db/db5/sha1_8h.html#a6d5749c448bbbef6366c244c10de94e3">sha1_context_t</a> *<a class="el" href="../../d5/d9c/synccall_8c.html#a80b5baa21c4be05f9e4f1ad0b7ff16d5">context</a>, <a class="el" href="../../d8/d3a/doomtype_8h.html#ab8ef12fab634c171394422d0ee8baf94">byte</a> *<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>)</td></tr>
 <tr class="separator:acb2a4819530daaab3289de52ee853022"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cf9015d9959dee2b3f2524c25b118db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db5/sha1_8h.html#a4cf9015d9959dee2b3f2524c25b118db">SHA1_Final</a> (<a class="el" href="../../db/db5/sha1_8h.html#aa02f074ed4318921d4afb353a7e27a4d">sha1_digest_t</a> digest, <a class="el" href="../../db/db5/sha1_8h.html#a6d5749c448bbbef6366c244c10de94e3">sha1_context_t</a> *<a class="el" href="../../d5/d9c/synccall_8c.html#a80b5baa21c4be05f9e4f1ad0b7ff16d5">context</a>)</td></tr>
 <tr class="separator:a4cf9015d9959dee2b3f2524c25b118db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44ec3f15e65968a50a14cc6d358174f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db5/sha1_8h.html#a44ec3f15e65968a50a14cc6d358174f1">SHA1_UpdateInt32</a> (<a class="el" href="../../db/db5/sha1_8h.html#a6d5749c448bbbef6366c244c10de94e3">sha1_context_t</a> *<a class="el" href="../../d5/d9c/synccall_8c.html#a80b5baa21c4be05f9e4f1ad0b7ff16d5">context</a>, unsigned int <a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>)</td></tr>
+<tr class="memitem:a44ec3f15e65968a50a14cc6d358174f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db5/sha1_8h.html#a44ec3f15e65968a50a14cc6d358174f1">SHA1_UpdateInt32</a> (<a class="el" href="../../db/db5/sha1_8h.html#a6d5749c448bbbef6366c244c10de94e3">sha1_context_t</a> *<a class="el" href="../../d5/d9c/synccall_8c.html#a80b5baa21c4be05f9e4f1ad0b7ff16d5">context</a>, unsigned int val)</td></tr>
 <tr class="separator:a44ec3f15e65968a50a14cc6d358174f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af013ef08c375b6d0526dcd21fc1ed789"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db5/sha1_8h.html#af013ef08c375b6d0526dcd21fc1ed789">SHA1_UpdateString</a> (<a class="el" href="../../db/db5/sha1_8h.html#a6d5749c448bbbef6366c244c10de94e3">sha1_context_t</a> *<a class="el" href="../../d5/d9c/synccall_8c.html#a80b5baa21c4be05f9e4f1ad0b7ff16d5">context</a>, char *<a class="el" href="../../de/d72/hash-string_8h.html#a537825d894fc8d6a786f28a99ce8af2c">str</a>)</td></tr>
+<tr class="memitem:af013ef08c375b6d0526dcd21fc1ed789"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/db5/sha1_8h.html#af013ef08c375b6d0526dcd21fc1ed789">SHA1_UpdateString</a> (<a class="el" href="../../db/db5/sha1_8h.html#a6d5749c448bbbef6366c244c10de94e3">sha1_context_t</a> *<a class="el" href="../../d5/d9c/synccall_8c.html#a80b5baa21c4be05f9e4f1ad0b7ff16d5">context</a>, char *str)</td></tr>
 <tr class="separator:af013ef08c375b6d0526dcd21fc1ed789"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
@@ -139,7 +139,7 @@ Functions</h2></td></tr>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="af204ded4552ac8a634654403992be3dd"></a><a class="el" href="../../d6/d8c/telnet_8c.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a></td>
+<a id="af204ded4552ac8a634654403992be3dd"></a><a class="el" href="../../d8/d3a/doomtype_8h.html#ab8ef12fab634c171394422d0ee8baf94">byte</a></td>
 <td class="fieldname">
 buf[64]</td>
 <td class="fielddoc">
@@ -214,7 +214,7 @@ nblocks</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d6/d8c/telnet_8c.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a> sha1_digest_t[20]</td>
+          <td class="memname">typedef <a class="el" href="../../d8/d3a/doomtype_8h.html#ab8ef12fab634c171394422d0ee8baf94">byte</a> sha1_digest_t[20]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -252,24 +252,24 @@ nblocks</td>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/d24/sha1_8c_source.html#l00238">238</a> of file <a class="el" href="../../d2/d24/sha1_8c_source.html">sha1.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;{</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> <a class="code" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>, msb, lsb;</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <span class="keywordtype">byte</span> *<a class="code" href="../../d8/d64/glob__loop_8c.html#ac483f6ce851c9ecd9fb835ff7551737c">p</a>;</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> t, msb, lsb;</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <span class="keywordtype">byte</span> *<a class="code" href="../../df/d55/userspace__test_8c.html#a83de08c56df151f990dc392523079284">p</a>;</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160; </div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <a class="code" href="../../d2/d24/sha1_8c.html#a8e373dc17579769f07f1a1438ae8a627">SHA1_Update</a>(hd, <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, 0); <span class="comment">/* flush */</span>;</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160; </div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    <a class="code" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a> = hd-&gt;nblocks;</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    t = hd-&gt;nblocks;</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="comment">/* multiply by 64 to make a byte count */</span></div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    lsb = <a class="code" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a> &lt;&lt; 6;</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    msb = <a class="code" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a> &gt;&gt; 26;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    lsb = t &lt;&lt; 6;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    msb = t &gt;&gt; 26;</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <span class="comment">/* add the count */</span></div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <a class="code" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a> = lsb;</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keywordflow">if</span> ((lsb += hd-&gt;count) &lt; <a class="code" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>)</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    t = lsb;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keywordflow">if</span> ((lsb += hd-&gt;count) &lt; t)</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    msb++;</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <span class="comment">/* multiply by 8 to make a bit count */</span></div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <a class="code" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a> = lsb;</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    t = lsb;</div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    lsb &lt;&lt;= 3;</div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    msb &lt;&lt;= 3;</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    msb |= <a class="code" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a> &gt;&gt; 29;</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    msb |= t &gt;&gt; 29;</div>
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160; </div>
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <span class="keywordflow">if</span> (hd-&gt;count &lt; 56)</div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    {</div>
@@ -298,7 +298,7 @@ nblocks</td>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    hd-&gt;buf[63] = lsb      ;</div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    <a class="code" href="../../d2/d24/sha1_8c.html#a157347729497172c4d5a1561920845f1">Transform</a>(hd, hd-&gt;buf);</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160; </div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    <a class="code" href="../../d8/d64/glob__loop_8c.html#ac483f6ce851c9ecd9fb835ff7551737c">p</a> = hd-&gt;buf;</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    <a class="code" href="../../df/d55/userspace__test_8c.html#a83de08c56df151f990dc392523079284">p</a> = hd-&gt;buf;</div>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="preprocessor">#ifdef SYS_BIG_ENDIAN</span></div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="preprocessor">#define X(a) do { *(uint32_t*)p = hd-&gt;h##a ; p += 4; } while(0)</span></div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="preprocessor">#else </span><span class="comment">/* little endian */</span><span class="preprocessor"></span></div>
@@ -314,18 +314,17 @@ nblocks</td>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160; </div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    <a class="code" href="../../d3/d82/convert_8h.html#a309e07aa23e76adc2ad0830978663c45">memcpy</a>(digest, hd-&gt;buf, <span class="keyword">sizeof</span>(<a class="code" href="../../db/db5/sha1_8h.html#aa02f074ed4318921d4afb353a7e27a4d">sha1_digest_t</a>));</div>
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;}</div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00037">types.h:37</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00039">types.h:39</a></div></div>
 <div class="ttc" id="aarithmetic__operations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddd/arithmetic__operations_8c_source.html#l00295">arithmetic_operations.c:295</a></div></div>
-<div class="ttc" id="aconvert_8h_html_a309e07aa23e76adc2ad0830978663c45"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a309e07aa23e76adc2ad0830978663c45">memcpy</a></div><div class="ttdeci">#define memcpy(dest, src, n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d82/convert_8h_source.html#l00125">convert.h:125</a></div></div>
-<div class="ttc" id="aconvert_8h_html_ac72cd3c233680f95fd1d168a22c912ad"><div class="ttname"><a href="../../d3/d82/convert_8h.html#ac72cd3c233680f95fd1d168a22c912ad">memset</a></div><div class="ttdeci">#define memset(dest, c, n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d82/convert_8h_source.html#l00129">convert.h:129</a></div></div>
-<div class="ttc" id="aglob__loop_8c_html_ac483f6ce851c9ecd9fb835ff7551737c"><div class="ttname"><a href="../../d8/d64/glob__loop_8c.html#ac483f6ce851c9ecd9fb835ff7551737c">p</a></div><div class="ttdeci">p</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d64/glob__loop_8c_source.html#l00031">glob_loop.c:31</a></div></div>
-<div class="ttc" id="agm__loop_8c_html_ac310d9181e916ba43604099aee272c71"><div class="ttname"><a href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a></div><div class="ttdeci">int t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dec/gm__loop_8c_source.html#l00079">gm_loop.c:79</a></div></div>
+<div class="ttc" id="aconvert_8h_html_a309e07aa23e76adc2ad0830978663c45"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a309e07aa23e76adc2ad0830978663c45">memcpy</a></div><div class="ttdeci">#define memcpy(dest, src, n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d82/convert_8h_source.html#l00122">convert.h:122</a></div></div>
+<div class="ttc" id="aconvert_8h_html_ac72cd3c233680f95fd1d168a22c912ad"><div class="ttname"><a href="../../d3/d82/convert_8h.html#ac72cd3c233680f95fd1d168a22c912ad">memset</a></div><div class="ttdeci">#define memset(dest, c, n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d82/convert_8h_source.html#l00126">convert.h:126</a></div></div>
 <div class="ttc" id="asha1_8c_html_a157347729497172c4d5a1561920845f1"><div class="ttname"><a href="../../d2/d24/sha1_8c.html#a157347729497172c4d5a1561920845f1">Transform</a></div><div class="ttdeci">static void Transform(sha1_context_t *hd, byte *data)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d24/sha1_8c_source.html#l00055">sha1.c:55</a></div></div>
 <div class="ttc" id="asha1_8c_html_a8e373dc17579769f07f1a1438ae8a627"><div class="ttname"><a href="../../d2/d24/sha1_8c.html#a8e373dc17579769f07f1a1438ae8a627">SHA1_Update</a></div><div class="ttdeci">void SHA1_Update(sha1_context_t *hd, byte *inbuf, size_t inlen)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d24/sha1_8c_source.html#l00198">sha1.c:198</a></div></div>
 <div class="ttc" id="asha1_8c_html_add48b1ce38c3ada11068889d7fa0fad0"><div class="ttname"><a href="../../d2/d24/sha1_8c.html#add48b1ce38c3ada11068889d7fa0fad0">X</a></div><div class="ttdeci">#define X(a)</div></div>
 <div class="ttc" id="asha1_8h_html_aa02f074ed4318921d4afb353a7e27a4d"><div class="ttname"><a href="../../db/db5/sha1_8h.html#aa02f074ed4318921d4afb353a7e27a4d">sha1_digest_t</a></div><div class="ttdeci">byte sha1_digest_t[20]</div><div class="ttdef"><b>Definition:</b> <a href="../../db/db5/sha1_8h_source.html#l00024">sha1.h:24</a></div></div>
+<div class="ttc" id="auserspace__test_8c_html_a83de08c56df151f990dc392523079284"><div class="ttname"><a href="../../df/d55/userspace__test_8c.html#a83de08c56df151f990dc392523079284">p</a></div><div class="ttdeci">struct passwd * p</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d55/userspace__test_8c_source.html#l00129">userspace_test.c:129</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/db5/sha1_8h_source.html#l00029">sha1_context_s::buf</a>, <a class="el" href="../../db/db5/sha1_8h_source.html#l00030">sha1_context_s::count</a>, <a class="el" href="../../d3/d82/convert_8h_source.html#l00125">memcpy</a>, <a class="el" href="../../d3/d82/convert_8h_source.html#l00129">memset</a>, <a class="el" href="../../db/db5/sha1_8h_source.html#l00028">sha1_context_s::nblocks</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00037">NULL</a>, <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00031">p</a>, <a class="el" href="../../d2/d24/sha1_8c_source.html#l00198">SHA1_Update()</a>, <a class="el" href="../../d6/dec/gm__loop_8c_source.html#l00079">t</a>, <a class="el" href="../../d2/d24/sha1_8c_source.html#l00055">Transform()</a>, and <a class="el" href="../../d2/d24/sha1_8c.html#add48b1ce38c3ada11068889d7fa0fad0">X</a>.</p>
+<p class="reference">References <a class="el" href="../../db/db5/sha1_8h_source.html#l00029">sha1_context_s::buf</a>, <a class="el" href="../../db/db5/sha1_8h_source.html#l00030">sha1_context_s::count</a>, <a class="el" href="../../d3/d82/convert_8h_source.html#l00122">memcpy</a>, <a class="el" href="../../d3/d82/convert_8h_source.html#l00126">memset</a>, <a class="el" href="../../db/db5/sha1_8h_source.html#l00028">sha1_context_s::nblocks</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00039">NULL</a>, <a class="el" href="../../df/d55/userspace__test_8c_source.html#l00129">p</a>, <a class="el" href="../../d2/d24/sha1_8c_source.html#l00198">SHA1_Update()</a>, <a class="el" href="../../d2/d24/sha1_8c_source.html#l00055">Transform()</a>, and <a class="el" href="../../d2/d24/sha1_8c.html#add48b1ce38c3ada11068889d7fa0fad0">X</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d3/d5c/w__checksum_8c_source.html#l00068">W_Checksum()</a>.</p>
 
@@ -379,7 +378,7 @@ nblocks</td>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d6/d8c/telnet_8c.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d8/d3a/doomtype_8h.html#ab8ef12fab634c171394422d0ee8baf94">byte</a> *&#160;</td>
           <td class="paramname"><em>buf</em>, </td>
         </tr>
         <tr>
@@ -405,12 +404,12 @@ nblocks</td>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    hd-&gt;count = 0;</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    hd-&gt;nblocks++;</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    }</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../de/dc7/chat_8c.html#aa28364b44ea5d1bde8c124cb01039175">inbuf</a>)</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    <span class="keywordflow">if</span> (!inbuf)</div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <span class="keywordflow">if</span> (hd-&gt;count)</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    {</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <span class="keywordflow">for</span> (; inlen &amp;&amp; hd-&gt;count &lt; 64; inlen--)</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        hd-&gt;buf[hd-&gt;count++] = *<a class="code" href="../../de/dc7/chat_8c.html#aa28364b44ea5d1bde8c124cb01039175">inbuf</a>++;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        hd-&gt;buf[hd-&gt;count++] = *inbuf++;</div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <a class="code" href="../../d2/d24/sha1_8c.html#a8e373dc17579769f07f1a1438ae8a627">SHA1_Update</a>(hd, <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, 0);</div>
 <div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="keywordflow">if</span> (!inlen)</div>
 <div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        <span class="keywordflow">return</span>;</div>
@@ -418,18 +417,17 @@ nblocks</td>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160; </div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <span class="keywordflow">while</span> (inlen &gt;= 64)</div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    {</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <a class="code" href="../../d2/d24/sha1_8c.html#a157347729497172c4d5a1561920845f1">Transform</a>(hd, <a class="code" href="../../de/dc7/chat_8c.html#aa28364b44ea5d1bde8c124cb01039175">inbuf</a>);</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <a class="code" href="../../d2/d24/sha1_8c.html#a157347729497172c4d5a1561920845f1">Transform</a>(hd, inbuf);</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    hd-&gt;count = 0;</div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    hd-&gt;nblocks++;</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    inlen -= 64;</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <a class="code" href="../../de/dc7/chat_8c.html#aa28364b44ea5d1bde8c124cb01039175">inbuf</a> += 64;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    inbuf += 64;</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    }</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <span class="keywordflow">for</span> (; inlen &amp;&amp; hd-&gt;count &lt; 64; inlen--)</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    hd-&gt;buf[hd-&gt;count++] = *<a class="code" href="../../de/dc7/chat_8c.html#aa28364b44ea5d1bde8c124cb01039175">inbuf</a>++;</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    hd-&gt;buf[hd-&gt;count++] = *inbuf++;</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;}</div>
-<div class="ttc" id="achat_8c_html_aa28364b44ea5d1bde8c124cb01039175"><div class="ttname"><a href="../../de/dc7/chat_8c.html#aa28364b44ea5d1bde8c124cb01039175">inbuf</a></div><div class="ttdeci">#define inbuf</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/db5/sha1_8h_source.html#l00029">sha1_context_s::buf</a>, <a class="el" href="../../db/db5/sha1_8h_source.html#l00030">sha1_context_s::count</a>, <a class="el" href="../../de/dc7/chat_8c.html#aa28364b44ea5d1bde8c124cb01039175">inbuf</a>, <a class="el" href="../../db/db5/sha1_8h_source.html#l00028">sha1_context_s::nblocks</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00037">NULL</a>, and <a class="el" href="../../d2/d24/sha1_8c_source.html#l00055">Transform()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/db5/sha1_8h_source.html#l00029">sha1_context_s::buf</a>, <a class="el" href="../../db/db5/sha1_8h_source.html#l00030">sha1_context_s::count</a>, <a class="el" href="../../db/db5/sha1_8h_source.html#l00028">sha1_context_s::nblocks</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00039">NULL</a>, and <a class="el" href="../../d2/d24/sha1_8c_source.html#l00055">Transform()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d2/d24/sha1_8c_source.html#l00238">SHA1_Final()</a>, <a class="el" href="../../d2/d24/sha1_8c_source.html#l00303">SHA1_UpdateInt32()</a>, and <a class="el" href="../../d2/d24/sha1_8c_source.html#l00315">SHA1_UpdateString()</a>.</p>
 
@@ -463,20 +461,19 @@ nblocks</td>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/d24/sha1_8c_source.html#l00303">303</a> of file <a class="el" href="../../d2/d24/sha1_8c_source.html">sha1.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;{</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    <span class="keywordtype">byte</span> <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>[4];</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    <span class="keywordtype">byte</span> <a class="code" href="../../da/da9/setlocale_8c.html#a9375469e25223d13fe7c2facb5c319f7">buf</a>[4];</div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160; </div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>[0] = (<a class="code" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a> &gt;&gt; 24) &amp; 0xff;</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>[1] = (<a class="code" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a> &gt;&gt; 16) &amp; 0xff;</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>[2] = (<a class="code" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a> &gt;&gt; 8) &amp; 0xff;</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>[3] = <a class="code" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a> &amp; 0xff;</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    <a class="code" href="../../da/da9/setlocale_8c.html#a9375469e25223d13fe7c2facb5c319f7">buf</a>[0] = (val &gt;&gt; 24) &amp; 0xff;</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    <a class="code" href="../../da/da9/setlocale_8c.html#a9375469e25223d13fe7c2facb5c319f7">buf</a>[1] = (val &gt;&gt; 16) &amp; 0xff;</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <a class="code" href="../../da/da9/setlocale_8c.html#a9375469e25223d13fe7c2facb5c319f7">buf</a>[2] = (val &gt;&gt; 8) &amp; 0xff;</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <a class="code" href="../../da/da9/setlocale_8c.html#a9375469e25223d13fe7c2facb5c319f7">buf</a>[3] = val &amp; 0xff;</div>
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160; </div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <a class="code" href="../../d2/d24/sha1_8c.html#a8e373dc17579769f07f1a1438ae8a627">SHA1_Update</a>(<a class="code" href="../../d5/d9c/synccall_8c.html#a80b5baa21c4be05f9e4f1ad0b7ff16d5">context</a>, <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, 4);</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <a class="code" href="../../d2/d24/sha1_8c.html#a8e373dc17579769f07f1a1438ae8a627">SHA1_Update</a>(<a class="code" href="../../d5/d9c/synccall_8c.html#a80b5baa21c4be05f9e4f1ad0b7ff16d5">context</a>, <a class="code" href="../../da/da9/setlocale_8c.html#a9375469e25223d13fe7c2facb5c319f7">buf</a>, 4);</div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;}</div>
-<div class="ttc" id="aapps_2base_2busybox_2coreutils_2stat_8c_html_aa29b866765bdc5bdf87b7eb666d66093"><div class="ttname"><a href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a></div><div class="ttdeci">#define buf</div></div>
-<div class="ttc" id="asm__loop_8c_html_acb906433e1289aa1c251dc5057746a88"><div class="ttname"><a href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a></div><div class="ttdeci">INT val</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd4/sm__loop_8c_source.html#l00387">sm_loop.c:385</a></div></div>
+<div class="ttc" id="asetlocale_8c_html_a9375469e25223d13fe7c2facb5c319f7"><div class="ttname"><a href="../../da/da9/setlocale_8c.html#a9375469e25223d13fe7c2facb5c319f7">buf</a></div><div class="ttdeci">static char buf[LC_ALL *(LOCALE_NAME_MAX+1)]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/da9/setlocale_8c_source.html#l00008">setlocale.c:8</a></div></div>
 <div class="ttc" id="asynccall_8c_html_a80b5baa21c4be05f9e4f1ad0b7ff16d5"><div class="ttname"><a href="../../d5/d9c/synccall_8c.html#a80b5baa21c4be05f9e4f1ad0b7ff16d5">context</a></div><div class="ttdeci">static void(*) context)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d9c/synccall_8c_source.html#l00013">synccall.c:13</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, <a class="el" href="../../d5/d9c/synccall_8c_source.html#l00013">context</a>, <a class="el" href="../../d2/d24/sha1_8c_source.html#l00198">SHA1_Update()</a>, and <a class="el" href="../../db/dd4/sm__loop_8c_source.html#l00385">val</a>.</p>
+<p class="reference">References <a class="el" href="../../da/da9/setlocale_8c_source.html#l00008">buf</a>, <a class="el" href="../../d5/d9c/synccall_8c_source.html#l00013">context</a>, and <a class="el" href="../../d2/d24/sha1_8c_source.html#l00198">SHA1_Update()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d3/d5c/w__checksum_8c_source.html#l00057">ChecksumAddLump()</a>.</p>
 
@@ -510,12 +507,11 @@ nblocks</td>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/d24/sha1_8c_source.html#l00315">315</a> of file <a class="el" href="../../d2/d24/sha1_8c_source.html">sha1.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;{</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    <a class="code" href="../../d2/d24/sha1_8c.html#a8e373dc17579769f07f1a1438ae8a627">SHA1_Update</a>(<a class="code" href="../../d5/d9c/synccall_8c.html#a80b5baa21c4be05f9e4f1ad0b7ff16d5">context</a>, (<span class="keywordtype">byte</span> *) <a class="code" href="../../de/d72/hash-string_8h.html#a537825d894fc8d6a786f28a99ce8af2c">str</a>, <a class="code" href="../../d3/d5a/base_8h.html#a57cca470e9dd0a2807b6b1ff3ceda9bb">strlen</a>(<a class="code" href="../../de/d72/hash-string_8h.html#a537825d894fc8d6a786f28a99ce8af2c">str</a>) + 1);</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    <a class="code" href="../../d2/d24/sha1_8c.html#a8e373dc17579769f07f1a1438ae8a627">SHA1_Update</a>(<a class="code" href="../../d5/d9c/synccall_8c.html#a80b5baa21c4be05f9e4f1ad0b7ff16d5">context</a>, (<span class="keywordtype">byte</span> *) str, <a class="code" href="../../d3/d5a/base_8h.html#a57cca470e9dd0a2807b6b1ff3ceda9bb">strlen</a>(str) + 1);</div>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;}</div>
-<div class="ttc" id="abase_8h_html_a57cca470e9dd0a2807b6b1ff3ceda9bb"><div class="ttname"><a href="../../d3/d5a/base_8h.html#a57cca470e9dd0a2807b6b1ff3ceda9bb">strlen</a></div><div class="ttdeci">#define strlen(str)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d5a/base_8h_source.html#l00275">base.h:275</a></div></div>
-<div class="ttc" id="ahash-string_8h_html_a537825d894fc8d6a786f28a99ce8af2c"><div class="ttname"><a href="../../de/d72/hash-string_8h.html#a537825d894fc8d6a786f28a99ce8af2c">str</a></div><div class="ttdeci">const char * str</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d72/hash-string_8h_source.html#l00045">hash-string.h:45</a></div></div>
+<div class="ttc" id="abase_8h_html_a57cca470e9dd0a2807b6b1ff3ceda9bb"><div class="ttname"><a href="../../d3/d5a/base_8h.html#a57cca470e9dd0a2807b6b1ff3ceda9bb">strlen</a></div><div class="ttdeci">#define strlen(str)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d5a/base_8h_source.html#l00285">base.h:285</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/d9c/synccall_8c_source.html#l00013">context</a>, <a class="el" href="../../d2/d24/sha1_8c_source.html#l00198">SHA1_Update()</a>, <a class="el" href="../../de/d72/hash-string_8h_source.html#l00045">str</a>, and <a class="el" href="../../d3/d5a/base_8h_source.html#l00275">strlen</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d9c/synccall_8c_source.html#l00013">context</a>, <a class="el" href="../../d2/d24/sha1_8c_source.html#l00198">SHA1_Update()</a>, and <a class="el" href="../../d3/d5a/base_8h_source.html#l00285">strlen</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d3/d5c/w__checksum_8c_source.html#l00057">ChecksumAddLump()</a>.</p>
 

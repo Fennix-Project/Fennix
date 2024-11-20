@@ -1,6 +1,5 @@
 var keyboard_8hpp =
 [
-    [ "CrashKeyboardDriver", "df/d9a/classCrashKeyboardDriver.html", "df/d9a/classCrashKeyboardDriver" ],
     [ "Keys", "dd/d39/keyboard_8hpp.html#a0ada92b8263d776ca3c779d2a0e031bc", [
       [ "KEY_INVALID", "dd/d39/keyboard_8hpp.html#a0ada92b8263d776ca3c779d2a0e031bca90b0b0f6a79820267fd83f5babf1bd36", null ],
       [ "KEY_D_ESCAPE", "dd/d39/keyboard_8hpp.html#a0ada92b8263d776ca3c779d2a0e031bca2cab1b5f88c092332c922cb550b16fec", null ],
@@ -178,5 +177,6 @@ var keyboard_8hpp =
       [ "KEY_U_KP_PERIOD", "dd/d39/keyboard_8hpp.html#a0ada92b8263d776ca3c779d2a0e031bcaec4ba4a9966b4819a947920b13f2b47d", null ],
       [ "KEY_U_F11", "dd/d39/keyboard_8hpp.html#a0ada92b8263d776ca3c779d2a0e031bcad8a3be4d97d8c47ddee9842c47cdfd14", null ],
       [ "KEY_U_F12", "dd/d39/keyboard_8hpp.html#a0ada92b8263d776ca3c779d2a0e031bcabf27694f8d6aaa7144de0c8d9b3d3521", null ]
-    ] ]
+    ] ],
+    [ "InitializeKeyboards", "dd/d39/keyboard_8hpp.html#a27159ab04d62f8b16065209ccfc8e1ba", null ]
 ];

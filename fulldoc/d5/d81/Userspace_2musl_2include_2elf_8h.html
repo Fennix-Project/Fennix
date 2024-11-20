@@ -205,7 +205,7 @@ Macros</h2></td></tr>
 <tr class="separator:a6237b3c20ffd799df7b9a91ab3bbdff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2884a339ef7aefee59d160ed3fbb1739"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a2884a339ef7aefee59d160ed3fbb1739">EI_MAG2</a>&#160;&#160;&#160;2</td></tr>
 <tr class="separator:a2884a339ef7aefee59d160ed3fbb1739"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ac1b98d78e30ca49e1d3f287939a18f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a8ac1b98d78e30ca49e1d3f287939a18f">ELFMAG2</a>&#160;&#160;&#160;'<a class="el" href="../../d1/df8/smatch_8c.html#a1f82449e0d84122ede24741e7fcfdd22">L</a>'</td></tr>
+<tr class="memitem:a8ac1b98d78e30ca49e1d3f287939a18f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a8ac1b98d78e30ca49e1d3f287939a18f">ELFMAG2</a>&#160;&#160;&#160;'L'</td></tr>
 <tr class="separator:a8ac1b98d78e30ca49e1d3f287939a18f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace03d4c5e8952e27b8505581432c3b84"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#ace03d4c5e8952e27b8505581432c3b84">EI_MAG3</a>&#160;&#160;&#160;3</td></tr>
 <tr class="separator:ace03d4c5e8952e27b8505581432c3b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -819,17 +819,17 @@ Macros</h2></td></tr>
 <tr class="separator:a08571e77d12b9453cdc546032edbd609"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83c9c1edc3f4b26d63f3c0c5068391ed"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a83c9c1edc3f4b26d63f3c0c5068391ed">SYMINFO_NUM</a>&#160;&#160;&#160;2</td></tr>
 <tr class="separator:a83c9c1edc3f4b26d63f3c0c5068391ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52e5d1fe22f9be1ee049f70f8905e229"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a52e5d1fe22f9be1ee049f70f8905e229">ELF32_ST_BIND</a>(<a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>)&#160;&#160;&#160;(((unsigned char) (<a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>)) &gt;&gt; 4)</td></tr>
+<tr class="memitem:a52e5d1fe22f9be1ee049f70f8905e229"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a52e5d1fe22f9be1ee049f70f8905e229">ELF32_ST_BIND</a>(val)&#160;&#160;&#160;(((unsigned char) (val)) &gt;&gt; 4)</td></tr>
 <tr class="separator:a52e5d1fe22f9be1ee049f70f8905e229"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeeca9ca82c92b46ff2758cfd5b7ff9dc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#aeeca9ca82c92b46ff2758cfd5b7ff9dc">ELF32_ST_TYPE</a>(<a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>)&#160;&#160;&#160;((<a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>) &amp; 0xf)</td></tr>
+<tr class="memitem:aeeca9ca82c92b46ff2758cfd5b7ff9dc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#aeeca9ca82c92b46ff2758cfd5b7ff9dc">ELF32_ST_TYPE</a>(val)&#160;&#160;&#160;((val) &amp; 0xf)</td></tr>
 <tr class="separator:aeeca9ca82c92b46ff2758cfd5b7ff9dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc4e291764a8281f7a0e2dab4b5a7a6e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#abc4e291764a8281f7a0e2dab4b5a7a6e">ELF32_ST_INFO</a>(<a class="el" href="../../db/d6e/musl_2src_2network_2bind_8c.html#a2e470da1cfb8f1e0a4b30cbfbbdb76c4">bind</a>,  <a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>)&#160;&#160;&#160;(((<a class="el" href="../../db/d6e/musl_2src_2network_2bind_8c.html#a2e470da1cfb8f1e0a4b30cbfbbdb76c4">bind</a>) &lt;&lt; 4) + ((<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>) &amp; 0xf))</td></tr>
+<tr class="memitem:abc4e291764a8281f7a0e2dab4b5a7a6e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#abc4e291764a8281f7a0e2dab4b5a7a6e">ELF32_ST_INFO</a>(<a class="el" href="../../d6/d6d/bind_8c.html#a2e470da1cfb8f1e0a4b30cbfbbdb76c4">bind</a>,  <a class="el" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>)&#160;&#160;&#160;(((<a class="el" href="../../d6/d6d/bind_8c.html#a2e470da1cfb8f1e0a4b30cbfbbdb76c4">bind</a>) &lt;&lt; 4) + ((<a class="el" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>) &amp; 0xf))</td></tr>
 <tr class="separator:abc4e291764a8281f7a0e2dab4b5a7a6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a941018cf7c0ca6765de082bd68390197"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a941018cf7c0ca6765de082bd68390197">ELF64_ST_BIND</a>(<a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>)&#160;&#160;&#160;<a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a52e5d1fe22f9be1ee049f70f8905e229">ELF32_ST_BIND</a> (<a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>)</td></tr>
+<tr class="memitem:a941018cf7c0ca6765de082bd68390197"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a941018cf7c0ca6765de082bd68390197">ELF64_ST_BIND</a>(val)&#160;&#160;&#160;<a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a52e5d1fe22f9be1ee049f70f8905e229">ELF32_ST_BIND</a> (val)</td></tr>
 <tr class="separator:a941018cf7c0ca6765de082bd68390197"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb367cce0d389e82aba7a21c7ebdce98"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#aeb367cce0d389e82aba7a21c7ebdce98">ELF64_ST_TYPE</a>(<a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>)&#160;&#160;&#160;<a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#aeeca9ca82c92b46ff2758cfd5b7ff9dc">ELF32_ST_TYPE</a> (<a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>)</td></tr>
+<tr class="memitem:aeb367cce0d389e82aba7a21c7ebdce98"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#aeb367cce0d389e82aba7a21c7ebdce98">ELF64_ST_TYPE</a>(val)&#160;&#160;&#160;<a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#aeeca9ca82c92b46ff2758cfd5b7ff9dc">ELF32_ST_TYPE</a> (val)</td></tr>
 <tr class="separator:aeb367cce0d389e82aba7a21c7ebdce98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e3404b8adf465a8b34921c9dc0626ab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a3e3404b8adf465a8b34921c9dc0626ab">ELF64_ST_INFO</a>(<a class="el" href="../../db/d6e/musl_2src_2network_2bind_8c.html#a2e470da1cfb8f1e0a4b30cbfbbdb76c4">bind</a>,  <a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>)&#160;&#160;&#160;<a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#abc4e291764a8281f7a0e2dab4b5a7a6e">ELF32_ST_INFO</a> ((<a class="el" href="../../db/d6e/musl_2src_2network_2bind_8c.html#a2e470da1cfb8f1e0a4b30cbfbbdb76c4">bind</a>), (<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>))</td></tr>
+<tr class="memitem:a3e3404b8adf465a8b34921c9dc0626ab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a3e3404b8adf465a8b34921c9dc0626ab">ELF64_ST_INFO</a>(<a class="el" href="../../d6/d6d/bind_8c.html#a2e470da1cfb8f1e0a4b30cbfbbdb76c4">bind</a>,  <a class="el" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>)&#160;&#160;&#160;<a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#abc4e291764a8281f7a0e2dab4b5a7a6e">ELF32_ST_INFO</a> ((<a class="el" href="../../d6/d6d/bind_8c.html#a2e470da1cfb8f1e0a4b30cbfbbdb76c4">bind</a>), (<a class="el" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>))</td></tr>
 <tr class="separator:a3e3404b8adf465a8b34921c9dc0626ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72c40de459931e6f1d041201dc7398b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a72c40de459931e6f1d041201dc7398b1">STB_LOCAL</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:a72c40de459931e6f1d041201dc7398b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -889,17 +889,17 @@ Macros</h2></td></tr>
 <tr class="separator:aabb18b580f108bc31d4c5d841023673a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93241dfa41683fc3dc2822f6b43f9e80"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a93241dfa41683fc3dc2822f6b43f9e80">STV_PROTECTED</a>&#160;&#160;&#160;3</td></tr>
 <tr class="separator:a93241dfa41683fc3dc2822f6b43f9e80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75bfe08f0666bdd9bfc4b5e5a026d495"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a75bfe08f0666bdd9bfc4b5e5a026d495">ELF32_R_SYM</a>(<a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>)&#160;&#160;&#160;((<a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>) &gt;&gt; 8)</td></tr>
+<tr class="memitem:a75bfe08f0666bdd9bfc4b5e5a026d495"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a75bfe08f0666bdd9bfc4b5e5a026d495">ELF32_R_SYM</a>(val)&#160;&#160;&#160;((val) &gt;&gt; 8)</td></tr>
 <tr class="separator:a75bfe08f0666bdd9bfc4b5e5a026d495"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9d6476c927c0e8ed942f0dfd6ab8c36"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#ad9d6476c927c0e8ed942f0dfd6ab8c36">ELF32_R_TYPE</a>(<a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>)&#160;&#160;&#160;((<a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>) &amp; 0xff)</td></tr>
+<tr class="memitem:ad9d6476c927c0e8ed942f0dfd6ab8c36"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#ad9d6476c927c0e8ed942f0dfd6ab8c36">ELF32_R_TYPE</a>(val)&#160;&#160;&#160;((val) &amp; 0xff)</td></tr>
 <tr class="separator:ad9d6476c927c0e8ed942f0dfd6ab8c36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50353a918aa39887e701e95ece09c37f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a50353a918aa39887e701e95ece09c37f">ELF32_R_INFO</a>(sym,  <a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>)&#160;&#160;&#160;(((sym) &lt;&lt; 8) + ((<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>) &amp; 0xff))</td></tr>
+<tr class="memitem:a50353a918aa39887e701e95ece09c37f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a50353a918aa39887e701e95ece09c37f">ELF32_R_INFO</a>(sym,  <a class="el" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>)&#160;&#160;&#160;(((sym) &lt;&lt; 8) + ((<a class="el" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>) &amp; 0xff))</td></tr>
 <tr class="separator:a50353a918aa39887e701e95ece09c37f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8a1253bfcc928f9aa9d4177d84f6830"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#ab8a1253bfcc928f9aa9d4177d84f6830">ELF64_R_SYM</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>)&#160;&#160;&#160;((<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>) &gt;&gt; 32)</td></tr>
+<tr class="memitem:ab8a1253bfcc928f9aa9d4177d84f6830"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#ab8a1253bfcc928f9aa9d4177d84f6830">ELF64_R_SYM</a>(<a class="el" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>)&#160;&#160;&#160;((<a class="el" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>) &gt;&gt; 32)</td></tr>
 <tr class="separator:ab8a1253bfcc928f9aa9d4177d84f6830"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51aeadee885873fec9a218c058fe9e09"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a51aeadee885873fec9a218c058fe9e09">ELF64_R_TYPE</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>)&#160;&#160;&#160;((<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>) &amp; 0xffffffff)</td></tr>
+<tr class="memitem:a51aeadee885873fec9a218c058fe9e09"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a51aeadee885873fec9a218c058fe9e09">ELF64_R_TYPE</a>(<a class="el" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>)&#160;&#160;&#160;((<a class="el" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>) &amp; 0xffffffff)</td></tr>
 <tr class="separator:a51aeadee885873fec9a218c058fe9e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a8d04995d4d2211c875981bcff7f540"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a9a8d04995d4d2211c875981bcff7f540">ELF64_R_INFO</a>(sym,  <a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>)&#160;&#160;&#160;((((<a class="el" href="../../d4/dae/Kernel_2include_2elf_8h.html#a5447a48a3dae0bd24f606415268c6fe4">Elf64_Xword</a>) (sym)) &lt;&lt; 32) + (<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>))</td></tr>
+<tr class="memitem:a9a8d04995d4d2211c875981bcff7f540"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a9a8d04995d4d2211c875981bcff7f540">ELF64_R_INFO</a>(sym,  <a class="el" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>)&#160;&#160;&#160;((((<a class="el" href="../../d4/dae/Kernel_2include_2elf_8h.html#a5447a48a3dae0bd24f606415268c6fe4">Elf64_Xword</a>) (sym)) &lt;&lt; 32) + (<a class="el" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>))</td></tr>
 <tr class="separator:a9a8d04995d4d2211c875981bcff7f540"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a854729c1dc4623abeaeb765a1b745012"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a854729c1dc4623abeaeb765a1b745012">PT_NULL</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:a854729c1dc4623abeaeb765a1b745012"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3313,7 +3313,7 @@ Macros</h2></td></tr>
 <tr class="separator:ab56eefae8f0c7c8fb2cd6481669a30bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3597a304ff7c96427edcd52152ab1d91"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a3597a304ff7c96427edcd52152ab1d91">STO_PPC64_LOCAL_MASK</a>&#160;&#160;&#160;0xe0</td></tr>
 <tr class="separator:a3597a304ff7c96427edcd52152ab1d91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33020112cf34ad7e8a85457529da94e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a33020112cf34ad7e8a85457529da94e7">PPC64_LOCAL_ENTRY_OFFSET</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)&#160;&#160;&#160;(1 &lt;&lt; (((<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)&amp;0xe0)&gt;&gt;5) &amp; 0xfc)</td></tr>
+<tr class="memitem:a33020112cf34ad7e8a85457529da94e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a33020112cf34ad7e8a85457529da94e7">PPC64_LOCAL_ENTRY_OFFSET</a>(<a class="el" href="../../dc/de5/random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)&#160;&#160;&#160;(1 &lt;&lt; (((<a class="el" href="../../dc/de5/random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)&amp;0xe0)&gt;&gt;5) &amp; 0xfc)</td></tr>
 <tr class="separator:a33020112cf34ad7e8a85457529da94e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4b0852245b202d17320c338edca882a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#ae4b0852245b202d17320c338edca882a">EF_ARM_RELEXEC</a>&#160;&#160;&#160;0x01</td></tr>
 <tr class="separator:ae4b0852245b202d17320c338edca882a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3355,7 +3355,7 @@ Macros</h2></td></tr>
 <tr class="separator:aac45cf9b8a44f0659c913aa3978b8191"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a243eb9db6da45eaaa74a1d09fd58eef1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a243eb9db6da45eaaa74a1d09fd58eef1">EF_ARM_LE8</a>&#160;&#160;&#160;0x00400000</td></tr>
 <tr class="separator:a243eb9db6da45eaaa74a1d09fd58eef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab1c09d353032d1ad03d89c036a57128"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#aab1c09d353032d1ad03d89c036a57128">EF_ARM_EABI_VERSION</a>(<a class="el" href="../../db/dd4/sm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a>)&#160;&#160;&#160;((<a class="el" href="../../db/dd4/sm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a>) &amp; <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a58355a498085eafcb2c3bf67ec2d567b">EF_ARM_EABIMASK</a>)</td></tr>
+<tr class="memitem:aab1c09d353032d1ad03d89c036a57128"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#aab1c09d353032d1ad03d89c036a57128">EF_ARM_EABI_VERSION</a>(flags)&#160;&#160;&#160;((flags) &amp; <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a58355a498085eafcb2c3bf67ec2d567b">EF_ARM_EABIMASK</a>)</td></tr>
 <tr class="separator:aab1c09d353032d1ad03d89c036a57128"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43bf25f50a75f5790966328109b2a372"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a43bf25f50a75f5790966328109b2a372">EF_ARM_EABI_UNKNOWN</a>&#160;&#160;&#160;0x00000000</td></tr>
 <tr class="separator:a43bf25f50a75f5790966328109b2a372"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -5119,21 +5119,21 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a1f6e6c398ed1c15e09698a00aa205b8b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
-&#160;&#160;<a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8bafcb16415e2c46a9af5619b39223073ff">Val_GNU_MIPS_ABI_FP_ANY</a> = 0
-, <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8baf54092260d1169b51b3485e0ffbb3f8f">Val_GNU_MIPS_ABI_FP_DOUBLE</a> = 1
-, <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8ba21b2f641828f25adeaf14bbc64b1cbe4">Val_GNU_MIPS_ABI_FP_SINGLE</a> = 2
-, <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8bab2d719ec6bd56637564cb66d2d0883f5">Val_GNU_MIPS_ABI_FP_SOFT</a> = 3
+<tr class="memitem:a7a0c72be200b1a2f2da823032ab020e2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2afcb16415e2c46a9af5619b39223073ff">Val_GNU_MIPS_ABI_FP_ANY</a> = 0
+, <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2af54092260d1169b51b3485e0ffbb3f8f">Val_GNU_MIPS_ABI_FP_DOUBLE</a> = 1
+, <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2a21b2f641828f25adeaf14bbc64b1cbe4">Val_GNU_MIPS_ABI_FP_SINGLE</a> = 2
+, <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2ab2d719ec6bd56637564cb66d2d0883f5">Val_GNU_MIPS_ABI_FP_SOFT</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8babf557cbb6ec27fe62ebe08bd1ae59044">Val_GNU_MIPS_ABI_FP_OLD_64</a> = 4
-, <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8ba0cf5fb8a1445bc17b8f5ccf976f114a9">Val_GNU_MIPS_ABI_FP_XX</a> = 5
-, <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8bad6960a9a7c2e115fc160c3de142ffdc0">Val_GNU_MIPS_ABI_FP_64</a> = 6
-, <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8bab3b293a1a41ce56a99292810a99a4f05">Val_GNU_MIPS_ABI_FP_64A</a> = 7
+&#160;&#160;<a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2abf557cbb6ec27fe62ebe08bd1ae59044">Val_GNU_MIPS_ABI_FP_OLD_64</a> = 4
+, <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2a0cf5fb8a1445bc17b8f5ccf976f114a9">Val_GNU_MIPS_ABI_FP_XX</a> = 5
+, <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2ad6960a9a7c2e115fc160c3de142ffdc0">Val_GNU_MIPS_ABI_FP_64</a> = 6
+, <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2ab3b293a1a41ce56a99292810a99a4f05">Val_GNU_MIPS_ABI_FP_64A</a> = 7
 , <br />
-&#160;&#160;<a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8ba3838349e783c06c467960bef19812b88">Val_GNU_MIPS_ABI_FP_MAX</a> = 7
+&#160;&#160;<a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2a3838349e783c06c467960bef19812b88">Val_GNU_MIPS_ABI_FP_MAX</a> = 7
 <br />
  }</td></tr>
-<tr class="separator:a1f6e6c398ed1c15e09698a00aa205b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a7a0c72be200b1a2f2da823032ab020e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
 <a name="db/d71/structElf32__Ehdr" id="db/d71/structElf32__Ehdr"></a>
@@ -5826,7 +5826,7 @@ r_offset</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html#l00797">797</a> of file <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html">elf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html#l00824">824</a> of file <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html">elf.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -5863,7 +5863,7 @@ r_offset</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html#l00804">804</a> of file <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html">elf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html#l00831">831</a> of file <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html">elf.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -5900,7 +5900,7 @@ r_offset</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html#l00721">721</a> of file <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html">elf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html#l00748">748</a> of file <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html">elf.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -5967,7 +5967,7 @@ p_vaddr</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html#l00733">733</a> of file <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html">elf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html#l00760">760</a> of file <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html">elf.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -6034,7 +6034,7 @@ p_vaddr</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html#l00777">777</a> of file <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html">elf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html#l00804">804</a> of file <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html">elf.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -6044,19 +6044,19 @@ d_tag</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a2c7ebbe11ca5152994acf863abc6d4d0"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#d7/df0/unionElf32__Dyn_8d__un">Elf32_Dyn</a></td>
+<a id="aa47d3c0e452101e66e75359f4c8b7bf0"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#d7/df0/unionElf32__Dyn_8d__un">Elf32_Dyn</a></td>
 <td class="fieldname">
 d_un</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a372cbf8d7954175bb37d9b550dbb542e"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#d7/df0/unionElf32__Dyn_8d__un">Elf32_Dyn</a></td>
+<a id="a63d62510b1afd2db0a129c27d0b3f18f"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#d7/df0/unionElf32__Dyn_8d__un">Elf32_Dyn</a></td>
 <td class="fieldname">
 d_un</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a645ecb7384b5e52bb9bfca27910f2433"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#d7/df0/unionElf32__Dyn_8d__un">Elf32_Dyn</a></td>
+<a id="aa4482e1dba292c44b24374e7506bdb6c"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#d7/df0/unionElf32__Dyn_8d__un">Elf32_Dyn</a></td>
 <td class="fieldname">
 d_un</td>
 <td class="fielddoc">
@@ -6077,7 +6077,7 @@ d_un</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html#l00787">787</a> of file <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html">elf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html#l00814">814</a> of file <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html">elf.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -6087,19 +6087,19 @@ d_tag</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a558206711cbf0ab83e83b1d4d12fa051"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#db/d36/unionElf64__Dyn_8d__un">Elf64_Dyn</a></td>
+<a id="ab7e8ce9f3262a243fbe4ca582035f9f6"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#db/d36/unionElf64__Dyn_8d__un">Elf64_Dyn</a></td>
 <td class="fieldname">
 d_un</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="af3e85bc7a45c089d29ab9f395a4fde3b"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#db/d36/unionElf64__Dyn_8d__un">Elf64_Dyn</a></td>
+<a id="aad8eff5ecce60013ed091b3c875eaa30"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#db/d36/unionElf64__Dyn_8d__un">Elf64_Dyn</a></td>
 <td class="fieldname">
 d_un</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="abe71f17a6d100f6a7887f50378614476"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#db/d36/unionElf64__Dyn_8d__un">Elf64_Dyn</a></td>
+<a id="a963bceda64e1bdbd6c72595880dfa6f7"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#db/d36/unionElf64__Dyn_8d__un">Elf64_Dyn</a></td>
 <td class="fieldname">
 d_un</td>
 <td class="fielddoc">
@@ -6510,25 +6510,25 @@ a_type</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a10676858347176afa2c91f9c0711fbcb"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#da/d9c/unionElf32__auxv__t_8a__un">Elf32_auxv_t</a></td>
+<a id="acd2d71fe1c28b5c168c6f146814bd81b"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#da/d9c/unionElf32__auxv__t_8a__un">Elf32_auxv_t</a></td>
 <td class="fieldname">
 a_un</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a0660aee45f054436349e4bcce91ca71d"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#da/d9c/unionElf32__auxv__t_8a__un">Elf32_auxv_t</a></td>
+<a id="a49147480c067cf5c7f62b4424dbeeb61"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#da/d9c/unionElf32__auxv__t_8a__un">Elf32_auxv_t</a></td>
 <td class="fieldname">
 a_un</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ab3ffb0ea934e4a6de4130210ece820f0"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#da/d9c/unionElf32__auxv__t_8a__un">Elf32_auxv_t</a></td>
+<a id="aed14248d0a09e756df56f64a66138585"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#da/d9c/unionElf32__auxv__t_8a__un">Elf32_auxv_t</a></td>
 <td class="fieldname">
 a_un</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="afb862ed2f49f2fe4927ac6121ff8a1f2"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#da/d9c/unionElf32__auxv__t_8a__un">Elf32_auxv_t</a></td>
+<a id="a48c8569dd8b27493bb8d09fad903c7d7"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#da/d9c/unionElf32__auxv__t_8a__un">Elf32_auxv_t</a></td>
 <td class="fieldname">
 a_un</td>
 <td class="fielddoc">
@@ -6559,25 +6559,25 @@ a_type</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a0bbdbd4273886fd3abc27c096d5aa99c"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#d0/dc1/unionElf64__auxv__t_8a__un">Elf64_auxv_t</a></td>
+<a id="a36a5503e5a866eb9c6ee06b618d9dda3"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#d0/dc1/unionElf64__auxv__t_8a__un">Elf64_auxv_t</a></td>
 <td class="fieldname">
 a_un</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a71761395ae3f8286ae123070b148991d"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#d0/dc1/unionElf64__auxv__t_8a__un">Elf64_auxv_t</a></td>
+<a id="a62f27053300f6734041f0a8faa1d98c8"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#d0/dc1/unionElf64__auxv__t_8a__un">Elf64_auxv_t</a></td>
 <td class="fieldname">
 a_un</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="acf524b36fb5a57eb220f5d1860b179be"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#d0/dc1/unionElf64__auxv__t_8a__un">Elf64_auxv_t</a></td>
+<a id="aaa0774f67e201b03630d66f69d4680f2"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#d0/dc1/unionElf64__auxv__t_8a__un">Elf64_auxv_t</a></td>
 <td class="fieldname">
 a_un</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="af76e8168bcf9ba310d1bcd8fe2ab925e"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#d0/dc1/unionElf64__auxv__t_8a__un">Elf64_auxv_t</a></td>
+<a id="ad9f017bdabf3a11f3967e7426ff75aef"></a>union <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#d0/dc1/unionElf64__auxv__t_8a__un">Elf64_auxv_t</a></td>
 <td class="fieldname">
 a_un</td>
 <td class="fielddoc">
@@ -6598,7 +6598,7 @@ a_un</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html#l00811">811</a> of file <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html">elf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html#l00838">838</a> of file <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html">elf.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -6635,7 +6635,7 @@ n_type</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html#l00818">818</a> of file <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html">elf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html#l00845">845</a> of file <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html">elf.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -6774,13 +6774,13 @@ m_value</td>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a1777df3e8ca065ae09314444ddeb713e"></a>struct <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#da/df9/structElf32__gptab_8gt__entry">Elf32_gptab</a></td>
+<a id="a829e6e7d3bd0bb80f779ef8e46e608a9"></a>struct <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#da/df9/structElf32__gptab_8gt__entry">Elf32_gptab</a></td>
 <td class="fieldname">
 gt_entry</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ab9dad131c798d53b5f4be498cb90b78d"></a>struct <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#d5/d85/structElf32__gptab_8gt__header">Elf32_gptab</a></td>
+<a id="a3d7acab6ab1a313bb6a6515f55698535"></a>struct <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#d5/d85/structElf32__gptab_8gt__header">Elf32_gptab</a></td>
 <td class="fieldname">
 gt_header</td>
 <td class="fielddoc">
@@ -11400,8 +11400,8 @@ gt_g_value</td>
           <td class="memname">#define EF_ARM_EABI_VERSION</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../db/dd4/sm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a></td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="../../db/dd4/sm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a>) &amp; <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a58355a498085eafcb2c3bf67ec2d567b">EF_ARM_EABIMASK</a>)</td>
+          <td class="paramname">flags</td><td>)</td>
+          <td>&#160;&#160;&#160;((flags) &amp; <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a58355a498085eafcb2c3bf67ec2d567b">EF_ARM_EABIMASK</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -12984,12 +12984,12 @@ gt_g_value</td>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>&#160;</td>
+          <td class="paramname"><a class="el" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(((sym) &lt;&lt; 8) + ((<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>) &amp; 0xff))</td>
+          <td></td><td>&#160;&#160;&#160;(((sym) &lt;&lt; 8) + ((<a class="el" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>) &amp; 0xff))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -13008,8 +13008,8 @@ gt_g_value</td>
           <td class="memname">#define ELF32_R_SYM</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a></td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>) &gt;&gt; 8)</td>
+          <td class="paramname">val</td><td>)</td>
+          <td>&#160;&#160;&#160;((val) &gt;&gt; 8)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -13028,8 +13028,8 @@ gt_g_value</td>
           <td class="memname">#define ELF32_R_TYPE</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a></td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>) &amp; 0xff)</td>
+          <td class="paramname">val</td><td>)</td>
+          <td>&#160;&#160;&#160;((val) &amp; 0xff)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -13048,8 +13048,8 @@ gt_g_value</td>
           <td class="memname">#define ELF32_ST_BIND</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a></td><td>)</td>
-          <td>&#160;&#160;&#160;(((unsigned char) (<a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>)) &gt;&gt; 4)</td>
+          <td class="paramname">val</td><td>)</td>
+          <td>&#160;&#160;&#160;(((unsigned char) (val)) &gt;&gt; 4)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -13068,18 +13068,18 @@ gt_g_value</td>
           <td class="memname">#define ELF32_ST_INFO</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../db/d6e/musl_2src_2network_2bind_8c.html#a2e470da1cfb8f1e0a4b30cbfbbdb76c4">bind</a>, </td>
+          <td class="paramname"><a class="el" href="../../d6/d6d/bind_8c.html#a2e470da1cfb8f1e0a4b30cbfbbdb76c4">bind</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>&#160;</td>
+          <td class="paramname"><a class="el" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(((<a class="el" href="../../db/d6e/musl_2src_2network_2bind_8c.html#a2e470da1cfb8f1e0a4b30cbfbbdb76c4">bind</a>) &lt;&lt; 4) + ((<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>) &amp; 0xf))</td>
+          <td></td><td>&#160;&#160;&#160;(((<a class="el" href="../../d6/d6d/bind_8c.html#a2e470da1cfb8f1e0a4b30cbfbbdb76c4">bind</a>) &lt;&lt; 4) + ((<a class="el" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>) &amp; 0xf))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -13098,8 +13098,8 @@ gt_g_value</td>
           <td class="memname">#define ELF32_ST_TYPE</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a></td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>) &amp; 0xf)</td>
+          <td class="paramname">val</td><td>)</td>
+          <td>&#160;&#160;&#160;((val) &amp; 0xf)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -13214,12 +13214,12 @@ gt_g_value</td>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>&#160;</td>
+          <td class="paramname"><a class="el" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((((<a class="el" href="../../d4/dae/Kernel_2include_2elf_8h.html#a5447a48a3dae0bd24f606415268c6fe4">Elf64_Xword</a>) (sym)) &lt;&lt; 32) + (<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>))</td>
+          <td></td><td>&#160;&#160;&#160;((((<a class="el" href="../../d4/dae/Kernel_2include_2elf_8h.html#a5447a48a3dae0bd24f606415268c6fe4">Elf64_Xword</a>) (sym)) &lt;&lt; 32) + (<a class="el" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -13238,8 +13238,8 @@ gt_g_value</td>
           <td class="memname">#define ELF64_R_SYM</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a></td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>) &gt;&gt; 32)</td>
+          <td class="paramname"><a class="el" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a></td><td>)</td>
+          <td>&#160;&#160;&#160;((<a class="el" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>) &gt;&gt; 32)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -13258,8 +13258,8 @@ gt_g_value</td>
           <td class="memname">#define ELF64_R_TYPE</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a></td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>) &amp; 0xffffffff)</td>
+          <td class="paramname"><a class="el" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a></td><td>)</td>
+          <td>&#160;&#160;&#160;((<a class="el" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>) &amp; 0xffffffff)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -13278,8 +13278,8 @@ gt_g_value</td>
           <td class="memname">#define ELF64_ST_BIND</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a52e5d1fe22f9be1ee049f70f8905e229">ELF32_ST_BIND</a> (<a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>)</td>
+          <td class="paramname">val</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a52e5d1fe22f9be1ee049f70f8905e229">ELF32_ST_BIND</a> (val)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -13298,18 +13298,18 @@ gt_g_value</td>
           <td class="memname">#define ELF64_ST_INFO</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../db/d6e/musl_2src_2network_2bind_8c.html#a2e470da1cfb8f1e0a4b30cbfbbdb76c4">bind</a>, </td>
+          <td class="paramname"><a class="el" href="../../d6/d6d/bind_8c.html#a2e470da1cfb8f1e0a4b30cbfbbdb76c4">bind</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>&#160;</td>
+          <td class="paramname"><a class="el" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#abc4e291764a8281f7a0e2dab4b5a7a6e">ELF32_ST_INFO</a> ((<a class="el" href="../../db/d6e/musl_2src_2network_2bind_8c.html#a2e470da1cfb8f1e0a4b30cbfbbdb76c4">bind</a>), (<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>))</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#abc4e291764a8281f7a0e2dab4b5a7a6e">ELF32_ST_INFO</a> ((<a class="el" href="../../d6/d6d/bind_8c.html#a2e470da1cfb8f1e0a4b30cbfbbdb76c4">bind</a>), (<a class="el" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -13328,8 +13328,8 @@ gt_g_value</td>
           <td class="memname">#define ELF64_ST_TYPE</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#aeeca9ca82c92b46ff2758cfd5b7ff9dc">ELF32_ST_TYPE</a> (<a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>)</td>
+          <td class="paramname">val</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#aeeca9ca82c92b46ff2758cfd5b7ff9dc">ELF32_ST_TYPE</a> (val)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -13765,7 +13765,7 @@ gt_g_value</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ELFMAG2&#160;&#160;&#160;'<a class="el" href="../../d1/df8/smatch_8c.html#a1f82449e0d84122ede24741e7fcfdd22">L</a>'</td>
+          <td class="memname">#define ELFMAG2&#160;&#160;&#160;'L'</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -19944,8 +19944,8 @@ gt_g_value</td>
           <td class="memname">#define PPC64_LOCAL_ENTRY_OFFSET</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a></td><td>)</td>
-          <td>&#160;&#160;&#160;(1 &lt;&lt; (((<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)&amp;0xe0)&gt;&gt;5) &amp; 0xfc)</td>
+          <td class="paramname"><a class="el" href="../../dc/de5/random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a></td><td>)</td>
+          <td>&#160;&#160;&#160;(1 &lt;&lt; (((<a class="el" href="../../dc/de5/random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)&amp;0xe0)&gt;&gt;5) &amp; 0xfc)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -46868,8 +46868,8 @@ gt_g_value</td>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a1f6e6c398ed1c15e09698a00aa205b8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f6e6c398ed1c15e09698a00aa205b8b">&#9670;&nbsp;</a></span>anonymous enum</h2>
+<a id="a7a0c72be200b1a2f2da823032ab020e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a0c72be200b1a2f2da823032ab020e2">&#9670;&nbsp;</a></span>anonymous enum</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -46880,38 +46880,38 @@ gt_g_value</td>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1f6e6c398ed1c15e09698a00aa205b8bafcb16415e2c46a9af5619b39223073ff"></a>Val_GNU_MIPS_ABI_FP_ANY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1f6e6c398ed1c15e09698a00aa205b8baf54092260d1169b51b3485e0ffbb3f8f"></a>Val_GNU_MIPS_ABI_FP_DOUBLE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1f6e6c398ed1c15e09698a00aa205b8ba21b2f641828f25adeaf14bbc64b1cbe4"></a>Val_GNU_MIPS_ABI_FP_SINGLE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1f6e6c398ed1c15e09698a00aa205b8bab2d719ec6bd56637564cb66d2d0883f5"></a>Val_GNU_MIPS_ABI_FP_SOFT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1f6e6c398ed1c15e09698a00aa205b8babf557cbb6ec27fe62ebe08bd1ae59044"></a>Val_GNU_MIPS_ABI_FP_OLD_64&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1f6e6c398ed1c15e09698a00aa205b8ba0cf5fb8a1445bc17b8f5ccf976f114a9"></a>Val_GNU_MIPS_ABI_FP_XX&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1f6e6c398ed1c15e09698a00aa205b8bad6960a9a7c2e115fc160c3de142ffdc0"></a>Val_GNU_MIPS_ABI_FP_64&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1f6e6c398ed1c15e09698a00aa205b8bab3b293a1a41ce56a99292810a99a4f05"></a>Val_GNU_MIPS_ABI_FP_64A&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1f6e6c398ed1c15e09698a00aa205b8ba3838349e783c06c467960bef19812b88"></a>Val_GNU_MIPS_ABI_FP_MAX&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7a0c72be200b1a2f2da823032ab020e2afcb16415e2c46a9af5619b39223073ff"></a>Val_GNU_MIPS_ABI_FP_ANY&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7a0c72be200b1a2f2da823032ab020e2af54092260d1169b51b3485e0ffbb3f8f"></a>Val_GNU_MIPS_ABI_FP_DOUBLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7a0c72be200b1a2f2da823032ab020e2a21b2f641828f25adeaf14bbc64b1cbe4"></a>Val_GNU_MIPS_ABI_FP_SINGLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7a0c72be200b1a2f2da823032ab020e2ab2d719ec6bd56637564cb66d2d0883f5"></a>Val_GNU_MIPS_ABI_FP_SOFT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7a0c72be200b1a2f2da823032ab020e2abf557cbb6ec27fe62ebe08bd1ae59044"></a>Val_GNU_MIPS_ABI_FP_OLD_64&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7a0c72be200b1a2f2da823032ab020e2a0cf5fb8a1445bc17b8f5ccf976f114a9"></a>Val_GNU_MIPS_ABI_FP_XX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7a0c72be200b1a2f2da823032ab020e2ad6960a9a7c2e115fc160c3de142ffdc0"></a>Val_GNU_MIPS_ABI_FP_64&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7a0c72be200b1a2f2da823032ab020e2ab3b293a1a41ce56a99292810a99a4f05"></a>Val_GNU_MIPS_ABI_FP_64A&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7a0c72be200b1a2f2da823032ab020e2a3838349e783c06c467960bef19812b88"></a>Val_GNU_MIPS_ABI_FP_MAX&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l01764">1764</a> of file <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html">elf.h</a>.</p>
 <div class="fragment"><div class="line"><a name="l01765"></a><span class="lineno"> 1765</span>&#160;{</div>
-<div class="line"><a name="l01766"></a><span class="lineno"> 1766</span>&#160;  <a class="code" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8bafcb16415e2c46a9af5619b39223073ff">Val_GNU_MIPS_ABI_FP_ANY</a> = 0,</div>
-<div class="line"><a name="l01767"></a><span class="lineno"> 1767</span>&#160;  <a class="code" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8baf54092260d1169b51b3485e0ffbb3f8f">Val_GNU_MIPS_ABI_FP_DOUBLE</a> = 1,</div>
-<div class="line"><a name="l01768"></a><span class="lineno"> 1768</span>&#160;  <a class="code" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8ba21b2f641828f25adeaf14bbc64b1cbe4">Val_GNU_MIPS_ABI_FP_SINGLE</a> = 2,</div>
-<div class="line"><a name="l01769"></a><span class="lineno"> 1769</span>&#160;  <a class="code" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8bab2d719ec6bd56637564cb66d2d0883f5">Val_GNU_MIPS_ABI_FP_SOFT</a> = 3,</div>
-<div class="line"><a name="l01770"></a><span class="lineno"> 1770</span>&#160;  <a class="code" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8babf557cbb6ec27fe62ebe08bd1ae59044">Val_GNU_MIPS_ABI_FP_OLD_64</a> = 4,</div>
-<div class="line"><a name="l01771"></a><span class="lineno"> 1771</span>&#160;  <a class="code" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8ba0cf5fb8a1445bc17b8f5ccf976f114a9">Val_GNU_MIPS_ABI_FP_XX</a> = 5,</div>
-<div class="line"><a name="l01772"></a><span class="lineno"> 1772</span>&#160;  <a class="code" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8bad6960a9a7c2e115fc160c3de142ffdc0">Val_GNU_MIPS_ABI_FP_64</a> = 6,</div>
-<div class="line"><a name="l01773"></a><span class="lineno"> 1773</span>&#160;  <a class="code" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8bab3b293a1a41ce56a99292810a99a4f05">Val_GNU_MIPS_ABI_FP_64A</a> = 7,</div>
-<div class="line"><a name="l01774"></a><span class="lineno"> 1774</span>&#160;  <a class="code" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8ba3838349e783c06c467960bef19812b88">Val_GNU_MIPS_ABI_FP_MAX</a> = 7</div>
+<div class="line"><a name="l01766"></a><span class="lineno"> 1766</span>&#160;  <a class="code" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2afcb16415e2c46a9af5619b39223073ff">Val_GNU_MIPS_ABI_FP_ANY</a> = 0,</div>
+<div class="line"><a name="l01767"></a><span class="lineno"> 1767</span>&#160;  <a class="code" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2af54092260d1169b51b3485e0ffbb3f8f">Val_GNU_MIPS_ABI_FP_DOUBLE</a> = 1,</div>
+<div class="line"><a name="l01768"></a><span class="lineno"> 1768</span>&#160;  <a class="code" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2a21b2f641828f25adeaf14bbc64b1cbe4">Val_GNU_MIPS_ABI_FP_SINGLE</a> = 2,</div>
+<div class="line"><a name="l01769"></a><span class="lineno"> 1769</span>&#160;  <a class="code" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2ab2d719ec6bd56637564cb66d2d0883f5">Val_GNU_MIPS_ABI_FP_SOFT</a> = 3,</div>
+<div class="line"><a name="l01770"></a><span class="lineno"> 1770</span>&#160;  <a class="code" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2abf557cbb6ec27fe62ebe08bd1ae59044">Val_GNU_MIPS_ABI_FP_OLD_64</a> = 4,</div>
+<div class="line"><a name="l01771"></a><span class="lineno"> 1771</span>&#160;  <a class="code" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2a0cf5fb8a1445bc17b8f5ccf976f114a9">Val_GNU_MIPS_ABI_FP_XX</a> = 5,</div>
+<div class="line"><a name="l01772"></a><span class="lineno"> 1772</span>&#160;  <a class="code" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2ad6960a9a7c2e115fc160c3de142ffdc0">Val_GNU_MIPS_ABI_FP_64</a> = 6,</div>
+<div class="line"><a name="l01773"></a><span class="lineno"> 1773</span>&#160;  <a class="code" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2ab3b293a1a41ce56a99292810a99a4f05">Val_GNU_MIPS_ABI_FP_64A</a> = 7,</div>
+<div class="line"><a name="l01774"></a><span class="lineno"> 1774</span>&#160;  <a class="code" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2a3838349e783c06c467960bef19812b88">Val_GNU_MIPS_ABI_FP_MAX</a> = 7</div>
 <div class="line"><a name="l01775"></a><span class="lineno"> 1775</span>&#160;};</div>
-<div class="ttc" id="aUserspace_2musl_2include_2elf_8h_html_a1f6e6c398ed1c15e09698a00aa205b8ba0cf5fb8a1445bc17b8f5ccf976f114a9"><div class="ttname"><a href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8ba0cf5fb8a1445bc17b8f5ccf976f114a9">Val_GNU_MIPS_ABI_FP_XX</a></div><div class="ttdeci">@ Val_GNU_MIPS_ABI_FP_XX</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l01771">elf.h:1771</a></div></div>
-<div class="ttc" id="aUserspace_2musl_2include_2elf_8h_html_a1f6e6c398ed1c15e09698a00aa205b8ba21b2f641828f25adeaf14bbc64b1cbe4"><div class="ttname"><a href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8ba21b2f641828f25adeaf14bbc64b1cbe4">Val_GNU_MIPS_ABI_FP_SINGLE</a></div><div class="ttdeci">@ Val_GNU_MIPS_ABI_FP_SINGLE</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l01768">elf.h:1768</a></div></div>
-<div class="ttc" id="aUserspace_2musl_2include_2elf_8h_html_a1f6e6c398ed1c15e09698a00aa205b8ba3838349e783c06c467960bef19812b88"><div class="ttname"><a href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8ba3838349e783c06c467960bef19812b88">Val_GNU_MIPS_ABI_FP_MAX</a></div><div class="ttdeci">@ Val_GNU_MIPS_ABI_FP_MAX</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l01775">elf.h:1774</a></div></div>
-<div class="ttc" id="aUserspace_2musl_2include_2elf_8h_html_a1f6e6c398ed1c15e09698a00aa205b8bab2d719ec6bd56637564cb66d2d0883f5"><div class="ttname"><a href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8bab2d719ec6bd56637564cb66d2d0883f5">Val_GNU_MIPS_ABI_FP_SOFT</a></div><div class="ttdeci">@ Val_GNU_MIPS_ABI_FP_SOFT</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l01769">elf.h:1769</a></div></div>
-<div class="ttc" id="aUserspace_2musl_2include_2elf_8h_html_a1f6e6c398ed1c15e09698a00aa205b8bab3b293a1a41ce56a99292810a99a4f05"><div class="ttname"><a href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8bab3b293a1a41ce56a99292810a99a4f05">Val_GNU_MIPS_ABI_FP_64A</a></div><div class="ttdeci">@ Val_GNU_MIPS_ABI_FP_64A</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l01773">elf.h:1773</a></div></div>
-<div class="ttc" id="aUserspace_2musl_2include_2elf_8h_html_a1f6e6c398ed1c15e09698a00aa205b8babf557cbb6ec27fe62ebe08bd1ae59044"><div class="ttname"><a href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8babf557cbb6ec27fe62ebe08bd1ae59044">Val_GNU_MIPS_ABI_FP_OLD_64</a></div><div class="ttdeci">@ Val_GNU_MIPS_ABI_FP_OLD_64</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l01770">elf.h:1770</a></div></div>
-<div class="ttc" id="aUserspace_2musl_2include_2elf_8h_html_a1f6e6c398ed1c15e09698a00aa205b8bad6960a9a7c2e115fc160c3de142ffdc0"><div class="ttname"><a href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8bad6960a9a7c2e115fc160c3de142ffdc0">Val_GNU_MIPS_ABI_FP_64</a></div><div class="ttdeci">@ Val_GNU_MIPS_ABI_FP_64</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l01772">elf.h:1772</a></div></div>
-<div class="ttc" id="aUserspace_2musl_2include_2elf_8h_html_a1f6e6c398ed1c15e09698a00aa205b8baf54092260d1169b51b3485e0ffbb3f8f"><div class="ttname"><a href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8baf54092260d1169b51b3485e0ffbb3f8f">Val_GNU_MIPS_ABI_FP_DOUBLE</a></div><div class="ttdeci">@ Val_GNU_MIPS_ABI_FP_DOUBLE</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l01767">elf.h:1767</a></div></div>
-<div class="ttc" id="aUserspace_2musl_2include_2elf_8h_html_a1f6e6c398ed1c15e09698a00aa205b8bafcb16415e2c46a9af5619b39223073ff"><div class="ttname"><a href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a1f6e6c398ed1c15e09698a00aa205b8bafcb16415e2c46a9af5619b39223073ff">Val_GNU_MIPS_ABI_FP_ANY</a></div><div class="ttdeci">@ Val_GNU_MIPS_ABI_FP_ANY</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l01766">elf.h:1766</a></div></div>
+<div class="ttc" id="aUserspace_2musl_2include_2elf_8h_html_a7a0c72be200b1a2f2da823032ab020e2a0cf5fb8a1445bc17b8f5ccf976f114a9"><div class="ttname"><a href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2a0cf5fb8a1445bc17b8f5ccf976f114a9">Val_GNU_MIPS_ABI_FP_XX</a></div><div class="ttdeci">@ Val_GNU_MIPS_ABI_FP_XX</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l01771">elf.h:1771</a></div></div>
+<div class="ttc" id="aUserspace_2musl_2include_2elf_8h_html_a7a0c72be200b1a2f2da823032ab020e2a21b2f641828f25adeaf14bbc64b1cbe4"><div class="ttname"><a href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2a21b2f641828f25adeaf14bbc64b1cbe4">Val_GNU_MIPS_ABI_FP_SINGLE</a></div><div class="ttdeci">@ Val_GNU_MIPS_ABI_FP_SINGLE</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l01768">elf.h:1768</a></div></div>
+<div class="ttc" id="aUserspace_2musl_2include_2elf_8h_html_a7a0c72be200b1a2f2da823032ab020e2a3838349e783c06c467960bef19812b88"><div class="ttname"><a href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2a3838349e783c06c467960bef19812b88">Val_GNU_MIPS_ABI_FP_MAX</a></div><div class="ttdeci">@ Val_GNU_MIPS_ABI_FP_MAX</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l01775">elf.h:1774</a></div></div>
+<div class="ttc" id="aUserspace_2musl_2include_2elf_8h_html_a7a0c72be200b1a2f2da823032ab020e2ab2d719ec6bd56637564cb66d2d0883f5"><div class="ttname"><a href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2ab2d719ec6bd56637564cb66d2d0883f5">Val_GNU_MIPS_ABI_FP_SOFT</a></div><div class="ttdeci">@ Val_GNU_MIPS_ABI_FP_SOFT</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l01769">elf.h:1769</a></div></div>
+<div class="ttc" id="aUserspace_2musl_2include_2elf_8h_html_a7a0c72be200b1a2f2da823032ab020e2ab3b293a1a41ce56a99292810a99a4f05"><div class="ttname"><a href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2ab3b293a1a41ce56a99292810a99a4f05">Val_GNU_MIPS_ABI_FP_64A</a></div><div class="ttdeci">@ Val_GNU_MIPS_ABI_FP_64A</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l01773">elf.h:1773</a></div></div>
+<div class="ttc" id="aUserspace_2musl_2include_2elf_8h_html_a7a0c72be200b1a2f2da823032ab020e2abf557cbb6ec27fe62ebe08bd1ae59044"><div class="ttname"><a href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2abf557cbb6ec27fe62ebe08bd1ae59044">Val_GNU_MIPS_ABI_FP_OLD_64</a></div><div class="ttdeci">@ Val_GNU_MIPS_ABI_FP_OLD_64</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l01770">elf.h:1770</a></div></div>
+<div class="ttc" id="aUserspace_2musl_2include_2elf_8h_html_a7a0c72be200b1a2f2da823032ab020e2ad6960a9a7c2e115fc160c3de142ffdc0"><div class="ttname"><a href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2ad6960a9a7c2e115fc160c3de142ffdc0">Val_GNU_MIPS_ABI_FP_64</a></div><div class="ttdeci">@ Val_GNU_MIPS_ABI_FP_64</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l01772">elf.h:1772</a></div></div>
+<div class="ttc" id="aUserspace_2musl_2include_2elf_8h_html_a7a0c72be200b1a2f2da823032ab020e2af54092260d1169b51b3485e0ffbb3f8f"><div class="ttname"><a href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2af54092260d1169b51b3485e0ffbb3f8f">Val_GNU_MIPS_ABI_FP_DOUBLE</a></div><div class="ttdeci">@ Val_GNU_MIPS_ABI_FP_DOUBLE</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l01767">elf.h:1767</a></div></div>
+<div class="ttc" id="aUserspace_2musl_2include_2elf_8h_html_a7a0c72be200b1a2f2da823032ab020e2afcb16415e2c46a9af5619b39223073ff"><div class="ttname"><a href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a7a0c72be200b1a2f2da823032ab020e2afcb16415e2c46a9af5619b39223073ff">Val_GNU_MIPS_ABI_FP_ANY</a></div><div class="ttdeci">@ Val_GNU_MIPS_ABI_FP_ANY</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l01766">elf.h:1766</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>

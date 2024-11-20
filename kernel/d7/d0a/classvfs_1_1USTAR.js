@@ -19,19 +19,56 @@ var classvfs_1_1USTAR =
       [ "uid", "d7/d0a/classvfs_1_1USTAR.html#aa10eadb1ae10499e351bf17520b321ce", null ],
       [ "version", "d7/d0a/classvfs_1_1USTAR.html#a2ab0726805513e5390081bade63bb493", null ]
     ] ],
-    [ "FileType", "d7/d0a/classvfs_1_1USTAR.html#af467d8bb2806a4042faedf0ff0382af6", [
-      [ "REGULAR_FILE", "d7/d0a/classvfs_1_1USTAR.html#af467d8bb2806a4042faedf0ff0382af6aa7eb7d097a147d4423f2e2f43a7e2e80", null ],
-      [ "HARDLINK", "d7/d0a/classvfs_1_1USTAR.html#af467d8bb2806a4042faedf0ff0382af6a045b3342dabc6ea818c1e57c8cf9eda0", null ],
-      [ "SYMLINK", "d7/d0a/classvfs_1_1USTAR.html#af467d8bb2806a4042faedf0ff0382af6a1779f7af59be105796dc81cd0458f9dc", null ],
-      [ "CHARDEV", "d7/d0a/classvfs_1_1USTAR.html#af467d8bb2806a4042faedf0ff0382af6aa574b244a154f5e90cf6963731aed4f1", null ],
-      [ "BLOCKDEV", "d7/d0a/classvfs_1_1USTAR.html#af467d8bb2806a4042faedf0ff0382af6a71fa8742b62618c675b60d36a2c5e6fb", null ],
-      [ "DIRECTORY", "d7/d0a/classvfs_1_1USTAR.html#af467d8bb2806a4042faedf0ff0382af6a90ab942e1d24b51e7f4692c6d1f6cb04", null ],
-      [ "FIFO", "d7/d0a/classvfs_1_1USTAR.html#af467d8bb2806a4042faedf0ff0382af6a8d89a10e5d2039e99e203f5d6e3f8ea9", null ]
+    [ "USTARInode", "d7/d0a/classvfs_1_1USTAR.html#dd/dc2/structvfs_1_1USTAR_1_1USTARInode", [
+      [ "Checksum", "d7/d0a/classvfs_1_1USTAR.html#a55781efc3277ddbf9c8667314f737a6b", null ],
+      [ "Children", "d7/d0a/classvfs_1_1USTAR.html#a62a1c92761cf8b1d2e4dca4f7b87396d", null ],
+      [ "Deleted", "d7/d0a/classvfs_1_1USTAR.html#abe2ba441a2c81a784504d801aad0f581", null ],
+      [ "Header", "d7/d0a/classvfs_1_1USTAR.html#a1070d05c45a198032d6615fd6bc51566", null ],
+      [ "Name", "d7/d0a/classvfs_1_1USTAR.html#a3e6872d9ddc0c451e996f9070285a9bd", null ],
+      [ "Node", "d7/d0a/classvfs_1_1USTAR.html#ac117da374254ead37028ee8c199ecad6", null ],
+      [ "Parent", "d7/d0a/classvfs_1_1USTAR.html#a1361251203f42bd66cb275a422d71e9a", null ],
+      [ "Path", "d7/d0a/classvfs_1_1USTAR.html#a67f7ceb9bbcfffef7fc3c986ba5d58b5", null ]
+    ] ],
+    [ "ModeFlag", "d7/d0a/classvfs_1_1USTAR.html#a72cb0ea36e64d935976aa0fed8e127ed", [
+      [ "TSUID", "d7/d0a/classvfs_1_1USTAR.html#a72cb0ea36e64d935976aa0fed8e127eda8ed2892d70a71ff98c2bd25154f6ef6a", null ],
+      [ "TSGID", "d7/d0a/classvfs_1_1USTAR.html#a72cb0ea36e64d935976aa0fed8e127eda3b7bb19e5da06237b29f76d9d98c8a4c", null ],
+      [ "TSVTX", "d7/d0a/classvfs_1_1USTAR.html#a72cb0ea36e64d935976aa0fed8e127edad928dcb56984a42480423cab15b0dce4", null ],
+      [ "TUREAD", "d7/d0a/classvfs_1_1USTAR.html#a72cb0ea36e64d935976aa0fed8e127edafc505c83bbdac63d36b87a0e4bea373e", null ],
+      [ "TUWRITE", "d7/d0a/classvfs_1_1USTAR.html#a72cb0ea36e64d935976aa0fed8e127eda42d043ca38e19bd5331ffddfa48370e9", null ],
+      [ "TUEXEC", "d7/d0a/classvfs_1_1USTAR.html#a72cb0ea36e64d935976aa0fed8e127eda79100608b763b58ba7646641ab186801", null ],
+      [ "TGREAD", "d7/d0a/classvfs_1_1USTAR.html#a72cb0ea36e64d935976aa0fed8e127eda9fb66ac3c22242e2f7e9f7ed011857ef", null ],
+      [ "TGWRITE", "d7/d0a/classvfs_1_1USTAR.html#a72cb0ea36e64d935976aa0fed8e127eda0c2153cbfa6983f71b9ec3358b4740bf", null ],
+      [ "TGEXEC", "d7/d0a/classvfs_1_1USTAR.html#a72cb0ea36e64d935976aa0fed8e127edad7014d6fc1a09f4c096c0fa695191aeb", null ],
+      [ "TOREAD", "d7/d0a/classvfs_1_1USTAR.html#a72cb0ea36e64d935976aa0fed8e127eda6b93a04c7c4ffb7d115c7e5e4eba1f2e", null ],
+      [ "TOWRITE", "d7/d0a/classvfs_1_1USTAR.html#a72cb0ea36e64d935976aa0fed8e127eda0dac40fc74260b153630e865b1c08a7b", null ],
+      [ "TOEXEC", "d7/d0a/classvfs_1_1USTAR.html#a72cb0ea36e64d935976aa0fed8e127eda75eceebb7bb08749f6de3f75e936e43f", null ]
+    ] ],
+    [ "TypeFlag", "d7/d0a/classvfs_1_1USTAR.html#afbf82fb282ecbf8bfb1cdd4feaa1f7fd", [
+      [ "AREGTYPE", "d7/d0a/classvfs_1_1USTAR.html#afbf82fb282ecbf8bfb1cdd4feaa1f7fda5d4a7bb708861426d59adc5a50da333a", null ],
+      [ "REGTYPE", "d7/d0a/classvfs_1_1USTAR.html#afbf82fb282ecbf8bfb1cdd4feaa1f7fdae3f4efc51546ba909bff08aebd7597bd", null ],
+      [ "LNKTYPE", "d7/d0a/classvfs_1_1USTAR.html#afbf82fb282ecbf8bfb1cdd4feaa1f7fda093e9d398c69575cb01129f05fabd1d9", null ],
+      [ "SYMTYPE", "d7/d0a/classvfs_1_1USTAR.html#afbf82fb282ecbf8bfb1cdd4feaa1f7fdabef31cc999f64ba5f2e7f8afae1c7616", null ],
+      [ "CHRTYPE", "d7/d0a/classvfs_1_1USTAR.html#afbf82fb282ecbf8bfb1cdd4feaa1f7fda94ec1fd3003be4d9b8b7e4edc66d0799", null ],
+      [ "BLKTYPE", "d7/d0a/classvfs_1_1USTAR.html#afbf82fb282ecbf8bfb1cdd4feaa1f7fda669779e1ec9a6ce96318986929b9fbf9", null ],
+      [ "DIRTYPE", "d7/d0a/classvfs_1_1USTAR.html#afbf82fb282ecbf8bfb1cdd4feaa1f7fdabf34f0490c59a81598a6fe0a9e7aa382", null ],
+      [ "FIFOTYPE", "d7/d0a/classvfs_1_1USTAR.html#afbf82fb282ecbf8bfb1cdd4feaa1f7fda9981c1160248157cbc55b70d3bb3e0ae", null ],
+      [ "CONTTYPE", "d7/d0a/classvfs_1_1USTAR.html#afbf82fb282ecbf8bfb1cdd4feaa1f7fdab39827c50ea125f14b24b5c5f582154f", null ]
     ] ],
     [ "USTAR", "d7/d0a/classvfs_1_1USTAR.html#a47fa0ed1b5ce13da9cba3c6d6830b7cc", null ],
     [ "~USTAR", "d7/d0a/classvfs_1_1USTAR.html#a7cf6c5e542a74c9f97fc708f4d7d3646", null ],
-    [ "getsize", "d7/d0a/classvfs_1_1USTAR.html#aecac8dbbaadedd77bf9ea20c405fe4c5", null ],
-    [ "ReadArchive", "d7/d0a/classvfs_1_1USTAR.html#a2a3baaabde6f3d296750b36f64ab3dbd", null ],
-    [ "string2int", "d7/d0a/classvfs_1_1USTAR.html#ad0b1097b5b6cbf4fc0e26569a12890c3", null ],
-    [ "TestArchive", "d7/d0a/classvfs_1_1USTAR.html#a7b5ecde589fcaaf137169682e96fd1e3", null ]
+    [ "Create", "d7/d0a/classvfs_1_1USTAR.html#ae672340609192f2ab056bb29edc15fc2", null ],
+    [ "GetSize", "d7/d0a/classvfs_1_1USTAR.html#a82acc95eb17ee55f0a2b18bff0c33282", null ],
+    [ "Lookup", "d7/d0a/classvfs_1_1USTAR.html#a8a7ea81e292920094c9ac017946f21b8", null ],
+    [ "Read", "d7/d0a/classvfs_1_1USTAR.html#a9aa2bacc3082c7d8bbe22f54d8b4a850", null ],
+    [ "ReadArchive", "d7/d0a/classvfs_1_1USTAR.html#a4e5adf509c4ff33c5c7bc8ac7504d7ab", null ],
+    [ "ReadDir", "d7/d0a/classvfs_1_1USTAR.html#ac47f0d28073f64d60df44eb306ad39af", null ],
+    [ "ReadLink", "d7/d0a/classvfs_1_1USTAR.html#a2b7b475e992aa3a88129316d9e63461d", null ],
+    [ "Stat", "d7/d0a/classvfs_1_1USTAR.html#a243389c9f65e90b3988ec12c35e15beb", null ],
+    [ "StringToInt", "d7/d0a/classvfs_1_1USTAR.html#a7df2a5a8fcdf700b878ff40be70e17fb", null ],
+    [ "SymLink", "d7/d0a/classvfs_1_1USTAR.html#a0f3b01fd26139906abb7543e83a3c723", null ],
+    [ "TestArchive", "d7/d0a/classvfs_1_1USTAR.html#a7b5ecde589fcaaf137169682e96fd1e3", null ],
+    [ "DeviceID", "d7/d0a/classvfs_1_1USTAR.html#a03c4c99f829a6f529f52fd89a2066dba", null ],
+    [ "Files", "d7/d0a/classvfs_1_1USTAR.html#a3531cb13c6cba8e8986abec8ac78fa63", null ],
+    [ "INODE_CHECKSUM", "d7/d0a/classvfs_1_1USTAR.html#ace8ac1b311ca671cff3d1fe15336e467", null ],
+    [ "NextInode", "d7/d0a/classvfs_1_1USTAR.html#a0f701145f3f9b69efdb3dbdca4c6a375", null ]
 ];

@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d8/d41/localtime32_8c.html','../../');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a18e83d4ca3de04e5a3880e26087f67d8"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d4/d02/musl_2include_2time_8h.html#d8/d5a/structtm">tm</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d41/localtime32_8c.html#a18e83d4ca3de04e5a3880e26087f67d8">__localtime32</a> (<a class="el" href="../../da/de1/time32_8h.html#a0c708c1577ba61ce003c1e8e5e377c6d">time32_t</a> *<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>)</td></tr>
+<tr class="memitem:a18e83d4ca3de04e5a3880e26087f67d8"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d4/d02/musl_2include_2time_8h.html#d8/d5a/structtm">tm</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d41/localtime32_8c.html#a18e83d4ca3de04e5a3880e26087f67d8">__localtime32</a> (<a class="el" href="../../da/de1/time32_8h.html#a0c708c1577ba61ce003c1e8e5e377c6d">time32_t</a> *t)</td></tr>
 <tr class="separator:a18e83d4ca3de04e5a3880e26087f67d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -120,12 +120,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/d41/localtime32_8c_source.html#l00004">4</a> of file <a class="el" href="../../d8/d41/localtime32_8c_source.html">localtime32.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/d02/musl_2include_2time_8h.html#a07638fbd95ed65c833f1ea655ad92588">localtime</a>(&amp;(time_t){*<a class="code" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>});</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/d02/musl_2include_2time_8h.html#a07638fbd95ed65c833f1ea655ad92588">localtime</a>(&amp;(time_t){*t});</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="agm__loop_8c_html_ac310d9181e916ba43604099aee272c71"><div class="ttname"><a href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a></div><div class="ttdeci">int t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dec/gm__loop_8c_source.html#l00079">gm_loop.c:79</a></div></div>
 <div class="ttc" id="amusl_2include_2time_8h_html_a07638fbd95ed65c833f1ea655ad92588"><div class="ttname"><a href="../../d4/d02/musl_2include_2time_8h.html#a07638fbd95ed65c833f1ea655ad92588">localtime</a></div><div class="ttdeci">struct tm * localtime(const time_t *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df8/localtime_8c_source.html#l00003">localtime.c:3</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/df8/localtime_8c_source.html#l00003">localtime()</a>, and <a class="el" href="../../d6/dec/gm__loop_8c_source.html#l00079">t</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/df8/localtime_8c_source.html#l00003">localtime()</a>.</p>
 
 </div>
 </div>

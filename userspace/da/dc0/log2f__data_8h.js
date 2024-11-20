@@ -2,7 +2,7 @@ var log2f__data_8h =
 [
     [ "log2f_data", "da/dc0/log2f__data_8h.html#d7/d1c/structlog2f__data", [
       [ "poly", "da/dc0/log2f__data_8h.html#aebd9770d8232d5c11ac733420b36f46b", null ],
-      [ "tab", "da/dc0/log2f__data_8h.html#a8e23133306ebd5abb509cb39f8498391", null ]
+      [ "tab", "da/dc0/log2f__data_8h.html#a3569e778b23227e402a37b0c3a484992", null ]
     ] ],
     [ "log2f_data.tab", "da/dc0/log2f__data_8h.html#db/d2e/structlog2f__data_8tab", [
       [ "invc", "da/dc0/log2f__data_8h.html#ac793896b0f1ce01182868fbf8e05ad42", null ],

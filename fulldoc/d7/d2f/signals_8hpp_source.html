@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix: Kernel/include/syscall/linux/signals.hpp Source File</title>
+<title>Fennix: Kernel/subsystem/linux/include/signals.hpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -109,7 +109,7 @@ $(document).ready(function(){initNavTree('d7/d2f/signals_8hpp_source.html','../.
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#ifndef __FENNIX_KERNEL_LINUX_SIGNALS_H__</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#define __FENNIX_KERNEL_LINUX_SIGNALS_H__</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;types.h&gt;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="../../d7/d2f/signals_8hpp.html#a87b2fcd0284373e578edbc1240b5c627">   21</a></span>&#160;<span class="preprocessor">#define linux_NSIG 64</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
 <div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../d7/d2f/signals_8hpp.html#abe327034d51029a269b825b078351816">   23</a></span>&#160;<span class="preprocessor">#define linux_SIGHUP 1</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../d7/d2f/signals_8hpp.html#a3e744b618cba6f0846de615407459f55">   24</a></span>&#160;<span class="preprocessor">#define linux_SIGINT 2</span></div>
@@ -144,13 +144,29 @@ $(document).ready(function(){initNavTree('d7/d2f/signals_8hpp_source.html','../.
 <div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="../../d7/d2f/signals_8hpp.html#a79b5f1d04854a1509c4d1155938e00bd">   53</a></span>&#160;<span class="preprocessor">#define linux_SIGSYS 31</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="../../d7/d2f/signals_8hpp.html#a54a510156dc711128f3f05c9eb57f4c2">   54</a></span>&#160;<span class="preprocessor">#define linux_SIGUNUSED linux_SIGSYS</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !__FENNIX_KERNEL_LINUX_SIGNALS_H__</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="../../d7/d2f/signals_8hpp.html#aae08d342b63f80447390b92b36b3d984">   56</a></span>&#160;<span class="preprocessor">#define linux_SIGRTMIN 32</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="../../d7/d2f/signals_8hpp.html#aaf9f0ef25a82d76ae0e9ae30cdf9f883">   57</a></span>&#160;<span class="preprocessor">#define linux_SIGRTMAX linux_NSIG</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="../../d1/d21/structk__sigaction.html">   59</a></span>&#160;<span class="keyword">struct </span><a class="code" href="../../d1/d21/structk__sigaction.html">k_sigaction</a></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;{</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="../../d1/d21/structk__sigaction.html#a0fd25752242b509b57b29636d5ba1e38">   61</a></span>&#160;    void (*<a class="code" href="../../d1/d21/structk__sigaction.html#a0fd25752242b509b57b29636d5ba1e38">handler</a>)(int);</div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="../../d1/d21/structk__sigaction.html#a45a2a0603907ca739fb15d70765e4ed3">   62</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code" href="../../d1/d21/structk__sigaction.html#a45a2a0603907ca739fb15d70765e4ed3">flags</a>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="../../d1/d21/structk__sigaction.html#a5f81ba93dc80404cf8f270ec3df18bfc">   63</a></span>&#160;    void (*<a class="code" href="../../d1/d21/structk__sigaction.html#a5f81ba93dc80404cf8f270ec3df18bfc">restorer</a>)(void);</div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="../../d1/d21/structk__sigaction.html#ad896135339a21fd82f783d8383d8e601">   64</a></span>&#160;    <span class="keywordtype">unsigned</span> <a class="code" href="../../d1/d21/structk__sigaction.html#ad896135339a21fd82f783d8383d8e601">mask</a>[2];</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;};</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !__FENNIX_KERNEL_LINUX_SIGNALS_H__</span></div>
+<div class="ttc" id="astructk__sigaction_html"><div class="ttname"><a href="../../d1/d21/structk__sigaction.html">k_sigaction</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2f/signals_8hpp_source.html#l00059">signals.hpp:60</a></div></div>
+<div class="ttc" id="astructk__sigaction_html_a0fd25752242b509b57b29636d5ba1e38"><div class="ttname"><a href="../../d1/d21/structk__sigaction.html#a0fd25752242b509b57b29636d5ba1e38">k_sigaction::handler</a></div><div class="ttdeci">void(* handler)(int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2f/signals_8hpp_source.html#l00061">signals.hpp:61</a></div></div>
+<div class="ttc" id="astructk__sigaction_html_a45a2a0603907ca739fb15d70765e4ed3"><div class="ttname"><a href="../../d1/d21/structk__sigaction.html#a45a2a0603907ca739fb15d70765e4ed3">k_sigaction::flags</a></div><div class="ttdeci">unsigned long flags</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2f/signals_8hpp_source.html#l00062">signals.hpp:62</a></div></div>
+<div class="ttc" id="astructk__sigaction_html_a5f81ba93dc80404cf8f270ec3df18bfc"><div class="ttname"><a href="../../d1/d21/structk__sigaction.html#a5f81ba93dc80404cf8f270ec3df18bfc">k_sigaction::restorer</a></div><div class="ttdeci">void(* restorer)(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2f/signals_8hpp_source.html#l00063">signals.hpp:63</a></div></div>
+<div class="ttc" id="astructk__sigaction_html_ad896135339a21fd82f783d8383d8e601"><div class="ttname"><a href="../../d1/d21/structk__sigaction.html#ad896135339a21fd82f783d8383d8e601">k_sigaction::mask</a></div><div class="ttdeci">unsigned mask[2]</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2f/signals_8hpp_source.html#l00064">signals.hpp:64</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_2c335c1ccbf6ef7c89cc08c9ed88be2e.html">include</a></li><li class="navelem"><a class="el" href="../../dir_cb1be2d007f1b33d56b6ba232a305361.html">syscall</a></li><li class="navelem"><a class="el" href="../../dir_ffd2385dadb536f044a034c94dc42766.html">linux</a></li><li class="navelem"><a class="el" href="../../d7/d2f/signals_8hpp.html">signals.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_529ae5463d15c1dc97700dfb5ef51f6c.html">subsystem</a></li><li class="navelem"><a class="el" href="../../dir_a42e8685b1207f3cdcbbabbb6f2ea741.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_4b598dc4dccdf7570d054f5fe5807c69.html">include</a></li><li class="navelem"><a class="el" href="../../d7/d2f/signals_8hpp.html">signals.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

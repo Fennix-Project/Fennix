@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix Kernel: Kernel/include/syscall/linux/signals.hpp File Reference</title>
+<title>Fennix Kernel: Kernel/subsystem/linux/include/signals.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,17 +86,24 @@ $(document).ready(function(){initNavTree('d7/d2f/signals_8hpp.html','../../'); i
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">signals.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;types.h&gt;</code><br />
-</div>
+
 <p><a href="../../d7/d2f/signals_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d21/structk__sigaction.html">k_sigaction</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:a87b2fcd0284373e578edbc1240b5c627"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d2f/signals_8hpp.html#a87b2fcd0284373e578edbc1240b5c627">linux_NSIG</a>&#160;&#160;&#160;64</td></tr>
+<tr class="separator:a87b2fcd0284373e578edbc1240b5c627"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe327034d51029a269b825b078351816"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d2f/signals_8hpp.html#abe327034d51029a269b825b078351816">linux_SIGHUP</a>&#160;&#160;&#160;1</td></tr>
 <tr class="separator:abe327034d51029a269b825b078351816"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e744b618cba6f0846de615407459f55"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d2f/signals_8hpp.html#a3e744b618cba6f0846de615407459f55">linux_SIGINT</a>&#160;&#160;&#160;2</td></tr>
@@ -161,8 +168,28 @@ Macros</h2></td></tr>
 <tr class="separator:a79b5f1d04854a1509c4d1155938e00bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54a510156dc711128f3f05c9eb57f4c2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d2f/signals_8hpp.html#a54a510156dc711128f3f05c9eb57f4c2">linux_SIGUNUSED</a>&#160;&#160;&#160;<a class="el" href="../../d7/d2f/signals_8hpp.html#a79b5f1d04854a1509c4d1155938e00bd">linux_SIGSYS</a></td></tr>
 <tr class="separator:a54a510156dc711128f3f05c9eb57f4c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae08d342b63f80447390b92b36b3d984"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d2f/signals_8hpp.html#aae08d342b63f80447390b92b36b3d984">linux_SIGRTMIN</a>&#160;&#160;&#160;32</td></tr>
+<tr class="separator:aae08d342b63f80447390b92b36b3d984"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf9f0ef25a82d76ae0e9ae30cdf9f883"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d2f/signals_8hpp.html#aaf9f0ef25a82d76ae0e9ae30cdf9f883">linux_SIGRTMAX</a>&#160;&#160;&#160;<a class="el" href="../../d7/d2f/signals_8hpp.html#a87b2fcd0284373e578edbc1240b5c627">linux_NSIG</a></td></tr>
+<tr class="separator:aaf9f0ef25a82d76ae0e9ae30cdf9f883"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a87b2fcd0284373e578edbc1240b5c627"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87b2fcd0284373e578edbc1240b5c627">&#9670;&nbsp;</a></span>linux_NSIG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define linux_NSIG&#160;&#160;&#160;64</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d2f/signals_8hpp_source.html#l00021">21</a> of file <a class="el" href="../../d7/d2f/signals_8hpp_source.html">signals.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a8758bc021c2768fe47b451a7b2499b0f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8758bc021c2768fe47b451a7b2499b0f">&#9670;&nbsp;</a></span>linux_SIGABRT</h2>
 
@@ -400,6 +427,38 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d2f/signals_8hpp_source.html#l00025">25</a> of file <a class="el" href="../../d7/d2f/signals_8hpp_source.html">signals.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aaf9f0ef25a82d76ae0e9ae30cdf9f883"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf9f0ef25a82d76ae0e9ae30cdf9f883">&#9670;&nbsp;</a></span>linux_SIGRTMAX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define linux_SIGRTMAX&#160;&#160;&#160;<a class="el" href="../../d7/d2f/signals_8hpp.html#a87b2fcd0284373e578edbc1240b5c627">linux_NSIG</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d2f/signals_8hpp_source.html#l00057">57</a> of file <a class="el" href="../../d7/d2f/signals_8hpp_source.html">signals.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aae08d342b63f80447390b92b36b3d984"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae08d342b63f80447390b92b36b3d984">&#9670;&nbsp;</a></span>linux_SIGRTMIN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define linux_SIGRTMIN&#160;&#160;&#160;32</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/d2f/signals_8hpp_source.html#l00056">56</a> of file <a class="el" href="../../d7/d2f/signals_8hpp_source.html">signals.hpp</a>.</p>
 
 </div>
 </div>
@@ -680,7 +739,7 @@ Macros</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_2c335c1ccbf6ef7c89cc08c9ed88be2e.html">include</a></li><li class="navelem"><a class="el" href="../../dir_cb1be2d007f1b33d56b6ba232a305361.html">syscall</a></li><li class="navelem"><a class="el" href="../../dir_ffd2385dadb536f044a034c94dc42766.html">linux</a></li><li class="navelem"><a class="el" href="../../d7/d2f/signals_8hpp.html">signals.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_529ae5463d15c1dc97700dfb5ef51f6c.html">subsystem</a></li><li class="navelem"><a class="el" href="../../dir_a42e8685b1207f3cdcbbabbb6f2ea741.html">linux</a></li><li class="navelem"><a class="el" href="../../dir_4b598dc4dccdf7570d054f5fe5807c69.html">include</a></li><li class="navelem"><a class="el" href="../../d7/d2f/signals_8hpp.html">signals.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

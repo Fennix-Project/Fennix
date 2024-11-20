@@ -1,8 +1,23 @@
 var searchData=
 [
-  ['obj_5freloc_75534',['obj_reloc',['../dc/ded/modutils-24_8c.html#a8234ce769b68f94555d86de83f9ae324',1,'modutils-24.c']]],
-  ['operator_75535',['operator',['../d0/ddf/structexpression.html#a09b5f6c7424cd4cc5d78f922d737781e',1,'expression']]],
-  ['operator_5fe_75536',['operator_e',['../d7/d05/dpkg_8c.html#ac654d21de7f6a409f1c1fdec91f95112',1,'dpkg.c']]],
-  ['output_5fformat_75537',['output_format',['../d1/dac/od__bloaty_8c.html#adab978eb5c8aa199396471558598dc53',1,'od_bloaty.c']]],
-  ['outputpulsecodemodulationregisters_75538',['OutputPulseCodeModulationRegisters',['../d0/daf/ac97_8cpp.html#a4e74753899b251a61239afaebd7c7700',1,'ac97.cpp']]]
+  ['pagemapflags_44094',['PageMapFlags',['../d6/d91/Kernel_2include_2interface_2driver_8h.html#ac0416d24abd7b108d48d16eb4e913e8a',1,'PageMapFlags():&#160;driver.h'],['../df/d99/Drivers_2include_2driver_8h.html#ac0416d24abd7b108d48d16eb4e913e8a',1,'PageMapFlags():&#160;driver.h']]],
+  ['parserstate_44095',['ParserState',['../d4/db1/structKernelConsole_1_1ANSIParser.html#ad5e0143ad292ea0ec8c22ff13ddece05',1,'KernelConsole::ANSIParser']]],
+  ['partitionflags_44096',['PartitionFlags',['../d1/d29/namespaceDisk.html#a9bf86371ea9b6aabf4afa7bea7339c60',1,'Disk']]],
+  ['partitionstyle_44097',['PartitionStyle',['../d1/d29/namespaceDisk.html#a71245edf60dd20e7910d4f422bb5d40a',1,'Disk']]],
+  ['pci_5fcommands_44098',['PCI_COMMANDS',['../d2/d20/Kernel_2include_2interface_2pci_8h.html#ab7d0ea17dce7f541574a7f07737fd7a9',1,'PCI_COMMANDS():&#160;pci.h'],['../d5/d9f/Drivers_2include_2pci_8h.html#ab7d0ea17dce7f541574a7f07737fd7a9',1,'PCI_COMMANDS():&#160;pci.h']]],
+  ['pcicommands_44099',['PCICommands',['../d0/d8f/namespacePCI.html#a4cfe0f91749b9ec5b3a95b119f7a4b09',1,'PCI']]],
+  ['pcivendors_44100',['PCIVendors',['../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586c',1,'PCI::Descriptors']]],
+  ['plat_5fe_44101',['plat_e',['../d2/d78/p__spec_8h.html#ad46c72f353ae5de7b983ff417b0df959',1,'p_spec.h']]],
+  ['plattype_5fe_44102',['plattype_e',['../d2/d78/p__spec_8h.html#ab52a6e23a834774fe851035e5095b6d2',1,'p_spec.h']]],
+  ['playerstate_5ft_44103',['playerstate_t',['../d5/d9f/d__player_8h.html#ab84fc85bb3054c86cc71d59f17e81c72',1,'d_player.h']]],
+  ['ports_44104',['Ports',['../d1/d87/uart_8c.html#a2ad753c0f887e8a4d18ce4b743811b0f',1,'uart.c']]],
+  ['porttype_44105',['PortType',['../dd/d51/ahci_8cpp.html#a7674c329addda8fbe6176bbbf25c8b21',1,'ahci.cpp']]],
+  ['powerduration_5ft_44106',['powerduration_t',['../d3/d47/doomdef_8h.html#a9f041025b996b9df0a088367ed9e3d5e',1,'doomdef.h']]],
+  ['powertype_5ft_44107',['powertype_t',['../d3/d47/doomdef_8h.html#ada461cebd7de36146f358613b1816564',1,'doomdef.h']]],
+  ['privilegeleveltype_44108',['PrivilegeLevelType',['../d2/db2/namespaceInterruptDescriptorTable.html#a12c6a714066f266c7da16fbd842d5bcb',1,'InterruptDescriptorTable::PrivilegeLevelType()'],['../dc/d7c/SegmentDescriptors_8hpp.html#a8a3ba9e97b1605055028238eb08b4fdb',1,'PrivilegeLevelType():&#160;SegmentDescriptors.hpp']]],
+  ['ps2_5fkbd_5fleds_44109',['PS2_KBD_LEDS',['../d6/d73/Kernel_2include_2interface_2aip_8h.html#a9a7a0249339e911c4a1c3ec0c7c94cbc',1,'PS2_KBD_LEDS():&#160;aip.h'],['../d7/df4/kbd_8h.html#a9a7a0249339e911c4a1c3ec0c7c94cbc',1,'PS2_KBD_LEDS():&#160;kbd.h'],['../dc/d46/Drivers_2include_2aip_8h.html#a9a7a0249339e911c4a1c3ec0c7c94cbc',1,'PS2_KBD_LEDS():&#160;aip.h']]],
+  ['ps2_5fkbd_5fscan_5fcode_5fset_44110',['PS2_KBD_SCAN_CODE_SET',['../d6/d73/Kernel_2include_2interface_2aip_8h.html#a298a99937859237aa2f19ee87436c3e4',1,'PS2_KBD_SCAN_CODE_SET():&#160;aip.h'],['../d7/df4/kbd_8h.html#a298a99937859237aa2f19ee87436c3e4',1,'PS2_KBD_SCAN_CODE_SET():&#160;kbd.h'],['../dc/d46/Drivers_2include_2aip_8h.html#a298a99937859237aa2f19ee87436c3e4',1,'PS2_KBD_SCAN_CODE_SET():&#160;aip.h']]],
+  ['ps2_5fmouse_5fresolution_44111',['PS2_MOUSE_RESOLUTION',['../d6/d73/Kernel_2include_2interface_2aip_8h.html#aed07baf84b6821e47550c706b103fad7',1,'PS2_MOUSE_RESOLUTION():&#160;aip.h'],['../dc/ded/mouse_8h.html#aed07baf84b6821e47550c706b103fad7',1,'PS2_MOUSE_RESOLUTION():&#160;mouse.h'],['../dc/d46/Drivers_2include_2aip_8h.html#aed07baf84b6821e47550c706b103fad7',1,'PS2_MOUSE_RESOLUTION():&#160;aip.h']]],
+  ['psprnum_5ft_44112',['psprnum_t',['../df/d67/p__pspr_8h.html#a361b82641ca00e49fc3d5f0ad8851928',1,'p_pspr.h']]],
+  ['ptflag_44113',['PTFlag',['../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2',1,'Memory']]]
 ];

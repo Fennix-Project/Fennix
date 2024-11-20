@@ -99,16 +99,71 @@ $(document).ready(function(){initNavTree('dd/d95/ls_8cpp.html','../../'); initRe
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1d143e1aefa133cb75dcb35d1e90d7b4"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d95/ls_8cpp.html#a1d143e1aefa133cb75dcb35d1e90d7b4">ColorNodeType</a> (<a class="el" href="../../df/d69/classvfs_1_1Node.html">Node</a> *node)</td></tr>
-<tr class="separator:a1d143e1aefa133cb75dcb35d1e90d7b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6c6f11431c1616a058ae80765512ef9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d95/ls_8cpp.html#af6c6f11431c1616a058ae80765512ef9">MaxNameLength</a> (<a class="el" href="../../df/d69/classvfs_1_1Node.html">Node</a> *nodes)</td></tr>
-<tr class="separator:af6c6f11431c1616a058ae80765512ef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae05650f7651789b79f0f4b52bd02b845"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d95/ls_8cpp.html#ae05650f7651789b79f0f4b52bd02b845">PrintLS</a> (<a class="el" href="../../df/d69/classvfs_1_1Node.html">Node</a> *node)</td></tr>
-<tr class="separator:ae05650f7651789b79f0f4b52bd02b845"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeaf31b05ae3a3cf42859ec80646852c"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d95/ls_8cpp.html#adeaf31b05ae3a3cf42859ec80646852c">ColorNodeType</a> (<a class="el" href="../../d8/dea/classFileNode.html">FileNode</a> *node)</td></tr>
+<tr class="separator:adeaf31b05ae3a3cf42859ec80646852c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29403e04efb5c97724d2bb4b856133c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d95/ls_8cpp.html#a29403e04efb5c97724d2bb4b856133c7">__no_sanitize</a> (&quot;alignment&quot;) size_t MaxNameLength(<a class="el" href="../../d8/dea/classFileNode.html">FileNode</a> *nodes)</td></tr>
+<tr class="separator:a29403e04efb5c97724d2bb4b856133c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56ac7dda950de67b84d246966b6be71e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d95/ls_8cpp.html#a56ac7dda950de67b84d246966b6be71e">cmd_ls</a> (const char *args)</td></tr>
 <tr class="separator:a56ac7dda950de67b84d246966b6be71e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a29403e04efb5c97724d2bb4b856133c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29403e04efb5c97724d2bb4b856133c7">&#9670;&nbsp;</a></span>__no_sanitize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__no_sanitize </td>
+          <td>(</td>
+          <td class="paramtype">&quot;alignment&quot;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d95/ls_8cpp_source.html#l00044">44</a> of file <a class="el" href="../../dd/d95/ls_8cpp_source.html">ls.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;{</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">size_t</span> maxLength = 0;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="../../df/d26/fs_8h.html#d9/ddf/structkdirent">kdirent</a> *dirBuffer = <span class="keyword">new</span> <a class="code" href="../../df/d26/fs_8h.html#d9/ddf/structkdirent">kdirent</a>[16];</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="../../d6/de6/include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a> read = 0;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    off_t offset = 0;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">while</span> ((read = nodes-&gt;ReadDir(dirBuffer, <span class="keyword">sizeof</span>(<a class="code" href="../../df/d26/fs_8h.html#d9/ddf/structkdirent">kdirent</a>) * 16, offset, <a class="code" href="../../d9/d86/limits_8h.html#a50fece4db74f09568b2938db583c5655">LONG_MAX</a>)) &gt; 0)</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    {</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">if</span> (read / <span class="keyword">sizeof</span>(<a class="code" href="../../df/d26/fs_8h.html#d9/ddf/structkdirent">kdirent</a>) == 0)</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        off_t bufOffset = 0;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;There are %ld entries in this directory&quot;</span>, read / <span class="keyword">sizeof</span>(<a class="code" href="../../df/d26/fs_8h.html#d9/ddf/structkdirent">kdirent</a>));</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; read / <span class="keyword">sizeof</span>(<a class="code" href="../../df/d26/fs_8h.html#d9/ddf/structkdirent">kdirent</a>); i++)</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        {</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <a class="code" href="../../df/d26/fs_8h.html#d9/ddf/structkdirent">kdirent</a> *dirent = (<a class="code" href="../../df/d26/fs_8h.html#d9/ddf/structkdirent">kdirent</a> *)((<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)dirBuffer + bufOffset);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <span class="keywordflow">if</span> (dirent-&gt;<a class="code" href="../../df/d26/fs_8h.html#ab16632cca111e54cdbcb1e3ce465ed3c">d_reclen</a> == 0)</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            bufOffset += dirent-&gt;<a class="code" href="../../df/d26/fs_8h.html#ab16632cca111e54cdbcb1e3ce465ed3c">d_reclen</a>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            maxLength = std::max(maxLength, <a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(dirent-&gt;<a class="code" href="../../df/d26/fs_8h.html#a5a9f69f32f7f6d41513d7093cd06b27b">d_name</a>));</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;dirent-&gt;d_name: %s (max length: %ld)&quot;</span>, dirent-&gt;<a class="code" href="../../df/d26/fs_8h.html#a5a9f69f32f7f6d41513d7093cd06b27b">d_name</a>, maxLength);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        }</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        offset += read / <span class="keyword">sizeof</span>(<a class="code" href="../../df/d26/fs_8h.html#d9/ddf/structkdirent">kdirent</a>);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keyword">delete</span>[] dirBuffer;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">return</span> maxLength;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;}</div>
+<div class="ttc" id="aconvert_8h_html_a7dcc610f4b04a8ee418f03a6d9256629"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a></div><div class="ttdeci">long unsigned strlen(const char s[])</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d68/convert_8cpp_source.html#l00065">convert.cpp:65</a></div></div>
+<div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00094">debug.h:94</a></div></div>
+<div class="ttc" id="afs_8h_html_a5a9f69f32f7f6d41513d7093cd06b27b"><div class="ttname"><a href="../../df/d26/fs_8h.html#a5a9f69f32f7f6d41513d7093cd06b27b">kdirent::d_name</a></div><div class="ttdeci">char d_name[]</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d26/fs_8h_source.html#l00251">fs.h:251</a></div></div>
+<div class="ttc" id="afs_8h_html_ab16632cca111e54cdbcb1e3ce465ed3c"><div class="ttname"><a href="../../df/d26/fs_8h.html#ab16632cca111e54cdbcb1e3ce465ed3c">kdirent::d_reclen</a></div><div class="ttdeci">unsigned short d_reclen</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d26/fs_8h_source.html#l00249">fs.h:249</a></div></div>
+<div class="ttc" id="afs_8h_html_d9/ddf/structkdirent"><div class="ttname"><a href="../../df/d26/fs_8h.html#d9/ddf/structkdirent">kdirent</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d26/fs_8h_source.html#l00245">fs.h:246</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00135">types.h:135</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_af10f4c58d91a6fa30ccc8a19d0ecbf48"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a></div><div class="ttdeci">intptr_t ssize_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00148">types.h:148</a></div></div>
+<div class="ttc" id="alimits_8h_html_a50fece4db74f09568b2938db583c5655"><div class="ttname"><a href="../../d9/d86/limits_8h.html#a50fece4db74f09568b2938db583c5655">LONG_MAX</a></div><div class="ttdeci">#define LONG_MAX</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d86/limits_8h_source.html#l00079">limits.h:79</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../df/d26/fs_8h_source.html#l00251">kdirent::d_name</a>, <a class="el" href="../../df/d26/fs_8h_source.html#l00249">kdirent::d_reclen</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, <a class="el" href="../../d9/d86/limits_8h_source.html#l00079">LONG_MAX</a>, and <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00065">strlen()</a>.</p>
+
+</div>
+</div>
 <a id="a56ac7dda950de67b84d246966b6be71e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a56ac7dda950de67b84d246966b6be71e">&#9670;&nbsp;</a></span>cmd_ls()</h2>
 
@@ -125,55 +180,51 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d95/ls_8cpp_source.html#l00071">71</a> of file <a class="el" href="../../dd/d95/ls_8cpp_source.html">ls.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;{</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">if</span> (args[0] == <span class="charliteral">&#39;\0&#39;</span>)</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    {</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <a class="code" href="../../df/d69/classvfs_1_1Node.html">Node</a> *rootNode = <a class="code" href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a>-&gt;CurrentWorkingDirectory;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">if</span> (rootNode == <span class="keyword">nullptr</span>)</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            rootNode = <a class="code" href="../../da/dce/kernel__vfs_8cpp.html#a277679a5638e76b6fd08abe5deee2022">fs</a>-&gt;<a class="code" href="../../d8/d64/classvfs_1_1Virtual.html#a5fbc5002ab9d40f364f0b60d6b8d7f2b">GetRootNode</a>()-&gt;<a class="code" href="../../df/d69/classvfs_1_1Node.html#a5f51e2006852156e65682e58f8840de6">Children</a>[0];</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <a class="code" href="../../dd/d95/ls_8cpp.html#ae05650f7651789b79f0f4b52bd02b845">PrintLS</a>(rootNode);</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    }</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    {</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <a class="code" href="../../df/d69/classvfs_1_1Node.html">Node</a> *thisNode = <a class="code" href="../../da/dce/kernel__vfs_8cpp.html#a277679a5638e76b6fd08abe5deee2022">fs</a>-&gt;<a class="code" href="../../d8/d64/classvfs_1_1Virtual.html#acd2f13e6b8ada2d15edfe097501313b1">GetNodeFromPath</a>(args, <a class="code" href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a>-&gt;CurrentWorkingDirectory);</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">if</span> (thisNode == <span class="keyword">nullptr</span>)</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        {</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <a class="code" href="../../d2/dc3/liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;ls: %s: No such file or directory\n&quot;</span>, args);</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        }</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordflow">if</span> (thisNode-&gt;<a class="code" href="../../df/d69/classvfs_1_1Node.html#aee9ecf34841a77610ca75ed5a376f5bd">Type</a> != <a class="code" href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73a6b48890836be7438cea33a39b9b64c54">NodeType::DIRECTORY</a>)</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        {</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <a class="code" href="../../d2/dc3/liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;%s%s\n&quot;</span>, <a class="code" href="../../dd/d95/ls_8cpp.html#a1d143e1aefa133cb75dcb35d1e90d7b4">ColorNodeType</a>(thisNode), thisNode-&gt;<a class="code" href="../../df/d69/classvfs_1_1Node.html#ac4168d7ab7677d4aa1eb7e6bf48eb8e6">Name</a>);</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        }</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160; </div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <a class="code" href="../../dd/d95/ls_8cpp.html#ae05650f7651789b79f0f4b52bd02b845">PrintLS</a>(thisNode);</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;}</div>
-<div class="ttc" id="aclassvfs_1_1Node_html"><div class="ttname"><a href="../../df/d69/classvfs_1_1Node.html">vfs::Node</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00215">filesystem.hpp:216</a></div></div>
-<div class="ttc" id="aclassvfs_1_1Node_html_a5f51e2006852156e65682e58f8840de6"><div class="ttname"><a href="../../df/d69/classvfs_1_1Node.html#a5f51e2006852156e65682e58f8840de6">vfs::Node::Children</a></div><div class="ttdeci">std::vector&lt; Node * &gt; Children</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00275">filesystem.hpp:275</a></div></div>
-<div class="ttc" id="aclassvfs_1_1Node_html_ac4168d7ab7677d4aa1eb7e6bf48eb8e6"><div class="ttname"><a href="../../df/d69/classvfs_1_1Node.html#ac4168d7ab7677d4aa1eb7e6bf48eb8e6">vfs::Node::Name</a></div><div class="ttdeci">const char * Name</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00255">filesystem.hpp:255</a></div></div>
-<div class="ttc" id="aclassvfs_1_1Node_html_aee9ecf34841a77610ca75ed5a376f5bd"><div class="ttname"><a href="../../df/d69/classvfs_1_1Node.html#aee9ecf34841a77610ca75ed5a376f5bd">vfs::Node::Type</a></div><div class="ttdeci">NodeType Type</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00257">filesystem.hpp:257</a></div></div>
-<div class="ttc" id="aclassvfs_1_1Virtual_html_a5fbc5002ab9d40f364f0b60d6b8d7f2b"><div class="ttname"><a href="../../d8/d64/classvfs_1_1Virtual.html#a5fbc5002ab9d40f364f0b60d6b8d7f2b">vfs::Virtual::GetRootNode</a></div><div class="ttdeci">Node * GetRootNode()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00347">filesystem.hpp:347</a></div></div>
-<div class="ttc" id="aclassvfs_1_1Virtual_html_acd2f13e6b8ada2d15edfe097501313b1"><div class="ttname"><a href="../../d8/d64/classvfs_1_1Virtual.html#acd2f13e6b8ada2d15edfe097501313b1">vfs::Virtual::GetNodeFromPath</a></div><div class="ttdeci">Node * GetNodeFromPath(const char *Path, Node *Parent=nullptr)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8f/filesystem_8cpp_source.html#l00112">filesystem.cpp:112</a></div></div>
-<div class="ttc" id="akernel__vfs_8cpp_html_a277679a5638e76b6fd08abe5deee2022"><div class="ttname"><a href="../../da/dce/kernel__vfs_8cpp.html#a277679a5638e76b6fd08abe5deee2022">fs</a></div><div class="ttdeci">vfs::Virtual * fs</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dce/kernel__vfs_8cpp_source.html#l00024">kernel_vfs.cpp:24</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../dd/d95/ls_8cpp_source.html#l00107">107</a> of file <a class="el" href="../../dd/d95/ls_8cpp_source.html">ls.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;{</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordflow">if</span> (args[0] == <span class="charliteral">&#39;\0&#39;</span>)</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    {</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        <a class="code" href="../../d8/dea/classFileNode.html">FileNode</a> *rootNode = <a class="code" href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a>-&gt;CWD;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="keywordflow">if</span> (rootNode == <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            rootNode = <a class="code" href="../../da/dce/kernel__vfs_8cpp.html#a277679a5638e76b6fd08abe5deee2022">fs</a>-&gt;<a class="code" href="../../d8/d64/classvfs_1_1Virtual.html#a08a308314b2fef58ea8ee8e19953ef7f">GetRoot</a>(0);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        PrintLS(rootNode);</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    }</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <a class="code" href="../../d8/dea/classFileNode.html">FileNode</a> *thisNode = <a class="code" href="../../da/dce/kernel__vfs_8cpp.html#a277679a5638e76b6fd08abe5deee2022">fs</a>-&gt;<a class="code" href="../../d8/d64/classvfs_1_1Virtual.html#a2e7c54784c465a4ee3264d71e20e6c73">GetByPath</a>(args, <span class="keyword">nullptr</span>);</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160; </div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordflow">if</span> (thisNode == <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    {</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <a class="code" href="../../d2/dc3/liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;ls: %s: No such file or directory\n&quot;</span>, args);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    }</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160; </div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <span class="keywordflow">if</span> (!thisNode-&gt;<a class="code" href="../../d8/dea/classFileNode.html#a97e30768097337092d3df82a2c441f9a">IsDirectory</a>())</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    {</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <a class="code" href="../../d2/dc3/liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;%s%s\n&quot;</span>, <a class="code" href="../../dd/d95/ls_8cpp.html#adeaf31b05ae3a3cf42859ec80646852c">ColorNodeType</a>(thisNode), thisNode-&gt;<a class="code" href="../../d8/dea/classFileNode.html#ab0ae44737aeb0021528697339035f563">Path</a>.c_str());</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    }</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160; </div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    PrintLS(thisNode);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;}</div>
+<div class="ttc" id="aclassFileNode_html"><div class="ttname"><a href="../../d8/dea/classFileNode.html">FileNode</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00042">filesystem.hpp:43</a></div></div>
+<div class="ttc" id="aclassFileNode_html_a97e30768097337092d3df82a2c441f9a"><div class="ttname"><a href="../../d8/dea/classFileNode.html#a97e30768097337092d3df82a2c441f9a">FileNode::IsDirectory</a></div><div class="ttdeci">bool IsDirectory()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00054">filesystem.hpp:54</a></div></div>
+<div class="ttc" id="aclassFileNode_html_ab0ae44737aeb0021528697339035f563"><div class="ttname"><a href="../../d8/dea/classFileNode.html#ab0ae44737aeb0021528697339035f563">FileNode::Path</a></div><div class="ttdeci">std::string Path</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00045">filesystem.hpp:45</a></div></div>
+<div class="ttc" id="aclassvfs_1_1Virtual_html_a08a308314b2fef58ea8ee8e19953ef7f"><div class="ttname"><a href="../../d8/d64/classvfs_1_1Virtual.html#a08a308314b2fef58ea8ee8e19953ef7f">vfs::Virtual::GetRoot</a></div><div class="ttdeci">FileNode * GetRoot(size_t Index)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8f/filesystem_8cpp_source.html#l00040">filesystem.cpp:40</a></div></div>
+<div class="ttc" id="aclassvfs_1_1Virtual_html_a2e7c54784c465a4ee3264d71e20e6c73"><div class="ttname"><a href="../../d8/d64/classvfs_1_1Virtual.html#a2e7c54784c465a4ee3264d71e20e6c73">vfs::Virtual::GetByPath</a></div><div class="ttdeci">FileNode * GetByPath(const char *Path, FileNode *Parent)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8f/filesystem_8cpp_source.html#l00113">filesystem.cpp:113</a></div></div>
+<div class="ttc" id="akernel__vfs_8cpp_html_a277679a5638e76b6fd08abe5deee2022"><div class="ttname"><a href="../../da/dce/kernel__vfs_8cpp.html#a277679a5638e76b6fd08abe5deee2022">fs</a></div><div class="ttdeci">vfs::Virtual * fs</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dce/kernel__vfs_8cpp_source.html#l00023">kernel_vfs.cpp:23</a></div></div>
 <div class="ttc" id="aliballoc__1__1_8c_html_ae34a762828cbff7cce62bda6571b2bc0"><div class="ttname"><a href="../../d2/dc3/liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a></div><div class="ttdeci">#define printf(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc3/liballoc__1__1_8c_source.html#l00061">liballoc_1_1.c:61</a></div></div>
-<div class="ttc" id="als_8cpp_html_a1d143e1aefa133cb75dcb35d1e90d7b4"><div class="ttname"><a href="../../dd/d95/ls_8cpp.html#a1d143e1aefa133cb75dcb35d1e90d7b4">ColorNodeType</a></div><div class="ttdeci">const char * ColorNodeType(Node *node)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d95/ls_8cpp_source.html#l00026">ls.cpp:26</a></div></div>
-<div class="ttc" id="als_8cpp_html_ae05650f7651789b79f0f4b52bd02b845"><div class="ttname"><a href="../../dd/d95/ls_8cpp.html#ae05650f7651789b79f0f4b52bd02b845">PrintLS</a></div><div class="ttdeci">void PrintLS(Node *node)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d95/ls_8cpp_source.html#l00055">ls.cpp:55</a></div></div>
-<div class="ttc" id="anamespacevfs_html_a9862defe2d0358e9299acf55bdb6eb73a6b48890836be7438cea33a39b9b64c54"><div class="ttname"><a href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73a6b48890836be7438cea33a39b9b64c54">vfs::DIRECTORY</a></div><div class="ttdeci">@ DIRECTORY</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00200">filesystem.hpp:200</a></div></div>
-<div class="ttc" id="atask_8hpp_html_abcc2c2d29a284c2304deb5d0778c59c8"><div class="ttname"><a href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a></div><div class="ttdeci">#define thisProcess</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00670">task.hpp:670</a></div></div>
+<div class="ttc" id="als_8cpp_html_adeaf31b05ae3a3cf42859ec80646852c"><div class="ttname"><a href="../../dd/d95/ls_8cpp.html#adeaf31b05ae3a3cf42859ec80646852c">ColorNodeType</a></div><div class="ttdeci">const char * ColorNodeType(FileNode *node)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d95/ls_8cpp_source.html#l00026">ls.cpp:26</a></div></div>
+<div class="ttc" id="atask_8hpp_html_abcc2c2d29a284c2304deb5d0778c59c8"><div class="ttname"><a href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a></div><div class="ttdeci">#define thisProcess</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00665">task.hpp:665</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00275">vfs::Node::Children</a>, <a class="el" href="../../dd/d95/ls_8cpp_source.html#l00026">ColorNodeType()</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00200">vfs::DIRECTORY</a>, <a class="el" href="../../da/dce/kernel__vfs_8cpp_source.html#l00024">fs</a>, <a class="el" href="../../d9/d8f/filesystem_8cpp_source.html#l00112">vfs::Virtual::GetNodeFromPath()</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00347">vfs::Virtual::GetRootNode()</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00255">vfs::Node::Name</a>, <a class="el" href="../../d2/dc3/liballoc__1__1_8c_source.html#l00061">printf</a>, <a class="el" href="../../dd/d95/ls_8cpp_source.html#l00055">PrintLS()</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00670">thisProcess</a>, and <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00257">vfs::Node::Type</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d95/ls_8cpp_source.html#l00026">ColorNodeType()</a>, <a class="el" href="../../da/dce/kernel__vfs_8cpp_source.html#l00023">fs</a>, <a class="el" href="../../d9/d8f/filesystem_8cpp_source.html#l00113">vfs::Virtual::GetByPath()</a>, <a class="el" href="../../d9/d8f/filesystem_8cpp_source.html#l00040">vfs::Virtual::GetRoot()</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00054">FileNode::IsDirectory()</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00045">FileNode::Path</a>, <a class="el" href="../../d2/dc3/liballoc__1__1_8c_source.html#l00061">printf</a>, and <a class="el" href="../../d8/da1/task_8hpp_source.html#l00665">thisProcess</a>.</p>
 
 </div>
 </div>
-<a id="a1d143e1aefa133cb75dcb35d1e90d7b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d143e1aefa133cb75dcb35d1e90d7b4">&#9670;&nbsp;</a></span>ColorNodeType()</h2>
+<a id="adeaf31b05ae3a3cf42859ec80646852c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adeaf31b05ae3a3cf42859ec80646852c">&#9670;&nbsp;</a></span>ColorNodeType()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181,7 +232,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">const char* ColorNodeType </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d69/classvfs_1_1Node.html">Node</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d8/dea/classFileNode.html">FileNode</a> *&#160;</td>
           <td class="paramname"><em>node</em></td><td>)</td>
           <td></td>
         </tr>
@@ -190,103 +241,30 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d95/ls_8cpp_source.html#l00026">26</a> of file <a class="el" href="../../dd/d95/ls_8cpp_source.html">ls.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">switch</span> (node-&gt;<a class="code" href="../../df/d69/classvfs_1_1Node.html#aee9ecf34841a77610ca75ed5a376f5bd">Type</a>)</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73a6b48890836be7438cea33a39b9b64c54">NodeType::DIRECTORY</a>:</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;\e3871F5&quot;</span>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73a03dc1f5aa8f945b4398c53735adf18d0">NodeType::BLOCKDEVICE</a>:</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;\eE8CD1E&quot;</span>;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73a284d2b75ab17f3f79558acdeb9747a53">NodeType::CHARDEVICE</a>:</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;\e86E01F&quot;</span>;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73a8bc393f4be3a35079d45e3860c894cec">NodeType::PIPE</a>:</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;\eE0991F&quot;</span>;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73a5e213d43a0e0066faf1b548b41c7caff">NodeType::SYMLINK</a>:</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;\e1FB9E0&quot;</span>;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">NodeType::FILE</a>:</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;\eCCCCCC&quot;</span>;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;\eF72020&quot;</span>;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
-<div class="ttc" id="acargs_8h_html_a69437b5d572dd16d6d4fdbcbd066c7a9"><div class="ttname"><a href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a></div><div class="ttdeci">unsigned int FILE</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d37/cargs_8h_source.html#l00038">cargs.h:38</a></div></div>
-<div class="ttc" id="anamespacevfs_html_a9862defe2d0358e9299acf55bdb6eb73a03dc1f5aa8f945b4398c53735adf18d0"><div class="ttname"><a href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73a03dc1f5aa8f945b4398c53735adf18d0">vfs::BLOCKDEVICE</a></div><div class="ttdeci">@ BLOCKDEVICE</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00202">filesystem.hpp:202</a></div></div>
-<div class="ttc" id="anamespacevfs_html_a9862defe2d0358e9299acf55bdb6eb73a284d2b75ab17f3f79558acdeb9747a53"><div class="ttname"><a href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73a284d2b75ab17f3f79558acdeb9747a53">vfs::CHARDEVICE</a></div><div class="ttdeci">@ CHARDEVICE</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00201">filesystem.hpp:201</a></div></div>
-<div class="ttc" id="anamespacevfs_html_a9862defe2d0358e9299acf55bdb6eb73a5e213d43a0e0066faf1b548b41c7caff"><div class="ttname"><a href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73a5e213d43a0e0066faf1b548b41c7caff">vfs::SYMLINK</a></div><div class="ttdeci">@ SYMLINK</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00204">filesystem.hpp:204</a></div></div>
-<div class="ttc" id="anamespacevfs_html_a9862defe2d0358e9299acf55bdb6eb73a8bc393f4be3a35079d45e3860c894cec"><div class="ttname"><a href="../../dc/dcb/namespacevfs.html#a9862defe2d0358e9299acf55bdb6eb73a8bc393f4be3a35079d45e3860c894cec">vfs::PIPE</a></div><div class="ttdeci">@ PIPE</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00203">filesystem.hpp:203</a></div></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">if</span> (node-&gt;<a class="code" href="../../d8/dea/classFileNode.html#aa8e2ae5cb8a09f879072db1a116860ce">IsRegularFile</a>())</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;\x1b[32m&quot;</span>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (node-&gt;<a class="code" href="../../d8/dea/classFileNode.html#a97e30768097337092d3df82a2c441f9a">IsDirectory</a>())</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;\x1b[34m&quot;</span>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (node-&gt;<a class="code" href="../../d8/dea/classFileNode.html#ac3d07a150e9a0d0dc1dc0ced016c594f">IsBlockDevice</a>())</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;\x1b[33m&quot;</span>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (node-&gt;<a class="code" href="../../d8/dea/classFileNode.html#aad415c65c0559dae60ba74644d10de71">IsCharacterDevice</a>())</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;\x1b[33m&quot;</span>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (node-&gt;<a class="code" href="../../d8/dea/classFileNode.html#a02505cbaa49c8a71c294fcc662bb4dd7">IsFIFO</a>())</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;\x1b[33m&quot;</span>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (node-&gt;<a class="code" href="../../d8/dea/classFileNode.html#a421247122fb3db1f9dc5c0939a760e28">IsSymbolicLink</a>())</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;\x1b[35m&quot;</span>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;\x1b[0m&quot;</span>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
+<div class="ttc" id="aclassFileNode_html_a02505cbaa49c8a71c294fcc662bb4dd7"><div class="ttname"><a href="../../d8/dea/classFileNode.html#a02505cbaa49c8a71c294fcc662bb4dd7">FileNode::IsFIFO</a></div><div class="ttdeci">bool IsFIFO()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00058">filesystem.hpp:58</a></div></div>
+<div class="ttc" id="aclassFileNode_html_a421247122fb3db1f9dc5c0939a760e28"><div class="ttname"><a href="../../d8/dea/classFileNode.html#a421247122fb3db1f9dc5c0939a760e28">FileNode::IsSymbolicLink</a></div><div class="ttdeci">bool IsSymbolicLink()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00059">filesystem.hpp:59</a></div></div>
+<div class="ttc" id="aclassFileNode_html_aa8e2ae5cb8a09f879072db1a116860ce"><div class="ttname"><a href="../../d8/dea/classFileNode.html#aa8e2ae5cb8a09f879072db1a116860ce">FileNode::IsRegularFile</a></div><div class="ttdeci">bool IsRegularFile()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00057">filesystem.hpp:57</a></div></div>
+<div class="ttc" id="aclassFileNode_html_aad415c65c0559dae60ba74644d10de71"><div class="ttname"><a href="../../d8/dea/classFileNode.html#aad415c65c0559dae60ba74644d10de71">FileNode::IsCharacterDevice</a></div><div class="ttdeci">bool IsCharacterDevice()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00055">filesystem.hpp:55</a></div></div>
+<div class="ttc" id="aclassFileNode_html_ac3d07a150e9a0d0dc1dc0ced016c594f"><div class="ttname"><a href="../../d8/dea/classFileNode.html#ac3d07a150e9a0d0dc1dc0ced016c594f">FileNode::IsBlockDevice</a></div><div class="ttdeci">bool IsBlockDevice()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00056">filesystem.hpp:56</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00202">vfs::BLOCKDEVICE</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00201">vfs::CHARDEVICE</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00200">vfs::DIRECTORY</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00203">vfs::PIPE</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00204">vfs::SYMLINK</a>, and <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00257">vfs::Node::Type</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00056">FileNode::IsBlockDevice()</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00055">FileNode::IsCharacterDevice()</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00054">FileNode::IsDirectory()</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00058">FileNode::IsFIFO()</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00057">FileNode::IsRegularFile()</a>, and <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00059">FileNode::IsSymbolicLink()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d95/ls_8cpp_source.html#l00071">cmd_ls()</a>, and <a class="el" href="../../dd/d95/ls_8cpp_source.html#l00055">PrintLS()</a>.</p>
-
-</div>
-</div>
-<a id="af6c6f11431c1616a058ae80765512ef9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6c6f11431c1616a058ae80765512ef9">&#9670;&nbsp;</a></span>MaxNameLength()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> MaxNameLength </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d69/classvfs_1_1Node.html">Node</a> *&#160;</td>
-          <td class="paramname"><em>nodes</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dd/d95/ls_8cpp_source.html#l00047">47</a> of file <a class="el" href="../../dd/d95/ls_8cpp_source.html">ls.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;{</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">size_t</span> maxLength = 0;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordflow">foreach</span> (<span class="keyword">auto</span> &amp;node <span class="keywordflow">in</span> nodes-&gt;<a class="code" href="../../df/d69/classvfs_1_1Node.html#a5f51e2006852156e65682e58f8840de6">Children</a>)</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        maxLength = std::max(maxLength, <a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(node-&gt;Name));</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">return</span> maxLength;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;}</div>
-<div class="ttc" id="aconvert_8h_html_a7dcc610f4b04a8ee418f03a6d9256629"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a></div><div class="ttdeci">long unsigned strlen(const char s[])</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d68/convert_8cpp_source.html#l00064">convert.cpp:64</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/d68/convert_8cpp_source.html#l00064">strlen()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../dd/d95/ls_8cpp_source.html#l00055">PrintLS()</a>.</p>
-
-</div>
-</div>
-<a id="ae05650f7651789b79f0f4b52bd02b845"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae05650f7651789b79f0f4b52bd02b845">&#9670;&nbsp;</a></span>PrintLS()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void PrintLS </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d69/classvfs_1_1Node.html">Node</a> *&#160;</td>
-          <td class="paramname"><em>node</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dd/d95/ls_8cpp_source.html#l00055">55</a> of file <a class="el" href="../../dd/d95/ls_8cpp_source.html">ls.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;{</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">size_t</span> maxNameLength = <a class="code" href="../../dd/d95/ls_8cpp.html#af6c6f11431c1616a058ae80765512ef9">MaxNameLength</a>(node);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">int</span> count = 0;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">bool</span> first = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordflow">foreach</span> (<span class="keyword">auto</span> &amp;var <span class="keywordflow">in</span> node-&gt;<a class="code" href="../../df/d69/classvfs_1_1Node.html#a5f51e2006852156e65682e58f8840de6">Children</a>)</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    {</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">if</span> (count % 5 == 0 &amp;&amp; !first)</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <a class="code" href="../../d2/dc3/liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <a class="code" href="../../d2/dc3/liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot; %s%-*s &quot;</span>, <a class="code" href="../../dd/d95/ls_8cpp.html#a1d143e1aefa133cb75dcb35d1e90d7b4">ColorNodeType</a>(var), (<span class="keywordtype">int</span>)maxNameLength, var-&gt;Name);</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        count++;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        first = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="../../d2/dc3/liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;\eCCCCCC\n&quot;</span>);</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;}</div>
-<div class="ttc" id="als_8cpp_html_af6c6f11431c1616a058ae80765512ef9"><div class="ttname"><a href="../../dd/d95/ls_8cpp.html#af6c6f11431c1616a058ae80765512ef9">MaxNameLength</a></div><div class="ttdeci">size_t MaxNameLength(Node *nodes)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d95/ls_8cpp_source.html#l00047">ls.cpp:47</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d95/ls_8cpp_source.html#l00026">ColorNodeType()</a>, <a class="el" href="../../dd/d95/ls_8cpp_source.html#l00047">MaxNameLength()</a>, and <a class="el" href="../../d2/dc3/liballoc__1__1_8c_source.html#l00061">printf</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../dd/d95/ls_8cpp_source.html#l00071">cmd_ls()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d95/ls_8cpp_source.html#l00107">cmd_ls()</a>.</p>
 
 </div>
 </div>

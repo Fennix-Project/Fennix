@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['x_689',['X',['../de/ded/input_8h.html#a225bbac2fb02036696f30266020519ea',1,'MouseReport']]],
-  ['xmovement_690',['XMovement',['../dc/ded/mouse_8h.html#a03984accdad77fa5280f8724510170d4',1,'PS2_MOUSE_PACKET']]],
-  ['xoverflow_691',['XOverflow',['../dc/ded/mouse_8h.html#a999196b528952ded86d2ecdd66fd2659',1,'mouse.h']]],
-  ['xsign_692',['XSign',['../dc/ded/mouse_8h.html#a8ba513483738e003cc2d949bbc8c87b7',1,'mouse.h']]]
+  ['waitinput_787',['WaitInput',['../d1/de1/aip_8h.html#aa964d7c1114a861480b1fea356404cf4',1,'aip.h']]],
+  ['waitoutput_788',['WaitOutput',['../d1/de1/aip_8h.html#a553775c2f7c013ee400dffb01d596328',1,'aip.h']]],
+  ['write_789',['Write',['../db/de6/structInodeOperations.html#adb7eaaee195090e8d618a6e9c3ca507a',1,'InodeOperations::Write()'],['../df/d26/fs_8h.html#a5f5c45d347b3cbe34597e57c04967e8b',1,'Write():&#160;fs.h']]]
 ];

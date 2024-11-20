@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('d0/dcb/mips64_2kstat_8h.html','../../'
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
-<tr class="memitem:d5/df1/structkstat"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d4d/x86__64_2kstat_8h.html#d5/df1/structkstat">kstat</a></td></tr>
+<tr class="memitem:d5/df1/structkstat"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/da6/Drivers_2include_2fs_8h.html#d5/df1/structkstat">kstat</a></td></tr>
 <tr class="separator:d5/df1/structkstat"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
@@ -112,7 +112,7 @@ Data Structures</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../de/d3b/aarch64_2kstat_8h_source.html#l00001">1</a> of file <a class="el" href="../../de/d3b/aarch64_2kstat_8h_source.html">kstat.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d46/Kernel_2include_2interface_2fs_8h_source.html#l00161">161</a> of file <a class="el" href="../../da/d46/Kernel_2include_2interface_2fs_8h_source.html">fs.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -260,6 +260,97 @@ __unused[3]</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
+<a id="af0d5a9e82aa0ece31db45ae57b97b5d9"></a>time_t</td>
+<td class="fieldname">
+AccessTime</td>
+<td class="fielddoc">
+<p><a class="el" href="../../d3/d56/namespaceTime.html">Time</a> of last access. </p>
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a733e07be0afb4a7a10555436d8deb100"></a><a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ad2933406ba93c0e0d1884fc09c18a0bf">mode_t</a></td>
+<td class="fieldname">
+Attribute</td>
+<td class="fielddoc">
+<p>Additional file attributes. </p>
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a4e032619e90e03194c162718a33f09a0"></a>blkcnt_t</td>
+<td class="fieldname">
+Blocks</td>
+<td class="fielddoc">
+<p>Number of blocks allocated. </p>
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aac2e36f2ffad2d048f6d1d3f988765ef"></a>blksize_t</td>
+<td class="fieldname">
+BlockSize</td>
+<td class="fielddoc">
+<p>Optimal I/O block size. </p>
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a3d80694a7ef662e6e37ef68a5490f6ae"></a>time_t</td>
+<td class="fieldname">
+ChangeTime</td>
+<td class="fielddoc">
+<p><a class="el" href="../../d3/d56/namespaceTime.html">Time</a> of last status change. </p>
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a564f699164b986ac3358ce6acde557e5"></a><a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#a82d10d90203d4ce7b7fa38fdc0cfaf1a">dev_t</a></td>
+<td class="fieldname">
+Device</td>
+<td class="fielddoc">
+<p>Device ID of the file. </p>
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a6df31642b52e126ee6433ae83c5c7df8"></a>gid_t</td>
+<td class="fieldname">
+GroupID</td>
+<td class="fielddoc">
+<p>Group ID of the file's owner. </p>
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a90cbd8716158e3d6c367080d81e7327e"></a>nlink_t</td>
+<td class="fieldname">
+HardLinks</td>
+<td class="fielddoc">
+<p>Number of hard links. </p>
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ab513d931acdad2f26554dbcc31fe90e4"></a><a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#a6f0484fba95acbaed079c0b41f24e3f3">ino_t</a></td>
+<td class="fieldname">
+Index</td>
+<td class="fielddoc">
+<p><a class="el" href="../../d3/da6/Drivers_2include_2fs_8h.html#d6/d59/structInode">Inode</a> number. </p>
+</td></tr>
+<tr><td class="fieldtype">
+<a id="af45191ed8ad28ab7a58ee02287609808"></a><a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ad2933406ba93c0e0d1884fc09c18a0bf">mode_t</a></td>
+<td class="fieldname">
+Mode</td>
+<td class="fielddoc">
+<p>File type and mode. </p>
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a9f1f01620d0175f71eff75e384cd9042"></a>time_t</td>
+<td class="fieldname">
+ModifyTime</td>
+<td class="fielddoc">
+<p><a class="el" href="../../d3/d56/namespaceTime.html">Time</a> of last modification. </p>
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a0894ecf497e1e426853b876a47459280"></a><a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#a82d10d90203d4ce7b7fa38fdc0cfaf1a">dev_t</a></td>
+<td class="fieldname">
+RawDevice</td>
+<td class="fielddoc">
+<p>Device ID for special files. </p>
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a5f3da9475a138d8a510be43e53dd20b6"></a><a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ae498af04567b740d66e09d36613c2cd8">off_t</a></td>
+<td class="fieldname">
+Size</td>
+<td class="fielddoc">
+<p>Size of the file in bytes. </p>
+</td></tr>
+<tr><td class="fieldtype">
 <a id="abe1094a11b5752d7059526f537cee1b7"></a>long</td>
 <td class="fieldname">
 st_atime_nsec</td>
@@ -338,7 +429,7 @@ st_ctime_sec</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ab8c082f13240aee7b092bc74787bd6f4"></a><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#ab46c2d8e15a0ce794a8935841e5d6b92">dev_t</a></td>
+<a id="ab8c082f13240aee7b092bc74787bd6f4"></a><a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#a82d10d90203d4ce7b7fa38fdc0cfaf1a">dev_t</a></td>
 <td class="fieldname">
 st_dev</td>
 <td class="fielddoc">
@@ -362,7 +453,7 @@ st_ino</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a7dda59111ccfca356784cf30a8c6a15c"></a><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a4c39e0c5c2965112d6b55652a6b7f781">mode_t</a></td>
+<a id="a7dda59111ccfca356784cf30a8c6a15c"></a><a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ad2933406ba93c0e0d1884fc09c18a0bf">mode_t</a></td>
 <td class="fieldname">
 st_mode</td>
 <td class="fielddoc">
@@ -410,7 +501,7 @@ st_nlink</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a0aa20cbf4e55260deaf45be906062c33"></a><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#ab46c2d8e15a0ce794a8935841e5d6b92">dev_t</a></td>
+<a id="a0aa20cbf4e55260deaf45be906062c33"></a><a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#a82d10d90203d4ce7b7fa38fdc0cfaf1a">dev_t</a></td>
 <td class="fieldname">
 st_rdev</td>
 <td class="fielddoc">
@@ -422,7 +513,7 @@ st_rdev</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="acb089ce5ac53aebc5b8fe5351e293dcd"></a><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a37aff01e955441499997a359a4153b3d">off_t</a></td>
+<a id="acb089ce5ac53aebc5b8fe5351e293dcd"></a><a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ae498af04567b740d66e09d36613c2cd8">off_t</a></td>
 <td class="fieldname">
 st_size</td>
 <td class="fielddoc">
@@ -432,6 +523,13 @@ st_size</td>
 <td class="fieldname">
 st_uid</td>
 <td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a640517af38108c7ece215fe6789b497a"></a>uid_t</td>
+<td class="fieldname">
+UserID</td>
+<td class="fielddoc">
+<p>User ID of the file's owner. </p>
 </td></tr>
 </table>
 

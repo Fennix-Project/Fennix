@@ -233,20 +233,27 @@ storage[]</td>
           <td class="memname">struct <a class="el" href="../../dd/dbc/meta_8h.html#d3/d08/structgroup">group</a>* getgrgid </td>
           <td>(</td>
           <td class="paramtype">gid_t&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
+          <td class="paramname"><em>gid</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d34/pwd__grp_8c_source.html#l00480">480</a> of file <a class="el" href="../../d0/d34/pwd__grp_8c_source.html">pwd_grp.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;{</div>
-<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d34/pwd__grp_8c.html#a4ab8a5bf14888742482989154e6b4e52">getXXnam</a>(<a class="code" href="../../d7/dd7/libbb_8h.html#abee8e38e713314dce814d218fdd4224e">utoa</a>(<span class="keywordtype">id</span>), (1 &lt;&lt; 2) + 2);</div>
-<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;}</div>
-<div class="ttc" id="alibbb_8h_html_abee8e38e713314dce814d218fdd4224e"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#abee8e38e713314dce814d218fdd4224e">utoa</a></div><div class="ttdeci">char * utoa(unsigned n) FAST_FUNC</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d6d/xfuncs_8c_source.html#l00116">xfuncs.c:116</a></div></div>
-<div class="ttc" id="apwd__grp_8c_html_a4ab8a5bf14888742482989154e6b4e52"><div class="ttname"><a href="../../d0/d34/pwd__grp_8c.html#a4ab8a5bf14888742482989154e6b4e52">getXXnam</a></div><div class="ttdeci">static void *FAST_FUNC getXXnam(const char *name, unsigned db_and_field_pos)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d34/pwd__grp_8c_source.html#l00459">pwd_grp.c:459</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../db/d92/getgrent_8c_source.html#l00025">25</a> of file <a class="el" href="../../db/d92/getgrent_8c_source.html">getgrent.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../dd/dbc/meta_8h.html#d3/d08/structgroup">group</a> *res;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">size_t</span> <a class="code" href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a>=0, nmem=0;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../d3/d62/getgr__a_8c.html#ab52574805fada3283dc5c60ed108c9cd">__getgr_a</a>(0, gid, &amp;<a class="code" href="../../db/d92/getgrent_8c.html#a6cf8d5ab17561a42a5b61afbb87782a7">gr</a>, &amp;<a class="code" href="../../db/d92/getgrent_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>, &amp;<a class="code" href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a>, &amp;<a class="code" href="../../db/d92/getgrent_8c.html#aa26c8a74b858fea7873983b4187826ec">mem</a>, &amp;nmem, &amp;res);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">return</span> res;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div>
+<div class="ttc" id="agetgr__a_8c_html_ab52574805fada3283dc5c60ed108c9cd"><div class="ttname"><a href="../../d3/d62/getgr__a_8c.html#ab52574805fada3283dc5c60ed108c9cd">__getgr_a</a></div><div class="ttdeci">int __getgr_a(const char *name, gid_t gid, struct group *gr, char **buf, size_t *size, char ***mem, size_t *nmem, struct group **res)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d62/getgr__a_8c_source.html#l00020">getgr_a.c:20</a></div></div>
+<div class="ttc" id="agetgrent_8c_html_a6cf8d5ab17561a42a5b61afbb87782a7"><div class="ttname"><a href="../../db/d92/getgrent_8c.html#a6cf8d5ab17561a42a5b61afbb87782a7">gr</a></div><div class="ttdeci">static struct group gr</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d92/getgrent_8c_source.html#l00004">getgrent.c:5</a></div></div>
+<div class="ttc" id="agetgrent_8c_html_a8adb30f4f6669f927fd9232f686c637b"><div class="ttname"><a href="../../db/d92/getgrent_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a></div><div class="ttdeci">static char * line</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d92/getgrent_8c_source.html#l00004">getgrent.c:4</a></div></div>
+<div class="ttc" id="agetgrent_8c_html_aa26c8a74b858fea7873983b4187826ec"><div class="ttname"><a href="../../db/d92/getgrent_8c.html#aa26c8a74b858fea7873983b4187826ec">mem</a></div><div class="ttdeci">static char ** mem</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d92/getgrent_8c_source.html#l00004">getgrent.c:4</a></div></div>
+<div class="ttc" id="ameta_8h_html_d3/d08/structgroup"><div class="ttname"><a href="../../dd/dbc/meta_8h.html#d3/d08/structgroup">group</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d47/grp_8h_source.html#l00019">grp.h:19</a></div></div>
+<div class="ttc" id="amultiboot_8h_html_a6d813a0f2b5281b18dea3f4cda696c33"><div class="ttname"><a href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a></div><div class="ttdeci">multiboot_uint32_t size</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc0/multiboot_8h_source.html#l00000">multiboot.h:0</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/d62/getgr__a_8c_source.html#l00020">__getgr_a()</a>, <a class="el" href="../../db/d92/getgrent_8c_source.html#l00005">gr</a>, <a class="el" href="../../db/d92/getgrent_8c_source.html#l00004">mem</a>, and <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00000">size</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d62/getgr__a_8c_source.html#l00020">__getgr_a()</a>, <a class="el" href="../../db/d92/getgrent_8c_source.html#l00005">gr</a>, <a class="el" href="../../db/d92/getgrent_8c_source.html#l00004">line</a>, <a class="el" href="../../db/d92/getgrent_8c_source.html#l00004">mem</a>, and <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00000">size</a>.</p>
 
 </div>
 </div>
@@ -296,14 +303,12 @@ storage[]</td>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d30/getgr__r_8c_source.html#l00046">46</a> of file <a class="el" href="../../d6/d30/getgr__r_8c_source.html">getgr_r.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;{</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d6/d30/getgr__r_8c.html#a64eadc41074210ad6096fd30bae4a1a1">getgr_r</a>(0, gid, <a class="code" href="../../db/d92/getgrent_8c.html#a6cf8d5ab17561a42a5b61afbb87782a7">gr</a>, <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, <a class="code" href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a>, res);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d6/d30/getgr__r_8c.html#a64eadc41074210ad6096fd30bae4a1a1">getgr_r</a>(0, gid, <a class="code" href="../../db/d92/getgrent_8c.html#a6cf8d5ab17561a42a5b61afbb87782a7">gr</a>, <a class="code" href="../../da/da9/setlocale_8c.html#a9375469e25223d13fe7c2facb5c319f7">buf</a>, <a class="code" href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a>, res);</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
-<div class="ttc" id="aapps_2base_2busybox_2coreutils_2stat_8c_html_aa29b866765bdc5bdf87b7eb666d66093"><div class="ttname"><a href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a></div><div class="ttdeci">#define buf</div></div>
 <div class="ttc" id="agetgr__r_8c_html_a64eadc41074210ad6096fd30bae4a1a1"><div class="ttname"><a href="../../d6/d30/getgr__r_8c.html#a64eadc41074210ad6096fd30bae4a1a1">getgr_r</a></div><div class="ttdeci">static int getgr_r(const char *name, gid_t gid, struct group *gr, char *buf, size_t size, struct group **res)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d30/getgr__r_8c_source.html#l00006">getgr_r.c:6</a></div></div>
-<div class="ttc" id="agetgrent_8c_html_a6cf8d5ab17561a42a5b61afbb87782a7"><div class="ttname"><a href="../../db/d92/getgrent_8c.html#a6cf8d5ab17561a42a5b61afbb87782a7">gr</a></div><div class="ttdeci">static struct group gr</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d92/getgrent_8c_source.html#l00004">getgrent.c:5</a></div></div>
-<div class="ttc" id="amultiboot_8h_html_a6d813a0f2b5281b18dea3f4cda696c33"><div class="ttname"><a href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a></div><div class="ttdeci">multiboot_uint32_t size</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc0/multiboot_8h_source.html#l00000">multiboot.h:0</a></div></div>
+<div class="ttc" id="asetlocale_8c_html_a9375469e25223d13fe7c2facb5c319f7"><div class="ttname"><a href="../../da/da9/setlocale_8c.html#a9375469e25223d13fe7c2facb5c319f7">buf</a></div><div class="ttdeci">static char buf[LC_ALL *(LOCALE_NAME_MAX+1)]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/da9/setlocale_8c_source.html#l00008">setlocale.c:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, <a class="el" href="../../d6/d30/getgr__r_8c_source.html#l00006">getgr_r()</a>, <a class="el" href="../../db/d92/getgrent_8c_source.html#l00005">gr</a>, and <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00000">size</a>.</p>
+<p class="reference">References <a class="el" href="../../da/da9/setlocale_8c_source.html#l00008">buf</a>, <a class="el" href="../../d6/d30/getgr__r_8c_source.html#l00006">getgr_r()</a>, <a class="el" href="../../db/d92/getgrent_8c_source.html#l00005">gr</a>, and <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00000">size</a>.</p>
 
 </div>
 </div>
@@ -323,12 +328,15 @@ storage[]</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d34/pwd__grp_8c_source.html#l00472">472</a> of file <a class="el" href="../../d0/d34/pwd__grp_8c_source.html">pwd_grp.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;{</div>
-<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d34/pwd__grp_8c.html#a4ab8a5bf14888742482989154e6b4e52">getXXnam</a>(name, (1 &lt;&lt; 2) + 0);</div>
-<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d92/getgrent_8c_source.html#l00033">33</a> of file <a class="el" href="../../db/d92/getgrent_8c_source.html">getgrent.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../dd/dbc/meta_8h.html#d3/d08/structgroup">group</a> *res;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">size_t</span> <a class="code" href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a>=0, nmem=0;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="../../d3/d62/getgr__a_8c.html#ab52574805fada3283dc5c60ed108c9cd">__getgr_a</a>(name, 0, &amp;<a class="code" href="../../db/d92/getgrent_8c.html#a6cf8d5ab17561a42a5b61afbb87782a7">gr</a>, &amp;<a class="code" href="../../db/d92/getgrent_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>, &amp;<a class="code" href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a>, &amp;<a class="code" href="../../db/d92/getgrent_8c.html#aa26c8a74b858fea7873983b4187826ec">mem</a>, &amp;nmem, &amp;res);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">return</span> res;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/d62/getgr__a_8c_source.html#l00020">__getgr_a()</a>, <a class="el" href="../../db/d92/getgrent_8c_source.html#l00005">gr</a>, <a class="el" href="../../db/d92/getgrent_8c_source.html#l00004">mem</a>, and <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00000">size</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d62/getgr__a_8c_source.html#l00020">__getgr_a()</a>, <a class="el" href="../../db/d92/getgrent_8c_source.html#l00005">gr</a>, <a class="el" href="../../db/d92/getgrent_8c_source.html#l00004">line</a>, <a class="el" href="../../db/d92/getgrent_8c_source.html#l00004">mem</a>, and <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00000">size</a>.</p>
 
 </div>
 </div>
@@ -378,10 +386,10 @@ storage[]</td>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d30/getgr__r_8c_source.html#l00041">41</a> of file <a class="el" href="../../d6/d30/getgr__r_8c_source.html">getgr_r.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;{</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d6/d30/getgr__r_8c.html#a64eadc41074210ad6096fd30bae4a1a1">getgr_r</a>(name, 0, <a class="code" href="../../db/d92/getgrent_8c.html#a6cf8d5ab17561a42a5b61afbb87782a7">gr</a>, <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, <a class="code" href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a>, res);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d6/d30/getgr__r_8c.html#a64eadc41074210ad6096fd30bae4a1a1">getgr_r</a>(name, 0, <a class="code" href="../../db/d92/getgrent_8c.html#a6cf8d5ab17561a42a5b61afbb87782a7">gr</a>, <a class="code" href="../../da/da9/setlocale_8c.html#a9375469e25223d13fe7c2facb5c319f7">buf</a>, <a class="code" href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a>, res);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, <a class="el" href="../../d6/d30/getgr__r_8c_source.html#l00006">getgr_r()</a>, <a class="el" href="../../db/d92/getgrent_8c_source.html#l00005">gr</a>, and <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00000">size</a>.</p>
+<p class="reference">References <a class="el" href="../../da/da9/setlocale_8c_source.html#l00008">buf</a>, <a class="el" href="../../d6/d30/getgr__r_8c_source.html#l00006">getgr_r()</a>, <a class="el" href="../../db/d92/getgrent_8c_source.html#l00005">gr</a>, and <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00000">size</a>.</p>
 
 </div>
 </div>

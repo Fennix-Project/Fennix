@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('de/d39/bsearch_8c.html','../../'); ini
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac694c5432ec49b1c6ed90d3945c77c72"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d39/bsearch_8c.html#ac694c5432ec49b1c6ed90d3945c77c72">bsearch</a> (const void *key, const void *<a class="el" href="../../d7/dc3/xatonum__template_8c.html#ae94e023ccc93d286aa0a640ad3fbc615">base</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> nel, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d1/d18/less_8c.html#a667b04d7fb6ef46db4da4af554c5b6f7">width</a>, int(*<a class="el" href="../../d7/d70/catgets_8c.html#a6f91b4cd1af5dc277444c465e2ca3ab6">cmp</a>)(const void *, const void *))</td></tr>
+<tr class="memitem:ac694c5432ec49b1c6ed90d3945c77c72"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d39/bsearch_8c.html#ac694c5432ec49b1c6ed90d3945c77c72">bsearch</a> (const void *key, const void *base, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> nel, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> width, int(*<a class="el" href="../../d7/d70/catgets_8c.html#a6f91b4cd1af5dc277444c465e2ca3ab6">cmp</a>)(const void *, const void *))</td></tr>
 <tr class="separator:ac694c5432ec49b1c6ed90d3945c77c72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -150,12 +150,12 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordtype">void</span> *<span class="keywordflow">try</span>;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordtype">int</span> sign;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">while</span> (nel &gt; 0) {</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="keywordflow">try</span> = (<span class="keywordtype">char</span> *)<a class="code" href="../../d7/dc3/xatonum__template_8c.html#ae94e023ccc93d286aa0a640ad3fbc615">base</a> + <a class="code" href="../../d1/d18/less_8c.html#a667b04d7fb6ef46db4da4af554c5b6f7">width</a>*(nel/2);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="keywordflow">try</span> = (<span class="keywordtype">char</span> *)base + width*(nel/2);</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        sign = <a class="code" href="../../d7/d70/catgets_8c.html#a6f91b4cd1af5dc277444c465e2ca3ab6">cmp</a>(key, <span class="keywordflow">try</span>);</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keywordflow">if</span> (sign &lt; 0) {</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;            nel /= 2;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (sign &gt; 0) {</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;            <a class="code" href="../../d7/dc3/xatonum__template_8c.html#ae94e023ccc93d286aa0a640ad3fbc615">base</a> = (<span class="keywordtype">char</span> *)<span class="keywordflow">try</span> + <a class="code" href="../../d1/d18/less_8c.html#a667b04d7fb6ef46db4da4af554c5b6f7">width</a>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;            base = (<span class="keywordtype">char</span> *)<span class="keywordflow">try</span> + width;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;            nel -= nel/2+1;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            <span class="keywordflow">return</span> <span class="keywordflow">try</span>;</div>
@@ -163,14 +163,12 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    }</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00037">types.h:37</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00039">types.h:39</a></div></div>
 <div class="ttc" id="acatgets_8c_html_a6f91b4cd1af5dc277444c465e2ca3ab6"><div class="ttname"><a href="../../d7/d70/catgets_8c.html#a6f91b4cd1af5dc277444c465e2ca3ab6">cmp</a></div><div class="ttdeci">static int cmp(const void *a, const void *b)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d70/catgets_8c_source.html#l00010">catgets.c:10</a></div></div>
-<div class="ttc" id="aless_8c_html_a667b04d7fb6ef46db4da4af554c5b6f7"><div class="ttname"><a href="../../d1/d18/less_8c.html#a667b04d7fb6ef46db4da4af554c5b6f7">width</a></div><div class="ttdeci">#define width</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d18/less_8c_source.html#l00250">less.c:250</a></div></div>
-<div class="ttc" id="axatonum__template_8c_html_ae94e023ccc93d286aa0a640ad3fbc615"><div class="ttname"><a href="../../d7/dc3/xatonum__template_8c.html#ae94e023ccc93d286aa0a640ad3fbc615">base</a></div><div class="ttdeci">unsigned type FAST_FUNC int base</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc3/xatonum__template_8c_source.html#l00090">xatonum_template.c:91</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/dc3/xatonum__template_8c_source.html#l00091">base</a>, <a class="el" href="../../d7/d70/catgets_8c_source.html#l00010">cmp()</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00037">NULL</a>, and <a class="el" href="../../d1/d18/less_8c_source.html#l00250">width</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d70/catgets_8c_source.html#l00010">cmp()</a>, and <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00039">NULL</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d70/catgets_8c_source.html#l00016">catgets()</a>, <a class="el" href="../../d1/dbe/ash_8c_source.html#l10279">find_builtin()</a>, <a class="el" href="../../d1/dbe/ash_8c_source.html#l08713">findkwd()</a>, and <a class="el" href="../../d2/d7f/rpm_8c_source.html#l00164">rpm_getstr()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d70/catgets_8c_source.html#l00016">catgets()</a>.</p>
 
 </div>
 </div>

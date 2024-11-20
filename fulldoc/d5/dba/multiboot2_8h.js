@@ -224,12 +224,12 @@ var multiboot2_8h =
       [ "size", "d5/dba/multiboot2_8h.html#a83e0d3f690f3dfc07547112af1f3cd06", null ],
       [ "type", "d5/dba/multiboot2_8h.html#a12fa5ee88e4ebcfef0a42bbdf4608941", null ]
     ] ],
-    [ "multiboot_tag_framebuffer.__unnamed48__", "d5/dba/multiboot2_8h.html#de/dfb/unionmultiboot__tag__framebuffer_8____unnamed48____", null ],
-    [ "multiboot_tag_framebuffer.__unnamed48__.__unnamed50__", "d5/dba/multiboot2_8h.html#d0/dab/structmultiboot__tag__framebuffer_8____unnamed48_____8____unnamed50____", [
+    [ "multiboot_tag_framebuffer.__unnamed106__", "d5/dba/multiboot2_8h.html#dd/db4/unionmultiboot__tag__framebuffer_8____unnamed106____", null ],
+    [ "multiboot_tag_framebuffer.__unnamed106__.__unnamed108__", "d5/dba/multiboot2_8h.html#de/db2/structmultiboot__tag__framebuffer_8____unnamed106_____8____unnamed108____", [
       [ "framebuffer_palette", "d5/dba/multiboot2_8h.html#ac7df1fdfee327da3c205ba9086e4802a", null ],
       [ "framebuffer_palette_num_colors", "d5/dba/multiboot2_8h.html#a9ea6d9ae58149f37ee098ce870bf07f0", null ]
     ] ],
-    [ "multiboot_tag_framebuffer.__unnamed48__.__unnamed52__", "d5/dba/multiboot2_8h.html#d4/da2/structmultiboot__tag__framebuffer_8____unnamed48_____8____unnamed52____", [
+    [ "multiboot_tag_framebuffer.__unnamed106__.__unnamed110__", "d5/dba/multiboot2_8h.html#dd/d17/structmultiboot__tag__framebuffer_8____unnamed106_____8____unnamed110____", [
       [ "framebuffer_blue_field_position", "d5/dba/multiboot2_8h.html#ace107d23f7f4af6fd8d969926c5c9d16", null ],
       [ "framebuffer_blue_mask_size", "d5/dba/multiboot2_8h.html#aa8eaba7a0a6cf04509a014ac4bc937c0", null ],
       [ "framebuffer_green_field_position", "d5/dba/multiboot2_8h.html#adfcdecf04630d77ee5e41006f47dc4d7", null ],

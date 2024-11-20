@@ -125,12 +125,12 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">int</span> vm_check = 0;</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <span class="keywordflow">if</span> (vm_check++)</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    {</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        <a class="code" href="../../d4/dbe/mksyntax_8c.html#ac3e1795766a80ec63b157951b4b9a7d4">debug</a>(<span class="stringliteral">&quot;Virtualized environment: %s&quot;</span>,</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Virtualized environment: %s&quot;</span>,</div>
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;              IsVM ? <span class="stringliteral">&quot;Yes&quot;</span> : <span class="stringliteral">&quot;No&quot;</span>);</div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        <span class="keywordflow">return</span> IsVM;</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    }</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160; </div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <a class="code" href="../../d4/dbe/mksyntax_8c.html#ac3e1795766a80ec63b157951b4b9a7d4">debug</a>(<span class="stringliteral">&quot;Detecting virtualized environment...&quot;</span>);</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Detecting virtualized environment...&quot;</span>);</div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160; </div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d6b/detect_8cpp.html#afc929e365c8f62a3bc95af9f1f645496">DetectByHypervisor</a>())</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        IsVM = <span class="keyword">true</span>;</div>
@@ -146,19 +146,19 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160; </div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <span class="comment">/* TODO: Add more detection methods */</span></div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160; </div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <a class="code" href="../../d4/dbe/mksyntax_8c.html#ac3e1795766a80ec63b157951b4b9a7d4">debug</a>(<span class="stringliteral">&quot;Virtualized environment: %s&quot;</span>,</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Virtualized environment: %s&quot;</span>,</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;          IsVM ? <span class="stringliteral">&quot;Yes&quot;</span> : <span class="stringliteral">&quot;No&quot;</span>);</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keywordflow">return</span> IsVM;</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;}</div>
+<div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00094">debug.h:94</a></div></div>
 <div class="ttc" id="adetect_8cpp_html_a4999c47fedc8c54a90d812efcf825cae"><div class="ttname"><a href="../../d9/d6b/detect_8cpp.html#a4999c47fedc8c54a90d812efcf825cae">DetectByCPUID</a></div><div class="ttdeci">bool DetectByCPUID()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d6b/detect_8cpp_source.html#l00118">detect.cpp:118</a></div></div>
 <div class="ttc" id="adetect_8cpp_html_a549be65eee39ac247cd48f0bb2c627f6"><div class="ttname"><a href="../../d9/d6b/detect_8cpp.html#a549be65eee39ac247cd48f0bb2c627f6">DetectByHPET</a></div><div class="ttdeci">bool DetectByHPET()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d6b/detect_8cpp_source.html#l00146">detect.cpp:146</a></div></div>
 <div class="ttc" id="adetect_8cpp_html_aac62b5e7ccfda0c9f404034a5bfcdafe"><div class="ttname"><a href="../../d9/d6b/detect_8cpp.html#aac62b5e7ccfda0c9f404034a5bfcdafe">IsVMwareBackdoorAvailable</a></div><div class="ttdeci">bool IsVMwareBackdoorAvailable()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d6b/detect_8cpp_source.html#l00062">detect.cpp:62</a></div></div>
 <div class="ttc" id="adetect_8cpp_html_afc929e365c8f62a3bc95af9f1f645496"><div class="ttname"><a href="../../d9/d6b/detect_8cpp.html#afc929e365c8f62a3bc95af9f1f645496">DetectByHypervisor</a></div><div class="ttdeci">bool DetectByHypervisor()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d6b/detect_8cpp_source.html#l00026">detect.cpp:26</a></div></div>
-<div class="ttc" id="amksyntax_8c_html_ac3e1795766a80ec63b157951b4b9a7d4"><div class="ttname"><a href="../../d4/dbe/mksyntax_8c.html#ac3e1795766a80ec63b157951b4b9a7d4">debug</a></div><div class="ttdeci">int debug</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dbe/mksyntax_8c_source.html#l00072">mksyntax.c:72</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/dbe/mksyntax_8c_source.html#l00072">debug</a>, <a class="el" href="../../d9/d6b/detect_8cpp_source.html#l00118">DetectByCPUID()</a>, <a class="el" href="../../d9/d6b/detect_8cpp_source.html#l00146">DetectByHPET()</a>, <a class="el" href="../../d9/d6b/detect_8cpp_source.html#l00026">DetectByHypervisor()</a>, and <a class="el" href="../../d9/d6b/detect_8cpp_source.html#l00062">IsVMwareBackdoorAvailable()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, <a class="el" href="../../d9/d6b/detect_8cpp_source.html#l00118">DetectByCPUID()</a>, <a class="el" href="../../d9/d6b/detect_8cpp_source.html#l00146">DetectByHPET()</a>, <a class="el" href="../../d9/d6b/detect_8cpp_source.html#l00026">DetectByHypervisor()</a>, and <a class="el" href="../../d9/d6b/detect_8cpp_source.html#l00062">IsVMwareBackdoorAvailable()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d70/kernel__thread_8cpp_source.html#l00064">KernelMainThread()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d70/kernel__thread_8cpp_source.html#l00056">KernelMainThread()</a>.</p>
 
 </div>
 </div>

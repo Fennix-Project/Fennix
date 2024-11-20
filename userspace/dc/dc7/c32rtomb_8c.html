@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('dc/dc7/c32rtomb_8c.html','../../'); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7878d27e375984a8e30b4b05a3eb6e34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc7/c32rtomb_8c.html#a7878d27e375984a8e30b4b05a3eb6e34">c32rtomb</a> (char *restrict <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, <a class="el" href="../../d5/d5e/uchar_8h.html#ab877b5ac403c80032f85bf316c79cbd1">char32_t</a> c32, mbstate_t *restrict ps)</td></tr>
+<tr class="memitem:a7878d27e375984a8e30b4b05a3eb6e34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc7/c32rtomb_8c.html#a7878d27e375984a8e30b4b05a3eb6e34">c32rtomb</a> (char *restrict s, <a class="el" href="../../d5/d5e/uchar_8h.html#ab877b5ac403c80032f85bf316c79cbd1">char32_t</a> c32, mbstate_t *restrict ps)</td></tr>
 <tr class="separator:a7878d27e375984a8e30b4b05a3eb6e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -136,12 +136,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/dc7/c32rtomb_8c_source.html#l00004">4</a> of file <a class="el" href="../../dc/dc7/c32rtomb_8c_source.html">c32rtomb.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d9/dad/busybox_2libbb_2unicode_8c.html#a81f97b47638cb877b40922f03892f489">wcrtomb</a>(<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, c32, ps);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/d9b/include_2wchar_8h.html#a88416151367e6c60e7efdab8ed1ed8e0">wcrtomb</a>(s, c32, ps);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="aarpping_8c_html_ac9562ee4ecb3b8aeebeb04656e7e57a9"><div class="ttname"><a href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a></div><div class="ttdeci">#define s</div></div>
-<div class="ttc" id="abusybox_2libbb_2unicode_8c_html_a81f97b47638cb877b40922f03892f489"><div class="ttname"><a href="../../d9/dad/busybox_2libbb_2unicode_8c.html#a81f97b47638cb877b40922f03892f489">wcrtomb</a></div><div class="ttdeci">size_t FAST_FUNC wcrtomb(char *s, wchar_t wc, mbstate_t *ps UNUSED_PARAM)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dad/busybox_2libbb_2unicode_8c_source.html#l00124">unicode.c:124</a></div></div>
+<div class="ttc" id="ainclude_2wchar_8h_html_a88416151367e6c60e7efdab8ed1ed8e0"><div class="ttname"><a href="../../dc/d9b/include_2wchar_8h.html#a88416151367e6c60e7efdab8ed1ed8e0">wcrtomb</a></div><div class="ttdeci">size_t wcrtomb(char *__restrict, wchar_t, mbstate_t *__restrict)</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, and <a class="el" href="../../d9/dad/busybox_2libbb_2unicode_8c_source.html#l00124">wcrtomb()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d9b/include_2wchar_8h.html#a88416151367e6c60e7efdab8ed1ed8e0">wcrtomb()</a>.</p>
 
 </div>
 </div>

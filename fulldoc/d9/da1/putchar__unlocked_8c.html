@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d9/da1/putchar__unlocked_8c.html','../
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a07ff061a8fed45cdedbecdd899b5fdb1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da1/putchar__unlocked_8c.html#a07ff061a8fed45cdedbecdd899b5fdb1">putchar_unlocked</a> (int <a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>)</td></tr>
+<tr class="memitem:a07ff061a8fed45cdedbecdd899b5fdb1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da1/putchar__unlocked_8c.html#a07ff061a8fed45cdedbecdd899b5fdb1">putchar_unlocked</a> (int c)</td></tr>
 <tr class="separator:a07ff061a8fed45cdedbecdd899b5fdb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -119,13 +119,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/da1/putchar__unlocked_8c_source.html#l00003">3</a> of file <a class="el" href="../../d9/da1/putchar__unlocked_8c_source.html">putchar_unlocked.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/dbf/putc__unlocked_8c.html#a5740663c89f916054bf2d51247654ca5">putc_unlocked</a>(<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>, <a class="code" href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#a0c0ef221f95f64e8632451312fd18cc8">stdout</a>);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/dbf/putc__unlocked_8c.html#a5740663c89f916054bf2d51247654ca5">putc_unlocked</a>(c, <a class="code" href="../../d8/d67/Kernel_2include__std_2stdio_8h.html#a0c0ef221f95f64e8632451312fd18cc8">stdout</a>);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
-<div class="ttc" id="aUserspace_2libc_2include_2stdio_8h_html_a0c0ef221f95f64e8632451312fd18cc8"><div class="ttname"><a href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#a0c0ef221f95f64e8632451312fd18cc8">stdout</a></div><div class="ttdeci">#define stdout</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/Userspace_2libc_2include_2stdio_8h_source.html#l00057">stdio.h:57</a></div></div>
-<div class="ttc" id="aglob__loop_8c_html_a2019d0836036f2693a231fe5c7c65e20"><div class="ttname"><a href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a></div><div class="ttdeci">register GCHAR c</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d64/glob__loop_8c_source.html#l00028">glob_loop.c:26</a></div></div>
+<div class="ttc" id="aKernel_2include__std_2stdio_8h_html_a0c0ef221f95f64e8632451312fd18cc8"><div class="ttname"><a href="../../d8/d67/Kernel_2include__std_2stdio_8h.html#a0c0ef221f95f64e8632451312fd18cc8">stdout</a></div><div class="ttdeci">#define stdout</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d67/Kernel_2include__std_2stdio_8h_source.html#l00037">stdio.h:37</a></div></div>
 <div class="ttc" id="aputc__unlocked_8c_html_a5740663c89f916054bf2d51247654ca5"><div class="ttname"><a href="../../dd/dbf/putc__unlocked_8c.html#a5740663c89f916054bf2d51247654ca5">putc_unlocked</a></div><div class="ttdeci">int() putc_unlocked(int c, FILE *f)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dbf/putc__unlocked_8c_source.html#l00003">putc_unlocked.c:3</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>, <a class="el" href="../../dd/dbf/putc__unlocked_8c_source.html#l00003">putc_unlocked()</a>, and <a class="el" href="../../dd/d69/Userspace_2libc_2include_2stdio_8h_source.html#l00057">stdout</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/dbf/putc__unlocked_8c_source.html#l00003">putc_unlocked()</a>, and <a class="el" href="../../d8/d67/Kernel_2include__std_2stdio_8h_source.html#l00037">stdout</a>.</p>
 
 </div>
 </div>

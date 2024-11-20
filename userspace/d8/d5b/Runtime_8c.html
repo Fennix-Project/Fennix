@@ -108,7 +108,7 @@ Functions</h2></td></tr>
 <tr class="separator:a401d8fb149919a365e73d74ec68cc898"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a207028bbe9a1ca307b12b6ec505bb160"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d4c/libc_2include_2types_8h.html#ad17d551e31d1828c68acf40684849b7e">PUBLIC</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/Runtime_8c.html#a207028bbe9a1ca307b12b6ec505bb160">__libc_init</a> (void)</td></tr>
 <tr class="separator:a207028bbe9a1ca307b12b6ec505bb160"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2688b8362b867569ddf2cfdf15b28b29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d4c/libc_2include_2types_8h.html#ad17d551e31d1828c68acf40684849b7e">PUBLIC</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/Runtime_8c.html#a2688b8362b867569ddf2cfdf15b28b29">_exit</a> (int <a class="el" href="../../d6/dd0/gzip_8c.html#a068e76e6034d06450385bc98b69ea53e">Code</a>)</td></tr>
+<tr class="memitem:a2688b8362b867569ddf2cfdf15b28b29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d4c/libc_2include_2types_8h.html#ad17d551e31d1828c68acf40684849b7e">PUBLIC</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/Runtime_8c.html#a2688b8362b867569ddf2cfdf15b28b29">_exit</a> (int Code)</td></tr>
 <tr class="separator:a2688b8362b867569ddf2cfdf15b28b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -130,13 +130,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d9b/InitArray_8c_source.html#l00018">18</a> of file <a class="el" href="../../da/d9b/InitArray_8c_source.html">InitArray.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="../../da/d9b/InitArray_8c.html#ab2f77750ed4ac7d7d9d0bd0770660e29">fct</a> *<a class="code" href="../../de/dcc/awk_8c.html#dd/d55/structfunc__s">func</a> = <a class="code" href="../../da/d9b/InitArray_8c.html#a8375604a8a2110c022e6bc71d7547e45">__fini_array_start</a>; <a class="code" href="../../de/dcc/awk_8c.html#dd/d55/structfunc__s">func</a> != <a class="code" href="../../da/d9b/InitArray_8c.html#afb8807db945a15eded852be650c390bf">__fini_array_end</a>; <a class="code" href="../../de/dcc/awk_8c.html#dd/d55/structfunc__s">func</a>++)</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        (*<a class="code" href="../../de/dcc/awk_8c.html#dd/d55/structfunc__s">func</a>)();</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="../../da/d9b/InitArray_8c.html#ab2f77750ed4ac7d7d9d0bd0770660e29">fct</a> *func = <a class="code" href="../../da/d9b/InitArray_8c.html#a8375604a8a2110c022e6bc71d7547e45">__fini_array_start</a>; func != <a class="code" href="../../da/d9b/InitArray_8c.html#afb8807db945a15eded852be650c390bf">__fini_array_end</a>; func++)</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        (*func)();</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
 <div class="ttc" id="aInitArray_8c_html_a8375604a8a2110c022e6bc71d7547e45"><div class="ttname"><a href="../../da/d9b/InitArray_8c.html#a8375604a8a2110c022e6bc71d7547e45">__fini_array_start</a></div><div class="ttdeci">fct __fini_array_start[0]</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/db0/dynlink_8c_source.html#l00162">dynlink.c:162</a></div></div>
 <div class="ttc" id="aInitArray_8c_html_ab2f77750ed4ac7d7d9d0bd0770660e29"><div class="ttname"><a href="../../da/d9b/InitArray_8c.html#ab2f77750ed4ac7d7d9d0bd0770660e29">fct</a></div><div class="ttdeci">void(* fct)(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d9b/InitArray_8c_source.html#l00008">InitArray.c:8</a></div></div>
 <div class="ttc" id="aInitArray_8c_html_afb8807db945a15eded852be650c390bf"><div class="ttname"><a href="../../da/d9b/InitArray_8c.html#afb8807db945a15eded852be650c390bf">__fini_array_end</a></div><div class="ttdeci">fct __fini_array_end[0]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d9b/InitArray_8c_source.html#l00010">InitArray.c:10</a></div></div>
-<div class="ttc" id="aawk_8c_html_dd/d55/structfunc__s"><div class="ttname"><a href="../../de/dcc/awk_8c.html#dd/d55/structfunc__s">func_s</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcc/awk_8c_source.html#l00140">awk.c:140</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../da/d9b/InitArray_8c_source.html#l00010">__fini_array_end</a>, and <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00162">__fini_array_start</a>.</p>
 
@@ -214,8 +213,8 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d9b/InitArray_8c_source.html#l00012">12</a> of file <a class="el" href="../../da/d9b/InitArray_8c_source.html">InitArray.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="../../da/d9b/InitArray_8c.html#ab2f77750ed4ac7d7d9d0bd0770660e29">fct</a> *<a class="code" href="../../de/dcc/awk_8c.html#dd/d55/structfunc__s">func</a> = <a class="code" href="../../da/d9b/InitArray_8c.html#adc12505aa13e0788557042e046baa63a">__init_array_start</a>; <a class="code" href="../../de/dcc/awk_8c.html#dd/d55/structfunc__s">func</a> != <a class="code" href="../../da/d9b/InitArray_8c.html#ac0feae393a5b0d444dd7c22201610c1e">__init_array_end</a>; <a class="code" href="../../de/dcc/awk_8c.html#dd/d55/structfunc__s">func</a>++)</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        (*<a class="code" href="../../de/dcc/awk_8c.html#dd/d55/structfunc__s">func</a>)();</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="../../da/d9b/InitArray_8c.html#ab2f77750ed4ac7d7d9d0bd0770660e29">fct</a> *func = <a class="code" href="../../da/d9b/InitArray_8c.html#adc12505aa13e0788557042e046baa63a">__init_array_start</a>; func != <a class="code" href="../../da/d9b/InitArray_8c.html#ac0feae393a5b0d444dd7c22201610c1e">__init_array_end</a>; func++)</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        (*func)();</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div>
 <div class="ttc" id="aInitArray_8c_html_ac0feae393a5b0d444dd7c22201610c1e"><div class="ttname"><a href="../../da/d9b/InitArray_8c.html#ac0feae393a5b0d444dd7c22201610c1e">__init_array_end</a></div><div class="ttdeci">fct __init_array_end[0]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d9b/InitArray_8c_source.html#l00009">InitArray.c:9</a></div></div>
 <div class="ttc" id="aInitArray_8c_html_adc12505aa13e0788557042e046baa63a"><div class="ttname"><a href="../../da/d9b/InitArray_8c.html#adc12505aa13e0788557042e046baa63a">__init_array_start</a></div><div class="ttdeci">fct __init_array_start[0]</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/db0/dynlink_8c_source.html#l00162">dynlink.c:162</a></div></div>
@@ -272,15 +271,14 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="../../d8/d5b/Runtime_8c.html#a401d8fb149919a365e73d74ec68cc898">__libc_fini_std</a>();</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../d8/d5b/Runtime_8c.html#af80062f462ba444a6fbd61f52b58f170">__libc_fini_array</a>();</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    syscall1(sc_exit, (<span class="keywordtype">long</span>)<a class="code" href="../../d6/dd0/gzip_8c.html#a068e76e6034d06450385bc98b69ea53e">Code</a>);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    syscall1(sc_exit, (<span class="keywordtype">long</span>)Code);</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">while</span> (1)</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        ;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
 <div class="ttc" id="aRuntime_8c_html_a401d8fb149919a365e73d74ec68cc898"><div class="ttname"><a href="../../d8/d5b/Runtime_8c.html#a401d8fb149919a365e73d74ec68cc898">__libc_fini_std</a></div><div class="ttdeci">void __libc_fini_std(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d39/std__init_8c_source.html#l00011">std_init.c:11</a></div></div>
 <div class="ttc" id="aRuntime_8c_html_af80062f462ba444a6fbd61f52b58f170"><div class="ttname"><a href="../../d8/d5b/Runtime_8c.html#af80062f462ba444a6fbd61f52b58f170">__libc_fini_array</a></div><div class="ttdeci">void __libc_fini_array(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d9b/InitArray_8c_source.html#l00018">InitArray.c:18</a></div></div>
-<div class="ttc" id="agzip_8c_html_a068e76e6034d06450385bc98b69ea53e"><div class="ttname"><a href="../../d6/dd0/gzip_8c.html#a068e76e6034d06450385bc98b69ea53e">Code</a></div><div class="ttdeci">#define Code</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd0/gzip_8c_source.html#l00963">gzip.c:963</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/d9b/InitArray_8c_source.html#l00018">__libc_fini_array()</a>, <a class="el" href="../../df/d39/std__init_8c_source.html#l00011">__libc_fini_std()</a>, and <a class="el" href="../../d6/dd0/gzip_8c_source.html#l00963">Code</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d9b/InitArray_8c_source.html#l00018">__libc_fini_array()</a>, and <a class="el" href="../../df/d39/std__init_8c_source.html#l00011">__libc_fini_std()</a>.</p>
 
 </div>
 </div>

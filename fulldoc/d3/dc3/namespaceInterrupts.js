@@ -11,6 +11,8 @@ var namespaceInterrupts =
     [ "RemoveHandler", "d3/dc3/namespaceInterrupts.html#aa17859fc27dd7c7d61a07aa6bb8c6046", null ],
     [ "RemoveHandler", "d3/dc3/namespaceInterrupts.html#a60ce955e69f33f2388dcc63a09c277e6", null ],
     [ "RemoveHandler", "d3/dc3/namespaceInterrupts.html#a79a4bf53f777596006e7b13ff8d55717", null ],
+    [ "ReturnFromInterrupt", "d3/dc3/namespaceInterrupts.html#a8919ed95681c2868215c4b378ea01897", null ],
+    [ "SchedulerInterruptHandler", "d3/dc3/namespaceInterrupts.html#a89410856549ec20100ee11e8abf820be", null ],
     [ "RegisteredEvents", "d3/dc3/namespaceInterrupts.html#ae790f507e4d7e3e4aaf00aa0613431b0", null ],
     [ "SORT_ITR", "d3/dc3/namespaceInterrupts.html#a82df07424b6c6705a5dcc04f580316b8", null ],
     [ "SortEvents", "d3/dc3/namespaceInterrupts.html#a2124862a0734e9dac41c008d17d6d5c2", null ]

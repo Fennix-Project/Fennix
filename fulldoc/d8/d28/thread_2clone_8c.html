@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d8/d28/thread_2clone_8c.html','../../'
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a197dd9a0db88745b661c49efb0d6a176"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/thread_2clone_8c.html#a197dd9a0db88745b661c49efb0d6a176">__clone</a> (int(*<a class="el" href="../../de/dcc/awk_8c.html#a553299c54ca0f9dd61768a1f8a0e481a">func</a>)(void *), void *<a class="el" href="../../d6/dae/dc_8c.html#ab151537536988a2190d2cac79f964c52">stack</a>, int <a class="el" href="../../db/dd4/sm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a>, void *<a class="el" href="../../d1/d40/vfwprintf_8c.html#d9/ddc/unionarg">arg</a>,...)</td></tr>
+<tr class="memitem:a197dd9a0db88745b661c49efb0d6a176"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d28/thread_2clone_8c.html#a197dd9a0db88745b661c49efb0d6a176">__clone</a> (int(*<a class="el" href="../../d0/d64/syscall_8cpp.html#a5a4f4538b1fe13a821aabdd9236bf6b4">func</a>)(void *), void *stack, int flags, void *<a class="el" href="../../d1/d40/vfwprintf_8c.html#d9/ddc/unionarg">arg</a>,...)</td></tr>
 <tr class="separator:a197dd9a0db88745b661c49efb0d6a176"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -148,11 +148,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/d28/thread_2clone_8c_source.html#l00004">4</a> of file <a class="el" href="../../d8/d28/thread_2clone_8c_source.html">clone.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> -<a class="code" href="../../df/d53/Userspace_2libc_2include_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="aKernel_2include__std_2errno_8h_html_a43785b9969e0bd1af532dbde06c5540b"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a></div><div class="ttdeci">#define ENOSYS</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00133">errno.h:133</a></div></div>
+<div class="ttc" id="aUserspace_2libc_2include_2errno_8h_html_a43785b9969e0bd1af532dbde06c5540b"><div class="ttname"><a href="../../df/d53/Userspace_2libc_2include_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a></div><div class="ttdeci">#define ENOSYS</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d53/Userspace_2libc_2include_2errno_8h_source.html#l00041">errno.h:41</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00133">ENOSYS</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d53/Userspace_2libc_2include_2errno_8h_source.html#l00041">ENOSYS</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/dc2/pthread__create_8c_source.html#l00237">__pthread_create()</a>, <a class="el" href="../../da/d6e/linux_2clone_8c_source.html#l00008">clone()</a>, <a class="el" href="../../da/d48/faccessat_8c_source.html#l00026">faccessat()</a>, and <a class="el" href="../../d1/d0c/posix__spawn_8c_source.html#l00164">posix_spawn()</a>.</p>
 

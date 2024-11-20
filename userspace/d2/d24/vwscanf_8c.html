@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('d2/d24/vwscanf_8c.html','../../'); ini
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:accfe788efbef079b345f7727a84e9a55"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d24/vwscanf_8c.html#accfe788efbef079b345f7727a84e9a55">vwscanf</a> (const <a class="el" href="../../d6/dea/rlmbutil_8h.html#a996b469b2e20f31259fb88cdad2a6309">wchar_t</a> *restrict fmt, <a class="el" href="../../d1/dba/libc_2include_2stdarg_8h.html#af53f622e3b6c080daeb167c1955d7ec1">va_list</a> <a class="el" href="../../d6/d94/arp_8c.html#a76d86451b3fb6fb6dc6a4b92b4bf3d49">ap</a>)</td></tr>
+<tr class="memitem:accfe788efbef079b345f7727a84e9a55"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d24/vwscanf_8c.html#accfe788efbef079b345f7727a84e9a55">vwscanf</a> (const wchar_t *restrict fmt, <a class="el" href="../../d1/dba/libc_2include_2stdarg_8h.html#af53f622e3b6c080daeb167c1955d7ec1">va_list</a> ap)</td></tr>
 <tr class="separator:accfe788efbef079b345f7727a84e9a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff30ce4b56c70f6ce80f92b1a1f6d135"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d24/vwscanf_8c.html#aff30ce4b56c70f6ce80f92b1a1f6d135">weak_alias</a> (<a class="el" href="../../d2/d24/vwscanf_8c.html#accfe788efbef079b345f7727a84e9a55">vwscanf</a>, __isoc99_vwscanf)</td></tr>
 <tr class="separator:aff30ce4b56c70f6ce80f92b1a1f6d135"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -114,7 +114,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int vwscanf </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d6/dea/rlmbutil_8h.html#a996b469b2e20f31259fb88cdad2a6309">wchar_t</a> *restrict&#160;</td>
+          <td class="paramtype">const wchar_t *restrict&#160;</td>
           <td class="paramname"><em>fmt</em>, </td>
         </tr>
         <tr>
@@ -133,13 +133,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/d24/vwscanf_8c_source.html#l00005">5</a> of file <a class="el" href="../../d2/d24/vwscanf_8c_source.html">vwscanf.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/d9b/include_2wchar_8h.html#a8b28e4b88c5805e71d2bb95bc5026439">vfwscanf</a>(<a class="code" href="../../dc/d4d/libc_2include_2stdio_8h.html#aaca70138f0cb63ddb026921afc635179">stdin</a>, fmt, <a class="code" href="../../d6/d94/arp_8c.html#a76d86451b3fb6fb6dc6a4b92b4bf3d49">ap</a>);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/d9b/include_2wchar_8h.html#a8b28e4b88c5805e71d2bb95bc5026439">vfwscanf</a>(<a class="code" href="../../dc/d4d/libc_2include_2stdio_8h.html#aaca70138f0cb63ddb026921afc635179">stdin</a>, fmt, ap);</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
-<div class="ttc" id="aarp_8c_html_a76d86451b3fb6fb6dc6a4b92b4bf3d49"><div class="ttname"><a href="../../d6/d94/arp_8c.html#a76d86451b3fb6fb6dc6a4b92b4bf3d49">ap</a></div><div class="ttdeci">#define ap</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d94/arp_8c_source.html#l00083">arp.c:83</a></div></div>
 <div class="ttc" id="ainclude_2wchar_8h_html_a8b28e4b88c5805e71d2bb95bc5026439"><div class="ttname"><a href="../../dc/d9b/include_2wchar_8h.html#a8b28e4b88c5805e71d2bb95bc5026439">vfwscanf</a></div><div class="ttdeci">int vfwscanf(FILE *__restrict, const wchar_t *__restrict, __isoc_va_list)</div></div>
 <div class="ttc" id="alibc_2include_2stdio_8h_html_aaca70138f0cb63ddb026921afc635179"><div class="ttname"><a href="../../dc/d4d/libc_2include_2stdio_8h.html#aaca70138f0cb63ddb026921afc635179">stdin</a></div><div class="ttdeci">#define stdin</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d4d/libc_2include_2stdio_8h_source.html#l00056">stdio.h:56</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/d94/arp_8c_source.html#l00083">ap</a>, <a class="el" href="../../dc/d4d/libc_2include_2stdio_8h_source.html#l00056">stdin</a>, and <a class="el" href="../../dc/d9b/include_2wchar_8h.html#a8b28e4b88c5805e71d2bb95bc5026439">vfwscanf()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d4d/libc_2include_2stdio_8h_source.html#l00056">stdin</a>, and <a class="el" href="../../dc/d9b/include_2wchar_8h.html#a8b28e4b88c5805e71d2bb95bc5026439">vfwscanf()</a>.</p>
 
 </div>
 </div>

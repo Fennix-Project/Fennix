@@ -119,9 +119,9 @@ $(document).ready(function(){initNavTree('d9/dea/i__cdmus_8c_source.html','../..
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d1/d80/i__cdmus_8h.html">i_cdmus.h</a>&quot;</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#ifdef ORIGCODE</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">static</span> SDL_CD *cd_handle = <a class="code" href="../../d9/d14/general_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">static</span> <span class="keywordtype">char</span> *startup_error = <a class="code" href="../../d9/d14/general_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> *cd_name = <a class="code" href="../../d9/d14/general_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">static</span> SDL_CD *cd_handle = <a class="code" href="../../d0/ddd/libc_2include_2stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keyword">static</span> <span class="keywordtype">char</span> *startup_error = <a class="code" href="../../d0/ddd/libc_2include_2stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">static</span> <span class="keyword">const</span> <span class="keywordtype">char</span> *cd_name = <a class="code" href="../../d0/ddd/libc_2include_2stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
 <div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="../../d9/dea/i__cdmus_8c.html#a9e07d276c4a59a9e5e53f69d98e15890">   36</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d9/dea/i__cdmus_8c.html#a9e07d276c4a59a9e5e53f69d98e15890">cd_Error</a>;</div>
@@ -135,7 +135,7 @@ $(document).ready(function(){initNavTree('d9/dea/i__cdmus_8c_source.html','../..
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="comment">// is used, so use the opportunity to call SDL_CDStatus() to update</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="comment">// the status of the drive.</span></div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordflow">if</span> (cd_handle == <a class="code" href="../../d9/d14/general_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordflow">if</span> (cd_handle == <a class="code" href="../../d0/ddd/libc_2include_2stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    {</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">if</span> (SDL_Init(SDL_INIT_CDROM) &lt; 0)</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        {</div>
@@ -148,7 +148,7 @@ $(document).ready(function(){initNavTree('d9/dea/i__cdmus_8c_source.html','../..
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        cd_handle = SDL_CDOpen(drive_num);</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">if</span> (cd_handle == <a class="code" href="../../d9/d14/general_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">if</span> (cd_handle == <a class="code" href="../../d0/ddd/libc_2include_2stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        {</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            startup_error = <span class="stringliteral">&quot;Failed to open CD-ROM drive.&quot;</span>;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <a class="code" href="../../d9/dea/i__cdmus_8c.html#a9e07d276c4a59a9e5e53f69d98e15890">cd_Error</a> = 1;</div>
@@ -183,12 +183,12 @@ $(document).ready(function(){initNavTree('d9/dea/i__cdmus_8c_source.html','../..
 <div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="../../d9/dea/i__cdmus_8c.html#ab7dfab7ae0af26ba85a7e7f23363fad1">   92</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d9/dea/i__cdmus_8c.html#ab7dfab7ae0af26ba85a7e7f23363fad1">I_CDMusPrintStartup</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;{</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">#ifdef ORIGCODE</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordflow">if</span> (cd_name != <a class="code" href="../../d9/d14/general_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordflow">if</span> (cd_name != <a class="code" href="../../d0/ddd/libc_2include_2stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    {</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <a class="code" href="../../dc/d4d/libc_2include_2stdio_8h.html#a98631211a4a8aee62f572375d5b637be">printf</a>(<span class="stringliteral">&quot;I_CDMusInit: Using CD-ROM drive: %s\n&quot;</span>, cd_name);</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    }</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordflow">if</span> (startup_error != <a class="code" href="../../d9/d14/general_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordflow">if</span> (startup_error != <a class="code" href="../../d0/ddd/libc_2include_2stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    {</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <a class="code" href="../../dc/d4d/libc_2include_2stdio_8h.html#ad9291335f34e874c8431285d705bc3aa">fprintf</a>(<a class="code" href="../../dc/d4d/libc_2include_2stdio_8h.html#a5ce35bd5ba5021fd3b2e951e8f497656">stderr</a>, <span class="stringliteral">&quot;I_CDMusInit: %s\n&quot;</span>, startup_error);</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    }</div>
@@ -200,7 +200,7 @@ $(document).ready(function(){initNavTree('d9/dea/i__cdmus_8c_source.html','../..
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="preprocessor">#ifdef ORIGCODE</span></div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keywordtype">int</span> result;</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160; </div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keywordflow">if</span> (cd_handle == <a class="code" href="../../d9/d14/general_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keywordflow">if</span> (cd_handle == <a class="code" href="../../d0/ddd/libc_2include_2stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    {</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <a class="code" href="../../d9/dea/i__cdmus_8c.html#a9e07d276c4a59a9e5e53f69d98e15890">cd_Error</a> = 1;</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <span class="keywordflow">return</span> -1;</div>
@@ -260,9 +260,9 @@ $(document).ready(function(){initNavTree('d9/dea/i__cdmus_8c_source.html','../..
 <div class="line"><a name="l00169"></a><span class="lineno"><a class="line" href="../../d9/dea/i__cdmus_8c.html#a02f725426cacb5bbd0857eca9f02cfc0">  169</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d9/dea/i__cdmus_8c.html#a02f725426cacb5bbd0857eca9f02cfc0">I_CDMusFirstTrack</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;{</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;<span class="preprocessor">#ifdef ORIGCODE</span></div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>;</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160; </div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    <span class="keywordflow">if</span> (cd_handle == <a class="code" href="../../d9/d14/general_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    <span class="keywordflow">if</span> (cd_handle == <a class="code" href="../../d0/ddd/libc_2include_2stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    {</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        <a class="code" href="../../d9/dea/i__cdmus_8c.html#a9e07d276c4a59a9e5e53f69d98e15890">cd_Error</a> = 1;</div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        <span class="keywordflow">return</span> -1;</div>
@@ -270,14 +270,14 @@ $(document).ready(function(){initNavTree('d9/dea/i__cdmus_8c_source.html','../..
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160; </div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <span class="comment">// Find the first audio track.</span></div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160; </div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>=0; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>&lt;cd_handle-&gt;numtracks; ++<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>) </div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>=0; <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>&lt;cd_handle-&gt;numtracks; ++<a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>) </div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    {</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <span class="keywordflow">if</span> (cd_handle-&gt;track[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>].type == SDL_AUDIO_TRACK)</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <span class="keywordflow">if</span> (cd_handle-&gt;track[<a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>].type == SDL_AUDIO_TRACK)</div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        {</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;            <a class="code" href="../../d9/dea/i__cdmus_8c.html#a9e07d276c4a59a9e5e53f69d98e15890">cd_Error</a> = 0;</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160; </div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;            <span class="comment">// Tracks are indexed from 1.</span></div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> + 1;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> + 1;</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        }</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    }</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160; </div>
@@ -293,7 +293,7 @@ $(document).ready(function(){initNavTree('d9/dea/i__cdmus_8c_source.html','../..
 <div class="line"><a name="l00202"></a><span class="lineno"><a class="line" href="../../d9/dea/i__cdmus_8c.html#a30cddcdd6491c60be35e073533162b86">  202</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d9/dea/i__cdmus_8c.html#a30cddcdd6491c60be35e073533162b86">I_CDMusLastTrack</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;{</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;<span class="preprocessor">#ifdef ORIGCODE</span></div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="keywordflow">if</span> (cd_handle == <a class="code" href="../../d9/d14/general_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="keywordflow">if</span> (cd_handle == <a class="code" href="../../d0/ddd/libc_2include_2stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    {</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        <a class="code" href="../../d9/dea/i__cdmus_8c.html#a9e07d276c4a59a9e5e53f69d98e15890">cd_Error</a> = 1;</div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        <span class="keywordflow">return</span> -1;</div>
@@ -312,7 +312,7 @@ $(document).ready(function(){initNavTree('d9/dea/i__cdmus_8c_source.html','../..
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;<span class="preprocessor">#ifdef ORIGCODE</span></div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    SDL_CDtrack *track;</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160; </div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <span class="keywordflow">if</span> (cd_handle == <a class="code" href="../../d9/d14/general_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> || track_num &lt; 1 || track_num &gt; cd_handle-&gt;numtracks)</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <span class="keywordflow">if</span> (cd_handle == <a class="code" href="../../d0/ddd/libc_2include_2stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> || track_num &lt; 1 || track_num &gt; cd_handle-&gt;numtracks)</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    {</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <a class="code" href="../../d9/dea/i__cdmus_8c.html#a9e07d276c4a59a9e5e53f69d98e15890">cd_Error</a> = 1;</div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <span class="keywordflow">return</span> -1;</div>
@@ -333,8 +333,6 @@ $(document).ready(function(){initNavTree('d9/dea/i__cdmus_8c_source.html','../..
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;}</div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160; </div>
 <div class="ttc" id="adoomtype_8h_html"><div class="ttname"><a href="../../d8/d3a/doomtype_8h.html">doomtype.h</a></div></div>
-<div class="ttc" id="ageneral_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d9/d14/general_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d14/general_8h_source.html#l00053">general.h:53</a></div></div>
-<div class="ttc" id="agettextP_8h_html_a68428151ad44e31b19041cdeb8972a91"><div class="ttname"><a href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a></div><div class="ttdeci">static nls_uint32 nls_uint32 i</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d71/gettextP_8h_source.html#l00074">gettextP.h:74</a></div></div>
 <div class="ttc" id="ai__cdmus_8c_html_a02f725426cacb5bbd0857eca9f02cfc0"><div class="ttname"><a href="../../d9/dea/i__cdmus_8c.html#a02f725426cacb5bbd0857eca9f02cfc0">I_CDMusFirstTrack</a></div><div class="ttdeci">int I_CDMusFirstTrack(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dea/i__cdmus_8c_source.html#l00169">i_cdmus.c:169</a></div></div>
 <div class="ttc" id="ai__cdmus_8c_html_a0bb3571f40bb2e2f2e19a9329ef679b0"><div class="ttname"><a href="../../d9/dea/i__cdmus_8c.html#a0bb3571f40bb2e2f2e19a9329ef679b0">I_CDMusInit</a></div><div class="ttdeci">int I_CDMusInit(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dea/i__cdmus_8c_source.html#l00038">i_cdmus.c:38</a></div></div>
 <div class="ttc" id="ai__cdmus_8c_html_a0d201e04858b9e3b47953bbd387d29d7"><div class="ttname"><a href="../../d9/dea/i__cdmus_8c.html#a0d201e04858b9e3b47953bbd387d29d7">I_CDMusResume</a></div><div class="ttdeci">int I_CDMusResume(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dea/i__cdmus_8c_source.html#l00145">i_cdmus.c:145</a></div></div>
@@ -346,9 +344,11 @@ $(document).ready(function(){initNavTree('d9/dea/i__cdmus_8c_source.html','../..
 <div class="ttc" id="ai__cdmus_8c_html_ab6285794ef794cd3dafb895d15d4ad35"><div class="ttname"><a href="../../d9/dea/i__cdmus_8c.html#ab6285794ef794cd3dafb895d15d4ad35">I_CDMusSetVolume</a></div><div class="ttdeci">int I_CDMusSetVolume(int volume)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dea/i__cdmus_8c_source.html#l00160">i_cdmus.c:160</a></div></div>
 <div class="ttc" id="ai__cdmus_8c_html_ab7dfab7ae0af26ba85a7e7f23363fad1"><div class="ttname"><a href="../../d9/dea/i__cdmus_8c.html#ab7dfab7ae0af26ba85a7e7f23363fad1">I_CDMusPrintStartup</a></div><div class="ttdeci">void I_CDMusPrintStartup(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dea/i__cdmus_8c_source.html#l00092">i_cdmus.c:92</a></div></div>
 <div class="ttc" id="ai__cdmus_8h_html"><div class="ttname"><a href="../../d1/d80/i__cdmus_8h.html">i_cdmus.h</a></div></div>
+<div class="ttc" id="alibc_2include_2stddef_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d0/ddd/libc_2include_2stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/ddd/libc_2include_2stddef_8h_source.html#l00007">stddef.h:7</a></div></div>
 <div class="ttc" id="alibc_2include_2stdio_8h_html_a5ce35bd5ba5021fd3b2e951e8f497656"><div class="ttname"><a href="../../dc/d4d/libc_2include_2stdio_8h.html#a5ce35bd5ba5021fd3b2e951e8f497656">stderr</a></div><div class="ttdeci">#define stderr</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d4d/libc_2include_2stdio_8h_source.html#l00058">stdio.h:58</a></div></div>
 <div class="ttc" id="alibc_2include_2stdio_8h_html_a98631211a4a8aee62f572375d5b637be"><div class="ttname"><a href="../../dc/d4d/libc_2include_2stdio_8h.html#a98631211a4a8aee62f572375d5b637be">printf</a></div><div class="ttdeci">int printf(const char *format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dae/libc_2src_2print_2printf_8c_source.html#l01554">printf.c:1554</a></div></div>
 <div class="ttc" id="alibc_2include_2stdio_8h_html_ad9291335f34e874c8431285d705bc3aa"><div class="ttname"><a href="../../dc/d4d/libc_2include_2stdio_8h.html#ad9291335f34e874c8431285d705bc3aa">fprintf</a></div><div class="ttdeci">int fprintf(FILE *stream, const char *format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d13/file_8c_source.html#l00097">file.c:97</a></div></div>
+<div class="ttc" id="arandom_8c_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">static int i</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de5/random_8c_source.html#l00023">random.c:23</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

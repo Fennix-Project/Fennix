@@ -94,14 +94,13 @@ $(document).ready(function(){initNavTree('d5/dd8/sem__getvalue_8c_source.html','
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="../../d5/dd8/sem__getvalue_8c.html#a7b2243b90614914485dfe1fc533aead8">    4</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d5/dd8/sem__getvalue_8c.html#a7b2243b90614914485dfe1fc533aead8">sem_getvalue</a>(<a class="code" href="../../d6/dc6/semaphore_8h.html#db/d5a/structsem__t">sem_t</a> *restrict sem, <span class="keywordtype">int</span> *restrict valp)</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a> = sem-&gt;__val[0];</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    *valp = <a class="code" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a> &amp; SEM_VALUE_MAX;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordtype">int</span> val = sem-&gt;__val[0];</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    *valp = val &amp; SEM_VALUE_MAX;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
 <div class="ttc" id="asem__getvalue_8c_html_a7b2243b90614914485dfe1fc533aead8"><div class="ttname"><a href="../../d5/dd8/sem__getvalue_8c.html#a7b2243b90614914485dfe1fc533aead8">sem_getvalue</a></div><div class="ttdeci">int sem_getvalue(sem_t *restrict sem, int *restrict valp)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dd8/sem__getvalue_8c_source.html#l00004">sem_getvalue.c:4</a></div></div>
 <div class="ttc" id="asemaphore_8h_html"><div class="ttname"><a href="../../d6/dc6/semaphore_8h.html">semaphore.h</a></div></div>
 <div class="ttc" id="asemaphore_8h_html_db/d5a/structsem__t"><div class="ttname"><a href="../../d6/dc6/semaphore_8h.html#db/d5a/structsem__t">sem_t</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc6/semaphore_8h_source.html#l00017">semaphore.h:17</a></div></div>
-<div class="ttc" id="asm__loop_8c_html_acb906433e1289aa1c251dc5057746a88"><div class="ttname"><a href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a></div><div class="ttdeci">INT val</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd4/sm__loop_8c_source.html#l00387">sm_loop.c:385</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

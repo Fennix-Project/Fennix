@@ -1,9 +1,10 @@
 var amd64_2cpu_2idt_8cpp =
 [
+    [ "__stub_handler", "d3/d08/amd64_2cpu_2idt_8cpp.html#a74d8e9de46e964fe07ae52159ce43c61", null ],
     [ "EXCEPTION_ERROR_HANDLER", "d3/d08/amd64_2cpu_2idt_8cpp.html#a91faac0f0bd85f400863bbff6ba06f7f", null ],
     [ "EXCEPTION_HANDLER", "d3/d08/amd64_2cpu_2idt_8cpp.html#ae6aa82d43fcacd6bb94831abbb665799", null ],
     [ "INTERRUPT_HANDLER", "d3/d08/amd64_2cpu_2idt_8cpp.html#aac29fce8b5436d26c80044516455b6f7", null ],
-    [ "__aligned", "d3/d08/amd64_2cpu_2idt_8cpp.html#ae33a1317cc5ebd3cc50a15cbd787f6d6", null ],
+    [ "SCHEDULER_HANDLER", "d3/d08/amd64_2cpu_2idt_8cpp.html#a794fb4e74903341eff6633cbf9d12514", null ],
     [ "__aligned", "d3/d08/amd64_2cpu_2idt_8cpp.html#a4578952b3a8e95c706d30e7859caf535", null ],
     [ "EXCEPTION_ERROR_HANDLER", "d3/d08/amd64_2cpu_2idt_8cpp.html#afb7ecf9fc0491027fc6c9457c9e7a71f", null ],
     [ "EXCEPTION_ERROR_HANDLER", "d3/d08/amd64_2cpu_2idt_8cpp.html#a79b0b2a4ee90ae36c274116d678c16bf", null ],
@@ -38,7 +39,11 @@ var amd64_2cpu_2idt_8cpp =
     [ "EXCEPTION_HANDLER", "d3/d08/amd64_2cpu_2idt_8cpp.html#a5c17bef14be9a26c98a78d9a523aade3", null ],
     [ "EXCEPTION_HANDLER", "d3/d08/amd64_2cpu_2idt_8cpp.html#a06dc90ea4f9b497dde29a66795414f7a", null ],
     [ "ExceptionHandler", "d3/d08/amd64_2cpu_2idt_8cpp.html#a29a0f4b501e81633a741ed838dace121", null ],
+    [ "ExceptionHandlerStub", "d3/d08/amd64_2cpu_2idt_8cpp.html#a119bcd3137aec822523220d1ac80c335", null ],
     [ "Init", "d3/d08/amd64_2cpu_2idt_8cpp.html#a5275e6707c957c5ba4b050102990c908", null ],
+    [ "InterruptHandlerStub", "d3/d08/amd64_2cpu_2idt_8cpp.html#a341422b50199a41e2ad579b3c04a10ed", null ],
     [ "MainInterruptHandler", "d3/d08/amd64_2cpu_2idt_8cpp.html#ab315401343457f280dc7e89bd8ec6308", null ],
+    [ "SchedulerHandlerStub", "d3/d08/amd64_2cpu_2idt_8cpp.html#a20f1f287ba3c34964fbdbeac0b0e52b5", null ],
+    [ "SchedulerInterruptHandler", "d3/d08/amd64_2cpu_2idt_8cpp.html#a9cf0abd687759466c9a41ba4366f4c57", null ],
     [ "SetEntry", "d3/d08/amd64_2cpu_2idt_8cpp.html#adcedaaebbdc2f60e14c0e8a1d7db5126", null ]
 ];

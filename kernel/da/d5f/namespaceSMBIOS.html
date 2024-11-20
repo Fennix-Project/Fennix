@@ -184,7 +184,7 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2d28755c4392487cb470db704827389f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5f/namespaceSMBIOS.html#a2d28755c4392487cb470db704827389f">CheckSMBIOS</a> ()</td></tr>
+<tr class="memitem:a2d28755c4392487cb470db704827389f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5e/stdbool_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5f/namespaceSMBIOS.html#a2d28755c4392487cb470db704827389f">CheckSMBIOS</a> ()</td></tr>
 <tr class="separator:a2d28755c4392487cb470db704827389f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfc63dd9088cbc27b8beceed47cbec33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d5f/namespaceSMBIOS.html#df/d4e/structSMBIOS_1_1SMBIOSEntryPoint">SMBIOSEntryPoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5f/namespaceSMBIOS.html#acfc63dd9088cbc27b8beceed47cbec33">GetSMBIOSEntryPoint</a> ()</td></tr>
 <tr class="separator:acfc63dd9088cbc27b8beceed47cbec33"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -535,11 +535,14 @@ TableLength</td>
 <div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    {</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordtype">int</span> i;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">char</span> *strtab = (<span class="keywordtype">char</span> *)Hdr + Hdr-&gt;Length;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        for (i = 1; strtab[i - 1] != <span class="charliteral">&#39;\0&#39;</span> || strtab[i] != <span class="charliteral">&#39;\0&#39;</span>; i++)</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <a class="code" href="../../d1/d48/namespaceDriver.html#adf71cac4525e4f06bca35421591f0cc7">for</a> (i = 1; strtab[i - 1] != <span class="charliteral">&#39;\0&#39;</span> || strtab[i] != <span class="charliteral">&#39;\0&#39;</span>; i++)</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            ;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">return</span> Hdr-&gt;Length + i + 1;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
+<div class="ttc" id="anamespaceDriver_html_adf71cac4525e4f06bca35421591f0cc7"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#adf71cac4525e4f06bca35421591f0cc7">Driver::for</a></div><div class="ttdeci">for(const auto &amp;var :Node-&gt;Children)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/daemon_8cpp_source.html#l00553">daemon.cpp:553</a></div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../de/d2b/daemon_8cpp_source.html#l00553">Driver::for()</a>.</p>
+
 </div>
 </div>
 <a id="a2d28755c4392487cb470db704827389f"></a>
@@ -549,7 +552,7 @@ TableLength</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/de6/include_2types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> SMBIOS::CheckSMBIOS </td>
+          <td class="memname"><a class="el" href="../../d9/d5e/stdbool_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> SMBIOS::CheckSMBIOS </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>

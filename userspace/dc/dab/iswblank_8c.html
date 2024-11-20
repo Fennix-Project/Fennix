@@ -100,7 +100,7 @@ $(document).ready(function(){initNavTree('dc/dab/iswblank_8c.html','../../'); in
 Functions</h2></td></tr>
 <tr class="memitem:a934cbdaad02f3df1b03e566103a5a118"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dab/iswblank_8c.html#a934cbdaad02f3df1b03e566103a5a118">iswblank</a> (wint_t wc)</td></tr>
 <tr class="separator:a934cbdaad02f3df1b03e566103a5a118"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4852d3e378fc7a9b60f1d7b8101e1adb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dab/iswblank_8c.html#a4852d3e378fc7a9b60f1d7b8101e1adb">__iswblank_l</a> (wint_t <a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>, locale_t <a class="el" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>)</td></tr>
+<tr class="memitem:a4852d3e378fc7a9b60f1d7b8101e1adb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dab/iswblank_8c.html#a4852d3e378fc7a9b60f1d7b8101e1adb">__iswblank_l</a> (wint_t c, locale_t l)</td></tr>
 <tr class="separator:a4852d3e378fc7a9b60f1d7b8101e1adb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a369e98261376c29a53fd552e931846d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dab/iswblank_8c.html#a369e98261376c29a53fd552e931846d9">weak_alias</a> (<a class="el" href="../../dc/dab/iswblank_8c.html#a4852d3e378fc7a9b60f1d7b8101e1adb">__iswblank_l</a>, iswblank_l)</td></tr>
 <tr class="separator:a369e98261376c29a53fd552e931846d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,12 +134,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/dab/iswblank_8c_source.html#l00009">9</a> of file <a class="el" href="../../dc/dab/iswblank_8c_source.html">iswblank.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/dab/iswblank_8c.html#a934cbdaad02f3df1b03e566103a5a118">iswblank</a>(<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/dab/iswblank_8c.html#a934cbdaad02f3df1b03e566103a5a118">iswblank</a>(c);</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
-<div class="ttc" id="aglob__loop_8c_html_a2019d0836036f2693a231fe5c7c65e20"><div class="ttname"><a href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a></div><div class="ttdeci">register GCHAR c</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d64/glob__loop_8c_source.html#l00028">glob_loop.c:26</a></div></div>
 <div class="ttc" id="aiswblank_8c_html_a934cbdaad02f3df1b03e566103a5a118"><div class="ttname"><a href="../../dc/dab/iswblank_8c.html#a934cbdaad02f3df1b03e566103a5a118">iswblank</a></div><div class="ttdeci">int iswblank(wint_t wc)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dab/iswblank_8c_source.html#l00004">iswblank.c:4</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>, and <a class="el" href="../../dc/dab/iswblank_8c_source.html#l00004">iswblank()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/dab/iswblank_8c_source.html#l00004">iswblank()</a>.</p>
 
 </div>
 </div>
@@ -161,11 +160,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/dab/iswblank_8c_source.html#l00004">4</a> of file <a class="el" href="../../dc/dab/iswblank_8c_source.html">iswblank.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d09/syntax_8h.html#ad9bfbdeef8c6f05cee294530b92547bf">isblank</a>(wc);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/de7/musl_2include_2ctype_8h.html#a44036fe83d96a567ad5cd8463e6c6ad0">isblank</a>(wc);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="asyntax_8h_html_ad9bfbdeef8c6f05cee294530b92547bf"><div class="ttname"><a href="../../dd/d09/syntax_8h.html#ad9bfbdeef8c6f05cee294530b92547bf">isblank</a></div><div class="ttdeci">#define isblank(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d09/syntax_8h_source.html#l00103">syntax.h:103</a></div></div>
+<div class="ttc" id="amusl_2include_2ctype_8h_html_a44036fe83d96a567ad5cd8463e6c6ad0"><div class="ttname"><a href="../../d3/de7/musl_2include_2ctype_8h.html#a44036fe83d96a567ad5cd8463e6c6ad0">isblank</a></div><div class="ttdeci">int isblank(int)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d33/isblank_8c_source.html#l00003">isblank.c:3</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d09/syntax_8h_source.html#l00103">isblank</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d33/isblank_8c_source.html#l00003">isblank()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/dab/iswblank_8c_source.html#l00009">__iswblank_l()</a>, and <a class="el" href="../../d0/d6a/iswctype_8c_source.html#l00017">iswctype()</a>.</p>
 

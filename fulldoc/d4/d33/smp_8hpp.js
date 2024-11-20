@@ -6,8 +6,8 @@ var smp_8hpp =
       [ "CurrentProcess", "d4/d33/smp_8hpp.html#a7547d13469e8937a8cd717de0f68b0fa", null ],
       [ "CurrentThread", "d4/d33/smp_8hpp.html#a491373d6c819684bf4b29bbae4422703", null ],
       [ "Data", "d4/d33/smp_8hpp.html#a360788ff4980657cd680fe797fc39977", null ],
-      [ "EHGlobals", "d4/d33/smp_8hpp.html#ae8a224d969d59fd7fcfc16ba1bfba539", null ],
       [ "ErrorCode", "d4/d33/smp_8hpp.html#a590e51ea5f73b23f0a436857588c2e96", null ],
+      [ "Exception", "d4/d33/smp_8hpp.html#a87fe6abe538d9a64bbe0d9cf668833ad", null ],
       [ "ID", "d4/d33/smp_8hpp.html#a90edc97d396a595dd1d29a76744ac738", null ],
       [ "IsActive", "d4/d33/smp_8hpp.html#a76db22a0f9d9bce50f8b711eaaf5cc41", null ],
       [ "Stack", "d4/d33/smp_8hpp.html#a2244356397cf80cd78c046a2016e6847", null ]
@@ -22,8 +22,8 @@ var smp_8hpp =
     [ "CurrentProcess", "d4/d33/smp_8hpp.html#a704fc6d2a5375248579ffb8fc6735fea", null ],
     [ "CurrentThread", "d4/d33/smp_8hpp.html#a4fcbc98bdc4609add35b123d0be391de", null ],
     [ "Data", "d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a", null ],
-    [ "EHGlobals", "d4/d33/smp_8hpp.html#acc2363439c4ff84e2faa9589c3ba70c7", null ],
     [ "ErrorCode", "d4/d33/smp_8hpp.html#a8ec11ac6067b0e4293052a4a39e925f7", null ],
+    [ "Exception", "d4/d33/smp_8hpp.html#a0f66a76399ac5291c5c21da3d3b42a9c", null ],
     [ "ID", "d4/d33/smp_8hpp.html#af180e926633cde08a05ccbc3af397ee4", null ],
     [ "IsActive", "d4/d33/smp_8hpp.html#a92c6b1cf703f9e064f5efc0907f80379", null ],
     [ "Stack", "d4/d33/smp_8hpp.html#a98988c09e59995d8f6a571039d35e3c8", null ]

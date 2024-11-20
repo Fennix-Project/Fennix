@@ -91,17 +91,17 @@ $(document).ready(function(){initNavTree('dd/d5f/signal_8hpp.html','../../'); in
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">signal.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="../../d0/d35/syscalls_8hpp_source.html">syscalls.hpp</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;unordered_map&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d0/d35/syscalls_8hpp_source.html">syscalls.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d0/d44/lock_8hpp_source.html">lock.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d7/d2f/signals_8hpp_source.html">syscall/linux/signals.hpp</a>&gt;</code><br />
+<code>#include &lt;bitset&gt;</code><br />
+<code>#include &lt;list&gt;</code><br />
 </div>
 <p><a href="../../dd/d5f/signal_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -117,14 +117,18 @@ Data Structures</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:dc/dbc/structsiginfo__t"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5f/signal_8hpp.html#dc/dbc/structsiginfo__t">siginfo_t</a></td></tr>
 <tr class="separator:dc/dbc/structsiginfo__t"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/def/structsigaction.html">sigaction</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2c/structSignalAction.html">SignalAction</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d8b/classTasking_1_1Signal.html">Tasking::Signal</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:da/df1/structTasking_1_1Signal_1_1SignalInfo"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d8b/classTasking_1_1Signal.html#da/df1/structTasking_1_1Signal_1_1SignalInfo">Tasking::Signal::SignalInfo</a></td></tr>
 <tr class="separator:da/df1/structTasking_1_1Signal_1_1SignalInfo"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d0/d18/unionTasking_1_1Signal_1_1SignalInfo_1_1val"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d8b/classTasking_1_1Signal.html#d0/d18/unionTasking_1_1Signal_1_1SignalInfo_1_1val">Tasking::Signal::SignalInfo::val</a></td></tr>
+<tr class="separator:d0/d18/unionTasking_1_1Signal_1_1SignalInfo_1_1val"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d1/dc4/structTasking_1_1Signal_1_1StackInfo"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d8b/classTasking_1_1Signal.html#d1/dc4/structTasking_1_1Signal_1_1StackInfo">Tasking::Signal::StackInfo</a></td></tr>
 <tr class="separator:d1/dc4/structTasking_1_1Signal_1_1StackInfo"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d32/classTasking_1_1ThreadSignal.html">Tasking::ThreadSignal</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d9/d0b/unionsiginfo__t_8____si__fields"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5f/signal_8hpp.html#d9/d0b/unionsiginfo__t_8____si__fields">siginfo_t.__si_fields</a></td></tr>
 <tr class="separator:d9/d0b/unionsiginfo__t_8____si__fields"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d5/d49/structsiginfo__t_8____si__fields_8____si__common"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5f/signal_8hpp.html#d5/d49/structsiginfo__t_8____si__fields_8____si__common">siginfo_t.__si_fields.__si_common</a></td></tr>
@@ -149,7 +153,7 @@ Data Structures</h2></td></tr>
 <tr class="separator:d5/dd6/structsiginfo__t_8____si__fields_8____sigpoll"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d9/dbf/structsiginfo__t_8____si__fields_8____sigsys"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5f/signal_8hpp.html#d9/dbf/structsiginfo__t_8____si__fields_8____sigsys">siginfo_t.__si_fields.__sigsys</a></td></tr>
 <tr class="separator:d9/dbf/structsiginfo__t_8____si__fields_8____sigsys"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d03/unionsigaction_8____sa__handler.html">sigaction.__sa_handler</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d74/unionSignalAction_8sa__handler.html">SignalAction.sa_handler</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -165,6 +169,8 @@ Macros</h2></td></tr>
 <tr class="separator:ae4c1aad864ef72e4a2cce74b1b8a5a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59b4c0774aace526b10b6d737075a790"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5f/signal_8hpp.html#a59b4c0774aace526b10b6d737075a790">SA_SIGINFO</a>&#160;&#160;&#160;4</td></tr>
 <tr class="separator:a59b4c0774aace526b10b6d737075a790"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4af58063b5774f0422ddf346ff64846e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5f/signal_8hpp.html#a4af58063b5774f0422ddf346ff64846e">SA_RESTORER</a>&#160;&#160;&#160;0x04000000</td></tr>
+<tr class="separator:a4af58063b5774f0422ddf346ff64846e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a322c220e296393958ab4238145a0d273"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5f/signal_8hpp.html#a322c220e296393958ab4238145a0d273">SA_ONSTACK</a>&#160;&#160;&#160;0x08000000</td></tr>
 <tr class="separator:a322c220e296393958ab4238145a0d273"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74ef0a27afcf55b6cd6d35cf0fa5d427"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5f/signal_8hpp.html#a74ef0a27afcf55b6cd6d35cf0fa5d427">SA_RESTART</a>&#160;&#160;&#160;0x10000000</td></tr>
@@ -173,8 +179,6 @@ Macros</h2></td></tr>
 <tr class="separator:abec4abd80d73397fc2f78f57f178565f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d5fb4f35858d31035e7354c1d4048ea"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5f/signal_8hpp.html#a8d5fb4f35858d31035e7354c1d4048ea">SA_RESETHAND</a>&#160;&#160;&#160;0x80000000</td></tr>
 <tr class="separator:a8d5fb4f35858d31035e7354c1d4048ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4af58063b5774f0422ddf346ff64846e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5f/signal_8hpp.html#a4af58063b5774f0422ddf346ff64846e">SA_RESTORER</a>&#160;&#160;&#160;0x04000000</td></tr>
-<tr class="separator:a4af58063b5774f0422ddf346ff64846e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e543ffa1809199f1a9b4b36abb48c4d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5f/signal_8hpp.html#a4e543ffa1809199f1a9b4b36abb48c4d">__SI_PAD_SIZE</a>&#160;&#160;&#160;	(128 - 2 * sizeof(int) - sizeof(long))</td></tr>
 <tr class="separator:a4e543ffa1809199f1a9b4b36abb48c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -187,76 +191,117 @@ Typedefs</h2></td></tr>
 Enumerations</h2></td></tr>
 <tr class="memitem:a6beea7bb6ff8fe926a3ae6092c735a91"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91">Signals</a> : int { <br />
 &#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a29003564fcf95d9fadd169a6c95c0760">SIG_NULL</a> = 0
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a482a7216ea9a36de82e722b950b99e15">SIGABRT</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ad4bf69fe6651b715da5df3785bc640a3">SIGALRM</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ae99160550367fff9b33ea57429f7bd8b">SIGBUS</a>
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a482a7216ea9a36de82e722b950b99e15">SIGABRT</a> = 1
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ad4bf69fe6651b715da5df3785bc640a3">SIGALRM</a> = 2
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ae99160550367fff9b33ea57429f7bd8b">SIGBUS</a> = 3
 , <br />
-&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6dfd856a32bc2d1933164dc9baf28354">SIGCHLD</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a4188061c4a768e515ae097117894c2b6">SIGCONT</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91abc83d0fe3282a1c90f23908ba74cd01d">SIGFPE</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a907bcb512cd9f9dd5251127c235c7a9f">SIGHUP</a>
+&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6dfd856a32bc2d1933164dc9baf28354">SIGCHLD</a> = 4
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a4188061c4a768e515ae097117894c2b6">SIGCONT</a> = 5
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91abc83d0fe3282a1c90f23908ba74cd01d">SIGFPE</a> = 6
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a907bcb512cd9f9dd5251127c235c7a9f">SIGHUP</a> = 7
 , <br />
-&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a3bb74c059f9acc927338d0a45c0380df">SIGILL</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aa6d8f010823acc51e2d4f38da46d9cdf">SIGINT</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ab5c13b2589560e68dc7833087904024b">SIGKILL</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ac4f63df4d418758636e3cbe29949f8a8">SIGPIPE</a>
+&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a3bb74c059f9acc927338d0a45c0380df">SIGILL</a> = 8
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aa6d8f010823acc51e2d4f38da46d9cdf">SIGINT</a> = 9
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ab5c13b2589560e68dc7833087904024b">SIGKILL</a> = 10
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ac4f63df4d418758636e3cbe29949f8a8">SIGPIPE</a> = 11
 , <br />
-&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a13403cdea329ff2b8fb2fb3fd6c6d1e1">SIGQUIT</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a618f9407d6d9fc937fcf86504befea49">SIGSEGV</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91add653b4cebcecdedf95d22c933f04d51">SIGSTOP</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a5b3099cb7e4f2821cf474c88ebb281f6">SIGTERM</a>
+&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a13403cdea329ff2b8fb2fb3fd6c6d1e1">SIGQUIT</a> = 12
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a618f9407d6d9fc937fcf86504befea49">SIGSEGV</a> = 13
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91add653b4cebcecdedf95d22c933f04d51">SIGSTOP</a> = 14
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a5b3099cb7e4f2821cf474c88ebb281f6">SIGTERM</a> = 15
 , <br />
-&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ab1b634097a7e8b4dcd23c7742893b2b0">SIGTSTP</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aa11505f2d0871e25ef841cb5bf11ae75">SIGTTIN</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a01861162fed67e3e8a3937a1341b3863">SIGTTOU</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6b37f09b50c45d32d97e9769e46137a5">SIGUSR1</a>
+&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ab1b634097a7e8b4dcd23c7742893b2b0">SIGTSTP</a> = 16
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aa11505f2d0871e25ef841cb5bf11ae75">SIGTTIN</a> = 17
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a01861162fed67e3e8a3937a1341b3863">SIGTTOU</a> = 18
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6b37f09b50c45d32d97e9769e46137a5">SIGUSR1</a> = 19
 , <br />
-&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ac4b7b44951321d676e5f355358c0a545">SIGUSR2</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ac004304ab9148a9899646315db2676b4">SIGPOLL</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a2526e6aaf38379609414d5e73252045e">SIGPROF</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a4b60438cc778350750036773c9c6b5c0">SIGSYS</a>
+&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ac4b7b44951321d676e5f355358c0a545">SIGUSR2</a> = 20
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ac004304ab9148a9899646315db2676b4">SIGPOLL</a> = 21
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a2526e6aaf38379609414d5e73252045e">SIGPROF</a> = 22
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a4b60438cc778350750036773c9c6b5c0">SIGSYS</a> = 23
 , <br />
-&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91acb55df7174be2495da9322d21d1cbd27">SIGTRAP</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a0614c195297da3ea3014073f7eb195a0">SIGURG</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af63dab0f12670d7130eb94f24dce4cad">SIGVTALRM</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a1a1f6960bc0f51eb122edbed8760c533">SIGXCPU</a>
+&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91acb55df7174be2495da9322d21d1cbd27">SIGTRAP</a> = 24
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a0614c195297da3ea3014073f7eb195a0">SIGURG</a> = 25
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af63dab0f12670d7130eb94f24dce4cad">SIGVTALRM</a> = 26
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a1a1f6960bc0f51eb122edbed8760c533">SIGXCPU</a> = 27
 , <br />
-&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a3c535db8699cbcd82bc668dfc2a89c3c">SIGXFSZ</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91adf6420e7153f108f88fafbd2d0899b36">SIGRSV1</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a0eecb5f42c534b6fa46e0cafcf106f81">SIGRSV2</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6ea5ddfaff74e92d291445c1ec58f1e0">SIGNAL_MAX</a>
+&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a3c535db8699cbcd82bc668dfc2a89c3c">SIGXFSZ</a> = 28
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6a5cd48f9e87f08c1d0d5635db21e03e">SIGCOMP1</a> = 29
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a985e6b2562816e34883174e7352639c5">SIGCOMP2</a> = 30
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a01d0a129aa039c647bc4a885fc19f815">SIGCOMP3</a> = 31
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a94182efebd7123e80d632cda2e02d80d">SIGRTMIN</a> = 32
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aa3879c69f3ede3d463a20f6838da2fd6">SIGRT_1</a> = 33
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a2d554cea104e2801c328da80231d1af1">SIGRT_2</a> = 34
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91addb465164f470dba8fe063e583f9384b">SIGRT_3</a> = 35
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aaf8591b9b76579875332e86957082238">SIGRT_4</a> = 36
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a22834cfb9e685b3b1f173dabf5c39bcb">SIGRT_5</a> = 37
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a67faf3857681f7999c4b5465133c5c7d">SIGRT_6</a> = 38
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a8dad0bae7abf1a88ac85dea40387399f">SIGRT_7</a> = 39
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af5b9a394592ed679c014700e5044e665">SIGRT_8</a> = 40
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af2e2998f5f62f4acf609cd894500f458">SIGRT_9</a> = 41
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a2d127d2d23652652aff9ed5d238433b2">SIGRT_10</a> = 42
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a1d936976109f2b7f22ff02aa26680136">SIGRT_11</a> = 43
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aa56e80677cb44c510d25755b8ff69c44">SIGRT_12</a> = 44
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af5a987f8f746d96352d2ca8d855ccfda">SIGRT_13</a> = 45
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a66253c41848315523e6c4dd0c78b17e3">SIGRT_14</a> = 46
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ac7abe2ac39f82584965b5a5335989493">SIGRT_15</a> = 47
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a484992323c3cba902707f4a033305544">SIGRT_16</a> = 48
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6375d53908eb84ee816f1c7b2e78069a">SIGRT_17</a> = 49
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af95fab67fa86ac3daffde1a6988eaa01">SIGRT_18</a> = 50
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a46d55a21547c9e1d247f27306fe3d054">SIGRT_19</a> = 51
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ad010e9a21ef77fdabf79aadfc36fee6e">SIGRT_20</a> = 52
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a64a42f7889ec460e2b79e2feee4ea8fd">SIGRT_21</a> = 53
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a3c3765541df9bda24453c2b19e1b5058">SIGRT_22</a> = 54
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af64a196e63e5373e64ca0332e9a82485">SIGRT_23</a> = 55
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91acf437daee2029eed9b8c52f2a254444f">SIGRT_24</a> = 56
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a10a56d322c9ce00570520dcf6034412e">SIGRT_25</a> = 57
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a000f6474325ed7dec6817a2047f3dbeb">SIGRT_26</a> = 58
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a7d83484c52b984a56135eea6f5e9db74">SIGRT_27</a> = 59
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aa261092071f20720d6a65b86531c216a">SIGRT_28</a> = 60
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a822072887d756774b7f1b9c18c402830">SIGRT_29</a> = 61
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aeea20148591b072498e143748bd5b03c">SIGRT_30</a> = 62
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a553396ae817ce17c32cfdc1416d207f0">SIGRT_31</a> = 63
+, <br />
+&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a3b955d179fd8c37b59f3b1ec83bb8514">SIGRTMAX</a> = 64
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6ea5ddfaff74e92d291445c1ec58f1e0">SIGNAL_MAX</a> = SIGRTMAX
 <br />
  }</td></tr>
 <tr class="separator:a6beea7bb6ff8fe926a3ae6092c735a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf6ec9e3c962d56980e65fb4aaa316ae"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316ae">SignalDisposition</a> { <br />
-&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316aea3217eded8e90d7fa8e7cb4ae1ff7e1e0">SIG_TERM</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316aeab7cc041202b29ce800a4015f8fd8b189">SIG_IGN</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316aea59277c77fc14cae2538bed4d2ce386ec">SIG_CORE</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316aea5fb8c6a63805565f9e699c631ac15dfe">SIG_STOP</a>
+<tr class="memitem:ae80bd5fd364a6b8c9c03987861d48190"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190">SignalDispositions</a> { <br />
+&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190a3217eded8e90d7fa8e7cb4ae1ff7e1e0">SIG_TERM</a>
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190ab7cc041202b29ce800a4015f8fd8b189">SIG_IGN</a>
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190a59277c77fc14cae2538bed4d2ce386ec">SIG_CORE</a>
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190a5fb8c6a63805565f9e699c631ac15dfe">SIG_STOP</a>
 , <br />
-&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316aea29026413e1d3f85a38f640074e5a0db7">SIG_CONT</a>
+&#160;&#160;<a class="el" href="../../dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190a29026413e1d3f85a38f640074e5a0db7">SIG_CONT</a>
 <br />
  }</td></tr>
-<tr class="separator:aaf6ec9e3c962d56980e65fb4aaa316ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fddd097628384547b7ab38f6b8e2c7f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5f/signal_8hpp.html#a6fddd097628384547b7ab38f6b8e2c7f">SignalAction</a> { <a class="el" href="../../dd/d5f/signal_8hpp.html#a6fddd097628384547b7ab38f6b8e2c7fac26795cb0a462d371f9ff27304076051">SIG_BLOCK</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6fddd097628384547b7ab38f6b8e2c7fac521740ff2201d6f606caaedd9bd1380">SIG_UNBLOCK</a>
-, <a class="el" href="../../dd/d5f/signal_8hpp.html#a6fddd097628384547b7ab38f6b8e2c7faf356455c670da44c4f6f61d63aac9f88">SIG_SETMASK</a>
+<tr class="separator:ae80bd5fd364a6b8c9c03987861d48190"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a192cf28ccaceebb5b52f8862bd7edf58"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5f/signal_8hpp.html#a192cf28ccaceebb5b52f8862bd7edf58">SignalActions</a> { <a class="el" href="../../dd/d5f/signal_8hpp.html#a192cf28ccaceebb5b52f8862bd7edf58ac26795cb0a462d371f9ff27304076051">SIG_BLOCK</a>
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a192cf28ccaceebb5b52f8862bd7edf58ac521740ff2201d6f606caaedd9bd1380">SIG_UNBLOCK</a>
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a192cf28ccaceebb5b52f8862bd7edf58af356455c670da44c4f6f61d63aac9f88">SIG_SETMASK</a>
  }</td></tr>
-<tr class="separator:a6fddd097628384547b7ab38f6b8e2c7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a7898c54ea6f6c6d64e70d3bfebdf2956"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#a7898c54ea6f6c6d64e70d3bfebdf2956">Tasking::__no_sanitize</a> (&quot;shift&quot;) inline <a class="el" href="../../d6/de6/include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> <a class="el" href="../../dd/d5f/signal_8hpp.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> ToFlag(<a class="el" href="../../dd/d5f/signal_8hpp.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> sig)</td></tr>
-<tr class="separator:a7898c54ea6f6c6d64e70d3bfebdf2956"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dec4f08a178657040f9137298afbaaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> <a class="el" href="../../dd/d5f/signal_8hpp.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#a7dec4f08a178657040f9137298afbaaa">Tasking::ToSig</a> (<a class="el" href="../../dd/d5f/signal_8hpp.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> flag)</td></tr>
-<tr class="separator:a7dec4f08a178657040f9137298afbaaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a192cf28ccaceebb5b52f8862bd7edf58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a937016fc9749abf7af357883ed4fcd58"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5f/signal_8hpp.html#a937016fc9749abf7af357883ed4fcd58">SignalActionDisposition</a> : long { <a class="el" href="../../dd/d5f/signal_8hpp.html#a937016fc9749abf7af357883ed4fcd58aad53000bbbc8bbc0ed1873992ba11b05">SAD_ERR</a> = -1
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a937016fc9749abf7af357883ed4fcd58a39775e3c54e1742530ed0ecfd346d6e4">SAD_DFL</a> = 0
+, <a class="el" href="../../dd/d5f/signal_8hpp.html#a937016fc9749abf7af357883ed4fcd58ae8ccc849ea9a95ee9f8d5251f2f9ddda">SAD_IGN</a> = 1
+ }</td></tr>
+<tr class="separator:a937016fc9749abf7af357883ed4fcd58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:abcc7629d73dc53b40a5e97ad8a80049d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d78/namespaceCPU_1_1x32.html#d4/d34/structCPU_1_1x32_1_1FXState">CPU::x32::FXState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5f/signal_8hpp.html#abcc7629d73dc53b40a5e97ad8a80049d">fx</a></td></tr>
 <tr class="separator:abcc7629d73dc53b40a5e97ad8a80049d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c6fd4cc16395d4f1f8cbcb870996bd5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d78/namespaceCPU_1_1x32.html#d3/d23/structCPU_1_1x32_1_1TrapFrame">CPU::x32::TrapFrame</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5f/signal_8hpp.html#a0c6fd4cc16395d4f1f8cbcb870996bd5">tf</a></td></tr>
-<tr class="separator:a0c6fd4cc16395d4f1f8cbcb870996bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf620e7cf31a966c5c7a3d5877a14f96"><td class="memItemLeft" align="right" valign="top">CPU::x32::SchedulerFrame&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5f/signal_8hpp.html#acf620e7cf31a966c5c7a3d5877a14f96">tf</a></td></tr>
+<tr class="separator:acf620e7cf31a966c5c7a3d5877a14f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee0e59868f47305ca2b38acfdcdb4b0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5f/signal_8hpp.html#aee0e59868f47305ca2b38acfdcdb4b0c">GSBase</a></td></tr>
 <tr class="separator:aee0e59868f47305ca2b38acfdcdb4b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0ec17379b0d731c2e0d01f951e95204"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d5f/signal_8hpp.html#af0ec17379b0d731c2e0d01f951e95204">FSBase</a></td></tr>
@@ -279,7 +324,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00234">234</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00191">191</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -310,7 +355,7 @@ sival_ptr</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00240">240</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00197">197</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -335,11 +380,11 @@ sched_priority</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00245">245</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00202">202</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a2b41a6aa60bb8829c53ab724bcc64a29"></a><a class="el" href="../../d6/de6/include_2types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a></td>
+<a id="a2b41a6aa60bb8829c53ab724bcc64a29"></a><a class="el" href="../../d9/d5e/stdbool_8h.html#abb452686968e48b67397da5f97445f5b">bool</a></td>
 <td class="fieldname">
 detach</td>
 <td class="fielddoc">
@@ -378,11 +423,11 @@ sig</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00262">262</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00219">219</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a668b294db726df3c795041314c8a1a26"></a>union <a class="el" href="../../dd/d5f/signal_8hpp.html#d9/d0b/unionsiginfo__t_8____si__fields">siginfo_t</a></td>
+<a id="a58295e2992e7c2c58c16f7e6f9a4e1f0"></a>union <a class="el" href="../../dd/d5f/signal_8hpp.html#d9/d0b/unionsiginfo__t_8____si__fields">siginfo_t</a></td>
 <td class="fieldname">
 __si_fields</td>
 <td class="fielddoc">
@@ -421,9 +466,15 @@ si_signo</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00357">357</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00301">301</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a31e0ee9634fcd5e31e71359a45fe52d6"></a>union <a class="el" href="../../dd/d5f/signal_8hpp.html#d5/d3e/unionsigval">sigval</a> <a class="el" href="../../d2/d8b/classTasking_1_1Signal.html#d0/d18/unionTasking_1_1Signal_1_1SignalInfo_1_1val">val</a></td>
+<td class="fieldname">
+__aligned</td>
+<td class="fielddoc">
+</td></tr>
 <tr><td class="fieldtype">
 <a id="a10894e6723639e9f5c80c8444c4046d4"></a>int</td>
 <td class="fieldname">
@@ -431,13 +482,29 @@ sig</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="afef298039ac13709e65b5154180f7908"></a>union <a class="el" href="../../dd/d5f/signal_8hpp.html#d5/d3e/unionsigval">sigval</a></td>
+<a id="afcf47ea3417e29aed16514f284f67300"></a>pid_t</td>
 <td class="fieldname">
-val</td>
+tid</td>
 <td class="fielddoc">
 </td></tr>
 </table>
 
+</div>
+</div>
+<a name="d0/d18/unionTasking_1_1Signal_1_1SignalInfo_1_1val" id="d0/d18/unionTasking_1_1Signal_1_1SignalInfo_1_1val"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d0/d18/unionTasking_1_1Signal_1_1SignalInfo_1_1val">&#9670;&nbsp;</a></span>Tasking::Signal::SignalInfo::val</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">union Tasking::Signal::SignalInfo::val</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00304">304</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+</div>
 </div>
 </div>
 <a name="d1/dc4/structTasking_1_1Signal_1_1StackInfo" id="d1/dc4/structTasking_1_1Signal_1_1StackInfo"></a>
@@ -452,7 +519,7 @@ val</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00363">363</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00311">311</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -486,7 +553,7 @@ SignalMask</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ac75c84697e75c39ca61b47850878964d"></a>TrapFrame</td>
+<a id="a1582a118859cac8e7f6877e63469b522"></a>SchedulerFrame</td>
 <td class="fieldname">
 tf</td>
 <td class="fielddoc">
@@ -507,7 +574,7 @@ tf</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00267">267</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00224">224</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -556,7 +623,7 @@ __sigsys</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00270">270</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00227">227</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -587,7 +654,7 @@ __second</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00272">272</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00229">229</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -618,7 +685,7 @@ __timer</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00274">274</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00231">231</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -649,7 +716,7 @@ si_uid</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00279">279</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00236">236</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -680,7 +747,7 @@ si_timerid</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00285">285</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00242">242</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -711,7 +778,7 @@ si_value</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00288">288</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00245">245</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -748,7 +815,7 @@ si_utime</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00296">296</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00253">253</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -785,7 +852,7 @@ si_addr_lsb</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00300">300</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00257">257</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -816,7 +883,7 @@ si_pkey</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00302">302</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00259">259</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -847,7 +914,7 @@ si_upper</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00311">311</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00268">268</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -878,7 +945,7 @@ si_fd</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00317">317</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00274">274</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -916,7 +983,7 @@ si_syscall</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00229">229</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00186">186</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 
 </div>
 </div>
@@ -932,7 +999,7 @@ si_syscall</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00220">220</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00177">177</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 
 </div>
 </div>
@@ -948,7 +1015,7 @@ si_syscall</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00221">221</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00178">178</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 
 </div>
 </div>
@@ -964,7 +1031,7 @@ si_syscall</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00225">225</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00183">183</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 
 </div>
 </div>
@@ -980,7 +1047,7 @@ si_syscall</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00223">223</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00181">181</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 
 </div>
 </div>
@@ -996,7 +1063,7 @@ si_syscall</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00226">226</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00184">184</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 
 </div>
 </div>
@@ -1012,7 +1079,7 @@ si_syscall</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00224">224</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00182">182</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 
 </div>
 </div>
@@ -1028,7 +1095,7 @@ si_syscall</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00227">227</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00180">180</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 
 </div>
 </div>
@@ -1044,7 +1111,7 @@ si_syscall</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00222">222</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00179">179</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 
 </div>
 </div>
@@ -1061,81 +1128,110 @@ si_syscall</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00232">232</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00189">189</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a6fddd097628384547b7ab38f6b8e2c7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6fddd097628384547b7ab38f6b8e2c7f">&#9670;&nbsp;</a></span>SignalAction</h2>
+<a id="a937016fc9749abf7af357883ed4fcd58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a937016fc9749abf7af357883ed4fcd58">&#9670;&nbsp;</a></span>SignalActionDisposition</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../dd/d5f/signal_8hpp.html#a6fddd097628384547b7ab38f6b8e2c7f">SignalAction</a></td>
+          <td class="memname">enum <a class="el" href="../../dd/d5f/signal_8hpp.html#a937016fc9749abf7af357883ed4fcd58">SignalActionDisposition</a> : long</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6fddd097628384547b7ab38f6b8e2c7fac26795cb0a462d371f9ff27304076051"></a>SIG_BLOCK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6fddd097628384547b7ab38f6b8e2c7fac521740ff2201d6f606caaedd9bd1380"></a>SIG_UNBLOCK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6fddd097628384547b7ab38f6b8e2c7faf356455c670da44c4f6f61d63aac9f88"></a>SIG_SETMASK&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a937016fc9749abf7af357883ed4fcd58aad53000bbbc8bbc0ed1873992ba11b05"></a>SAD_ERR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a937016fc9749abf7af357883ed4fcd58a39775e3c54e1742530ed0ecfd346d6e4"></a>SAD_DFL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a937016fc9749abf7af357883ed4fcd58ae8ccc849ea9a95ee9f8d5251f2f9ddda"></a>SAD_IGN&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00213">213</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;{</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6fddd097628384547b7ab38f6b8e2c7fac26795cb0a462d371f9ff27304076051">SIG_BLOCK</a>,</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6fddd097628384547b7ab38f6b8e2c7fac521740ff2201d6f606caaedd9bd1380">SIG_UNBLOCK</a>,</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6fddd097628384547b7ab38f6b8e2c7faf356455c670da44c4f6f61d63aac9f88">SIG_SETMASK</a></div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;};</div>
-<div class="ttc" id="asignal_8hpp_html_a6fddd097628384547b7ab38f6b8e2c7fac26795cb0a462d371f9ff27304076051"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6fddd097628384547b7ab38f6b8e2c7fac26795cb0a462d371f9ff27304076051">SIG_BLOCK</a></div><div class="ttdeci">@ SIG_BLOCK</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00215">signal.hpp:215</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6fddd097628384547b7ab38f6b8e2c7fac521740ff2201d6f606caaedd9bd1380"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6fddd097628384547b7ab38f6b8e2c7fac521740ff2201d6f606caaedd9bd1380">SIG_UNBLOCK</a></div><div class="ttdeci">@ SIG_UNBLOCK</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00216">signal.hpp:216</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6fddd097628384547b7ab38f6b8e2c7faf356455c670da44c4f6f61d63aac9f88"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6fddd097628384547b7ab38f6b8e2c7faf356455c670da44c4f6f61d63aac9f88">SIG_SETMASK</a></div><div class="ttdeci">@ SIG_SETMASK</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00218">signal.hpp:217</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00170">170</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;{</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a937016fc9749abf7af357883ed4fcd58aad53000bbbc8bbc0ed1873992ba11b05">SAD_ERR</a> = -1,</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a937016fc9749abf7af357883ed4fcd58a39775e3c54e1742530ed0ecfd346d6e4">SAD_DFL</a> = 0,</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a937016fc9749abf7af357883ed4fcd58ae8ccc849ea9a95ee9f8d5251f2f9ddda">SAD_IGN</a> = 1,</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;};</div>
+<div class="ttc" id="asignal_8hpp_html_a937016fc9749abf7af357883ed4fcd58a39775e3c54e1742530ed0ecfd346d6e4"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a937016fc9749abf7af357883ed4fcd58a39775e3c54e1742530ed0ecfd346d6e4">SAD_DFL</a></div><div class="ttdeci">@ SAD_DFL</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00173">signal.hpp:173</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a937016fc9749abf7af357883ed4fcd58aad53000bbbc8bbc0ed1873992ba11b05"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a937016fc9749abf7af357883ed4fcd58aad53000bbbc8bbc0ed1873992ba11b05">SAD_ERR</a></div><div class="ttdeci">@ SAD_ERR</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00172">signal.hpp:172</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a937016fc9749abf7af357883ed4fcd58ae8ccc849ea9a95ee9f8d5251f2f9ddda"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a937016fc9749abf7af357883ed4fcd58ae8ccc849ea9a95ee9f8d5251f2f9ddda">SAD_IGN</a></div><div class="ttdeci">@ SAD_IGN</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00174">signal.hpp:174</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="aaf6ec9e3c962d56980e65fb4aaa316ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf6ec9e3c962d56980e65fb4aaa316ae">&#9670;&nbsp;</a></span>SignalDisposition</h2>
+<a id="a192cf28ccaceebb5b52f8862bd7edf58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a192cf28ccaceebb5b52f8862bd7edf58">&#9670;&nbsp;</a></span>SignalActions</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316ae">SignalDisposition</a></td>
+          <td class="memname">enum <a class="el" href="../../dd/d5f/signal_8hpp.html#a192cf28ccaceebb5b52f8862bd7edf58">SignalActions</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aaf6ec9e3c962d56980e65fb4aaa316aea3217eded8e90d7fa8e7cb4ae1ff7e1e0"></a>SIG_TERM&#160;</td><td class="fielddoc"><p>Terminate the process. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a192cf28ccaceebb5b52f8862bd7edf58ac26795cb0a462d371f9ff27304076051"></a>SIG_BLOCK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a192cf28ccaceebb5b52f8862bd7edf58ac521740ff2201d6f606caaedd9bd1380"></a>SIG_UNBLOCK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a192cf28ccaceebb5b52f8862bd7edf58af356455c670da44c4f6f61d63aac9f88"></a>SIG_SETMASK&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00163">163</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;{</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a192cf28ccaceebb5b52f8862bd7edf58ac26795cb0a462d371f9ff27304076051">SIG_BLOCK</a>,</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a192cf28ccaceebb5b52f8862bd7edf58ac521740ff2201d6f606caaedd9bd1380">SIG_UNBLOCK</a>,</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a192cf28ccaceebb5b52f8862bd7edf58af356455c670da44c4f6f61d63aac9f88">SIG_SETMASK</a></div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;};</div>
+<div class="ttc" id="asignal_8hpp_html_a192cf28ccaceebb5b52f8862bd7edf58ac26795cb0a462d371f9ff27304076051"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a192cf28ccaceebb5b52f8862bd7edf58ac26795cb0a462d371f9ff27304076051">SIG_BLOCK</a></div><div class="ttdeci">@ SIG_BLOCK</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00165">signal.hpp:165</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a192cf28ccaceebb5b52f8862bd7edf58ac521740ff2201d6f606caaedd9bd1380"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a192cf28ccaceebb5b52f8862bd7edf58ac521740ff2201d6f606caaedd9bd1380">SIG_UNBLOCK</a></div><div class="ttdeci">@ SIG_UNBLOCK</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00166">signal.hpp:166</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a192cf28ccaceebb5b52f8862bd7edf58af356455c670da44c4f6f61d63aac9f88"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a192cf28ccaceebb5b52f8862bd7edf58af356455c670da44c4f6f61d63aac9f88">SIG_SETMASK</a></div><div class="ttdeci">@ SIG_SETMASK</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00168">signal.hpp:167</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae80bd5fd364a6b8c9c03987861d48190"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae80bd5fd364a6b8c9c03987861d48190">&#9670;&nbsp;</a></span>SignalDispositions</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190">SignalDispositions</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ae80bd5fd364a6b8c9c03987861d48190a3217eded8e90d7fa8e7cb4ae1ff7e1e0"></a>SIG_TERM&#160;</td><td class="fielddoc"><p>Terminate the process. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aaf6ec9e3c962d56980e65fb4aaa316aeab7cc041202b29ce800a4015f8fd8b189"></a>SIG_IGN&#160;</td><td class="fielddoc"><p>Ignore the signal. </p>
+<tr><td class="fieldname"><a id="ae80bd5fd364a6b8c9c03987861d48190ab7cc041202b29ce800a4015f8fd8b189"></a>SIG_IGN&#160;</td><td class="fielddoc"><p>Ignore the signal. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aaf6ec9e3c962d56980e65fb4aaa316aea59277c77fc14cae2538bed4d2ce386ec"></a>SIG_CORE&#160;</td><td class="fielddoc"><p>Dump core. </p>
+<tr><td class="fieldname"><a id="ae80bd5fd364a6b8c9c03987861d48190a59277c77fc14cae2538bed4d2ce386ec"></a>SIG_CORE&#160;</td><td class="fielddoc"><p>Dump core. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aaf6ec9e3c962d56980e65fb4aaa316aea5fb8c6a63805565f9e699c631ac15dfe"></a>SIG_STOP&#160;</td><td class="fielddoc"><p>Stop the process. </p>
+<tr><td class="fieldname"><a id="ae80bd5fd364a6b8c9c03987861d48190a5fb8c6a63805565f9e699c631ac15dfe"></a>SIG_STOP&#160;</td><td class="fielddoc"><p>Stop the process. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="aaf6ec9e3c962d56980e65fb4aaa316aea29026413e1d3f85a38f640074e5a0db7"></a>SIG_CONT&#160;</td><td class="fielddoc"><p>Continue the process. </p>
+<tr><td class="fieldname"><a id="ae80bd5fd364a6b8c9c03987861d48190a29026413e1d3f85a38f640074e5a0db7"></a>SIG_CONT&#160;</td><td class="fielddoc"><p>Continue the process. </p>
 </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00185">185</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;{</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316aea3217eded8e90d7fa8e7cb4ae1ff7e1e0">SIG_TERM</a>,</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160; </div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316aeab7cc041202b29ce800a4015f8fd8b189">SIG_IGN</a>,</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160; </div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316aea59277c77fc14cae2538bed4d2ce386ec">SIG_CORE</a>,</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160; </div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316aea5fb8c6a63805565f9e699c631ac15dfe">SIG_STOP</a>,</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160; </div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316aea29026413e1d3f85a38f640074e5a0db7">SIG_CONT</a></div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;};</div>
-<div class="ttc" id="asignal_8hpp_html_aaf6ec9e3c962d56980e65fb4aaa316aea29026413e1d3f85a38f640074e5a0db7"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316aea29026413e1d3f85a38f640074e5a0db7">SIG_CONT</a></div><div class="ttdeci">@ SIG_CONT</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00211">signal.hpp:210</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_aaf6ec9e3c962d56980e65fb4aaa316aea3217eded8e90d7fa8e7cb4ae1ff7e1e0"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316aea3217eded8e90d7fa8e7cb4ae1ff7e1e0">SIG_TERM</a></div><div class="ttdeci">@ SIG_TERM</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00190">signal.hpp:190</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_aaf6ec9e3c962d56980e65fb4aaa316aea59277c77fc14cae2538bed4d2ce386ec"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316aea59277c77fc14cae2538bed4d2ce386ec">SIG_CORE</a></div><div class="ttdeci">@ SIG_CORE</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00200">signal.hpp:200</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_aaf6ec9e3c962d56980e65fb4aaa316aea5fb8c6a63805565f9e699c631ac15dfe"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316aea5fb8c6a63805565f9e699c631ac15dfe">SIG_STOP</a></div><div class="ttdeci">@ SIG_STOP</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00205">signal.hpp:205</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_aaf6ec9e3c962d56980e65fb4aaa316aeab7cc041202b29ce800a4015f8fd8b189"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316aeab7cc041202b29ce800a4015f8fd8b189">SIG_IGN</a></div><div class="ttdeci">@ SIG_IGN</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00195">signal.hpp:195</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00135">135</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;{</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190a3217eded8e90d7fa8e7cb4ae1ff7e1e0">SIG_TERM</a>,</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160; </div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190ab7cc041202b29ce800a4015f8fd8b189">SIG_IGN</a>,</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160; </div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190a59277c77fc14cae2538bed4d2ce386ec">SIG_CORE</a>,</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160; </div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190a5fb8c6a63805565f9e699c631ac15dfe">SIG_STOP</a>,</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160; </div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190a29026413e1d3f85a38f640074e5a0db7">SIG_CONT</a></div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;};</div>
+<div class="ttc" id="asignal_8hpp_html_ae80bd5fd364a6b8c9c03987861d48190a29026413e1d3f85a38f640074e5a0db7"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190a29026413e1d3f85a38f640074e5a0db7">SIG_CONT</a></div><div class="ttdeci">@ SIG_CONT</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00161">signal.hpp:160</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_ae80bd5fd364a6b8c9c03987861d48190a3217eded8e90d7fa8e7cb4ae1ff7e1e0"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190a3217eded8e90d7fa8e7cb4ae1ff7e1e0">SIG_TERM</a></div><div class="ttdeci">@ SIG_TERM</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00140">signal.hpp:140</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_ae80bd5fd364a6b8c9c03987861d48190a59277c77fc14cae2538bed4d2ce386ec"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190a59277c77fc14cae2538bed4d2ce386ec">SIG_CORE</a></div><div class="ttdeci">@ SIG_CORE</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00150">signal.hpp:150</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_ae80bd5fd364a6b8c9c03987861d48190a5fb8c6a63805565f9e699c631ac15dfe"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190a5fb8c6a63805565f9e699c631ac15dfe">SIG_STOP</a></div><div class="ttdeci">@ SIG_STOP</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00155">signal.hpp:155</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_ae80bd5fd364a6b8c9c03987861d48190ab7cc041202b29ce800a4015f8fd8b189"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190ab7cc041202b29ce800a4015f8fd8b189">SIG_IGN</a></div><div class="ttdeci">@ SIG_IGN</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00145">signal.hpp:145</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1152,167 +1248,242 @@ si_syscall</td>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a29003564fcf95d9fadd169a6c95c0760"></a>SIG_NULL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a482a7216ea9a36de82e722b950b99e15"></a>SIGABRT&#160;</td><td class="fielddoc"><p>Process abort signal. </p>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a482a7216ea9a36de82e722b950b99e15"></a>SIGABRT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91ad4bf69fe6651b715da5df3785bc640a3"></a>SIGALRM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91ae99160550367fff9b33ea57429f7bd8b"></a>SIGBUS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a6dfd856a32bc2d1933164dc9baf28354"></a>SIGCHLD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a4188061c4a768e515ae097117894c2b6"></a>SIGCONT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91abc83d0fe3282a1c90f23908ba74cd01d"></a>SIGFPE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a907bcb512cd9f9dd5251127c235c7a9f"></a>SIGHUP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a3bb74c059f9acc927338d0a45c0380df"></a>SIGILL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91aa6d8f010823acc51e2d4f38da46d9cdf"></a>SIGINT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91ab5c13b2589560e68dc7833087904024b"></a>SIGKILL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91ac4f63df4d418758636e3cbe29949f8a8"></a>SIGPIPE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a13403cdea329ff2b8fb2fb3fd6c6d1e1"></a>SIGQUIT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a618f9407d6d9fc937fcf86504befea49"></a>SIGSEGV&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91add653b4cebcecdedf95d22c933f04d51"></a>SIGSTOP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a5b3099cb7e4f2821cf474c88ebb281f6"></a>SIGTERM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91ab1b634097a7e8b4dcd23c7742893b2b0"></a>SIGTSTP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91aa11505f2d0871e25ef841cb5bf11ae75"></a>SIGTTIN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a01861162fed67e3e8a3937a1341b3863"></a>SIGTTOU&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a6b37f09b50c45d32d97e9769e46137a5"></a>SIGUSR1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91ac4b7b44951321d676e5f355358c0a545"></a>SIGUSR2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91ac004304ab9148a9899646315db2676b4"></a>SIGPOLL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a2526e6aaf38379609414d5e73252045e"></a>SIGPROF&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a4b60438cc778350750036773c9c6b5c0"></a>SIGSYS&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91acb55df7174be2495da9322d21d1cbd27"></a>SIGTRAP&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a0614c195297da3ea3014073f7eb195a0"></a>SIGURG&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91af63dab0f12670d7130eb94f24dce4cad"></a>SIGVTALRM&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a1a1f6960bc0f51eb122edbed8760c533"></a>SIGXCPU&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a3c535db8699cbcd82bc668dfc2a89c3c"></a>SIGXFSZ&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a6a5cd48f9e87f08c1d0d5635db21e03e"></a>SIGCOMP1&#160;</td><td class="fielddoc"><p>Reserved These are just to match Linux's signal numbers. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91ad4bf69fe6651b715da5df3785bc640a3"></a>SIGALRM&#160;</td><td class="fielddoc"><p>Alarm clock. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91ae99160550367fff9b33ea57429f7bd8b"></a>SIGBUS&#160;</td><td class="fielddoc"><p>Access to an undefined portion of a memory object. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a6dfd856a32bc2d1933164dc9baf28354"></a>SIGCHLD&#160;</td><td class="fielddoc"><p>Child process terminated, stopped, or continued. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a4188061c4a768e515ae097117894c2b6"></a>SIGCONT&#160;</td><td class="fielddoc"><p>Continue executing, if stopped. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91abc83d0fe3282a1c90f23908ba74cd01d"></a>SIGFPE&#160;</td><td class="fielddoc"><p>Erroneous arithmetic operation. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a907bcb512cd9f9dd5251127c235c7a9f"></a>SIGHUP&#160;</td><td class="fielddoc"><p>Hangup. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a3bb74c059f9acc927338d0a45c0380df"></a>SIGILL&#160;</td><td class="fielddoc"><p>Illegal instruction. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91aa6d8f010823acc51e2d4f38da46d9cdf"></a>SIGINT&#160;</td><td class="fielddoc"><p>Terminal interrupt signal. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91ab5c13b2589560e68dc7833087904024b"></a>SIGKILL&#160;</td><td class="fielddoc"><p>Kill (cannot be caught or ignored). </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91ac4f63df4d418758636e3cbe29949f8a8"></a>SIGPIPE&#160;</td><td class="fielddoc"><p>Write on a pipe with no one to read it. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a13403cdea329ff2b8fb2fb3fd6c6d1e1"></a>SIGQUIT&#160;</td><td class="fielddoc"><p>Terminal quit signal. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a618f9407d6d9fc937fcf86504befea49"></a>SIGSEGV&#160;</td><td class="fielddoc"><p>Invalid memory reference. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91add653b4cebcecdedf95d22c933f04d51"></a>SIGSTOP&#160;</td><td class="fielddoc"><p>Stop executing (cannot be caught or ignored). </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a5b3099cb7e4f2821cf474c88ebb281f6"></a>SIGTERM&#160;</td><td class="fielddoc"><p>Termination signal. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91ab1b634097a7e8b4dcd23c7742893b2b0"></a>SIGTSTP&#160;</td><td class="fielddoc"><p>Terminal stop signal. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91aa11505f2d0871e25ef841cb5bf11ae75"></a>SIGTTIN&#160;</td><td class="fielddoc"><p>Background process attempting read. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a01861162fed67e3e8a3937a1341b3863"></a>SIGTTOU&#160;</td><td class="fielddoc"><p>Background process attempting write. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a6b37f09b50c45d32d97e9769e46137a5"></a>SIGUSR1&#160;</td><td class="fielddoc"><p>User-defined signal 1. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91ac4b7b44951321d676e5f355358c0a545"></a>SIGUSR2&#160;</td><td class="fielddoc"><p>User-defined signal 2. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91ac004304ab9148a9899646315db2676b4"></a>SIGPOLL&#160;</td><td class="fielddoc"><p>Pollable event. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a2526e6aaf38379609414d5e73252045e"></a>SIGPROF&#160;</td><td class="fielddoc"><p>Profiling timer expired. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a4b60438cc778350750036773c9c6b5c0"></a>SIGSYS&#160;</td><td class="fielddoc"><p>Bad system call. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91acb55df7174be2495da9322d21d1cbd27"></a>SIGTRAP&#160;</td><td class="fielddoc"><p>Trace/breakpoint trap. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a0614c195297da3ea3014073f7eb195a0"></a>SIGURG&#160;</td><td class="fielddoc"><p>High bandwidth data is available at a socket. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91af63dab0f12670d7130eb94f24dce4cad"></a>SIGVTALRM&#160;</td><td class="fielddoc"><p>Virtual timer expired. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a1a1f6960bc0f51eb122edbed8760c533"></a>SIGXCPU&#160;</td><td class="fielddoc"><p><a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a> time limit exceeded. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a3c535db8699cbcd82bc668dfc2a89c3c"></a>SIGXFSZ&#160;</td><td class="fielddoc"><p>File size limit exceeded. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91adf6420e7153f108f88fafbd2d0899b36"></a>SIGRSV1&#160;</td><td class="fielddoc"><p>Reserved</p>
-<p>These are just to match Linux's signal numbers. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a0eecb5f42c534b6fa46e0cafcf106f81"></a>SIGRSV2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a6ea5ddfaff74e92d291445c1ec58f1e0"></a>SIGNAL_MAX&#160;</td><td class="fielddoc"><p>Maximum signal number. </p>
-</td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a985e6b2562816e34883174e7352639c5"></a>SIGCOMP2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a01d0a129aa039c647bc4a885fc19f815"></a>SIGCOMP3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a94182efebd7123e80d632cda2e02d80d"></a>SIGRTMIN&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91aa3879c69f3ede3d463a20f6838da2fd6"></a>SIGRT_1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a2d554cea104e2801c328da80231d1af1"></a>SIGRT_2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91addb465164f470dba8fe063e583f9384b"></a>SIGRT_3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91aaf8591b9b76579875332e86957082238"></a>SIGRT_4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a22834cfb9e685b3b1f173dabf5c39bcb"></a>SIGRT_5&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a67faf3857681f7999c4b5465133c5c7d"></a>SIGRT_6&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a8dad0bae7abf1a88ac85dea40387399f"></a>SIGRT_7&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91af5b9a394592ed679c014700e5044e665"></a>SIGRT_8&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91af2e2998f5f62f4acf609cd894500f458"></a>SIGRT_9&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a2d127d2d23652652aff9ed5d238433b2"></a>SIGRT_10&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a1d936976109f2b7f22ff02aa26680136"></a>SIGRT_11&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91aa56e80677cb44c510d25755b8ff69c44"></a>SIGRT_12&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91af5a987f8f746d96352d2ca8d855ccfda"></a>SIGRT_13&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a66253c41848315523e6c4dd0c78b17e3"></a>SIGRT_14&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91ac7abe2ac39f82584965b5a5335989493"></a>SIGRT_15&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a484992323c3cba902707f4a033305544"></a>SIGRT_16&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a6375d53908eb84ee816f1c7b2e78069a"></a>SIGRT_17&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91af95fab67fa86ac3daffde1a6988eaa01"></a>SIGRT_18&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a46d55a21547c9e1d247f27306fe3d054"></a>SIGRT_19&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91ad010e9a21ef77fdabf79aadfc36fee6e"></a>SIGRT_20&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a64a42f7889ec460e2b79e2feee4ea8fd"></a>SIGRT_21&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a3c3765541df9bda24453c2b19e1b5058"></a>SIGRT_22&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91af64a196e63e5373e64ca0332e9a82485"></a>SIGRT_23&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91acf437daee2029eed9b8c52f2a254444f"></a>SIGRT_24&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a10a56d322c9ce00570520dcf6034412e"></a>SIGRT_25&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a000f6474325ed7dec6817a2047f3dbeb"></a>SIGRT_26&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a7d83484c52b984a56135eea6f5e9db74"></a>SIGRT_27&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91aa261092071f20720d6a65b86531c216a"></a>SIGRT_28&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a822072887d756774b7f1b9c18c402830"></a>SIGRT_29&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91aeea20148591b072498e143748bd5b03c"></a>SIGRT_30&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a553396ae817ce17c32cfdc1416d207f0"></a>SIGRT_31&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a3b955d179fd8c37b59f3b1ec83bb8514"></a>SIGRTMAX&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6beea7bb6ff8fe926a3ae6092c735a91a6ea5ddfaff74e92d291445c1ec58f1e0"></a>SIGNAL_MAX&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00027">27</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a29003564fcf95d9fadd169a6c95c0760">SIG_NULL</a> = 0,</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a482a7216ea9a36de82e722b950b99e15">SIGABRT</a>,</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ad4bf69fe6651b715da5df3785bc640a3">SIGALRM</a>,</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ae99160550367fff9b33ea57429f7bd8b">SIGBUS</a>,</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6dfd856a32bc2d1933164dc9baf28354">SIGCHLD</a>,</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a4188061c4a768e515ae097117894c2b6">SIGCONT</a>,</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91abc83d0fe3282a1c90f23908ba74cd01d">SIGFPE</a>,</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a907bcb512cd9f9dd5251127c235c7a9f">SIGHUP</a>,</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a3bb74c059f9acc927338d0a45c0380df">SIGILL</a>,</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aa6d8f010823acc51e2d4f38da46d9cdf">SIGINT</a>,</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ab5c13b2589560e68dc7833087904024b">SIGKILL</a>,</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ac4f63df4d418758636e3cbe29949f8a8">SIGPIPE</a>,</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a13403cdea329ff2b8fb2fb3fd6c6d1e1">SIGQUIT</a>,</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a618f9407d6d9fc937fcf86504befea49">SIGSEGV</a>,</div>
+<p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00028">28</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a29003564fcf95d9fadd169a6c95c0760">SIG_NULL</a> = 0,</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="comment">/* Process abort signal. */</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a482a7216ea9a36de82e722b950b99e15">SIGABRT</a> = 1,</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="comment">/* Alarm clock. */</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ad4bf69fe6651b715da5df3785bc640a3">SIGALRM</a> = 2,</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="comment">/* Access to an undefined portion of a memory object. */</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ae99160550367fff9b33ea57429f7bd8b">SIGBUS</a> = 3,</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="comment">/* Child process terminated, stopped, or continued. */</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6dfd856a32bc2d1933164dc9baf28354">SIGCHLD</a> = 4,</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="comment">/* Continue executing, if stopped. */</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a4188061c4a768e515ae097117894c2b6">SIGCONT</a> = 5,</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="comment">/* Erroneous arithmetic operation. */</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91abc83d0fe3282a1c90f23908ba74cd01d">SIGFPE</a> = 6,</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="comment">/* Hangup. */</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a907bcb512cd9f9dd5251127c235c7a9f">SIGHUP</a> = 7,</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="comment">/* Illegal instruction. */</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a3bb74c059f9acc927338d0a45c0380df">SIGILL</a> = 8,</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="comment">/* Terminal interrupt signal. */</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aa6d8f010823acc51e2d4f38da46d9cdf">SIGINT</a> = 9,</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="comment">/* Kill (cannot be caught or ignored). */</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ab5c13b2589560e68dc7833087904024b">SIGKILL</a> = 10,</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">/* Write on a pipe with no one to read it. */</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ac4f63df4d418758636e3cbe29949f8a8">SIGPIPE</a> = 11,</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="comment">/* Terminal quit signal. */</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a13403cdea329ff2b8fb2fb3fd6c6d1e1">SIGQUIT</a> = 12,</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="comment">/* Invalid memory reference. */</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a618f9407d6d9fc937fcf86504befea49">SIGSEGV</a> = 13,</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="comment">/* Stop executing (cannot be caught or ignored). */</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91add653b4cebcecdedf95d22c933f04d51">SIGSTOP</a> = 14,</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="comment">/* Termination signal. */</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a5b3099cb7e4f2821cf474c88ebb281f6">SIGTERM</a> = 15,</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="comment">/* Terminal stop signal. */</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ab1b634097a7e8b4dcd23c7742893b2b0">SIGTSTP</a> = 16,</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="comment">/* Background process attempting read. */</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aa11505f2d0871e25ef841cb5bf11ae75">SIGTTIN</a> = 17,</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="comment">/* Background process attempting write. */</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a01861162fed67e3e8a3937a1341b3863">SIGTTOU</a> = 18,</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="comment">/* User-defined signal 1. */</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6b37f09b50c45d32d97e9769e46137a5">SIGUSR1</a> = 19,</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="comment">/* User-defined signal 2. */</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ac4b7b44951321d676e5f355358c0a545">SIGUSR2</a> = 20,</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="comment">/* Pollable event. */</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ac004304ab9148a9899646315db2676b4">SIGPOLL</a> = 21,</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="comment">/* Profiling timer expired. */</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a2526e6aaf38379609414d5e73252045e">SIGPROF</a> = 22,</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="comment">/* Bad system call. */</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a4b60438cc778350750036773c9c6b5c0">SIGSYS</a> = 23,</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="comment">/* Trace/breakpoint trap. */</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91acb55df7174be2495da9322d21d1cbd27">SIGTRAP</a> = 24,</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="comment">/* High bandwidth data is available at a socket. */</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a0614c195297da3ea3014073f7eb195a0">SIGURG</a> = 25,</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="comment">/* Virtual timer expired. */</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af63dab0f12670d7130eb94f24dce4cad">SIGVTALRM</a> = 26,</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="comment">/* CPU time limit exceeded. */</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a1a1f6960bc0f51eb122edbed8760c533">SIGXCPU</a> = 27,</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="comment">/* File size limit exceeded. */</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a3c535db8699cbcd82bc668dfc2a89c3c">SIGXFSZ</a> = 28,</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6a5cd48f9e87f08c1d0d5635db21e03e">SIGCOMP1</a> = 29,</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a985e6b2562816e34883174e7352639c5">SIGCOMP2</a> = 30,</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a01d0a129aa039c647bc4a885fc19f815">SIGCOMP3</a> = 31,</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91add653b4cebcecdedf95d22c933f04d51">SIGSTOP</a>,</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a5b3099cb7e4f2821cf474c88ebb281f6">SIGTERM</a>,</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ab1b634097a7e8b4dcd23c7742893b2b0">SIGTSTP</a>,</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aa11505f2d0871e25ef841cb5bf11ae75">SIGTTIN</a>,</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a01861162fed67e3e8a3937a1341b3863">SIGTTOU</a>,</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160; </div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6b37f09b50c45d32d97e9769e46137a5">SIGUSR1</a>,</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; </div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ac4b7b44951321d676e5f355358c0a545">SIGUSR2</a>,</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="comment">/* Real-time signals. */</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a94182efebd7123e80d632cda2e02d80d">SIGRTMIN</a> = 32,</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aa3879c69f3ede3d463a20f6838da2fd6">SIGRT_1</a> = 33,</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a2d554cea104e2801c328da80231d1af1">SIGRT_2</a> = 34,</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91addb465164f470dba8fe063e583f9384b">SIGRT_3</a> = 35,</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aaf8591b9b76579875332e86957082238">SIGRT_4</a> = 36,</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a22834cfb9e685b3b1f173dabf5c39bcb">SIGRT_5</a> = 37,</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a67faf3857681f7999c4b5465133c5c7d">SIGRT_6</a> = 38,</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a8dad0bae7abf1a88ac85dea40387399f">SIGRT_7</a> = 39,</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af5b9a394592ed679c014700e5044e665">SIGRT_8</a> = 40,</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af2e2998f5f62f4acf609cd894500f458">SIGRT_9</a> = 41,</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a2d127d2d23652652aff9ed5d238433b2">SIGRT_10</a> = 42,</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a1d936976109f2b7f22ff02aa26680136">SIGRT_11</a> = 43,</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aa56e80677cb44c510d25755b8ff69c44">SIGRT_12</a> = 44,</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af5a987f8f746d96352d2ca8d855ccfda">SIGRT_13</a> = 45,</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a66253c41848315523e6c4dd0c78b17e3">SIGRT_14</a> = 46,</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ac7abe2ac39f82584965b5a5335989493">SIGRT_15</a> = 47,</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a484992323c3cba902707f4a033305544">SIGRT_16</a> = 48,</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6375d53908eb84ee816f1c7b2e78069a">SIGRT_17</a> = 49,</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af95fab67fa86ac3daffde1a6988eaa01">SIGRT_18</a> = 50,</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a46d55a21547c9e1d247f27306fe3d054">SIGRT_19</a> = 51,</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ad010e9a21ef77fdabf79aadfc36fee6e">SIGRT_20</a> = 52,</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a64a42f7889ec460e2b79e2feee4ea8fd">SIGRT_21</a> = 53,</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a3c3765541df9bda24453c2b19e1b5058">SIGRT_22</a> = 54,</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af64a196e63e5373e64ca0332e9a82485">SIGRT_23</a> = 55,</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91acf437daee2029eed9b8c52f2a254444f">SIGRT_24</a> = 56,</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a10a56d322c9ce00570520dcf6034412e">SIGRT_25</a> = 57,</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a000f6474325ed7dec6817a2047f3dbeb">SIGRT_26</a> = 58,</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a7d83484c52b984a56135eea6f5e9db74">SIGRT_27</a> = 59,</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aa261092071f20720d6a65b86531c216a">SIGRT_28</a> = 60,</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a822072887d756774b7f1b9c18c402830">SIGRT_29</a> = 61,</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aeea20148591b072498e143748bd5b03c">SIGRT_30</a> = 62,</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a553396ae817ce17c32cfdc1416d207f0">SIGRT_31</a> = 63,</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a3b955d179fd8c37b59f3b1ec83bb8514">SIGRTMAX</a> = 64,</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160; </div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ac004304ab9148a9899646315db2676b4">SIGPOLL</a>,</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160; </div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a2526e6aaf38379609414d5e73252045e">SIGPROF</a>,</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160; </div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a4b60438cc778350750036773c9c6b5c0">SIGSYS</a>,</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160; </div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91acb55df7174be2495da9322d21d1cbd27">SIGTRAP</a>,</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160; </div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a0614c195297da3ea3014073f7eb195a0">SIGURG</a>,</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160; </div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af63dab0f12670d7130eb94f24dce4cad">SIGVTALRM</a>,</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160; </div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a1a1f6960bc0f51eb122edbed8760c533">SIGXCPU</a>,</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160; </div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a3c535db8699cbcd82bc668dfc2a89c3c">SIGXFSZ</a>,</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160; </div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91adf6420e7153f108f88fafbd2d0899b36">SIGRSV1</a>,</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a0eecb5f42c534b6fa46e0cafcf106f81">SIGRSV2</a>,</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160; </div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6ea5ddfaff74e92d291445c1ec58f1e0">SIGNAL_MAX</a></div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;};</div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a01861162fed67e3e8a3937a1341b3863"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a01861162fed67e3e8a3937a1341b3863">SIGTTOU</a></div><div class="ttdeci">@ SIGTTOU</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00119">signal.hpp:119</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a0614c195297da3ea3014073f7eb195a0"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a0614c195297da3ea3014073f7eb195a0">SIGURG</a></div><div class="ttdeci">@ SIGURG</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00154">signal.hpp:154</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a0eecb5f42c534b6fa46e0cafcf106f81"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a0eecb5f42c534b6fa46e0cafcf106f81">SIGRSV2</a></div><div class="ttdeci">@ SIGRSV2</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00177">signal.hpp:177</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a13403cdea329ff2b8fb2fb3fd6c6d1e1"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a13403cdea329ff2b8fb2fb3fd6c6d1e1">SIGQUIT</a></div><div class="ttdeci">@ SIGQUIT</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00089">signal.hpp:89</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a1a1f6960bc0f51eb122edbed8760c533"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a1a1f6960bc0f51eb122edbed8760c533">SIGXCPU</a></div><div class="ttdeci">@ SIGXCPU</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00164">signal.hpp:164</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a2526e6aaf38379609414d5e73252045e"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a2526e6aaf38379609414d5e73252045e">SIGPROF</a></div><div class="ttdeci">@ SIGPROF</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00139">signal.hpp:139</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a29003564fcf95d9fadd169a6c95c0760"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a29003564fcf95d9fadd169a6c95c0760">SIG_NULL</a></div><div class="ttdeci">@ SIG_NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00029">signal.hpp:29</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a3bb74c059f9acc927338d0a45c0380df"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a3bb74c059f9acc927338d0a45c0380df">SIGILL</a></div><div class="ttdeci">@ SIGILL</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00069">signal.hpp:69</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a3c535db8699cbcd82bc668dfc2a89c3c"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a3c535db8699cbcd82bc668dfc2a89c3c">SIGXFSZ</a></div><div class="ttdeci">@ SIGXFSZ</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00169">signal.hpp:169</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a4188061c4a768e515ae097117894c2b6"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a4188061c4a768e515ae097117894c2b6">SIGCONT</a></div><div class="ttdeci">@ SIGCONT</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00054">signal.hpp:54</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a482a7216ea9a36de82e722b950b99e15"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a482a7216ea9a36de82e722b950b99e15">SIGABRT</a></div><div class="ttdeci">@ SIGABRT</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00034">signal.hpp:34</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a4b60438cc778350750036773c9c6b5c0"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a4b60438cc778350750036773c9c6b5c0">SIGSYS</a></div><div class="ttdeci">@ SIGSYS</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00144">signal.hpp:144</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a5b3099cb7e4f2821cf474c88ebb281f6"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a5b3099cb7e4f2821cf474c88ebb281f6">SIGTERM</a></div><div class="ttdeci">@ SIGTERM</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00104">signal.hpp:104</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a618f9407d6d9fc937fcf86504befea49"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a618f9407d6d9fc937fcf86504befea49">SIGSEGV</a></div><div class="ttdeci">@ SIGSEGV</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00094">signal.hpp:94</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a6b37f09b50c45d32d97e9769e46137a5"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6b37f09b50c45d32d97e9769e46137a5">SIGUSR1</a></div><div class="ttdeci">@ SIGUSR1</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00124">signal.hpp:124</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a6dfd856a32bc2d1933164dc9baf28354"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6dfd856a32bc2d1933164dc9baf28354">SIGCHLD</a></div><div class="ttdeci">@ SIGCHLD</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00049">signal.hpp:49</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a6ea5ddfaff74e92d291445c1ec58f1e0"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6ea5ddfaff74e92d291445c1ec58f1e0">SIGNAL_MAX</a></div><div class="ttdeci">@ SIGNAL_MAX</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00183">signal.hpp:182</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a907bcb512cd9f9dd5251127c235c7a9f"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a907bcb512cd9f9dd5251127c235c7a9f">SIGHUP</a></div><div class="ttdeci">@ SIGHUP</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00064">signal.hpp:64</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91aa11505f2d0871e25ef841cb5bf11ae75"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aa11505f2d0871e25ef841cb5bf11ae75">SIGTTIN</a></div><div class="ttdeci">@ SIGTTIN</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00114">signal.hpp:114</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91aa6d8f010823acc51e2d4f38da46d9cdf"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aa6d8f010823acc51e2d4f38da46d9cdf">SIGINT</a></div><div class="ttdeci">@ SIGINT</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00074">signal.hpp:74</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91ab1b634097a7e8b4dcd23c7742893b2b0"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ab1b634097a7e8b4dcd23c7742893b2b0">SIGTSTP</a></div><div class="ttdeci">@ SIGTSTP</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00109">signal.hpp:109</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91ab5c13b2589560e68dc7833087904024b"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ab5c13b2589560e68dc7833087904024b">SIGKILL</a></div><div class="ttdeci">@ SIGKILL</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00079">signal.hpp:79</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91abc83d0fe3282a1c90f23908ba74cd01d"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91abc83d0fe3282a1c90f23908ba74cd01d">SIGFPE</a></div><div class="ttdeci">@ SIGFPE</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00059">signal.hpp:59</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91ac004304ab9148a9899646315db2676b4"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ac004304ab9148a9899646315db2676b4">SIGPOLL</a></div><div class="ttdeci">@ SIGPOLL</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00134">signal.hpp:134</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91ac4b7b44951321d676e5f355358c0a545"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ac4b7b44951321d676e5f355358c0a545">SIGUSR2</a></div><div class="ttdeci">@ SIGUSR2</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00129">signal.hpp:129</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91ac4f63df4d418758636e3cbe29949f8a8"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ac4f63df4d418758636e3cbe29949f8a8">SIGPIPE</a></div><div class="ttdeci">@ SIGPIPE</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00084">signal.hpp:84</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91acb55df7174be2495da9322d21d1cbd27"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91acb55df7174be2495da9322d21d1cbd27">SIGTRAP</a></div><div class="ttdeci">@ SIGTRAP</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00149">signal.hpp:149</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91ad4bf69fe6651b715da5df3785bc640a3"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ad4bf69fe6651b715da5df3785bc640a3">SIGALRM</a></div><div class="ttdeci">@ SIGALRM</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00039">signal.hpp:39</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91add653b4cebcecdedf95d22c933f04d51"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91add653b4cebcecdedf95d22c933f04d51">SIGSTOP</a></div><div class="ttdeci">@ SIGSTOP</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00099">signal.hpp:99</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91adf6420e7153f108f88fafbd2d0899b36"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91adf6420e7153f108f88fafbd2d0899b36">SIGRSV1</a></div><div class="ttdeci">@ SIGRSV1</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00176">signal.hpp:176</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91ae99160550367fff9b33ea57429f7bd8b"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ae99160550367fff9b33ea57429f7bd8b">SIGBUS</a></div><div class="ttdeci">@ SIGBUS</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00044">signal.hpp:44</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91af63dab0f12670d7130eb94f24dce4cad"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af63dab0f12670d7130eb94f24dce4cad">SIGVTALRM</a></div><div class="ttdeci">@ SIGVTALRM</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00159">signal.hpp:159</a></div></div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <span class="comment">/* Maximum signal number. */</span></div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6ea5ddfaff74e92d291445c1ec58f1e0">SIGNAL_MAX</a> = <a class="code" href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a3b955d179fd8c37b59f3b1ec83bb8514">SIGRTMAX</a></div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;};</div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a000f6474325ed7dec6817a2047f3dbeb"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a000f6474325ed7dec6817a2047f3dbeb">SIGRT_26</a></div><div class="ttdeci">@ SIGRT_26</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00123">signal.hpp:123</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a01861162fed67e3e8a3937a1341b3863"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a01861162fed67e3e8a3937a1341b3863">SIGTTOU</a></div><div class="ttdeci">@ SIGTTOU</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00066">signal.hpp:66</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a01d0a129aa039c647bc4a885fc19f815"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a01d0a129aa039c647bc4a885fc19f815">SIGCOMP3</a></div><div class="ttdeci">@ SIGCOMP3</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00094">signal.hpp:94</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a0614c195297da3ea3014073f7eb195a0"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a0614c195297da3ea3014073f7eb195a0">SIGURG</a></div><div class="ttdeci">@ SIGURG</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00080">signal.hpp:80</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a10a56d322c9ce00570520dcf6034412e"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a10a56d322c9ce00570520dcf6034412e">SIGRT_25</a></div><div class="ttdeci">@ SIGRT_25</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00122">signal.hpp:122</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a13403cdea329ff2b8fb2fb3fd6c6d1e1"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a13403cdea329ff2b8fb2fb3fd6c6d1e1">SIGQUIT</a></div><div class="ttdeci">@ SIGQUIT</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00054">signal.hpp:54</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a1a1f6960bc0f51eb122edbed8760c533"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a1a1f6960bc0f51eb122edbed8760c533">SIGXCPU</a></div><div class="ttdeci">@ SIGXCPU</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00084">signal.hpp:84</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a1d936976109f2b7f22ff02aa26680136"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a1d936976109f2b7f22ff02aa26680136">SIGRT_11</a></div><div class="ttdeci">@ SIGRT_11</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00108">signal.hpp:108</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a22834cfb9e685b3b1f173dabf5c39bcb"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a22834cfb9e685b3b1f173dabf5c39bcb">SIGRT_5</a></div><div class="ttdeci">@ SIGRT_5</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00102">signal.hpp:102</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a2526e6aaf38379609414d5e73252045e"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a2526e6aaf38379609414d5e73252045e">SIGPROF</a></div><div class="ttdeci">@ SIGPROF</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00074">signal.hpp:74</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a29003564fcf95d9fadd169a6c95c0760"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a29003564fcf95d9fadd169a6c95c0760">SIG_NULL</a></div><div class="ttdeci">@ SIG_NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00030">signal.hpp:30</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a2d127d2d23652652aff9ed5d238433b2"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a2d127d2d23652652aff9ed5d238433b2">SIGRT_10</a></div><div class="ttdeci">@ SIGRT_10</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00107">signal.hpp:107</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a2d554cea104e2801c328da80231d1af1"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a2d554cea104e2801c328da80231d1af1">SIGRT_2</a></div><div class="ttdeci">@ SIGRT_2</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00099">signal.hpp:99</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a3b955d179fd8c37b59f3b1ec83bb8514"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a3b955d179fd8c37b59f3b1ec83bb8514">SIGRTMAX</a></div><div class="ttdeci">@ SIGRTMAX</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00129">signal.hpp:129</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a3bb74c059f9acc927338d0a45c0380df"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a3bb74c059f9acc927338d0a45c0380df">SIGILL</a></div><div class="ttdeci">@ SIGILL</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00046">signal.hpp:46</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a3c3765541df9bda24453c2b19e1b5058"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a3c3765541df9bda24453c2b19e1b5058">SIGRT_22</a></div><div class="ttdeci">@ SIGRT_22</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00119">signal.hpp:119</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a3c535db8699cbcd82bc668dfc2a89c3c"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a3c535db8699cbcd82bc668dfc2a89c3c">SIGXFSZ</a></div><div class="ttdeci">@ SIGXFSZ</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00086">signal.hpp:86</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a4188061c4a768e515ae097117894c2b6"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a4188061c4a768e515ae097117894c2b6">SIGCONT</a></div><div class="ttdeci">@ SIGCONT</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00040">signal.hpp:40</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a46d55a21547c9e1d247f27306fe3d054"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a46d55a21547c9e1d247f27306fe3d054">SIGRT_19</a></div><div class="ttdeci">@ SIGRT_19</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00116">signal.hpp:116</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a482a7216ea9a36de82e722b950b99e15"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a482a7216ea9a36de82e722b950b99e15">SIGABRT</a></div><div class="ttdeci">@ SIGABRT</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00032">signal.hpp:32</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a484992323c3cba902707f4a033305544"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a484992323c3cba902707f4a033305544">SIGRT_16</a></div><div class="ttdeci">@ SIGRT_16</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00113">signal.hpp:113</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a4b60438cc778350750036773c9c6b5c0"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a4b60438cc778350750036773c9c6b5c0">SIGSYS</a></div><div class="ttdeci">@ SIGSYS</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00076">signal.hpp:76</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a553396ae817ce17c32cfdc1416d207f0"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a553396ae817ce17c32cfdc1416d207f0">SIGRT_31</a></div><div class="ttdeci">@ SIGRT_31</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00128">signal.hpp:128</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a5b3099cb7e4f2821cf474c88ebb281f6"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a5b3099cb7e4f2821cf474c88ebb281f6">SIGTERM</a></div><div class="ttdeci">@ SIGTERM</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00060">signal.hpp:60</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a618f9407d6d9fc937fcf86504befea49"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a618f9407d6d9fc937fcf86504befea49">SIGSEGV</a></div><div class="ttdeci">@ SIGSEGV</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00056">signal.hpp:56</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a6375d53908eb84ee816f1c7b2e78069a"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6375d53908eb84ee816f1c7b2e78069a">SIGRT_17</a></div><div class="ttdeci">@ SIGRT_17</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00114">signal.hpp:114</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a64a42f7889ec460e2b79e2feee4ea8fd"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a64a42f7889ec460e2b79e2feee4ea8fd">SIGRT_21</a></div><div class="ttdeci">@ SIGRT_21</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00118">signal.hpp:118</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a66253c41848315523e6c4dd0c78b17e3"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a66253c41848315523e6c4dd0c78b17e3">SIGRT_14</a></div><div class="ttdeci">@ SIGRT_14</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00111">signal.hpp:111</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a67faf3857681f7999c4b5465133c5c7d"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a67faf3857681f7999c4b5465133c5c7d">SIGRT_6</a></div><div class="ttdeci">@ SIGRT_6</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00103">signal.hpp:103</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a6a5cd48f9e87f08c1d0d5635db21e03e"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6a5cd48f9e87f08c1d0d5635db21e03e">SIGCOMP1</a></div><div class="ttdeci">@ SIGCOMP1</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00092">signal.hpp:92</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a6b37f09b50c45d32d97e9769e46137a5"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6b37f09b50c45d32d97e9769e46137a5">SIGUSR1</a></div><div class="ttdeci">@ SIGUSR1</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00068">signal.hpp:68</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a6dfd856a32bc2d1933164dc9baf28354"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6dfd856a32bc2d1933164dc9baf28354">SIGCHLD</a></div><div class="ttdeci">@ SIGCHLD</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00038">signal.hpp:38</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a6ea5ddfaff74e92d291445c1ec58f1e0"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a6ea5ddfaff74e92d291445c1ec58f1e0">SIGNAL_MAX</a></div><div class="ttdeci">@ SIGNAL_MAX</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00133">signal.hpp:132</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a7d83484c52b984a56135eea6f5e9db74"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a7d83484c52b984a56135eea6f5e9db74">SIGRT_27</a></div><div class="ttdeci">@ SIGRT_27</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00124">signal.hpp:124</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a822072887d756774b7f1b9c18c402830"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a822072887d756774b7f1b9c18c402830">SIGRT_29</a></div><div class="ttdeci">@ SIGRT_29</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00126">signal.hpp:126</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a8dad0bae7abf1a88ac85dea40387399f"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a8dad0bae7abf1a88ac85dea40387399f">SIGRT_7</a></div><div class="ttdeci">@ SIGRT_7</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00104">signal.hpp:104</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a907bcb512cd9f9dd5251127c235c7a9f"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a907bcb512cd9f9dd5251127c235c7a9f">SIGHUP</a></div><div class="ttdeci">@ SIGHUP</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00044">signal.hpp:44</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a94182efebd7123e80d632cda2e02d80d"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a94182efebd7123e80d632cda2e02d80d">SIGRTMIN</a></div><div class="ttdeci">@ SIGRTMIN</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00097">signal.hpp:97</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91a985e6b2562816e34883174e7352639c5"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91a985e6b2562816e34883174e7352639c5">SIGCOMP2</a></div><div class="ttdeci">@ SIGCOMP2</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00093">signal.hpp:93</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91aa11505f2d0871e25ef841cb5bf11ae75"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aa11505f2d0871e25ef841cb5bf11ae75">SIGTTIN</a></div><div class="ttdeci">@ SIGTTIN</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00064">signal.hpp:64</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91aa261092071f20720d6a65b86531c216a"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aa261092071f20720d6a65b86531c216a">SIGRT_28</a></div><div class="ttdeci">@ SIGRT_28</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00125">signal.hpp:125</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91aa3879c69f3ede3d463a20f6838da2fd6"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aa3879c69f3ede3d463a20f6838da2fd6">SIGRT_1</a></div><div class="ttdeci">@ SIGRT_1</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00098">signal.hpp:98</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91aa56e80677cb44c510d25755b8ff69c44"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aa56e80677cb44c510d25755b8ff69c44">SIGRT_12</a></div><div class="ttdeci">@ SIGRT_12</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00109">signal.hpp:109</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91aa6d8f010823acc51e2d4f38da46d9cdf"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aa6d8f010823acc51e2d4f38da46d9cdf">SIGINT</a></div><div class="ttdeci">@ SIGINT</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00048">signal.hpp:48</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91aaf8591b9b76579875332e86957082238"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aaf8591b9b76579875332e86957082238">SIGRT_4</a></div><div class="ttdeci">@ SIGRT_4</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00101">signal.hpp:101</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91ab1b634097a7e8b4dcd23c7742893b2b0"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ab1b634097a7e8b4dcd23c7742893b2b0">SIGTSTP</a></div><div class="ttdeci">@ SIGTSTP</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00062">signal.hpp:62</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91ab5c13b2589560e68dc7833087904024b"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ab5c13b2589560e68dc7833087904024b">SIGKILL</a></div><div class="ttdeci">@ SIGKILL</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00050">signal.hpp:50</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91abc83d0fe3282a1c90f23908ba74cd01d"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91abc83d0fe3282a1c90f23908ba74cd01d">SIGFPE</a></div><div class="ttdeci">@ SIGFPE</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00042">signal.hpp:42</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91ac004304ab9148a9899646315db2676b4"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ac004304ab9148a9899646315db2676b4">SIGPOLL</a></div><div class="ttdeci">@ SIGPOLL</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00072">signal.hpp:72</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91ac4b7b44951321d676e5f355358c0a545"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ac4b7b44951321d676e5f355358c0a545">SIGUSR2</a></div><div class="ttdeci">@ SIGUSR2</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00070">signal.hpp:70</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91ac4f63df4d418758636e3cbe29949f8a8"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ac4f63df4d418758636e3cbe29949f8a8">SIGPIPE</a></div><div class="ttdeci">@ SIGPIPE</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00052">signal.hpp:52</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91ac7abe2ac39f82584965b5a5335989493"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ac7abe2ac39f82584965b5a5335989493">SIGRT_15</a></div><div class="ttdeci">@ SIGRT_15</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00112">signal.hpp:112</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91acb55df7174be2495da9322d21d1cbd27"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91acb55df7174be2495da9322d21d1cbd27">SIGTRAP</a></div><div class="ttdeci">@ SIGTRAP</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00078">signal.hpp:78</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91acf437daee2029eed9b8c52f2a254444f"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91acf437daee2029eed9b8c52f2a254444f">SIGRT_24</a></div><div class="ttdeci">@ SIGRT_24</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00121">signal.hpp:121</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91ad010e9a21ef77fdabf79aadfc36fee6e"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ad010e9a21ef77fdabf79aadfc36fee6e">SIGRT_20</a></div><div class="ttdeci">@ SIGRT_20</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00117">signal.hpp:117</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91ad4bf69fe6651b715da5df3785bc640a3"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ad4bf69fe6651b715da5df3785bc640a3">SIGALRM</a></div><div class="ttdeci">@ SIGALRM</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00034">signal.hpp:34</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91add653b4cebcecdedf95d22c933f04d51"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91add653b4cebcecdedf95d22c933f04d51">SIGSTOP</a></div><div class="ttdeci">@ SIGSTOP</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00058">signal.hpp:58</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91addb465164f470dba8fe063e583f9384b"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91addb465164f470dba8fe063e583f9384b">SIGRT_3</a></div><div class="ttdeci">@ SIGRT_3</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00100">signal.hpp:100</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91ae99160550367fff9b33ea57429f7bd8b"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91ae99160550367fff9b33ea57429f7bd8b">SIGBUS</a></div><div class="ttdeci">@ SIGBUS</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00036">signal.hpp:36</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91aeea20148591b072498e143748bd5b03c"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91aeea20148591b072498e143748bd5b03c">SIGRT_30</a></div><div class="ttdeci">@ SIGRT_30</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00127">signal.hpp:127</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91af2e2998f5f62f4acf609cd894500f458"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af2e2998f5f62f4acf609cd894500f458">SIGRT_9</a></div><div class="ttdeci">@ SIGRT_9</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00106">signal.hpp:106</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91af5a987f8f746d96352d2ca8d855ccfda"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af5a987f8f746d96352d2ca8d855ccfda">SIGRT_13</a></div><div class="ttdeci">@ SIGRT_13</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00110">signal.hpp:110</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91af5b9a394592ed679c014700e5044e665"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af5b9a394592ed679c014700e5044e665">SIGRT_8</a></div><div class="ttdeci">@ SIGRT_8</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00105">signal.hpp:105</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91af63dab0f12670d7130eb94f24dce4cad"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af63dab0f12670d7130eb94f24dce4cad">SIGVTALRM</a></div><div class="ttdeci">@ SIGVTALRM</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00082">signal.hpp:82</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91af64a196e63e5373e64ca0332e9a82485"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af64a196e63e5373e64ca0332e9a82485">SIGRT_23</a></div><div class="ttdeci">@ SIGRT_23</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00120">signal.hpp:120</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_a6beea7bb6ff8fe926a3ae6092c735a91af95fab67fa86ac3daffde1a6988eaa01"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#a6beea7bb6ff8fe926a3ae6092c735a91af95fab67fa86ac3daffde1a6988eaa01">SIGRT_18</a></div><div class="ttdeci">@ SIGRT_18</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00115">signal.hpp:115</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1331,7 +1502,7 @@ si_syscall</td>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00010">10</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d9c/task_8cpp_source.html#l00297">__no_sanitize()</a>, <a class="el" href="../../d5/d9b/spawn_8cpp_source.html#l00033">Execute::Spawn()</a>, and <a class="el" href="../../d3/d35/thread_8cpp_source.html#l00405">Tasking::TCB::TCB()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d9c/task_8cpp_source.html#l00221">Tasking::__no_sanitize()</a>, <a class="el" href="../../d5/d9b/spawn_8cpp_source.html#l00033">Execute::Spawn()</a>, and <a class="el" href="../../d3/d35/thread_8cpp_source.html#l00417">Tasking::TCB::TCB()</a>.</p>
 
 </div>
 </div>
@@ -1349,7 +1520,7 @@ si_syscall</td>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00007">7</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d35/thread_8cpp_source.html#l00363">Tasking::TCB::SetupThreadLocalStorage()</a>, and <a class="el" href="../../d3/d35/thread_8cpp_source.html#l00405">Tasking::TCB::TCB()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d35/thread_8cpp_source.html#l00375">Tasking::TCB::SetupThreadLocalStorage()</a>, and <a class="el" href="../../d3/d35/thread_8cpp_source.html#l00417">Tasking::TCB::TCB()</a>.</p>
 
 </div>
 </div>
@@ -1383,7 +1554,7 @@ si_syscall</td>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00007">7</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d35/thread_8cpp_source.html#l00405">Tasking::TCB::TCB()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d35/thread_8cpp_source.html#l00417">Tasking::TCB::TCB()</a>.</p>
 
 </div>
 </div>
@@ -1403,21 +1574,21 @@ si_syscall</td>
 
 </div>
 </div>
-<a id="a0c6fd4cc16395d4f1f8cbcb870996bd5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c6fd4cc16395d4f1f8cbcb870996bd5">&#9670;&nbsp;</a></span>tf</h2>
+<a id="acf620e7cf31a966c5c7a3d5877a14f96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf620e7cf31a966c5c7a3d5877a14f96">&#9670;&nbsp;</a></span>tf</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/d78/namespaceCPU_1_1x32.html#d3/d23/structCPU_1_1x32_1_1TrapFrame">CPU::x32::TrapFrame</a> tf</td>
+          <td class="memname">CPU::x32::SchedulerFrame tf</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00006">6</a> of file <a class="el" href="../../dd/d5f/signal_8hpp_source.html">signal.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d08/signal_8cpp_source.html#l00302">Tasking::Signal::HandleSignal()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d08/signal_8cpp_source.html#l00347">Tasking::Signal::HandleSignal()</a>.</p>
 
 </div>
 </div>

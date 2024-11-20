@@ -138,7 +138,7 @@ Functions</h2></td></tr>
 <tr class="separator:a14a9d989f17e2bbdf348e881d3baaee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a666cbbd9f6aaa9e0ebc06f171ace0166"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d00/sched_8h.html#a666cbbd9f6aaa9e0ebc06f171ace0166">sched_getscheduler</a> (<a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a>)</td></tr>
 <tr class="separator:a666cbbd9f6aaa9e0ebc06f171ace0166"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ec647cadee77568ccd4254b01878c9e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d00/sched_8h.html#a5ec647cadee77568ccd4254b01878c9e">sched_rr_get_interval</a> (<a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a>, struct <a class="el" href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a> *)</td></tr>
+<tr class="memitem:a5ec647cadee77568ccd4254b01878c9e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d00/sched_8h.html#a5ec647cadee77568ccd4254b01878c9e">sched_rr_get_interval</a> (<a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a>, struct timespec *)</td></tr>
 <tr class="separator:a5ec647cadee77568ccd4254b01878c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b990723fb9eb3d3c07f7cadead026ba"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d00/sched_8h.html#a5b990723fb9eb3d3c07f7cadead026ba">sched_setparam</a> (<a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a>, const struct <a class="el" href="../../d7/d00/sched_8h.html#d4/d82/structsched__param">sched_param</a> *)</td></tr>
 <tr class="separator:a5b990723fb9eb3d3c07f7cadead026ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -170,7 +170,7 @@ __reserved1</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a1a0fb2b7d13e44d15ec3e757f89769d2"></a>struct <a class="el" href="../../d7/d00/sched_8h.html#de/d53/structsched__param_8____reserved2">sched_param</a></td>
+<a id="af339356239f61a0446fb25644676cf32"></a>struct <a class="el" href="../../d7/d00/sched_8h.html#de/d53/structsched__param_8____reserved2">sched_param</a></td>
 <td class="fieldname">
 __reserved2[2]</td>
 <td class="fielddoc">
@@ -409,8 +409,6 @@ __reserved2</td>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d58/chrt_8c_source.html#l00090">chrt_main()</a>, and <a class="el" href="../../dc/d58/chrt_8c_source.html#l00069">show_min_max()</a>.</p>
-
 </div>
 </div>
 <a id="a0082b207ec024c54ccf5a0dfc29646c7"></a>
@@ -435,8 +433,6 @@ __reserved2</td>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../dc/d58/chrt_8c_source.html#l00090">chrt_main()</a>, and <a class="el" href="../../dc/d58/chrt_8c_source.html#l00069">show_min_max()</a>.</p>
 
 </div>
 </div>
@@ -475,8 +471,6 @@ __reserved2</td>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret()</a>, and <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00041">ENOSYS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d58/chrt_8c_source.html#l00090">chrt_main()</a>.</p>
-
 </div>
 </div>
 <a id="a666cbbd9f6aaa9e0ebc06f171ace0166"></a>
@@ -502,8 +496,6 @@ __reserved2</td>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret()</a>, and <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00041">ENOSYS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d58/chrt_8c_source.html#l00090">chrt_main()</a>.</p>
-
 </div>
 </div>
 <a id="a5ec647cadee77568ccd4254b01878c9e"></a>
@@ -521,7 +513,7 @@ __reserved2</td>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct <a class="el" href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a> *&#160;</td>
+          <td class="paramtype">struct timespec *&#160;</td>
           <td class="paramname"><em>ts</em>&#160;</td>
         </tr>
         <tr>
@@ -538,26 +530,23 @@ __reserved2</td>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="comment">/* On a 32-bit arch, use the old syscall if it exists. */</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a36fe392d30d271b4aea537fbc30a84b2">SYS_sched_rr_get_interval</a> != <a class="code" href="../../d7/dc5/x32_2syscall__arch_8h.html#a02e7d56bdc4da6ff699964b559545fd2">SYS_sched_rr_get_interval_time64</a>) {</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <span class="keywordtype">long</span> ts32[2];</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keywordtype">int</span> r = <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(<a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a36fe392d30d271b4aea537fbc30a84b2">SYS_sched_rr_get_interval</a>, <a class="code" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>, ts32);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keywordtype">int</span> r = <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(<a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a36fe392d30d271b4aea537fbc30a84b2">SYS_sched_rr_get_interval</a>, pid, ts32);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keywordflow">if</span> (!r) {</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;            ts-&gt;<a class="code" href="../../de/d79/stat-time_8h.html#afc3302668d7cb5952f590da69fdd4955">tv_sec</a> = ts32[0];</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;            ts-&gt;<a class="code" href="../../de/d79/stat-time_8h.html#aa9689622a344d847333e534ac23d3093">tv_nsec</a> = ts32[1];</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;            ts-&gt;tv_sec = ts32[0];</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;            ts-&gt;tv_nsec = ts32[1];</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        }</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a>(r);</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    }</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="comment">/* If reaching this point, it&#39;s a 64-bit arch or time64-only</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">     * 32-bit arch and we can get result directly into timespec. */</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(<a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a36fe392d30d271b4aea537fbc30a84b2">SYS_sched_rr_get_interval</a>, <a class="code" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>, ts);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(<a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a36fe392d30d271b4aea537fbc30a84b2">SYS_sched_rr_get_interval</a>, pid, ts);</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
-<div class="ttc" id="amconf_8c_html_ae0d46a978d5cd6707411f276ad869b9c"><div class="ttname"><a href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a></div><div class="ttdeci">pid_t pid</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d43/mconf_8c_source.html#l00450">mconf.c:450</a></div></div>
 <div class="ttc" id="asrc_2internal_2syscall_8h_html_a2c82a4fb7243bb9b67ca2a9ed8efa8d1"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a></div><div class="ttdeci">#define __syscall(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00044">syscall.h:44</a></div></div>
 <div class="ttc" id="asrc_2internal_2syscall_8h_html_a36fe392d30d271b4aea537fbc30a84b2"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#a36fe392d30d271b4aea537fbc30a84b2">SYS_sched_rr_get_interval</a></div><div class="ttdeci">#define SYS_sched_rr_get_interval</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00320">syscall.h:320</a></div></div>
-<div class="ttc" id="astat-time_8h_html_aa9689622a344d847333e534ac23d3093"><div class="ttname"><a href="../../de/d79/stat-time_8h.html#aa9689622a344d847333e534ac23d3093">timespec::tv_nsec</a></div><div class="ttdeci">long int tv_nsec</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d79/stat-time_8h_source.html#l00037">stat-time.h:37</a></div></div>
-<div class="ttc" id="astat-time_8h_html_afc3302668d7cb5952f590da69fdd4955"><div class="ttname"><a href="../../de/d79/stat-time_8h.html#afc3302668d7cb5952f590da69fdd4955">timespec::tv_sec</a></div><div class="ttdeci">time_t tv_sec</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d79/stat-time_8h_source.html#l00036">stat-time.h:36</a></div></div>
 <div class="ttc" id="ax32_2syscall__arch_8h_html_a02e7d56bdc4da6ff699964b559545fd2"><div class="ttname"><a href="../../d7/dc5/x32_2syscall__arch_8h.html#a02e7d56bdc4da6ff699964b559545fd2">SYS_sched_rr_get_interval_time64</a></div><div class="ttdeci">#define SYS_sched_rr_get_interval_time64</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc5/x32_2syscall__arch_8h_source.html#l00089">syscall_arch.h:89</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00044">__syscall</a>, <a class="el" href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret()</a>, <a class="el" href="../../d0/d43/mconf_8c_source.html#l00450">pid</a>, <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00320">SYS_sched_rr_get_interval</a>, <a class="el" href="../../d7/dc5/x32_2syscall__arch_8h_source.html#l00089">SYS_sched_rr_get_interval_time64</a>, <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>, <a class="el" href="../../de/d79/stat-time_8h_source.html#l00037">timespec::tv_nsec</a>, and <a class="el" href="../../de/d79/stat-time_8h_source.html#l00036">timespec::tv_sec</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00044">__syscall</a>, <a class="el" href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret()</a>, <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00320">SYS_sched_rr_get_interval</a>, <a class="el" href="../../d7/dc5/x32_2syscall__arch_8h_source.html#l00089">SYS_sched_rr_get_interval_time64</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d4/daf/sched__rr__get__interval__time32_8c_source.html#l00005">__sched_rr_get_interval_time32()</a>.</p>
 
@@ -637,8 +626,6 @@ __reserved2</td>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret()</a>, and <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00041">ENOSYS</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d58/chrt_8c_source.html#l00090">chrt_main()</a>.</p>
-
 </div>
 </div>
 <a id="a357cd4b34c13011749dfffb42b489f09"></a>
@@ -663,8 +650,6 @@ __reserved2</td>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/d18/less_8c_source.html#l00470">read_lines()</a>.</p>
 
 </div>
 </div>

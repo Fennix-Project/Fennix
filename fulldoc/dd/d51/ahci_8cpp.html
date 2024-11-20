@@ -96,10 +96,10 @@ $(document).ready(function(){initNavTree('dd/d51/ahci_8cpp.html','../../'); init
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;errno.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../de/d40/block_8h_source.html">block.h</a>&gt;</code><br />
+<code>#include &lt;device.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d8/d29/regs_8h_source.html">regs.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d3/d5a/base_8h_source.html">base.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d9/d97/pci_8h_source.html">pci.h</a>&gt;</code><br />
+<code>#include &lt;pci.h&gt;</code><br />
 </div>
 <p><a href="../../dd/d51/ahci_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -189,10 +189,14 @@ Functions</h2></td></tr>
 <tr class="separator:a3da80a21817284656fab2366ce440546"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdee1e06ba3d90e76724c7fddee28acd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d51/ahci_8cpp.html#a7674c329addda8fbe6176bbbf25c8b21">PortType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/ahci_8cpp.html#afdee1e06ba3d90e76724c7fddee28acd">CheckPortType</a> (<a class="el" href="../../dd/d51/ahci_8cpp.html#de/d0f/structHBAPort">HBAPort</a> *<a class="el" href="../../d3/d7b/classPort.html">Port</a>)</td></tr>
 <tr class="separator:afdee1e06ba3d90e76724c7fddee28acd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a805fe32708029e16290f7322087e8733"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/ahci_8cpp.html#a805fe32708029e16290f7322087e8733">drvRead</a> (<a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#ab46c2d8e15a0ce794a8935841e5d6b92">dev_t</a>, <a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#ab46c2d8e15a0ce794a8935841e5d6b92">dev_t</a> <a class="el" href="../../de/d1e/apps_2base_2bash_2lib_2sh_2strftime_8c.html#a2f2bf96d77a187bd4446b4ba3864470d">min</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *<a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a095175dabcb7cd83bddf2bea50371121">Buffer</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a7da24467a0654ce2d1b0d8d0a09eee4b">Size</a>, <a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a37aff01e955441499997a359a4153b3d">off_t</a> Offset)</td></tr>
-<tr class="separator:a805fe32708029e16290f7322087e8733"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a402c5318aeb2e229c96787655ac8766a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/ahci_8cpp.html#a402c5318aeb2e229c96787655ac8766a">drvWrite</a> (<a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#ab46c2d8e15a0ce794a8935841e5d6b92">dev_t</a>, <a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#ab46c2d8e15a0ce794a8935841e5d6b92">dev_t</a> <a class="el" href="../../de/d1e/apps_2base_2bash_2lib_2sh_2strftime_8c.html#a2f2bf96d77a187bd4446b4ba3864470d">min</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *<a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a095175dabcb7cd83bddf2bea50371121">Buffer</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a7da24467a0654ce2d1b0d8d0a09eee4b">Size</a>, <a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a37aff01e955441499997a359a4153b3d">off_t</a> Offset)</td></tr>
-<tr class="separator:a402c5318aeb2e229c96787655ac8766a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6b6361e07f92a5995fe253ec06fd33a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/ahci_8cpp.html#ab6b6361e07f92a5995fe253ec06fd33a">__fs_Open</a> (struct <a class="el" href="../../d3/da6/Drivers_2include_2fs_8h.html#d6/d59/structInode">Inode</a> *, int, <a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ad2933406ba93c0e0d1884fc09c18a0bf">mode_t</a>)</td></tr>
+<tr class="separator:ab6b6361e07f92a5995fe253ec06fd33a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7f01ac41cb98e8e984e1f59081be3ea"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/ahci_8cpp.html#aa7f01ac41cb98e8e984e1f59081be3ea">__fs_Close</a> (struct <a class="el" href="../../d3/da6/Drivers_2include_2fs_8h.html#d6/d59/structInode">Inode</a> *)</td></tr>
+<tr class="separator:aa7f01ac41cb98e8e984e1f59081be3ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2df0ec311ba765fc1cb04c4b8c5a406e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/ahci_8cpp.html#a2df0ec311ba765fc1cb04c4b8c5a406e">__fs_Read</a> (struct <a class="el" href="../../d3/da6/Drivers_2include_2fs_8h.html#d6/d59/structInode">Inode</a> *Node, void *<a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a095175dabcb7cd83bddf2bea50371121">Buffer</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a7da24467a0654ce2d1b0d8d0a09eee4b">Size</a>, <a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ae498af04567b740d66e09d36613c2cd8">off_t</a> Offset)</td></tr>
+<tr class="separator:a2df0ec311ba765fc1cb04c4b8c5a406e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6fccf6c320f992005572de27a5eb567"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/ahci_8cpp.html#ad6fccf6c320f992005572de27a5eb567">__fs_Write</a> (struct <a class="el" href="../../d3/da6/Drivers_2include_2fs_8h.html#d6/d59/structInode">Inode</a> *Node, const void *<a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a095175dabcb7cd83bddf2bea50371121">Buffer</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d5/d0c/rtl8139_8hpp.html#a7da24467a0654ce2d1b0d8d0a09eee4b">Size</a>, <a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ae498af04567b740d66e09d36613c2cd8">off_t</a> Offset)</td></tr>
+<tr class="separator:ad6fccf6c320f992005572de27a5eb567"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91d12bcb5fc4063cc4ad6c4801d5d5b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/ahci_8cpp.html#a91d12bcb5fc4063cc4ad6c4801d5d5b4">OnInterruptReceived</a> (TrapFrame *)</td></tr>
 <tr class="separator:a91d12bcb5fc4063cc4ad6c4801d5d5b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a725d888123501c2f038199503b78bfb0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/ahci_8cpp.html#a725d888123501c2f038199503b78bfb0">cxx_Panic</a> ()</td></tr>
@@ -212,6 +216,8 @@ Variables</h2></td></tr>
 <tr class="separator:a745094b5c0615f96bd1f9fda0d2a11bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02d56124e1383b4cb652a40d7e2ab054"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/ahci_8cpp.html#a02d56124e1383b4cb652a40d7e2ab054">PortTypeName</a> []</td></tr>
 <tr class="separator:a02d56124e1383b4cb652a40d7e2ab054"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75ce9df389937e9ac2693ebd5436a11f"><td class="memItemLeft" align="right" valign="top">const struct <a class="el" href="../../db/de6/structInodeOperations.html">InodeOperations</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/ahci_8cpp.html#a75ce9df389937e9ac2693ebd5436a11f">BlockOps</a></td></tr>
+<tr class="separator:a75ce9df389937e9ac2693ebd5436a11f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f127ad53b394ecab0c97ae186e1b386"><td class="memItemLeft" align="right" valign="top">PCIArray *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d51/ahci_8cpp.html#a1f127ad53b394ecab0c97ae186e1b386">Devices</a></td></tr>
 <tr class="separator:a1f127ad53b394ecab0c97ae186e1b386"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -1147,7 +1153,7 @@ Reserved1[4]</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a> </td>
+          <td class="memname">struct <a class="el" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a> </td>
           <td>(</td>
           <td class="paramtype">(packed)&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -1158,16 +1164,16 @@ Reserved1[4]</td>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00001">1</a> of file <a class="el" href="../../dd/d51/ahci_8cpp_source.html">ahci.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;{</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    {</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">Reserved1</a> : 1;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">Reserved1</a> : 1;</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Retired3 : 1;</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ResponseIncomplete : 1;</div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Retired2 : 3;</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> FixedDevice : 1;</div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> RemovableMedia : 1;</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Retired1 : 7;</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> DeviceType : 1;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d0/df7/Kernel_2include_2interface_2device_8h.html#ad258d4c51629346fceac4679b3209ad9">DeviceType</a> : 1;</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    } GeneralConfiguration;</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> NumCylinders;</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SpecificConfiguration;</div>
@@ -1182,12 +1188,12 @@ Reserved1[4]</td>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> ModelNumber[40];</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> MaximumBlockTransfer;</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> VendorUnique2;</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    {</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> FeatureSupported : 1;</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a57e0aa05de0a45d24023e5c56eba520e">Reserved</a> : 15;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a57e0aa05de0a45d24023e5c56eba520e">Reserved</a> : 15;</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    } TrustedComputing;</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    {</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> CurrentLongPhysicalSectorAlignment : 2;</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> ReservedByte49 : 6;</div>
@@ -1195,9 +1201,9 @@ Reserved1[4]</td>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> LbaSupported : 1;</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> IordyDisable : 1;</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> IordySupported : 1;</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">Reserved1</a> : 1;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">Reserved1</a> : 1;</div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> StandybyTimerSupport : 1;</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> <a class="code" href="../../d9/d97/pci_8h.html#acf89fc9ee55923d8f97e524e05867464">Reserved2</a> : 2;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#acf89fc9ee55923d8f97e524e05867464">Reserved2</a> : 2;</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ReservedWord50;</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    } Capabilities;</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ObsoleteWords51[2];</div>
@@ -1225,7 +1231,7 @@ Reserved1[4]</td>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> RecommendedMWXferCycleTime;</div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> MinimumPIOCycleTime;</div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> MinimumPIOCycleTimeIORDY;</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    {</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ZonedCapabilities : 2;</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> NonVolatileWriteCache : 1;</div>
@@ -1246,13 +1252,13 @@ Reserved1[4]</td>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ReservedWords70[5];</div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> QueueDepth : 5;</div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ReservedWord75 : 11;</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    {</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">Reserved0</a> : 1;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">Reserved0</a> : 1;</div>
 <div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SataGen1 : 1;</div>
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SataGen2 : 1;</div>
 <div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SataGen3 : 1;</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">Reserved1</a> : 4;</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">Reserved1</a> : 4;</div>
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> NCQ : 1;</div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> HIPM : 1;</div>
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> PhyEvents : 1;</div>
@@ -1261,7 +1267,7 @@ Reserved1[4]</td>
 <div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> HostAutoPS : 1;</div>
 <div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> DeviceAutoPS : 1;</div>
 <div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ReadLogDMA : 1;</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#acf89fc9ee55923d8f97e524e05867464">Reserved2</a> : 1;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#acf89fc9ee55923d8f97e524e05867464">Reserved2</a> : 1;</div>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> CurrentSpeed : 3;</div>
 <div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> NcqStreaming : 1;</div>
 <div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> NcqQueueMgmt : 1;</div>
@@ -1269,9 +1275,9 @@ Reserved1[4]</td>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> DEVSLPtoReducedPwrState : 1;</div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Reserved3 : 8;</div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    } SerialAtaCapabilities;</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    {</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">Reserved0</a> : 1;</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">Reserved0</a> : 1;</div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> NonZeroOffsets : 1;</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> DmaSetupAutoActivate : 1;</div>
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> DIPM : 1;</div>
@@ -1281,11 +1287,11 @@ Reserved1[4]</td>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> NCQAutosense : 1;</div>
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> DEVSLP : 1;</div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> HybridInformation : 1;</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">Reserved1</a> : 6;</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">Reserved1</a> : 6;</div>
 <div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    } SerialAtaFeaturesSupported;</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    {</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">Reserved0</a> : 1;</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">Reserved0</a> : 1;</div>
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> NonZeroOffsets : 1;</div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> DmaSetupAutoActivate : 1;</div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> DIPM : 1;</div>
@@ -1295,17 +1301,17 @@ Reserved1[4]</td>
 <div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> DeviceAutoPS : 1;</div>
 <div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> DEVSLP : 1;</div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> HybridInformation : 1;</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">Reserved1</a> : 6;</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">Reserved1</a> : 6;</div>
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    } SerialAtaFeaturesEnabled;</div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> MajorRevision;</div>
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> MinorRevision;</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
 <div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    {</div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SmartCommands : 1;</div>
 <div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SecurityMode : 1;</div>
 <div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> RemovableMediaFeature : 1;</div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> PowerManagement : 1;</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">Reserved1</a> : 1;</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">Reserved1</a> : 1;</div>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> WriteCache : 1;</div>
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> LookAhead : 1;</div>
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ReleaseInterrupt : 1;</div>
@@ -1324,7 +1330,7 @@ Reserved1[4]</td>
 <div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Msn : 1;</div>
 <div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> PowerUpInStandby : 1;</div>
 <div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ManualPowerUp : 1;</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#acf89fc9ee55923d8f97e524e05867464">Reserved2</a> : 1;</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#acf89fc9ee55923d8f97e524e05867464">Reserved2</a> : 1;</div>
 <div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SetMax : 1;</div>
 <div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Acoustics : 1;</div>
 <div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> BigLba : 1;</div>
@@ -1347,13 +1353,13 @@ Reserved1[4]</td>
 <div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> IdleWithUnloadFeature : 1;</div>
 <div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> WordValid : 2;</div>
 <div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    } CommandSetSupport;</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
 <div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    {</div>
 <div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SmartCommands : 1;</div>
 <div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SecurityMode : 1;</div>
 <div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> RemovableMediaFeature : 1;</div>
 <div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> PowerManagement : 1;</div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">Reserved1</a> : 1;</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">Reserved1</a> : 1;</div>
 <div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> WriteCache : 1;</div>
 <div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> LookAhead : 1;</div>
 <div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ReleaseInterrupt : 1;</div>
@@ -1372,7 +1378,7 @@ Reserved1[4]</td>
 <div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Msn : 1;</div>
 <div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> PowerUpInStandby : 1;</div>
 <div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ManualPowerUp : 1;</div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#acf89fc9ee55923d8f97e524e05867464">Reserved2</a> : 1;</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#acf89fc9ee55923d8f97e524e05867464">Reserved2</a> : 1;</div>
 <div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SetMax : 1;</div>
 <div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Acoustics : 1;</div>
 <div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> BigLba : 1;</div>
@@ -1398,12 +1404,12 @@ Reserved1[4]</td>
 <div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;    } CommandSetActive;</div>
 <div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> UltraDMASupport : 8;</div>
 <div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> UltraDMAActive : 8;</div>
-<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
 <div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;    {</div>
 <div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> TimeRequired : 15;</div>
 <div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ExtendedTimeReported : 1;</div>
 <div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;    } NormalSecurityEraseUnit;</div>
-<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
 <div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;    {</div>
 <div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> TimeRequired : 15;</div>
 <div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ExtendedTimeReported : 1;</div>
@@ -1421,20 +1427,20 @@ Reserved1[4]</td>
 <div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;    <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Max48BitLBA[2];</div>
 <div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> StreamingTransferTime;</div>
 <div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> DsmCap;</div>
-<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
 <div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;    {</div>
 <div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> LogicalSectorsPerPhysicalSector : 4;</div>
-<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">Reserved0</a> : 8;</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">Reserved0</a> : 8;</div>
 <div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> LogicalSectorLongerThan256Words : 1;</div>
 <div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> MultipleLogicalSectorsPerPhysicalSector : 1;</div>
-<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">Reserved1</a> : 2;</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">Reserved1</a> : 2;</div>
 <div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;    } PhysicalLogicalSectorSize;</div>
 <div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> InterSeekDelay;</div>
 <div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> WorldWideName[4];</div>
 <div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ReservedForWorldWideName128[4];</div>
 <div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ReservedForTlcTechnicalReport;</div>
 <div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> WordsPerLogicalSector[2];</div>
-<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
 <div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;    {</div>
 <div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ReservedForDrqTechnicalReport : 1;</div>
 <div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> WriteReadVerify : 1;</div>
@@ -1444,10 +1450,10 @@ Reserved1[4]</td>
 <div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> FreefallControl : 1;</div>
 <div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SenseDataReporting : 1;</div>
 <div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ExtendedPowerConditions : 1;</div>
-<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">Reserved0</a> : 6;</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">Reserved0</a> : 6;</div>
 <div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> WordValid : 2;</div>
 <div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;    } CommandSetSupportExt;</div>
-<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
 <div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;    {</div>
 <div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ReservedForDrqTechnicalReport : 1;</div>
 <div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> WriteReadVerify : 1;</div>
@@ -1457,13 +1463,13 @@ Reserved1[4]</td>
 <div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> FreefallControl : 1;</div>
 <div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SenseDataReporting : 1;</div>
 <div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ExtendedPowerConditions : 1;</div>
-<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">Reserved0</a> : 6;</div>
-<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">Reserved1</a> : 2;</div>
+<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">Reserved0</a> : 6;</div>
+<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">Reserved1</a> : 2;</div>
 <div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;    } CommandSetActiveExt;</div>
 <div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ReservedForExpandedSupportandActive[6];</div>
 <div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> MsnSupport : 2;</div>
 <div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ReservedWord127 : 14;</div>
-<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
+<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
 <div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;    {</div>
 <div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SecuritySupported : 1;</div>
 <div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SecurityEnabled : 1;</div>
@@ -1471,56 +1477,56 @@ Reserved1[4]</td>
 <div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SecurityFrozen : 1;</div>
 <div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SecurityCountExpired : 1;</div>
 <div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> EnhancedSecurityEraseSupported : 1;</div>
-<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">Reserved0</a> : 2;</div>
+<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">Reserved0</a> : 2;</div>
 <div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SecurityLevel : 1;</div>
-<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">Reserved1</a> : 7;</div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">Reserved1</a> : 7;</div>
 <div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;    } SecurityStatus;</div>
 <div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ReservedWord129[31];</div>
-<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
+<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
 <div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;    {</div>
 <div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> MaximumCurrentInMA : 12;</div>
 <div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> CfaPowerMode1Disabled : 1;</div>
 <div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> CfaPowerMode1Required : 1;</div>
-<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">Reserved0</a> : 1;</div>
+<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">Reserved0</a> : 1;</div>
 <div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Word160Supported : 1;</div>
 <div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;    } CfaPowerMode1;</div>
 <div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ReservedForCfaWord161[7];</div>
 <div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> NominalFormFactor : 4;</div>
 <div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ReservedWord168 : 12;</div>
-<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
+<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
 <div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;    {</div>
 <div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SupportsTrim : 1;</div>
-<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">Reserved0</a> : 15;</div>
+<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">Reserved0</a> : 15;</div>
 <div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;    } DataSetManagementFeature;</div>
 <div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> AdditionalProductID[4];</div>
 <div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ReservedForCfaWord174[2];</div>
 <div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> CurrentMediaSerialNumber[30];</div>
-<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
+<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
 <div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;    {</div>
 <div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Supported : 1;</div>
-<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">Reserved0</a> : 1;</div>
+<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">Reserved0</a> : 1;</div>
 <div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> WriteSameSuported : 1;</div>
 <div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ErrorRecoveryControlSupported : 1;</div>
 <div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> FeatureControlSuported : 1;</div>
 <div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> DataTablesSuported : 1;</div>
-<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">Reserved1</a> : 6;</div>
+<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">Reserved1</a> : 6;</div>
 <div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> VendorSpecific : 4;</div>
 <div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;    } SCTCommandTransport;</div>
 <div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ReservedWord207[2];</div>
-<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
+<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
 <div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;    {</div>
 <div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> AlignmentOfLogicalWithinPhysical : 14;</div>
 <div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Word209Supported : 1;</div>
-<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">Reserved0</a> : 1;</div>
+<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">Reserved0</a> : 1;</div>
 <div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;    } BlockAlignment;</div>
 <div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> WriteReadVerifySectorCountMode3Only[2];</div>
 <div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> WriteReadVerifySectorCountMode2Only[2];</div>
-<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
+<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
 <div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;    {</div>
 <div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> NVCachePowerModeEnabled : 1;</div>
-<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">Reserved0</a> : 3;</div>
+<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">Reserved0</a> : 3;</div>
 <div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> NVCacheFeatureSetEnabled : 1;</div>
-<div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">Reserved1</a> : 3;</div>
+<div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">Reserved1</a> : 3;</div>
 <div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> NVCachePowerModeVersion : 4;</div>
 <div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> NVCacheFeatureSetVersion : 4;</div>
 <div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;    } NVCacheCapabilities;</div>
@@ -1528,15 +1534,15 @@ Reserved1[4]</td>
 <div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> NVCacheSizeMSW;</div>
 <div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> NominalMediaRotationRate;</div>
 <div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ReservedWord218;</div>
-<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
+<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
 <div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;    {</div>
 <div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> NVCacheEstimatedTimeToSpinUpInSeconds;</div>
-<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> <a class="code" href="../../d9/d97/pci_8h.html#a57e0aa05de0a45d24023e5c56eba520e">Reserved</a>;</div>
+<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> <a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#a57e0aa05de0a45d24023e5c56eba520e">Reserved</a>;</div>
 <div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;    } NVCacheOptions;</div>
 <div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> WriteReadVerifySectorCountMode : 8;</div>
 <div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ReservedWord220 : 8;</div>
 <div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ReservedWord221;</div>
-<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
+<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a>((packed))</div>
 <div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;    {</div>
 <div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> MajorVersion : 12;</div>
 <div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> TransportType : 4;</div>
@@ -1550,16 +1556,183 @@ Reserved1[4]</td>
 <div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d9/d36/binfo_8h.html#a00e8a3ac03632ba8932771e3c4456e5d">Signature</a> : 8;</div>
 <div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> CheckSum : 8;</div>
 <div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;};</div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00160">types.h:160</a></div></div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a5debae8b2a1ec20a6694c0c443ee399e"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></div><div class="ttdeci">__UINT16_TYPE__ uint16_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00161">types.h:161</a></div></div>
+<div class="ttc" id="aDrivers_2include_2pci_8h_html_a504d5cebd50e3c1ea8fd5844dcd001cb"><div class="ttname"><a href="../../d5/d9f/Drivers_2include_2pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">__attribute__::Reserved1</a></div><div class="ttdeci">uint16_t Reserved1</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d20/Kernel_2include_2interface_2pci_8h_source.html#l00081">pci.h:81</a></div></div>
+<div class="ttc" id="aDrivers_2include_2pci_8h_html_a57e0aa05de0a45d24023e5c56eba520e"><div class="ttname"><a href="../../d5/d9f/Drivers_2include_2pci_8h.html#a57e0aa05de0a45d24023e5c56eba520e">__attribute__::Reserved</a></div><div class="ttdeci">uint32_t Reserved</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d20/Kernel_2include_2interface_2pci_8h_source.html#l00151">pci.h:151</a></div></div>
+<div class="ttc" id="aDrivers_2include_2pci_8h_html_a8dcff031235d3326f495f0b2d1db5114"><div class="ttname"><a href="../../d5/d9f/Drivers_2include_2pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">__attribute__::Reserved0</a></div><div class="ttdeci">uint8_t Reserved0</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d20/Kernel_2include_2interface_2pci_8h_source.html#l00080">pci.h:80</a></div></div>
+<div class="ttc" id="aDrivers_2include_2pci_8h_html_acf89fc9ee55923d8f97e524e05867464"><div class="ttname"><a href="../../d5/d9f/Drivers_2include_2pci_8h.html#acf89fc9ee55923d8f97e524e05867464">__attribute__::Reserved2</a></div><div class="ttdeci">uint32_t Reserved2</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d20/Kernel_2include_2interface_2pci_8h_source.html#l00082">pci.h:82</a></div></div>
+<div class="ttc" id="aDrivers_2include_2pci_8h_html_dd/d3f/struct____attribute____"><div class="ttname"><a href="../../d5/d9f/Drivers_2include_2pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d20/Kernel_2include_2interface_2pci_8h_source.html#l00050">pci.h:51</a></div></div>
+<div class="ttc" id="aKernel_2include_2interface_2device_8h_html_ad258d4c51629346fceac4679b3209ad9"><div class="ttname"><a href="../../d0/df7/Kernel_2include_2interface_2device_8h.html#ad258d4c51629346fceac4679b3209ad9">DeviceType</a></div><div class="ttdeci">DeviceType</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df7/Kernel_2include_2interface_2device_8h_source.html#l00031">device.h:32</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00109">types.h:109</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a5debae8b2a1ec20a6694c0c443ee399e"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></div><div class="ttdeci">__UINT16_TYPE__ uint16_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00110">types.h:110</a></div></div>
 <div class="ttc" id="aarithmetic__operations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddd/arithmetic__operations_8c_source.html#l00295">arithmetic_operations.c:295</a></div></div>
 <div class="ttc" id="abinfo_8h_html_a00e8a3ac03632ba8932771e3c4456e5d"><div class="ttname"><a href="../../d9/d36/binfo_8h.html#a00e8a3ac03632ba8932771e3c4456e5d">Signature</a></div><div class="ttdeci">__UINT8_TYPE__ Signature[8]</div><div class="ttdoc">Signature.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d36/binfo_8h_source.html#l00003">binfo.h:3</a></div></div>
-<div class="ttc" id="apci_8h_html_a504d5cebd50e3c1ea8fd5844dcd001cb"><div class="ttname"><a href="../../d9/d97/pci_8h.html#a504d5cebd50e3c1ea8fd5844dcd001cb">__attribute__::Reserved1</a></div><div class="ttdeci">uint16_t Reserved1</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d97/pci_8h_source.html#l00081">pci.h:81</a></div></div>
-<div class="ttc" id="apci_8h_html_a57e0aa05de0a45d24023e5c56eba520e"><div class="ttname"><a href="../../d9/d97/pci_8h.html#a57e0aa05de0a45d24023e5c56eba520e">__attribute__::Reserved</a></div><div class="ttdeci">uint32_t Reserved</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d97/pci_8h_source.html#l00151">pci.h:151</a></div></div>
-<div class="ttc" id="apci_8h_html_a8dcff031235d3326f495f0b2d1db5114"><div class="ttname"><a href="../../d9/d97/pci_8h.html#a8dcff031235d3326f495f0b2d1db5114">__attribute__::Reserved0</a></div><div class="ttdeci">uint8_t Reserved0</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d97/pci_8h_source.html#l00080">pci.h:80</a></div></div>
-<div class="ttc" id="apci_8h_html_acf89fc9ee55923d8f97e524e05867464"><div class="ttname"><a href="../../d9/d97/pci_8h.html#acf89fc9ee55923d8f97e524e05867464">__attribute__::Reserved2</a></div><div class="ttdeci">uint32_t Reserved2</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d97/pci_8h_source.html#l00082">pci.h:82</a></div></div>
-<div class="ttc" id="apci_8h_html_dd/d3f/struct____attribute____"><div class="ttname"><a href="../../d9/d97/pci_8h.html#dd/d3f/struct____attribute____">__attribute__</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d97/pci_8h_source.html#l00050">pci.h:51</a></div></div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="aa7f01ac41cb98e8e984e1f59081be3ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7f01ac41cb98e8e984e1f59081be3ea">&#9670;&nbsp;</a></span>__fs_Close()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int __fs_Close </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="../../d3/da6/Drivers_2include_2fs_8h.html#d6/d59/structInode">Inode</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00843">843</a> of file <a class="el" href="../../dd/d51/ahci_8cpp_source.html">ahci.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;{ <span class="keywordflow">return</span> 0; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab6b6361e07f92a5995fe253ec06fd33a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6b6361e07f92a5995fe253ec06fd33a">&#9670;&nbsp;</a></span>__fs_Open()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int __fs_Open </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="../../d3/da6/Drivers_2include_2fs_8h.html#d6/d59/structInode">Inode</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ad2933406ba93c0e0d1884fc09c18a0bf">mode_t</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00842">842</a> of file <a class="el" href="../../dd/d51/ahci_8cpp_source.html">ahci.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;{ <span class="keywordflow">return</span> 0; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a2df0ec311ba765fc1cb04c4b8c5a406e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2df0ec311ba765fc1cb04c4b8c5a406e">&#9670;&nbsp;</a></span>__fs_Read()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a> __fs_Read </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="../../d3/da6/Drivers_2include_2fs_8h.html#d6/d59/structInode">Inode</a> *&#160;</td>
+          <td class="paramname"><em>Node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>Buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ae498af04567b740d66e09d36613c2cd8">off_t</a>&#160;</td>
+          <td class="paramname"><em>Offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00845">845</a> of file <a class="el" href="../../dd/d51/ahci_8cpp_source.html">ahci.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;{</div>
+<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d2/d78/p__spec_8h.html#abcf175336fd34515e797965afebe4f0fad8b76af209cd7ba83b4ebf33ba1637b2">ok</a> = <a class="code" href="../../d1/d87/uart_8c.html#a2ad753c0f887e8a4d18ce4b743811b0f">Ports</a>[<a class="code" href="../../d1/d48/namespaceDriver.html#af7847fe6734be04e21d9221644de1c6e">Node</a>-&gt;GetMinor()]-&gt;ReadWrite(<a class="code" href="../../d1/d48/namespaceDriver.html#a1e3638c734e55655cbd2e45d0222ca0b">Offset</a> / 512,</div>
+<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;                                                 <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>(<a class="code" href="../../d1/d48/namespaceDriver.html#adea6dfbfa0f2fec29bc81d509fac9158">Size</a> / 512),</div>
+<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;                                                 (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *)<a class="code" href="../../d5/d0c/rtl8139_8hpp.html#a095175dabcb7cd83bddf2bea50371121">Buffer</a>,</div>
+<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;                                                 <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d78/p__spec_8h.html#abcf175336fd34515e797965afebe4f0fad8b76af209cd7ba83b4ebf33ba1637b2">ok</a> ? <a class="code" href="../../d1/d48/namespaceDriver.html#adea6dfbfa0f2fec29bc81d509fac9158">Size</a> : 0;</div>
+<div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;}</div>
+<div class="ttc" id="anamespaceDriver_html_a1e3638c734e55655cbd2e45d0222ca0b"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a1e3638c734e55655cbd2e45d0222ca0b">Driver::Offset</a></div><div class="ttdeci">struct kdirent size_t off_t Offset</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/daemon_8cpp_source.html#l00491">daemon.cpp:491</a></div></div>
+<div class="ttc" id="anamespaceDriver_html_adea6dfbfa0f2fec29bc81d509fac9158"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#adea6dfbfa0f2fec29bc81d509fac9158">Driver::Size</a></div><div class="ttdeci">struct kdirent size_t Size</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/daemon_8cpp_source.html#l00491">daemon.cpp:491</a></div></div>
+<div class="ttc" id="anamespaceDriver_html_af7847fe6734be04e21d9221644de1c6e"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#af7847fe6734be04e21d9221644de1c6e">Driver::Node</a></div><div class="ttdeci">auto Node</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/daemon_8cpp_source.html#l00495">daemon.cpp:495</a></div></div>
+<div class="ttc" id="ap__spec_8h_html_abcf175336fd34515e797965afebe4f0fad8b76af209cd7ba83b4ebf33ba1637b2"><div class="ttname"><a href="../../d2/d78/p__spec_8h.html#abcf175336fd34515e797965afebe4f0fad8b76af209cd7ba83b4ebf33ba1637b2">ok</a></div><div class="ttdeci">@ ok</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d78/p__spec_8h_source.html#l00601">p_spec.h:601</a></div></div>
+<div class="ttc" id="artl8139_8hpp_html_a095175dabcb7cd83bddf2bea50371121"><div class="ttname"><a href="../../d5/d0c/rtl8139_8hpp.html#a095175dabcb7cd83bddf2bea50371121">Buffer</a></div><div class="ttdeci">uint8_t * Buffer</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d0c/rtl8139_8hpp_source.html#l00000">rtl8139.hpp:0</a></div></div>
+<div class="ttc" id="auart_8c_html_a2ad753c0f887e8a4d18ce4b743811b0f"><div class="ttname"><a href="../../d1/d87/uart_8c.html#a2ad753c0f887e8a4d18ce4b743811b0f">Ports</a></div><div class="ttdeci">Ports</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d87/uart_8c_source.html#l00029">uart.c:30</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d5/d0c/rtl8139_8hpp_source.html#l00000">Buffer</a>, <a class="el" href="../../de/d2b/daemon_8cpp_source.html#l00495">Driver::Node</a>, <a class="el" href="../../de/d2b/daemon_8cpp_source.html#l00491">Driver::Offset</a>, <a class="el" href="../../d2/d78/p__spec_8h_source.html#l00601">ok</a>, and <a class="el" href="../../de/d2b/daemon_8cpp_source.html#l00491">Driver::Size</a>.</p>
+
+</div>
+</div>
+<a id="ad6fccf6c320f992005572de27a5eb567"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6fccf6c320f992005572de27a5eb567">&#9670;&nbsp;</a></span>__fs_Write()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a> __fs_Write </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="../../d3/da6/Drivers_2include_2fs_8h.html#d6/d59/structInode">Inode</a> *&#160;</td>
+          <td class="paramname"><em>Node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>Buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
+          <td class="paramname"><em>Size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ae498af04567b740d66e09d36613c2cd8">off_t</a>&#160;</td>
+          <td class="paramname"><em>Offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00854">854</a> of file <a class="el" href="../../dd/d51/ahci_8cpp_source.html">ahci.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;{</div>
+<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d2/d78/p__spec_8h.html#abcf175336fd34515e797965afebe4f0fad8b76af209cd7ba83b4ebf33ba1637b2">ok</a> = <a class="code" href="../../d1/d87/uart_8c.html#a2ad753c0f887e8a4d18ce4b743811b0f">Ports</a>[<a class="code" href="../../d1/d48/namespaceDriver.html#af7847fe6734be04e21d9221644de1c6e">Node</a>-&gt;GetMinor()]-&gt;ReadWrite(<a class="code" href="../../d1/d48/namespaceDriver.html#a1e3638c734e55655cbd2e45d0222ca0b">Offset</a> / 512,</div>
+<div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;                                                 <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>(<a class="code" href="../../d1/d48/namespaceDriver.html#adea6dfbfa0f2fec29bc81d509fac9158">Size</a> / 512),</div>
+<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;                                                 (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *)<a class="code" href="../../d5/d0c/rtl8139_8hpp.html#a095175dabcb7cd83bddf2bea50371121">Buffer</a>,</div>
+<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;                                                 <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d78/p__spec_8h.html#abcf175336fd34515e797965afebe4f0fad8b76af209cd7ba83b4ebf33ba1637b2">ok</a> ? <a class="code" href="../../d1/d48/namespaceDriver.html#adea6dfbfa0f2fec29bc81d509fac9158">Size</a> : 0;</div>
+<div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d5/d0c/rtl8139_8hpp_source.html#l00000">Buffer</a>, <a class="el" href="../../de/d2b/daemon_8cpp_source.html#l00495">Driver::Node</a>, <a class="el" href="../../de/d2b/daemon_8cpp_source.html#l00491">Driver::Offset</a>, <a class="el" href="../../d2/d78/p__spec_8h_source.html#l00601">ok</a>, and <a class="el" href="../../de/d2b/daemon_8cpp_source.html#l00491">Driver::Size</a>.</p>
+
 </div>
 </div>
 <a id="afdee1e06ba3d90e76724c7fddee28acd"></a>
@@ -1613,7 +1786,7 @@ Reserved1[4]</td>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00033">HBA_PORT_DEV_PRESENT</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00032">HBA_PORT_IPM_ACTIVE</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00048">None</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00051">PM</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00049">SATA</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00036">SATA_SIG_ATA</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00039">SATA_SIG_ATAPI</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00037">SATA_SIG_PM</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00038">SATA_SIG_SEMB</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00052">SATAPI</a>, and <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00050">SEMB</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00892">cxx_Initialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00913">cxx_Initialize()</a>.</p>
 
 </div>
 </div>
@@ -1632,46 +1805,43 @@ Reserved1[4]</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00959">959</a> of file <a class="el" href="../../dd/d51/ahci_8cpp_source.html">ahci.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00960"></a><span class="lineno">  960</span>&#160;{</div>
-<div class="line"><a name="l00961"></a><span class="lineno">  961</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = 0; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; <a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a>; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>++)</div>
-<div class="line"><a name="l00962"></a><span class="lineno">  962</span>&#160;    {</div>
-<div class="line"><a name="l00963"></a><span class="lineno">  963</span>&#160;        <a class="code" href="../../dd/d51/ahci_8cpp.html#ab926bbe11fe11c128ee186390eaa7d1e">Ports</a>[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>]-&gt;<a class="code" href="../../d3/d7b/classPort.html#ade80cd821f44de47d3dae6800a221cf6">StopCMD</a>();</div>
-<div class="line"><a name="l00964"></a><span class="lineno">  964</span>&#160;        <span class="keyword">delete</span> <a class="code" href="../../dd/d51/ahci_8cpp.html#ab926bbe11fe11c128ee186390eaa7d1e">Ports</a>[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>];</div>
-<div class="line"><a name="l00965"></a><span class="lineno">  965</span>&#160;    }</div>
-<div class="line"><a name="l00966"></a><span class="lineno">  966</span>&#160; </div>
-<div class="line"><a name="l00967"></a><span class="lineno">  967</span>&#160;    <a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a> = 0;</div>
-<div class="line"><a name="l00968"></a><span class="lineno">  968</span>&#160; </div>
-<div class="line"><a name="l00969"></a><span class="lineno">  969</span>&#160;    <span class="keywordflow">do</span></div>
-<div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;    {</div>
-<div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160;        <a class="code" href="../../d1/d48/namespaceDriver.html#a74d002f868a9b2772be6cde6aeea27a5">UnregisterBlockDevice</a>(<a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a>, <a class="code" href="../../d4/d55/Kernel_2driver_8h.html#afcd378c40e1174c74b79e47404cc960fa4e0220cf66d2f67c7378d8ceaecb60a1">ddt_SATA</a>);</div>
-<div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160;        <a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a>--;</div>
-<div class="line"><a name="l00973"></a><span class="lineno">  973</span>&#160;    } <span class="keywordflow">while</span> (<a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a> &gt;= 0);</div>
-<div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160; </div>
-<div class="line"><a name="l00975"></a><span class="lineno">  975</span>&#160;    PCIArray *<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a> = <a class="code" href="../../dd/d51/ahci_8cpp.html#a1f127ad53b394ecab0c97ae186e1b386">Devices</a>;</div>
-<div class="line"><a name="l00976"></a><span class="lineno">  976</span>&#160; </div>
-<div class="line"><a name="l00977"></a><span class="lineno">  977</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a> != <span class="keyword">nullptr</span>)</div>
-<div class="line"><a name="l00978"></a><span class="lineno">  978</span>&#160;    {</div>
-<div class="line"><a name="l00979"></a><span class="lineno">  979</span>&#160;        <a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>-&gt;Device-&gt;Header-&gt;Command |= <a class="code" href="../../d9/d97/pci_8h.html#ad2e0ff6581aedf5d86fb4e3cbcc08a31aff3170b5e4c33261d0f2f060a5b446d6">PCI_COMMAND_INTX_DISABLE</a>;</div>
-<div class="line"><a name="l00980"></a><span class="lineno">  980</span>&#160;        <a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a> = (PCIArray *)<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>-&gt;Next;</div>
-<div class="line"><a name="l00981"></a><span class="lineno">  981</span>&#160;    }</div>
-<div class="line"><a name="l00982"></a><span class="lineno">  982</span>&#160; </div>
-<div class="line"><a name="l00983"></a><span class="lineno">  983</span>&#160;    <span class="comment">// std::list&lt;PCI::PCIDevice&gt; Devices = PCIManager-&gt;FindPCIDevice(VendorIDs, DeviceIDs);</span></div>
-<div class="line"><a name="l00984"></a><span class="lineno">  984</span>&#160;    <span class="comment">// foreach (auto dev in Devices)</span></div>
-<div class="line"><a name="l00985"></a><span class="lineno">  985</span>&#160;    <span class="comment">//  Interrupts::RemoveHandler(OnInterruptReceived, iLine(dev));</span></div>
-<div class="line"><a name="l00986"></a><span class="lineno">  986</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00987"></a><span class="lineno">  987</span>&#160;}</div>
-<div class="ttc" id="aKernel_2driver_8h_html_afcd378c40e1174c74b79e47404cc960fa4e0220cf66d2f67c7378d8ceaecb60a1"><div class="ttname"><a href="../../d4/d55/Kernel_2driver_8h.html#afcd378c40e1174c74b79e47404cc960fa4e0220cf66d2f67c7378d8ceaecb60a1">ddt_SATA</a></div><div class="ttdeci">@ ddt_SATA</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d55/Kernel_2driver_8h_source.html#l00204">driver.h:204</a></div></div>
-<div class="ttc" id="aahci_8cpp_html_a1f127ad53b394ecab0c97ae186e1b386"><div class="ttname"><a href="../../dd/d51/ahci_8cpp.html#a1f127ad53b394ecab0c97ae186e1b386">Devices</a></div><div class="ttdeci">PCIArray * Devices</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d51/ahci_8cpp_source.html#l00873">ahci.cpp:873</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00977">977</a> of file <a class="el" href="../../dd/d51/ahci_8cpp_source.html">ahci.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00978"></a><span class="lineno">  978</span>&#160;{</div>
+<div class="line"><a name="l00979"></a><span class="lineno">  979</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; <a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a>; <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>++)</div>
+<div class="line"><a name="l00980"></a><span class="lineno">  980</span>&#160;    {</div>
+<div class="line"><a name="l00981"></a><span class="lineno">  981</span>&#160;        <a class="code" href="../../d1/d87/uart_8c.html#a2ad753c0f887e8a4d18ce4b743811b0f">Ports</a>[<a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>]-&gt;StopCMD();</div>
+<div class="line"><a name="l00982"></a><span class="lineno">  982</span>&#160;        <span class="keyword">delete</span> <a class="code" href="../../d1/d87/uart_8c.html#a2ad753c0f887e8a4d18ce4b743811b0f">Ports</a>[<a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>];</div>
+<div class="line"><a name="l00983"></a><span class="lineno">  983</span>&#160;    }</div>
+<div class="line"><a name="l00984"></a><span class="lineno">  984</span>&#160; </div>
+<div class="line"><a name="l00985"></a><span class="lineno">  985</span>&#160;    <a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a> = 0;</div>
+<div class="line"><a name="l00986"></a><span class="lineno">  986</span>&#160; </div>
+<div class="line"><a name="l00987"></a><span class="lineno">  987</span>&#160;    <span class="keywordflow">do</span></div>
+<div class="line"><a name="l00988"></a><span class="lineno">  988</span>&#160;    {</div>
+<div class="line"><a name="l00989"></a><span class="lineno">  989</span>&#160;        <a class="code" href="../../d4/d7f/namespacev0.html#a4111793a1ef527c8c2f00623a1cc9785">UnregisterDevice</a>(<a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a>);</div>
+<div class="line"><a name="l00990"></a><span class="lineno">  990</span>&#160;        <a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a>--;</div>
+<div class="line"><a name="l00991"></a><span class="lineno">  991</span>&#160;    } <span class="keywordflow">while</span> (<a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a> &gt;= 0);</div>
+<div class="line"><a name="l00992"></a><span class="lineno">  992</span>&#160; </div>
+<div class="line"><a name="l00993"></a><span class="lineno">  993</span>&#160;    PCIArray *<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a> = <a class="code" href="../../dd/d51/ahci_8cpp.html#a1f127ad53b394ecab0c97ae186e1b386">Devices</a>;</div>
+<div class="line"><a name="l00994"></a><span class="lineno">  994</span>&#160; </div>
+<div class="line"><a name="l00995"></a><span class="lineno">  995</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a> != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00996"></a><span class="lineno">  996</span>&#160;    {</div>
+<div class="line"><a name="l00997"></a><span class="lineno">  997</span>&#160;        <a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>-&gt;Device-&gt;Header-&gt;Command |= <a class="code" href="../../d2/d20/Kernel_2include_2interface_2pci_8h.html#ab7d0ea17dce7f541574a7f07737fd7a9aff3170b5e4c33261d0f2f060a5b446d6">PCI_COMMAND_INTX_DISABLE</a>;</div>
+<div class="line"><a name="l00998"></a><span class="lineno">  998</span>&#160;        <a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a> = (PCIArray *)<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>-&gt;Next;</div>
+<div class="line"><a name="l00999"></a><span class="lineno">  999</span>&#160;    }</div>
+<div class="line"><a name="l01000"></a><span class="lineno"> 1000</span>&#160; </div>
+<div class="line"><a name="l01001"></a><span class="lineno"> 1001</span>&#160;    <span class="comment">// std::list&lt;PCI::PCIDevice&gt; Devices = PCIManager-&gt;FindPCIDevice(VendorIDs, DeviceIDs);</span></div>
+<div class="line"><a name="l01002"></a><span class="lineno"> 1002</span>&#160;    <span class="comment">// foreach (auto dev in Devices)</span></div>
+<div class="line"><a name="l01003"></a><span class="lineno"> 1003</span>&#160;    <span class="comment">//  Interrupts::RemoveHandler(OnInterruptReceived, iLine(dev));</span></div>
+<div class="line"><a name="l01004"></a><span class="lineno"> 1004</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l01005"></a><span class="lineno"> 1005</span>&#160;}</div>
+<div class="ttc" id="aKernel_2include_2interface_2pci_8h_html_ab7d0ea17dce7f541574a7f07737fd7a9aff3170b5e4c33261d0f2f060a5b446d6"><div class="ttname"><a href="../../d2/d20/Kernel_2include_2interface_2pci_8h.html#ab7d0ea17dce7f541574a7f07737fd7a9aff3170b5e4c33261d0f2f060a5b446d6">PCI_COMMAND_INTX_DISABLE</a></div><div class="ttdeci">@ PCI_COMMAND_INTX_DISABLE</div><div class="ttdoc">INTx Emulation Disable.</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d20/Kernel_2include_2interface_2pci_8h_source.html#l00048">pci.h:47</a></div></div>
+<div class="ttc" id="aahci_8cpp_html_a1f127ad53b394ecab0c97ae186e1b386"><div class="ttname"><a href="../../dd/d51/ahci_8cpp.html#a1f127ad53b394ecab0c97ae186e1b386">Devices</a></div><div class="ttdeci">PCIArray * Devices</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d51/ahci_8cpp_source.html#l00894">ahci.cpp:894</a></div></div>
 <div class="ttc" id="aahci_8cpp_html_a745094b5c0615f96bd1f9fda0d2a11bb"><div class="ttname"><a href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a></div><div class="ttdeci">int PortCount</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d51/ahci_8cpp_source.html#l00808">ahci.cpp:808</a></div></div>
-<div class="ttc" id="aahci_8cpp_html_ab926bbe11fe11c128ee186390eaa7d1e"><div class="ttname"><a href="../../dd/d51/ahci_8cpp.html#ab926bbe11fe11c128ee186390eaa7d1e">Ports</a></div><div class="ttdeci">Port * Ports[64]</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d51/ahci_8cpp_source.html#l00807">ahci.cpp:807</a></div></div>
-<div class="ttc" id="aclassPort_html_ade80cd821f44de47d3dae6800a221cf6"><div class="ttname"><a href="../../d3/d7b/classPort.html#ade80cd821f44de47d3dae6800a221cf6">Port::StopCMD</a></div><div class="ttdeci">void StopCMD()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d51/ahci_8cpp_source.html#l00596">ahci.cpp:596</a></div></div>
-<div class="ttc" id="agettextP_8h_html_a68428151ad44e31b19041cdeb8972a91"><div class="ttname"><a href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a></div><div class="ttdeci">static nls_uint32 nls_uint32 i</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d71/gettextP_8h_source.html#l00074">gettextP.h:74</a></div></div>
-<div class="ttc" id="anamespaceDriver_html_a74d002f868a9b2772be6cde6aeea27a5"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a74d002f868a9b2772be6cde6aeea27a5">Driver::UnregisterBlockDevice</a></div><div class="ttdeci">int UnregisterBlockDevice(dev_t MajorID, dev_t MinorID, DeviceDriverType Type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d48/api_8cpp_source.html#l00294">api.cpp:294</a></div></div>
-<div class="ttc" id="apci_8h_html_ad2e0ff6581aedf5d86fb4e3cbcc08a31aff3170b5e4c33261d0f2f060a5b446d6"><div class="ttname"><a href="../../d9/d97/pci_8h.html#ad2e0ff6581aedf5d86fb4e3cbcc08a31aff3170b5e4c33261d0f2f060a5b446d6">PCI_COMMAND_INTX_DISABLE</a></div><div class="ttdeci">@ PCI_COMMAND_INTX_DISABLE</div><div class="ttdoc">INTx Emulation Disable.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d97/pci_8h_source.html#l00048">pci.h:47</a></div></div>
+<div class="ttc" id="anamespacev0_html_a4111793a1ef527c8c2f00623a1cc9785"><div class="ttname"><a href="../../d4/d7f/namespacev0.html#a4111793a1ef527c8c2f00623a1cc9785">v0::UnregisterDevice</a></div><div class="ttdeci">int UnregisterDevice(dev_t DriverID, dev_t Device)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d48/api_8cpp_source.html#l00811">api.cpp:811</a></div></div>
+<div class="ttc" id="arandom_8c_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">static int i</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de5/random_8c_source.html#l00023">random.c:23</a></div></div>
 <div class="ttc" id="asetxid_8c_html_d5/d06/structctx"><div class="ttname"><a href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/setgroups_8c_source.html#l00007">setgroups.c:7</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d55/Kernel_2driver_8h_source.html#l00204">ddt_SATA</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00873">Devices</a>, <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../d9/d97/pci_8h_source.html#l00047">PCI_COMMAND_INTX_DISABLE</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00808">PortCount</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00807">Ports</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00596">Port::StopCMD()</a>, and <a class="el" href="../../d5/d48/api_8cpp_source.html#l00294">Driver::UnregisterBlockDevice()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00894">Devices</a>, <a class="el" href="../../dc/de5/random_8c_source.html#l00023">i</a>, <a class="el" href="../../d2/d20/Kernel_2include_2interface_2pci_8h_source.html#l00047">PCI_COMMAND_INTX_DISABLE</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00808">PortCount</a>, and <a class="el" href="../../d5/d48/api_8cpp_source.html#l00811">v0::UnregisterDevice()</a>.</p>
 
 </div>
 </div>
@@ -1691,88 +1861,86 @@ Reserved1[4]</td>
 </div><div class="memdoc">
 <p>We loop through all the devices and initialize them</p>
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00892">892</a> of file <a class="el" href="../../dd/d51/ahci_8cpp_source.html">ahci.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;{</div>
-<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;    PCIArray *<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a> = <a class="code" href="../../dd/d51/ahci_8cpp.html#a1f127ad53b394ecab0c97ae186e1b386">Devices</a>;</div>
-<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160; </div>
-<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a> != <span class="keyword">nullptr</span>)</div>
-<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;    {</div>
-<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;        <span class="comment">/* We don&#39;t use the interrupt handler now... maybe we will in the future */</span></div>
-<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;        <span class="comment">// RegisterInterruptHandler(iLine(ctx-&gt;Device), (void *)OnInterruptReceived);</span></div>
-<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160; </div>
-<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;        <a class="code" href="../../d1/d48/namespaceDriver.html#a76701f5ecb13655e551b65c3aa8fc269">InitializePCI</a>(<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>-&gt;Device);</div>
-<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;        <a class="code" href="../../dd/d51/ahci_8cpp.html#d5/def/structHBAMemory">HBAMemory</a> *HBA = (<a class="code" href="../../dd/d51/ahci_8cpp.html#d5/def/structHBAMemory">HBAMemory</a> *)(<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)<a class="code" href="../../d1/d48/namespaceDriver.html#a4c8b2a6e42ba3e4d828e04ddb46c4924">GetBAR</a>(5, <a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>-&gt;Device);</div>
-<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160; </div>
-<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> PortsImplemented = HBA-&gt;<a class="code" href="../../dd/d51/ahci_8cpp.html#ae02c5f174dba7f8149f997f2e4194dd8">PortsImplemented</a>;</div>
-<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;        <a class="code" href="../../d3/d5a/base_8h.html#a2d2945c5952955d702f894ff0e4fc618">Log</a>(<span class="stringliteral">&quot;AHCI ports implemented: %x&quot;</span>, PortsImplemented);</div>
-<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = 0; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; 32; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>++)</div>
-<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;        {</div>
-<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a> &gt; 64)</div>
-<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;            {</div>
-<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;                <a class="code" href="../../d3/d5a/base_8h.html#a2d2945c5952955d702f894ff0e4fc618">Log</a>(<span class="stringliteral">&quot;There are more than 64 AHCI ports implemented&quot;</span>);</div>
-<div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;            }</div>
+<p class="definition">Definition at line <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00913">913</a> of file <a class="el" href="../../dd/d51/ahci_8cpp_source.html">ahci.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;{</div>
+<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;    PCIArray *<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a> = <a class="code" href="../../dd/d51/ahci_8cpp.html#a1f127ad53b394ecab0c97ae186e1b386">Devices</a>;</div>
 <div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160; </div>
-<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;            <span class="keywordflow">if</span> (PortsImplemented &amp; (1 &lt;&lt; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>))</div>
-<div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160;            {</div>
-<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;                <a class="code" href="../../d3/d5a/base_8h.html#a2d2945c5952955d702f894ff0e4fc618">Log</a>(<span class="stringliteral">&quot;Port %d implemented&quot;</span>, <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>);</div>
-<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;                <a class="code" href="../../dd/d51/ahci_8cpp.html#a7674c329addda8fbe6176bbbf25c8b21">PortType</a> portType = <a class="code" href="../../dd/d51/ahci_8cpp.html#afdee1e06ba3d90e76724c7fddee28acd">CheckPortType</a>(&amp;HBA-&gt;<a class="code" href="../../dd/d51/ahci_8cpp.html#a636d6a9c09ea391a7e80e7bee0a6d608">Ports</a>[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>]);</div>
-<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;                <span class="keywordflow">if</span> (portType == <a class="code" href="../../dd/d51/ahci_8cpp.html#a7674c329addda8fbe6176bbbf25c8b21aadca48adb31125c1c75f5d0a6129bb65">PortType::SATA</a> || portType == <a class="code" href="../../dd/d51/ahci_8cpp.html#a7674c329addda8fbe6176bbbf25c8b21a4dbae02a8c82ef71f515500f26e2f1c2">PortType::SATAPI</a>)</div>
-<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;                {</div>
-<div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;                    <a class="code" href="../../dd/d24/kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a>(<span class="stringliteral">&quot;%s drive found at port %d&quot;</span>, <a class="code" href="../../dd/d51/ahci_8cpp.html#a02d56124e1383b4cb652a40d7e2ab054">PortTypeName</a>[portType], <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>);</div>
-<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;                    <a class="code" href="../../dd/d51/ahci_8cpp.html#ab926bbe11fe11c128ee186390eaa7d1e">Ports</a>[<a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a>] = <span class="keyword">new</span> <a class="code" href="../../d3/d7b/classPort.html">Port</a>(portType, &amp;HBA-&gt;<a class="code" href="../../dd/d51/ahci_8cpp.html#a636d6a9c09ea391a7e80e7bee0a6d608">Ports</a>[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>], <a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a>);</div>
-<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;                    <a class="code" href="../../d4/dba/Drivers_2include_2types_8h.html#ab46c2d8e15a0ce794a8935841e5d6b92">dev_t</a> ret = <a class="code" href="../../d1/d48/namespaceDriver.html#af065058e1eb6681f44529640509838ff">RegisterBlockDevice</a>(<a class="code" href="../../d4/d55/Kernel_2driver_8h.html#afcd378c40e1174c74b79e47404cc960fa4e0220cf66d2f67c7378d8ceaecb60a1">ddt_SATA</a>,</div>
-<div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;                                                    <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>,</div>
-<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;                                                    <a class="code" href="../../dd/d51/ahci_8cpp.html#a805fe32708029e16290f7322087e8733">drvRead</a>, <a class="code" href="../../dd/d51/ahci_8cpp.html#a402c5318aeb2e229c96787655ac8766a">drvWrite</a>,</div>
-<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;                                                    <span class="keyword">nullptr</span>);</div>
-<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;                    <span class="keywordflow">if</span> (ret != (<a class="code" href="../../d4/dba/Drivers_2include_2types_8h.html#ab46c2d8e15a0ce794a8935841e5d6b92">dev_t</a>)<a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a>)</div>
-<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;                    {</div>
-<div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;                        <a class="code" href="../../dd/d24/kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a>(<span class="stringliteral">&quot;Failed to register block device %d&quot;</span>, ret);</div>
-<div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;                        <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a45d8c9818d0bf75ad33ebab50631276a">EBADSLT</a>;</div>
-<div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;                    }</div>
-<div class="line"><a name="l00934"></a><span class="lineno">  934</span>&#160; </div>
-<div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;                    <a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a>++;</div>
-<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;                    <a class="code" href="../../dd/d51/ahci_8cpp.html#ab926bbe11fe11c128ee186390eaa7d1e">Ports</a>[<a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a>] = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160;                }</div>
-<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;                {</div>
-<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;                    <span class="keywordflow">if</span> (portType != <a class="code" href="../../dd/d51/ahci_8cpp.html#a7674c329addda8fbe6176bbbf25c8b21ac9d3e887722f2bc482bcca9d41c512af">PortType::None</a>)</div>
-<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;                    {</div>
-<div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;                        <a class="code" href="../../dd/d24/kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a>(<span class="stringliteral">&quot;Unsupported drive type %s found at port %d&quot;</span>,</div>
-<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160;                               <a class="code" href="../../dd/d51/ahci_8cpp.html#a02d56124e1383b4cb652a40d7e2ab054">PortTypeName</a>[portType], <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>);</div>
-<div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;                    }</div>
-<div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160;                }</div>
-<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;            }</div>
-<div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160;        }</div>
-<div class="line"><a name="l00948"></a><span class="lineno">  948</span>&#160; </div>
-<div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;        <a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a> = (PCIArray *)<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>-&gt;Next;</div>
-<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;    }</div>
-<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160; </div>
-<div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;    <a class="code" href="../../d3/d5a/base_8h.html#a2d2945c5952955d702f894ff0e4fc618">Log</a>(<span class="stringliteral">&quot;Initializing AHCI ports&quot;</span>);</div>
-<div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = 0; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; <a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a>; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>++)</div>
-<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;        <a class="code" href="../../dd/d51/ahci_8cpp.html#ab926bbe11fe11c128ee186390eaa7d1e">Ports</a>[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>]-&gt;Configure();</div>
-<div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160; </div>
-<div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a> &gt; 0 ? 0 : -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab9b8cc17d1947160d13faaba7a18d6d1">ENODEV</a>;</div>
-<div class="line"><a name="l00957"></a><span class="lineno">  957</span>&#160;}</div>
-<div class="ttc" id="aDrivers_2include_2types_8h_html_ab46c2d8e15a0ce794a8935841e5d6b92"><div class="ttname"><a href="../../d4/dba/Drivers_2include_2types_8h.html#ab46c2d8e15a0ce794a8935841e5d6b92">dev_t</a></div><div class="ttdeci">__SIZE_TYPE__ dev_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dba/Drivers_2include_2types_8h_source.html#l00057">types.h:57</a></div></div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00186">types.h:186</a></div></div>
-<div class="ttc" id="aKernel_2include__std_2errno_8h_html_a45d8c9818d0bf75ad33ebab50631276a"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a45d8c9818d0bf75ad33ebab50631276a">EBADSLT</a></div><div class="ttdeci">#define EBADSLT</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00187">errno.h:187</a></div></div>
-<div class="ttc" id="aKernel_2include__std_2errno_8h_html_ab9b8cc17d1947160d13faaba7a18d6d1"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab9b8cc17d1947160d13faaba7a18d6d1">ENODEV</a></div><div class="ttdeci">#define ENODEV</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00076">errno.h:76</a></div></div>
+<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a> != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;    {</div>
+<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;        <span class="comment">/* We don&#39;t use the interrupt handler now... maybe we will in the future */</span></div>
+<div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;        <span class="comment">// RegisterInterruptHandler(iLine(ctx-&gt;Device), (void *)OnInterruptReceived);</span></div>
+<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160; </div>
+<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;        <a class="code" href="../../d4/d7f/namespacev0.html#ae56abf3c49cf0293df23456daef26c2a">InitializePCI</a>(<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>-&gt;Device);</div>
+<div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;        <a class="code" href="../../dd/d51/ahci_8cpp.html#d5/def/structHBAMemory">HBAMemory</a> *HBA = (<a class="code" href="../../dd/d51/ahci_8cpp.html#d5/def/structHBAMemory">HBAMemory</a> *)(<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)<a class="code" href="../../d4/d7f/namespacev0.html#a4de3c1c23c0e1e660b243ac18e0bff00">GetBAR</a>(5, <a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>-&gt;Device);</div>
+<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160; </div>
+<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> PortsImplemented = HBA-&gt;<a class="code" href="../../dd/d51/ahci_8cpp.html#ae02c5f174dba7f8149f997f2e4194dd8">PortsImplemented</a>;</div>
+<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;        <a class="code" href="../../d3/d5a/base_8h.html#acbec1d50fc4fef89a572ceec6c5c4e9f">KernelLog</a>(<span class="stringliteral">&quot;AHCI ports implemented: %x&quot;</span>, PortsImplemented);</div>
+<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; 32; <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>++)</div>
+<div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;        {</div>
+<div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a> &gt; 64)</div>
+<div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;            {</div>
+<div class="line"><a name="l00934"></a><span class="lineno">  934</span>&#160;                <a class="code" href="../../d3/d5a/base_8h.html#acbec1d50fc4fef89a572ceec6c5c4e9f">KernelLog</a>(<span class="stringliteral">&quot;There are more than 64 AHCI ports implemented&quot;</span>);</div>
+<div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;            }</div>
+<div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160; </div>
+<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;            <span class="keywordflow">if</span> (PortsImplemented &amp; (1 &lt;&lt; <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>))</div>
+<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;            {</div>
+<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;                <a class="code" href="../../d3/d5a/base_8h.html#acbec1d50fc4fef89a572ceec6c5c4e9f">KernelLog</a>(<span class="stringliteral">&quot;Port %d implemented&quot;</span>, <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>);</div>
+<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;                <a class="code" href="../../dd/d51/ahci_8cpp.html#a7674c329addda8fbe6176bbbf25c8b21">PortType</a> portType = <a class="code" href="../../dd/d51/ahci_8cpp.html#afdee1e06ba3d90e76724c7fddee28acd">CheckPortType</a>(&amp;HBA-&gt;<a class="code" href="../../dd/d51/ahci_8cpp.html#a636d6a9c09ea391a7e80e7bee0a6d608">Ports</a>[<a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>]);</div>
+<div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;                <span class="keywordflow">if</span> (portType == <a class="code" href="../../dd/d51/ahci_8cpp.html#a7674c329addda8fbe6176bbbf25c8b21aadca48adb31125c1c75f5d0a6129bb65">PortType::SATA</a> || portType == <a class="code" href="../../dd/d51/ahci_8cpp.html#a7674c329addda8fbe6176bbbf25c8b21a4dbae02a8c82ef71f515500f26e2f1c2">PortType::SATAPI</a>)</div>
+<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160;                {</div>
+<div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;                    <a class="code" href="../../d3/d5a/base_8h.html#a8b7585badf9fb134ba458959132e6af8">KernelPrint</a>(<span class="stringliteral">&quot;%s drive found at port %d&quot;</span>, <a class="code" href="../../dd/d51/ahci_8cpp.html#a02d56124e1383b4cb652a40d7e2ab054">PortTypeName</a>[portType], <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>);</div>
+<div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160;                    <a class="code" href="../../d1/d87/uart_8c.html#a2ad753c0f887e8a4d18ce4b743811b0f">Ports</a>[<a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a>] = <span class="keyword">new</span> <a class="code" href="../../d3/d7b/classPort.html">Port</a>(portType, &amp;HBA-&gt;<a class="code" href="../../dd/d51/ahci_8cpp.html#a636d6a9c09ea391a7e80e7bee0a6d608">Ports</a>[<a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>], <a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a>);</div>
+<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;                    <a class="code" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#a82d10d90203d4ce7b7fa38fdc0cfaf1a">dev_t</a> <a class="code" href="../../d0/d64/syscall_8cpp.html#a339672ff94e6199019102f50d317c3d7">ret</a> = <a class="code" href="../../d4/d7f/namespacev0.html#af9d436de155c9cdd94cc97230ef59854">RegisterDevice</a>(<a class="code" href="../../d0/df7/Kernel_2include_2interface_2device_8h.html#ad258d4c51629346fceac4679b3209ad9afb5d4ff4776303d834cb51c97700ece0">BLOCK_TYPE_HDD</a>, &amp;<a class="code" href="../../dd/d51/ahci_8cpp.html#a75ce9df389937e9ac2693ebd5436a11f">BlockOps</a>);</div>
+<div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160;                    <span class="keywordflow">if</span> (<a class="code" href="../../d0/d64/syscall_8cpp.html#a339672ff94e6199019102f50d317c3d7">ret</a> != (<a class="code" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#a82d10d90203d4ce7b7fa38fdc0cfaf1a">dev_t</a>)<a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a>)</div>
+<div class="line"><a name="l00948"></a><span class="lineno">  948</span>&#160;                    {</div>
+<div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;                        <a class="code" href="../../d3/d5a/base_8h.html#a8b7585badf9fb134ba458959132e6af8">KernelPrint</a>(<span class="stringliteral">&quot;Failed to register block device %d&quot;</span>, <a class="code" href="../../d0/d64/syscall_8cpp.html#a339672ff94e6199019102f50d317c3d7">ret</a>);</div>
+<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;                        <span class="keywordflow">return</span> -<a class="code" href="../../df/d53/Userspace_2libc_2include_2errno_8h.html#ac54507d66b43ad12f9356257323c0018">EBADF</a>;</div>
+<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;                    }</div>
+<div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160; </div>
+<div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;                    <a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a>++;</div>
+<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;                    <a class="code" href="../../d1/d87/uart_8c.html#a2ad753c0f887e8a4d18ce4b743811b0f">Ports</a>[<a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a>] = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160;                }</div>
+<div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00957"></a><span class="lineno">  957</span>&#160;                {</div>
+<div class="line"><a name="l00958"></a><span class="lineno">  958</span>&#160;                    <span class="keywordflow">if</span> (portType != <a class="code" href="../../dd/d51/ahci_8cpp.html#a7674c329addda8fbe6176bbbf25c8b21ac9d3e887722f2bc482bcca9d41c512af">PortType::None</a>)</div>
+<div class="line"><a name="l00959"></a><span class="lineno">  959</span>&#160;                    {</div>
+<div class="line"><a name="l00960"></a><span class="lineno">  960</span>&#160;                        <a class="code" href="../../d3/d5a/base_8h.html#a8b7585badf9fb134ba458959132e6af8">KernelPrint</a>(<span class="stringliteral">&quot;Unsupported drive type %s found at port %d&quot;</span>,</div>
+<div class="line"><a name="l00961"></a><span class="lineno">  961</span>&#160;                                    <a class="code" href="../../dd/d51/ahci_8cpp.html#a02d56124e1383b4cb652a40d7e2ab054">PortTypeName</a>[portType], <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>);</div>
+<div class="line"><a name="l00962"></a><span class="lineno">  962</span>&#160;                    }</div>
+<div class="line"><a name="l00963"></a><span class="lineno">  963</span>&#160;                }</div>
+<div class="line"><a name="l00964"></a><span class="lineno">  964</span>&#160;            }</div>
+<div class="line"><a name="l00965"></a><span class="lineno">  965</span>&#160;        }</div>
+<div class="line"><a name="l00966"></a><span class="lineno">  966</span>&#160; </div>
+<div class="line"><a name="l00967"></a><span class="lineno">  967</span>&#160;        <a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a> = (PCIArray *)<a class="code" href="../../d0/dd6/setxid_8c.html#d5/d06/structctx">ctx</a>-&gt;Next;</div>
+<div class="line"><a name="l00968"></a><span class="lineno">  968</span>&#160;    }</div>
+<div class="line"><a name="l00969"></a><span class="lineno">  969</span>&#160; </div>
+<div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;    <a class="code" href="../../d3/d5a/base_8h.html#acbec1d50fc4fef89a572ceec6c5c4e9f">KernelLog</a>(<span class="stringliteral">&quot;Initializing AHCI ports&quot;</span>);</div>
+<div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; <a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a>; <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>++)</div>
+<div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160;        <a class="code" href="../../d1/d87/uart_8c.html#a2ad753c0f887e8a4d18ce4b743811b0f">Ports</a>[<a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>]-&gt;Configure();</div>
+<div class="line"><a name="l00973"></a><span class="lineno">  973</span>&#160; </div>
+<div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a> &gt; 0 ? 0 : -<a class="code" href="../../df/d53/Userspace_2libc_2include_2errno_8h.html#ab9b8cc17d1947160d13faaba7a18d6d1">ENODEV</a>;</div>
+<div class="line"><a name="l00975"></a><span class="lineno">  975</span>&#160;}</div>
+<div class="ttc" id="aKernel_2include_2interface_2device_8h_html_ad258d4c51629346fceac4679b3209ad9afb5d4ff4776303d834cb51c97700ece0"><div class="ttname"><a href="../../d0/df7/Kernel_2include_2interface_2device_8h.html#ad258d4c51629346fceac4679b3209ad9afb5d4ff4776303d834cb51c97700ece0">BLOCK_TYPE_HDD</a></div><div class="ttdeci">@ BLOCK_TYPE_HDD</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df7/Kernel_2include_2interface_2device_8h_source.html#l00064">device.h:64</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00135">types.h:135</a></div></div>
+<div class="ttc" id="aUserspace_2libc_2include_2errno_8h_html_ab9b8cc17d1947160d13faaba7a18d6d1"><div class="ttname"><a href="../../df/d53/Userspace_2libc_2include_2errno_8h.html#ab9b8cc17d1947160d13faaba7a18d6d1">ENODEV</a></div><div class="ttdeci">#define ENODEV</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d53/Userspace_2libc_2include_2errno_8h_source.html#l00022">errno.h:22</a></div></div>
+<div class="ttc" id="aUserspace_2libc_2include_2errno_8h_html_ac54507d66b43ad12f9356257323c0018"><div class="ttname"><a href="../../df/d53/Userspace_2libc_2include_2errno_8h.html#ac54507d66b43ad12f9356257323c0018">EBADF</a></div><div class="ttdeci">#define EBADF</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d53/Userspace_2libc_2include_2errno_8h_source.html#l00012">errno.h:12</a></div></div>
+<div class="ttc" id="aUserspace_2libc_2include_2sys_2stat_8h_html_a82d10d90203d4ce7b7fa38fdc0cfaf1a"><div class="ttname"><a href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#a82d10d90203d4ce7b7fa38fdc0cfaf1a">dev_t</a></div><div class="ttdeci">#define dev_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h_source.html#l00009">stat.h:9</a></div></div>
 <div class="ttc" id="aahci_8cpp_html_a02d56124e1383b4cb652a40d7e2ab054"><div class="ttname"><a href="../../dd/d51/ahci_8cpp.html#a02d56124e1383b4cb652a40d7e2ab054">PortTypeName</a></div><div class="ttdeci">const char * PortTypeName[]</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d51/ahci_8cpp_source.html#l00810">ahci.cpp:810</a></div></div>
-<div class="ttc" id="aahci_8cpp_html_a402c5318aeb2e229c96787655ac8766a"><div class="ttname"><a href="../../dd/d51/ahci_8cpp.html#a402c5318aeb2e229c96787655ac8766a">drvWrite</a></div><div class="ttdeci">size_t drvWrite(dev_t, dev_t min, uint8_t *Buffer, size_t Size, off_t Offset)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d51/ahci_8cpp_source.html#l00852">ahci.cpp:852</a></div></div>
 <div class="ttc" id="aahci_8cpp_html_a636d6a9c09ea391a7e80e7bee0a6d608"><div class="ttname"><a href="../../dd/d51/ahci_8cpp.html#a636d6a9c09ea391a7e80e7bee0a6d608">HBAMemory::Ports</a></div><div class="ttdeci">HBAPort Ports[1]</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d51/ahci_8cpp_source.html#l00105">ahci.cpp:105</a></div></div>
+<div class="ttc" id="aahci_8cpp_html_a75ce9df389937e9ac2693ebd5436a11f"><div class="ttname"><a href="../../dd/d51/ahci_8cpp.html#a75ce9df389937e9ac2693ebd5436a11f">BlockOps</a></div><div class="ttdeci">const struct InodeOperations BlockOps</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d51/ahci_8cpp_source.html#l00854">ahci.cpp:863</a></div></div>
 <div class="ttc" id="aahci_8cpp_html_a7674c329addda8fbe6176bbbf25c8b21"><div class="ttname"><a href="../../dd/d51/ahci_8cpp.html#a7674c329addda8fbe6176bbbf25c8b21">PortType</a></div><div class="ttdeci">PortType</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d51/ahci_8cpp_source.html#l00046">ahci.cpp:47</a></div></div>
-<div class="ttc" id="aahci_8cpp_html_a805fe32708029e16290f7322087e8733"><div class="ttname"><a href="../../dd/d51/ahci_8cpp.html#a805fe32708029e16290f7322087e8733">drvRead</a></div><div class="ttdeci">size_t drvRead(dev_t, dev_t min, uint8_t *Buffer, size_t Size, off_t Offset)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d51/ahci_8cpp_source.html#l00842">ahci.cpp:842</a></div></div>
 <div class="ttc" id="aahci_8cpp_html_ae02c5f174dba7f8149f997f2e4194dd8"><div class="ttname"><a href="../../dd/d51/ahci_8cpp.html#ae02c5f174dba7f8149f997f2e4194dd8">HBAMemory::PortsImplemented</a></div><div class="ttdeci">uint32_t PortsImplemented</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d51/ahci_8cpp_source.html#l00095">ahci.cpp:95</a></div></div>
 <div class="ttc" id="aahci_8cpp_html_afdee1e06ba3d90e76724c7fddee28acd"><div class="ttname"><a href="../../dd/d51/ahci_8cpp.html#afdee1e06ba3d90e76724c7fddee28acd">CheckPortType</a></div><div class="ttdeci">PortType CheckPortType(HBAPort *Port)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d51/ahci_8cpp_source.html#l00816">ahci.cpp:816</a></div></div>
 <div class="ttc" id="aahci_8cpp_html_d5/def/structHBAMemory"><div class="ttname"><a href="../../dd/d51/ahci_8cpp.html#d5/def/structHBAMemory">HBAMemory</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d51/ahci_8cpp_source.html#l00090">ahci.cpp:91</a></div></div>
-<div class="ttc" id="abase_8h_html_a2d2945c5952955d702f894ff0e4fc618"><div class="ttname"><a href="../../d3/d5a/base_8h.html#a2d2945c5952955d702f894ff0e4fc618">Log</a></div><div class="ttdeci">void Log(const char *Format,...)</div><div class="ttdoc">Print to the kernel logger.</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de2/base_8c_source.html#l00125">base.c:125</a></div></div>
-<div class="ttc" id="akernel_8cpp_html_a856ca7c6595acc2941208b1241cd8f3e"><div class="ttname"><a href="../../dd/d24/kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a></div><div class="ttdeci">EXTERNC void KPrint(const char *Format,...)</div><div class="ttdoc">Print to the screen.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d24/kernel_8cpp_source.html#l00102">kernel.cpp:102</a></div></div>
-<div class="ttc" id="anamespaceDriver_html_a4c8b2a6e42ba3e4d828e04ddb46c4924"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a4c8b2a6e42ba3e4d828e04ddb46c4924">Driver::GetBAR</a></div><div class="ttdeci">uint32_t GetBAR(dev_t MajorID, uint8_t i, void *_Header)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d48/api_8cpp_source.html#l00728">api.cpp:728</a></div></div>
-<div class="ttc" id="anamespaceDriver_html_a76701f5ecb13655e551b65c3aa8fc269"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a76701f5ecb13655e551b65c3aa8fc269">Driver::InitializePCI</a></div><div class="ttdeci">void InitializePCI(dev_t MajorID, void *_Header)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d48/api_8cpp_source.html#l00599">api.cpp:599</a></div></div>
-<div class="ttc" id="anamespaceDriver_html_af065058e1eb6681f44529640509838ff"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#af065058e1eb6681f44529640509838ff">Driver::RegisterBlockDevice</a></div><div class="ttdeci">dev_t RegisterBlockDevice(dev_t MajorID, DeviceDriverType Type, void *Open, void *Close, void *Read, void *Write, void *Ioctl)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d48/api_8cpp_source.html#l00249">api.cpp:249</a></div></div>
+<div class="ttc" id="abase_8h_html_a8b7585badf9fb134ba458959132e6af8"><div class="ttname"><a href="../../d3/d5a/base_8h.html#a8b7585badf9fb134ba458959132e6af8">KernelPrint</a></div><div class="ttdeci">void KernelPrint(const char *Format,...)</div><div class="ttdoc">Print to the kernel terminal.</div></div>
+<div class="ttc" id="abase_8h_html_acbec1d50fc4fef89a572ceec6c5c4e9f"><div class="ttname"><a href="../../d3/d5a/base_8h.html#acbec1d50fc4fef89a572ceec6c5c4e9f">KernelLog</a></div><div class="ttdeci">void KernelLog(const char *Format,...)</div><div class="ttdoc">Print to the kernel logger.</div></div>
+<div class="ttc" id="anamespacev0_html_a4de3c1c23c0e1e660b243ac18e0bff00"><div class="ttname"><a href="../../d4/d7f/namespacev0.html#a4de3c1c23c0e1e660b243ac18e0bff00">v0::GetBAR</a></div><div class="ttdeci">uint32_t GetBAR(dev_t DriverID, uint8_t i, void *_Header)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d48/api_8cpp_source.html#l00728">api.cpp:728</a></div></div>
+<div class="ttc" id="anamespacev0_html_ae56abf3c49cf0293df23456daef26c2a"><div class="ttname"><a href="../../d4/d7f/namespacev0.html#ae56abf3c49cf0293df23456daef26c2a">v0::InitializePCI</a></div><div class="ttdeci">void InitializePCI(dev_t DriverID, void *_Header)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d48/api_8cpp_source.html#l00598">api.cpp:598</a></div></div>
+<div class="ttc" id="anamespacev0_html_af9d436de155c9cdd94cc97230ef59854"><div class="ttname"><a href="../../d4/d7f/namespacev0.html#af9d436de155c9cdd94cc97230ef59854">v0::RegisterDevice</a></div><div class="ttdeci">dev_t RegisterDevice(dev_t DriverID, DeviceType Type, const InodeOperations *Operations)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d48/api_8cpp_source.html#l00804">api.cpp:804</a></div></div>
+<div class="ttc" id="asyscall_8cpp_html_a339672ff94e6199019102f50d317c3d7"><div class="ttname"><a href="../../d0/d64/syscall_8cpp.html#a339672ff94e6199019102f50d317c3d7">ret</a></div><div class="ttdeci">int ret</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d64/syscall_8cpp_source.html#l01761">syscall.cpp:1761</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00816">CheckPortType()</a>, <a class="el" href="../../d4/d55/Kernel_2driver_8h_source.html#l00204">ddt_SATA</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00873">Devices</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00842">drvRead()</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00852">drvWrite()</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00187">EBADSLT</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00076">ENODEV</a>, <a class="el" href="../../d5/d48/api_8cpp_source.html#l00728">Driver::GetBAR()</a>, <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../d5/d48/api_8cpp_source.html#l00599">Driver::InitializePCI()</a>, <a class="el" href="../../dd/d24/kernel_8cpp_source.html#l00102">KPrint()</a>, <a class="el" href="../../dc/de2/base_8c_source.html#l00125">Log()</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00048">None</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00808">PortCount</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00105">HBAMemory::Ports</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00807">Ports</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00095">HBAMemory::PortsImplemented</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00810">PortTypeName</a>, <a class="el" href="../../d5/d48/api_8cpp_source.html#l00249">Driver::RegisterBlockDevice()</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00049">SATA</a>, and <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00052">SATAPI</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/df7/Kernel_2include_2interface_2device_8h_source.html#l00064">BLOCK_TYPE_HDD</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00863">BlockOps</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00816">CheckPortType()</a>, <a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h_source.html#l00009">dev_t</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00894">Devices</a>, <a class="el" href="../../df/d53/Userspace_2libc_2include_2errno_8h_source.html#l00012">EBADF</a>, <a class="el" href="../../df/d53/Userspace_2libc_2include_2errno_8h_source.html#l00022">ENODEV</a>, <a class="el" href="../../d5/d48/api_8cpp_source.html#l00728">v0::GetBAR()</a>, <a class="el" href="../../dc/de5/random_8c_source.html#l00023">i</a>, <a class="el" href="../../d5/d48/api_8cpp_source.html#l00598">v0::InitializePCI()</a>, <a class="el" href="../../d3/d5a/base_8h.html#acbec1d50fc4fef89a572ceec6c5c4e9f">KernelLog()</a>, <a class="el" href="../../d3/d5a/base_8h.html#a8b7585badf9fb134ba458959132e6af8">KernelPrint()</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00048">None</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00808">PortCount</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00105">HBAMemory::Ports</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00095">HBAMemory::PortsImplemented</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00810">PortTypeName</a>, <a class="el" href="../../d5/d48/api_8cpp_source.html#l00804">v0::RegisterDevice()</a>, <a class="el" href="../../d0/d64/syscall_8cpp_source.html#l01761">ret</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00049">SATA</a>, and <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00052">SATAPI</a>.</p>
 
 </div>
 </div>
@@ -1791,14 +1959,14 @@ Reserved1[4]</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00866">866</a> of file <a class="el" href="../../dd/d51/ahci_8cpp_source.html">ahci.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00867"></a><span class="lineno">  867</span>&#160;{</div>
-<div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = 0; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; <a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a>; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>++)</div>
-<div class="line"><a name="l00869"></a><span class="lineno">  869</span>&#160;        <a class="code" href="../../dd/d51/ahci_8cpp.html#ab926bbe11fe11c128ee186390eaa7d1e">Ports</a>[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>]-&gt;StopCMD();</div>
-<div class="line"><a name="l00870"></a><span class="lineno">  870</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00871"></a><span class="lineno">  871</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00887">887</a> of file <a class="el" href="../../dd/d51/ahci_8cpp_source.html">ahci.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;{</div>
+<div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; <a class="code" href="../../dd/d51/ahci_8cpp.html#a745094b5c0615f96bd1f9fda0d2a11bb">PortCount</a>; <a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>++)</div>
+<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;        <a class="code" href="../../d1/d87/uart_8c.html#a2ad753c0f887e8a4d18ce4b743811b0f">Ports</a>[<a class="code" href="../../dc/de5/random_8c.html#acb559820d9ca11295b4500f179ef6392">i</a>]-&gt;StopCMD();</div>
+<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00808">PortCount</a>, and <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00807">Ports</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/de5/random_8c_source.html#l00023">i</a>, and <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00808">PortCount</a>.</p>
 
 </div>
 </div>
@@ -1817,150 +1985,27 @@ Reserved1[4]</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00874">874</a> of file <a class="el" href="../../dd/d51/ahci_8cpp_source.html">ahci.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;{</div>
-<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> VendorIDs[] = {0x8086, <span class="comment">/* Intel */</span></div>
-<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;                            0x15AD, <span class="comment">/* VMware */</span></div>
-<div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;                            <a class="code" href="../../d4/d55/Kernel_2driver_8h.html#a8f953c934c895e70362cdc1b4ae8e639">PCI_END</a>};</div>
-<div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> DeviceIDs[] = {0x2922, <span class="comment">/* ICH9 */</span></div>
-<div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;                            0x2829, <span class="comment">/* ICH8 */</span></div>
-<div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;                            0x07E0, <span class="comment">/* SATA AHCI (VMware) */</span></div>
-<div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;                            <a class="code" href="../../d4/d55/Kernel_2driver_8h.html#a8f953c934c895e70362cdc1b4ae8e639">PCI_END</a>};</div>
-<div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;    <a class="code" href="../../dd/d51/ahci_8cpp.html#a1f127ad53b394ecab0c97ae186e1b386">Devices</a> = <a class="code" href="../../d9/d97/pci_8h.html#aa94d20b97c0cf8f7da9c55f502b6fddd">FindPCIDevices</a>(VendorIDs, DeviceIDs);</div>
-<div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../dd/d51/ahci_8cpp.html#a1f127ad53b394ecab0c97ae186e1b386">Devices</a> == <span class="keyword">nullptr</span>)</div>
-<div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;    {</div>
-<div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;        <a class="code" href="../../d3/d5a/base_8h.html#a2d2945c5952955d702f894ff0e4fc618">Log</a>(<span class="stringliteral">&quot;No AHCI device found.&quot;</span>);</div>
-<div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;        <span class="keywordflow">return</span> -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab9b8cc17d1947160d13faaba7a18d6d1">ENODEV</a>;</div>
-<div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;    }</div>
-<div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;}</div>
-<div class="ttc" id="aKernel_2driver_8h_html_a8f953c934c895e70362cdc1b4ae8e639"><div class="ttname"><a href="../../d4/d55/Kernel_2driver_8h.html#a8f953c934c895e70362cdc1b4ae8e639">PCI_END</a></div><div class="ttdeci">#define PCI_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d55/Kernel_2driver_8h_source.html#l00055">driver.h:55</a></div></div>
-<div class="ttc" id="apci_8h_html_aa94d20b97c0cf8f7da9c55f502b6fddd"><div class="ttname"><a href="../../d9/d97/pci_8h.html#aa94d20b97c0cf8f7da9c55f502b6fddd">FindPCIDevices</a></div><div class="ttdeci">PCIArray * FindPCIDevices(uint16_t Vendors[], uint16_t Devices[])</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/de8/pci_8c_source.html#l00027">pci.c:27</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00895">895</a> of file <a class="el" href="../../dd/d51/ahci_8cpp_source.html">ahci.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;{</div>
+<div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> VendorIDs[] = {0x8086, <span class="comment">/* Intel */</span></div>
+<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;                            0x15AD, <span class="comment">/* VMware */</span></div>
+<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;                            <a class="code" href="../../d6/d91/Kernel_2include_2interface_2driver_8h.html#a8f953c934c895e70362cdc1b4ae8e639">PCI_END</a>};</div>
+<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> DeviceIDs[] = {0x2922, <span class="comment">/* ICH9 */</span></div>
+<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;                            0x2829, <span class="comment">/* ICH8 */</span></div>
+<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;                            0x07E0, <span class="comment">/* SATA AHCI (VMware) */</span></div>
+<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;                            <a class="code" href="../../d6/d91/Kernel_2include_2interface_2driver_8h.html#a8f953c934c895e70362cdc1b4ae8e639">PCI_END</a>};</div>
+<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;    <a class="code" href="../../dd/d51/ahci_8cpp.html#a1f127ad53b394ecab0c97ae186e1b386">Devices</a> = <a class="code" href="../../d4/d7f/namespacev0.html#a5bf9161011750f910752aa83566ec6c3">GetPCIDevices</a>(VendorIDs, DeviceIDs);</div>
+<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../dd/d51/ahci_8cpp.html#a1f127ad53b394ecab0c97ae186e1b386">Devices</a> == <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;    {</div>
+<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;        <a class="code" href="../../d3/d5a/base_8h.html#acbec1d50fc4fef89a572ceec6c5c4e9f">KernelLog</a>(<span class="stringliteral">&quot;No AHCI device found.&quot;</span>);</div>
+<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;        <span class="keywordflow">return</span> -<a class="code" href="../../df/d53/Userspace_2libc_2include_2errno_8h.html#ab9b8cc17d1947160d13faaba7a18d6d1">ENODEV</a>;</div>
+<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;    }</div>
+<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;}</div>
+<div class="ttc" id="aKernel_2include_2interface_2driver_8h_html_a8f953c934c895e70362cdc1b4ae8e639"><div class="ttname"><a href="../../d6/d91/Kernel_2include_2interface_2driver_8h.html#a8f953c934c895e70362cdc1b4ae8e639">PCI_END</a></div><div class="ttdeci">#define PCI_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d91/Kernel_2include_2interface_2driver_8h_source.html#l00031">driver.h:31</a></div></div>
+<div class="ttc" id="anamespacev0_html_a5bf9161011750f910752aa83566ec6c3"><div class="ttname"><a href="../../d4/d7f/namespacev0.html#a5bf9161011750f910752aa83566ec6c3">v0::GetPCIDevices</a></div><div class="ttdeci">__PCIArray * GetPCIDevices(dev_t DriverID, uint16_t _Vendors[], uint16_t _Devices[])</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d48/api_8cpp_source.html#l00541">api.cpp:541</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00873">Devices</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00076">ENODEV</a>, <a class="el" href="../../d1/de8/pci_8c_source.html#l00027">FindPCIDevices()</a>, <a class="el" href="../../dc/de2/base_8c_source.html#l00125">Log()</a>, and <a class="el" href="../../d4/d55/Kernel_2driver_8h_source.html#l00055">PCI_END</a>.</p>
-
-</div>
-</div>
-<a id="a805fe32708029e16290f7322087e8733"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a805fe32708029e16290f7322087e8733">&#9670;&nbsp;</a></span>drvRead()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> drvRead </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#ab46c2d8e15a0ce794a8935841e5d6b92">dev_t</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#ab46c2d8e15a0ce794a8935841e5d6b92">dev_t</a>&#160;</td>
-          <td class="paramname"><em>min</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *&#160;</td>
-          <td class="paramname"><em>Buffer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
-          <td class="paramname"><em>Size</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a37aff01e955441499997a359a4153b3d">off_t</a>&#160;</td>
-          <td class="paramname"><em>Offset</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00842">842</a> of file <a class="el" href="../../dd/d51/ahci_8cpp_source.html">ahci.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;{</div>
-<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d2/d78/p__spec_8h.html#abcf175336fd34515e797965afebe4f0fad8b76af209cd7ba83b4ebf33ba1637b2">ok</a> = <a class="code" href="../../dd/d51/ahci_8cpp.html#ab926bbe11fe11c128ee186390eaa7d1e">Ports</a>[<a class="code" href="../../da/d5c/xz__config_8h.html#abb702d8b501669a23aa0ab3b281b9384">min</a>]-&gt;<a class="code" href="../../d3/d7b/classPort.html#a7143b7904b857dccfc0fd286712e8139">ReadWrite</a>(Offset / 512,</div>
-<div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;                                    <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>(<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a> / 512),</div>
-<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;                                    <a class="code" href="../../d5/d0c/rtl8139_8hpp.html#a095175dabcb7cd83bddf2bea50371121">Buffer</a>,</div>
-<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;                                    <span class="keyword">false</span>);</div>
-<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d78/p__spec_8h.html#abcf175336fd34515e797965afebe4f0fad8b76af209cd7ba83b4ebf33ba1637b2">ok</a> ? <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a> : 0;</div>
-<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;}</div>
-<div class="ttc" id="aXallocV1_8cpp_html_a9a6916f13c01e1cbb39bf087545542c7"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a></div><div class="ttdeci">Xsize_t Size</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">XallocV1.cpp:4</a></div></div>
-<div class="ttc" id="aclassPort_html_a7143b7904b857dccfc0fd286712e8139"><div class="ttname"><a href="../../d3/d7b/classPort.html#a7143b7904b857dccfc0fd286712e8139">Port::ReadWrite</a></div><div class="ttdeci">bool ReadWrite(uint64_t Sector, uint32_t SectorCount, uint8_t *Buffer, bool Write)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d51/ahci_8cpp_source.html#l00642">ahci.cpp:642</a></div></div>
-<div class="ttc" id="ap__spec_8h_html_abcf175336fd34515e797965afebe4f0fad8b76af209cd7ba83b4ebf33ba1637b2"><div class="ttname"><a href="../../d2/d78/p__spec_8h.html#abcf175336fd34515e797965afebe4f0fad8b76af209cd7ba83b4ebf33ba1637b2">ok</a></div><div class="ttdeci">@ ok</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d78/p__spec_8h_source.html#l00601">p_spec.h:601</a></div></div>
-<div class="ttc" id="artl8139_8hpp_html_a095175dabcb7cd83bddf2bea50371121"><div class="ttname"><a href="../../d5/d0c/rtl8139_8hpp.html#a095175dabcb7cd83bddf2bea50371121">Buffer</a></div><div class="ttdeci">uint8_t * Buffer</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d0c/rtl8139_8hpp_source.html#l00000">rtl8139.hpp:0</a></div></div>
-<div class="ttc" id="axz__config_8h_html_abb702d8b501669a23aa0ab3b281b9384"><div class="ttname"><a href="../../da/d5c/xz__config_8h.html#abb702d8b501669a23aa0ab3b281b9384">min</a></div><div class="ttdeci">#define min(x, y)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d5c/xz__config_8h_source.html#l00037">xz_config.h:37</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/d0c/rtl8139_8hpp_source.html#l00000">Buffer</a>, <a class="el" href="../../da/d5c/xz__config_8h_source.html#l00037">min</a>, <a class="el" href="../../d2/d78/p__spec_8h_source.html#l00601">ok</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00807">Ports</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00642">Port::ReadWrite()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">Size</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00892">cxx_Initialize()</a>.</p>
-
-</div>
-</div>
-<a id="a402c5318aeb2e229c96787655ac8766a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a402c5318aeb2e229c96787655ac8766a">&#9670;&nbsp;</a></span>drvWrite()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> drvWrite </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#ab46c2d8e15a0ce794a8935841e5d6b92">dev_t</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#ab46c2d8e15a0ce794a8935841e5d6b92">dev_t</a>&#160;</td>
-          <td class="paramname"><em>min</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *&#160;</td>
-          <td class="paramname"><em>Buffer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
-          <td class="paramname"><em>Size</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/dba/Drivers_2include_2types_8h.html#a37aff01e955441499997a359a4153b3d">off_t</a>&#160;</td>
-          <td class="paramname"><em>Offset</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00852">852</a> of file <a class="el" href="../../dd/d51/ahci_8cpp_source.html">ahci.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;{</div>
-<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d2/d78/p__spec_8h.html#abcf175336fd34515e797965afebe4f0fad8b76af209cd7ba83b4ebf33ba1637b2">ok</a> = <a class="code" href="../../dd/d51/ahci_8cpp.html#ab926bbe11fe11c128ee186390eaa7d1e">Ports</a>[<a class="code" href="../../da/d5c/xz__config_8h.html#abb702d8b501669a23aa0ab3b281b9384">min</a>]-&gt;<a class="code" href="../../d3/d7b/classPort.html#a7143b7904b857dccfc0fd286712e8139">ReadWrite</a>(Offset / 512,</div>
-<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;                                    <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>(<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a> / 512),</div>
-<div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;                                    <a class="code" href="../../d5/d0c/rtl8139_8hpp.html#a095175dabcb7cd83bddf2bea50371121">Buffer</a>,</div>
-<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;                                    <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d78/p__spec_8h.html#abcf175336fd34515e797965afebe4f0fad8b76af209cd7ba83b4ebf33ba1637b2">ok</a> ? <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a> : 0;</div>
-<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/d0c/rtl8139_8hpp_source.html#l00000">Buffer</a>, <a class="el" href="../../da/d5c/xz__config_8h_source.html#l00037">min</a>, <a class="el" href="../../d2/d78/p__spec_8h_source.html#l00601">ok</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00807">Ports</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00642">Port::ReadWrite()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">Size</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00892">cxx_Initialize()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00894">Devices</a>, <a class="el" href="../../df/d53/Userspace_2libc_2include_2errno_8h_source.html#l00022">ENODEV</a>, <a class="el" href="../../d5/d48/api_8cpp_source.html#l00541">v0::GetPCIDevices()</a>, <a class="el" href="../../d3/d5a/base_8h.html#acbec1d50fc4fef89a572ceec6c5c4e9f">KernelLog()</a>, and <a class="el" href="../../d6/d91/Kernel_2include_2interface_2driver_8h_source.html#l00031">PCI_END</a>.</p>
 
 </div>
 </div>
@@ -1980,13 +2025,54 @@ Reserved1[4]</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00862">862</a> of file <a class="el" href="../../dd/d51/ahci_8cpp_source.html">ahci.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00863"></a><span class="lineno">  863</span>&#160;{</div>
-<div class="line"><a name="l00864"></a><span class="lineno">  864</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00883">883</a> of file <a class="el" href="../../dd/d51/ahci_8cpp_source.html">ahci.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;{</div>
+<div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a75ce9df389937e9ac2693ebd5436a11f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75ce9df389937e9ac2693ebd5436a11f">&#9670;&nbsp;</a></span>BlockOps</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const struct <a class="el" href="../../db/de6/structInodeOperations.html">InodeOperations</a> BlockOps</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">    .Lookup = <span class="keyword">nullptr</span>,</div>
+<div class="line">    .Create = <span class="keyword">nullptr</span>,</div>
+<div class="line">    .Remove = <span class="keyword">nullptr</span>,</div>
+<div class="line">    .Rename = <span class="keyword">nullptr</span>,</div>
+<div class="line">    .Read = <a class="code" href="../../dd/d51/ahci_8cpp.html#a2df0ec311ba765fc1cb04c4b8c5a406e">__fs_Read</a>,</div>
+<div class="line">    .Write = <a class="code" href="../../dd/d51/ahci_8cpp.html#ad6fccf6c320f992005572de27a5eb567">__fs_Write</a>,</div>
+<div class="line">    .Truncate = <span class="keyword">nullptr</span>,</div>
+<div class="line">    .Open = <a class="code" href="../../dd/d51/ahci_8cpp.html#ab6b6361e07f92a5995fe253ec06fd33a">__fs_Open</a>,</div>
+<div class="line">    .Close = <a class="code" href="../../dd/d51/ahci_8cpp.html#aa7f01ac41cb98e8e984e1f59081be3ea">__fs_Close</a>,</div>
+<div class="line">    .Ioctl = <span class="keyword">nullptr</span>,</div>
+<div class="line">    .ReadDir = <span class="keyword">nullptr</span>,</div>
+<div class="line">    .MkDir = <span class="keyword">nullptr</span>,</div>
+<div class="line">    .RmDir = <span class="keyword">nullptr</span>,</div>
+<div class="line">    .SymLink = <span class="keyword">nullptr</span>,</div>
+<div class="line">    .ReadLink = <span class="keyword">nullptr</span>,</div>
+<div class="line">    .Seek = <span class="keyword">nullptr</span>,</div>
+<div class="line">    .Stat = <span class="keyword">nullptr</span>,</div>
+<div class="line">}</div>
+<div class="ttc" id="aahci_8cpp_html_a2df0ec311ba765fc1cb04c4b8c5a406e"><div class="ttname"><a href="../../dd/d51/ahci_8cpp.html#a2df0ec311ba765fc1cb04c4b8c5a406e">__fs_Read</a></div><div class="ttdeci">ssize_t __fs_Read(struct Inode *Node, void *Buffer, size_t Size, off_t Offset)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d51/ahci_8cpp_source.html#l00845">ahci.cpp:845</a></div></div>
+<div class="ttc" id="aahci_8cpp_html_aa7f01ac41cb98e8e984e1f59081be3ea"><div class="ttname"><a href="../../dd/d51/ahci_8cpp.html#aa7f01ac41cb98e8e984e1f59081be3ea">__fs_Close</a></div><div class="ttdeci">int __fs_Close(struct Inode *)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d51/ahci_8cpp_source.html#l00843">ahci.cpp:843</a></div></div>
+<div class="ttc" id="aahci_8cpp_html_ab6b6361e07f92a5995fe253ec06fd33a"><div class="ttname"><a href="../../dd/d51/ahci_8cpp.html#ab6b6361e07f92a5995fe253ec06fd33a">__fs_Open</a></div><div class="ttdeci">int __fs_Open(struct Inode *, int, mode_t)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d51/ahci_8cpp_source.html#l00842">ahci.cpp:842</a></div></div>
+<div class="ttc" id="aahci_8cpp_html_ad6fccf6c320f992005572de27a5eb567"><div class="ttname"><a href="../../dd/d51/ahci_8cpp.html#ad6fccf6c320f992005572de27a5eb567">__fs_Write</a></div><div class="ttdeci">ssize_t __fs_Write(struct Inode *Node, const void *Buffer, size_t Size, off_t Offset)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d51/ahci_8cpp_source.html#l00854">ahci.cpp:854</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00854">854</a> of file <a class="el" href="../../dd/d51/ahci_8cpp_source.html">ahci.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00913">cxx_Initialize()</a>.</p>
+
+</div>
+</div>
 <a id="a1f127ad53b394ecab0c97ae186e1b386"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1f127ad53b394ecab0c97ae186e1b386">&#9670;&nbsp;</a></span>Devices</h2>
 
@@ -1999,9 +2085,9 @@ Reserved1[4]</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00873">873</a> of file <a class="el" href="../../dd/d51/ahci_8cpp_source.html">ahci.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00894">894</a> of file <a class="el" href="../../dd/d51/ahci_8cpp_source.html">ahci.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00959">cxx_Finalize()</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00892">cxx_Initialize()</a>, and <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00874">cxx_Probe()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00977">cxx_Finalize()</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00913">cxx_Initialize()</a>, and <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00895">cxx_Probe()</a>.</p>
 
 </div>
 </div>
@@ -2019,7 +2105,7 @@ Reserved1[4]</td>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00808">808</a> of file <a class="el" href="../../dd/d51/ahci_8cpp_source.html">ahci.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00959">cxx_Finalize()</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00892">cxx_Initialize()</a>, and <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00866">cxx_Panic()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00977">cxx_Finalize()</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00913">cxx_Initialize()</a>, and <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00887">cxx_Panic()</a>.</p>
 
 </div>
 </div>
@@ -2030,14 +2116,12 @@ Reserved1[4]</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/d7b/classPort.html">Port</a>* Ports[64]</td>
+          <td class="memname"><a class="el" href="../../d3/d7b/classPort.html">Port</a>* <a class="el" href="../../d1/d87/uart_8c.html#a2ad753c0f887e8a4d18ce4b743811b0f">Ports</a>[64]</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00807">807</a> of file <a class="el" href="../../dd/d51/ahci_8cpp_source.html">ahci.cpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00959">cxx_Finalize()</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00892">cxx_Initialize()</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00866">cxx_Panic()</a>, <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00842">drvRead()</a>, and <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00852">drvWrite()</a>.</p>
 
 </div>
 </div>
@@ -2060,7 +2144,7 @@ Reserved1[4]</td>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00810">810</a> of file <a class="el" href="../../dd/d51/ahci_8cpp_source.html">ahci.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00892">cxx_Initialize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d51/ahci_8cpp_source.html#l00913">cxx_Initialize()</a>.</p>
 
 </div>
 </div>

@@ -104,7 +104,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2b8e9b4a64d699748c38ad6284e569e6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d6a/euidaccess_8c.html#a2b8e9b4a64d699748c38ad6284e569e6">euidaccess</a> (const char *<a class="el" href="../../d0/d43/mconf_8c.html#a1dd0092466ef147d6873cd10f5d5e38b">filename</a>, int amode)</td></tr>
+<tr class="memitem:a2b8e9b4a64d699748c38ad6284e569e6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d6a/euidaccess_8c.html#a2b8e9b4a64d699748c38ad6284e569e6">euidaccess</a> (const char *filename, int amode)</td></tr>
 <tr class="separator:a2b8e9b4a64d699748c38ad6284e569e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab2606dccbe3e14f7581b2191d9866789"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d6a/euidaccess_8c.html#ab2606dccbe3e14f7581b2191d9866789">weak_alias</a> (<a class="el" href="../../d1/d6a/euidaccess_8c.html#a2b8e9b4a64d699748c38ad6284e569e6">euidaccess</a>, eaccess)</td></tr>
 <tr class="separator:ab2606dccbe3e14f7581b2191d9866789"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,14 +155,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d6a/euidaccess_8c_source.html#l00005">5</a> of file <a class="el" href="../../d1/d6a/euidaccess_8c_source.html">euidaccess.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/d97/musl_2include_2unistd_8h.html#a4119df43e4d0a912cd62bff97952475f">faccessat</a>(<a class="code" href="../../d2/d44/musl_2include_2fcntl_8h.html#a301749b9aa4b9416c329bb8b19345216">AT_FDCWD</a>, <a class="code" href="../../d4/daf/flashcp_8c.html#abe2fedc3a963bcd397037e60e16adabb">filename</a>, amode, <a class="code" href="../../d2/d44/musl_2include_2fcntl_8h.html#afba18be015711a5c496d49a1387bd412">AT_EACCESS</a>);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/d97/musl_2include_2unistd_8h.html#a4119df43e4d0a912cd62bff97952475f">faccessat</a>(<a class="code" href="../../d2/d44/musl_2include_2fcntl_8h.html#a301749b9aa4b9416c329bb8b19345216">AT_FDCWD</a>, filename, amode, <a class="code" href="../../d2/d44/musl_2include_2fcntl_8h.html#afba18be015711a5c496d49a1387bd412">AT_EACCESS</a>);</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
-<div class="ttc" id="aflashcp_8c_html_abe2fedc3a963bcd397037e60e16adabb"><div class="ttname"><a href="../../d4/daf/flashcp_8c.html#abe2fedc3a963bcd397037e60e16adabb">filename</a></div><div class="ttdeci">#define filename</div></div>
 <div class="ttc" id="amusl_2include_2fcntl_8h_html_a301749b9aa4b9416c329bb8b19345216"><div class="ttname"><a href="../../d2/d44/musl_2include_2fcntl_8h.html#a301749b9aa4b9416c329bb8b19345216">AT_FDCWD</a></div><div class="ttdeci">#define AT_FDCWD</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d44/musl_2include_2fcntl_8h_source.html#l00060">fcntl.h:60</a></div></div>
 <div class="ttc" id="amusl_2include_2fcntl_8h_html_afba18be015711a5c496d49a1387bd412"><div class="ttname"><a href="../../d2/d44/musl_2include_2fcntl_8h.html#afba18be015711a5c496d49a1387bd412">AT_EACCESS</a></div><div class="ttdeci">#define AT_EACCESS</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d44/musl_2include_2fcntl_8h_source.html#l00064">fcntl.h:64</a></div></div>
 <div class="ttc" id="amusl_2include_2unistd_8h_html_a4119df43e4d0a912cd62bff97952475f"><div class="ttname"><a href="../../de/d97/musl_2include_2unistd_8h.html#a4119df43e4d0a912cd62bff97952475f">faccessat</a></div><div class="ttdeci">int faccessat(int, const char *, int, int)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d48/faccessat_8c_source.html#l00026">faccessat.c:26</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/d44/musl_2include_2fcntl_8h_source.html#l00064">AT_EACCESS</a>, <a class="el" href="../../d2/d44/musl_2include_2fcntl_8h_source.html#l00060">AT_FDCWD</a>, <a class="el" href="../../da/d48/faccessat_8c_source.html#l00026">faccessat()</a>, and <a class="el" href="../../d4/daf/flashcp_8c.html#abe2fedc3a963bcd397037e60e16adabb">filename</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d44/musl_2include_2fcntl_8h_source.html#l00064">AT_EACCESS</a>, <a class="el" href="../../d2/d44/musl_2include_2fcntl_8h_source.html#l00060">AT_FDCWD</a>, and <a class="el" href="../../da/d48/faccessat_8c_source.html#l00026">faccessat()</a>.</p>
 
 </div>
 </div>

@@ -337,15 +337,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d8c/isalnum_8c_source.html#l00003">3</a> of file <a class="el" href="../../d0/d8c/isalnum_8c_source.html">isalnum.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d7/dd7/libbb_8h.html#a195193447efef4f373aff481e14eebea">isalpha</a>(<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>) || <a class="code" href="../../d7/dd7/libbb_8h.html#aefb5fe894e4d5f0e52d5853f99200d96">isdigit</a>(<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/de7/musl_2include_2ctype_8h.html#a195193447efef4f373aff481e14eebea">isalpha</a>(c) || <a class="code" href="../../d3/de7/musl_2include_2ctype_8h.html#aefb5fe894e4d5f0e52d5853f99200d96">isdigit</a>(c);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
-<div class="ttc" id="aglob__loop_8c_html_a2019d0836036f2693a231fe5c7c65e20"><div class="ttname"><a href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a></div><div class="ttdeci">register GCHAR c</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d64/glob__loop_8c_source.html#l00028">glob_loop.c:26</a></div></div>
-<div class="ttc" id="alibbb_8h_html_a195193447efef4f373aff481e14eebea"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#a195193447efef4f373aff481e14eebea">isalpha</a></div><div class="ttdeci">#define isalpha(a)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd7/libbb_8h_source.html#l02450">libbb.h:2450</a></div></div>
-<div class="ttc" id="alibbb_8h_html_aefb5fe894e4d5f0e52d5853f99200d96"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#aefb5fe894e4d5f0e52d5853f99200d96">isdigit</a></div><div class="ttdeci">#define isdigit(a)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd7/libbb_8h_source.html#l02447">libbb.h:2447</a></div></div>
+<div class="ttc" id="amusl_2include_2ctype_8h_html_a195193447efef4f373aff481e14eebea"><div class="ttname"><a href="../../d3/de7/musl_2include_2ctype_8h.html#a195193447efef4f373aff481e14eebea">isalpha</a></div><div class="ttdeci">#define isalpha(a)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/de7/musl_2include_2ctype_8h_source.html#l00031">ctype.h:31</a></div></div>
+<div class="ttc" id="amusl_2include_2ctype_8h_html_aefb5fe894e4d5f0e52d5853f99200d96"><div class="ttname"><a href="../../d3/de7/musl_2include_2ctype_8h.html#aefb5fe894e4d5f0e52d5853f99200d96">isdigit</a></div><div class="ttdeci">#define isdigit(a)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/de7/musl_2include_2ctype_8h_source.html#l00032">ctype.h:32</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>, <a class="el" href="../../d7/dd7/libbb_8h_source.html#l02450">isalpha</a>, and <a class="el" href="../../d7/dd7/libbb_8h_source.html#l02447">isdigit</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/de7/musl_2include_2ctype_8h_source.html#l00031">isalpha</a>, and <a class="el" href="../../d3/de7/musl_2include_2ctype_8h_source.html#l00032">isdigit</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d8c/isalnum_8c_source.html#l00008">__isalnum_l()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d8c/isalnum_8c_source.html#l00008">__isalnum_l()</a>, <a class="el" href="../../d8/d14/lookup__name_8c_source.html#l00018">is_valid_hostname()</a>, and <a class="el" href="../../d5/d92/ispunct_8c_source.html#l00003">ispunct()</a>.</p>
 
 </div>
 </div>
@@ -367,11 +366,9 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/ddd/isalpha_8c_source.html#l00004">4</a> of file <a class="el" href="../../d8/ddd/isalpha_8c_source.html">isalpha.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> ((<span class="keywordtype">unsigned</span>)<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>|32)-<span class="charliteral">&#39;a&#39;</span> &lt; 26;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> ((<span class="keywordtype">unsigned</span>)c|32)-<span class="charliteral">&#39;a&#39;</span> &lt; 26;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>.</p>
-
 <p class="reference">Referenced by <a class="el" href="../../d8/ddd/isalpha_8c_source.html#l00009">__isalpha_l()</a>.</p>
 
 </div>
@@ -394,12 +391,10 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d33/isblank_8c_source.html#l00003">3</a> of file <a class="el" href="../../da/d33/isblank_8c_source.html">isblank.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> (<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> == <span class="charliteral">&#39; &#39;</span> || <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> == <span class="charliteral">&#39;\t&#39;</span>);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> (c == <span class="charliteral">&#39; &#39;</span> || c == <span class="charliteral">&#39;\t&#39;</span>);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../da/d33/isblank_8c_source.html#l00008">__isblank_l()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d33/isblank_8c_source.html#l00008">__isblank_l()</a>, and <a class="el" href="../../dc/dab/iswblank_8c_source.html#l00004">iswblank()</a>.</p>
 
 </div>
 </div>
@@ -421,11 +416,9 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d7a/iscntrl_8c_source.html#l00003">3</a> of file <a class="el" href="../../d9/d7a/iscntrl_8c_source.html">iscntrl.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> (<span class="keywordtype">unsigned</span>)<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> &lt; 0x20 || <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> == 0x7f;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> (<span class="keywordtype">unsigned</span>)c &lt; 0x20 || c == 0x7f;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>.</p>
-
 <p class="reference">Referenced by <a class="el" href="../../d9/d7a/iscntrl_8c_source.html#l00008">__iscntrl_l()</a>.</p>
 
 </div>
@@ -448,11 +441,9 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d6c/isdigit_8c_source.html#l00004">4</a> of file <a class="el" href="../../d0/d6c/isdigit_8c_source.html">isdigit.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> (<span class="keywordtype">unsigned</span>)<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>-<span class="charliteral">&#39;0&#39;</span> &lt; 10;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> (<span class="keywordtype">unsigned</span>)c-<span class="charliteral">&#39;0&#39;</span> &lt; 10;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>.</p>
-
 <p class="reference">Referenced by <a class="el" href="../../d0/d6c/isdigit_8c_source.html#l00009">__isdigit_l()</a>.</p>
 
 </div>
@@ -475,11 +466,9 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/da4/isgraph_8c_source.html#l00004">4</a> of file <a class="el" href="../../dd/da4/isgraph_8c_source.html">isgraph.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> (<span class="keywordtype">unsigned</span>)<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>-0x21 &lt; 0x5e;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> (<span class="keywordtype">unsigned</span>)c-0x21 &lt; 0x5e;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>.</p>
-
 <p class="reference">Referenced by <a class="el" href="../../dd/da4/isgraph_8c_source.html#l00009">__isgraph_l()</a>.</p>
 
 </div>
@@ -502,11 +491,9 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d0b/islower_8c_source.html#l00004">4</a> of file <a class="el" href="../../d7/d0b/islower_8c_source.html">islower.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> (<span class="keywordtype">unsigned</span>)<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>-<span class="charliteral">&#39;a&#39;</span> &lt; 26;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> (<span class="keywordtype">unsigned</span>)c-<span class="charliteral">&#39;a&#39;</span> &lt; 26;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>.</p>
-
 <p class="reference">Referenced by <a class="el" href="../../d7/d0b/islower_8c_source.html#l00009">__islower_l()</a>.</p>
 
 </div>
@@ -529,11 +516,9 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/df0/isprint_8c_source.html#l00004">4</a> of file <a class="el" href="../../d2/df0/isprint_8c_source.html">isprint.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> (<span class="keywordtype">unsigned</span>)<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>-0x20 &lt; 0x5f;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> (<span class="keywordtype">unsigned</span>)c-0x20 &lt; 0x5f;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>.</p>
-
 <p class="reference">Referenced by <a class="el" href="../../d2/df0/isprint_8c_source.html#l00009">__isprint_l()</a>.</p>
 
 </div>
@@ -556,12 +541,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d92/ispunct_8c_source.html#l00003">3</a> of file <a class="el" href="../../d5/d92/ispunct_8c_source.html">ispunct.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d7/dd7/libbb_8h.html#a8159a77d66aec036449868781b607c96">isgraph</a>(<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>) &amp;&amp; !<a class="code" href="../../d7/dd7/libbb_8h.html#a3db1d3e3db557d4493cd4084bce8834c">isalnum</a>(<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/de7/musl_2include_2ctype_8h.html#a8159a77d66aec036449868781b607c96">isgraph</a>(c) &amp;&amp; !<a class="code" href="../../d3/de7/musl_2include_2ctype_8h.html#a698ac061ca18050f6e861e3d4ea0a693">isalnum</a>(c);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
-<div class="ttc" id="alibbb_8h_html_a3db1d3e3db557d4493cd4084bce8834c"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#a3db1d3e3db557d4493cd4084bce8834c">isalnum</a></div><div class="ttdeci">#define isalnum(a)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd7/libbb_8h_source.html#l02460">libbb.h:2460</a></div></div>
-<div class="ttc" id="alibbb_8h_html_a8159a77d66aec036449868781b607c96"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#a8159a77d66aec036449868781b607c96">isgraph</a></div><div class="ttdeci">#define isgraph(a)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd7/libbb_8h_source.html#l02497">libbb.h:2497</a></div></div>
+<div class="ttc" id="amusl_2include_2ctype_8h_html_a698ac061ca18050f6e861e3d4ea0a693"><div class="ttname"><a href="../../d3/de7/musl_2include_2ctype_8h.html#a698ac061ca18050f6e861e3d4ea0a693">isalnum</a></div><div class="ttdeci">int isalnum(int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8c/isalnum_8c_source.html#l00003">isalnum.c:3</a></div></div>
+<div class="ttc" id="amusl_2include_2ctype_8h_html_a8159a77d66aec036449868781b607c96"><div class="ttname"><a href="../../d3/de7/musl_2include_2ctype_8h.html#a8159a77d66aec036449868781b607c96">isgraph</a></div><div class="ttdeci">#define isgraph(a)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/de7/musl_2include_2ctype_8h_source.html#l00036">ctype.h:36</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>, <a class="el" href="../../d7/dd7/libbb_8h_source.html#l02460">isalnum</a>, and <a class="el" href="../../d7/dd7/libbb_8h_source.html#l02497">isgraph</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d8c/isalnum_8c_source.html#l00003">isalnum()</a>, and <a class="el" href="../../d3/de7/musl_2include_2ctype_8h_source.html#l00036">isgraph</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d5/d92/ispunct_8c_source.html#l00008">__ispunct_l()</a>.</p>
 
@@ -585,11 +570,9 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d42/ctype_8c_source.html#l00026">26</a> of file <a class="el" href="../../d3/d42/ctype_8c_source.html">ctype.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> == <span class="charliteral">&#39; &#39;</span> || <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> == <span class="charliteral">&#39;\t&#39;</span> || <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> == <span class="charliteral">&#39;\r&#39;</span> || <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> == <span class="charliteral">&#39;\n&#39;</span> || <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> == <span class="charliteral">&#39;\f&#39;</span> || <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> == <span class="charliteral">&#39;\v&#39;</span>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">return</span> c == <span class="charliteral">&#39; &#39;</span> || c == <span class="charliteral">&#39;\t&#39;</span> || c == <span class="charliteral">&#39;\r&#39;</span> || c == <span class="charliteral">&#39;\n&#39;</span> || c == <span class="charliteral">&#39;\f&#39;</span> || c == <span class="charliteral">&#39;\v&#39;</span>;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>.</p>
-
 <p class="reference">Referenced by <a class="el" href="../../d2/de1/isspace_8c_source.html#l00009">__isspace_l()</a>.</p>
 
 </div>
@@ -612,11 +595,9 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/d23/isupper_8c_source.html#l00004">4</a> of file <a class="el" href="../../d8/d23/isupper_8c_source.html">isupper.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> (<span class="keywordtype">unsigned</span>)<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>-<span class="charliteral">&#39;A&#39;</span> &lt; 26;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> (<span class="keywordtype">unsigned</span>)c-<span class="charliteral">&#39;A&#39;</span> &lt; 26;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>.</p>
-
 <p class="reference">Referenced by <a class="el" href="../../d8/d23/isupper_8c_source.html#l00009">__isupper_l()</a>.</p>
 
 </div>
@@ -639,10 +620,10 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/dc4/isxdigit_8c_source.html#l00003">3</a> of file <a class="el" href="../../d9/dc4/isxdigit_8c_source.html">isxdigit.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d7/dd7/libbb_8h.html#aefb5fe894e4d5f0e52d5853f99200d96">isdigit</a>(<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>) || ((unsigned)<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>|32)-<span class="charliteral">&#39;a&#39;</span> &lt; 6;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/de7/musl_2include_2ctype_8h.html#aefb5fe894e4d5f0e52d5853f99200d96">isdigit</a>(c) || ((unsigned)c|32)-<span class="charliteral">&#39;a&#39;</span> &lt; 6;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>, and <a class="el" href="../../d7/dd7/libbb_8h_source.html#l02447">isdigit</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/de7/musl_2include_2ctype_8h_source.html#l00032">isdigit</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/dc4/isxdigit_8c_source.html#l00008">__isxdigit_l()</a>.</p>
 
@@ -666,16 +647,16 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d42/ctype_8c_source.html#l00005">5</a> of file <a class="el" href="../../d3/d42/ctype_8c_source.html">ctype.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> &gt;= <span class="charliteral">&#39;A&#39;</span> &amp;&amp; <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> &lt;= <span class="charliteral">&#39;Z&#39;</span>)</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">if</span> (c &gt;= <span class="charliteral">&#39;A&#39;</span> &amp;&amp; c &lt;= <span class="charliteral">&#39;Z&#39;</span>)</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    {</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> -= <span class="charliteral">&#39;A&#39;</span>;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> += <span class="charliteral">&#39;a&#39;</span>;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        c -= <span class="charliteral">&#39;A&#39;</span>;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        c += <span class="charliteral">&#39;a&#39;</span>;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    }</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> c;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>, and <a class="el" href="../../d7/dd7/libbb_8h_source.html#l02448">isupper</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/de7/musl_2include_2ctype_8h_source.html#l00034">isupper</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../db/d54/tolower_8c_source.html#l00009">__tolower_l()</a>.</p>
 
@@ -699,15 +680,15 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/d42/ctype_8c_source.html#l00016">16</a> of file <a class="el" href="../../d3/d42/ctype_8c_source.html">ctype.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> &gt;= <span class="charliteral">&#39;a&#39;</span> &amp;&amp; <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> &lt;= <span class="charliteral">&#39;z&#39;</span>)</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">if</span> (c &gt;= <span class="charliteral">&#39;a&#39;</span> &amp;&amp; c &lt;= <span class="charliteral">&#39;z&#39;</span>)</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> -= <span class="charliteral">&#39;a&#39;</span>;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> += <span class="charliteral">&#39;A&#39;</span>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        c -= <span class="charliteral">&#39;a&#39;</span>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        c += <span class="charliteral">&#39;A&#39;</span>;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">return</span> c;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>, and <a class="el" href="../../d7/dd7/libbb_8h_source.html#l02449">islower</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/de7/musl_2include_2ctype_8h_source.html#l00033">islower</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/dad/toupper_8c_source.html#l00009">__toupper_l()</a>.</p>
 

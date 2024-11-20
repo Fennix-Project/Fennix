@@ -53,10 +53,7 @@ var arch_2i386_2bits_2shm_8h =
       [ "__used_ids", "d6/dac/arch_2x32_2bits_2shm_8h.html#aa2de99231240b0e9e36cb1720bba0ef5", null ],
       [ "shm_rss", "d6/dac/arch_2x32_2bits_2shm_8h.html#a677b785fd7c65a72a2a3e5c361ced94f", null ],
       [ "shm_swp", "d6/dac/arch_2x32_2bits_2shm_8h.html#a55655441c2480741960372b4ae5aa76b", null ],
-      [ "shm_tot", "d6/dac/arch_2x32_2bits_2shm_8h.html#a68b58013a245638488a89c6026a757a5", null ],
-      [ "swap_attempts", "d6/dac/arch_2x32_2bits_2shm_8h.html#a149769c05777c389861bdd8e3157e770", null ],
-      [ "swap_successes", "d6/dac/arch_2x32_2bits_2shm_8h.html#afe3fa6f7f9d4b3f7d8db0a5b62eb423e", null ],
-      [ "used_ids", "d6/dac/arch_2x32_2bits_2shm_8h.html#a733cad29409fd9d60a3bde1f8f8f02ef", null ]
+      [ "shm_tot", "d6/dac/arch_2x32_2bits_2shm_8h.html#a68b58013a245638488a89c6026a757a5", null ]
     ] ],
     [ "SHMLBA", "d7/d7d/arch_2i386_2bits_2shm_8h.html#a1f422a47c416c67470e3a0fb8b7529d8", null ]
 ];

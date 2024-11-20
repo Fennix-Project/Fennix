@@ -1,5 +1,9 @@
 var task_8hpp =
 [
+    [ "rlimit", "d8/da1/task_8hpp.html#da/d56/structrlimit", [
+      [ "rlim_cur", "d8/da1/task_8hpp.html#afb303c82ed3027a353e423a555b944b4", null ],
+      [ "rlim_max", "d8/da1/task_8hpp.html#ab24ab4934cab539abf45b259f5db7639", null ]
+    ] ],
     [ "TaskInfo", "d9/d3e/namespaceTasking.html#d6/dd8/structTasking_1_1TaskInfo", [
       [ "Affinity", "d9/d3e/namespaceTasking.html#a8836ebab1c71fb68dbf9cf72761756d7", null ],
       [ "Architecture", "d9/d3e/namespaceTasking.html#aabb3382fec35b68c33599188dd204e70", null ],
@@ -14,6 +18,7 @@ var task_8hpp =
       [ "OldUserTime", "d9/d3e/namespaceTasking.html#ae919ca007f2a6b1fda58a218c85aaa33", null ],
       [ "PathStyle", "d9/d3e/namespaceTasking.html#a08aab7bed6f11a8d0aa7f052d538aba6", null ],
       [ "Priority", "d9/d3e/namespaceTasking.html#ae3c741cc79098753547fc6c27440bca0", null ],
+      [ "RootNode", "d9/d3e/namespaceTasking.html#a3190e3ae5e83501515820cacc9d9042b", null ],
       [ "Second", "d9/d3e/namespaceTasking.html#a39a8d7ea7bb316e3bc789f66686f9f4b", null ],
       [ "SleepUntil", "d9/d3e/namespaceTasking.html#a28543458a62c2c1b26c5ff25c951b916", null ],
       [ "SpawnTime", "d9/d3e/namespaceTasking.html#a95a4c55b1816d16d967879f6734ea06f", null ],
@@ -28,11 +33,13 @@ var task_8hpp =
       [ "vBase", "d9/d3e/namespaceTasking.html#ab3409c6403e88b595274b9ff610a8322", null ]
     ] ],
     [ "gsTCB", "d9/d3e/namespaceTasking.html#d5/d12/structTasking_1_1gsTCB", [
-      [ "ScPages", "d9/d3e/namespaceTasking.html#af69a012dd4dfe47d648b961b95e4ca98", null ],
-      [ "SyscallStack", "d9/d3e/namespaceTasking.html#ad5a38f54834e6824cbd080bbf479b579", null ],
+      [ "Flags", "d9/d3e/namespaceTasking.html#ae935c459986428ed6d3919ee0bdb3ce0", null ],
+      [ "Padding", "d9/d3e/namespaceTasking.html#a3685a799a3b4d359de7fc145811ce8a6", null ],
+      [ "ScPages", "d9/d3e/namespaceTasking.html#a995e994fdb2de9b6b3fd3b1db5b1823b", null ],
+      [ "SyscallStack", "d9/d3e/namespaceTasking.html#a3e28214f3743274841f5442eef0db9ff", null ],
       [ "SyscallStackBase", "d9/d3e/namespaceTasking.html#aa0a0cc06da8a5c9cd12066d8e6d03251", null ],
       [ "t", "d9/d3e/namespaceTasking.html#aea1b40ba1878db10909a71e15bb70be9", null ],
-      [ "TempStack", "d9/d3e/namespaceTasking.html#a1c5251332896373cb3d8904569b7debe", null ]
+      [ "TempStack", "d9/d3e/namespaceTasking.html#a775984d21909ca36a56681e2c9a3ddd0", null ]
     ] ],
     [ "TCB", "da/daf/classTasking_1_1TCB.html", "da/daf/classTasking_1_1TCB" ],
     [ "PCB", "d6/d17/classTasking_1_1PCB.html", "d6/d17/classTasking_1_1PCB" ],
@@ -45,15 +52,19 @@ var task_8hpp =
     ] ],
     [ "TCB.Linux", "d9/d3e/namespaceTasking.html#dd/df3/structTasking_1_1TCB_8Linux", [
       [ "clear_child_tid", "d9/d3e/namespaceTasking.html#a985c8213878c0011cbeae40853dd33ba", null ],
-      [ "set_child_tid", "d9/d3e/namespaceTasking.html#ade8fa74653f9b587fcaf7bf7cd0eea53", null ]
+      [ "set_child_tid", "d9/d3e/namespaceTasking.html#ade8fa74653f9b587fcaf7bf7cd0eea53", null ],
+      [ "tgid", "d9/d3e/namespaceTasking.html#a81f8f726a6a57a755a1bfc407e7c9ff9", null ]
     ] ],
     [ "PCB.Security", "d9/d3e/namespaceTasking.html#de/d3f/structTasking_1_1PCB_8Security", [
+      [ "CanAdjustHardLimits", "d9/d3e/namespaceTasking.html#ad86fa65c37a156a23210daa2b349abf8", null ],
       [ "Effective", "d9/d3e/namespaceTasking.html#a975826920e100645fa7b60f265742446", null ],
       [ "ExecutionMode", "d9/d3e/namespaceTasking.html#a835309f5982bd96c7898e505f491d43d", null ],
       [ "IsCritical", "d9/d3e/namespaceTasking.html#a9126b4dd9715e3db81af7514047a474b", null ],
       [ "IsDebugEnabled", "d9/d3e/namespaceTasking.html#aa8b64dfb6a2382bc19ba8ef60dd271ce", null ],
       [ "IsKernelDebugEnabled", "d9/d3e/namespaceTasking.html#ac40809dda4c3aca2f57cac3d32c3910d", null ],
-      [ "Real", "d9/d3e/namespaceTasking.html#a7f80fcc452c2f1ed2bb51b39d0864df1", null ]
+      [ "ProcessGroupID", "d9/d3e/namespaceTasking.html#a9385937bec060b09e300d36572b2bc18", null ],
+      [ "Real", "d9/d3e/namespaceTasking.html#a7f80fcc452c2f1ed2bb51b39d0864df1", null ],
+      [ "SessionID", "d9/d3e/namespaceTasking.html#a0ead7a3f5bdf1f7c561e3e589099ed09", null ]
     ] ],
     [ "PCB.Security.Real", "d9/d3e/namespaceTasking.html#da/d00/structTasking_1_1PCB_8Security_8Real", [
       [ "GroupID", "d9/d3e/namespaceTasking.html#acd3d7a118dec3d95a5e057cacabaa442", null ],
@@ -63,10 +74,26 @@ var task_8hpp =
       [ "GroupID", "d9/d3e/namespaceTasking.html#acd3d7a118dec3d95a5e057cacabaa442", null ],
       [ "UserID", "d9/d3e/namespaceTasking.html#a57c7869106fd3be06d0e273a1fd8bbd3", null ]
     ] ],
+    [ "PCB.SoftLimits", "d9/d3e/namespaceTasking.html#de/d3a/structTasking_1_1PCB_8SoftLimits", [
+      [ "Memory", "d9/d3e/namespaceTasking.html#a4789f23283b3a61f858b641a1bef19a3", null ],
+      [ "OpenFiles", "d9/d3e/namespaceTasking.html#a7e68b8b4a9264fe2a974b172f5283c30", null ],
+      [ "Threads", "d9/d3e/namespaceTasking.html#a03bfaee27b3b5cfb28deef84a0f416e5", null ]
+    ] ],
+    [ "PCB.HardLimits", "d9/d3e/namespaceTasking.html#d2/d83/structTasking_1_1PCB_8HardLimits", [
+      [ "Memory", "d9/d3e/namespaceTasking.html#a4789f23283b3a61f858b641a1bef19a3", null ],
+      [ "OpenFiles", "d9/d3e/namespaceTasking.html#a7e68b8b4a9264fe2a974b172f5283c30", null ],
+      [ "Threads", "d9/d3e/namespaceTasking.html#a03bfaee27b3b5cfb28deef84a0f416e5", null ]
+    ] ],
+    [ "PCB.Linux", "d9/d3e/namespaceTasking.html#d4/d3c/structTasking_1_1PCB_8Linux", [
+      [ "CallingThread", "d9/d3e/namespaceTasking.html#afa33522dc985907a61b0a7d3b42b29c0", null ],
+      [ "vforked", "d9/d3e/namespaceTasking.html#a6d21ffbf8d664289a2612c58c68a6d25", null ]
+    ] ],
+    [ "RLIM_INFINITY", "d8/da1/task_8hpp.html#a24ccff7ad454b1aa58ced312f7392639", null ],
     [ "thisProcess", "d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8", null ],
     [ "thisThread", "d8/da1/task_8hpp.html#a1cf492bc489f4879fe6f67325e8f8dc7", null ],
     [ "IP", "d8/da1/task_8hpp.html#acf7f74020dfbe0bd9bbce8a2877abb6d", null ],
     [ "PID", "d8/da1/task_8hpp.html#aa76aeff7a55bd771f722c58ffb339acf", null ],
+    [ "rlim_t", "d8/da1/task_8hpp.html#a82db8fd2f142528e8d00bd38c1c1c663", null ],
     [ "TID", "d8/da1/task_8hpp.html#a2b7195d8a433379237f9463270f97e12", null ],
     [ "KillCode", "d8/da1/task_8hpp.html#a3623a6b9ea1e6b126eed6c14901cb94e", [
       [ "KILL_SCHEDULER_DESTRUCTION", "d8/da1/task_8hpp.html#a3623a6b9ea1e6b126eed6c14901cb94eac70d565c3766df493f932b4351fe3ee9", null ],
@@ -124,8 +151,8 @@ var task_8hpp =
       [ "Zombie", "d8/da1/task_8hpp.html#a1caa7bfee242fe8216026227bfd9db2ea18dbf84b8bdb31f7955be3eef42610fc", null ],
       [ "CoreDump", "d8/da1/task_8hpp.html#a1caa7bfee242fe8216026227bfd9db2ea3b848731f4575c98b0f13c8ef2693e10", null ],
       [ "Terminated", "d8/da1/task_8hpp.html#a1caa7bfee242fe8216026227bfd9db2ea773f96280709f0b4ee36122b01357f51", null ],
+      [ "Frozen", "d8/da1/task_8hpp.html#a1caa7bfee242fe8216026227bfd9db2eaca951c7ff4ef86aff592dda5d0a6eec1", null ],
       [ "_StatusMin", "d8/da1/task_8hpp.html#a1caa7bfee242fe8216026227bfd9db2ea2547ba923c87a848418e8c90331a5593", null ],
       [ "_StatusMax", "d8/da1/task_8hpp.html#a1caa7bfee242fe8216026227bfd9db2ea122d9cb11d78b0a8a082332d7ec18f98", null ]
-    ] ],
-    [ "TaskingScheduler_OneShot", "d8/da1/task_8hpp.html#ad0da2a8ac06428e420d5f197f499e28e", null ]
+    ] ]
 ];

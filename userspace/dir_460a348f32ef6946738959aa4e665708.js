@@ -28,5 +28,5 @@ var dir_460a348f32ef6946738959aa4e665708 =
     [ "syscall.h", "de/da8/src_2internal_2syscall_8h.html", "de/da8/src_2internal_2syscall_8h" ],
     [ "syscall_ret.c", "dc/df5/syscall__ret_8c.html", "dc/df5/syscall__ret_8c" ],
     [ "vdso.c", "d2/d68/vdso_8c.html", null ],
-    [ "version.c", "d7/d8b/musl_2src_2internal_2version_8c.html", "d7/d8b/musl_2src_2internal_2version_8c" ]
+    [ "version.c", "d2/d0b/version_8c.html", "d2/d0b/version_8c" ]
 ];

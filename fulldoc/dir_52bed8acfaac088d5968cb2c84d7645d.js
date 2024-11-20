@@ -10,16 +10,16 @@ var dir_52bed8acfaac088d5968cb2c84d7645d =
     [ "network", "dir_78dfcf168d924d4474a856248d852329.html", "dir_78dfcf168d924d4474a856248d852329" ],
     [ "profiling", "dir_7311c3de808e80cda5ee6aa0c2babffd.html", "dir_7311c3de808e80cda5ee6aa0c2babffd" ],
     [ "storage", "dir_dd8bd4d6a0d3f3aaf32a75653999712b.html", "dir_dd8bd4d6a0d3f3aaf32a75653999712b" ],
+    [ "subsystem", "dir_529ae5463d15c1dc97700dfb5ef51f6c.html", "dir_529ae5463d15c1dc97700dfb5ef51f6c" ],
     [ "syscalls", "dir_7d0bb72586de14915603f0910b6f0241.html", "dir_7d0bb72586de14915603f0910b6f0241" ],
     [ "tasking", "dir_1bc4a64a4b77e367793b2a87f49193e7.html", "dir_1bc4a64a4b77e367793b2a87f49193e7" ],
     [ "tests", "dir_d158513ad1efce9d4cb8988c53bdce10.html", "dir_d158513ad1efce9d4cb8988c53bdce10" ],
+    [ "tty", "dir_c16dc7cd802f5b0d73f4df3a85370124.html", "dir_c16dc7cd802f5b0d73f4df3a85370124" ],
     [ "virtualization", "dir_2e13fc40a746111be1b485636ec135ed.html", "dir_2e13fc40a746111be1b485636ec135ed" ],
-    [ "driver.h", "d4/d55/Kernel_2driver_8h.html", "d4/d55/Kernel_2driver_8h" ],
     [ "kernel.cpp", "dd/d24/kernel_8cpp.html", "dd/d24/kernel_8cpp" ],
     [ "kernel.h", "d0/daa/kernel_8h.html", "d0/daa/kernel_8h" ],
     [ "kernel_config.cpp", "d1/d6d/kernel__config_8cpp.html", "d1/d6d/kernel__config_8cpp" ],
     [ "kernel_thread.cpp", "d4/d70/kernel__thread_8cpp.html", "d4/d70/kernel__thread_8cpp" ],
     [ "kernel_vfs.cpp", "da/dce/kernel__vfs_8cpp.html", "da/dce/kernel__vfs_8cpp" ],
-    [ "Makefile", "d6/d67/Kernel_2Makefile.html", null ],
-    [ "syscalls.h", "d2/d6e/syscalls_8h.html", "d2/d6e/syscalls_8h" ]
+    [ "Makefile", "d6/d67/Kernel_2Makefile.html", null ]
 ];

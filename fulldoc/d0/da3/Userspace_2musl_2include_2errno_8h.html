@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('d0/da3/Userspace_2musl_2include_2errno
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ab03f640d90fbc5bcb75285d08a0f25ed"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/da3/Userspace_2musl_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a>&#160;&#160;&#160;(*<a class="el" href="../../d3/d74/____errno__location_8c.html#af7421234b15b89062853a783279b7885">__errno_location</a>())</td></tr>
+<tr class="memitem:ab03f640d90fbc5bcb75285d08a0f25ed"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/da3/Userspace_2musl_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a>&#160;&#160;&#160;(*<a class="el" href="../../d1/de5/Drivers_2include_2errno_8h.html#a9327667fea32c7a96ba5540ec48b0975">__errno_location</a>())</td></tr>
 <tr class="separator:ab03f640d90fbc5bcb75285d08a0f25ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -115,7 +115,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define errno&#160;&#160;&#160;(*<a class="el" href="../../d3/d74/____errno__location_8c.html#af7421234b15b89062853a783279b7885">__errno_location</a>())</td>
+          <td class="memname">#define errno&#160;&#160;&#160;(*<a class="el" href="../../d1/de5/Drivers_2include_2errno_8h.html#a9327667fea32c7a96ba5540ec48b0975">__errno_location</a>())</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -147,11 +147,11 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordflow">return</span> &amp;errno_value;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">return</span> &amp;<a class="code" href="../../d8/da1/task_8hpp.html#a1cf492bc489f4879fe6f67325e8f8dc7">thisThread</a>-&gt;ErrorNumber;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_ac6c45889010c1bd68631771b64f18101"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a></div><div class="ttdeci">#define unlikely(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00411">types.h:411</a></div></div>
-<div class="ttc" id="akernel_8cpp_html_a5a8d7736911609823f0ff8f3c8f51df2"><div class="ttname"><a href="../../dd/d24/kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a></div><div class="ttdeci">Tasking::Task * TaskManager</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d24/kernel_8cpp_source.html#l00063">kernel.cpp:63</a></div></div>
-<div class="ttc" id="atask_8hpp_html_a1cf492bc489f4879fe6f67325e8f8dc7"><div class="ttname"><a href="../../d8/da1/task_8hpp.html#a1cf492bc489f4879fe6f67325e8f8dc7">thisThread</a></div><div class="ttdeci">#define thisThread</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00671">task.hpp:671</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_ac6c45889010c1bd68631771b64f18101"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a></div><div class="ttdeci">#define unlikely(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00451">types.h:451</a></div></div>
+<div class="ttc" id="akernel_8cpp_html_a5a8d7736911609823f0ff8f3c8f51df2"><div class="ttname"><a href="../../dd/d24/kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a></div><div class="ttdeci">Tasking::Task * TaskManager</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d24/kernel_8cpp_source.html#l00060">kernel.cpp:60</a></div></div>
+<div class="ttc" id="atask_8hpp_html_a1cf492bc489f4879fe6f67325e8f8dc7"><div class="ttname"><a href="../../d8/da1/task_8hpp.html#a1cf492bc489f4879fe6f67325e8f8dc7">thisThread</a></div><div class="ttdeci">#define thisThread</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00666">task.hpp:666</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d90/errno_8c_source.html#l00005">__local_stub_errno</a>, <a class="el" href="../../d7/dd7/pthread__impl_8h_source.html#l00122">__pthread_self</a>, <a class="el" href="../../dd/d24/kernel_8cpp_source.html#l00063">TaskManager</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00671">thisThread</a>, and <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00411">unlikely</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d90/errno_8c_source.html#l00005">__local_stub_errno</a>, <a class="el" href="../../d7/dd7/pthread__impl_8h_source.html#l00122">__pthread_self</a>, <a class="el" href="../../dd/d24/kernel_8cpp_source.html#l00060">TaskManager</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00666">thisThread</a>, and <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00451">unlikely</a>.</p>
 
 </div>
 </div>

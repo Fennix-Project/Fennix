@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['audioioctl_989',['AudioIoctl',['../db/de4/driver_8h.html#a61662cd00dc0375eb8d5795fcaba286a',1,'driver.h']]]
+  ['devicetype_1105',['DeviceType',['../db/de9/device_8h.html#ad258d4c51629346fceac4679b3209ad9',1,'device.h']]]
 ];

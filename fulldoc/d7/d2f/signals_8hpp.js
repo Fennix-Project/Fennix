@@ -1,5 +1,7 @@
 var signals_8hpp =
 [
+    [ "k_sigaction", "d1/d21/structk__sigaction.html", "d1/d21/structk__sigaction" ],
+    [ "linux_NSIG", "d7/d2f/signals_8hpp.html#a87b2fcd0284373e578edbc1240b5c627", null ],
     [ "linux_SIGABRT", "d7/d2f/signals_8hpp.html#a8758bc021c2768fe47b451a7b2499b0f", null ],
     [ "linux_SIGALRM", "d7/d2f/signals_8hpp.html#a1cb91c0e62ff264fda46228364b44781", null ],
     [ "linux_SIGBUS", "d7/d2f/signals_8hpp.html#a331ff0b222ac7792988ec453f19e312f", null ],
@@ -15,6 +17,8 @@ var signals_8hpp =
     [ "linux_SIGPROF", "d7/d2f/signals_8hpp.html#afe23822b06d7fe0c50cc7183498bdbe3", null ],
     [ "linux_SIGPWR", "d7/d2f/signals_8hpp.html#ae1a52e3655d053b7a6bed8fdca244036", null ],
     [ "linux_SIGQUIT", "d7/d2f/signals_8hpp.html#ad41a7531b5ec945b1e7e70f38e7a1edc", null ],
+    [ "linux_SIGRTMAX", "d7/d2f/signals_8hpp.html#aaf9f0ef25a82d76ae0e9ae30cdf9f883", null ],
+    [ "linux_SIGRTMIN", "d7/d2f/signals_8hpp.html#aae08d342b63f80447390b92b36b3d984", null ],
     [ "linux_SIGSEGV", "d7/d2f/signals_8hpp.html#a4442abdbe88d0eb401109a661ad2d5db", null ],
     [ "linux_SIGSTKFLT", "d7/d2f/signals_8hpp.html#a98c24c9ccacc2b751f764116880b9415", null ],
     [ "linux_SIGSTOP", "d7/d2f/signals_8hpp.html#a79db600bd61df93cc15d7a64015686ca", null ],

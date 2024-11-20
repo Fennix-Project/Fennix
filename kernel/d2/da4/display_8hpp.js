@@ -37,7 +37,7 @@ var display_8hpp =
       [ "raw", "d6/de2/namespaceVideo.html#a02071598e9041635da044f0185ec2eb3", null ]
     ] ],
     [ "Display", "db/d81/classVideo_1_1Display.html", "db/d81/classVideo_1_1Display" ],
-    [ "Pixel.__unnamed493__", "d6/de2/namespaceVideo.html#d5/df1/structVideo_1_1Pixel_8____unnamed493____", [
+    [ "Pixel.__unnamed824__", "d6/de2/namespaceVideo.html#df/d2f/structVideo_1_1Pixel_8____unnamed824____", [
       [ "Alpha", "d6/de2/namespaceVideo.html#a6132295fcf5570fb8b0a944ef322a598", null ],
       [ "Blue", "d6/de2/namespaceVideo.html#a9594eec95be70e7b1710f730fdda33d9", null ],
       [ "Green", "d6/de2/namespaceVideo.html#ad382816a3cbeed082c9e216e7392eed1", null ],

@@ -160,6 +160,6 @@ var regcomp_8c =
     [ "tre_stack_new", "d0/d86/regcomp_8c.html#a714bb9af38c3d18cbef8bf09196ffcf9", null ],
     [ "tre_stack_num_objects", "d0/d86/regcomp_8c.html#a20cc7e9c59bccd2040fe8c1b941ddf2b", null ],
     [ "tre_stack_push", "d0/d86/regcomp_8c.html#a46f6302c4c440158a334ebb7be9d35ab", null ],
-    [ "tre_macros", "d0/d86/regcomp_8c.html#add8ef59da9b6572fe8aca89e24bd6150", null ],
+    [ "tre_macros", "d0/d86/regcomp_8c.html#a74154e8bb771a95016edec02df96af56", null ],
     [ "tre_parse_ctx_t", "d0/d86/regcomp_8c.html#a15b75d8c88e55a8b2d731afcad3e498b", null ]
 ];

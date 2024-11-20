@@ -141,7 +141,7 @@ var dir_e6796593f119055fc107ecc8cbe454c7 =
     [ "thrd_join.c", "d6/da1/thrd__join_8c.html", "d6/da1/thrd__join_8c" ],
     [ "thrd_sleep.c", "d3/da6/thrd__sleep_8c.html", "d3/da6/thrd__sleep_8c" ],
     [ "thrd_yield.c", "d2/d47/thrd__yield_8c.html", "d2/d47/thrd__yield_8c" ],
-    [ "tls.c", "d0/d44/musl_2src_2thread_2tls_8c.html", null ],
+    [ "tls.c", "da/d4f/tls_8c.html", null ],
     [ "tss_create.c", "d9/dbb/tss__create_8c.html", "d9/dbb/tss__create_8c" ],
     [ "tss_delete.c", "d1/d70/tss__delete_8c.html", "d1/d70/tss__delete_8c" ],
     [ "tss_set.c", "df/d49/tss__set_8c.html", "df/d49/tss__set_8c" ],

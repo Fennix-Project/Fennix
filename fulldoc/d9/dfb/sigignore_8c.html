@@ -119,18 +119,17 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/dfb/sigignore_8c_source.html#l00003">3</a> of file <a class="el" href="../../d9/dfb/sigignore_8c_source.html">sigignore.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d7/def/structsigaction.html">sigaction</a> sa;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keyword">struct </span>sigaction sa;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../db/d82/sigemptyset_8c.html#a5925352f90eb589393274fa0376d7def">sigemptyset</a>(&amp;sa.sa_mask);</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    sa.sa_handler = <a class="code" href="../../dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316aeab7cc041202b29ce800a4015f8fd8b189">SIG_IGN</a>;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    sa.sa_handler = <a class="code" href="../../dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190ab7cc041202b29ce800a4015f8fd8b189">SIG_IGN</a>;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    sa.sa_flags = 0;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d7/def/structsigaction.html">sigaction</a>(sig, &amp;sa, 0);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> sigaction(sig, &amp;sa, 0);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
 <div class="ttc" id="asigemptyset_8c_html_a5925352f90eb589393274fa0376d7def"><div class="ttname"><a href="../../db/d82/sigemptyset_8c.html#a5925352f90eb589393274fa0376d7def">sigemptyset</a></div><div class="ttdeci">int sigemptyset(sigset_t *set)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d82/sigemptyset_8c_source.html#l00004">sigemptyset.c:4</a></div></div>
-<div class="ttc" id="asignal_8hpp_html_aaf6ec9e3c962d56980e65fb4aaa316aeab7cc041202b29ce800a4015f8fd8b189"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#aaf6ec9e3c962d56980e65fb4aaa316aeab7cc041202b29ce800a4015f8fd8b189">SIG_IGN</a></div><div class="ttdeci">@ SIG_IGN</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00195">signal.hpp:195</a></div></div>
-<div class="ttc" id="astructsigaction_html"><div class="ttname"><a href="../../d7/def/structsigaction.html">sigaction</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00326">signal.hpp:327</a></div></div>
+<div class="ttc" id="asignal_8hpp_html_ae80bd5fd364a6b8c9c03987861d48190ab7cc041202b29ce800a4015f8fd8b189"><div class="ttname"><a href="../../dd/d5f/signal_8hpp.html#ae80bd5fd364a6b8c9c03987861d48190ab7cc041202b29ce800a4015f8fd8b189">SIG_IGN</a></div><div class="ttdeci">@ SIG_IGN</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d5f/signal_8hpp_source.html#l00145">signal.hpp:145</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00334">sigaction::sa_flags</a>, <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00333">sigaction::sa_mask</a>, <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00195">SIG_IGN</a>, and <a class="el" href="../../db/d82/sigemptyset_8c_source.html#l00004">sigemptyset()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d5f/signal_8hpp_source.html#l00145">SIG_IGN</a>, and <a class="el" href="../../db/d82/sigemptyset_8c_source.html#l00004">sigemptyset()</a>.</p>
 
 </div>
 </div>

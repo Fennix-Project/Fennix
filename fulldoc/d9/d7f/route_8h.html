@@ -182,11 +182,11 @@ Macros</h2></td></tr>
 <tr class="separator:acaf123f1331b54014117ed0af3c2d487"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1e59af02c2f6a357f0dbb785e65e703"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7f/route_8h.html#ac1e59af02c2f6a357f0dbb785e65e703">RTF_ADDRCLASSMASK</a>&#160;&#160;&#160;0xF8000000</td></tr>
 <tr class="separator:ac1e59af02c2f6a357f0dbb785e65e703"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06f69f0db97851eb579dcea4d0aaac0f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7f/route_8h.html#a06f69f0db97851eb579dcea4d0aaac0f">RT_ADDRCLASS</a>(<a class="el" href="../../db/dd4/sm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a>)&#160;&#160;&#160;((<a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>) <a class="el" href="../../db/dd4/sm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a> &gt;&gt; 23)</td></tr>
+<tr class="memitem:a06f69f0db97851eb579dcea4d0aaac0f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7f/route_8h.html#a06f69f0db97851eb579dcea4d0aaac0f">RT_ADDRCLASS</a>(flags)&#160;&#160;&#160;((<a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>) flags &gt;&gt; 23)</td></tr>
 <tr class="separator:a06f69f0db97851eb579dcea4d0aaac0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d1843e0ebf8ebe0e9e5a0c81dfce562"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7f/route_8h.html#a4d1843e0ebf8ebe0e9e5a0c81dfce562">RT_TOS</a>(tos)&#160;&#160;&#160;((tos) &amp; <a class="el" href="../../da/d2f/ip_8h.html#a4bc64f5f52739a41d25425e2190fa217">IPTOS_TOS_MASK</a>)</td></tr>
 <tr class="separator:a4d1843e0ebf8ebe0e9e5a0c81dfce562"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a085d3001f992b6471f847d2111c79dd3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7f/route_8h.html#a085d3001f992b6471f847d2111c79dd3">RT_LOCALADDR</a>(<a class="el" href="../../db/dd4/sm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a>)</td></tr>
+<tr class="memitem:a085d3001f992b6471f847d2111c79dd3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7f/route_8h.html#a085d3001f992b6471f847d2111c79dd3">RT_LOCALADDR</a>(flags)</td></tr>
 <tr class="separator:a085d3001f992b6471f847d2111c79dd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50e062a7d75cefb42ade5f8efefd0701"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d7f/route_8h.html#a50e062a7d75cefb42ade5f8efefd0701">RT_CLASS_UNSPEC</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:a50e062a7d75cefb42ade5f8efefd0701"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -419,8 +419,8 @@ rtmsg_type</td>
           <td class="memname">#define RT_ADDRCLASS</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../db/dd4/sm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a></td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>) <a class="el" href="../../db/dd4/sm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a> &gt;&gt; 23)</td>
+          <td class="paramname">flags</td><td>)</td>
+          <td>&#160;&#160;&#160;((<a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>) flags &gt;&gt; 23)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -519,14 +519,13 @@ rtmsg_type</td>
           <td class="memname">#define RT_LOCALADDR</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../db/dd4/sm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a></td><td>)</td>
+          <td class="paramname">flags</td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">                 ((<a class="code" href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a> &amp; <a class="code" href="../../d9/d7f/route_8h.html#ac1e59af02c2f6a357f0dbb785e65e703">RTF_ADDRCLASSMASK</a>) \</div>
+<b>Value:</b><div class="fragment"><div class="line">                 ((flags &amp; <a class="code" href="../../d9/d7f/route_8h.html#ac1e59af02c2f6a357f0dbb785e65e703">RTF_ADDRCLASSMASK</a>) \</div>
 <div class="line">                 == (<a class="code" href="../../d9/d7f/route_8h.html#ad7290203a8082156d2cf6c0882d7f4d0">RTF_LOCAL</a>|<a class="code" href="../../d9/d7f/route_8h.html#aa8af0bac70b2c020041b64e1ee95e0d9">RTF_INTERFACE</a>))</div>
-<div class="ttc" id="adumpkmap_8c_html_abb0829cce9dd20a40ae0d86890ae85c6"><div class="ttname"><a href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a></div><div class="ttdeci">#define flags</div></div>
 <div class="ttc" id="aroute_8h_html_aa8af0bac70b2c020041b64e1ee95e0d9"><div class="ttname"><a href="../../d9/d7f/route_8h.html#aa8af0bac70b2c020041b64e1ee95e0d9">RTF_INTERFACE</a></div><div class="ttdeci">#define RTF_INTERFACE</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d7f/route_8h_source.html#l00086">route.h:86</a></div></div>
 <div class="ttc" id="aroute_8h_html_ac1e59af02c2f6a357f0dbb785e65e703"><div class="ttname"><a href="../../d9/d7f/route_8h.html#ac1e59af02c2f6a357f0dbb785e65e703">RTF_ADDRCLASSMASK</a></div><div class="ttdeci">#define RTF_ADDRCLASSMASK</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d7f/route_8h_source.html#l00091">route.h:91</a></div></div>
 <div class="ttc" id="aroute_8h_html_ad7290203a8082156d2cf6c0882d7f4d0"><div class="ttname"><a href="../../d9/d7f/route_8h.html#ad7290203a8082156d2cf6c0882d7f4d0">RTF_LOCAL</a></div><div class="ttdeci">#define RTF_LOCAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d7f/route_8h_source.html#l00085">route.h:85</a></div></div>

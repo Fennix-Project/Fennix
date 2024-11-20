@@ -121,17 +121,17 @@ $(document).ready(function(){initNavTree('db/d27/m__argv_8h_source.html','../../
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment">// Returns the position of the given parameter</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">// in the arg list (0 if not found).</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../db/d27/m__argv_8h.html#a0fe0d802465d5c17d2ed83d302d9c8c7">M_CheckParm</a> (<span class="keywordtype">char</span>* <a class="code" href="../../dd/d8d/start__stop__daemon_8c.html#a1d4bc184faa8b248bbbb7655c8a36917">check</a>);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../db/d27/m__argv_8h.html#a0fe0d802465d5c17d2ed83d302d9c8c7">M_CheckParm</a> (<span class="keywordtype">char</span>* check);</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">// Same as M_CheckParm, but checks that num_args arguments are available</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">// following the specified argument.</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../db/d27/m__argv_8h.html#ac833a0306300593d4ddf3b998ca650fd">M_CheckParmWithArgs</a>(<span class="keywordtype">char</span> *<a class="code" href="../../dd/d8d/start__stop__daemon_8c.html#a1d4bc184faa8b248bbbb7655c8a36917">check</a>, <span class="keywordtype">int</span> num_args);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../db/d27/m__argv_8h.html#ac833a0306300593d4ddf3b998ca650fd">M_CheckParmWithArgs</a>(<span class="keywordtype">char</span> *check, <span class="keywordtype">int</span> num_args);</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../db/d27/m__argv_8h.html#a2e853fd51dc3aeccd49d7f281acdd19a">M_FindResponseFile</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">// Parameter has been specified?</span></div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keywordtype">boolean</span> <a class="code" href="../../db/d27/m__argv_8h.html#aca79f91865fe4dccc1930bf1becc254c">M_ParmExists</a>(<span class="keywordtype">char</span> *<a class="code" href="../../dd/d8d/start__stop__daemon_8c.html#a1d4bc184faa8b248bbbb7655c8a36917">check</a>);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keywordtype">boolean</span> <a class="code" href="../../db/d27/m__argv_8h.html#aca79f91865fe4dccc1930bf1becc254c">M_ParmExists</a>(<span class="keywordtype">char</span> *check);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">// Get name of executable used to run this program:</span></div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
@@ -146,7 +146,6 @@ $(document).ready(function(){initNavTree('db/d27/m__argv_8h_source.html','../../
 <div class="ttc" id="am__argv_8h_html_ac833a0306300593d4ddf3b998ca650fd"><div class="ttname"><a href="../../db/d27/m__argv_8h.html#ac833a0306300593d4ddf3b998ca650fd">M_CheckParmWithArgs</a></div><div class="ttdeci">int M_CheckParmWithArgs(char *check, int num_args)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2c/m__argv_8c_source.html#l00043">m_argv.c:43</a></div></div>
 <div class="ttc" id="am__argv_8h_html_aca79f91865fe4dccc1930bf1becc254c"><div class="ttname"><a href="../../db/d27/m__argv_8h.html#aca79f91865fe4dccc1930bf1becc254c">M_ParmExists</a></div><div class="ttdeci">boolean M_ParmExists(char *check)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2c/m__argv_8c_source.html#l00063">m_argv.c:63</a></div></div>
 <div class="ttc" id="am__argv_8h_html_ad25a67f7b3ab5ac41ae67c2958f86e1c"><div class="ttname"><a href="../../db/d27/m__argv_8h.html#ad25a67f7b3ab5ac41ae67c2958f86e1c">M_GetExecutableName</a></div><div class="ttdeci">char * M_GetExecutableName(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2c/m__argv_8c_source.html#l00250">m_argv.c:250</a></div></div>
-<div class="ttc" id="astart__stop__daemon_8c_html_a1d4bc184faa8b248bbbb7655c8a36917"><div class="ttname"><a href="../../dd/d8d/start__stop__daemon_8c.html#a1d4bc184faa8b248bbbb7655c8a36917">check</a></div><div class="ttdeci">static void check(int pid)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d8d/start__stop__daemon_8c_source.html#l00257">start_stop_daemon.c:257</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

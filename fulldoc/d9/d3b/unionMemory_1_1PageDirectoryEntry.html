@@ -138,18 +138,18 @@ Data Fields</h2></td></tr>
 
 <p>Get <a class="el" href="../../d3/d97/namespaceMemory.html#d6/dc0/structMemory_1_1PageTableEntryPtr">PageTableEntryPtr</a> address. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d2d/table_8hpp_source.html#l00297">297</a> of file <a class="el" href="../../de/d2d/table_8hpp_source.html">table.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        {</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;<span class="preprocessor">#if defined(a64)</span></div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;            <span class="keywordflow">return</span> (this-&gt;<a class="code" href="../../d9/d3b/unionMemory_1_1PageDirectoryEntry.html#a0e53f2c3c35d8223fbd9ebdefeba5fb7">raw</a> &amp; 0x000FFFFFFFFFF000) &gt;&gt; 12;</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="preprocessor">#elif defined(a32)</span></div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;            <span class="keywordflow">return</span> ((<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)(this-&gt;<a class="code" href="../../d9/d3b/unionMemory_1_1PageDirectoryEntry.html#a0e53f2c3c35d8223fbd9ebdefeba5fb7">raw</a> &amp; 0x003FFFFF000) &gt;&gt; 12);</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;<span class="preprocessor">#elif defined(aa64)</span></div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;            <span class="keywordflow">return</span> (this-&gt;<a class="code" href="../../d9/d3b/unionMemory_1_1PageDirectoryEntry.html#a0e53f2c3c35d8223fbd9ebdefeba5fb7">raw</a> &amp; 0x000FFFFFFFFFF000) &gt;&gt; 12;</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;        }</div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00186">types.h:186</a></div></div>
-<div class="ttc" id="aunionMemory_1_1PageDirectoryEntry_html_a0e53f2c3c35d8223fbd9ebdefeba5fb7"><div class="ttname"><a href="../../d9/d3b/unionMemory_1_1PageDirectoryEntry.html#a0e53f2c3c35d8223fbd9ebdefeba5fb7">Memory::PageDirectoryEntry::raw</a></div><div class="ttdeci">uintptr_t raw</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2d/table_8hpp_source.html#l00276">table.hpp:276</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../de/d2d/table_8hpp_source.html#l00313">313</a> of file <a class="el" href="../../de/d2d/table_8hpp_source.html">table.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        {</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;<span class="preprocessor">#if defined(a64)</span></div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;            <span class="keywordflow">return</span> (this-&gt;<a class="code" href="../../d9/d3b/unionMemory_1_1PageDirectoryEntry.html#a0e53f2c3c35d8223fbd9ebdefeba5fb7">raw</a> &amp; 0x000FFFFFFFFFF000) &gt;&gt; 12;</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;<span class="preprocessor">#elif defined(a32)</span></div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;            <span class="keywordflow">return</span> ((<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)(this-&gt;<a class="code" href="../../d9/d3b/unionMemory_1_1PageDirectoryEntry.html#a0e53f2c3c35d8223fbd9ebdefeba5fb7">raw</a> &amp; 0x003FFFFF000) &gt;&gt; 12);</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;<span class="preprocessor">#elif defined(aa64)</span></div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;            <span class="keywordflow">return</span> (this-&gt;<a class="code" href="../../d9/d3b/unionMemory_1_1PageDirectoryEntry.html#a0e53f2c3c35d8223fbd9ebdefeba5fb7">raw</a> &amp; 0x000FFFFFFFFFF000) &gt;&gt; 12;</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;        }</div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00135">types.h:135</a></div></div>
+<div class="ttc" id="aunionMemory_1_1PageDirectoryEntry_html_a0e53f2c3c35d8223fbd9ebdefeba5fb7"><div class="ttname"><a href="../../d9/d3b/unionMemory_1_1PageDirectoryEntry.html#a0e53f2c3c35d8223fbd9ebdefeba5fb7">Memory::PageDirectoryEntry::raw</a></div><div class="ttdeci">uintptr_t raw</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2d/table_8hpp_source.html#l00292">table.hpp:292</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -179,22 +179,22 @@ Data Fields</h2></td></tr>
 
 <p>Set <a class="el" href="../../d3/d97/namespaceMemory.html#d6/dc0/structMemory_1_1PageTableEntryPtr">PageTableEntryPtr</a> address. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d2d/table_8hpp_source.html#l00279">279</a> of file <a class="el" href="../../de/d2d/table_8hpp_source.html">table.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        {</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;<span class="preprocessor">#if defined(a64)</span></div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;            _Address &amp;= 0x000000FFFFFFFFFF;</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;            this-&gt;<a class="code" href="../../d9/d3b/unionMemory_1_1PageDirectoryEntry.html#a0e53f2c3c35d8223fbd9ebdefeba5fb7">raw</a> &amp;= 0xFFF0000000000FFF;</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;            this-&gt;<a class="code" href="../../d9/d3b/unionMemory_1_1PageDirectoryEntry.html#a0e53f2c3c35d8223fbd9ebdefeba5fb7">raw</a> |= (_Address &lt;&lt; 12);</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;<span class="preprocessor">#elif defined(a32)</span></div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;            _Address &amp;= 0x000FFFFF;</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;            this-&gt;<a class="code" href="../../d9/d3b/unionMemory_1_1PageDirectoryEntry.html#a0e53f2c3c35d8223fbd9ebdefeba5fb7">raw</a> &amp;= 0xFFC00003;</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;            this-&gt;<a class="code" href="../../d9/d3b/unionMemory_1_1PageDirectoryEntry.html#a0e53f2c3c35d8223fbd9ebdefeba5fb7">raw</a> |= (_Address &lt;&lt; 12);</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="preprocessor">#elif defined(aa64)</span></div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;            _Address &amp;= 0x000000FFFFFFFFFF;</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;            this-&gt;<a class="code" href="../../d9/d3b/unionMemory_1_1PageDirectoryEntry.html#a0e53f2c3c35d8223fbd9ebdefeba5fb7">raw</a> &amp;= 0xFFF0000000000FFF;</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;            this-&gt;<a class="code" href="../../d9/d3b/unionMemory_1_1PageDirectoryEntry.html#a0e53f2c3c35d8223fbd9ebdefeba5fb7">raw</a> |= (_Address &lt;&lt; 12);</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="../../de/d2d/table_8hpp_source.html#l00295">295</a> of file <a class="el" href="../../de/d2d/table_8hpp_source.html">table.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        {</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;<span class="preprocessor">#if defined(a64)</span></div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;            _Address &amp;= 0x000000FFFFFFFFFF;</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;            this-&gt;<a class="code" href="../../d9/d3b/unionMemory_1_1PageDirectoryEntry.html#a0e53f2c3c35d8223fbd9ebdefeba5fb7">raw</a> &amp;= 0xFFF0000000000FFF;</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;            this-&gt;<a class="code" href="../../d9/d3b/unionMemory_1_1PageDirectoryEntry.html#a0e53f2c3c35d8223fbd9ebdefeba5fb7">raw</a> |= (_Address &lt;&lt; 12);</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="preprocessor">#elif defined(a32)</span></div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;            _Address &amp;= 0x000FFFFF;</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;            this-&gt;<a class="code" href="../../d9/d3b/unionMemory_1_1PageDirectoryEntry.html#a0e53f2c3c35d8223fbd9ebdefeba5fb7">raw</a> &amp;= 0xFFC00003;</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;            this-&gt;<a class="code" href="../../d9/d3b/unionMemory_1_1PageDirectoryEntry.html#a0e53f2c3c35d8223fbd9ebdefeba5fb7">raw</a> |= (_Address &lt;&lt; 12);</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;<span class="preprocessor">#elif defined(aa64)</span></div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;            _Address &amp;= 0x000000FFFFFFFFFF;</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;            this-&gt;<a class="code" href="../../d9/d3b/unionMemory_1_1PageDirectoryEntry.html#a0e53f2c3c35d8223fbd9ebdefeba5fb7">raw</a> &amp;= 0xFFF0000000000FFF;</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;            this-&gt;<a class="code" href="../../d9/d3b/unionMemory_1_1PageDirectoryEntry.html#a0e53f2c3c35d8223fbd9ebdefeba5fb7">raw</a> |= (_Address &lt;&lt; 12);</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        }</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="../../df/ddf/page__table_8cpp_source.html#l00019">Memory::PageTable::Fork()</a>.</p>
 
@@ -213,7 +213,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d2d/table_8hpp_source.html#l00276">276</a> of file <a class="el" href="../../de/d2d/table_8hpp_source.html">table.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d2d/table_8hpp_source.html#l00292">292</a> of file <a class="el" href="../../de/d2d/table_8hpp_source.html">table.hpp</a>.</p>
 
 </div>
 </div>

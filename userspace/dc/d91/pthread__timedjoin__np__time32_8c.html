@@ -105,7 +105,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2341baca3b266d4e8d3ac9f0472cbdb8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d91/pthread__timedjoin__np__time32_8c.html#a2341baca3b266d4e8d3ac9f0472cbdb8">__pthread_timedjoin_np_time32</a> (pthread_t <a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>, void **res, const struct <a class="el" href="../../da/de1/time32_8h.html#dd/d96/structtimespec32">timespec32</a> *at32)</td></tr>
+<tr class="memitem:a2341baca3b266d4e8d3ac9f0472cbdb8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d91/pthread__timedjoin__np__time32_8c.html#a2341baca3b266d4e8d3ac9f0472cbdb8">__pthread_timedjoin_np_time32</a> (pthread_t t, void **res, const struct <a class="el" href="../../da/de1/time32_8h.html#dd/d96/structtimespec32">timespec32</a> *at32)</td></tr>
 <tr class="separator:a2341baca3b266d4e8d3ac9f0472cbdb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -160,15 +160,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d91/pthread__timedjoin__np__time32_8c_source.html#l00006">6</a> of file <a class="el" href="../../dc/d91/pthread__timedjoin__np__time32_8c_source.html">pthread_timedjoin_np_time32.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> pthread_timedjoin_np(<a class="code" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>, res, !at32 ? 0 : (&amp;(<span class="keyword">struct</span> <a class="code" href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a>){</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> pthread_timedjoin_np(t, res, !at32 ? 0 : (&amp;(<span class="keyword">struct</span> timespec){</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        .tv_sec = at32-&gt;<a class="code" href="../../da/de1/time32_8h.html#af8db5cfd5569ae1a34067b62508db932">tv_sec</a>, .tv_nsec = at32-&gt;<a class="code" href="../../da/de1/time32_8h.html#a92bde6cadfeb47e4c18369cc1196601f">tv_nsec</a>}));</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div>
-<div class="ttc" id="agm__loop_8c_html_ac310d9181e916ba43604099aee272c71"><div class="ttname"><a href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a></div><div class="ttdeci">int t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dec/gm__loop_8c_source.html#l00079">gm_loop.c:79</a></div></div>
-<div class="ttc" id="astat-time_8h_html_da/d1c/structtimespec"><div class="ttname"><a href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d79/stat-time_8h_source.html#l00034">stat-time.h:35</a></div></div>
 <div class="ttc" id="atime32_8h_html_a92bde6cadfeb47e4c18369cc1196601f"><div class="ttname"><a href="../../da/de1/time32_8h.html#a92bde6cadfeb47e4c18369cc1196601f">timespec32::tv_nsec</a></div><div class="ttdeci">long tv_nsec</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de1/time32_8h_source.html#l00020">time32.h:20</a></div></div>
 <div class="ttc" id="atime32_8h_html_af8db5cfd5569ae1a34067b62508db932"><div class="ttname"><a href="../../da/de1/time32_8h.html#af8db5cfd5569ae1a34067b62508db932">timespec32::tv_sec</a></div><div class="ttdeci">long tv_sec</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de1/time32_8h_source.html#l00019">time32.h:19</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/dec/gm__loop_8c_source.html#l00079">t</a>, <a class="el" href="../../da/de1/time32_8h_source.html#l00020">timespec32::tv_nsec</a>, and <a class="el" href="../../da/de1/time32_8h_source.html#l00019">timespec32::tv_sec</a>.</p>
+<p class="reference">References <a class="el" href="../../da/de1/time32_8h_source.html#l00020">timespec32::tv_nsec</a>, and <a class="el" href="../../da/de1/time32_8h_source.html#l00019">timespec32::tv_sec</a>.</p>
 
 </div>
 </div>

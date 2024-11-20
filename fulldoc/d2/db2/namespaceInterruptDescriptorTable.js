@@ -62,7 +62,10 @@ var namespaceInterruptDescriptorTable =
     [ "EXCEPTION_HANDLER", "d2/db2/namespaceInterruptDescriptorTable.html#a8b482057aba9d7fb8e0df91a00df0d0a", null ],
     [ "EXCEPTION_HANDLER", "d2/db2/namespaceInterruptDescriptorTable.html#a5c17bef14be9a26c98a78d9a523aade3", null ],
     [ "EXCEPTION_HANDLER", "d2/db2/namespaceInterruptDescriptorTable.html#a06dc90ea4f9b497dde29a66795414f7a", null ],
+    [ "ExceptionHandlerStub", "d2/db2/namespaceInterruptDescriptorTable.html#a119bcd3137aec822523220d1ac80c335", null ],
     [ "Init", "d2/db2/namespaceInterruptDescriptorTable.html#a5275e6707c957c5ba4b050102990c908", null ],
+    [ "InterruptHandlerStub", "d2/db2/namespaceInterruptDescriptorTable.html#a341422b50199a41e2ad579b3c04a10ed", null ],
+    [ "SchedulerHandlerStub", "d2/db2/namespaceInterruptDescriptorTable.html#a20f1f287ba3c34964fbdbeac0b0e52b5", null ],
     [ "SetEntry", "d2/db2/namespaceInterruptDescriptorTable.html#a1c8c4f4579ce990e1dfa47b85d48d7dc", null ],
     [ "SetEntry", "d2/db2/namespaceInterruptDescriptorTable.html#adcedaaebbdc2f60e14c0e8a1d7db5126", null ],
     [ "__packed", "d2/db2/namespaceInterruptDescriptorTable.html#a12bd072719322684e58f05cca18d3730", null ]

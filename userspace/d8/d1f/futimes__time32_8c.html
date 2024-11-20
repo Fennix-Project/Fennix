@@ -106,7 +106,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac114ed9489cb93d6db34c4830dddfd8f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d1f/futimes__time32_8c.html#ac114ed9489cb93d6db34c4830dddfd8f">__futimes_time32</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, const struct <a class="el" href="../../da/de1/time32_8h.html#df/dcb/structtimeval32">timeval32</a> times32[2])</td></tr>
+<tr class="memitem:ac114ed9489cb93d6db34c4830dddfd8f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d1f/futimes__time32_8c.html#ac114ed9489cb93d6db34c4830dddfd8f">__futimes_time32</a> (int fd, const struct <a class="el" href="../../da/de1/time32_8h.html#df/dcb/structtimeval32">timeval32</a> times32[2])</td></tr>
 <tr class="separator:ac114ed9489cb93d6db34c4830dddfd8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -155,17 +155,15 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/d1f/futimes__time32_8c_source.html#l00007">7</a> of file <a class="el" href="../../d8/d1f/futimes__time32_8c_source.html">futimes_time32.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d33/futimes_8c.html#a011521eaa502098d307f449bd893a3f4">futimes</a>(<a class="code" href="../../d2/db3/hdparm_8c.html#abe821d0fac05333be298917dcb50ee1da1e4d60e5b05464d07a30096747025a42">fd</a>, !times32 ? 0 : ((<span class="keyword">struct</span> <a class="code" href="../../dc/d3d/lib_2readline_2posixtime_8h.html#d1/d1b/structtimeval">timeval</a>[2]){</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d33/futimes_8c.html#a011521eaa502098d307f449bd893a3f4">futimes</a>(fd, !times32 ? 0 : ((<span class="keyword">struct</span> timeval[2]){</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        {.tv_sec = times32[0].<a class="code" href="../../da/de1/time32_8h.html#a6c1c1f2aac67a786afbd1cfe88a90f2d">tv_sec</a>,.tv_usec = times32[0].<a class="code" href="../../da/de1/time32_8h.html#a4cc8756ea40852678478ba330752d3b4">tv_usec</a>},</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        {.tv_sec = times32[1].<a class="code" href="../../da/de1/time32_8h.html#a6c1c1f2aac67a786afbd1cfe88a90f2d">tv_sec</a>,.tv_usec = times32[1].<a class="code" href="../../da/de1/time32_8h.html#a4cc8756ea40852678478ba330752d3b4">tv_usec</a>}}));</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
 <div class="ttc" id="afutimes_8c_html_a011521eaa502098d307f449bd893a3f4"><div class="ttname"><a href="../../d2/d33/futimes_8c.html#a011521eaa502098d307f449bd893a3f4">futimes</a></div><div class="ttdeci">int futimes(int fd, const struct timeval tv[2])</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d33/futimes_8c_source.html#l00005">futimes.c:5</a></div></div>
-<div class="ttc" id="ahdparm_8c_html_abe821d0fac05333be298917dcb50ee1da1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#abe821d0fac05333be298917dcb50ee1da1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
-<div class="ttc" id="alib_2readline_2posixtime_8h_html_d1/d1b/structtimeval"><div class="ttname"><a href="../../dc/d3d/lib_2readline_2posixtime_8h.html#d1/d1b/structtimeval">timeval</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dbc/include_2posixtime_8h_source.html#l00044">posixtime.h:45</a></div></div>
 <div class="ttc" id="atime32_8h_html_a4cc8756ea40852678478ba330752d3b4"><div class="ttname"><a href="../../da/de1/time32_8h.html#a4cc8756ea40852678478ba330752d3b4">timeval32::tv_usec</a></div><div class="ttdeci">long tv_usec</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de1/time32_8h_source.html#l00010">time32.h:10</a></div></div>
 <div class="ttc" id="atime32_8h_html_a6c1c1f2aac67a786afbd1cfe88a90f2d"><div class="ttname"><a href="../../da/de1/time32_8h.html#a6c1c1f2aac67a786afbd1cfe88a90f2d">timeval32::tv_sec</a></div><div class="ttdeci">long tv_sec</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de1/time32_8h_source.html#l00009">time32.h:9</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, <a class="el" href="../../d2/d33/futimes_8c_source.html#l00005">futimes()</a>, <a class="el" href="../../da/de1/time32_8h_source.html#l00009">timeval32::tv_sec</a>, and <a class="el" href="../../da/de1/time32_8h_source.html#l00010">timeval32::tv_usec</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d33/futimes_8c_source.html#l00005">futimes()</a>, <a class="el" href="../../da/de1/time32_8h_source.html#l00009">timeval32::tv_sec</a>, and <a class="el" href="../../da/de1/time32_8h_source.html#l00010">timeval32::tv_usec</a>.</p>
 
 </div>
 </div>

@@ -1,0 +1,48 @@
+var macho_8h =
+[
+    [ "mach_header", "d6/d41/macho_8h.html#d5/ddc/structmach__header", [
+      [ "cpusubtype", "d6/d41/macho_8h.html#acd7ea1582093c2b63f63e09e0964b8f7", null ],
+      [ "cputype", "d6/d41/macho_8h.html#a1c265fc1df7f57145ac206f811f625b3", null ],
+      [ "filetype", "d6/d41/macho_8h.html#a37a5b8e8a1a3c8e695cb73095a60e6a5", null ],
+      [ "flags", "d6/d41/macho_8h.html#acf8b371e5ca92e8e61758a1f79365b7a", null ],
+      [ "magic", "d6/d41/macho_8h.html#a3a6054fdf7cbb38d68c74f519272be9c", null ],
+      [ "ncmds", "d6/d41/macho_8h.html#a9906640688f0fdae8169a8ff540a3c83", null ],
+      [ "sizeofcmds", "d6/d41/macho_8h.html#ac8dd4d339a6a32548f5f88dddfc19a0d", null ]
+    ] ],
+    [ "mach_header_64", "d6/d41/macho_8h.html#db/d3f/structmach__header__64", [
+      [ "cpusubtype", "d6/d41/macho_8h.html#a0b1e425020f7bd897a4bde97859d6277", null ],
+      [ "cputype", "d6/d41/macho_8h.html#a1a84a5a955745c88f51a201aad989238", null ],
+      [ "filetype", "d6/d41/macho_8h.html#a78271cd2c48bb93fac9c8b866e62b841", null ],
+      [ "flags", "d6/d41/macho_8h.html#a681bbfbcca6fba57bbb43602d7728c5b", null ],
+      [ "magic", "d6/d41/macho_8h.html#a066d3df3c579e24618de60a5cf4d1bcb", null ],
+      [ "ncmds", "d6/d41/macho_8h.html#acff7048eb3c50cc8d930bf10ae60ce3f", null ],
+      [ "reserved", "d6/d41/macho_8h.html#a9d14acc869f05b2393393853751de84d", null ],
+      [ "sizeofcmds", "d6/d41/macho_8h.html#a209c7f2da641459b4052f4b3bb2b16e6", null ]
+    ] ],
+    [ "CPU_ARCH_ABI64", "d6/d41/macho_8h.html#a5d8aec690145b080a06e95b8062f4c75", null ],
+    [ "CPU_TYPE_ANY", "d6/d41/macho_8h.html#a2cc7c21898c09dcaa6b770b7850a01b1", null ],
+    [ "CPU_TYPE_ARM", "d6/d41/macho_8h.html#a69172abd30d4c53b63ed994508020786", null ],
+    [ "CPU_TYPE_HPPA", "d6/d41/macho_8h.html#a31414ec90c057bc1d605c884e56fd61c", null ],
+    [ "CPU_TYPE_I386", "d6/d41/macho_8h.html#ab6fe4838ee4266542d618f5069aa76f8", null ],
+    [ "CPU_TYPE_I860", "d6/d41/macho_8h.html#ab9ec5a629648282d01ed779cd2fc4aaa", null ],
+    [ "CPU_TYPE_I860_LITTLE", "d6/d41/macho_8h.html#a5d16c5e7314137089a28f87dc880b4fe", null ],
+    [ "CPU_TYPE_MC680x0", "d6/d41/macho_8h.html#a841eebdb19970ac3951bfd406435a149", null ],
+    [ "CPU_TYPE_MC88000", "d6/d41/macho_8h.html#ac4a795040797768fb235cf9db1294c5e", null ],
+    [ "CPU_TYPE_MC98000", "d6/d41/macho_8h.html#acbf5a40456eb2355b5054109944dfd9a", null ],
+    [ "CPU_TYPE_MIPS", "d6/d41/macho_8h.html#a526041a55817e58c25b7961b693586a7", null ],
+    [ "CPU_TYPE_NS32032", "d6/d41/macho_8h.html#a337a747cc480136257d3e68adba4a109", null ],
+    [ "CPU_TYPE_NS32332", "d6/d41/macho_8h.html#ac4ea572e7a3b257fba251517de0dae47", null ],
+    [ "CPU_TYPE_NS32532", "d6/d41/macho_8h.html#aa83eee3817ba50058792bcbaa2720bf3", null ],
+    [ "CPU_TYPE_POWERPC", "d6/d41/macho_8h.html#a79fae383178d6f4ee50401f342234823", null ],
+    [ "CPU_TYPE_POWERPC64", "d6/d41/macho_8h.html#a5dcaf45e8eb4b7653be139c699358ec6", null ],
+    [ "CPU_TYPE_ROMP", "d6/d41/macho_8h.html#a3b55818ceed80662d47bed84172d3c59", null ],
+    [ "CPU_TYPE_RS6000", "d6/d41/macho_8h.html#a200678258265acebe988c646dc580d3e", null ],
+    [ "CPU_TYPE_SPARC", "d6/d41/macho_8h.html#afbc5f88e85561ce74de4a36f17a65cc8", null ],
+    [ "CPU_TYPE_VAX", "d6/d41/macho_8h.html#af168f2b154fff8b248eb4af7d0c64654", null ],
+    [ "CPU_TYPE_VEO", "d6/d41/macho_8h.html#a811fd8b787d8d3d4fb2470a51115f031", null ],
+    [ "CPU_TYPE_X86_64", "d6/d41/macho_8h.html#a73fb8e91876feece8c24c8fd0fb517ba", null ],
+    [ "MH_CIGAM", "d6/d41/macho_8h.html#a9cea1478cf54a05a485d0de85300a194", null ],
+    [ "MH_MAGIC", "d6/d41/macho_8h.html#a9ac26935bde1fe034d1164131f15521b", null ],
+    [ "cpu_subtype_t", "d6/d41/macho_8h.html#a3699b34de86b6b21717112807cba9078", null ],
+    [ "cpu_type_t", "d6/d41/macho_8h.html#a6e3e028aa0457f8a951b6cd5b52765a8", null ]
+];

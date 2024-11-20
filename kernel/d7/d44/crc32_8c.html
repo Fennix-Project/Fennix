@@ -135,19 +135,21 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d44/crc32_8c_source.html#l00087">87</a> of file <a class="el" href="../../d7/d44/crc32_8c_source.html">crc32.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;{</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> ret = 0xffffffff;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> <a class="code" href="../../d0/d64/syscall_8cpp.html#a339672ff94e6199019102f50d317c3d7">ret</a> = 0xffffffff;</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a>--)</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    {</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        ret = (ret &lt;&lt; 8) ^ <a class="code" href="../../d7/d44/crc32_8c.html#acc1c3fd84fdaaf32a27c8795b5f139c7">LookupTable</a>[((ret &gt;&gt; 24) ^ *Buffer) &amp; 255];</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        Buffer++;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <a class="code" href="../../d0/d64/syscall_8cpp.html#a339672ff94e6199019102f50d317c3d7">ret</a> = (<a class="code" href="../../d0/d64/syscall_8cpp.html#a339672ff94e6199019102f50d317c3d7">ret</a> &lt;&lt; 8) ^ <a class="code" href="../../d7/d44/crc32_8c.html#acc1c3fd84fdaaf32a27c8795b5f139c7">LookupTable</a>[((<a class="code" href="../../d0/d64/syscall_8cpp.html#a339672ff94e6199019102f50d317c3d7">ret</a> &gt;&gt; 24) ^ *<a class="code" href="../../d1/d48/namespaceDriver.html#a04995fe9d354da7d2d257a2e34279b4e">Buffer</a>) &amp; 255];</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <a class="code" href="../../d1/d48/namespaceDriver.html#a04995fe9d354da7d2d257a2e34279b4e">Buffer</a>++;</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    }</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordflow">return</span> ret;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d64/syscall_8cpp.html#a339672ff94e6199019102f50d317c3d7">ret</a>;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;}</div>
 <div class="ttc" id="aarithmetic__operations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddd/arithmetic__operations_8c_source.html#l00295">arithmetic_operations.c:295</a></div></div>
 <div class="ttc" id="abinfo_8h_html_a01ae9666c16c57cec1c6e4e28a0eb0e3"><div class="ttname"><a href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a></div><div class="ttdeci">__UINT32_TYPE__ Length</div><div class="ttdoc">Length.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d36/binfo_8h_source.html#l00025">binfo.h:25</a></div></div>
 <div class="ttc" id="acrc32_8c_html_acc1c3fd84fdaaf32a27c8795b5f139c7"><div class="ttname"><a href="../../d7/d44/crc32_8c.html#acc1c3fd84fdaaf32a27c8795b5f139c7">LookupTable</a></div><div class="ttdeci">uint32_t LookupTable[256]</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d44/crc32_8c_source.html#l00020">crc32.c:20</a></div></div>
+<div class="ttc" id="anamespaceDriver_html_a04995fe9d354da7d2d257a2e34279b4e"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a04995fe9d354da7d2d257a2e34279b4e">Driver::Buffer</a></div><div class="ttdeci">struct kdirent * Buffer</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/daemon_8cpp_source.html#l00491">daemon.cpp:491</a></div></div>
+<div class="ttc" id="asyscall_8cpp_html_a339672ff94e6199019102f50d317c3d7"><div class="ttname"><a href="../../d0/d64/syscall_8cpp.html#a339672ff94e6199019102f50d317c3d7">ret</a></div><div class="ttdeci">int ret</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d64/syscall_8cpp_source.html#l01761">syscall.cpp:1761</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/d36/binfo_8h_source.html#l00025">Length</a>, and <a class="el" href="../../d7/d44/crc32_8c_source.html#l00020">LookupTable</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d2b/daemon_8cpp_source.html#l00491">Driver::Buffer</a>, <a class="el" href="../../d9/d36/binfo_8h_source.html#l00025">Length</a>, <a class="el" href="../../d7/d44/crc32_8c_source.html#l00020">LookupTable</a>, and <a class="el" href="../../d0/d64/syscall_8cpp_source.html#l01761">ret</a>.</p>
 
 </div>
 </div>

@@ -2,17 +2,17 @@ var abi_8h =
 [
     [ "Elf32_auxv_t", "d5/d81/Userspace_2musl_2include_2elf_8h.html#d2/d6b/structElf32__auxv__t", [
       [ "a_type", "d5/d81/Userspace_2musl_2include_2elf_8h.html#ab6d0fd7066a8703da6fa658d3c0c085d", null ],
-      [ "a_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a10676858347176afa2c91f9c0711fbcb", null ],
-      [ "a_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a0660aee45f054436349e4bcce91ca71d", null ],
-      [ "a_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#ab3ffb0ea934e4a6de4130210ece820f0", null ],
-      [ "a_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#afb862ed2f49f2fe4927ac6121ff8a1f2", null ]
+      [ "a_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#acd2d71fe1c28b5c168c6f146814bd81b", null ],
+      [ "a_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a49147480c067cf5c7f62b4424dbeeb61", null ],
+      [ "a_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#aed14248d0a09e756df56f64a66138585", null ],
+      [ "a_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a48c8569dd8b27493bb8d09fad903c7d7", null ]
     ] ],
     [ "Elf64_auxv_t", "d5/d81/Userspace_2musl_2include_2elf_8h.html#d9/de7/structElf64__auxv__t", [
       [ "a_type", "d5/d81/Userspace_2musl_2include_2elf_8h.html#aa4799367aa86aa03c70a44148b14d000", null ],
-      [ "a_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a0bbdbd4273886fd3abc27c096d5aa99c", null ],
-      [ "a_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a71761395ae3f8286ae123070b148991d", null ],
-      [ "a_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#acf524b36fb5a57eb220f5d1860b179be", null ],
-      [ "a_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#af76e8168bcf9ba310d1bcd8fe2ab925e", null ]
+      [ "a_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a36a5503e5a866eb9c6ee06b618d9dda3", null ],
+      [ "a_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a62f27053300f6734041f0a8faa1d98c8", null ],
+      [ "a_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#aaa0774f67e201b03630d66f69d4680f2", null ],
+      [ "a_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#ad9f017bdabf3a11f3967e7426ff75aef", null ]
     ] ],
     [ "AuxiliaryVector", "df/d31/abi_8h.html#db/d1d/structAuxiliaryVector", [
       [ "archaux", "df/d31/abi_8h.html#a5f6edf801a4f35dc7a2effc7b8150932", null ]

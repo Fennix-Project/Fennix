@@ -90,7 +90,7 @@ $(document).ready(function(){initNavTree('d3/d48/Drivers_2Makefile_source.html',
 </div><!--header-->
 <div class="contents">
 <a href="../../d3/d48/Drivers_2Makefile.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;build:</div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;    cp -f ../Kernel/driver.h include/driver.h</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;    cp -rf ../Kernel/include/interface/* include/</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;    mkdir -p out</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    make -C library build</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    make -C audio build</div>
@@ -98,18 +98,20 @@ $(document).ready(function(){initNavTree('d3/d48/Drivers_2Makefile_source.html',
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    make -C misc build</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    make -C network build</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    make -C storage build</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;prepare:</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    $(info Nothing to prepare)</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;clean:</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    rm -rf out</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    make -C library clean</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    make -C audio clean</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    make -C input clean</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    make -C misc clean</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    make -C network clean</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    make -C storage clean</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    make -C filesystem build</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;prepare:</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    $(info Nothing to prepare)</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;clean:</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    rm -rf out</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    make -C library clean</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    make -C audio clean</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    make -C input clean</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    make -C misc clean</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    make -C network clean</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    make -C storage clean</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    make -C filesystem clean</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

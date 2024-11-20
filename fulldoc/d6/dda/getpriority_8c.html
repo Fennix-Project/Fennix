@@ -130,15 +130,16 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/dda/getpriority_8c_source.html#l00004">4</a> of file <a class="el" href="../../d6/dda/getpriority_8c_source.html">getpriority.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordtype">int</span> ret = <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_getpriority, which, who);</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">if</span> (ret &lt; 0) <span class="keywordflow">return</span> ret;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> 20-ret;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d0/d64/syscall_8cpp.html#a339672ff94e6199019102f50d317c3d7">ret</a> = <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_getpriority, which, who);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d0/d64/syscall_8cpp.html#a339672ff94e6199019102f50d317c3d7">ret</a> &lt; 0) <span class="keywordflow">return</span> <a class="code" href="../../d0/d64/syscall_8cpp.html#a339672ff94e6199019102f50d317c3d7">ret</a>;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> 20-<a class="code" href="../../d0/d64/syscall_8cpp.html#a339672ff94e6199019102f50d317c3d7">ret</a>;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
+<div class="ttc" id="asyscall_8cpp_html_a339672ff94e6199019102f50d317c3d7"><div class="ttname"><a href="../../d0/d64/syscall_8cpp.html#a339672ff94e6199019102f50d317c3d7">ret</a></div><div class="ttdeci">int ret</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d64/syscall_8cpp_source.html#l01761">syscall.cpp:1761</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d64/syscall_8cpp_source.html#l01761">ret</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/deb/musl_2src_2unistd_2nice_8c_source.html#l00007">nice()</a>, <a class="el" href="../../dc/d0d/apps_2base_2busybox_2coreutils_2nice_8c_source.html#l00028">nice_main()</a>, <a class="el" href="../../da/dae/renice_8c_source.html#l00044">renice_main()</a>, and <a class="el" href="../../dd/d8d/start__stop__daemon_8c_source.html#l00408">start_stop_daemon_main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d26/nice_8c_source.html#l00007">nice()</a>.</p>
 
 </div>
 </div>

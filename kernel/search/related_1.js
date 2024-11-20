@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['filedescriptortable_15304',['FileDescriptorTable',['../da/d28/classvfs_1_1RefNode.html#a9e18ae1085799682514aed9725be6667',1,'vfs::RefNode']]]
+  ['threadsignal_16551',['ThreadSignal',['../d2/d8b/classTasking_1_1Signal.html#aa3045aec026694649c970f1959ef899a',1,'Tasking::Signal']]]
 ];

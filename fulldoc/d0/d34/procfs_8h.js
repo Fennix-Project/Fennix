@@ -6,9 +6,9 @@ var procfs_8h =
       [ "si_signo", "d0/d34/procfs_8h.html#a37eccad8e28f9dd7f2bf6051b35f28b3", null ]
     ] ],
     [ "elf_prstatus", "d0/d34/procfs_8h.html#d5/dda/structelf__prstatus", [
-      [ "pr_cstime", "d0/d34/procfs_8h.html#a15ed0f59ff53ce3bad312ea0858b13d2", null ],
+      [ "pr_cstime", "d0/d34/procfs_8h.html#a405644cbceb3627c3a5c1d2a915616b3", null ],
       [ "pr_cursig", "d0/d34/procfs_8h.html#ae9d3fd77cef8c8ba4eb506232abe8b68", null ],
-      [ "pr_cutime", "d0/d34/procfs_8h.html#a6b1c820981676266fac6aede051dc87d", null ],
+      [ "pr_cutime", "d0/d34/procfs_8h.html#aeb678e33d481a43f606d6e68ebead780", null ],
       [ "pr_fpvalid", "d0/d34/procfs_8h.html#a38d404be781fe1432c3569b809354d7e", null ],
       [ "pr_info", "d0/d34/procfs_8h.html#a2ca898878a9b306f1c4c65a65d537dfe", null ],
       [ "pr_pgrp", "d0/d34/procfs_8h.html#a36fdbc1cc42902db7e9fb71ec6bd218f", null ],
@@ -18,8 +18,8 @@ var procfs_8h =
       [ "pr_sid", "d0/d34/procfs_8h.html#a77dcc57931bcafa1ae5d2862829c6702", null ],
       [ "pr_sighold", "d0/d34/procfs_8h.html#a71d75a73d548a342dc9a16e0ef4a81b5", null ],
       [ "pr_sigpend", "d0/d34/procfs_8h.html#a9ef818a34a6459aebae9f5780fbfa2c6", null ],
-      [ "pr_stime", "d0/d34/procfs_8h.html#abbac31017db17a039de2572023bbde90", null ],
-      [ "pr_utime", "d0/d34/procfs_8h.html#a2a780ed5dae8e0e08a979df5dcaed0af", null ]
+      [ "pr_stime", "d0/d34/procfs_8h.html#ac74d2dda38cd4c3f2f6e9a4ab58693e6", null ],
+      [ "pr_utime", "d0/d34/procfs_8h.html#adcabb40d4b2d3326695477ca1d5af669", null ]
     ] ],
     [ "elf_prpsinfo", "d0/d34/procfs_8h.html#d2/dbb/structelf__prpsinfo", [
       [ "pr_flag", "d0/d34/procfs_8h.html#aee9c18db6fa206cb93cb911cbade4867", null ],

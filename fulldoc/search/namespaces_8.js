@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['memory_50848',['Memory',['../d3/d97/namespaceMemory.html',1,'']]]
+  ['kernelconsole_31036',['KernelConsole',['../db/d1a/namespaceKernelConsole.html',1,'']]]
 ];

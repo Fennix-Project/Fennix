@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('d9/ded/arch_2sh_2bits_2ioctl_8h.html',
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ad96438c957bdce2bb26d58afec607178"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad96438c957bdce2bb26d58afec607178">_IOC</a>(a,  b,  <a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>,  d)&#160;&#160;&#160;( ((a)&lt;&lt;30) | ((b)&lt;&lt;8) | (<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>) | ((d)&lt;&lt;16) )</td></tr>
+<tr class="memitem:ad96438c957bdce2bb26d58afec607178"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad96438c957bdce2bb26d58afec607178">_IOC</a>(a,  b,  c,  d)&#160;&#160;&#160;( ((a)&lt;&lt;30) | ((b)&lt;&lt;8) | (c) | ((d)&lt;&lt;16) )</td></tr>
 <tr class="separator:ad96438c957bdce2bb26d58afec607178"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1d210f365965184f302aafe8048683f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ab1d210f365965184f302aafe8048683f">_IOC_NONE</a>&#160;&#160;&#160;0U</td></tr>
 <tr class="separator:ab1d210f365965184f302aafe8048683f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -106,11 +106,11 @@ Macros</h2></td></tr>
 <tr class="separator:a62be64962393fd793366f8e8385a2b3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9c5081aab350191c4822e27c0508f1f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad9c5081aab350191c4822e27c0508f1f">_IO</a>(a,  b)&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad96438c957bdce2bb26d58afec607178">_IOC</a>(<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ab1d210f365965184f302aafe8048683f">_IOC_NONE</a>,(a),(b),0)</td></tr>
 <tr class="separator:ad9c5081aab350191c4822e27c0508f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d2b85f80852f5ea026dcd14833d9022"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>(a,  b,  <a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>)&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad96438c957bdce2bb26d58afec607178">_IOC</a>(<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a3adf1cbacbfa58ea91eaa079b08d8e83">_IOC_WRITE</a>,(a),(b),sizeof(<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>))</td></tr>
+<tr class="memitem:a5d2b85f80852f5ea026dcd14833d9022"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>(a,  b,  c)&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad96438c957bdce2bb26d58afec607178">_IOC</a>(<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a3adf1cbacbfa58ea91eaa079b08d8e83">_IOC_WRITE</a>,(a),(b),sizeof(c))</td></tr>
 <tr class="separator:a5d2b85f80852f5ea026dcd14833d9022"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48bd95ac670a5eded8c5f2ac067f59d0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a48bd95ac670a5eded8c5f2ac067f59d0">_IOR</a>(a,  b,  <a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>)&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad96438c957bdce2bb26d58afec607178">_IOC</a>(<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a62be64962393fd793366f8e8385a2b3e">_IOC_READ</a>,(a),(b),sizeof(<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>))</td></tr>
+<tr class="memitem:a48bd95ac670a5eded8c5f2ac067f59d0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a48bd95ac670a5eded8c5f2ac067f59d0">_IOR</a>(a,  b,  c)&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad96438c957bdce2bb26d58afec607178">_IOC</a>(<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a62be64962393fd793366f8e8385a2b3e">_IOC_READ</a>,(a),(b),sizeof(c))</td></tr>
 <tr class="separator:a48bd95ac670a5eded8c5f2ac067f59d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aedd06feabbb4d35ac3eefd84f189dd09"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#aedd06feabbb4d35ac3eefd84f189dd09">_IOWR</a>(a,  b,  <a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>)&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad96438c957bdce2bb26d58afec607178">_IOC</a>(<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a62be64962393fd793366f8e8385a2b3e">_IOC_READ</a>|<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a3adf1cbacbfa58ea91eaa079b08d8e83">_IOC_WRITE</a>,(a),(b),sizeof(<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>))</td></tr>
+<tr class="memitem:aedd06feabbb4d35ac3eefd84f189dd09"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#aedd06feabbb4d35ac3eefd84f189dd09">_IOWR</a>(a,  b,  c)&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad96438c957bdce2bb26d58afec607178">_IOC</a>(<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a62be64962393fd793366f8e8385a2b3e">_IOC_READ</a>|<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a3adf1cbacbfa58ea91eaa079b08d8e83">_IOC_WRITE</a>,(a),(b),sizeof(c))</td></tr>
 <tr class="separator:aedd06feabbb4d35ac3eefd84f189dd09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cf2727d93ddf3cab3b4a659db150d41"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a0cf2727d93ddf3cab3b4a659db150d41">FIOCLEX</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad9c5081aab350191c4822e27c0508f1f">_IO</a>('<a class="el" href="../../d7/d06/getpwent_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>',  1)</td></tr>
 <tr class="separator:a0cf2727d93ddf3cab3b4a659db150d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,33 +126,33 @@ Macros</h2></td></tr>
 <tr class="separator:ad6548c2f81bf6e2679166b22d24784f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afac41aceea2ccc99dcb7052f9b743f11"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#afac41aceea2ccc99dcb7052f9b743f11">FIOQSIZE</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a48bd95ac670a5eded8c5f2ac067f59d0">_IOR</a>('<a class="el" href="../../d7/d06/getpwent_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>', 128, char[8])</td></tr>
 <tr class="separator:afac41aceea2ccc99dcb7052f9b743f11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1616db893530ec44fc172d29cc33daa5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a1616db893530ec44fc172d29cc33daa5">TCGETA</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a48bd95ac670a5eded8c5f2ac067f59d0">_IOR</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>', 23, char[18])</td></tr>
+<tr class="memitem:a1616db893530ec44fc172d29cc33daa5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a1616db893530ec44fc172d29cc33daa5">TCGETA</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a48bd95ac670a5eded8c5f2ac067f59d0">_IOR</a>('t', 23, char[18])</td></tr>
 <tr class="separator:a1616db893530ec44fc172d29cc33daa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a467ef2a8566209d4adbc4a228550429e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a467ef2a8566209d4adbc4a228550429e">TCSETA</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>', 24, char[18])</td></tr>
+<tr class="memitem:a467ef2a8566209d4adbc4a228550429e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a467ef2a8566209d4adbc4a228550429e">TCSETA</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('t', 24, char[18])</td></tr>
 <tr class="separator:a467ef2a8566209d4adbc4a228550429e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aead7b848642d946a0efa1048021b11c3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#aead7b848642d946a0efa1048021b11c3">TCSETAW</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>', 25, char[18])</td></tr>
+<tr class="memitem:aead7b848642d946a0efa1048021b11c3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#aead7b848642d946a0efa1048021b11c3">TCSETAW</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('t', 25, char[18])</td></tr>
 <tr class="separator:aead7b848642d946a0efa1048021b11c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5e29ebc2faafccb9c86dd269a890e23"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad5e29ebc2faafccb9c86dd269a890e23">TCSETAF</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>', 28, char[18])</td></tr>
+<tr class="memitem:ad5e29ebc2faafccb9c86dd269a890e23"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad5e29ebc2faafccb9c86dd269a890e23">TCSETAF</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('t', 28, char[18])</td></tr>
 <tr class="separator:ad5e29ebc2faafccb9c86dd269a890e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a026696704a79e05de0b175df47652e71"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a026696704a79e05de0b175df47652e71">TCSBRK</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad9c5081aab350191c4822e27c0508f1f">_IO</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>', 29)</td></tr>
+<tr class="memitem:a026696704a79e05de0b175df47652e71"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a026696704a79e05de0b175df47652e71">TCSBRK</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad9c5081aab350191c4822e27c0508f1f">_IO</a>('t', 29)</td></tr>
 <tr class="separator:a026696704a79e05de0b175df47652e71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0358090f054da10fe8de791230397ee4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a0358090f054da10fe8de791230397ee4">TCXONC</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad9c5081aab350191c4822e27c0508f1f">_IO</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>', 30)</td></tr>
+<tr class="memitem:a0358090f054da10fe8de791230397ee4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a0358090f054da10fe8de791230397ee4">TCXONC</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad9c5081aab350191c4822e27c0508f1f">_IO</a>('t', 30)</td></tr>
 <tr class="separator:a0358090f054da10fe8de791230397ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb10d65a540367ecd99480dab4dce082"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#abb10d65a540367ecd99480dab4dce082">TCFLSH</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad9c5081aab350191c4822e27c0508f1f">_IO</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>', 31)</td></tr>
+<tr class="memitem:abb10d65a540367ecd99480dab4dce082"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#abb10d65a540367ecd99480dab4dce082">TCFLSH</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad9c5081aab350191c4822e27c0508f1f">_IO</a>('t', 31)</td></tr>
 <tr class="separator:abb10d65a540367ecd99480dab4dce082"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4778247aa238f3d02d97ce6e8baaaec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#aa4778247aa238f3d02d97ce6e8baaaec">TIOCSWINSZ</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>', 103, char[8])</td></tr>
+<tr class="memitem:aa4778247aa238f3d02d97ce6e8baaaec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#aa4778247aa238f3d02d97ce6e8baaaec">TIOCSWINSZ</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('t', 103, char[8])</td></tr>
 <tr class="separator:aa4778247aa238f3d02d97ce6e8baaaec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36ef545c47ae4202e81e14efafdd64db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a36ef545c47ae4202e81e14efafdd64db">TIOCGWINSZ</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a48bd95ac670a5eded8c5f2ac067f59d0">_IOR</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>', 104, char[8])</td></tr>
+<tr class="memitem:a36ef545c47ae4202e81e14efafdd64db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a36ef545c47ae4202e81e14efafdd64db">TIOCGWINSZ</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a48bd95ac670a5eded8c5f2ac067f59d0">_IOR</a>('t', 104, char[8])</td></tr>
 <tr class="separator:a36ef545c47ae4202e81e14efafdd64db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d59fa331b7623fe0ef82ef0a7812599"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a6d59fa331b7623fe0ef82ef0a7812599">TIOCSTART</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad9c5081aab350191c4822e27c0508f1f">_IO</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>',  110)</td></tr>
+<tr class="memitem:a6d59fa331b7623fe0ef82ef0a7812599"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a6d59fa331b7623fe0ef82ef0a7812599">TIOCSTART</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad9c5081aab350191c4822e27c0508f1f">_IO</a>('t',  110)</td></tr>
 <tr class="separator:a6d59fa331b7623fe0ef82ef0a7812599"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca2a4a702cf605a34e01cc50dfba6cf5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#aca2a4a702cf605a34e01cc50dfba6cf5">TIOCSTOP</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad9c5081aab350191c4822e27c0508f1f">_IO</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>',  111)</td></tr>
+<tr class="memitem:aca2a4a702cf605a34e01cc50dfba6cf5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#aca2a4a702cf605a34e01cc50dfba6cf5">TIOCSTOP</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad9c5081aab350191c4822e27c0508f1f">_IO</a>('t',  111)</td></tr>
 <tr class="separator:aca2a4a702cf605a34e01cc50dfba6cf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d8aa4c95ca0e5ce1db22115b8593eb2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a8d8aa4c95ca0e5ce1db22115b8593eb2">TIOCOUTQ</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a48bd95ac670a5eded8c5f2ac067f59d0">_IOR</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>', 115, int)</td></tr>
+<tr class="memitem:a8d8aa4c95ca0e5ce1db22115b8593eb2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a8d8aa4c95ca0e5ce1db22115b8593eb2">TIOCOUTQ</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a48bd95ac670a5eded8c5f2ac067f59d0">_IOR</a>('t', 115, int)</td></tr>
 <tr class="separator:a8d8aa4c95ca0e5ce1db22115b8593eb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bac3310268b3480d529afac9bb5ca01"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a6bac3310268b3480d529afac9bb5ca01">TIOCSPGRP</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>', 118, int)</td></tr>
+<tr class="memitem:a6bac3310268b3480d529afac9bb5ca01"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a6bac3310268b3480d529afac9bb5ca01">TIOCSPGRP</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('t', 118, int)</td></tr>
 <tr class="separator:a6bac3310268b3480d529afac9bb5ca01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f51a92d18937be41ace117366b5fc1e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a6f51a92d18937be41ace117366b5fc1e">TIOCGPGRP</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a48bd95ac670a5eded8c5f2ac067f59d0">_IOR</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>', 119, int)</td></tr>
+<tr class="memitem:a6f51a92d18937be41ace117366b5fc1e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a6f51a92d18937be41ace117366b5fc1e">TIOCGPGRP</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a48bd95ac670a5eded8c5f2ac067f59d0">_IOR</a>('t', 119, int)</td></tr>
 <tr class="separator:a6f51a92d18937be41ace117366b5fc1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a567894a568861994414b041f246cc9ac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a567894a568861994414b041f246cc9ac">TIOCEXCL</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad9c5081aab350191c4822e27c0508f1f">_IO</a>('<a class="el" href="../../d6/d59/____tandf_8c.html#a3f23ef19f75a1358ade1d01a49060f77">T</a>', 12)</td></tr>
 <tr class="separator:a567894a568861994414b041f246cc9ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -282,11 +282,11 @@ Macros</h2></td></tr>
 <tr class="separator:a97c98b25aa7415ae5074fda481dd4af3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75dec78dcfd7423e4707e0f7b8e19910"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a75dec78dcfd7423e4707e0f7b8e19910">FIOSETOWN</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('<a class="el" href="../../d7/d06/getpwent_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>', 124, int)</td></tr>
 <tr class="separator:a75dec78dcfd7423e4707e0f7b8e19910"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d3de9033c4baa7dba2387516e4ba40f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a0d3de9033c4baa7dba2387516e4ba40f">SIOCATMARK</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a48bd95ac670a5eded8c5f2ac067f59d0">_IOR</a>('<a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>', 7, int)</td></tr>
+<tr class="memitem:a0d3de9033c4baa7dba2387516e4ba40f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a0d3de9033c4baa7dba2387516e4ba40f">SIOCATMARK</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a48bd95ac670a5eded8c5f2ac067f59d0">_IOR</a>('s', 7, int)</td></tr>
 <tr class="separator:a0d3de9033c4baa7dba2387516e4ba40f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74280c013508dfedf72e41dc5d76286d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a74280c013508dfedf72e41dc5d76286d">SIOCSPGRP</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('<a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>', 8, int)</td></tr>
+<tr class="memitem:a74280c013508dfedf72e41dc5d76286d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a74280c013508dfedf72e41dc5d76286d">SIOCSPGRP</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('s', 8, int)</td></tr>
 <tr class="separator:a74280c013508dfedf72e41dc5d76286d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9c11d42ec649648d4ebccf162cd18c4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ab9c11d42ec649648d4ebccf162cd18c4">SIOCGPGRP</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('<a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>', 9, int)</td></tr>
+<tr class="memitem:ab9c11d42ec649648d4ebccf162cd18c4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ab9c11d42ec649648d4ebccf162cd18c4">SIOCGPGRP</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('s', 9, int)</td></tr>
 <tr class="separator:ab9c11d42ec649648d4ebccf162cd18c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a05b05f303c19c7f5eed949631070f0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a3a05b05f303c19c7f5eed949631070f0">SIOCGSTAMP</a>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a48bd95ac670a5eded8c5f2ac067f59d0">_IOR</a>(0x89, 6, char[16])</td></tr>
 <tr class="separator:a3a05b05f303c19c7f5eed949631070f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -346,7 +346,7 @@ Macros</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>, </td>
+          <td class="paramname">c, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -357,7 +357,7 @@ Macros</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;( ((a)&lt;&lt;30) | ((b)&lt;&lt;8) | (<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>) | ((d)&lt;&lt;16) )</td>
+          <td></td><td>&#160;&#160;&#160;( ((a)&lt;&lt;30) | ((b)&lt;&lt;8) | (c) | ((d)&lt;&lt;16) )</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -436,12 +436,12 @@ Macros</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>&#160;</td>
+          <td class="paramname">c&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad96438c957bdce2bb26d58afec607178">_IOC</a>(<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a62be64962393fd793366f8e8385a2b3e">_IOC_READ</a>,(a),(b),sizeof(<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>))</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad96438c957bdce2bb26d58afec607178">_IOC</a>(<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a62be64962393fd793366f8e8385a2b3e">_IOC_READ</a>,(a),(b),sizeof(c))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -472,12 +472,12 @@ Macros</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>&#160;</td>
+          <td class="paramname">c&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad96438c957bdce2bb26d58afec607178">_IOC</a>(<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a3adf1cbacbfa58ea91eaa079b08d8e83">_IOC_WRITE</a>,(a),(b),sizeof(<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>))</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad96438c957bdce2bb26d58afec607178">_IOC</a>(<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a3adf1cbacbfa58ea91eaa079b08d8e83">_IOC_WRITE</a>,(a),(b),sizeof(c))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -508,12 +508,12 @@ Macros</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>&#160;</td>
+          <td class="paramname">c&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad96438c957bdce2bb26d58afec607178">_IOC</a>(<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a62be64962393fd793366f8e8385a2b3e">_IOC_READ</a>|<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a3adf1cbacbfa58ea91eaa079b08d8e83">_IOC_WRITE</a>,(a),(b),sizeof(<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>))</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad96438c957bdce2bb26d58afec607178">_IOC</a>(<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a62be64962393fd793366f8e8385a2b3e">_IOC_READ</a>|<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a3adf1cbacbfa58ea91eaa079b08d8e83">_IOC_WRITE</a>,(a),(b),sizeof(c))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -657,7 +657,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SIOCATMARK&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a48bd95ac670a5eded8c5f2ac067f59d0">_IOR</a>('<a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>', 7, int)</td>
+          <td class="memname">#define SIOCATMARK&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a48bd95ac670a5eded8c5f2ac067f59d0">_IOR</a>('s', 7, int)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -673,7 +673,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SIOCGPGRP&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('<a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>', 9, int)</td>
+          <td class="memname">#define SIOCGPGRP&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('s', 9, int)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -721,7 +721,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define SIOCSPGRP&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('<a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>', 8, int)</td>
+          <td class="memname">#define SIOCSPGRP&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('s', 8, int)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -737,7 +737,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TCFLSH&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad9c5081aab350191c4822e27c0508f1f">_IO</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>', 31)</td>
+          <td class="memname">#define TCFLSH&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad9c5081aab350191c4822e27c0508f1f">_IO</a>('t', 31)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -753,7 +753,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TCGETA&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a48bd95ac670a5eded8c5f2ac067f59d0">_IOR</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>', 23, char[18])</td>
+          <td class="memname">#define TCGETA&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a48bd95ac670a5eded8c5f2ac067f59d0">_IOR</a>('t', 23, char[18])</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -785,7 +785,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TCSBRK&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad9c5081aab350191c4822e27c0508f1f">_IO</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>', 29)</td>
+          <td class="memname">#define TCSBRK&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad9c5081aab350191c4822e27c0508f1f">_IO</a>('t', 29)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -817,7 +817,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TCSETA&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>', 24, char[18])</td>
+          <td class="memname">#define TCSETA&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('t', 24, char[18])</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -833,7 +833,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TCSETAF&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>', 28, char[18])</td>
+          <td class="memname">#define TCSETAF&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('t', 28, char[18])</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -849,7 +849,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TCSETAW&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>', 25, char[18])</td>
+          <td class="memname">#define TCSETAW&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('t', 25, char[18])</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -913,7 +913,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TCXONC&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad9c5081aab350191c4822e27c0508f1f">_IO</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>', 30)</td>
+          <td class="memname">#define TCXONC&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad9c5081aab350191c4822e27c0508f1f">_IO</a>('t', 30)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1057,7 +1057,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TIOCGPGRP&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a48bd95ac670a5eded8c5f2ac067f59d0">_IOR</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>', 119, int)</td>
+          <td class="memname">#define TIOCGPGRP&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a48bd95ac670a5eded8c5f2ac067f59d0">_IOR</a>('t', 119, int)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1201,7 +1201,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TIOCGWINSZ&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a48bd95ac670a5eded8c5f2ac067f59d0">_IOR</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>', 104, char[8])</td>
+          <td class="memname">#define TIOCGWINSZ&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a48bd95ac670a5eded8c5f2ac067f59d0">_IOR</a>('t', 104, char[8])</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1585,7 +1585,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TIOCOUTQ&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a48bd95ac670a5eded8c5f2ac067f59d0">_IOR</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>', 115, int)</td>
+          <td class="memname">#define TIOCOUTQ&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a48bd95ac670a5eded8c5f2ac067f59d0">_IOR</a>('t', 115, int)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1809,7 +1809,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TIOCSPGRP&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>', 118, int)</td>
+          <td class="memname">#define TIOCSPGRP&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('t', 118, int)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1889,7 +1889,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TIOCSTART&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad9c5081aab350191c4822e27c0508f1f">_IO</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>',  110)</td>
+          <td class="memname">#define TIOCSTART&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad9c5081aab350191c4822e27c0508f1f">_IO</a>('t',  110)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1921,7 +1921,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TIOCSTOP&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad9c5081aab350191c4822e27c0508f1f">_IO</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>',  111)</td>
+          <td class="memname">#define TIOCSTOP&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#ad9c5081aab350191c4822e27c0508f1f">_IO</a>('t',  111)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1937,7 +1937,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TIOCSWINSZ&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>', 103, char[8])</td>
+          <td class="memname">#define TIOCSWINSZ&#160;&#160;&#160;<a class="el" href="../../d9/ded/arch_2sh_2bits_2ioctl_8h.html#a5d2b85f80852f5ea026dcd14833d9022">_IOW</a>('t', 103, char[8])</td>
         </tr>
       </table>
 </div><div class="memdoc">

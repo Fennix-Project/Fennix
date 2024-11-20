@@ -111,8 +111,8 @@ $(document).ready(function(){initNavTree('dd/d2a/md_Kernel_TODO.html','../../');
 <li>[ ] Rework the stack guard.</li>
 <li>[x] Mutex implementation.</li>
 <li>[ ] Update <a class="el" href="../../da/d5f/namespaceSMBIOS.html">SMBIOS</a> functions to support newer versions and actually use it.</li>
-<li>[ ] COW (Copy On Write) for the virtual memory. (<a href="https://en.wikipedia.org/wiki/Copy-on-write">https://en.wikipedia.org/wiki/Copy-on-write</a>)</li>
-<li>[ ] Implement lazy allocation. (page faults)</li>
+<li>[x] COW (Copy On Write) for the virtual memory. (<a href="https://en.wikipedia.org/wiki/Copy-on-write">https://en.wikipedia.org/wiki/Copy-on-write</a>)</li>
+<li>[x] Implement lazy allocation. (page faults)</li>
 <li>[ ] Bootstrap should have a separate bss section + PHDR.</li>
 <li>[ ] Reimplement the driver conflict detection.</li>
 <li>[x] Elf loader shouldn't create a full copy of the elf binary. Copy only the needed sections.</li>
@@ -129,14 +129,18 @@ $(document).ready(function(){initNavTree('dd/d2a/md_Kernel_TODO.html','../../');
 <li>On real hardware it's very slow, a solution is dirty printing.</li>
 </ul>
 </li>
-<li>[ ] Thread ids should follow the POSIX standard.<ul>
+<li>[x] Thread ids should follow the POSIX standard.<ul>
 <li>When a new process is created, the first thread should have the same id as the process id.</li>
 <li>If pid is 400, the first thread should have the id 400. The second thread should have the id 401, etc.</li>
 </ul>
 </li>
 <li>[ ] Optimize the scheduler<ul>
 <li>Create a separate list for processes that are waiting for a resource or a signal, etc.</li>
-<li>Use all cores to schedule threads. </li>
+<li>Use all cores to schedule threads.</li>
+</ul>
+</li>
+<li>[x] Improve Remap() function.<ul>
+<li>Remove Unmap &amp; Map logic. Remove all flags directly. </li>
 </ul>
 </li>
 </ul>

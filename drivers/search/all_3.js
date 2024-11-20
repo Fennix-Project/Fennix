@@ -1,15 +1,19 @@
 var searchData=
 [
-  ['cachelinesize_40',['CacheLineSize',['../d9/d97/pci_8h.html#a5203ccd0486a21671341f4bb00c89b4b',1,'__attribute__']]],
-  ['capabilitiespointer_41',['CapabilitiesPointer',['../d9/d97/pci_8h.html#a565e69897ebdab337c2c16941cfdf367',1,'__attribute__']]],
-  ['cardbusbusnumber_42',['CardbusBusNumber',['../d9/d97/pci_8h.html#a4faa20cb71d58e436b288f5ed0c7ec3e',1,'__attribute__']]],
-  ['cardbuscispointer_43',['CardbusCISPointer',['../d9/d97/pci_8h.html#a7b43c1b116e3476c2fcb53965149c74d',1,'__attribute__']]],
-  ['cardbuslatencytimer_44',['CardbusLatencyTimer',['../d9/d97/pci_8h.html#a33d7921c39e7383cbb67c6294a43c935',1,'__attribute__']]],
-  ['cardbussocketregistersbaseaddress_45',['CardbusSocketRegistersBaseAddress',['../d9/d97/pci_8h.html#a8d571620f57f70ce64fd15752fe9ac99',1,'__attribute__']]],
-  ['class_46',['Class',['../d9/d97/pci_8h.html#a10dff2b27b0c182ac0428796e1ab083d',1,'__attribute__']]],
-  ['command_47',['Command',['../d9/d97/pci_8h.html#af7007d29612482dce21e79e4db0fd2b8',1,'__attribute__']]],
-  ['config_48',['Config',['../d9/d97/pci_8h.html#aae7dbeb87dc97e9e2b3befb18fe075af',1,'__attribute__']]],
-  ['createkernelprocess_49',['CreateKernelProcess',['../dc/dec/struct____driverAPI.html#abcc4a0379f25494c323f92e15390b0ff',1,'__driverAPI::CreateKernelProcess()'],['../d3/d5a/base_8h.html#a737c6ea529f1dcfec482fda5ec758eb1',1,'CreateKernelProcess():&#160;base.h']]],
-  ['createkernelthread_50',['CreateKernelThread',['../dc/dec/struct____driverAPI.html#a23972fdf58011687d79e56e169334fe7',1,'__driverAPI::CreateKernelThread()'],['../d3/d5a/base_8h.html#a4de1ed77e3d77cbd6305c40a3ace0911',1,'CreateKernelThread(pid_t pId, const char *Name, void *EntryPoint, void *Argument):&#160;base.h']]],
-  ['criticalstate_51',['CriticalState',['../d3/d5a/base_8h.html#a0b8ef3c5dc4cbcd16fb5a3dbd7de83f4',1,'base.h']]]
+  ['cachelinesize_98',['CacheLineSize',['../d9/d97/pci_8h.html#a5203ccd0486a21671341f4bb00c89b4b',1,'__attribute__']]],
+  ['capabilitiespointer_99',['CapabilitiesPointer',['../d9/d97/pci_8h.html#a565e69897ebdab337c2c16941cfdf367',1,'__attribute__']]],
+  ['cardbusbusnumber_100',['CardbusBusNumber',['../d9/d97/pci_8h.html#a4faa20cb71d58e436b288f5ed0c7ec3e',1,'__attribute__']]],
+  ['cardbuscispointer_101',['CardbusCISPointer',['../d9/d97/pci_8h.html#a7b43c1b116e3476c2fcb53965149c74d',1,'__attribute__']]],
+  ['cardbuslatencytimer_102',['CardbusLatencyTimer',['../d9/d97/pci_8h.html#a33d7921c39e7383cbb67c6294a43c935',1,'__attribute__']]],
+  ['cardbussocketregistersbaseaddress_103',['CardbusSocketRegistersBaseAddress',['../d9/d97/pci_8h.html#a8d571620f57f70ce64fd15752fe9ac99',1,'__attribute__']]],
+  ['changetime_104',['ChangeTime',['../df/d26/fs_8h.html#a3d80694a7ef662e6e37ef68a5490f6ae',1,'kstat']]],
+  ['character_105',['Character',['../de/ded/input_8h.html#a3c7b23790a7fff8622f8552c7bd1b2f5',1,'KeyboardReport']]],
+  ['class_106',['Class',['../d9/d97/pci_8h.html#a10dff2b27b0c182ac0428796e1ab083d',1,'__attribute__']]],
+  ['close_107',['Close',['../db/de6/structInodeOperations.html#ab9c62336bdce356caa7d165b86371e7f',1,'InodeOperations::Close()'],['../df/d26/fs_8h.html#a00f03806ee4724ff3e44372909ab378b',1,'Close():&#160;fs.h']]],
+  ['command_108',['Command',['../d9/d97/pci_8h.html#af7007d29612482dce21e79e4db0fd2b8',1,'__attribute__']]],
+  ['config_109',['Config',['../d9/d97/pci_8h.html#aae7dbeb87dc97e9e2b3befb18fe075af',1,'__attribute__']]],
+  ['create_110',['Create',['../db/de6/structInodeOperations.html#abed9ba869733a00a02a41a3ea9765bda',1,'InodeOperations::Create()'],['../df/d26/fs_8h.html#a2e6d2e5dc031b51fc6f466515b4d3b3e',1,'Create():&#160;fs.h']]],
+  ['createkernelprocess_111',['CreateKernelProcess',['../d3/d5a/base_8h.html#a737c6ea529f1dcfec482fda5ec758eb1',1,'base.h']]],
+  ['createkernelthread_112',['CreateKernelThread',['../d3/d5a/base_8h.html#a4de1ed77e3d77cbd6305c40a3ace0911',1,'base.h']]],
+  ['criticalstate_113',['CriticalState',['../d3/d5a/base_8h.html#a0b8ef3c5dc4cbcd16fb5a3dbd7de83f4',1,'base.h']]]
 ];

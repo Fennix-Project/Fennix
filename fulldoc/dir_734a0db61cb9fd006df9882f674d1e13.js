@@ -112,6 +112,6 @@ var dir_734a0db61cb9fd006df9882f674d1e13 =
         [ "f_type", "d0/d7d/arch_2x32_2bits_2statfs_8h.html#a6388679461d4c95356299a8d74bd9988", null ]
       ] ]
     ] ],
-    [ "termios.h", "d3/de9/arch_2generic_2bits_2termios_8h.html", "d3/de9/arch_2generic_2bits_2termios_8h" ],
+    [ "termios.h", "d5/dff/Userspace_2musl_2arch_2generic_2bits_2termios_8h.html", "d5/dff/Userspace_2musl_2arch_2generic_2bits_2termios_8h" ],
     [ "vt.h", "d2/db7/arch_2generic_2bits_2vt_8h.html", null ]
 ];

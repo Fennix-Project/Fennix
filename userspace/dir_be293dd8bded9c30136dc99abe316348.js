@@ -18,7 +18,7 @@ var dir_be293dd8bded9c30136dc99abe316348 =
     [ "x86_64", "dir_6b8a403a7fbceed7156da45f2785351c.html", "dir_6b8a403a7fbceed7156da45f2785351c" ],
     [ "block.c", "d3/d1c/block_8c.html", "d3/d1c/block_8c" ],
     [ "getitimer.c", "d2/d68/getitimer_8c.html", "d2/d68/getitimer_8c" ],
-    [ "kill.c", "d8/da5/musl_2src_2signal_2kill_8c.html", "d8/da5/musl_2src_2signal_2kill_8c" ],
+    [ "kill.c", "d2/d1d/kill_8c.html", "d2/d1d/kill_8c" ],
     [ "killpg.c", "d8/d73/killpg_8c.html", "d8/d73/killpg_8c" ],
     [ "psiginfo.c", "d3/df8/psiginfo_8c.html", "d3/df8/psiginfo_8c" ],
     [ "psignal.c", "d9/deb/psignal_8c.html", "d9/deb/psignal_8c" ],

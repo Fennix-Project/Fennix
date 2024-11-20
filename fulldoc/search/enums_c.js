@@ -1,14 +1,9 @@
 var searchData=
 [
-  ['maptype_75515',['MapType',['../db/d82/classMemory_1_1Virtual.html#a9e29f63949580033d08000bcf75e6867',1,'Memory::Virtual']]],
-  ['mem_5frel_5ft_75516',['mem_rel_t',['../db/dd7/memio_8h.html#a994115c838996d1160e859abea5db3ec',1,'memio.h']]],
-  ['memfile_5fmode_5ft_75517',['memfile_mode_t',['../d3/d55/memio_8c.html#a13704cf565ae42495bc522f21dd17573',1,'memio.c']]],
-  ['memory_5forder_75518',['memory_order',['../d6/d07/stdatomic_8h.html#a17c2de5ae768960284c047a320f17d1b',1,'stdatomic.h']]],
-  ['memorytype_75519',['MemoryType',['../d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01',1,'binfo.h']]],
-  ['midievent_75520',['midievent',['../d7/dbe/mus2mid_8c.html#a61d9cd7694627b0a8deb5ecbdf443aab',1,'mus2mid.c']]],
-  ['mobjflag_5ft_75521',['mobjflag_t',['../df/d05/p__mobj_8h.html#ae37ec392724acd5928ddef02e4a372f7',1,'p_mobj.h']]],
-  ['mobjtype_5ft_75522',['mobjtype_t',['../d4/d21/info_8h.html#a2f6c6c60c0362e9ea1cf7ffe4d1ccfbd',1,'info.h']]],
-  ['msrid_75523',['MSRID',['../de/d78/namespaceCPU_1_1x32.html#a6c41656dc4a6f098c79385cfedda7ff6',1,'CPU::x32::MSRID()'],['../d9/d25/namespaceCPU_1_1x64.html#a54d16e130528efcdb696a7571814f3bd',1,'CPU::x64::MSRID()']]],
-  ['musevent_75524',['musevent',['../d7/dbe/mus2mid_8c.html#a5b590153d23aef6533c8aef509b7a878',1,'mus2mid.c']]],
-  ['musicenum_5ft_75525',['musicenum_t',['../dc/ddc/sounds_8h.html#a78ab782fb72b1d992df5d30bf7270fa3',1,'sounds.h']]]
+  ['nativeaudiobusmasterboxoffsets_44087',['NativeAudioBusMasterBoxOffsets',['../d0/daf/ac97_8cpp.html#ac7ce8f584ec0be1f6e480513759a4e47',1,'ac97.cpp']]],
+  ['nativeaudiobusmasterregisters_44088',['NativeAudioBusMasterRegisters',['../d0/daf/ac97_8cpp.html#a6453e553886973316b0ccc2e0e187dc3',1,'ac97.cpp']]],
+  ['nativeaudiomixerregisters_44089',['NativeAudioMixerRegisters',['../d0/daf/ac97_8cpp.html#a8fb41d42153193a3cae8085273077458',1,'ac97.cpp']]],
+  ['net_5fmaster_5fpacket_5ftype_5ft_44090',['net_master_packet_type_t',['../d1/d3f/net__defs_8h.html#af31c09fb787a1bead7b56a5286ef5936',1,'net_defs.h']]],
+  ['net_5fpacket_5ftype_5ft_44091',['net_packet_type_t',['../d1/d3f/net__defs_8h.html#a13e6d730c706c7e785da4540a5f04cb1',1,'net_defs.h']]],
+  ['netioctl_44092',['NetIoctl',['../d6/d91/Kernel_2include_2interface_2driver_8h.html#a883d45f645482196fd8e144d87ef0ce6',1,'NetIoctl():&#160;driver.h'],['../df/d99/Drivers_2include_2driver_8h.html#a883d45f645482196fd8e144d87ef0ce6',1,'NetIoctl():&#160;driver.h']]]
 ];

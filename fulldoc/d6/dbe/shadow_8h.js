@@ -7,8 +7,8 @@ var shadow_8h =
       [ "sp_lstchg", "d6/dbe/shadow_8h.html#ae3564a7bf433e6fb8812248d60721e8d", null ],
       [ "sp_max", "d6/dbe/shadow_8h.html#ac464df46d4997a1b00d4773901d74523", null ],
       [ "sp_min", "d6/dbe/shadow_8h.html#a71926d1687f221eed7ff632f9ee4ca5f", null ],
-      [ "sp_namp", "d6/dbe/shadow_8h.html#a5bc3290672f44f97ca62beacf937c68f", null ],
-      [ "sp_pwdp", "d6/dbe/shadow_8h.html#a222380cd4b21aa6a39245273ddf116dc", null ],
+      [ "sp_namp", "d6/dbe/shadow_8h.html#a9d2d6c0ad22d39e62f6807f3ea58a96c", null ],
+      [ "sp_pwdp", "d6/dbe/shadow_8h.html#a1ec6527342c4cb4756636e017df2266e", null ],
       [ "sp_warn", "d6/dbe/shadow_8h.html#a82d1108b19afd53a77a47bcc8353210b", null ]
     ] ],
     [ "__NEED_FILE", "d6/dbe/shadow_8h.html#a389aefcd6d8a21b0652175ab86fdd9e1", null ],

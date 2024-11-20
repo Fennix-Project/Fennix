@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['kernel_17705',['Kernel',['../da/dc9/md_Kernel_README.html',1,'']]]
+  ['license_19132',['LICENSE',['../d8/d26/md_Kernel_LICENSE.html',1,'']]],
+  ['licenses_20in_20the_20project_19133',['Licenses in the project',['../d5/d98/md_Kernel_LICENSES.html',1,'']]]
 ];
